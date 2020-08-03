@@ -520,6 +520,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/kcalcrc",
 				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
 				"/home/d3sk3r/pavolume/pavolume",
@@ -646,8 +647,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb enchanced.txt",
 				"/home/d3sk3r/MEGA/FATEC/Redes/OSI.txt",
 				"/home/d3sk3r/sc.html",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/permanent adb (no-root).txt",
-				"/home/d3sk3r/WhatsApp-Key-DB-Extractor-master/WhatsAppKeyDBExtract.sh"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/permanent adb (no-root).txt"
 			],
 			"find":
 			{
@@ -764,7 +764,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,6,402,672,758,2726,768",
+			"position": "0,0,0,0,0,684,34,1350,758,2726,768",
 			"project": "",
 			"replace":
 			{

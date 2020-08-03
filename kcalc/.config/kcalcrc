@@ -1,0 +1,19 @@
+[Colors]
+BackColor=27,29,30
+ForeColor=255,255,255
+FunctionButtonsColor=27,29,30
+FunctionFontsColor=0,204,255
+HexButtonsColor=27,29,30
+HexFontsColor=255,255,255
+MemoryButtonsColor=27,29,30
+MemoryFontsColor=0,204,255
+NumberButtonsColor=27,29,30
+NumberFontsColor=255,255,255
+OperationButtonsColor=26,26,26
+OperationFontsColor=0,204,255
+StatButtonsColor=27,29,30
+StatFontsColor=0,204,255
+
+[Font]
+ButtonFont=DejaVu Sans Mono,13,-1,5,50,0,0,0,0,0
+DisplayFont=DejaVu Sans Mono,14,-1,5,75,0,0,0,0,0,Bold
