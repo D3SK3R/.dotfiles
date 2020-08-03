@@ -58,10 +58,10 @@ for_window 		[title="floating_urxvt"] floating enable sticky enable
 for_window		[title="floating_urxvt"] move to position 400 60
 
 # For dual monitor:
-#exec --no-startup-id alacritty
-#for_window 		[title="Alacritty"] move to position 1738 64
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
+#exec --no-startup-id alacritty
+#for_window 	[title="Alacritty"] move to position 1738 64
 #for_window 	[class="Alacritty"] resize set 515 356
 #for_window 	[class="Alacritty"] border none
 
@@ -82,16 +82,21 @@ bindsym F4      [title="Picture in picture"] scratchpad show
 for_window      [title="Picture in picture"] floating enable sticky enable
 for_window      [title="Picture in picture"] move scratchpad
 
+# Dropdown discord
+bindsym $mod+Shift+d    [class="discord"] scratchpad show
+for_window              [class="discord"] floating enable sticky enable
+for_window              [class="discord"] move scratchpad
+
 
 ################################################################################################
-#######################################  KEYBINDINGS   #############################################
+#######################################  KEYBINDINGS   #########################################
 ################################################################################################
 # Start a terminal
 bindsym $mod+Return 	                   		$exec urxvtc
 
 #bindsym $mod+Shift+Return 	                   	$exec alacritty
 # Launch NetworkManager GUI
-#bindsym $mod+w                                  $exec networkmanager_dmenu
+#bindsym $mod+w                                 $exec networkmanager_dmenu
 bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
 # Launch Chrome
 bindsym $mod+g 									exec --no-startup-id google-chrome-stable --force-dark-mode
@@ -395,7 +400,7 @@ floating_modifier $mod
 
 ## AUTOSTART STUFF
 # Discord
-# detterdiscord
+# betterdiscord
 exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
 #exec --no-startup-id discord
 # urxvt daemon
@@ -410,6 +415,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id megasync
 # Touchpad Gestures
 exec --no-startup-id libinput-gestures-setup restart
+# imwheel to control mouse scroll speed
+$exec imwheel
 # Albert Search
 exec --no-startup-id albert
 # Dunst notification

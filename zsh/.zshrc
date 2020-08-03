@@ -249,7 +249,7 @@ export LESS=-r
 #			/_/    \_\_|_|\__,_|___/\___||___/				  #
 ############################################################### 
 
-# Basic terminal commands, stock and added from others' configs #
+#                     Basic terminal commands                   #
 #################################################################
 alias cd='f(){ cd "$@" ;ls;  unset -f f; }; f'
 # alias ls='ls -CF --color=always'
@@ -293,6 +293,7 @@ alias rpolybar='sh ~/.config/polybar/launch.sh'
 alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
 alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
+alias mousepos='eval $(xdotool getmouselocation --shell);echo "$X""x""$Y"'
 
 # Pacman
 #################################################################
