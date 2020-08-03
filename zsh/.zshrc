@@ -290,10 +290,9 @@ alias xdg='xdg-open'
 alias disk='lsblk'
 alias du='dust'
 alias rpolybar='sh ~/.config/polybar/launch.sh'
-alias dotfiles='sh ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh'
-alias stow='cd ~/.adotfiles;stow -vt ~'
+alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
-alias adotfiles='cd ~/.adotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
+alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
 
 # Pacman
 #################################################################
