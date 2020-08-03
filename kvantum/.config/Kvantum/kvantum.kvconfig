@@ -1,0 +1,7 @@
+[General]
+theme=Fluent-Dark
+
+[Applications]
+Default=VirtualBoxManager, Virtualbox, virtualbox, PKHeX, mpv, gl
+Fluent-Dark=VirtualBoxManager, Virtualbox, virtualbox, PKHeX, mpv, gl, wps, Wps
+Sweet=virtualbox, VirtualBox, VirtualBoxManager

@@ -1,0 +1,20 @@
+{
+   "DPvhA/gi5ies9DhWoTl7kP+a5yXdZ3LF3GoJrrmMd/E=": {
+      "expiry": 1626926114.09849,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1595390114.098497
+   },
+   "bvX4PpTCW5oYCQv3FySIixdkmM+paN/l+o4e/8K1m3o=": {
+      "expiry": 1626926116.175198,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1595390116.175203
+   },
+   "heW9r7i3mo2uASrmcUvgitYS4E+lnc+urLvIwh9scEw=": {
+      "expiry": 1626926114.067742,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1595390114.067752
+   }
+}

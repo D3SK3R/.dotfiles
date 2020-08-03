@@ -1,0 +1,864 @@
+; vim:ft=dosini
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   Created By Aditya Shakya.
+;
+;==========================================================
+
+[color]
+
+trans = #00000000
+transparent = #00000000
+white = #FFFFFF
+;white = #ECEFF4
+black = #000000
+
+;Transparency: (first 2 digits before 000000)
+;100% — FF
+;90% — E6
+;80% — CC
+;75% — BF
+;70% — B3
+;60% — 99
+;50% — 80
+;40% — 66
+;30% — 4D
+;20% — 33
+;10% — 1A
+;0% — 00
+
+bg = #00000000
+;bg = #65000000
+fg = #FFFFFF
+fg-alt = #A9ABB0
+
+urgent = #EF5350
+occupied = #42A5F5
+
+shade1 = #006064
+shade2 = #00838F
+shade3 = #0097A7
+shade4 = #00ACC1
+shade5 = #00BCD4
+shade6 = #26C6DA
+shade7 = #4DD0E1
+shade8 = #80DEEA
+ashade8 = #2C2C2C
+
+## Material Colors
+
+red = #e53935
+pink = #d81b60
+purple = #8e24aa
+deep-purple = #5e35b1
+indigo = #3949ab
+blue = #1e88e5
+light-blue = #039be5
+cyan = #00acc1
+teal = #00897b
+green = #43a047
+light-green = #7cb342
+lime = #c0ca33
+yellow = #fdd835
+amber = #ffb300
+orange = #fb8c00
+deep-orange = #f4511e
+brown = #6d4c41
+gray = #181B28
+gray1 = #0E151B
+gray2 = #161925
+gray3 = #1A1A1A
+blue-gray = #546e7a
+
+;==========================================================
+
+enable-ipc = true
+
+[bar/main]
+width = 100%
+;height = 32
+height = 22
+radius = 5
+bottom = false
+fixed-center = true
+line-size = 
+
+offset-y = 0
+offset-x = 0
+
+monitor = ${env:MONITOR:}
+
+border-size = 4
+border-color = ${color.transparent}
+border-bottom-size = 2
+border-bottom-color = ${color.transparent}
+
+background = ${color.bg}
+foreground = ${color.fg}
+
+; Make polybar override (stay above them) windows
+override-redirect = false
+
+;==========================================================
+
+font-0 = "Fantasque Sans Mono:pixelsize=9;3"
+font-1 = "Iosevka Nerd Font:pixelsize=13;3"
+font-2 = "MaterialIcons:size=10:antialias=false;5"
+font-3 = "icomoon-extended-ultra:size=10:antialias=false;5"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
+font-5 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
+font-6 = "Font Awesome 5 Brands:pixelsize=10;3"
+font-separator ="Fantasque Sans Mono:pixelsize=10;5"
+#font-2 = Weather Icons:size=12;1
+
+;==========================================================
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+;== Module Location ========================================================
+; Default:
+;modules-left = arch workspaces google github reddit facebook youtube
+;modules-right = mpd volume battery date powermenu
+
+;modules-left = arrow_l1 arrow_l2 workspaces arrow_l3 mpd arrow_l42 arrow_lend
+;modules-center = arrow_m11 arrow_m1 middle0 middle0 middle0 middle0 middle0 middle0 ;middle0 middle0 middle0 middle0 middle0 middle0 arrow_m2 arrow_m22
+;modules-right = arrow_rend arrow_r42 cpu arrow_r5 ram arrow_r4 pavolume arrow_r3 battery arrow_r2 openweather arrow_r1 popup-calendar arrow_rr3 arrow_rr4
+
+modules-left = workspaces i3 mpd
+modules-center =
+modules-right = network_wlan0 network_eth0 cpu ram pavolume battery openweather popup-calendar 
+
+;left - center - right - none
+tray-position = center
+;tray-transparent = false
+tray-background = ${color.bg}
+tray-foreground = ${color.fg}
+tray-padding = 2
+tray-scale = 1.0
+;tray-maxsize = 15
+;tray-offset-x = 2%
+;tray-offset-y = 2%
+tray_output primary
+# "xrandr | grep -Ew 'connected'" to see all connected display names
+;tray_output {display_name, e.g.: eDP1}
+;tray-detached = false
+
+;== Modules ========================================================
+
+[module/sep]
+type = custom/text
+content = " | "
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/blank]
+type = custom/text
+content = "        "
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.bg}
+
+; MIDDLE --------
+
+[module/middle0]
+type = custom/text
+content = "◥"
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.bg}
+
+[module/arrow_m1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg} 
+content-background = ${color.fg}
+
+[module/arrow_m2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.fg}
+
+[module/arrow_m11]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg} 
+content-background = ${color.trans}
+
+[module/arrow_m22]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.trans}
+
+[module/arrow_lend]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.trans}
+
+[module/arrow_rend]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg} 
+content-background = ${color.trans}
+
+; LEFT --------
+[module/arrow_l1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = #181B28
+content-background = ${color.fg}
+
+[module/arrow_l2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/arrow_l3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_l42]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.fg}
+
+; RIGHT ---------
+[module/arrow_r1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_r2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.black}
+
+[module/arrow_r3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_r4]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.black}
+
+[module/arrow_r5]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_rr3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/arrow_rr4]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = #181B28
+content-background = ${color.fg}
+
+[module/arrow_r42]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg} 
+content-background = ${color.fg}
+
+[module/arch]
+type = custom/text
+content = 
+;alt icons = 
+content-padding = 2
+content-background = ${color.shade1}
+content-foreground = ${color.fg}
+;click-left = rmenu_1
+;click-right = rmenu_wi_1
+click-left = rofi -modi run,drun,window -show drun -location 1 -yoffset 60 -xoffset 28 -line-padding 4 -columns 1 -width 25 -lines 10 -padding 25 -hide-scrollbar -show-icons -drun-icon-theme "Papirus" -font "Fantasque Sans Mono 10"
+click-right = rofi -modi run,drun,window -lines 10 -padding 20 -width 50 -location 1 -yoffset 60 -xoffset 28 -show drun -sidebar-mode -columns 3 -font "Fantasque Sans Mono 10"
+
+[module/workspaces]
+type = internal/xworkspaces
+
+; Only show workspaces defined on the same output as the bar
+;
+; Useful if you want to show monitor specific workspaces
+; on different bars
+;
+; Default: false
+pin-workspaces = true
+enable-click = true
+enable-scroll = true
+format-padding = 1
+
+;icon-0 = 1;❶
+;icon-1 = 2;❷
+;icon-2 = 3;❸
+;icon-3 = 4;❹
+;icon-4 = 5;❺
+;icon-5 = 6;❻
+;icon-6 = 7;❼
+;icon-7 = 8;❽
+;icon-8 = 9;❾
+;icon-9 = 10;❿
+
+icon-default = 
+
+format = <label-state>
+format-background = ${color.bg}
+label-active = ""
+label-occupied = ""
+label-urgent = ""
+label-empty = ""
+
+label-empty-padding = 1
+label-active-padding = 1
+label-urgent-padding = 1
+label-occupied-padding = 1
+
+label-empty-foreground = ${color.fg}
+label-active-foreground = ${color.fg}
+label-urgent-foreground = ${color.urgent}
+label-occupied-foreground = ${color.occupied}
+
+[module/i3]
+type = internal/i3
+format = <label-mode>
+;format = <label-state><label-mode>
+
+label-mode = "%mode% "
+label-mode-foreground = ${color.fg}
+label-mode-background = ${color.bg}
+
+; These labels are useless, but to use <label-mode> 
+; i have to use <label-state>, and to use <label-state>
+; i have to declare all label-*, so i give nothing to the label 
+; variables, so that i can use <label-state> without 
+; it showing numebers
+; focused = Active workspace on focused monitor
+label-focused =
+label-focused-font = 3
+label-focused-foreground = ${color.fg}
+label-focused-background = ${color.bg}
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused =
+label-unfocused-font = 3
+label-unfocused-foreground = ${color.fg}
+label-unfocused-background = ${color.bg}
+
+; urgent = Workspace with urgency hint set
+label-urgent =
+label-urgent-font = 3
+label-urgent-foreground = ${color.fg}
+label-urgent-background = ${color.bg}
+
+;[module/google]
+;type = custom/text
+;content = 
+;content-padding = 2
+;content-foreground = ${color.fg-alt}
+;click-left = xdg-open https://www.google.com/ 
+
+[module/github]
+type = custom/text
+content = 
+content-padding = 2
+content-foreground = ${color.fg}
+click-left = xdg-open https://www.github.com/ 
+
+[module/reddit]
+type = custom/text
+content = 
+content-padding = 2
+content-foreground = ${color.fg}
+click-left = xdg-open https://www.reddit.com/
+
+[module/facebook]
+type = custom/text
+content = 
+content-padding = 2
+content-foreground = ${color.fg}
+click-left = xdg-open https://www.facebook.com/
+
+[module/youtube]
+type = custom/text
+content = 
+content-padding = 2
+content-foreground = ${color.fg}
+click-left = xdg-open https://www.youtube.com/
+
+;==========================================================
+;
+;[module/mpd]
+;type = internal/mpd
+;format-online = <toggle> <label-song> 
+;format-online =  <label-song> 
+;alt icons =   
+;format-online-foreground = ${color.ashade8}
+;format-online-background = ${color.shade8}
+;format-online-padding = 2
+;
+;icon-play = 喇
+;icon-pause = 
+;
+;label-song-maxlen = 25
+;label-song-ellipsis = true
+
+[module/mpd]
+type = internal/mpd
+
+; Host where mpd is running (either ip or domain name)
+; Can also be the full path to a unix socket where mpd is running.
+host = localhost
+port = 1100
+;password = 
+
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 1
+
+; 
+; Available tags:
+;   <label-song> (default)
+;   <label-time>
+;   <bar-progress>
+;   <toggle> - gets replaced with <icon-(pause|play)>
+;   <toggle-stop> - gets replaced with <icon-(stop|play)>
+;   <icon-random>
+;   <icon-repeat>
+;   <icon-repeatone> (deprecated)
+;   <icon-single> - Toggle playing only a single song. Replaces <icon-repeatone>
+;   <icon-consume>
+;   <icon-prev>
+;   <icon-stop>
+;   <icon-play>
+;   <icon-pause>
+;   <icon-next>
+;   <icon-seekb>
+;   <icon-seekf>
+format-online = "<icon-pause> <label-time> <label-song> "
+;format-online = "<icon-prev> <icon-pause> <icon-next> <label-time> <label-song> "
+;format-playing = ${self.format-online}
+format-paused = "<icon-play> <label-time> <label-song> "
+;forma-paused = "<icon-prev> <icon-play> <icon-next> <label-time> <label-song> "
+format-stopped = "<icon-play> "
+#format-online-underline = #FFFFFF
+#format-paused-underline = #FFFFFF
+#format-stopped-underline = #FFFFFF
+
+format-online-foreground = ${color.fg}
+format-online-background = ${color.bg}
+;icon-pause-foreground = ${color.black}
+;icon-pause-background = ${color.mid}
+;label-time-foreground = ${color.black}
+;label-time-background = ${color.mid}
+;label-song-foreground = ${color.black}
+;label-song-background = ${color.mid}
+
+; Available tags:
+;   <label-offline>
+;format-offline = <label-offline>
+
+; Available tokens:
+;   %artist%
+;   %album-artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+label-song = %artist% - %title%
+label-song-maxlen = 40
+
+; Available tokens:
+;   %elapsed%
+;   %total%
+; Default: %elapsed% / %total%
+label-time = %elapsed%  %total%
+
+; Available tokens:
+;   None
+;label-offline = mpd is offline
+
+; Only applies if <icon-X> is used 
+icon-play = "   "
+icon-pause = "   "
+icon-stop = "   "
+icon-prev = "   "
+icon-next = "   "
+icon-seekb = ⏪
+icon-seekf = ⏩
+icon-random = 🔀
+icon-repeat = 🔁
+icon-repeatone = 🔂
+icon-single = 🔂
+;icon-consume = ✀
+
+; Used to display the state of random/repeat/repeatone/single
+; Only applies if <icon-[random|repeat|repeatone|single]> is used
+toggle-on-foreground = #ff
+toggle-off-foreground = #55
+
+; Only applies if <bar-progress> is used
+;bar-progress-width = 45
+;bar-progress-indicator = =
+;bar-progress-fill = -
+;bar-progress-empty = -
+
+bar-progress-indicator = 
+bar-progress-width = 20
+bar-progress-foreground-0 = ${color.fg}
+bar-progress-fill = 
+bar-progress-empty = 
+bar-progress-empty-foreground = #ffffff
+
+;==========================================================
+
+[module/pkg]
+type = custom/script
+exec = $HOME/.config/polybar/updates.sh
+format-background = ${color.shade7}
+format-padding = 2
+tail = true
+
+[module/cpu]
+type = internal/cpu
+interval = 1
+label = "   %percentage%% "
+label-foreground = ${color.fg}
+label-background = ${color.bg}
+
+;[module/cpu_symbol]
+;type = custom/text
+;content = " "
+;content-font = 4
+;content-foreground = ${color.fg}
+;content-background = ${color.shade7}
+
+[module/ram]
+;https://github.com/jaagr/polybar/wiki/Module:-memory
+type = internal/memory
+interval = 1
+; Available tokens:
+;   %percentage_used% (default)
+;   %percentage_free%
+;   %gb_used%
+;   %gb_free%
+;   %gb_total%
+;   %mb_used%
+;   %mb_free%
+;   %mb_total%
+label = %gb_used%
+bar-used-indicator =
+bar-used-width = 1
+bar-used-foreground-0 = ${color.fg}
+bar-used-fill = 
+bar-used-empty = 
+bar-used-empty-foreground = ${color.fg}
+
+format = "<label> <bar-used>"
+format-prefix = "   "
+format-prefix-foreground = ${color.fg}
+#format-underline = ${color.bg}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+[module/pavolume]
+type = custom/script
+tail = true
+label = " %output% "
+exec = ~/.config/polybar/scripts/pavolume.sh --listen
+click-right = exec pavucontrol
+click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
+#scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
+#scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
+#format-underline = ${color.fg}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+[module/volume]
+type = internal/alsa
+format-volume = <ramp-volume> <label-volume>
+format-volume-padding = 2
+format-volume-background = ${color.shade5}
+label-volume = %percentage%%
+label-muted = "婢"
+label-muted-background = ${color.shade5}
+label-muted-padding = 2
+
+ramp-volume-0 = 奄
+ramp-volume-1 = 奄
+ramp-volume-2 = 奔
+ramp-volume-3 = 奔
+ramp-volume-4 = 墳
+ramp-volume-5 = 墳
+ramp-volume-6 = 墳
+
+[module/battery]
+;https://github.com/jaagr/polybar/wiki/Module:-battery
+type = internal/battery
+battery = BAT1
+adapter = AC0
+full-at = 99
+
+format-charging = " <animation-charging> <label-charging>"
+label-charging = "%percentage%%  "
+label-charging-foreground = ${color.fg}
+label-charging-background = ${color.bg}
+format-charging-foreground = ${color.fg}
+format-charging-background = ${color.bg}
+#format-charging-underline = ${color.black}
+
+format-discharging = " <ramp-capacity> <label-discharging>"
+label-discharging = "%percentage%% "
+label-discharging-foreground = ${color.fg}
+label-discharging-background = ${color.bg}
+#format-discharging-underline = ${color.black}
+format-discharging-foreground = ${color.fg}
+format-discharging-background = ${color.bg}
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${color.fg}
+format-full-prefix-background = ${color.bg}
+#format-full-underline = ${color.black}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+format-full-background = ${color.bg}
+
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
+ramp-capacity-3 = "  "
+ramp-capacity-4 = "  "
+ramp-capacity-foreground = ${color.fg}
+
+animation-charging-0 ="    "
+animation-charging-1 = "    "
+animation-charging-2 = "    "
+animation-charging-3 = "    "
+animation-charging-4 = "    "
+animation-charging-foreground = ${color.fg}
+animation-charging-framerate = 750
+
+[module/battery_text]
+interval = 5
+type = internal/battery
+battery = BAT1
+adapter = AC
+full-at = 100
+
+format-charging = <label-charging>
+format-charging-foreground = ${color.fg}
+format-charging-background = ${color.shade4}
+label-charging = " %percentage%%"
+
+format-discharging = <label-discharging>
+format-discharging-foreground = ${color.fg}
+format-discharging-background = ${color.shade4}
+label-discharging-foreground = ${color.fg}
+label-discharging = " %percentage%%"
+
+format-full = <label-full>
+format-full-foreground = ${color.fg}
+format-full-background = ${color.shade4}
+label-full = " %percentage%%"
+
+[module/weather]
+type = custom/script
+interval = 10
+format = "<label> " 
+format-prefix = "  "
+format-prefix-foreground = ${color.fg}
+#format-underline = ${color.fg}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+exec = python -u ~/.config/polybar/scripts/weather.py
+tail = true
+format-prefix-maxlen = 3
+format-label-maxlen = 3
+
+[module/openweather]
+type = custom/script
+exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
+interval = 100
+#label-font = 2
+format-prefix = "  "
+#format-underline = ${color.fg}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+[module/network_wlan0]
+type = internal/network
+;interface = ${env:interface:}
+interface = wlan0
+;interface = eth0
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+;label-connected = %essid% %downspeed:2%
+;label-connected-foreground = #eefafafa
+
+;format-connected = " <ramp-signal> <label-connected>"
+format-connected = "<ramp-signal>  wlan0:  <label-connected>"
+format-packetloss = <animation-packetloss>
+;label-connected = %ifname% - %downspeed%
+;label-connected = "%{A1:networkmanager_dmenu:}%ifname% - %downspeed%%{A} "
+label-connected = "%{A1:networkmanager_dmenu:}%downspeed%%{A} "
+;label-connected = " %{A1:networkmanager_dmenu:}%upspeed%%{A}  %{A1:networkmanager_dmenu:}%downspeed%%{A} "
+;label-connected = "%essid% %{A1:networkmanager_dmenu:}%downspeed%%{A} "
+
+ramp-signal-0 = " "
+ramp-signal-0-foreground = ${color.fg}
+ramp-signal-1 = " "
+ramp-signal-1-foreground = ${color.fg}
+ramp-signal-2 = " "
+ramp-signal-2-foreground = ${color.fg}
+ramp-signal-3 = " "
+ramp-signal-3-foreground = ${color.fg}
+ramp-signal-4 = " "
+ramp-signal-4-foreground = ${color.fg}
+ramp-signal-5 = " "
+ramp-signal-5-foreground = ${color.fg}
+
+animation-packetloss-0 = ⚠
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 
+animation-packetloss-1-foreground = #000000
+animation-packetloss-framerate = 500
+
+[module/network_eth0]
+type = internal/network
+;interface = ${env:interface:}
+interface = eth0
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+;label-connected = %essid% %downspeed:2%
+;label-connected-foreground = #eefafafa
+
+;format-connected = " <ramp-signal> <label-connected>"
+format-connected = "<ramp-signal> eth0: <label-connected>"
+format-packetloss = <animation-packetloss>
+;label-connected = %ifname% - %downspeed%
+;label-connected = "%{A1:networkmanager_dmenu:}%ifname% - %downspeed%%{A} "
+label-connected = "%{A1:networkmanager_dmenu:}%downspeed%%{A} "
+;label-connected = " %{A1:networkmanager_dmenu:}%upspeed%%{A}  %{A1:networkmanager_dmenu:}%downspeed%%{A} "
+;label-connected = "%essid% %{A1:networkmanager_dmenu:}%downspeed%%{A} "
+
+
+ramp-signal-0 = " "
+ramp-signal-0-foreground = ${color.fg}
+ramp-signal-1 = " "
+ramp-signal-1-foreground = ${color.fg}
+ramp-signal-2 = " "
+ramp-signal-2-foreground = ${color.fg}
+ramp-signal-3 = " "
+ramp-signal-3-foreground = ${color.fg}
+ramp-signal-4 = " "
+ramp-signal-4-foreground = ${color.fg}
+ramp-signal-5 = " "
+ramp-signal-5-foreground = ${color.fg}
+
+animation-packetloss-0 = ⚠
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 
+animation-packetloss-1-foreground = #000000
+animation-packetloss-framerate = 500
+
+[module/date]
+type = internal/date
+interval = 30
+label =  "%time%"
+label-padding = 2
+label-background = ${color.black}
+;time =  %I:%M %p
+time =  %H:%M
+time-alt =  %d-%m-%Y
+;time-alt =  %Y-%m-%d
+
+[module/popup-calendar]
+type = custom/script
+exec = ~/.config/polybar/scripts/popup-calendar.sh
+interval = 5
+click-left = ~/.config/polybar/scripts/popup-calendar.sh --popup
+#format-underline = ${color.black}
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+[module/powermenu]
+type = custom/text
+content = 襤
+content-padding = 2
+content-background = ${color.shade2}
+content-foreground = ${color.fg}
+click-left = pmenu_1
+click-right = pmenu_1
+
+[module/nm-launcher]
+type = custom/text
+content = 
+click-left = nm-connection-editor
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+
+
+;== EOF ========================================================

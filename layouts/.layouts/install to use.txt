@@ -1,0 +1,7 @@
+perl-anyevent-i3
+vim/nvim
+jq
+i3
+rofi
+xdotool
+x11-xserver-utils

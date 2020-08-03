@@ -1,0 +1,9 @@
+// remove window title from Client-Side Decorations
+.solid-csd headerbar .title {
+    font-size: 0;
+}
+
+.window-frame {
+  box-shadow: none;
+  margin: 0;
+}

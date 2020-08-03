@@ -1,0 +1,5 @@
+[2020-07-22 00:55:09.344] [renderer1] [error] Error: Unable to read file '/home/d3sk3r/Stuff/programação/1_diaMesAno.py' (Error: Unable to resolve non-existing file '/home/d3sk3r/Stuff/programação/1_diaMesAno.py')
+    at Object.t.createErrorWithActions (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:53:207)
+    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5716:168)
+    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5718:772)
+    at w.setInput (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5715:869)

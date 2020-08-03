@@ -1,0 +1,130 @@
+!  ____ _____ 
+! |  _ \_   _|  Derek Taylor (DistroTube)
+! | | | || |    http://www.youtube.com/c/DistroTube
+! | |_| || |    http://www.gitlab.com/dwt1/ 
+! |____/ |_|  	
+
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+XTerm*renderFont: true
+XTerm*faceName: xft:UbuntuMono Nerd Font
+XTerm*faceSize: 13
+XTerm*utf8: 2
+XTerm*locale: true
+
+XTerm.vt100.translations: #override \n\
+  Ctrl <Key> j: smaller-vt-font() \n\
+  Ctrl <Key> k: larger-vt-font()
+
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+XTerm*loginshell: true
+
+! I like a LOT of scrollback...
+XTerm*savelines: 16384
+
+! double-click to select whole URLs :D
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+URxvt*imLocale: en_US.UTF-8
+URxvt*termName: rxvt-unicode-256color
+Urxvt*buffered: true
+URxvt.intensityStyles: false
+URxvt.font: xft:Monospace:pixelsize=12:style:bold,minspace=False, xft:DejaVu Sans:pixelsize=30
+URxvt*boldFont: xft:Monospace:pixelsize=12:style:bold,minspace=False, xft:DejaVu Sans:pixelsize=30:style:bold
+URxvt.saveLines: 2000
+URxvt.scrollBar: false
+URxvt*scrollTtyOutput:  false
+URxvt.cursorColor: #00ccff
+URxvt*cursorUnderline: True
+URxvt*cursorBlink: True
+*.letterSpace: -1
+*.lineSpace: -1
+
+!! BLUR: For blur and false transperency, comment URxvt*depth: 32
+!! and uncomment URxvt.blurRadius: 12 and URxvt.transparent: true
+
+!! For blur: uncomment URxvt*depth: 32 and on URxvt*background put [0]#000000
+URxvt*depth: 32
+!URxvt.blurRadius: 12
+!URxvt.transparent: true
+
+!! Extensions
+!! URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard,font-size
+URxvt.perl-ext-common: default,matcher,url-select,keyboard-select,clipboard,vtwheel
+URxvt.colorUL: #4682B4
+!! url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller: C-j
+URxvt.resize-font.bigger:  C-k
+!! Matcher
+URxvt.url-launcher:     /usr/bin/google-chrome-stable
+URxvt.matcher.button: 1
+!!clipboard with Alt
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+!! COLORS
+
+! special
+URxvt*foreground:   #ffffff
+! if not blur = [65]
+!URxvt*background:   [40]#000000
+!! for blur, use the following
+URxvt*background:   [0]#000000
+! Material Grey (disable blurRadius and transparent options)
+!URxvt*background:   [100]#0e151b
+URxvt.highlightColor: #00ccff
+URxvt.highlightTextColor: #000000
+
+UXTerm*foreground: #c0c5ce
+UXTerm*background: #000000
+UXTerm*cursorColor: #c0c5ce
+
+XTerm*foreground: #c0c5ce
+XTerm*background: #000000
+XTerm*cursorColor: #c0c5ce
+
+! white
+*.color0: #000000
+! pink - functions
+*.color1: #ff00cc
+! cyan
+*.color2: #00ccff
+! pink
+*.color3: #ff00cc
+! blue
+*.color4: #0066ff
+! blue - from - from/import
+*.color5: #0066ff
+! cyan - functions
+*.color6: #00ccff
+! white
+*.color7: #ffffff
+! pink
+*.color8: #ff00cc
+! blue
+*.color9: #0048ba
+! blue
+*.color10: #0048ba
+! cyan
+*.color11: #00ccff
+*.color12: #00ccff
+*.color13: #00ccff
+! pink
+*.color14: #ff00cc
+! pink
+*.color15: #ff00cc
+

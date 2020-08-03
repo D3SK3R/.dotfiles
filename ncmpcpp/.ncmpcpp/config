@@ -1,0 +1,106 @@
+#### For Song format you can use:
+##
+## %l - length 
+## %f - filename
+## %D - directory
+## %a - artist
+## %A - album artist
+## %t - title
+## %b - album
+## %y - date
+## %n - track number (01/12 -> 01)
+## %N - full track info (01/12 -> 01/12)
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %P - priority
+## $R - begin right alignment
+
+## - 0 - default window color (discards all other colors)
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+
+external_editor = "nano"
+## Note: set to yes if external editor is a console application.
+##
+use_console_editor = "yes"
+mpd_music_dir = "/home/d3sk3r/MEGA/D3SK3R/Midia/Music/"
+mpd_host = "127.0.0.1"
+mpd_port = "1100"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+playlist_disable_highlight_delay = "0"
+playlist_display_mode = "columns" # (columns classic)
+browser_display_mode = "classic" # (columns classic)
+incremental_seeking = "yes"
+startup_screen = "playlist"
+autocenter_mode = "yes"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+song_columns_list_format = "(25)[cyan]{f} (4f)[white]{l}
+ignore_leading_the = "yes"
+colors_enabled = "yes"
+main_window_color = "white"
+header_window_color = "cyan"
+volume_color = "cyan"
+progressbar_color = "white"
+#progressbar_look = "->"
+#progressbar_look = "─╼·"
+progressbar_look = "─╼"
+progressbar_elapsed_color = "cyan"
+statusbar_color = "blue"
+color1 = "blue"
+color2 = "cyan"
+#active_column_color = "cyan"
+active_window_border = "blue"
+user_interface = "classic" # (alternative, classic)
+titles_visibility = no
+cyclic_scrolling = yes
+#If you press down arrow being at the end of list, it'll take you to the beginning
+
+allow_for_physical_item_deletion = "yes"
+
+#For visualizer
+ #visualizer_fifo_path = "/home/d3sk3r/.mpd.fifo"
+ #visualizer_output_name = "fifo"
+ #visualizer_sync_interval = "15"
+#visualizer_color = blue, cyan, 12, white
+visualizer_color = 21, 33, 45
+#▋"  ## (used to be this |▮ )
+#visualizer_color = "cyan"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30" 
+visualizer_type = "ellipse" # (spectrum/wave/wave_filled/ellipse)
+visualizer_look = "+|"
+#visualizer_look = "▤▦"
+
+#Clock settings
+clock_display_seconds="yes"
+
+#Lyrics
+fetch_lyrics_for_current_song_in_background = "yes"
+#lyrics_database = "1"
+store_lyrics_in_song_dir = "yes"
+follow_now_playing_lyrics = "yes"
+#lyrics will be switched at song's change to currently playing one's
+display_bitrate = "yes"
+
+
+ask_before_clearing_playlists = "yes"
+
+#Status bar display 
+song_status_format="%f"
+
+#default_tag_editor_left_col="dirs"
+visualizer_in_stereo="yes"
+locked_screen_width_part = 50

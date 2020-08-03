@@ -1,0 +1,1 @@
+all of this files on ~/.i3 OR ~/.config/i3

@@ -1,0 +1,68 @@
+[2019-06-22 19:54:10.411] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a"}
+[2019-06-22 19:54:10.479] [sharedprocess] [info] Installing extension: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:10.698] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.778] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.782] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.789] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.791] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.797] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:10.800] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.325] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.359] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.371] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.378] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.387] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.393] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.417] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.441] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.496] [sharedprocess] [info] Downloaded extension: juanmnl.vscode-theme-hydra /tmp/36a27c9f-e0d7-45d1-ade9-868add33c8fe
+[2019-06-22 19:54:11.543] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.610] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.686] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.723] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.764] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.804] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.823] [sharedprocess] [info] Scanned user extensions: 2
+[2019-06-22 19:54:11.870] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.905] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.923] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:54:11.947] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.juanmnl.vscode-theme-hydra-3.1.0: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:11.953] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/juanmnl.vscode-theme-hydra-3.1.0
+[2019-06-22 19:54:11.956] [sharedprocess] [info] Installation completed. juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:11.997] [sharedprocess] [info] Extensions installed successfully: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:20.378] [sharedprocess] [info] Installing extension: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:20.391] [sharedprocess] [info] Scanned user extensions: 3
+[2019-06-22 19:54:20.680] [sharedprocess] [info] Downloaded extension: juanmnl.vscode-theme-hydra /tmp/876dbd18-6a8d-479c-b478-feb9dfe21c65
+[2019-06-22 19:54:20.714] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.juanmnl.vscode-theme-hydra-3.1.0: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:20.714] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/juanmnl.vscode-theme-hydra-3.1.0
+[2019-06-22 19:54:20.715] [sharedprocess] [info] Installation completed. juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:20.737] [sharedprocess] [info] Extensions installed successfully: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:35.763] [sharedprocess] [info] Installing extension: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:35.773] [sharedprocess] [info] Scanned user extensions: 3
+[2019-06-22 19:54:35.971] [sharedprocess] [info] Downloaded extension: juanmnl.vscode-theme-hydra /tmp/e6e6f882-1df4-417f-8e36-583885bafaf6
+[2019-06-22 19:54:36.003] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.juanmnl.vscode-theme-hydra-3.1.0: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:36.003] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/juanmnl.vscode-theme-hydra-3.1.0
+[2019-06-22 19:54:36.004] [sharedprocess] [info] Installation completed. juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:36.026] [sharedprocess] [info] Extensions installed successfully: juanmnl.vscode-theme-hydra
+[2019-06-22 19:54:50.379] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-06-22 19:55:03.001] [sharedprocess] [info] Installing extension: gerane.theme-brillianceblack
+[2019-06-22 19:55:03.013] [sharedprocess] [info] Scanned user extensions: 3
+[2019-06-22 19:55:03.431] [sharedprocess] [info] Downloaded extension: gerane.theme-brillianceblack /tmp/bac2ce59-76ec-4b5e-a91d-3dd5469d9548
+[2019-06-22 19:55:03.457] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.gerane.theme-brillianceblack-0.0.4: gerane.theme-brillianceblack
+[2019-06-22 19:55:03.457] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/gerane.theme-brillianceblack-0.0.4
+[2019-06-22 19:55:03.458] [sharedprocess] [info] Installation completed. gerane.theme-brillianceblack
+[2019-06-22 19:55:03.471] [sharedprocess] [info] Extensions installed successfully: gerane.theme-brillianceblack
+[2019-06-22 19:55:03.528] [sharedprocess] [info] Scanned user extensions: 4
+[2019-06-22 19:55:03.571] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:55:03.634] [sharedprocess] [info] Scanned user extensions: 4
+[2019-06-22 19:55:03.673] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:55:10.233] [sharedprocess] [info] Scanned user extensions: 4
+[2019-06-22 19:55:10.270] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-22 19:55:21.274] [sharedprocess] [info] Scanned user extensions: 4
+[2019-06-22 19:55:21.275] [sharedprocess] [info] Uninstalling extension: gerane.theme-brillianceblack
+[2019-06-22 19:55:21.284] [sharedprocess] [info] Scanned user extensions: 4
+[2019-06-22 19:55:21.301] [sharedprocess] [info] Successfully uninstalled extension: gerane.theme-brillianceblack
+[2019-06-22 19:55:40.680] [sharedprocess] [info] Scanned user extensions: 3
+[2019-06-22 19:55:40.681] [sharedprocess] [info] Uninstalling extension: juanmnl.vscode-theme-hydra
+[2019-06-22 19:55:40.700] [sharedprocess] [info] Scanned user extensions: 3
+[2019-06-22 19:55:40.719] [sharedprocess] [info] Successfully uninstalled extension: juanmnl.vscode-theme-hydra
