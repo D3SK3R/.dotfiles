@@ -14,6 +14,7 @@ Height 768=436
 Width 1366=700
 
 [General]
+ShowCopyMoveMenu=true
 ShowFullPath=true
 ShowZoomSlider=false
 UseTabForSwitchingSplitView=true
