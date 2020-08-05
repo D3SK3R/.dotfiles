@@ -142,9 +142,9 @@ bindsym $mod+Shift+c 							reload
 
 # Flameshot "flameshot config" on terminal to configure and import/export config files
 # Fullscreen print:
-bindsym $mod+Print 									exec --no-startup-id flameshot screen -p ~/
+bindsym $mod+Print 								exec --no-startup-id flameshot screen -p ~/
 # Select area
-bindsym Print 										exec --no-startup-id flameshot gui -p ~/
+bindsym Print 									exec --no-startup-id flameshot gui -p ~/
 
 # Xkill
 bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
@@ -153,6 +153,8 @@ bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 
 #STOP/HIDE EVERYTHING:
 bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh	
+
+bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
 
 #########################################################################################################################################################################################
 # audio volume
