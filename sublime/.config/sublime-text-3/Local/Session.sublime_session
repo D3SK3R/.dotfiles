@@ -4,392 +4,12 @@
 		"/home/d3sk3r/Minecraft"
 	],
 	"last_version": 3211,
-	"last_window_id": 19,
+	"last_window_id": 22,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 740.0,
+		"new_window_height": 724.0,
 		"new_window_settings":
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"content-",
-						"content-font"
-					],
-					[
-						"netow",
-						"network_name"
-					],
-					[
-						"network",
-						"network_eth0"
-					],
-					[
-						"dunst",
-						"Dunst"
-					],
-					[
-						"co",
-						"columns"
-					],
-					[
-						"rme",
-						"rmenu_wi_1"
-					],
-					[
-						"label",
-						"label-mode"
-					],
-					[
-						"no-",
-						"no-startup-id"
-					],
-					[
-						"works",
-						"workspaces"
-					],
-					[
-						"wor",
-						"workspaces"
-					]
-				]
-			},
-			"build_system_choices":
-			[
-				[
-					[
-						[
-							"Packages/Python/Python.sublime-build",
-							""
-						],
-						[
-							"Packages/Python/Python.sublime-build",
-							"Syntax Check"
-						]
-					],
-					[
-						"Packages/Python/Python.sublime-build",
-						""
-					]
-				]
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"menu",
-						"View: Toggle Menu"
-					],
-					[
-						"theme",
-						"UI: Select Color Scheme"
-					],
-					[
-						"tab",
-						"View: Toggle Tabs"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"Add repo",
-						"Package Control: Add Repository"
-					],
-					[
-						"install pack",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
-						"Install Package Control"
-					]
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
-				"/home/d3sk3r/.p10k.zsh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
-				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
-				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
-				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
-				"/home/d3sk3r/idk.txt",
-				"/home/d3sk3r/ (1).zshrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
-				"/home/d3sk3r/soadm.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
-				"/home/d3sk3r/MEGA/english to runic.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
-				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
-				"/home/d3sk3r/PreMiD/pkg.ts",
-				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
-				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
-				"/home/d3sk3r/mail.txt",
-				"/home/d3sk3r/WinterTheme.css",
-				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
-				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
-				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
-				"/home/d3sk3r/ok.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
-				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
-				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
-				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
-				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
-				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
-				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
-				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
-				"/home/d3sk3r/.config/polybar/config",
-				"/home/d3sk3r/.config/polybar/scripts/weather.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
-				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
-				"/home/d3sk3r/192.168.15.48",
-				"/home/d3sk3r/Stuff/battery.txt",
-				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
-				"/home/d3sk3r/links",
-				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/SO/SO-14_11.txt",
-				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
-				"/home/d3sk3r/cod.txt",
-				"/home/d3sk3r/crashlands and inferno save.txt",
-				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
-				"/home/d3sk3r/dspti_malware.txt",
-				"/home/d3sk3r/dspti_redeEletrica.txt",
-				"/home/d3sk3r/dspti_bios.txt",
-				"/home/d3sk3r/fzr.txt",
-				"/home/d3sk3r/bibliografiaMatematica.txt",
-				"/home/d3sk3r/Stuff/SO-31_10.txt",
-				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
-				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
-				"/home/d3sk3r/Mari Izumi/fb.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
-				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
-				"/home/d3sk3r/Stuff/SO-10_10.txt",
-				"/home/d3sk3r/SO-10_10.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
-				"/home/d3sk3r/j7/TWRP/Prometheus",
-				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
-				"/home/d3sk3r/Havoc-OS-v2.9-20191007-on7xelte-Official/META-INF/com/google/android/updater-script",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/command.txt",
-				"/home/d3sk3r/bugBounty_tools.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU Deauther/command.txt",
-				"/home/d3sk3r/esptool/command.txt",
-				"/home/d3sk3r/piZero.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/formulas.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/tools.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/SEGMA2-D1.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/hydra.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/desafio_2.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/copyFromSSH.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/Termux/ssh_termux.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb enchanced.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/OSI.txt",
-				"/home/d3sk3r/sc.html",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/permanent adb (no-root).txt",
-				"/home/d3sk3r/WhatsApp-Key-DB-Extractor-master/WhatsAppKeyDBExtract.sh",
-				"/home/d3sk3r/MEGA/FATEC/Redes/LLC-MAC-PHY.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/live screen and control android using adb",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/lf/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/lf/link",
-				"/home/d3sk3r/MEGA/fake fb.txt",
-				"/home/d3sk3r/.config/aliasrc",
-				"/home/d3sk3r/.zshrc",
-				"/home/d3sk3r/.oh-my-zsh/custom/example.zsh",
-				"/home/d3sk3r/.oh-my-zsh/custom/plugins/fast-syntax-highlighting/fast-theme",
-				"/home/d3sk3r/.oh-my-zsh/oh-my-zsh.sh",
-				"/home/d3sk3r/.oh-my-zsh/tools/theme_chooser.sh",
-				"/home/d3sk3r/.oh-my-zsh/custom/plugins/example/example.plugin.zsh",
-				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/bzr.zsh",
-				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/clipboard.zsh",
-				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/compfix.zsh"
-			],
-			"find":
-			{
-				"height": 40.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"zshrc",
-					"❯",
-					"time",
-					"weather",
-					"workspace",
-					"font",
-					"pavolume",
-					"cpu",
-					"font",
-					"mpd",
-					"cpu",
-					"network",
-					"offset",
-					"calendar",
-					"openvpn",
-					"ta.key",
-					"certificate",
-					"pem",
-					"config",
-					"office",
-					"wps",
-					"Welcome D3SK3R",
-					"test",
-					"background",
-					"30px",
-					"net",
-					"network",
-					"syncthing",
-					"_POST",
-					"action",
-					"login",
-					"action",
-					"lock",
-					"opa"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": false
-			},
-			"incremental_find":
-			{
-				"height": 26.0
-			},
-			"input":
-			{
-				"height": 42.0
-			},
-			"menu_visible": false,
-			"output.exec":
-			{
-				"height": 77.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"replace":
-			{
-				"height": 48.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": false,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 1360.0
-	},
-	"windows":
-	[
 		{
 			"auto_complete":
 			{
@@ -441,10 +61,6 @@
 					]
 				]
 			},
-			"buffers":
-			[
-			],
-			"build_system": "",
 			"build_system_choices":
 			[
 				[
@@ -520,6 +136,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
@@ -536,7 +155,6 @@
 				"/home/d3sk3r/pavolume/pavolume",
 				"/home/d3sk3r/.config/polybar/scripts/weather.py",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
-				"/home/d3sk3r/.Xresources",
 				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
 				"/home/d3sk3r/mic.txt",
 				"/home/d3sk3r/MEGA/loml 8.txt",
@@ -645,9 +263,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU Deauther/command.txt",
-				"/home/d3sk3r/esptool/command.txt",
-				"/home/d3sk3r/piZero.txt",
-				"/home/d3sk3r/MEGA/FATEC/Redes/formulas.txt"
+				"/home/d3sk3r/esptool/command.txt"
 			],
 			"find":
 			{
@@ -716,11 +332,438 @@
 				"whole_word": false,
 				"wrap": false
 			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 77.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 666.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "!- Font Render\nXft.dpi:96\nXft.antialiasing:false\nXft.rgba:rgb\nXft.hinting:true\nXft.lcdfilter:lcddefault\n \n*.cursorColor: #ebac54\n \nURxvt.foreground:           #2940FF\nURxvt.background:           #292A2F\n \nURxvt.borderColor:          #292A2F\nURxvt.borderless:          true\nURxvt.internalBorder: 5\n \nURxvt.colorBD:              #ffffff\nURxvt.colorIT:              #a761c2\nURxvt.colorUL:              #6d9cbe\nURxvt.underlineColor:       #333333\nURxvt.highlightColor:       #ebac54\nURxvt.highlightTextColor:   #151515\n \nURxvt.scrollstyle:plain\nURxvt.scrollBar:false\nURxvt.scrollTtyOutput:false\nURxvt.scrollWithBuffer:true\nURxvt.scrollTtyKeypress:true\n \nURxvt.cursorColor:          #ebac54\nURxvt.cursorColor2:         #ebac54\nURxvt.cursorBlink:          true\nURxvt.cursorUnderline:      false\nURxvt.depth:24\n \n!- Perl Extension\nURxvt.perl-ext-common:default,matcher,url-select,clipboard\nURxvt.url-launcher: ch  romium-browser\nURxvt.matcher.button:1\n \n!- Copy/paste\nURxvt.iso14755: False\nURxvt.keysym.Shift-Alt-C: perl:clipboard:copy\nURxvt.keysym.Shift-Alt-V: perl:clipboard:paste\n \nURxvt.underlineURLs:true\nURxvt.font:xft:Terminess\\ Powerline:size=11\nURxvt.transparent:false\nURxvt.shading:30\nURxvt.geometry:72x24\n \n!-Urgent Terminal for Notification\nURxvt*urgentOnBell: true\n\n    URxvt*visualBell:   false\n\n! black + red\n!urxvt*color0:     #3f3f3f\nurxvt*color0:      #101010\nurxvt*color1:      #705050\n! green + yellow\nurxvt*color2:      #60b48a\nurxvt*color3:      #f0dfaf\n! blue + purple\nurxvt*color4:      #506070\nurxvt*color5:      #dc8cc3\n! cyan + white\nurxvt*color6:      #8cd0d3\nurxvt*color7:      #dcdccc\n! bright-black + bright-red\nurxvt*color8:      #000000\nurxvt*color9:      #dca3a3\n! bright-green + bright-yellow\nurxvt*color10:     #c3bf9f\nurxvt*color11:     #f0dfaf\n! bright-blue + bright-purple\nurxvt*color12:     #94bff3\nurxvt*color13:     #ec93d3\n! bright-cyan + bright-white\nurxvt*color14:     #93e0e3\nurxvt*color15:     #ffffff",
+					"settings":
+					{
+						"buffer_size": 1941,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
+				"/home/d3sk3r/.config/kcalcrc",
+				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/pavolume/pavolume",
+				"/home/d3sk3r/.config/polybar/scripts/weather.py",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
+				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
+				"/home/d3sk3r/mic.txt",
+				"/home/d3sk3r/MEGA/loml 8.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/.config/mimeapps.list",
+				"/home/d3sk3r/.config/khotkeysrc",
+				"/home/d3sk3r/.config/libinput-gestures.conf",
+				"/home/d3sk3r/.config/kateschemarc",
+				"/home/d3sk3r/.config/volumeicon/volumeicon",
+				"/home/d3sk3r/.config/lf/lfrc",
+				"/home/d3sk3r/.config/polybar/config",
+				"/home/d3sk3r/.config/clipit/clipitrc",
+				"/home/d3sk3r/idk.txt",
+				"/home/d3sk3r/.zshrc",
+				"/home/d3sk3r/.config/cava/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
+				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
+				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
+				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
+				"/home/d3sk3r/ (1).zshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
+				"/home/d3sk3r/soadm.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
+				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
+				"/home/d3sk3r/PreMiD/pkg.ts",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/mail.txt",
+				"/home/d3sk3r/WinterTheme.css",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
+				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
+				"/home/d3sk3r/ok.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
+				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
+				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
+				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
+				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
+				"/home/d3sk3r/192.168.15.48",
+				"/home/d3sk3r/Stuff/battery.txt",
+				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
+				"/home/d3sk3r/links",
+				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/SO/SO-14_11.txt",
+				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
+				"/home/d3sk3r/cod.txt",
+				"/home/d3sk3r/crashlands and inferno save.txt",
+				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
+				"/home/d3sk3r/dspti_malware.txt",
+				"/home/d3sk3r/dspti_redeEletrica.txt",
+				"/home/d3sk3r/dspti_bios.txt",
+				"/home/d3sk3r/fzr.txt",
+				"/home/d3sk3r/bibliografiaMatematica.txt",
+				"/home/d3sk3r/Stuff/SO-31_10.txt",
+				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
+				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
+				"/home/d3sk3r/Mari Izumi/fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
+				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
+				"/home/d3sk3r/Stuff/SO-10_10.txt",
+				"/home/d3sk3r/SO-10_10.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
+				"/home/d3sk3r/j7/TWRP/Prometheus",
+				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
+				"/home/d3sk3r/Havoc-OS-v2.9-20191007-on7xelte-Official/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/command.txt",
+				"/home/d3sk3r/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU Deauther/command.txt",
+				"/home/d3sk3r/esptool/command.txt"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tint",
+					"open",
+					"plug",
+					"zshrc",
+					"❯",
+					"time",
+					"weather",
+					"workspace",
+					"font",
+					"pavolume",
+					"cpu",
+					"font",
+					"mpd",
+					"cpu",
+					"network",
+					"offset",
+					"calendar",
+					"openvpn",
+					"ta.key",
+					"certificate",
+					"pem",
+					"config",
+					"office",
+					"wps",
+					"Welcome D3SK3R",
+					"test",
+					"background",
+					"30px",
+					"net",
+					"network",
+					"syncthing",
+					"_POST",
+					"action",
+					"login",
+					"action",
+					"lock",
+					"opa"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": false
+			},
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1941,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1237,
+										1237
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 703.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -764,7 +807,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,687,34,1356,758,1366,768",
+			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
 			"project": "",
 			"replace":
 			{
