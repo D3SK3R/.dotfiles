@@ -249,6 +249,7 @@ export LESS=-r
 #			/_/    \_\_|_|\__,_|___/\___||___/				  #
 ############################################################### 
 
+#################################################################
 #                     Basic terminal commands                   #
 #################################################################
 alias cd='f(){ cd "$@" ;ls;  unset -f f; }; f'
@@ -294,7 +295,11 @@ alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
 alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
 alias mousepos='eval $(xdotool getmouselocation --shell);echo "$X""x""$Y"'
+alias font-update='sudo fc-cache -fv'
+alias psa='ps auxf'
+alias free='free -mt'
 
+#################################################################
 # Pacman
 #################################################################
 alias install='sudo pacman -S'
@@ -303,6 +308,7 @@ alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 alias update='yay -Syyu'
 alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
+alias unlock="sudo rm /var/lib/pacman/db.lck"
 # CLEAN:
 # sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos) 
 # yay - Yc: Does the same as above but for the AUR
@@ -310,11 +316,13 @@ alias remove='sudo pacman -Rns'
 # sudo paccache -r: clean all packages, except the 3 most recent versions
 alias clean='echo "This command will remove cached packages and sync database of not installed packages, keep only the 3 most recent versions of installed packages, and remove all unused dependencies...";sudo pacman -Sc;yay -Yc;sudo pacman -Rns $(pacman -Qtdq);sudo paccache -r'
 
+#################################################################
 # zsh related
 #################################################################
 alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;cp ~/.zshrc MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 
+#################################################################
 # pentest related
 #################################################################
 alias server='python -m  http.server 2727'
@@ -347,6 +355,7 @@ alias remote_ssh='ssh -R d3sk3r:22:localhost:22 serveo.net'
 #alias short='shortn'
 alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/Pentesting/Phishing/blackeye/blackeye.sh'
 
+#################################################################
 # ADB related
 #################################################################
 alias adb_list='adb shell pm list packages'
@@ -362,6 +371,7 @@ alias adb_bright='adb shell settings put system screen_brightness' # brightness 
 #alias adb_rotate='while true; do adbe rotate landscape;sleep 2;adbe rotate portrait;sleep 2;done'
 alias autoadb='sh ~/.scripts/auto_adb.sh'
 
+#################################################################
 # random aliases
 #################################################################
 
@@ -384,8 +394,33 @@ alias aws_ssh='ssh -i "~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R-AWS.pem" openvpnas@54
 alias aws_admin='xdg https://54.233.64.157:943/admin/;sleep 1;clear'
 alias aws_vpn='sudo openvpn ~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R\ -\ AWS_autologin.ovpn'
 
+# # ex = EXtractor for all kinds of archives
+# # usage: ex <file>
+ex ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
 
-
+#################################################################
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # ____             _          _____ _          _ _ 
