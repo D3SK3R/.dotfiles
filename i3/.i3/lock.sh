@@ -1,4 +1,4 @@
 #!/bin/bash
 
-betterlockscreen -l blur
+playerctl stop;betterlockscreen -l blur 
 #i3lock-fancy -t ""

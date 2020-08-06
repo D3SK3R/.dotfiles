@@ -118,8 +118,7 @@ bindsym $mod+s									exec --no-startup-id subl
 bindsym $mod+ctrl+l								exec --no-startup-id $HOME/.i3/layout_manager.sh
 # Lock screen
 #bindsym $mod+l                                  exec --no-startup-id blurlock
-#bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
-bindsym $mod+l                                  $exec betterlockscreen -l blur
+bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
 # kill focused window
 bindsym $mod+Shift+q 							kill
 # start program launcher
@@ -440,7 +439,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
-exec --no-startup-id xautolock -time 30 -locker "betterlockscreen -l blur"
+exec --no-startup-id xautolock -time 30 -locker /home/d3sk3r/.i3/lock.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id manjaro-hello
