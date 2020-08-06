@@ -449,14 +449,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "!- Font Render\nXft.dpi:96\nXft.antialiasing:false\nXft.rgba:rgb\nXft.hinting:true\nXft.lcdfilter:lcddefault\n \n*.cursorColor: #ebac54\n \nURxvt.foreground:           #2940FF\nURxvt.background:           #292A2F\n \nURxvt.borderColor:          #292A2F\nURxvt.borderless:          true\nURxvt.internalBorder: 5\n \nURxvt.colorBD:              #ffffff\nURxvt.colorIT:              #a761c2\nURxvt.colorUL:              #6d9cbe\nURxvt.underlineColor:       #333333\nURxvt.highlightColor:       #ebac54\nURxvt.highlightTextColor:   #151515\n \nURxvt.scrollstyle:plain\nURxvt.scrollBar:false\nURxvt.scrollTtyOutput:false\nURxvt.scrollWithBuffer:true\nURxvt.scrollTtyKeypress:true\n \nURxvt.cursorColor:          #ebac54\nURxvt.cursorColor2:         #ebac54\nURxvt.cursorBlink:          true\nURxvt.cursorUnderline:      false\nURxvt.depth:24\n \n!- Perl Extension\nURxvt.perl-ext-common:default,matcher,url-select,clipboard\nURxvt.url-launcher: ch  romium-browser\nURxvt.matcher.button:1\n \n!- Copy/paste\nURxvt.iso14755: False\nURxvt.keysym.Shift-Alt-C: perl:clipboard:copy\nURxvt.keysym.Shift-Alt-V: perl:clipboard:paste\n \nURxvt.underlineURLs:true\nURxvt.font:xft:Terminess\\ Powerline:size=11\nURxvt.transparent:false\nURxvt.shading:30\nURxvt.geometry:72x24\n \n!-Urgent Terminal for Notification\nURxvt*urgentOnBell: true\n\n    URxvt*visualBell:   false\n\n! black + red\n!urxvt*color0:     #3f3f3f\nurxvt*color0:      #101010\nurxvt*color1:      #705050\n! green + yellow\nurxvt*color2:      #60b48a\nurxvt*color3:      #f0dfaf\n! blue + purple\nurxvt*color4:      #506070\nurxvt*color5:      #dc8cc3\n! cyan + white\nurxvt*color6:      #8cd0d3\nurxvt*color7:      #dcdccc\n! bright-black + bright-red\nurxvt*color8:      #000000\nurxvt*color9:      #dca3a3\n! bright-green + bright-yellow\nurxvt*color10:     #c3bf9f\nurxvt*color11:     #f0dfaf\n! bright-blue + bright-purple\nurxvt*color12:     #94bff3\nurxvt*color13:     #ec93d3\n! bright-cyan + bright-white\nurxvt*color14:     #93e0e3\nurxvt*color15:     #ffffff",
-					"settings":
-					{
-						"buffer_size": 1941,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -534,7 +526,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
 				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.zshrcSTUFF TO ADD",
 				"/home/d3sk3r/.XresourcesBAK",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
@@ -659,9 +653,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU Deauther/command.txt",
-				"/home/d3sk3r/esptool/command.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton"
 			],
 			"find":
 			{
@@ -734,36 +726,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1941,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1237,
-										1237
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 703.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -807,7 +771,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
+			"position": "0,0,0,0,0,684,402,1350,758,2726,768",
 			"project": "",
 			"replace":
 			{

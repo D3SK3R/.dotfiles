@@ -47,9 +47,9 @@ URxvt.saveLines: 2000
 
 !!! COLORS !!!
 
-! special
+!! special
 URxvt*foreground:           #ffffff
-! if not blur = [65]
+!! if not blur = [65]
 !! for blur, use the following
 URxvt*background:          [30]#000000
 ! Material Grey (disable blurRadius and transparent options)
@@ -60,8 +60,8 @@ URxvt*background:          [30]#000000
 !URxvt.internalBorder:4
 
 URxvt.colorBD:              #ffffff
-URxvt.colorIT:              #000000
-URxvt.colorUL:              #000000
+URxvt.colorIT:              #1c64ff
+URxvt.colorUL:              #1c64ff
 URxvt.underlineColor:       #00ccff
 URxvt.highlightColor:       #00ccff
 URxvt.highlightTextColor:   #000000
@@ -76,7 +76,7 @@ URxvt.depth:32
 !URxvt.highlightTextColor: #000000
 
 *.color0: #000000
-*.color1: #1822d7
+*.color1: #1c64ff
 *.color2: #00ccff
 *.color3: #ff00cc
 *.color4: #0066ff
