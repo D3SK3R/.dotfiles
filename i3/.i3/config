@@ -118,7 +118,8 @@ bindsym $mod+s									exec --no-startup-id subl
 bindsym $mod+ctrl+l								exec --no-startup-id $HOME/.i3/layout_manager.sh
 # Lock screen
 #bindsym $mod+l                                  exec --no-startup-id blurlock
-bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
+#bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
+bindsym $mod+l                                  $exec betterlockscreen -l blur
 # kill focused window
 bindsym $mod+Shift+q 							kill
 # start program launcher
@@ -403,7 +404,7 @@ floating_modifier $mod
 ## AUTOSTART STUFF
 # Discord
 # betterdiscord
-exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
+exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord-canary
 #exec --no-startup-id discord
 # urxvt daemon
 exec --no-startup-id urxvtd -q -o -f
@@ -418,7 +419,7 @@ exec --no-startup-id megasync
 # Touchpad Gestures
 exec --no-startup-id libinput-gestures-setup restart
 # imwheel to control mouse scroll speed
-$exec imwheel
+#$exec imwheel
 # Albert Search
 exec --no-startup-id albert
 # Dunst notification
@@ -439,7 +440,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
-exec --no-startup-id xautolock -time 30 -locker /home/d3sk3r/.i3/lock.sh
+exec --no-startup-id xautolock -time 30 -locker "betterlockscreen -l blur"
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id manjaro-hello

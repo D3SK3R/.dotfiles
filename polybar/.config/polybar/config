@@ -128,10 +128,6 @@ font-separator ="Fantasque Sans Mono:pixelsize=10;5"
 ;scroll-down = i3wm-wsprev
 
 ;== Module Location ========================================================
-; Default:
-;modules-left = arch workspaces google github reddit facebook youtube
-;modules-right = mpd volume battery date powermenu
-
 ;modules-left = arrow_l1 arrow_l2 workspaces arrow_l3 mpd arrow_l42 arrow_lend
 ;modules-center = arrow_m11 arrow_m1 middle0 middle0 middle0 middle0 middle0 middle0 ;middle0 middle0 middle0 middle0 middle0 middle0 arrow_m2 arrow_m22
 ;modules-right = arrow_rend arrow_r42 cpu arrow_r5 ram arrow_r4 pavolume arrow_r3 battery arrow_r2 openweather arrow_r1 popup-calendar arrow_rr3 arrow_rr4
@@ -150,9 +146,9 @@ tray-scale = 1.0
 ;tray-maxsize = 15
 ;tray-offset-x = 2%
 ;tray-offset-y = 2%
-tray_output primary
+tray_output eDPI1
 # "xrandr | grep -Ew 'connected'" to see all connected display names
-;tray_output {display_name, e.g.: eDP1}
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
 ;tray-detached = false
 
 ;== Modules ========================================================
@@ -169,6 +165,8 @@ click-left = rofi -modi run,drun,window -show drun -location 1 -yoffset 60 -xoff
 click-right = rofi -modi run,drun,window -lines 10 -padding 20 -width 50 -location 1 -yoffset 60 -xoffset 28 -show drun -sidebar-mode -columns 3 -font "Fantasque Sans Mono 10"
 
 [module/workspaces]
+;https://github.com/polybar/polybar/wiki/Module:-xworkspaces
+
 type = internal/xworkspaces
 
 ; Only show workspaces defined on the same output as the bar
@@ -176,7 +174,7 @@ type = internal/xworkspaces
 ; Useful if you want to show monitor specific workspaces
 ; on different bars
 ;
-; Default: false
+;Default: false
 pin-workspaces = true
 enable-click = true
 enable-scroll = true
@@ -193,7 +191,7 @@ format-padding = 1
 ;icon-8 = 9;❾
 ;icon-9 = 10;❿
 
-icon-default = 
+;icon-default = 
 
 format = <label-state>
 format-background = ${color.bg}

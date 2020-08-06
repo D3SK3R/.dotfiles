@@ -402,6 +402,10 @@
 				"selected_items":
 				[
 					[
+						"asd",
+						"asdnkasd"
+					],
+					[
 						"set",
 						"set_timeout"
 					],
@@ -449,6 +453,30 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+					"settings":
+					{
+						"buffer_size": 276,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+					"settings":
+					{
+						"buffer_size": 1824,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+					"settings":
+					{
+						"buffer_size": 389,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -526,6 +554,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
+				"/home/d3sk3r/.config/polybar/config",
 				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
 				"/home/d3sk3r/.Xresources",
 				"/home/d3sk3r/.zshrcSTUFF TO ADD",
@@ -558,7 +588,6 @@
 				"/home/d3sk3r/.config/kateschemarc",
 				"/home/d3sk3r/.config/volumeicon/volumeicon",
 				"/home/d3sk3r/.config/lf/lfrc",
-				"/home/d3sk3r/.config/polybar/config",
 				"/home/d3sk3r/.config/clipit/clipitrc",
 				"/home/d3sk3r/idk.txt",
 				"/home/d3sk3r/.zshrc",
@@ -652,8 +681,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/Bash-Snippets/cheat/cheat"
 			],
 			"find":
 			{
@@ -726,8 +754,93 @@
 			"groups":
 			[
 				{
+					"selected": 2,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 276,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1824,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 720.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 389,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										35,
+										35
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],

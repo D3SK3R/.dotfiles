@@ -32,7 +32,7 @@ then
         eval $1
         ;;
       LOCK)
-        sleep 0.5;/home/d3sk3r/.i3/lock.sh;mpc -p 1100 seek 0 && mpc -p 1100 pause
+        sleep 0.5;betterlockscreen -l blur;mpc -p 1100 seek 0 && mpc -p 1100 pause
         ;;
       SLEEP)
         sleep 0.5;i3exit suspend
