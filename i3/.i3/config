@@ -432,6 +432,9 @@ exec_always --no-startup-id flashfocus
 #exec_always --no-startup-id /path/to/syncthing/binary -no-browser -home="/home/d3sk3r/.config/syncthing"
 exec --no-startup-id syncthing -no-browser
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# for picom
+$exec nitrogen --restore;sleep 1;picom -b
+# for compton
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
