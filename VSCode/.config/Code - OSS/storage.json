@@ -595,7 +595,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1469,9 +1470,9 @@
             "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/1568208463699",
             "uiState": {
                 "mode": 1,
-                "x": 1362,
+                "x": 2,
                 "y": 30,
-                "width": 1362,
+                "width": 1356,
                 "height": 736
             }
         },

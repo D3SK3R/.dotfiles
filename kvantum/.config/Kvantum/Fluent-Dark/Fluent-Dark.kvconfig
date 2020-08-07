@@ -66,6 +66,7 @@ no_inactiveness=false
 reduce_menu_opacity=0
 saturation=1.00
 shadowless_popup=true
+click_behavior=0
 
 [Focus]
 inherits=PanelButtonCommand
@@ -121,6 +122,8 @@ tint_on_mouseover=0
 transparent_pcmanfm_view=false
 opaque_colors=true
 scroll_jump_workaround=false
+centered_forms=true
+kinetic_scrolling=false
 
 [PanelButtonCommand]
 frame.element=button
