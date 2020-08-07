@@ -51,5 +51,6 @@ Width 1360=555
 Width 1366=555
 
 [ViewPropertiesDialog]
-Height 768=304
+Height 768=314
+Width 1360=384
 Width 1366=357
