@@ -530,6 +530,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
@@ -656,8 +657,7 @@
 				"/home/d3sk3r/j7/TWRP/Prometheus",
 				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
-				"/home/d3sk3r/Havoc-OS-v2.9-20191007-on7xelte-Official/META-INF/com/google/android/updater-script"
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall"
 			],
 			"find":
 			{
@@ -775,7 +775,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,684,34,1350,758,2726,768",
+			"position": "0,0,0,0,0,684,402,1350,758,2726,768",
 			"project": "",
 			"replace":
 			{
