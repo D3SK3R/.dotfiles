@@ -118,7 +118,6 @@ font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
 font-5 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
 font-6 = "Font Awesome 5 Brands:pixelsize=10;3"
 font-separator ="Fantasque Sans Mono:pixelsize=10;5"
-#font-2 = Weather Icons:size=12;1
 
 ;==========================================================
 
@@ -129,15 +128,11 @@ font-separator ="Fantasque Sans Mono:pixelsize=10;5"
 ;scroll-down = i3wm-wsprev
 
 ;== Module Location ========================================================
-; Default:
-;modules-left = arch workspaces google github reddit facebook youtube
-;modules-right = mpd volume battery date powermenu
-
 ;modules-left = arrow_l1 arrow_l2 workspaces arrow_l3 mpd arrow_l42 arrow_lend
 ;modules-center = arrow_m11 arrow_m1 middle0 middle0 middle0 middle0 middle0 middle0 ;middle0 middle0 middle0 middle0 middle0 middle0 arrow_m2 arrow_m22
 ;modules-right = arrow_rend arrow_r42 cpu arrow_r5 ram arrow_r4 pavolume arrow_r3 battery arrow_r2 openweather arrow_r1 popup-calendar arrow_rr3 arrow_rr4
 
-modules-left = workspaces i3 mpd
+modules-left = workspaces i3 mpd spotify
 modules-center =
 modules-right = network_wlan0 network_eth0 cpu ram pavolume battery openweather popup-calendar 
 
@@ -151,164 +146,12 @@ tray-scale = 1.0
 ;tray-maxsize = 15
 ;tray-offset-x = 2%
 ;tray-offset-y = 2%
-tray_output primary
+tray_output eDPI1
 # "xrandr | grep -Ew 'connected'" to see all connected display names
-;tray_output {display_name, e.g.: eDP1}
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
 ;tray-detached = false
 
 ;== Modules ========================================================
-
-[module/sep]
-type = custom/text
-content = " | "
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.bg}
-
-[module/blank]
-type = custom/text
-content = "        "
-content-font = 2
-content-foreground = ${color.bg}
-content-background = ${color.bg}
-
-; MIDDLE --------
-
-[module/middle0]
-type = custom/text
-content = "◥"
-content-font = 2
-content-foreground = ${color.bg}
-content-background = ${color.bg}
-
-[module/arrow_m1]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.bg} 
-content-background = ${color.fg}
-
-[module/arrow_m2]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.bg}
-content-background = ${color.fg}
-
-[module/arrow_m11]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg} 
-content-background = ${color.trans}
-
-[module/arrow_m22]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.trans}
-
-[module/arrow_lend]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.trans}
-
-[module/arrow_rend]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg} 
-content-background = ${color.trans}
-
-; LEFT --------
-[module/arrow_l1]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = #181B28
-content-background = ${color.fg}
-
-[module/arrow_l2]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.bg}
-
-[module/arrow_l3]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.black}
-content-background = ${color.fg}
-
-[module/arrow_l42]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.bg}
-content-background = ${color.fg}
-
-; RIGHT ---------
-[module/arrow_r1]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.black}
-content-background = ${color.fg}
-
-[module/arrow_r2]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.black}
-
-[module/arrow_r3]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.black}
-content-background = ${color.fg}
-
-[module/arrow_r4]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.black}
-
-[module/arrow_r5]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.black}
-content-background = ${color.fg}
-
-[module/arrow_rr3]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.fg}
-content-background = ${color.bg}
-
-[module/arrow_rr4]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = #181B28
-content-background = ${color.fg}
-
-[module/arrow_r42]
-type = custom/text
-content = ""
-content-font = 2
-content-foreground = ${color.bg} 
-content-background = ${color.fg}
-
 [module/arch]
 type = custom/text
 content = 
@@ -322,6 +165,8 @@ click-left = rofi -modi run,drun,window -show drun -location 1 -yoffset 60 -xoff
 click-right = rofi -modi run,drun,window -lines 10 -padding 20 -width 50 -location 1 -yoffset 60 -xoffset 28 -show drun -sidebar-mode -columns 3 -font "Fantasque Sans Mono 10"
 
 [module/workspaces]
+;https://github.com/polybar/polybar/wiki/Module:-xworkspaces
+
 type = internal/xworkspaces
 
 ; Only show workspaces defined on the same output as the bar
@@ -329,7 +174,7 @@ type = internal/xworkspaces
 ; Useful if you want to show monitor specific workspaces
 ; on different bars
 ;
-; Default: false
+;Default: false
 pin-workspaces = true
 enable-click = true
 enable-scroll = true
@@ -346,7 +191,7 @@ format-padding = 1
 ;icon-8 = 9;❾
 ;icon-9 = 10;❿
 
-icon-default = 
+;icon-default = 
 
 format = <label-state>
 format-background = ${color.bg}
@@ -433,22 +278,6 @@ content-foreground = ${color.fg}
 click-left = xdg-open https://www.youtube.com/
 
 ;==========================================================
-;
-;[module/mpd]
-;type = internal/mpd
-;format-online = <toggle> <label-song> 
-;format-online =  <label-song> 
-;alt icons =   
-;format-online-foreground = ${color.ashade8}
-;format-online-background = ${color.shade8}
-;format-online-padding = 2
-;
-;icon-play = 喇
-;icon-pause = 
-;
-;label-song-maxlen = 25
-;label-song-ellipsis = true
-
 [module/mpd]
 type = internal/mpd
 
@@ -557,6 +386,17 @@ bar-progress-empty = 
 bar-progress-empty-foreground = #ffffff
 
 ;==========================================================
+
+[module/spotify]
+#https://github.com/Jvanrhijn/polybar-spotify
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+#exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
+# icons for play/pause
+exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
+#format-underline = #1db954
 
 [module/pkg]
 type = custom/script
@@ -726,7 +566,7 @@ type = custom/script
 exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
 interval = 100
 #label-font = 2
-format-prefix = "  "
+#format-prefix = "  "
 #format-underline = ${color.fg}
 format-foreground = ${color.fg}
 format-background = ${color.bg}
@@ -750,7 +590,7 @@ interface = wlan0
 ;label-connected-foreground = #eefafafa
 
 ;format-connected = " <ramp-signal> <label-connected>"
-format-connected = "<ramp-signal>  wlan0:  <label-connected>"
+format-connected = "<ramp-signal> wlan0: <label-connected>"
 format-packetloss = <animation-packetloss>
 ;label-connected = %ifname% - %downspeed%
 ;label-connected = "%{A1:networkmanager_dmenu:}%ifname% - %downspeed%%{A} "
@@ -858,6 +698,166 @@ content = 
 click-left = nm-connection-editor
 format-foreground = ${color.fg}
 format-background = ${color.bg}
+
+; Separators and 'arrows'
+
+[module/sep]
+type = custom/text
+content = " | "
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/sep-tray]
+type = custom/text
+content = "%{T3} %{T-}"
+content-font = 3
+content-foreground = #1C98C9
+content-background = #287A4F
+
+[module/blank]
+type = custom/text
+content = "        "
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.bg}
+
+; MIDDLE --------
+
+[module/middle0]
+type = custom/text
+content = "◥"
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.bg}
+
+[module/arrow_m1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg} 
+content-background = ${color.fg}
+
+[module/arrow_m2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.fg}
+
+[module/arrow_m11]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg} 
+content-background = ${color.trans}
+
+[module/arrow_m22]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.trans}
+
+[module/arrow_lend]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.trans}
+
+[module/arrow_rend]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg} 
+content-background = ${color.trans}
+
+; LEFT --------
+[module/arrow_l1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = #181B28
+content-background = ${color.fg}
+
+[module/arrow_l2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/arrow_l3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_l42]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg}
+content-background = ${color.fg}
+
+; RIGHT ---------
+[module/arrow_r1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_r2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.black}
+
+[module/arrow_r3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_r4]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.black}
+
+[module/arrow_r5]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.black}
+content-background = ${color.fg}
+
+[module/arrow_rr3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.fg}
+content-background = ${color.bg}
+
+[module/arrow_rr4]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = #181B28
+content-background = ${color.fg}
+
+[module/arrow_r42]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${color.bg} 
+content-background = ${color.fg}
 
 
 

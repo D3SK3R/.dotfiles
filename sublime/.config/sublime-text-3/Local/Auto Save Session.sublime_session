@@ -1,0 +1,1845 @@
+{
+	"folder_history":
+	[
+		"/home/d3sk3r/Minecraft"
+	],
+	"last_version": 3211,
+	"last_window_id": 26,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 724.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/config",
+				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
+				"/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+				"/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
+				"/home/d3sk3r/.config/polybar/config",
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.zshrcSTUFF TO ADD",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
+				"/home/d3sk3r/.config/kcalcrc",
+				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/pavolume/pavolume",
+				"/home/d3sk3r/.config/polybar/scripts/weather.py",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
+				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
+				"/home/d3sk3r/mic.txt",
+				"/home/d3sk3r/MEGA/loml 8.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/.config/mimeapps.list",
+				"/home/d3sk3r/.config/khotkeysrc",
+				"/home/d3sk3r/.config/libinput-gestures.conf",
+				"/home/d3sk3r/.config/kateschemarc",
+				"/home/d3sk3r/.config/volumeicon/volumeicon",
+				"/home/d3sk3r/.config/lf/lfrc",
+				"/home/d3sk3r/.config/clipit/clipitrc",
+				"/home/d3sk3r/idk.txt",
+				"/home/d3sk3r/.zshrc",
+				"/home/d3sk3r/.config/cava/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
+				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
+				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
+				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
+				"/home/d3sk3r/ (1).zshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
+				"/home/d3sk3r/soadm.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
+				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
+				"/home/d3sk3r/PreMiD/pkg.ts",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/mail.txt",
+				"/home/d3sk3r/WinterTheme.css",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
+				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
+				"/home/d3sk3r/ok.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
+				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
+				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
+				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
+				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
+				"/home/d3sk3r/192.168.15.48",
+				"/home/d3sk3r/Stuff/battery.txt",
+				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
+				"/home/d3sk3r/links",
+				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/SO/SO-14_11.txt",
+				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
+				"/home/d3sk3r/cod.txt",
+				"/home/d3sk3r/crashlands and inferno save.txt",
+				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
+				"/home/d3sk3r/dspti_malware.txt",
+				"/home/d3sk3r/dspti_redeEletrica.txt",
+				"/home/d3sk3r/dspti_bios.txt",
+				"/home/d3sk3r/fzr.txt",
+				"/home/d3sk3r/bibliografiaMatematica.txt",
+				"/home/d3sk3r/Stuff/SO-31_10.txt",
+				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
+				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
+				"/home/d3sk3r/Mari Izumi/fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
+				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
+				"/home/d3sk3r/Stuff/SO-10_10.txt",
+				"/home/d3sk3r/SO-10_10.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
+				"/home/d3sk3r/j7/TWRP/Prometheus",
+				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"battery",
+					"color",
+					"i3",
+					"works",
+					"workspaces",
+					"i3",
+					"tint",
+					"open",
+					"plug",
+					"zshrc",
+					"❯",
+					"time",
+					"weather",
+					"workspace",
+					"font",
+					"pavolume",
+					"cpu",
+					"font",
+					"mpd",
+					"cpu",
+					"network",
+					"offset",
+					"calendar",
+					"openvpn",
+					"ta.key",
+					"certificate",
+					"pem",
+					"config",
+					"office",
+					"wps",
+					"Welcome D3SK3R",
+					"test",
+					"background",
+					"30px",
+					"net",
+					"network",
+					"syncthing",
+					"_POST",
+					"action",
+					"login",
+					"action",
+					"lock",
+					"opa"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 77.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 666.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "[module/popup-calendar]\ntype = custom/script\nexec = ~/.config/polybar/scripts/popup-calendar.sh\ninterval = 5\nclick-left = ~/.config/polybar/scripts/popup-calendar.sh --popup\n#format-underline = ${colors.black}\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\n\n[module/arch]\ntype = custom/text\ncontent = \n;alt icons = \ncontent-padding = 2\ncontent-background = ${colors.shade1}\ncontent-foreground = ${colors.fg}\n;click-left = rmenu_1\n;click-right = rmenu_wi_1\nclick-left = rofi -modi run,drun,window -show drun -location 1 -yoffset 60 -xoffset 28 -line-padding 4 -columns 1 -width 25 -lines 10 -padding 25 -hide-scrollbar -show-icons -drun-icon-theme \"Papirus\" -font \"Fantasque Sans Mono 10\"\nclick-right = rofi -modi run,drun,window -lines 10 -padding 20 -width 50 -location 1 -yoffset 60 -xoffset 28 -show drun -sidebar-mode -columns 3 -font \"Fantasque Sans Mono 10\"\n\n[module/spotify]\n#https://github.com/Jvanrhijn/polybar-spotify\ntype = custom/script\ninterval = 1\nformat-prefix = \" \"\nformat = <label>\n#exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55\n# icons for play/pause\nexec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55\n#format-underline = #1db954\n\nmodule/mpd]\ntype = internal/mpd\n\n; Host where mpd is running (either ip or domain name)\n; Can also be the full path to a unix socket where mpd is running.\nhost = localhost\nport = 1100\n;password = \n\n; Seconds to sleep between progressbar/song timer sync\n; Default: 1\ninterval = 1\n\n; \n; Available tags:\n;   <label-song> (default)\n;   <label-time>\n;   <bar-progress>\n;   <toggle> - gets replaced with <icon-(pause|play)>\n;   <toggle-stop> - gets replaced with <icon-(stop|play)>\n;   <icon-random>\n;   <icon-repeat>\n;   <icon-repeatone> (deprecated)\n;   <icon-single> - Toggle playing only a single song. Replaces <icon-repeatone>\n;   <icon-consume>\n;   <icon-prev>\n;   <icon-stop>\n;   <icon-play>\n;   <icon-pause>\n;   <icon-next>\n;   <icon-seekb>\n;   <icon-seekf>\nformat-online = \"<icon-pause> <label-time> <label-song> \"\n;format-online = \"<icon-prev> <icon-pause> <icon-next> <label-time> <label-song> \"\n;format-playing = ${self.format-online}\nformat-paused = \"<icon-play> <label-time> <label-song> \"\n;forma-paused = \"<icon-prev> <icon-play> <icon-next> <label-time> <label-song> \"\nformat-stopped = \"<icon-play> \"\n#format-online-underline = #FFFFFF\n#format-paused-underline = #FFFFFF\n#format-stopped-underline = #FFFFFF\n\nformat-online-foreground = ${colors.fg}\nformat-online-background = ${colors.bg}\n;icon-pause-foreground = ${colors.black}\n;icon-pause-background = ${colors.mid}\n;label-time-foreground = ${colors.black}\n;label-time-background = ${colors.mid}\n;label-song-foreground = ${colors.black}\n;label-song-background = ${colors.mid}\n\n; Available tags:\n;   <label-offline>\n;format-offline = <label-offline>\n\n; Available tokens:\n;   %artist%\n;   %album-artist%\n;   %album%\n;   %date%\n;   %title%\n; Default: %artist% - %title%\nlabel-song = %artist% - %title%\nlabel-song-maxlen = 40\n\n; Available tokens:\n;   %elapsed%\n;   %total%\n; Default: %elapsed% / %total%\nlabel-time = %elapsed%  %total%\n\n; Available tokens:\n;   None\n;label-offline = mpd is offline\n\n; Only applies if <icon-X> is used \nicon-play = \"   \"\nicon-pause = \"   \"\nicon-stop = \"   \"\nicon-prev = \"   \"\nicon-next = \"   \"\nicon-seekb = ⏪\nicon-seekf = ⏩\nicon-random = 🔀\nicon-repeat = 🔁\nicon-repeatone = 🔂\nicon-single = 🔂\n;icon-consume = ✀\n\n; Used to display the state of random/repeat/repeatone/single\n; Only applies if <icon-[random|repeat|repeatone|single]> is used\ntoggle-on-foreground = #ff\ntoggle-off-foreground = #55\n\n; Only applies if <bar-progress> is used\n;bar-progress-width = 45\n;bar-progress-indicator = =\n;bar-progress-fill = -\n;bar-progress-empty = -\n\nbar-progress-indicator = \nbar-progress-width = 20\nbar-progress-foreground-0 = ${colors.fg}\nbar-progress-fill = \nbar-progress-empty = \nbar-progress-empty-foreground = #ffffff\n\n[module/workspaces]\n;https://github.com/polybar/polybar/wiki/Module:-xworkspaces\n\ntype = internal/xworkspaces\n\n; Only show workspaces defined on the same output as the bar\n;\n; Useful if you want to show monitor specific workspaces\n; on different bars\n;\n;Default: false\npin-workspaces = true\nenable-click = true\nenable-scroll = true\nformat-padding = 1\n\n;icon-0 = 1;❶\n;icon-1 = 2;❷\n;icon-2 = 3;❸\n;icon-3 = 4;❹\n;icon-4 = 5;❺\n;icon-5 = 6;❻\n;icon-6 = 7;❼\n;icon-7 = 8;❽\n;icon-8 = 9;❾\n;icon-9 = 10;❿\n\n;icon-default = \n\nformat = <label-state>\nformat-background = ${colors.bg}\nlabel-active = \"\"\nlabel-occupied = \"\"\nlabel-urgent = \"\"\nlabel-empty = \"\"\n\nlabel-empty-padding = 1\nlabel-active-padding = 1\nlabel-urgent-padding = 1\nlabel-occupied-padding = 1\n\nlabel-empty-foreground = ${colors.fg}\nlabel-active-foreground = ${colors.fg}\nlabel-urgent-foreground = ${colors.urgent}\nlabel-occupied-foreground = ${colors.occupied}\n\n[module/pavolume]\ntype = custom/script\ntail = true\nlabel = \" %output% \"\nexec = ~/.config/polybar/scripts/pavolume.sh --listen\nclick-right = exec pavucontrol\nclick-left = ~/.config/polybar/scripts/pavolume.sh --togmute\n#scroll-up = ~/.config/polybar/scripts/pavolume.sh --up\n#scroll-down = ~/.config/polybar/scripts/pavolume.sh --down\n#format-underline = ${colors.fg}\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\n\n[module/pkg]\ntype = custom/script\nexec = $HOME/.config/polybar/updates.sh\nformat-background = ${colors.shade7}\nformat-padding = 2\ntail = true\n\n[module/cpu]\ntype = internal/cpu\ninterval = 1\nlabel = \"   %percentage%% \"\nlabel-foreground = ${colors.fg}\nlabel-background = ${colors.bg}\n\n;[module/cpu_symbol]\n;type = custom/text\n;content = \" \"\n;content-font = 4\n;content-foreground = ${colors.fg}\n;content-background = ${colors.shade7}\n\n[module/ram]\n;https://github.com/jaagr/polybar/wiki/Module:-memory\ntype = internal/memory\ninterval = 1\n; Available tokens:\n;   %percentage_used% (default)\n;   %percentage_free%\n;   %gb_used%\n;   %gb_free%\n;   %gb_total%\n;   %mb_used%\n;   %mb_free%\n;   %mb_total%\nlabel = %gb_used%\nbar-used-indicator =\nbar-used-width = 1\nbar-used-foreground-0 = ${colors.fg}\nbar-used-fill = \nbar-used-empty = \nbar-used-empty-foreground = ${colors.fg}\n\nformat = \"<label> <bar-used>\"\nformat-prefix = \"   \"\nformat-prefix-foreground = ${colors.fg}\n#format-underline = ${colors.bg}\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\n\n[module/volume]\ntype = internal/alsa\nformat-volume = <ramp-volume> <label-volume>\nformat-volume-padding = 2\nformat-volume-background = ${colors.shade5}\nlabel-volume = %percentage%%\nlabel-muted = \"婢\"\nlabel-muted-background = ${colors.shade5}\nlabel-muted-padding = 2\n\nramp-volume-0 = 奄\nramp-volume-1 = 奄\nramp-volume-2 = 奔\nramp-volume-3 = 奔\nramp-volume-4 = 墳\nramp-volume-5 = 墳\nramp-volume-6 = 墳\n\n[module/battery]\nadapter                                 = AC0\nbattery                                 = BAT1\n\nformat-charging                         = \"<ramp-capacity> <label-charging>\"\nformat-charging-foreground              = ${colors.fg}\n\nformat-discharging                      = <ramp-capacity><label-discharging>\nformat-discharging-foreground           = #ffffff\n\nformat-full-foreground                  = ${colors.fg}\n\n\n\nfull-at                                 = 99\n\n;label-charging                          = \nlabel-charging                          = \" %percentage%%\"\nformat-charging-padding                 = 1\n\n;label-discharging \nlabel-discharging                       = \" %percentage%%\"\nformat-discharging-padding              = 1\n\n;label-full   \nlabel-full                        \t\t= \" %percentage%%\"\nformat-full-padding                     = 1\n\npoll-interval                           = 5\n\ntype                                    = internal/battery\n\nramp-capacity-0                         = \nramp-capacity-1                         = \nramp-capacity-2                         = \nramp-capacity-3                         = \nramp-capacity-4                         = \nramp-capacity-5                         = \nramp-capacity-6                         = \nramp-capacity-7                         = \nramp-capacity-8                         = \nramp-capacity-9                         = \n\n[module/batteryOLD]\n;https://github.com/jaagr/polybar/wiki/Module:-battery\ntype = internal/battery\nbattery = BAT1\nadapter = AC0\nfull-at = 99\n\nformat-charging = \" <animation-charging> <label-charging>\"\nlabel-charging = \"%percentage%%  \"\nlabel-charging-foreground = ${colors.fg}\nlabel-charging-background = ${colors.bg}\nformat-charging-foreground = ${colors.fg}\nformat-charging-background = ${colors.bg}\n#format-charging-underline = ${colors.black}\n\nformat-discharging = \" <ramp-capacity> <label-discharging>\"\nlabel-discharging = \"%percentage%% \"\nlabel-discharging-foreground = ${colors.fg}\nlabel-discharging-background = ${colors.bg}\n#format-discharging-underline = ${colors.black}\nformat-discharging-foreground = ${colors.fg}\nformat-discharging-background = ${colors.bg}\n\nformat-full-prefix = \" \"\nformat-full-prefix-foreground = ${colors.fg}\nformat-full-prefix-background = ${colors.bg}\n#format-full-underline = ${colors.black}\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\nformat-full-background = ${colors.bg}\n\nramp-capacity-0 = \"  \"\nramp-capacity-1 = \"  \"\nramp-capacity-2 = \"  \"\nramp-capacity-3 = \"  \"\nramp-capacity-4 = \"  \"\nramp-capacity-foreground = ${colors.fg}\n\nanimation-charging-0 =\"    \"\nanimation-charging-1 = \"    \"\nanimation-charging-2 = \"    \"\nanimation-charging-3 = \"    \"\nanimation-charging-4 = \"    \"\nanimation-charging-foreground = ${colors.fg}\nanimation-charging-framerate = 750\n\n[module/battery_text]\ninterval = 5\ntype = internal/battery\nbattery = BAT1\nadapter = AC\nfull-at = 100\n\nformat-charging = <label-charging>\nformat-charging-foreground = ${colors.fg}\nformat-charging-background = ${colors.shade4}\nlabel-charging = \" %percentage%%\"\n\nformat-discharging = <label-discharging>\nformat-discharging-foreground = ${colors.fg}\nformat-discharging-background = ${colors.shade4}\nlabel-discharging-foreground = ${colors.fg}\nlabel-discharging = \" %percentage%%\"\n\nformat-full = <label-full>\nformat-full-foreground = ${colors.fg}\nformat-full-background = ${colors.shade4}\nlabel-full = \" %percentage%%\"\n\n[module/weather]\ntype = custom/script\ninterval = 10\nformat = \"<label> \" \nformat-prefix = \"  \"\nformat-prefix-foreground = ${colors.fg}\n#format-underline = ${colors.fg}\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\nexec = python -u ~/.config/polybar/scripts/weather.py\ntail = true\nformat-prefix-maxlen = 3\nformat-label-maxlen = 3\n\n[module/nm-launcher]\ntype = custom/text\ncontent = \nclick-left = nm-connection-editor\nformat-foreground = ${colors.fg}\nformat-background = ${colors.bg}\n\n[module/network_wlan0]\ntype = internal/network\n;interface = ${env:interface:}\ninterface = wlan0\n;interface = eth0\n\n; Available tokens:\n;   %ifname%    [wireless+wired]\n;   %local_ip%  [wireless+wired]\n;   %essid%     [wireless]\n;   %signal%    [wireless]\n;   %upspeed%   [wireless+wired]\n;   %downspeed% [wireless+wired]\n;   %linkspeed% [wired]\n; Default: %ifname% %local_ip%\n;label-connected = %essid% %downspeed:2%\n;label-connected-foreground = #eefafafa\n\n;format-connected = \" <ramp-signal> <label-connected>\"\nformat-connected = \"<ramp-signal> wlan0: <label-connected>\"\nformat-packetloss = <animation-packetloss>\n;label-connected = %ifname% - %downspeed%\n;label-connected = \"%{A1:networkmanager_dmenu:}%ifname% - %downspeed%%{A} \"\nlabel-connected = \"%{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n;label-connected = \" %{A1:networkmanager_dmenu:}%upspeed%%{A}  %{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n;label-connected = \"%essid% %{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n\nramp-signal-0 = \" \"\nramp-signal-0-foreground = ${colors.fg}\nramp-signal-1 = \" \"\nramp-signal-1-foreground = ${colors.fg}\nramp-signal-2 = \" \"\nramp-signal-2-foreground = ${colors.fg}\nramp-signal-3 = \" \"\nramp-signal-3-foreground = ${colors.fg}\nramp-signal-4 = \" \"\nramp-signal-4-foreground = ${colors.fg}\nramp-signal-5 = \" \"\nramp-signal-5-foreground = ${colors.fg}\n\nanimation-packetloss-0 = ⚠\nanimation-packetloss-0-foreground = #ffa64c\nanimation-packetloss-1 = \nanimation-packetloss-1-foreground = #000000\nanimation-packetloss-framerate = 500\n\n[module/network_eth0]\ntype = internal/network\n;interface = ${env:interface:}\ninterface = eth0\n\n; Available tokens:\n;   %ifname%    [wireless+wired]\n;   %local_ip%  [wireless+wired]\n;   %essid%     [wireless]\n;   %signal%    [wireless]\n;   %upspeed%   [wireless+wired]\n;   %downspeed% [wireless+wired]\n;   %linkspeed% [wired]\n; Default: %ifname% %local_ip%\n;label-connected = %essid% %downspeed:2%\n;label-connected-foreground = #eefafafa\n\n;format-connected = \" <ramp-signal> <label-connected>\"\nformat-connected = \"<ramp-signal> eth0: <label-connected>\"\nformat-packetloss = <animation-packetloss>\n;label-connected = %ifname% - %downspeed%\n;label-connected = \"%{A1:networkmanager_dmenu:}%ifname% - %downspeed%%{A} \"\nlabel-connected = \"%{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n;label-connected = \" %{A1:networkmanager_dmenu:}%upspeed%%{A}  %{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n;label-connected = \"%essid% %{A1:networkmanager_dmenu:}%downspeed%%{A} \"\n\n\nramp-signal-0 = \" \"\nramp-signal-0-foreground = ${colors.fg}\nramp-signal-1 = \" \"\nramp-signal-1-foreground = ${colors.fg}\nramp-signal-2 = \" \"\nramp-signal-2-foreground = ${colors.fg}\nramp-signal-3 = \" \"\nramp-signal-3-foreground = ${colors.fg}\nramp-signal-4 = \" \"\nramp-signal-4-foreground = ${colors.fg}\nramp-signal-5 = \" \"\nramp-signal-5-foreground = ${colors.fg}\n\nanimation-packetloss-0 = ⚠\nanimation-packetloss-0-foreground = #ffa64c\nanimation-packetloss-1 = \nanimation-packetloss-1-foreground = #000000\nanimation-packetloss-framerate = 500\n\n[module/date]\ntype = internal/date\ninterval = 30\nlabel =  \"%time%\"\nlabel-padding = 2\nlabel-background = ${colors.black}\n;time =  %I:%M %p\ntime =  %H:%M\ntime-alt =  %d-%m-%Y\n;time-alt =  %Y-%m-%d\n\n[module/powermenu]\ntype = custom/text\ncontent = 襤\ncontent-padding = 2\ncontent-background = ${colors.shade2}\ncontent-foreground = ${colors.fg}\nclick-left = pmenu_1\nclick-right = pmenu_1\n\n\n; Separators and 'arrows'\n\n[module/sep]\ntype = custom/text\ncontent = \" | \"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.bg}\n\n[module/sep-tray]\ntype = custom/text\ncontent = \"%{T3} %{T-}\"\ncontent-font = 3\ncontent-foreground = #1C98C9\ncontent-background = #287A4F\n\n[module/blank]\ntype = custom/text\ncontent = \"        \"\ncontent-font = 2\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.bg} \n\n[module/middle0]\ntype = custom/text\ncontent = \"◥\"\ncontent-font = 2\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.bg}\n\n[module/arrow_m1]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.bg} \ncontent-background = ${colors.fg}\n\n[module/arrow_m2]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.fg}\n\n[module/arrow_m11]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg} \ncontent-background = ${colors.trans}\n\n[module/arrow_m22]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.trans}\n\n[module/arrow_lend]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.trans}\n\n[module/arrow_rend]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg} \ncontent-background = ${colors.trans}\n\n; LEFT --------\n[module/arrow_l1]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = #181B28\ncontent-background = ${colors.fg}\n\n[module/arrow_l2]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.bg}\n\n[module/arrow_l3]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.black}\ncontent-background = ${colors.fg}\n\n[module/arrow_l42]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.fg}\n\n; RIGHT ---------\n[module/arrow_r1]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.black}\ncontent-background = ${colors.fg}\n\n[module/arrow_r2]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.black}\n\n[module/arrow_r3]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.black}\ncontent-background = ${colors.fg}\n\n[module/arrow_r4]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.black}\n\n[module/arrow_r5]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.black}\ncontent-background = ${colors.fg}\n\n[module/arrow_rr3]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.bg}\n\n[module/arrow_rr4]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = #181B28\ncontent-background = ${colors.fg}\n\n[module/arrow_r42]\ntype = custom/text\ncontent = \"\"\ncontent-font = 2\ncontent-foreground = ${colors.bg} \ncontent-background = ${colors.fg}\n\n; apps\n;[module/google]\n;type = custom/text\n;content = \n;content-padding = 2\n;content-foreground = ${colors.fg-alt}\n;click-left = xdg-open https://www.google.com/ \n\n[module/github]\ntype = custom/text\ncontent = \ncontent-padding = 2\ncontent-foreground = ${colors.fg}\nclick-left = xdg-open https://www.github.com/ \n\n[module/reddit]\ntype = custom/text\ncontent = \ncontent-padding = 2\ncontent-foreground = ${colors.fg}\nclick-left = xdg-open https://www.reddit.com/\n\n[module/facebook]\ntype = custom/text\ncontent = \ncontent-padding = 2\ncontent-foreground = ${colors.fg}\nclick-left = xdg-open https://www.facebook.com/\n\n[module/youtube]\ntype = custom/text\ncontent = \ncontent-padding = 2\ncontent-foreground = ${colors.fg}\nclick-left = xdg-open https://www.youtube.com/",
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
+					"file_size": 16911,
+					"file_write_time": 132412578158009371,
+					"settings":
+					{
+						"buffer_size": 18088,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/config",
+				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
+				"/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+				"/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
+				"/home/d3sk3r/.config/polybar/config",
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.zshrcSTUFF TO ADD",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
+				"/home/d3sk3r/.config/kcalcrc",
+				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/pavolume/pavolume",
+				"/home/d3sk3r/.config/polybar/scripts/weather.py",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
+				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
+				"/home/d3sk3r/mic.txt",
+				"/home/d3sk3r/MEGA/loml 8.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/.config/mimeapps.list",
+				"/home/d3sk3r/.config/khotkeysrc",
+				"/home/d3sk3r/.config/libinput-gestures.conf",
+				"/home/d3sk3r/.config/kateschemarc",
+				"/home/d3sk3r/.config/volumeicon/volumeicon",
+				"/home/d3sk3r/.config/lf/lfrc",
+				"/home/d3sk3r/.config/clipit/clipitrc",
+				"/home/d3sk3r/idk.txt",
+				"/home/d3sk3r/.zshrc",
+				"/home/d3sk3r/.config/cava/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
+				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
+				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
+				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
+				"/home/d3sk3r/ (1).zshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
+				"/home/d3sk3r/soadm.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
+				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
+				"/home/d3sk3r/PreMiD/pkg.ts",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/mail.txt",
+				"/home/d3sk3r/WinterTheme.css",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
+				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
+				"/home/d3sk3r/ok.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
+				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
+				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
+				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
+				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
+				"/home/d3sk3r/192.168.15.48",
+				"/home/d3sk3r/Stuff/battery.txt",
+				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
+				"/home/d3sk3r/links",
+				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/SO/SO-14_11.txt",
+				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
+				"/home/d3sk3r/cod.txt",
+				"/home/d3sk3r/crashlands and inferno save.txt",
+				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
+				"/home/d3sk3r/dspti_malware.txt",
+				"/home/d3sk3r/dspti_redeEletrica.txt",
+				"/home/d3sk3r/dspti_bios.txt",
+				"/home/d3sk3r/fzr.txt",
+				"/home/d3sk3r/bibliografiaMatematica.txt",
+				"/home/d3sk3r/Stuff/SO-31_10.txt",
+				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
+				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
+				"/home/d3sk3r/Mari Izumi/fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
+				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
+				"/home/d3sk3r/Stuff/SO-10_10.txt",
+				"/home/d3sk3r/SO-10_10.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
+				"/home/d3sk3r/j7/TWRP/Prometheus",
+				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"battery",
+					"color",
+					"i3",
+					"works",
+					"workspaces",
+					"i3",
+					"tint",
+					"open",
+					"plug",
+					"zshrc",
+					"❯",
+					"time",
+					"weather",
+					"workspace",
+					"font",
+					"pavolume",
+					"cpu",
+					"font",
+					"mpd",
+					"cpu",
+					"network",
+					"offset",
+					"calendar",
+					"openvpn",
+					"ta.key",
+					"certificate",
+					"pem",
+					"config",
+					"office",
+					"wps",
+					"Welcome D3SK3R",
+					"test",
+					"background",
+					"30px",
+					"net",
+					"network",
+					"syncthing",
+					"_POST",
+					"action",
+					"login",
+					"action",
+					"lock",
+					"opa"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 18088,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8237,
+										8237
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2732.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 77.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 25,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/d3sk3r/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 14030,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/config",
+				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
+				"/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+				"/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
+				"/home/d3sk3r/.config/polybar/config",
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.zshrcSTUFF TO ADD",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
+				"/home/d3sk3r/.config/kcalcrc",
+				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/pavolume/pavolume",
+				"/home/d3sk3r/.config/polybar/scripts/weather.py",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
+				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
+				"/home/d3sk3r/mic.txt",
+				"/home/d3sk3r/MEGA/loml 8.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/.config/mimeapps.list",
+				"/home/d3sk3r/.config/khotkeysrc",
+				"/home/d3sk3r/.config/libinput-gestures.conf",
+				"/home/d3sk3r/.config/kateschemarc",
+				"/home/d3sk3r/.config/volumeicon/volumeicon",
+				"/home/d3sk3r/.config/lf/lfrc",
+				"/home/d3sk3r/.config/clipit/clipitrc",
+				"/home/d3sk3r/idk.txt",
+				"/home/d3sk3r/.zshrc",
+				"/home/d3sk3r/.config/cava/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
+				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
+				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
+				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
+				"/home/d3sk3r/ (1).zshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
+				"/home/d3sk3r/soadm.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
+				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
+				"/home/d3sk3r/PreMiD/pkg.ts",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/mail.txt",
+				"/home/d3sk3r/WinterTheme.css",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
+				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
+				"/home/d3sk3r/ok.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
+				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
+				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
+				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
+				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
+				"/home/d3sk3r/192.168.15.48",
+				"/home/d3sk3r/Stuff/battery.txt",
+				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
+				"/home/d3sk3r/links",
+				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/SO/SO-14_11.txt",
+				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
+				"/home/d3sk3r/cod.txt",
+				"/home/d3sk3r/crashlands and inferno save.txt",
+				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
+				"/home/d3sk3r/dspti_malware.txt",
+				"/home/d3sk3r/dspti_redeEletrica.txt",
+				"/home/d3sk3r/dspti_bios.txt",
+				"/home/d3sk3r/fzr.txt",
+				"/home/d3sk3r/bibliografiaMatematica.txt",
+				"/home/d3sk3r/Stuff/SO-31_10.txt",
+				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
+				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
+				"/home/d3sk3r/Mari Izumi/fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
+				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
+				"/home/d3sk3r/Stuff/SO-10_10.txt",
+				"/home/d3sk3r/SO-10_10.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
+				"/home/d3sk3r/j7/TWRP/Prometheus",
+				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"battery",
+					"color",
+					"i3",
+					"works",
+					"workspaces",
+					"i3",
+					"tint",
+					"open",
+					"plug",
+					"zshrc",
+					"❯",
+					"time",
+					"weather",
+					"workspace",
+					"font",
+					"pavolume",
+					"cpu",
+					"font",
+					"mpd",
+					"cpu",
+					"network",
+					"offset",
+					"calendar",
+					"openvpn",
+					"ta.key",
+					"certificate",
+					"pem",
+					"config",
+					"office",
+					"wps",
+					"Welcome D3SK3R",
+					"test",
+					"background",
+					"30px",
+					"net",
+					"network",
+					"syncthing",
+					"_POST",
+					"action",
+					"login",
+					"action",
+					"lock",
+					"opa"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14030,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9785,
+										9785
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 5610.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 77.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,6,34,672,758,2726,768",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 24,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"current",
+						"currentVol"
+					],
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/d3sk3r/.config/polybar/scripts/pavolume.sh",
+					"settings":
+					{
+						"buffer_size": 4351,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/config",
+				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
+				"/home/d3sk3r/.config/discord/0.0.10/modules/installed.json",
+				"/home/d3sk3r/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
+				"/home/d3sk3r/.config/polybar/config",
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
+				"/home/d3sk3r/.Xresources",
+				"/home/d3sk3r/.zshrcSTUFF TO ADD",
+				"/home/d3sk3r/.XresourcesBAK",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Yaourt TempFolder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
+				"/home/d3sk3r/.config/kcalcrc",
+				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/pavolume/pavolume",
+				"/home/d3sk3r/.config/polybar/scripts/weather.py",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
+				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
+				"/home/d3sk3r/mic.txt",
+				"/home/d3sk3r/MEGA/loml 8.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/.config/mimeapps.list",
+				"/home/d3sk3r/.config/khotkeysrc",
+				"/home/d3sk3r/.config/libinput-gestures.conf",
+				"/home/d3sk3r/.config/kateschemarc",
+				"/home/d3sk3r/.config/volumeicon/volumeicon",
+				"/home/d3sk3r/.config/lf/lfrc",
+				"/home/d3sk3r/.config/clipit/clipitrc",
+				"/home/d3sk3r/idk.txt",
+				"/home/d3sk3r/.zshrc",
+				"/home/d3sk3r/.config/cava/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where",
+				"/home/d3sk3r/.oh-my-zsh/themes/3den.zsh-theme",
+				"/home/d3sk3r/.oh-my-zsh/.p10k.zsh",
+				"/home/d3sk3r/.oh-my-zsh/themes/.p10k.zsh",
+				"/home/d3sk3r/ (1).zshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/oh-my-zsh/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
+				"/home/d3sk3r/soadm.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt",
+				"/home/d3sk3r/PreMiD/node_modules/@electron/get/package.json",
+				"/home/d3sk3r/PreMiD/pkg.ts",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/.config/BetterDiscord/themes/WinterTheme.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/mail.txt",
+				"/home/d3sk3r/WinterTheme.css",
+				"/home/d3sk3r/MEGA/discord/Discord Themes/link.txt",
+				"/home/d3sk3r/Discord Themes/BetterDiscord_Linux.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/weather.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/js/script.js",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/MEGA/discord/Drt/instagram.txt",
+				"/home/d3sk3r/ok.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
+				"/home/d3sk3r/MEGA/L O M L/FullName.txt",
+				"/home/d3sk3r/MEGA/L O M L/Facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/unkown date.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/1 - Plan to  Sorriso.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/2 - What He Actually Did.txt",
+				"/home/d3sk3r/MEGA/L O M L/lookin at me/3 - What Actually Happened.txt",
+				"/home/d3sk3r/MEGA/L O M L/Dreams.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
+				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
+				"/home/d3sk3r/192.168.15.48",
+				"/home/d3sk3r/Stuff/battery.txt",
+				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
+				"/home/d3sk3r/links",
+				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/SO/SO-14_11.txt",
+				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
+				"/home/d3sk3r/cod.txt",
+				"/home/d3sk3r/crashlands and inferno save.txt",
+				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
+				"/home/d3sk3r/dspti_malware.txt",
+				"/home/d3sk3r/dspti_redeEletrica.txt",
+				"/home/d3sk3r/dspti_bios.txt",
+				"/home/d3sk3r/fzr.txt",
+				"/home/d3sk3r/bibliografiaMatematica.txt",
+				"/home/d3sk3r/Stuff/SO-31_10.txt",
+				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
+				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
+				"/home/d3sk3r/Mari Izumi/fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
+				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
+				"/home/d3sk3r/Stuff/SO-10_10.txt",
+				"/home/d3sk3r/SO-10_10.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/YTvenced/if problems to login",
+				"/home/d3sk3r/j7/TWRP/Prometheus",
+				"/home/d3sk3r/PixelExperience_Plus_potter-9.0-20190911-1239-OFFICIAL/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/Solve Bug when installing/BeforeInstall.txt"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"battery",
+					"color",
+					"i3",
+					"works",
+					"workspaces",
+					"i3",
+					"tint",
+					"open",
+					"plug",
+					"zshrc",
+					"❯",
+					"time",
+					"weather",
+					"workspace",
+					"font",
+					"pavolume",
+					"cpu",
+					"font",
+					"mpd",
+					"cpu",
+					"network",
+					"offset",
+					"calendar",
+					"openvpn",
+					"ta.key",
+					"certificate",
+					"pem",
+					"config",
+					"office",
+					"wps",
+					"Welcome D3SK3R",
+					"test",
+					"background",
+					"30px",
+					"net",
+					"network",
+					"syncthing",
+					"_POST",
+					"action",
+					"login",
+					"action",
+					"lock",
+					"opa"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.config/polybar/scripts/pavolume.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4351,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3676,
+										3676
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2011.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 77.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,684,34,1350,758,2726,768",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 26,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

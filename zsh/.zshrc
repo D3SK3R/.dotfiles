@@ -290,6 +290,7 @@ alias resetaudio='killall mpd;killall pulseaudio;mpd & pulseaudio &'
 alias xdg='xdg-open'
 alias disk='lsblk'
 alias du='dust'
+alias size='dust'
 alias rpolybar='sh ~/.config/polybar/launch.sh'
 alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg

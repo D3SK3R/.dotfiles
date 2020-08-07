@@ -2,6 +2,9 @@
 
 # finds the active sink for pulse audio and increments the volume. useful when you have multiple audio outputs and have a key bound to vol-up and down
 
+#icons to use
+# 婢   奄    墳
+
 osd='no'
 inc='2'
 capvol='no'
@@ -148,11 +151,17 @@ function output() {
     reloadSink
     getCurVol
     volMuteStatus
+    lowVol='30'
     if [ "${curStatus}" = 'yes' ]
     then
-        echo "  $curVol%"
+        echo "婢 $curVol%"
     else
-        echo "  $curVol%"
+        if [ "$curVol" -lt "$lowVol" ];
+        then
+            echo "奔 $curVol%"
+        else
+            echo "墳 $curVol%"
+        fi
     fi
 } #}}}
 
