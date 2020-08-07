@@ -86,8 +86,8 @@ enable-ipc = true
 [bar/main]
 width = 100%
 ;height = 32
-height = 22
-radius = 5
+height = 25
+radius = 8
 bottom = false
 fixed-center = true
 line-size = 
@@ -97,16 +97,23 @@ offset-x = 0
 
 monitor = ${env:MONITOR:}
 
-border-size = 4
+border-size = 2
 border-colors = ${colors.transparent}
-border-bottom-size = 2
+border-bottom-size = 1
 border-bottom-colors = ${colors.transparent}
+;border-transparent = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
 
 ; Make polybar override (stay above them) windows
 override-redirect = false
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
 
 ;==========================================================
 
@@ -118,14 +125,6 @@ font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
 font-5 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
 font-6 = "Font Awesome 5 Brands:pixelsize=10;3"
 font-separator ="Fantasque Sans Mono:pixelsize=10;5"
-
-;==========================================================
-
-;cursor-click = pointer
-;cursor-scroll = ns-resize
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
 
 ;== Module Location ========================================================
 modules-left = i3 spotify 
@@ -171,15 +170,14 @@ label-mode-background       = ${colors.bg}
 label-mode-foreground       = #ffffff
 label-mode-padding          = 1
 
-;label-focused               = 
-label-focused               = 
+label-focused               = 
 label-focused-background    = ${colors.bg}
 ;label-focused-foreground    = #77B9C4
 label-focused-foreground    = #ffffff
 label-focused-padding       = 1
 
-;label-unfocused             = 
-label-unfocused 			= 
+label-unfocused             = 
+;label-unfocused 			= 
 label-unfocused-background  = ${colors.bg}
 ;label-unfocused-foreground  = #abb2bf
 label-unfocused-foreground  = #ffffff
@@ -191,12 +189,13 @@ label-urgent-foreground     = #ff0000
 label-urgent-padding        = 1
 
 ;label-visible               = 
-label-visible               = 
+label-visible               = 
 label-visible-foreground    = #ffffff
 label-visible-padding       = 1
 
 ;==========================================================
 [module/mpd]
+;https://github.com/polybar/polybar/wiki/Module:-mpd
 type = internal/mpd
 
 ; Host where mpd is running (either ip or domain name)
@@ -382,7 +381,7 @@ format-full-foreground                  = ${colors.fg}
 full-at                                 = 99
 
 ;label-charging                          = 
-label-charging                          = " %percentage%%"
+label-charging                          = "%percentage%%"
 format-charging-padding                 = 1
 
 ;label-discharging 
