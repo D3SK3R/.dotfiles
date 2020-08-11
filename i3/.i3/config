@@ -83,9 +83,13 @@ for_window      [title="Picture in picture"] floating enable sticky enable
 for_window      [title="Picture in picture"] move scratchpad
 
 # Dropdown discord
-bindsym $mod+Shift+d    [class="discord"] scratchpad show
-for_window              [class="discord"] floating enable sticky enable
-for_window              [class="discord"] move scratchpad
+# DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
+# to reenable just comment the bindsym line below this and uncomment everything else
+bindsym $mod+Shift+d                            $exec discord
+#bindsym $mod+Shift+d    [class="discord"] scratchpad show
+#for_window              [class="discord"] floating enable sticky enable
+for_window              [class="discord"] floating enable
+#for_window              [class="discord"] move scratchpad
 
 
 ################################################################################################
@@ -184,7 +188,7 @@ bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
 
 # playerctl (for spotify)
 bindsym XF86AudioPlay		 					$exec playerctl play-pause
-bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous
+bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous;$exec playerctl stop
 bindsym XF86AudioNext 							$exec playerctl next
 bindsym XF86AudioPrev 							$exec playerctl previous
 
@@ -403,8 +407,7 @@ floating_modifier $mod
 ## AUTOSTART STUFF
 # Discord
 # betterdiscord
-exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord-canary
-#exec --no-startup-id discord
+exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
 # urxvt daemon
 exec --no-startup-id urxvtd -q -o -f
 # Keyboard Layout

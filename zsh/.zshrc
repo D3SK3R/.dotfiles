@@ -297,6 +297,7 @@ alias stow='cd ~/.dotfiles;stow -vt ~'
 alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
 alias mousepos='eval $(xdotool getmouselocation --shell);echo "$X""x""$Y"'
 alias font-update='sudo fc-cache -fv'
+alias font-list='fc-list'
 alias psa='ps auxf'
 alias free='free -mt'
 
