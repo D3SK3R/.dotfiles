@@ -139,14 +139,6 @@ imap <c-s> <Esc>:w<CR>l
 nmap <c-q> :q<CR>
 imap <c-q> <Esc>:q<CR>
 
-"save and quit
-"nmap <c-x> :x<CR>
-"imap <c-x> <Esc>:x<CR>
-
-"write and quit
-"nnoremap <C-d> :wq!<cr>
-"inoremap <C-d> <esc>:wq!<cr>
-
 "Disable :X to encryption and make it write and quit, like :x
 cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
 
