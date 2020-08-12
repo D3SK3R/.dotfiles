@@ -1,5 +1,3 @@
-# i3 config file (v4)
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
@@ -13,18 +11,19 @@ focus_follows_mouse yes
 #border_radius 10
 #smart_borders on
 
+# NO BORDERS AT ALL
+#for_window [class=".*"] border none
+
 ################################################################################################
 ########################################  SET BASICS   #########################################
 ################################################################################################
+set $exec exec --no-startup-id
 set $term urxvtc
 set $mpd_port 1100
 set $mpd_host localhost
 
 exec --no-startup-id i3-msg workspace 1
 exec --no-startup-id $HOME/.i3/mouse_sens.sh
-
-# Map menu key to slash /
-#exec --no-startup-id $HOME/.scripts/menu_key.sh
 
 # Low ram warning
 exec --no-startup-id $HOME/.scripts/ram_warning.sh
@@ -41,8 +40,8 @@ exec --no-startup-id ~/.i3/alternating_layouts.py
 # (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
 # (the assignment its ignored if no other display is connected = perfect)
 workspace $ws1 output eDP1
-workspace $ws2 output eDP1
-workspace $ws3 output DP1
+workspace $ws2 output DP1
+workspace $ws3 output eDP1
 workspace $ws4 output DP1
 workspace $ws5 output eDP1
 workspace $ws6 output eDP1
@@ -51,16 +50,16 @@ workspace $ws8 output eDP1
 workspace $ws9 output eDP1
 
 # Dropdown floating terminal
-# Use alacritty if compton-tryone-git isn't installed
 exec --no-startup-id urxvt -name floating_urxvt
-#exec --no-startup-id alacritty
 bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
 for_window		[title="floating_urxvt"] move to position 400 60
+
 # For dual monitor:
-#for_window 		[title="Alacritty"] move to position 1738 64
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
+#exec --no-startup-id alacritty
+#for_window 	[title="Alacritty"] move to position 1738 64
 #for_window 	[class="Alacritty"] resize set 515 356
 #for_window 	[class="Alacritty"] border none
 
@@ -70,18 +69,39 @@ bindsym F2      [class="qutebrowser"] scratchpad show
 for_window      [class="qutebrowser"] floating enable sticky enable resize set 800 640 move to position 630 324
 for_window      [class="qutebrowser"] move scratchpad
 
+# Dropdown Spotify
+bindsym F3      [class="Spotify"] scratchpad show
+for_window      [class="Spotify"] floating enable sticky enable
+for_window      [class="Spotify"] move scratchpad
+
+# Dropdown chaturbate picture in picture
+$exec spotify
+bindsym F4      [title="Picture in picture"] scratchpad show
+for_window      [title="Picture in picture"] floating enable sticky enable
+for_window      [title="Picture in picture"] move scratchpad
+
+# Dropdown discord
+# DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
+# to reenable just comment the bindsym line below this and uncomment everything else
+bindsym $mod+Shift+d                            $exec discord
+#bindsym $mod+Shift+d    [class="discord"] scratchpad show
+#for_window              [class="discord"] floating enable sticky enable
+for_window              [class="discord"] floating enable
+#for_window              [class="discord"] move scratchpad
+
 
 ################################################################################################
-#######################################  KEYBINDINGS   #############################################
+#######################################  KEYBINDINGS   #########################################
 ################################################################################################
 # Start a terminal
-bindsym $mod+Return 	                   		exec --no-startup-id urxvtc
-# actually nothing
-#bindsym $mod+Shift+Return 	                   	exec --no-startup-id
+bindsym $mod+Return 	                   		$exec urxvtc
+
+#bindsym $mod+Shift+Return 	                   	$exec alacritty
 # Launch NetworkManager GUI
-bindsym $mod+w                                  exec --no-startup-id networkmanager_dmenu
+#bindsym $mod+w                                 $exec networkmanager_dmenu
+bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
 # Launch Chrome
-bindsym $mod+g 									exec --no-startup-id google-chrome-stable
+bindsym $mod+g 									exec --no-startup-id google-chrome-stable --force-dark-mode
 # Qutebrowser
 bindsym $mod+b									exec --no-startup-id qutebrowser
 # Ncmpcpp
@@ -91,7 +111,7 @@ bindsym $mod+f				    		    	exec --no-startup-id dolphin
 # Ranger
 bindsym $mod+r									exec --no-startup-id $term -e ranger
 # Gotop
-bindsym $mod+h									exec --no-startup-id $term -e gotop -baps
+bindsym $mod+h									exec --no-startup-id $term -e gotop -aps
 # Atom
 bindsym $mod+a									exec --no-startup-id atom
 # Sublime
@@ -124,9 +144,9 @@ bindsym $mod+Shift+c 							reload
 
 # Flameshot "flameshot config" on terminal to configure and import/export config files
 # Fullscreen print:
-bindsym $mod+Print 									exec --no-startup-id flameshot screen -p ~/
+bindsym $mod+Print 								exec --no-startup-id flameshot screen -p ~/
 # Select area
-bindsym Print 										exec --no-startup-id flameshot gui -p ~/
+bindsym Print 									exec --no-startup-id flameshot gui -p ~/
 
 # Xkill
 bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
@@ -134,8 +154,9 @@ bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 #bindsym $mod+Shift+h 							exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 
 #STOP/HIDE EVERYTHING:
-bindsym $mod+Delete								workspace $ws9 ; exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause ; exec --no-startup-id $term -e ranger ; exec --no-startup-id $term -e gotop -baps ; exec --no-startup-id $term
+bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh	
 
+bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
 
 #########################################################################################################################################################################################
 # audio volume
@@ -143,24 +164,31 @@ bindsym $mod+Delete								workspace $ws9 ; exec --no-startup-id mpc -p $mpd_por
 # XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute ( Volume up, down, and mute )
 # XF86AudioPlay, XF86AudioNext, XF86AudioPrev ( Play music, next/previous tracks )
 
-bindsym XF86AudioRaiseVolume 					exec --no-startup-id ~/.scripts/volumeUP.sh
-bindsym XF86AudioLowerVolume 					exec --no-startup-id ~/.scripts/volumeDOWN.sh
+bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
+bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
+
 #bindsym XF86AudioRaiseVolume 					exec --no-startup-id amixer -c 1 sset Master 2%+
 #bindsym XF86AudioLowerVolume		 			exec --no-startup-id amixer -c 1 sset Master 2%-
 
 # Media player controls
 # To use:
 # sudo pacman -S mpc
-bindsym XF86AudioPlay 							exec --no-startup-id mpc -p $mpd_port toggle
-bindsym XF86AudioNext 							exec --no-startup-id mpc -p $mpd_port next
-bindsym XF86AudioPrev 							exec --no-startup-id mpc -p $mpd_port cdprev
-bindsym XF86AudioStop 							exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause         # restart the song and pauses it
-#bindsym XF86AudioStop 							exec --no-startup-id mpc -p $mpd_port stop                                    # stops it completely
+#bindsym XF86AudioPlay 							exec --no-startup-id mpc -p $mpd_port toggle
+#bindsym XF86AudioNext 							exec --no-startup-id mpc -p $mpd_port next
+#bindsym XF86AudioPrev 							exec --no-startup-id mpc -p $mpd_port seek 0;exec --no-startup-id mpc -p $mpd_port cdprev
+#bindsym XF86AudioStop 							exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause         # restart the song and pauses it
 
-#bindsym XF86AudioPlay		 					exec --no-startup-id playerctl play
-#bindsym XF86AudioPause 						exec --no-startup-id playerctl pause
-#bindsym XF86AudioNext 							exec --no-startup-id playerctl next
-#bindsym XF86AudioPrev 							exec --no-startup-id playerctl previous
+#mpc scripts with Dunst
+#bindsym XF86AudioPlay 							exec --no-startup-id ~/.scripts/mpdTOGGLE.sh
+#bindsym XF86AudioStop 							exec --no-startup-id ~/.scripts/mpdSTOP.sh
+#bindsym XF86AudioNext 							exec --no-startup-id ~/.scripts/mpdNEXT.sh
+#bindsym XF86AudioPrev 							exec --no-startup-id ~/.scripts/mpdPREV.sh
+
+# playerctl (for spotify)
+bindsym XF86AudioPlay		 					$exec playerctl play-pause
+bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous;$exec playerctl stop
+bindsym XF86AudioNext 							$exec playerctl next
+bindsym XF86AudioPrev 							$exec playerctl previous
 
 #########################################################################################################################################################################################
 # Brightness
@@ -375,6 +403,9 @@ floating_modifier $mod
 ################################################################################################
 
 ## AUTOSTART STUFF
+# Discord
+# betterdiscord
+exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
 # urxvt daemon
 exec --no-startup-id urxvtd -q -o -f
 # Keyboard Layout
@@ -387,6 +418,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id megasync
 # Touchpad Gestures
 exec --no-startup-id libinput-gestures-setup restart
+# imwheel to control mouse scroll speed
+#$exec imwheel
 # Albert Search
 exec --no-startup-id albert
 # Dunst notification
@@ -400,6 +433,9 @@ exec_always --no-startup-id flashfocus
 #exec_always --no-startup-id /path/to/syncthing/binary -no-browser -home="/home/d3sk3r/.config/syncthing"
 exec --no-startup-id syncthing -no-browser
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# for picom
+$exec nitrogen --restore;sleep 1;picom -b
+# for compton
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -421,7 +457,8 @@ exec_always --no-startup-id fix_xcursor
 ################################################################################################
 
 #exec --no-startup-id volumeicon
-exec --no-startup-id mpd
+# disable mpd startup when using spotify
+#exec --no-startup-id mpd
 # Restart pulseaudio
 # pulseaudio --kill then pulseaudio --start
 #bindsym $mod+Shift+P exec --no-startup-id killall pulseaudio && pulseaudio
@@ -431,6 +468,7 @@ exec_always --no-startup-id killall pulseaudio && pulseaudio
 #bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
+##                                      WORKSPACE STUFF                                       ##
 ################################################################################################
 
 # Workspace names
@@ -492,6 +530,7 @@ for_window [title="Network Connections"] floating enable
 for_window [title="updater.sh"] floating enable
 #for_window [class="qutebrowser"] floating enable resize set 800 640 move to position 419 60
 for_window [class="Google-chrome"] border none
+for_window [title="Task Manager - Google Chrome"] floating enable
 for_window [class="Brave"] border none
 for_window [title="alsamixer"] floating enable border pixel 2
 for_window [class="calamares"] floating enable border normal
@@ -505,7 +544,7 @@ for_window [class="Lxappearance"] floating enable sticky enable border normal
 for_window [class="Manjaro-hello"] floating enable
 for_window [class="Manjaro Settings Manager"] floating enable border normal
 for_window [title="MuseScore: Play Panel"] floating enable
-for_window [class="Nitrogen"] floating enable border pixel 2
+for_window [class="Nitrogen"] floating enable border none
 for_window [class="Oblogout"] fullscreen enable
 for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
@@ -521,6 +560,8 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="XTerm"] floating enable move to position 270 114
+for_window [class="MEGAsync"] floating enable
+for_window [class="Musixmatch"] floating enable resize set 570 360
 
 ################################################################################################
 ################################################################################################
@@ -600,7 +641,7 @@ smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-# smart_borders no_gaps=only
+# smart_borders no_gaps
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner

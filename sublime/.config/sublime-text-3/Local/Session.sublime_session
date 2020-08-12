@@ -413,6 +413,10 @@
 				"selected_items":
 				[
 					[
+						"configu",
+						"configuration"
+					],
+					[
 						"asd",
 						"asdnkasd"
 					],
@@ -464,6 +468,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.i3/config",
+					"settings":
+					{
+						"buffer_size": 28653,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -686,6 +699,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"border normal",
 					"spotif",
 					"spot",
 					"spoti",
@@ -751,8 +765,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 28653,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1648,
+										1648
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -796,7 +839,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1842,34,2308,758,2726,768",
+			"position": "1,0,0,0,0,684,34,1350,758,2726,768",
 			"project": "",
 			"replace":
 			{

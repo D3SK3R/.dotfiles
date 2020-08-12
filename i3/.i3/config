@@ -1,5 +1,3 @@
-# i3 config file (v4)
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
@@ -93,7 +91,7 @@ for_window              [class="discord"] floating enable
 
 
 ################################################################################################
-#######################################  KEYBINDINGS   #########################################
+##                                       KEYBINDINGS                                          ##
 ################################################################################################
 # Start a terminal
 bindsym $mod+Return 	                   		$exec urxvtc
@@ -323,62 +321,6 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-# Workspaces names
-# extra icons to choose from
-# http://fontawesome.io/cheatsheet/
-#       v      
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-#set $ws10 "10"
-
-# Workspaces commands
-bindsym $mod+1			workspace $ws1
-bindsym $mod+2 			workspace $ws2
-bindsym $mod+3			workspace $ws3
-bindsym $mod+4			workspace $ws4
-bindsym $mod+5 		  	workspace $ws5
-bindsym $mod+6 		 	workspace $ws6
-bindsym $mod+7 		 	workspace $ws7
-bindsym $mod+8 		   	workspace $ws8
-bindsym $mod+9 		    workspace $ws9
-bindsym $mod+Tab	    workspace back_and_forth
-
-bindsym $mod+Shift+1 	    move container to workspace $ws1
-bindsym $mod+Shift+2 	    move container to workspace $ws2
-bindsym $mod+Shift+3 	    move container to workspace $ws3
-bindsym $mod+Shift+4 	    move container to workspace $ws4
-bindsym $mod+Shift+5 	    move container to workspace $ws5
-bindsym $mod+Shift+6 	    move container to workspace $ws6
-bindsym $mod+Shift+7 	    move container to workspace $ws7
-bindsym $mod+Shift+8 	    move container to workspace $ws8
-bindsym $mod+Shift+9 	    move container to workspace $ws9
-
-bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
-bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
-bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
-bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
-bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
-bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
-bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
-
-
-# bind apps to workspaces
-#assign [class="Atom"] $ws4
-#assign [class="VirtualBox"] $ws5
-#assign [class="vlc"] $ws6
-
-# switch to workspace with urgent window automatically
-#for_window [urgent=latest] focus
-
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 # default:  pixel 1
 # pixel 0 looks cool too
@@ -401,7 +343,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 ################################################################################################
-##############################   AUTOSTART STUFF   #############################################
+##                                    AUTOSTART STUFF                                         ##
 ################################################################################################
 
 ## AUTOSTART STUFF
@@ -470,56 +412,82 @@ exec_always --no-startup-id killall pulseaudio && pulseaudio
 #bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
+##                                      WORKSPACE STUFF                                       ##
 ################################################################################################
 
-# Workspace names
+# Workspaces names
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-#set $ws1 1
-#set $ws2 2
-#set $ws3 3
-#set $ws4 4
-#set $ws5 5
-#set $ws6 6
-#set $ws7 7
-#set $ws8 8
+# extra icons to choose from
+# http://fontawesome.io/cheatsheet/
+#       v      
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+#set $ws10 "10"
 
-# switch to workspace
-#bindsym $mod+1 workspace $ws1
-#bindsym $mod+2 workspace $ws2
-#bindsym $mod+3 workspace $ws3
-#bindsym $mod+4 workspace $ws4
-#bindsym $mod+5 workspace $ws5
-#bindsym $mod+6 workspace $ws6
-#bindsym $mod+7 workspace $ws7
-#bindsym $mod+8 workspace $ws8
+# Workspaces commands
+# Switch to workspace
+bindsym $mod+1			workspace $ws1
+bindsym $mod+2 			workspace $ws2
+bindsym $mod+3			workspace $ws3
+bindsym $mod+4			workspace $ws4
+bindsym $mod+5 		  	workspace $ws5
+bindsym $mod+6 		 	workspace $ws6
+bindsym $mod+7 		 	workspace $ws7
+bindsym $mod+8 		   	workspace $ws8
+bindsym $mod+9 		    workspace $ws9
+bindsym $mod+Tab	    workspace back_and_forth
 
-# Move focused container to workspace
-#bindsym $mod+Ctrl+1 move container to workspace $ws1
-#bindsym $mod+Ctrl+2 move container to workspace $ws2
-#bindsym $mod+Ctrl+3 move container to workspace $ws3
-#bindsym $mod+Ctrl+4 move container to workspace $ws4
-#bindsym $mod+Ctrl+5 move container to workspace $ws5
-#bindsym $mod+Ctrl+6 move container to workspace $ws6
-#bindsym $mod+Ctrl+7 move container to workspace $ws7
-#bindsym $mod+Ctrl+8 move container to workspace $ws8
 
-# Move to workspace with focused container
-#bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
-#bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
-#bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
-#bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
-#bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
-#bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
-#bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
-#bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+# Move the container to the workspace
+bindsym $mod+Shift+1 	    move container to workspace $ws1
+bindsym $mod+Shift+2 	    move container to workspace $ws2
+bindsym $mod+Shift+3 	    move container to workspace $ws3
+bindsym $mod+Shift+4 	    move container to workspace $ws4
+bindsym $mod+Shift+5 	    move container to workspace $ws5
+bindsym $mod+Shift+6 	    move container to workspace $ws6
+bindsym $mod+Shift+7 	    move container to workspace $ws7
+bindsym $mod+Shift+8 	    move container to workspace $ws8
+bindsym $mod+Shift+9 	    move container to workspace $ws9
+
+
+# Move to the workspace with the containter being moved
+bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
+
+
+# bind apps to workspaces
+#assign [class="Atom"] $ws4
+#assign [class="VirtualBox"] $ws5
+#assign [class="vlc"] $ws6
+
+# switch to workspace with urgent window automatically
+#for_window [urgent=latest] focus
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
+
+################################################################################################
+## 								     Per window configuration                                 ##                            
+################################################################################################
 
 # Open specific applications in floating mode
 for_window [class="Arandr"] floating enable
@@ -534,16 +502,16 @@ for_window [class="Google-chrome"] border none
 for_window [title="Task Manager - Google Chrome"] floating enable
 for_window [class="Brave"] border none
 for_window [title="alsamixer"] floating enable border pixel 2
-for_window [class="calamares"] floating enable border normal
+for_window [class="calamares"] floating enable
 for_window [class="Clipgrab"] floating enable
 for_window [title="File Transfer*"] floating enable
 for_window [class="Galculator"] floating enable border pixel 2
-for_window [class="GParted"] floating enable border normal
-for_window [title="i3_help"] floating enable sticky enable border normal
+for_window [class="GParted"] floating enable
+for_window [title="i3_help"] floating enable sticky
 for_window [class="Lightdm-settings"] floating enable
-for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="Lxappearance"] floating enable sticky
 for_window [class="Manjaro-hello"] floating enable
-for_window [class="Manjaro Settings Manager"] floating enable border normal
+for_window [class="Manjaro Settings Manager"] floating enable
 for_window [title="MuseScore: Play Panel"] floating enable
 for_window [class="Nitrogen"] floating enable border none
 for_window [class="Oblogout"] fullscreen enable
@@ -551,12 +519,12 @@ for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
 for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
-for_window [class="qt5ct"] floating enable sticky enable border normal
-for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
-for_window [class="Simple-scan"] floating enable border normal
-for_window [class="(?i)System-config-printer.py"] floating enable border normal
-for_window [class="Skype"] floating enable border normal
-for_window [class="Timeset-gui"] floating enable border normal
+for_window [class="qt5ct"] floating enable sticky enable
+for_window [class="Qtconfig-qt4"] floating enable sticky enable
+for_window [class="Simple-scan"] floating enable
+for_window [class="(?i)System-config-printer.py"] floating enable
+for_window [class="Skype"] floating enable
+for_window [class="Timeset-gui"] floating enable
 #for_window [class="(?i)virtualbox"] floating enable border pixel 2
 for_window [class="Xfburn"] floating enable
 for_window [class="Yad" title="yad-calendar"] floating enable
