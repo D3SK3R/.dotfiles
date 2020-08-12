@@ -541,6 +541,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/oomox-git/where and git.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/Cursors/where",
+				"/home/d3sk3r/.themes/index.theme",
+				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt",
 				"/home/d3sk3r/.oh-my-zsh/LICENSE.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/d3sk3r/.config/polybar/config",
@@ -664,11 +668,7 @@
 				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
 				"/home/d3sk3r/Mari Izumi/fb.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt",
-				"/home/d3sk3r/pentesting/bugBounty_tools.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET.txt",
-				"/home/d3sk3r/Stuff/SO-10_10.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt"
 			],
 			"find":
 			{
@@ -796,7 +796,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
+			"position": "0,0,0,0,0,1842,34,2308,758,2726,768",
 			"project": "",
 			"replace":
 			{
