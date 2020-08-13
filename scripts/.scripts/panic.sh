@@ -1,6 +1,8 @@
 #!/bin/sh
 
-playerctl stop;playerctl previous  
+if [ $(playerctl status) = "Playing" ]; then
+    playerctl stop;playerctl previous 
+fi
 mpc -p 1100 seek 0 && mpc -p 1100 pause 
 
 #i3 move scratchpad &
