@@ -468,15 +468,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.i3/config",
-					"settings":
-					{
-						"buffer_size": 28653,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -554,6 +545,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/.i3/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Games/Dead Cells The Bad Seed/steam_emu.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/oomox-git/where and git.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/Cursors/where",
 				"/home/d3sk3r/.themes/index.theme",
@@ -597,8 +592,6 @@
 				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord",
 				"/home/d3sk3r/mic.txt",
 				"/home/d3sk3r/MEGA/loml 8.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
 				"/home/d3sk3r/.config/mimeapps.list",
 				"/home/d3sk3r/.config/khotkeysrc",
 				"/home/d3sk3r/.config/libinput-gestures.conf",
@@ -679,9 +672,7 @@
 				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
 				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
-				"/home/d3sk3r/Mari Izumi/fb.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/Run",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/APPS/Games/PSP/Games.txt"
+				"/home/d3sk3r/Mari Izumi/fb.txt"
 			],
 			"find":
 			{
@@ -765,37 +756,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.i3/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 28653,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1648,
-										1648
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -839,7 +801,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1,0,0,0,0,684,34,1350,758,2726,768",
+			"position": "0,0,0,0,0,684,402,1350,758,2726,768",
 			"project": "",
 			"replace":
 			{
