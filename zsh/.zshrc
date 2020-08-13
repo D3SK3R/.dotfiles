@@ -350,7 +350,7 @@ alias msf='sudo msfconsole'
 #alias httpdoff='sudo systemctl disable httpd'
 alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/Pentesting/kickthemout/kickthemout.py'
 alias beef='"cd" /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/beef/;./beef;cd ~'
-alias ports='sudo netstat -tnlp | grep LISTEN'
+alias ports='sudo netstat -tnlp'
 alias ngrok='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
 alias remote_ssh='ssh -R d3sk3r:22:localhost:22 serveo.net'
 # To connect to the remote_ssh: ssh -J serveo.net d3sk3r@d3sk3r
