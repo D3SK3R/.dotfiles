@@ -1,0 +1,95 @@
+[
+  {
+    "domain": "flirt4free.com",
+    "cookies": [
+      {
+        "domain": "www.flirt4free.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "persistent": false,
+        "secure": false,
+        "value": "sjehbkdppic766coh5b7afugfb"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1628902331847,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "service",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "girls"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1599958331848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "mp_code",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "0000"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1597971131848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "language",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "en"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1597369931848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "reg_overlay_template_set",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "overlay_5_nojquery"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1597369931848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "reg_template_set",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "cnvrg_01"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1597452730848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "BILLING_TEST_SUB_GROUP_4",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "NEW"
+      },
+      {
+        "domain": "flirt4free.com",
+        "expiresAt": 1597971130848,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "BILLING_TEST_GROUP_4",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "GROUP_B%3A%3Av8"
+      }
+    ]
+  }
+]

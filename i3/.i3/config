@@ -1,4 +1,3 @@
-
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
@@ -27,6 +26,9 @@ exec --no-startup-id $HOME/.i3/mouse_sens.sh
 
 # Low ram warning
 exec --no-startup-id $HOME/.scripts/ram_warning.sh
+
+# Stretch
+$exec $HOME/.scripts/stretch.sh
 
 # Dual monitor
 # exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id $HOME/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
@@ -66,7 +68,7 @@ for_window 		[title="floating_urxvt"] resize set 570 360
 # Dropdown Browser
 exec --no-startup-id qutebrowser
 bindsym F2      [class="qutebrowser"] scratchpad show
-for_window      [class="qutebrowser"] floating enable sticky enable resize set 800 640 move to position 630 324
+for_window      [class="qutebrowser"] floating enable sticky enable resize set 800 640 move position center
 for_window      [class="qutebrowser"] move scratchpad
 
 # Dropdown Spotify
@@ -528,7 +530,7 @@ for_window [class="Timeset-gui"] floating enable
 #for_window [class="(?i)virtualbox"] floating enable border pixel 2
 for_window [class="Xfburn"] floating enable
 for_window [class="Yad" title="yad-calendar"] floating enable
-for_window [class="XTerm"] floating enable move to position 270 114
+for_window [class="XTerm"] floating enable move position center
 for_window [class="MEGAsync"] floating enable
 for_window [class="Musixmatch"] floating enable resize set 570 360
 

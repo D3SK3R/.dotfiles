@@ -545,6 +545,13 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msf_autoRun.sh",
+				"/home/d3sk3r/sms_dump_20200815031655.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/link",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/pp.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
+				"/home/d3sk3r/Desktop/Celeste/start",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
@@ -665,14 +672,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
 				"/home/d3sk3r/dspti_malware.txt",
 				"/home/d3sk3r/dspti_redeEletrica.txt",
-				"/home/d3sk3r/dspti_bios.txt",
-				"/home/d3sk3r/fzr.txt",
-				"/home/d3sk3r/bibliografiaMatematica.txt",
-				"/home/d3sk3r/Stuff/SO-31_10.txt",
-				"/home/d3sk3r/Stuff/p2_prog/relatorio.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/DEEZER downloader/AccountPassword.txt",
-				"/home/d3sk3r/faiir07/index-v1-a1.m3u8",
-				"/home/d3sk3r/Mari Izumi/fb.txt"
+				"/home/d3sk3r/dspti_bios.txt"
 			],
 			"find":
 			{
@@ -690,6 +690,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"desker",
 					"border normal",
 					"spotif",
 					"spot",
@@ -763,7 +764,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -801,11 +802,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,684,402,1350,758,2726,768",
+			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
 			"project": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":

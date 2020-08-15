@@ -1,0 +1,29 @@
+[
+  {
+    "domain": "fc2.com",
+    "cookies": [
+      {
+        "domain": "fc2.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "persistent": false,
+        "secure": false,
+        "value": "v15lgrm4u6gpm0r3o1jhcg7bnq"
+      },
+      {
+        "domain": "live.fc2.com",
+        "expiresAt": 2114377201046,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "l_ortkn",
+        "path": "/api",
+        "persistent": true,
+        "secure": false,
+        "value": "1d9366ed8f82f33da77afd8ad38abd9a647bb5ff"
+      }
+    ]
+  }
+]

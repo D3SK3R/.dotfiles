@@ -1,0 +1,18 @@
+[
+  {
+    "domain": "streamate.com",
+    "cookies": [
+      {
+        "domain": "streamate.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "Xld_rct",
+        "path": "/",
+        "persistent": false,
+        "secure": false,
+        "value": "1"
+      }
+    ]
+  }
+]

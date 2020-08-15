@@ -396,6 +396,8 @@ alias owl='streamlink https://www.twitch.tv/overwatchleague 1080p60 -p mpv'
 alias aws_ssh='ssh -i "~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R-AWS.pem" openvpnas@54.233.64.157'
 alias aws_admin='xdg https://54.233.64.157:943/admin/;sleep 1;clear'
 alias aws_vpn='sudo openvpn ~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R\ -\ AWS_autologin.ovpn'
+alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
+alias viewn='viewnior'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>

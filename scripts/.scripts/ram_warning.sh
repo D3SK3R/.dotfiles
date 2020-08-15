@@ -13,7 +13,7 @@ while true; do
 
     if [ "$free" -lt "$minimum" ]; then
         notify-send -u critical "Memory running out!" "$message"
-        mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3
+        #mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3
     fi
 
     echo $message

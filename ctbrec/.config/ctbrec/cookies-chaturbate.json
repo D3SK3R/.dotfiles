@@ -1,0 +1,150 @@
+[
+  {
+    "domain": "chaturbate.com",
+    "cookies": [
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1584971602000,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "d71ca24208032d18590d2d718169fb75a1553435602"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1556027599087,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "affkey",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "\"eJyrVipSslJQUqoFAAwfAk0=\""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "itu",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "0"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "last_username",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "d3sk33r"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1683679661302,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "sbr",
+        "path": "/",
+        "persistent": true,
+        "secure": true,
+        "value": "\"sec:sbr7c01aba0-429a-42e0-8321-f0837f7e3600:1k6Nsj:ubDi-lPU-eFhnOH1unJVEKwW7y4\""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": -9223372036854775808,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "tbu_secretcoraline",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": ""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": -9223372036854775808,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "tbu__kxtjx",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": ""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 253402300799999,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sessionid",
+        "path": "/",
+        "persistent": true,
+        "secure": true,
+        "value": "z0vr9gwrmohy4apukqd38nwsrh2ejnu3"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": -9223372036854775808,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "tbu_d3sk33r",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": ""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1628820660321,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "csrftoken",
+        "path": "/",
+        "persistent": true,
+        "secure": true,
+        "value": "MGOewhODGuVYpETWXtlOsfFGhEmEvVlS8yvO21Q2VXGaQmaSwKkJtc2ZeAziSevU"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1599963060322,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "stcki",
+        "path": "/",
+        "persistent": true,
+        "secure": false,
+        "value": "\"26Wt1C=0\\0547RMZBn=0\\054IfhorB=0\\054r9vAdm=0\\054wvTPej=0\\054vmUUUn=0\\054VaZiWP=0\\0548SzLQJ=0\\054GRkqu-=0\\054El52pz=0\\054tmPrGj=0\\0541ZUYIH=0\""
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1599963060322,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "dwf_s_a",
+        "path": "/",
+        "persistent": true,
+        "secure": true,
+        "value": "False"
+      },
+      {
+        "domain": "chaturbate.com",
+        "expiresAt": 1597372860000,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cf_bm",
+        "path": "/",
+        "persistent": true,
+        "secure": true,
+        "value": "3163e11bebd6e69b171bc397a79a0351a846a8b1-1597371060-1800-AaKSdntQ38uzhRJ39c1NL7a/dyUWMzGENJNKVMczeBSlpfoEpGm4a/L1UczsBnqyqkI7MGenNj+XjAyjtXfgGvQ="
+      }
+    ]
+  }
+]
