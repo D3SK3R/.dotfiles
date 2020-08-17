@@ -25,7 +25,7 @@ exec --no-startup-id i3-msg workspace 1
 exec --no-startup-id $HOME/.i3/mouse_sens.sh
 
 # Low ram warning
-exec --no-startup-id $HOME/.scripts/ram_warning.sh
+#exec --no-startup-id $HOME/.scripts/ram_warning.sh
 
 # Stretch
 $exec $HOME/.scripts/stretch.sh
@@ -88,7 +88,7 @@ for_window      [title="Picture in picture"] move scratchpad
 bindsym $mod+Shift+d                            $exec discord
 #bindsym $mod+Shift+d    [class="discord"] scratchpad show
 #for_window              [class="discord"] floating enable sticky enable
-for_window              [class="discord"] floating enable
+for_window              [class="discord"] floating enable move position center
 #for_window              [class="discord"] move scratchpad
 
 
@@ -367,7 +367,7 @@ exec --no-startup-id libinput-gestures-setup restart
 # imwheel to control mouse scroll speed
 #$exec imwheel
 # Albert Search
-exec --no-startup-id albert
+#exec --no-startup-id albert
 # Dunst notification
 #exec --no-startup-id dunst
 # Redshift
