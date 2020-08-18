@@ -37,6 +37,7 @@ bindsym $mod+Shift+s exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startu
 # Layouts
 #https://github.com/olemartinorg/i3-alternating-layout.git
 exec --no-startup-id ~/.i3/alternating_layouts.py
+# alternative: https://github.com/nwg-piotr/autotiling
 
 # Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
 # (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
@@ -97,11 +98,18 @@ for_window              [class="discord"] floating enable move position center
 ################################################################################################
 # Start a terminal
 bindsym $mod+Return 	                   		$exec urxvtc
-
 #bindsym $mod+Shift+Return 	                   	$exec alacritty
-# Launch NetworkManager GUI
+# rofi
+bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode"
+# rofi NetworkManager
 #bindsym $mod+w                                 $exec networkmanager_dmenu
 bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
+# rofi clipboard manager
+# https://github.com/gilbertw1/roficlip
+bindsym $mod+c                                  $exec roficlip
+# rofi-calc
+# https://github.com/svenstaro/rofi-calc
+bindsym $mod+Ctrl+c                             $exec rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
 # Launch Chrome
 bindsym $mod+g 									exec --no-startup-id google-chrome-stable --force-dark-mode
 # Qutebrowser
@@ -125,10 +133,6 @@ bindsym $mod+ctrl+l								exec --no-startup-id $HOME/.i3/layout_manager.sh
 bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
 # kill focused window
 bindsym $mod+Shift+q 							kill
-# start program launcher
-bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode"
-#bindsym $mod+d                                  exec --no-startup-id rofi -modi drun -show drun -show-icons
-#bindsym $mod+d 								exec --no-startup-id dmenu_recency
 # launch categorized menu
 bindsym $mod+z 									exec --no-startup-id morc_menu
 # reload the configuration file
@@ -371,7 +375,7 @@ exec --no-startup-id libinput-gestures-setup restart
 # Dunst notification
 #exec --no-startup-id dunst
 # Redshift
-exec --no-startup-id redshift-gtk
+#exec --no-startup-id redshift-gtk
 #exec --no-startup-id redshift
 # Flash focus animations
 exec_always --no-startup-id flashfocus
@@ -382,11 +386,12 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # for picom
 $exec nitrogen --restore;sleep 1;picom -b
 # for compton
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
+#exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+exec --no-startup-id clipster -d
 exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
 exec --no-startup-id xautolock -time 30 -locker /home/d3sk3r/.i3/lock.sh

@@ -398,6 +398,7 @@ alias aws_admin='xdg https://54.233.64.157:943/admin/;sleep 1;clear'
 alias aws_vpn='sudo openvpn ~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R\ -\ AWS_autologin.ovpn'
 alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
 alias viewn='viewnior'
+alias emoji='rofimoji -c'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>

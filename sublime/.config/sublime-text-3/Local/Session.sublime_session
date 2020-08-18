@@ -545,6 +545,15 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.Xresources",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
+				"/home/d3sk3r/packettracer/packettracer.install",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/transmit.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/dummy-fake_cam.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/loml 8.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/jimi errada.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pn.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msf_autoRun.sh",
 				"/home/d3sk3r/sms_dump_20200815031655.txt",
@@ -576,7 +585,6 @@
 				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
 				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
-				"/home/d3sk3r/.Xresources",
 				"/home/d3sk3r/.zshrcSTUFF TO ADD",
 				"/home/d3sk3r/.XresourcesBAK",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module",
@@ -664,15 +672,7 @@
 				"/home/d3sk3r/links",
 				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/SO/SO-14_11.txt",
-				"/home/d3sk3r/Stuff/passWindows/laZagne.bat",
-				"/home/d3sk3r/cod.txt",
-				"/home/d3sk3r/crashlands and inferno save.txt",
-				"/home/d3sk3r/Stuff/p2_prog/txt/1_vetorRepeticoes.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb.txt",
-				"/home/d3sk3r/dspti_malware.txt",
-				"/home/d3sk3r/dspti_redeEletrica.txt",
-				"/home/d3sk3r/dspti_bios.txt"
+				"/home/d3sk3r/SO/SO-14_11.txt"
 			],
 			"find":
 			{
@@ -802,7 +802,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
+			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
 			"project": "",
 			"replace":
 			{
