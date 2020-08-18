@@ -545,6 +545,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/rofi/.config/rofi/config",
 				"/home/d3sk3r/.Xresources",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
 				"/home/d3sk3r/packettracer/packettracer.install",
@@ -671,8 +672,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
 				"/home/d3sk3r/links",
 				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/SO/SO-14_11.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
 			],
 			"find":
 			{
@@ -802,7 +802,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
+			"position": "0,0,0,0,0,1705,402,2035,758,2726,768",
 			"project": "",
 			"replace":
 			{
