@@ -124,6 +124,7 @@ opaque_colors=true
 scroll_jump_workaround=false
 centered_forms=true
 kinetic_scrolling=false
+noninteger_translucency=false
 
 [PanelButtonCommand]
 frame.element=button

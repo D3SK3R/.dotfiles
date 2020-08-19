@@ -260,9 +260,14 @@ alias la='exa -lah'
 #alias la='lsd -lah --icon never'
 alias cl='tput reset;exa'
 alias rm='trash'
+# confirm before mv or cp overwriting files
 alias mv='mv -i'
+alias cp='cp -i'
 alias ..='cd ..'
-alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
+alias ...='cd ../..'
+alias mkdir='mkdir -p'
+#alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
+alias fzf="fzf | xargs xdg-open"
 alias vim='stty stop "" -ixoff; vim'
 alias v='stty stop "" -ixoff; vim'
 alias c='tput reset'

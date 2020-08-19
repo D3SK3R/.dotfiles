@@ -43,8 +43,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -53,6 +52,8 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "fsPath": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
+                                        "external": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
                                         "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
                                         "scheme": "file"
                                     },
@@ -117,12 +118,12 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -190,8 +191,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -199,8 +199,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -419,8 +418,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -595,8 +593,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1467,7 +1464,8 @@
     "themeBackground": "#0d0f31",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/1568208463699",
+            "folder": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
+            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/a9cccc5a48040ad1ddb36ad2a68327c7",
             "uiState": {
                 "mode": 1,
                 "x": 2,

@@ -73,12 +73,12 @@ for_window      [class="qutebrowser"] floating enable sticky enable resize set 8
 for_window      [class="qutebrowser"] move scratchpad
 
 # Dropdown Spotify
+$exec spotify
 bindsym F3      [class="Spotify"] scratchpad show
 for_window      [class="Spotify"] floating enable sticky enable
 for_window      [class="Spotify"] move scratchpad
 
 # Dropdown chaturbate picture in picture
-$exec spotify
 bindsym F4      [title="Picture in picture"] scratchpad show
 for_window      [title="Picture in picture"] floating enable sticky enable
 for_window      [title="Picture in picture"] move scratchpad
@@ -101,6 +101,8 @@ bindsym $mod+Return 	                   		$exec urxvtc
 #bindsym $mod+Shift+Return 	                   	$exec alacritty
 # rofi
 bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode"
+# rofi fzf finder
+bindsym $mod+x                                  $exec fd | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
 # rofi NetworkManager
 #bindsym $mod+w                                 $exec networkmanager_dmenu
 bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
@@ -507,6 +509,7 @@ for_window [title="updater.sh"] floating enable
 #for_window [class="qutebrowser"] floating enable resize set 800 640 move to position 419 60
 for_window [class="Google-chrome"] border none
 for_window [title="Task Manager - Google Chrome"] floating enable
+for_window [class="Chromium"] border none
 for_window [class="Brave"] border none
 for_window [title="alsamixer"] floating enable border pixel 2
 for_window [class="calamares"] floating enable
@@ -536,7 +539,7 @@ for_window [class="Timeset-gui"] floating enable
 for_window [class="Xfburn"] floating enable
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="XTerm"] floating enable move position center
-for_window [class="MEGAsync"] floating enable
+for_window [class="MEGAsync"] floating enable border none
 for_window [class="Musixmatch"] floating enable resize set 570 360
 
 ################################################################################################

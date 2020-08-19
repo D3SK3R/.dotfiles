@@ -545,6 +545,15 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
+				"/home/d3sk3r/.games/Celeste.desktop",
+				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
+				"/home/d3sk3r/.i3/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/access.log",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/d3sk3r/MEGA/nmap_scan.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/d3sk3r/.dotfiles/rofi/.config/rofi/config",
 				"/home/d3sk3r/.Xresources",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
@@ -562,8 +571,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/pp.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
 				"/home/d3sk3r/Desktop/Celeste/start",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
-				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Games/Dead Cells The Bad Seed/steam_emu.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/oomox-git/where and git.txt",
@@ -665,14 +672,7 @@
 				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link",
-				"/home/d3sk3r/192.168.15.48",
-				"/home/d3sk3r/Stuff/battery.txt",
-				"/home/d3sk3r/MEGA/Professional/Curriculo.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/adb/adb_commands.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Lina/links",
-				"/home/d3sk3r/links",
-				"/home/d3sk3r/Stuff/D3SK3R-AWS.ovpn",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
+				"/home/d3sk3r/192.168.15.48"
 			],
 			"find":
 			{
@@ -690,6 +690,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"AUR",
 					"desker",
 					"border normal",
 					"spotif",
@@ -802,7 +803,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1705,402,2035,758,2726,768",
+			"position": "0,0,0,0,0,2047,402,2716,758,2726,768",
 			"project": "",
 			"replace":
 			{
