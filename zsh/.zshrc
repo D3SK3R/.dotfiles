@@ -306,6 +306,7 @@ alias font-list='fc-list'
 alias psa='ps auxf'
 alias free='free -mt'
 alias grep='grep -i'
+alias info='inxi -Fxz'
 
 #################################################################
 # Pacman
