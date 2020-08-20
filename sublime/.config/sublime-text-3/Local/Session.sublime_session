@@ -468,6 +468,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msfvenomWAN.txt",
+					"settings":
+					{
+						"buffer_size": 424,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -758,8 +767,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msfvenomWAN.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 424,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										415,
+										415
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 225.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
