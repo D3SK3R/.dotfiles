@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# Faster command than xrandr?
+# grep . /sys/class/drm/*/status
+
 if xrandr | grep -ow "DP1 connected"
 then
     # If second monitor connected, activated it

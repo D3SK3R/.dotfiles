@@ -396,7 +396,7 @@ exec --no-startup-id clipit
 exec --no-startup-id clipster -d
 exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
-exec --no-startup-id xautolock -time 30 -locker /home/d3sk3r/.i3/lock.sh
+exec --no-startup-id xautolock -time 60 -locker /home/d3sk3r/.i3/lock.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id manjaro-hello

@@ -100,8 +100,15 @@ set textwidth=0 wrapmargin=0
 " To display long lines as just one line (i.e. you have to scroll horizontally to see the entire line).
 ":set nowrap
 
+" Before try to using system clipboard, check if installed vim is compatible
+" use: vim --version | grep 'clipboard'
+" if theres +clipboard, with a + not a -, its compatible, if not, do:
+" git clone https://github.com/vim/vim.git
+" cd vim
+" ./configure --enable-gui=auto --enable-gtk2-check --with-x --prefix=/usr
+" make && sudo make install
 " Use system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Fix different colors (brown) with urxvt
 set background=dark

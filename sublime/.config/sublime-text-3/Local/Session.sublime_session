@@ -578,8 +578,8 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/.config/picom/picom.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/.config/picom/picom.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
 				"/home/d3sk3r/.games/Celeste.desktop",
 				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
@@ -901,7 +901,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,6,34,672,758,2726,768",
+			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
 			"project": "",
 			"replace":
 			{
