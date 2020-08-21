@@ -578,6 +578,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
@@ -601,7 +602,6 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/loml 8.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/jimi errada.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pn.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msf_autoRun.sh",
 				"/home/d3sk3r/sms_dump_20200815031655.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/link",
@@ -799,7 +799,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -827,7 +827,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -855,7 +855,7 @@
 								"translation.y": 47.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						}
 					]
@@ -901,7 +901,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2047,402,2716,758,2726,768",
+			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
 			"project": "",
 			"replace":
 			{
