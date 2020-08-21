@@ -57,6 +57,7 @@ let g:airline_theme='serene'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'ap/vim-css-color'
 
+" ctrl+f to use
 Plugin 'preservim/nerdtree'
 
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -88,6 +89,9 @@ set wrapmargin=8
 set tabstop=4 softtabstop=0 expandtab smarttab
 set shiftwidth=4
 
+" enables backspace to delete characters in insert mode
+set backspace=3
+
 " Highlight selected matches
 set hlsearch
 
@@ -100,12 +104,13 @@ set textwidth=0 wrapmargin=0
 " To display long lines as just one line (i.e. you have to scroll horizontally to see the entire line).
 ":set nowrap
 
-" Before try to using system clipboard, check if installed vim is compatible
+" Before trying to use system clipboard, check if installed vim is compatible
 " use: vim --version | grep 'clipboard'
 " if theres +clipboard, with a + not a -, its compatible, if not, do:
 " git clone https://github.com/vim/vim.git
 " cd vim
-" ./configure --enable-gui=auto --enable-gtk2-check --with-x --prefix=/usr
+" make distclean
+" ./configure --enable-gui=no --with-x --prefix=/usr
 " make && sudo make install
 " Use system clipboard
 set clipboard=unnamedplus
@@ -138,6 +143,9 @@ autocmd BufRead */.i3/config* set syntax=dosini
 " bind -r '\C-s'
 " stty -ixon
 " alias vim='stty stop "" -ixoff; vim'
+
+" disable vim to change window title
+set notitle
 
 "map "a" to act like "i" and switch to insert mode
 nmap a i

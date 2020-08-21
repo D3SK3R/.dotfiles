@@ -492,7 +492,7 @@
 					"file": "/home/d3sk3r/.config/picom/picom.conf",
 					"settings":
 					{
-						"buffer_size": 9905,
+						"buffer_size": 9874,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -578,6 +578,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/.config/picom/picom.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
@@ -702,10 +705,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/weather",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pages/Index/index.html",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python/Informações/ForInRange(soma de todos os numeros na variavel do while).py",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt",
-				"/home/d3sk3r/MEGA/L O M L/Bday-link.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/@MODELO",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/\nPeps Harbs/link"
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/all.txt"
 			],
 			"find":
 			{
@@ -836,15 +836,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9905,
+								"buffer_size": 9874,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										483,
-										483
+										0,
+										0
 									]
 								],
 								"settings":
@@ -901,7 +901,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
+			"position": "0,0,0,0,0,2047,402,2716,758,2726,768",
 			"project": "",
 			"replace":
 			{
