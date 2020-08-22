@@ -499,22 +499,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
-					"settings":
-					{
-						"buffer_size": 605,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
-					"settings":
-					{
-						"buffer_size": 1004,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -604,6 +588,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/nmap_scan.py",
+				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
+				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
 				"/home/d3sk3r/.mplayer/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
@@ -620,7 +607,6 @@
 				"/home/d3sk3r/.config/Outline Manager/Preferences",
 				"/home/d3sk3r/.config/qutebrowser/autoconfig.yml",
 				"/home/d3sk3r/.config/spotify/prefs",
-				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ascii - hex",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/SublimeThemes.txt",
@@ -729,9 +715,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thomas shelby.txt",
 				"/home/d3sk3r/soadm.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/idk.txt",
-				"/home/d3sk3r/MEGA/english to runic.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/home/d3sk3r/MEGA/discord/Ltc/serio.txt"
+				"/home/d3sk3r/MEGA/english to runic.txt"
 			],
 			"find":
 			{
@@ -825,65 +809,8 @@
 			"groups":
 			[
 				{
-					"selected": 1,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 605,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										464,
-										464
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1004,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Perl/Perl.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -927,7 +854,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2047,402,2716,758,2726,768",
+			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
 			"project": "",
 			"replace":
 			{
