@@ -161,8 +161,11 @@ bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 # Manjaro Help
 #bindsym $mod+Shift+h 							exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 
-#STOP/HIDE EVERYTHING:
+# STOP/HIDE EVERYTHING:
 bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh	
+
+# reset picom
+bindsym $mod+Shift+Delete                       $exec killall picom && picom -b
 
 bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
 

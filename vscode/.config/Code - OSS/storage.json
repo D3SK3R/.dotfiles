@@ -5,8 +5,8 @@
             "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python"
         ],
         "files2": [
-            "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py",
-            "file:///home/d3sk3r/MEGA/nmap_scan.py"
+            "file:///home/d3sk3r/MEGA/nmap_scan.py",
+            "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py"
         ]
     },
     "lastKnownMenubarData": {
@@ -43,7 +43,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -67,23 +68,23 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py",
-                                        "path": "/home/d3sk3r/Stuff/programação/1_diaMesAno.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Stuff/programação/1_diaMesAno.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/d3sk3r/MEGA/nmap_scan.py",
                                         "path": "/home/d3sk3r/MEGA/nmap_scan.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/MEGA/nmap_scan.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py",
+                                        "path": "/home/d3sk3r/Stuff/programação/1_diaMesAno.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Stuff/programação/1_diaMesAno.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -122,8 +123,7 @@
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -914,7 +914,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

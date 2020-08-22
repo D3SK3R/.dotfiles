@@ -334,7 +334,7 @@ alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 #################################################################
 # pentest related
 #################################################################
-alias server='python -m  http.server 2727'
+alias server='python -m  http.server 1337'
 alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3'
 #alias dirbuster='java -jar /opt/dirbuster/dirbuster.jar'
 alias airgeddon='sudo airgeddon'
@@ -355,7 +355,6 @@ alias msf='sudo msfconsole'
 #alias httpdon='sudo systemctl enable httpd'
 #alias httpdoff='sudo systemctl disable httpd'
 alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/Pentesting/kickthemout/kickthemout.py'
-alias beef='"cd" /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/beef/;./beef;cd ~'
 alias ports='sudo netstat -tnlp'
 alias ngrok='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
 alias remote_ssh='ssh -R d3sk3r:22:localhost:22 serveo.net'
@@ -395,16 +394,13 @@ alias play='ncmpcpp;clear'
 #alias powersave='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/powersave.sh'
 #alias performance='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/performance.sh'
 alias cpu='lscpu | grep MHz | lolcat;sensors | grep Core | lolcat'
-alias radio='curseradio'
 alias hh='hollywood;kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
 alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
-alias owl='streamlink https://www.twitch.tv/overwatchleague 1080p60 -p mpv'
-alias aws_ssh='ssh -i "~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R-AWS.pem" openvpnas@54.233.64.157'
-alias aws_admin='xdg https://54.233.64.157:943/admin/;sleep 1;clear'
-alias aws_vpn='sudo openvpn ~/MEGA/D3SK3R/D3SK3R/AWS_VPN/D3SK3R\ -\ AWS_autologin.ovpn'
 alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
 alias viewn='viewnior'
 alias emoji='rofimoji -c'
+alias pktriot='./MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/pktriot'
+
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
