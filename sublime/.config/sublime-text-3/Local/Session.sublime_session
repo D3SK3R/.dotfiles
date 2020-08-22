@@ -588,6 +588,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
 				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
@@ -626,7 +627,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
 				"/home/d3sk3r/.games/Celeste.desktop",
 				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
@@ -854,7 +854,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
+			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
 			"project": "",
 			"replace":
 			{
