@@ -52,7 +52,7 @@ mainbox {
 	padding: 20px 0;
 	border: 2px;
 	//border-color: @base0D;
-	border-color: #00CCFF;
+	border-color: #000000;
     border-radius: 10px;
 }
 
