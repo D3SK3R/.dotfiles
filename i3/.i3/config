@@ -546,9 +546,10 @@ for_window [class="XTerm"] floating enable move position center
 for_window [class="MEGAsync"] floating enable border none
 for_window [class="Musixmatch"] floating enable resize set 570 360
 
-################################################################################################
-################################################################################################
 
+################################################################################################
+## 								            Colors                                            ##                            
+################################################################################################
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
@@ -561,25 +562,44 @@ for_window [class="Musixmatch"] floating enable resize set 570 360
 # to:
 # background $term_background
 # Same logic applied to everything else.
-set_from_resource $term_background background
-set_from_resource $term_foreground foreground
-set_from_resource $term_color0     color0
-set_from_resource $term_color1     color1
-set_from_resource $term_color2     color2
-set_from_resource $term_color3     color3
-set_from_resource $term_color4     color4
-set_from_resource $term_color5     color5
-set_from_resource $term_color6     color6
-set_from_resource $term_color7     color7
-set_from_resource $term_color8     color8
-set_from_resource $term_color9     color9
-set_from_resource $term_color10    color10
-set_from_resource $term_color11    color11
-set_from_resource $term_color12    color12
-set_from_resource $term_color13    color13
-set_from_resource $term_color14    color14
-set_from_resource $term_color15    color15
+#set_from_resource $term_background background
+#set_from_resource $term_foreground foreground
+#set_from_resource $term_color0     color0
+#set_from_resource $term_color1     color1
+#set_from_resource $term_color2     color2
+#set_from_resource $term_color3     color3
+#set_from_resource $term_color4     color4
+#set_from_resource $term_color5     color5
+#set_from_resource $term_color6     color6
+#set_from_resource $term_color7     color7
+#set_from_resource $term_color8     color8
+#set_from_resource $term_color9     color9
+#set_from_resource $term_color10    color10
+#set_from_resource $term_color11    color11
+#set_from_resource $term_color12    color12
+#set_from_resource $term_color13    color13
+#set_from_resource $term_color14    color14
+#set_from_resource $term_color15    color15
 
+set_from_resource $bg i3wm.bg       #000000
+set_from_resource $fg i3wm.fg       #ffffff
+
+# colour of                                     border, backgr, text, indic, child_border
+client.focused			                        $bg     $bg     $fg   $bg    $bg
+client.focused_inactive	                        $bg     $bg     $fg   $bg    $bg
+client.unfocused		                        $bg     $bg     $fg   $bg    $bg
+client.urgent			                        $bg     $bg     $fg   $bg    $bg
+client.placeholder		                        $bg     $bg     $fg   $bg    $bg
+client.background		                                $bg
+
+# My older colors
+# colour of                                     border, backgr, text, indicator, child_border
+#client.focused			                        #2f343f #2f343f #d8dee8 #00ccff #00ccff
+#client.focused_inactive	                        #2f343f #2f343f #d8dee8 #d8dee8 #d8dee8
+#client.unfocused		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.urgent			                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.placeholder		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.background		                                #2f343f
 
 # Theme colors DEFAULTS
 # class                   border  backgr. text    indic.   child_border
@@ -590,23 +610,6 @@ set_from_resource $term_color15    color15
 #  client.placeholder      #000000 #0c0c0c #ffffff #000000 
 #
 #  client.background       #2B2C2B
-
-# colour of                                     border, background, text, indicator, child_border
-client.focused			                        #2f343f #2f343f #d8dee8 #000000 #000000
-client.focused_inactive	                        #2f343f #2f343f #d8dee8 #000000 #000000
-client.unfocused		                        #2f343f #2f343f #d8dee8 #2f343f #000000
-client.urgent			                        #2f343f #2f343f #d8dee8 #2f343f #000000
-client.placeholder		                        #2f343f #2f343f #d8dee8 #2f343f #000000
-client.background		                                #2f343f
-
-
-# colour of                                     border, background, text, indicator, child_border
-#client.focused			                        #2f343f #2f343f #d8dee8 #00ccff #00ccff
-#client.focused_inactive	                        #2f343f #2f343f #d8dee8 #d8dee8 #d8dee8
-#client.unfocused		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
-#client.urgent			                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
-#client.placeholder		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
-#client.background		                                #2f343f
 
 #############################
 ### settings for i3-gaps: ###
