@@ -41,7 +41,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 10
+    transparency = 30
 
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
@@ -65,7 +65,7 @@
 
     # Defines color of the frame around the notification window.
     #frame_color = "#bcecff"
-    frame_color = "#00CCFF"
+    frame_color = "#000000"
     
     # Define a color for the separator.
     # possible values are:
@@ -251,14 +251,14 @@
     background = "#000000"
     foreground = "#ffffff"
     #frame_color = "#4a4a4a"
-    frame_color = "#FFFFFF"
+    frame_color = frame
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
     background = "#000000"
-    foreground = "#ffffff"
+    foreground = frame
     timeout = 5
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
