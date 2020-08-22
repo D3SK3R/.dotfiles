@@ -214,7 +214,7 @@ fade-exclude = [ ];
 # Rounded Corners
 #
 #################################
-corner-radius = 4
+corner-radius = 3
 rounded-corners-exclude = [
     "class_g ?= 'polybar'",
     "name = 'Polybar tray window'",
