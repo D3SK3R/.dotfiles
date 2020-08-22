@@ -499,6 +499,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.i3/config",
+					"settings":
+					{
+						"buffer_size": 29724,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -809,8 +818,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 29724,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 360.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -854,7 +892,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2047,34,2716,758,2726,768",
+			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
 			"project": "",
 			"replace":
 			{
