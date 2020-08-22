@@ -16,7 +16,7 @@ else
   #LAUNCHER="rofi -width 30 -dmenu -i -p rofi-power:"
   LAUNCHER="rofi -dmenu -i -f 'Roboto Mono 12'"
   USE_LOCKER="false"
-  LOCKER="i3lock"
+  LOCKER="/home/d3sk3r/.i3/lock.sh"
 fi
 
 # Show exit wm option if exit command is provided as an argument

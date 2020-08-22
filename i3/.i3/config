@@ -30,10 +30,6 @@ exec --no-startup-id $HOME/.i3/mouse_sens.sh
 # Stretch
 $exec $HOME/.scripts/stretch.sh
 
-# Dual monitor
-# exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id $HOME/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
-bindsym $mod+Shift+s exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id ~/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
-
 # Layouts
 #https://github.com/olemartinorg/i3-alternating-layout.git
 exec --no-startup-id ~/.i3/alternating_layouts.py
@@ -53,14 +49,14 @@ workspace $ws8 output eDP1
 workspace $ws9 output eDP1
 
 # Dropdown floating terminal
-exec --no-startup-id urxvt -name floating_urxvt
+exec --no-startup-id urxvtc -name floating_urxvt
 bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
 for_window		[title="floating_urxvt"] move to position 400 60
-
-# For dual monitor:
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
+
+# For dual monitor:
 #exec --no-startup-id alacritty
 #for_window 	[title="Alacritty"] move to position 1738 64
 #for_window 	[class="Alacritty"] resize set 515 356
@@ -99,48 +95,70 @@ for_window              [class="discord"] floating enable move position center
 # Start a terminal
 bindsym $mod+Return 	                   		$exec urxvtc
 #bindsym $mod+Shift+Return 	                   	$exec alacritty
+
 # rofi
 bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode"
+
 # rofi fzf finder
 bindsym $mod+x                                  $exec fd | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
+
 # rofi NetworkManager
 #bindsym $mod+w                                 $exec networkmanager_dmenu
 bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
+
 # rofi clipboard manager
 # https://github.com/gilbertw1/roficlip
 bindsym $mod+c                                  $exec roficlip
 # rofi-calc
 # https://github.com/svenstaro/rofi-calc
 bindsym $mod+Ctrl+c                             $exec rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
+
 # Launch Chrome
 bindsym $mod+g 									exec --no-startup-id google-chrome-stable --force-dark-mode
-# Qutebrowser
+
+# qutebrowser
 bindsym $mod+b									exec --no-startup-id qutebrowser
-# Ncmpcpp
+
+# ncmpcpp
 bindsym $mod+m 									exec --no-startup-id $term -e ncmpcpp
+
 # Dolphin
 bindsym $mod+f				    		    	exec --no-startup-id dolphin
+bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
+
 # Ranger
 bindsym $mod+r									exec --no-startup-id $term -e ranger
+
 # Gotop
 bindsym $mod+h									exec --no-startup-id $term -e gotop -aps
+
 # Atom
 bindsym $mod+a									exec --no-startup-id atom
+
+# Dual monitor
+# exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id $HOME/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
+bindsym $mod+Shift+s exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id ~/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
 # Sublime
 bindsym $mod+s									exec --no-startup-id subl
+
 # Layout Manager
 bindsym $mod+ctrl+l								exec --no-startup-id $HOME/.i3/layout_manager.sh
 # Lock screen
 #bindsym $mod+l                                  exec --no-startup-id blurlock
 bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
+
 # kill focused window
 bindsym $mod+Shift+q 							kill
+
 # launch categorized menu
 bindsym $mod+z 									exec --no-startup-id morc_menu
+
 # reload the configuration file
 bindsym $mod+Shift+c 							reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 #bindsym $mod+Shift+r 							restart
+
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e 							exec "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -162,18 +180,15 @@ bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 #bindsym $mod+Shift+h 							exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 
 # STOP/HIDE EVERYTHING:
-bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh	
-
+bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh
 # reset picom
 bindsym $mod+Shift+Delete                       $exec killall picom && picom -b
 
-bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
-
 #########################################################################################################################################################################################
-# audio volume
+# media
 # key codes:
-# XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute ( Volume up, down, and mute )
-# XF86AudioPlay, XF86AudioNext, XF86AudioPrev ( Play music, next/previous tracks )
+# XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute
+# XF86AudioPlay, XF86AudioNext, XF86AudioPrev, XF86AudioStop 
 
 bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
 bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
@@ -209,7 +224,7 @@ bindsym XF86AudioPrev 							$exec playerctl previous
 # XF86MonBrightnessUp, XF86MonBrightnessDown (Brightness up and down)
 
 # kill xfce4-power-manager and re-open it so it doesn't interfere when changing brightness
-exec --no-startup-id kill $(ps ax | grep xfce4-power-manager | head -n 1 | cut -d' ' -f1);sleep 1;xfce4-power-manager
+exec --no-startup-id kill $(ps ax | awk '/xfce4-power-manager/ {print $1}' | head -n 1);sleep 1;xfce4-power-manager
 
 bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUP.sh
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDOWN.sh
@@ -334,7 +349,6 @@ mode "resize" {
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 # default:  pixel 1
-# pixel 0 looks cool too
 new_window pixel 2
 new_float pixel 2
 
@@ -509,7 +523,6 @@ for_window [title="Blizzard Battle.net"] floating enable
 for_window [class="SimpleScreenRecorder"] floating enable
 for_window [title="Network Connections"] floating enable
 for_window [title="updater.sh"] floating enable
-#for_window [class="qutebrowser"] floating enable resize set 800 640 move to position 419 60
 for_window [class="Google-chrome"] border none
 for_window [title="Task Manager - Google Chrome"] floating enable
 for_window [class="Chromium"] border none
@@ -539,7 +552,6 @@ for_window [class="Simple-scan"] floating enable
 for_window [class="(?i)System-config-printer.py"] floating enable
 for_window [class="Skype"] floating enable
 for_window [class="Timeset-gui"] floating enable
-#for_window [class="(?i)virtualbox"] floating enable border pixel 2
 for_window [class="Xfburn"] floating enable
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="XTerm"] floating enable move position center
@@ -616,7 +628,7 @@ client.background		                                $bg
 #############################
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 10
 gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.

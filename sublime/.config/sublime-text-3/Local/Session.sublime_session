@@ -444,6 +444,10 @@
 				"selected_items":
 				[
 					[
+						"floating",
+						"floating_urxvt"
+					],
+					[
 						"configu",
 						"configuration"
 					],
@@ -503,7 +507,7 @@
 					"file": "/home/d3sk3r/.i3/config",
 					"settings":
 					{
-						"buffer_size": 29724,
+						"buffer_size": 29494,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -597,6 +601,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
@@ -639,7 +644,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
 				"/home/d3sk3r/.games/Celeste.desktop",
 				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
-				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/access.log",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
@@ -728,7 +732,7 @@
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -742,6 +746,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"$mod+Shift+s",
 					"client-",
 					"mark",
 					"use-ewmh-active-win",
@@ -827,15 +832,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 29724,
+								"buffer_size": 29494,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										25984,
+										25984
 									]
 								],
 								"settings":
@@ -843,7 +848,7 @@
 									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 360.0,
+								"translation.y": 1035.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
