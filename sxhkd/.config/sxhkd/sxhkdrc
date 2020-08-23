@@ -40,12 +40,9 @@ super + m
 #super + m
 #    ncmpcpp
 
-# Dolphin
-super + f
-    dolphin
-# Toggle Polybar
-super + ctrl + f
-    ~/.config/polybar/scripts/toggle_polybar.sh
+# Dolphin and Toggle Polybar
+super + {_, ctrl} + f
+    {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
 
 # Ranger
 super + r
@@ -89,10 +86,8 @@ super + shift + Delete
 ################################################################################################
 
 # Raise and Lower volume
-XF86AudioRaiseVolume
-    ~/.scripts/volumeUP.sh
-XF86AudioLowerVolume
-    ~/.scripts/volumeDOWN.sh
+XF86Audio{Raise,Lower}Volume
+    ~/.scripts/volume{UP,DOWN}.sh
 
 # Media controls for mpd and spotify
 # MPD
@@ -101,13 +96,11 @@ XF86AudioLowerVolume
 
 # Spotify
 XF86Audio{Play,Stop,Next,Prev}
-    playerctl {play-pause, stop;playerctl previous, next, previous}
+    playerctl {play-pause,stop;playerctl previous,next,previous}
 
 # Brightness
-XF86MonBrightnessUp
-    ~/.scripts/brightnessUP.sh
-XF86MonBrightnessDown
-    ~/.scripts/brightnessDOWN.sh
+XF86MonBrightness{Up,Down}
+    ~/.scripts/brightness{UP,DOWN}.sh
 
 ################################################################################################
 ##                                     I3WM Keybindings                                       ##
