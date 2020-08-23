@@ -7,8 +7,8 @@ super + Return
     urxvtc -cd ~
 
 # Print (flameshot)
-Print
-    flameshot gui -p ~
+{_,super +} Print
+    {flameshot gui -p ~, flameshot screen -p ~}
 
 # Rofi
 super + d
@@ -52,19 +52,13 @@ super + r
 super + h
     urxvtc -e gotop -aps
 
-# Dual Monitor Script
-super + shift + s
-    ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore
-# Sublime
-super + s
-    subl
+# Sublime and Dual Monitor Script
+super + {_, shift} + s
+    {subl, ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
-# Layout Manager
-super + ctrl + l
-    ~/.i3/layout_manager.sh
-# Lock Screen
-super + l
-    ~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
+# Lock Screen and Layout Manager
+super + {_, ctrl} + l
+   {~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause, ~/.i3/layout_manager.sh}
 
 # Categorized menu
 super + z
@@ -74,12 +68,9 @@ super + z
 super + ctrl + x
     xkill
 
-# Panic / Stop/hide everything
-super + Delete
-    ~/.scripts/panic.sh
-# reset picom (until it starts randomly making xorg consumes 100% cpu)
-super + shift + Delete
-    killall picom && sleep 0.5 && picom -b
+# Panic / Stop/hide everything and reset picom
+super + {_, shift} + Delete
+    {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b}
 
 ################################################################################################
 ##                                      Media Keybindings                                     ##
