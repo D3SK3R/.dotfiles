@@ -96,24 +96,12 @@ XF86AudioLowerVolume
 
 # Media controls for mpd and spotify
 # MPD
-#XF86AudioPlay
-#    ~/.scripts/mpdTOGGLE.sh
-#XF86AudioStop
-#    ~/.scripts/mpdSTOP.sh
-#XF86AudioNext
-#    ~/.scripts/mpdNEXT.sh
-#XF86AudioPrev
-#    ~/.scripts/mpdPREV.sh
+#XF86Audio{Play,Stop,Next,Prev}
+#    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
 
 # Spotify
-XF86AudioPlay
-    playerctl play-pause
-XF86AudioStop
-    playerctl stop;playerctl previous
-XF86AudioNext
-    playerctl next
-XF86AudioPrev
-    playerctl previous
+XF86Audio{Play,Stop,Next,Prev}
+    playerctl {play-pause, stop;playerctl previous, next, previous}
 
 # Brightness
 XF86MonBrightnessUp
