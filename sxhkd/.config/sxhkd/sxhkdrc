@@ -14,9 +14,9 @@ super + Return
 super + d
     rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode
 
-# Rofi fuzy finder
-super + x
-    fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
+# Rofi fuzy finder and xkill
+super + {_, ctrl} + x
+    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open, xkill}
 
 # Rofi NetworkManager
 super + w
@@ -63,10 +63,6 @@ super + {_, ctrl} + l
 # Categorized menu
 super + z
     morc_menu
-
-# Xkill
-super + ctrl + x
-    xkill
 
 # Panic / Stop/hide everything and reset picom
 super + {_, shift} + Delete
