@@ -1,0 +1,205 @@
+################################################################################################
+##                                  Application Keybindings                                   ##
+################################################################################################
+
+# Terminal 
+super + Return
+    urxvtc -cd ~
+
+# Print (flameshot)
+Print
+    flameshot gui -p ~
+
+# Rofi
+super + d
+    rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode
+
+# Rofi fuzy finder
+super + x
+    fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
+
+# Rofi NetworkManager
+super + w
+    ~/.scripts/networkmanager_rofi.sh
+
+# Rofi clipboard manager
+super + c
+    roficlip
+# Rofi-calc
+super + ctrl + c
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
+
+# Google-chrome
+super + g
+    google-chrome-stable
+
+# Spotify
+super + m
+    spotify
+# ncmpcpp
+#super + m
+#    ncmpcpp
+
+# Dolphin
+super + f
+    dolphin
+# Toggle Polybar
+super + ctrl + f
+    ~/.config/polybar/scripts/toggle_polybar.sh
+
+# Ranger
+super + r
+    ranger ~
+
+# Gotop
+super + h
+    urxvtc -e gotop -aps
+
+# Dual Monitor Script
+super + shift + s
+    ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore
+# Sublime
+super + s
+    subl
+
+# Layout Manager
+super + ctrl + l
+    ~/.i3/layout_manager.sh
+# Lock Screen
+super + l
+    ~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
+
+# Categorized menu
+super + z
+    morc_menu
+
+# Xkill
+super + ctrl + x
+    xkill
+
+# Panic / Stop/hide everything
+super + Delete
+    ~/.scripts/panic.sh
+# reset picom (until it starts randomly making xorg consumes 100% cpu)
+super + shift + Delete
+    killall picom && sleep 0.5 && picom -b
+
+################################################################################################
+##                                      Media Keybindings                                     ##
+################################################################################################
+
+# Raise and Lower volume
+XF86AudioRaiseVolume
+    ~/.scripts/volumeUP.sh
+XF86AudioLowerVolume
+    ~/.scripts/volumeDOWN.sh
+
+# Media controls for mpd and spotify
+# MPD
+#XF86AudioPlay
+#    ~/.scripts/mpdTOGGLE.sh
+#XF86AudioStop
+#    ~/.scripts/mpdSTOP.sh
+#XF86AudioNext
+#    ~/.scripts/mpdNEXT.sh
+#XF86AudioPrev
+#    ~/.scripts/mpdPREV.sh
+
+# Spotify
+XF86AudioPlay
+    playerctl play-pause
+XF86AudioStop
+    playerctl stop;playerctl previous
+XF86AudioNext
+    playerctl next
+XF86AudioPrev
+    playerctl previous
+
+# Brightness
+XF86MonBrightnessUp
+    ~/.scripts/brightnessUP.sh
+XF86MonBrightnessDown
+    ~/.scripts/brightnessDOWN.sh
+
+################################################################################################
+##                                     I3WM Keybindings                                       ##
+################################################################################################
+
+# Floating Stuff
+# Terminal
+F1
+    i3 \[title="floating_urxvt"\] scratchpad show
+
+# Qutebrowser
+F2 
+    i3 \[class="qutebrowser"\] scratchpad show
+
+# Spotify
+F3
+    i3 \[class="Spotify"\] scratchpad show
+
+# Picture in picture windows
+F4
+    i3 \[title="Picture in picture"\] scratchpad show
+
+# Discord
+super + shift + d
+    i3 \[class="discord"\] scratchpad show
+
+
+# Reload I3wm
+super + shift + c
+    i3 reload
+
+# Restart I3wm
+super + shift + r
+    i3 restart
+
+# Kill focused window
+super + shift + q
+    i3 kill
+
+# Change focus
+super + {Left, Right, Up, Down}
+    i3 focus {Left, Right, Up, Down}
+
+# Move focused window
+super + shift + {Left, Right, Up, Down}
+    i3 move {Left, Right, Up, Down}
+
+# Split orientation
+super + q
+    i3 split toggle
+
+# Toggle Fullscreen
+super + shift + f
+    i3 fullscreen toggle
+
+# Toggle tiling / floating
+super + shift + space
+    i3 floating toggle
+
+# Change focus between tiling / floating windows
+super + space
+    i3 focus mode_toggle
+
+# Move the currently focused window to scratchpad
+#super + shift + minus
+#   i3 move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window
+#super + -
+#   i3 scratchpad show
+
+# Navigate workspaces
+super + ctrl + {Left, Right}
+    i3 workspace {prev, next}
+
+# Power options
+super + 0
+    ~/.scripts/rofi_power.sh
+
+# Resize mode 
+super + ctrl + r
+    i3 mode "resize"
+

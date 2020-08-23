@@ -507,7 +507,7 @@
 					"file": "/home/d3sk3r/.i3/config",
 					"settings":
 					{
-						"buffer_size": 29494,
+						"buffer_size": 29580,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -601,8 +601,8 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
 				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
@@ -832,15 +832,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 29494,
+								"buffer_size": 29580,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										25984,
-										25984
+										0,
+										0
 									]
 								],
 								"settings":
@@ -897,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
+			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{
