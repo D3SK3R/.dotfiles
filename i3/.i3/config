@@ -101,8 +101,6 @@ bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show d
 
 # rofi fzf finder
 bindsym $mod+x                                  $exec fd | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
-# Xkill
-bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 
 # rofi NetworkManager
 #bindsym $mod+w                                 $exec networkmanager_dmenu
@@ -178,6 +176,8 @@ bindsym $mod+Print 								exec --no-startup-id flameshot screen -p ~/
 # Select area
 bindsym Print 									exec --no-startup-id flameshot gui -p ~/
 
+# Xkill
+bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
 # Manjaro Help
 #bindsym $mod+Shift+h 							exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 

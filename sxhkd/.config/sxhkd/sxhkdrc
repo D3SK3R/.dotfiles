@@ -171,3 +171,16 @@ super + 0
 super + ctrl + r
     i3 mode "resize"
 
+# Move to workspaces
+super + {1-9}
+    i3 workspace {1-9}
+super + tab
+    i3 workspace back_and_forth
+
+# Move windows to workspaces
+super + shift + {1-9}
+    i3 move container to workspace {1-9}
+super + ctrl + {1-9}
+    i3 move container to workspace {1-9} && i3 workspace {1-9}
+
+

@@ -507,7 +507,7 @@
 					"file": "/home/d3sk3r/.i3/config",
 					"settings":
 					{
-						"buffer_size": 29563,
+						"buffer_size": 29562,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -832,7 +832,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 29563,
+								"buffer_size": 29562,
 								"regions":
 								{
 								},
@@ -897,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2389,551,2714,756,2726,768",
+			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
