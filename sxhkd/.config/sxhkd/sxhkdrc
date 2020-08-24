@@ -1,6 +1,8 @@
 ################################################################################################
 ##                                  Application Keybindings                                   ##
 ################################################################################################
+##             Alphabetical order, and command keys, like Return, and etc, first 			  ##
+################################################################################################
 
 # Terminal 
 super + Return
@@ -10,9 +12,32 @@ super + Return
 {_,super +} Print
     {flameshot gui -p ~, flameshot screen -p ~}
 
+# Panic / Stop/hide everything and reset picom
+super + {_, shift} + Delete
+    {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b}
+
+# Rofi clipboard manager
+super + c
+    roficlip
+# Rofi-calc
+super + ctrl + c
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
+
 # Rofi
 super + d
     rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode
+
+# Dolphin and Toggle Polybar
+super + {_, ctrl} + f
+    {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
+
+# Google-chrome
+super + g
+    google-chrome-stable
+
+# Gotop
+super + h
+    urxvtc -e gotop -aps
 
 # Rofi fuzy finder and xkill
 super + {_, ctrl} + x
@@ -22,16 +47,9 @@ super + {_, ctrl} + x
 super + w
     ~/.scripts/networkmanager_rofi.sh
 
-# Rofi clipboard manager
-super + c
-    roficlip
-# Rofi-calc
-super + ctrl + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
-
-# Google-chrome
-super + g
-    google-chrome-stable
+# Lock Screen and Layout Manager
+super + {_, ctrl} + l
+   {~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause, ~/.i3/layout_manager.sh}
 
 # Spotify
 super + m
@@ -40,33 +58,17 @@ super + m
 #super + m
 #    ncmpcpp
 
-# Dolphin and Toggle Polybar
-super + {_, ctrl} + f
-    {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
-
 # Ranger
 super + r
     ranger ~
-
-# Gotop
-super + h
-    urxvtc -e gotop -aps
 
 # Sublime and Dual Monitor Script
 super + {_, shift} + s
     {subl, ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
-# Lock Screen and Layout Manager
-super + {_, ctrl} + l
-   {~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause, ~/.i3/layout_manager.sh}
-
 # Categorized menu
 super + z
     morc_menu
-
-# Panic / Stop/hide everything and reset picom
-super + {_, shift} + Delete
-    {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b}
 
 ################################################################################################
 ##                                      Media Keybindings                                     ##

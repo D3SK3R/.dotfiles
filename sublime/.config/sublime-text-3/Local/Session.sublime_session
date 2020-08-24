@@ -511,6 +511,15 @@
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+					"settings":
+					{
+						"buffer_size": 4512,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -823,7 +832,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -849,6 +858,34 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 1035.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4512,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										476,
+										476
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 960.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -897,7 +934,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
+			"position": "0,0,0,0,0,1368,403,2034,756,2726,768",
 			"project": "",
 			"replace":
 			{
