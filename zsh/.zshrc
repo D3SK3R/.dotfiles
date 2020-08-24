@@ -307,6 +307,7 @@ alias psa='ps auxf'
 alias free='free -mt'
 alias grep='grep -i'
 alias info='inxi -Fxz'
+alias ports='sudo netstat -tnlp'
 
 #################################################################
 # Pacman
@@ -328,14 +329,12 @@ alias clean='echo "This command will remove cached packages and sync database of
 #################################################################
 # zsh related
 #################################################################
-alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc'
+alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 
 #################################################################
 # pentest related
 #################################################################
-alias server='python -m  http.server 1337'
-alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3'
 #alias dirbuster='java -jar /opt/dirbuster/dirbuster.jar'
 alias airgeddon='sudo airgeddon'
 alias evillimiter='sudo evillimiter'
@@ -347,21 +346,28 @@ alias monitoron='sudo airmon-ng start wlan0'
 alias monitoroff='sudo airmon-ng stop wlan0mon'
 # Full Network restart, useful when using airodump
 alias netrestart='sudo iw wlan0 del;sudo airmon-ng stop wlan0mon'
-#alias phonesploit='python2 /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/PhoneSploit/main_linux.py'
+#alias phonesploit='python2 /home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/PhoneSploit/main_linux.py'
 alias setoolkit='sudo setoolkit'
 alias msf='sudo msfconsole'
-#alias nessuson='systemctl start nessusd'
-#alias nessusoff='systemctl stop nessusd'
+alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/pentest/kickthemout/kickthemout.py'
+# Shorten URL using the following services: bit.ly, j.mp, t.cn, is.gd, v.gd, tiny.cc.
+alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
+alias botnet='cd /home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS'
+alias botnet_start='pm2 start -f index.js'
+alias botnet_stop='pm2 stop index'
+alias botnet_fix='pm2 delete index'
+alias botnet_pktriot='pm2 status;pktriot info'
+
+#################################################################
+# WEB/IP related
+#################################################################
+alias server='python -m  http.server 1337'
 #alias httpdon='sudo systemctl enable httpd'
 #alias httpdoff='sudo systemctl disable httpd'
-alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/Pentesting/kickthemout/kickthemout.py'
-alias ports='sudo netstat -tnlp'
 alias ngrok='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
+alias pktriot='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/pktriot'
 alias remote_ssh='ssh -R d3sk3r:22:localhost:22 serveo.net'
 # To connect to the remote_ssh: ssh -J serveo.net d3sk3r@d3sk3r
-# Shorten URL using the following services: bit.ly, j.mp, t.cn, is.gd, v.gd, tiny.cc.
-#alias short='shortn'
-alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/Pentesting/Phishing/blackeye/blackeye.sh'
 
 #################################################################
 # ADB related
@@ -399,8 +405,8 @@ alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f
 alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
 alias viewn='viewnior'
 alias emoji='rofimoji -c'
-alias pktriot='./MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/pktriot'
-
+alias short='shortn'
+alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
