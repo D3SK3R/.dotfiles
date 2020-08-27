@@ -98,6 +98,9 @@ set scrolloff=5
 " Highlight selected matches
 set hlsearch
 
+" Enable mouse scrolling
+set mouse=a
+
 " Stop vim from creating a new line
 set textwidth=0 wrapmargin=0
 
