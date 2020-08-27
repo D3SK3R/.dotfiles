@@ -417,6 +417,7 @@ interval = 100
 #format-underline = ${colors.fg}
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
+click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
 
 [module/network_wlan0]
 type = internal/network

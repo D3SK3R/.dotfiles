@@ -503,15 +503,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "Foram criadas 2 'redes', uma que liga os computadores usando um hub e outra, um switch.\nDepois foram configurados os IPs de cada máquina.\n\nApós a configuração de IPs, fora utilizados comandos ping para testar a conexão e, após isso, o modo do packet tracer foi alterado de Realtime pra Simulation, para que o cenário possa ser pausado e, no painel de simulação, foi ativo o filtro para para que só sejam visualizados os pacotes ICMP, do ping.\n\nOutro teste foi realizado com o comando ping mas, dessa vez, usando o modo simulação, analisando o tempo de cada request/reply e informações sobre o pacote e devices envolvidos.\nNessa etapa foi encontrado que, o hub, usa broadcast, enquanto o switch só envia a requisição pro computador alvo e a resposta para o computador que fez a requisição.\nNo hub todos os computadores recebem a requisição ICMP mas o descartam quando vêem que não eram o alvo e, somente o alvo responde, mas a resposta vai para todos os computadores que, mais uma vez, descartam, enquanto somente o que fez a requisição, mantém o pacote ICMP recebido.\n\nE também que o hub trabalha na camada 1 do modelo OSI, enquanto o switch trabalha na camada 2.\nDessa forma, o switch consegue visualizar melhor a rede e seus integrantes e saber distinguir melhor o que fazer e para quem exatamente mandar cada pacote.\n\nTambém foi possivel visualizar a estrutura IP do pacote e suas informações.\n\nDepois disso, o hub e o switch foram ligados. Nessa etapa ficou visível que, enquanto no lado do hub a conexão já fica verde assim que conectado, no lado do switch a conexão fica laranja por alguns instantes, pois o switch está cadastrando na tabela os endereços mac dos computadores conectados no hub do outro lado.\n\nDessa vez, o pacote ICMP foi enviado de um computador no hub para um no switch.\nO comportamento foi o esperado:\nO pacote/request saiu do computador inicial, foi para o hub e o hub enviou para todos os computadores conectados a ele, ao mesmo tempo que enviou para o switch; o switch enviou somente pro computador alvo, que respondeu com o pacote reply direto para o switch, que enviou para o hub e, mais uma vez, o hub enviou o pacote para todos os computadores, ao invés de enviar somente para o que havia feito o request.\n\nNa segunda aula, o hub e switch foram separados e foram enviados pacotes entre todos os devices da rede, tanto no hub, quanto no switch. No hub houveram diversas colições, request time out e longo tempo de resposta, enquanto o switch conseguiu administrar tudo e enviar cada pacote para seu alvo e voltar com a request. \n\nNo geral, foi possivel analisar as diferenças entre hub e switch, e como eles se comportam com requisições.\nFoi encontrado que, no hub, há muitas colisões, o que é causado pelo fato de que o hub é um único domínio de colisão, trabalha na camada 1 do modelo OSI e, por isso, não tem autonomia o suficiente para agir como um switch, onde cada porta é um domínio de colisão e trabalha na camada 2, facilitando a análise e descobrimento da rede, maior eficiência na hora de enviar/receber pacotes de cada device na rede.",
-					"settings":
-					{
-						"buffer_size": 3078,
-						"line_ending": "Unix",
-						"name": "Foram criadas 2 'redes', uma que liga os computado"
-					}
-				}
 			],
 			"build_system": "Packages/Python/Python.sublime-build",
 			"build_system_choices":
@@ -645,6 +636,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/home/d3sk3r/PISRC.txt",
+				"/home/d3sk3r/PISRC,txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/aa.py",
 				"/home/d3sk3r/print('a').py",
@@ -658,7 +654,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/maindb.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/index.js",
 				"/home/d3sk3r/maindb.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
 				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
 				"/home/d3sk3r/.mplayer/config",
@@ -703,7 +698,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/d3sk3r/.dotfiles/rofi/.config/rofi/config",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
 				"/home/d3sk3r/packettracer/packettracer.install",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/transmit.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/dummy-fake_cam.txt",
@@ -769,10 +763,7 @@
 				"/home/d3sk3r/.config/clipit/clipitrc",
 				"/home/d3sk3r/idk.txt",
 				"/home/d3sk3r/.zshrc",
-				"/home/d3sk3r/.config/cava/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_dotfiles.sh",
-				"/home/d3sk3r/.p10k.zsh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/where"
+				"/home/d3sk3r/.config/cava/config"
 			],
 			"find":
 			{
@@ -790,6 +781,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"urxvt",
+					"php",
+					"hostname",
+					"hosyname",
 					"$mod+Shift+s",
 					"client-",
 					"mark",
@@ -867,37 +862,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3078,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3078,
-										3078
-									]
-								],
-								"settings":
-								{
-									"auto_name": "Foram criadas 2 'redes', uma que liga os computado",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 231.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -941,7 +907,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
+			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{
