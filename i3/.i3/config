@@ -423,6 +423,7 @@ exec_always --no-startup-id fix_xcursor
 # exec_always --no-startup-id sbxkb
 # exec_always --no-startup-id start_conky_maia
 # exec_always --no-startup-id start_conky_green
+$exec telegram-desktop -startintray
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
