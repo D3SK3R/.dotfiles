@@ -48,7 +48,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " themes: https://github.com/vim-airline/vim-airline/wiki/Screenshots
 " To set in .vimrc, use let g:airline_theme='<theme>', e.g. let g:airline_theme='simple'
-let g:airline_theme='serene' 
+let g:airline_theme='monochrome' 
 " fav themes: simple/minimalist/lucius/monochrome/serene
 
 " if using a powerline font
@@ -91,6 +91,9 @@ set shiftwidth=4
 
 " enables backspace to delete characters in insert mode
 set backspace=3
+
+" Minimal number of screen lines to keep above and below the cursor.
+set scrolloff=5
 
 " Highlight selected matches
 set hlsearch

@@ -29,7 +29,7 @@
 ## - 8 - white
 ## - 9 - end of current color
 
-external_editor = "nano"
+external_editor = "vim"
 ## Note: set to yes if external editor is a console application.
 ##
 use_console_editor = "yes"

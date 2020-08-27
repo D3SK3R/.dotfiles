@@ -63,7 +63,8 @@ deep-purple = #5e35b1
 indigo = #3949ab
 blue = #1e88e5
 light-blue = #039be5
-cyan = #00acc1
+cyan = #00ccff
+cyan2 = #00acc1
 teal = #00897b
 green = #43a047
 light-green = #7cb342
@@ -80,9 +81,8 @@ gray3 = #1A1A1A
 blue-gray = #546e7a
 
 ;==========================================================
-
-enable-ipc = true
-
+; 				         Primary Bar
+;==========================================================
 [bar/main]
 width = 100%
 ;height = 32
@@ -91,6 +91,10 @@ radius = 8
 bottom = false
 fixed-center = true
 line-size = 
+
+spacing = 0
+module-margin-left = 0
+module-margin-right = 0
 
 offset-y = 0
 offset-x = 0
@@ -114,6 +118,8 @@ override-redirect = false
 
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
+
+enable-ipc = true
 
 ;==========================================================
 
