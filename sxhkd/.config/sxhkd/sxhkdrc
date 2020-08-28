@@ -41,7 +41,7 @@ super + h
 
 # Lock Screen and Layout Manager
 super + {_, ctrl} + l
-   {~/.i3/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause, ~/.i3/layout_manager.sh}
+   {~/.scripts/lock.sh;mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause, ~/.i3/layout_manager.sh}
 
 # Spotify
 super + m
