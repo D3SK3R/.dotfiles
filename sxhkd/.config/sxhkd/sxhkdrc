@@ -56,7 +56,7 @@ super + r
 
 # Sublime and Dual Monitor Script
 super + {_, shift} + s
-    {subl, ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
+    {subl, ~/.scripts/monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
 # Rofi NetworkManager
 super + w

@@ -51,28 +51,30 @@ workspace $ws7 output eDP1
 workspace $ws8 output eDP1
 workspace $ws9 output eDP1
 
+# urxvt daemon
+$exec urxvtd -q -o -f
 # Dropdown floating terminal
 $exec urxvt -name floating_urxvt
 #bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
-for_window		[title="floating_urxvt"] move to position 0 50
+for_window		[title="floating_urxvt"] move to position 400 50
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
-
-# For dual monitor:
-#exec --no-startup-id alacritty
-#for_window 	[title="Alacritty"] move to position 1738 64
-#for_window 	[class="Alacritty"] resize set 515 356
-#for_window 	[class="Alacritty"] border none
 
 # Secondary floating terminal
 $exec urxvt -name dropdown_urxvt
 #bindsym F2 		[title="dropdown_urxvt"] scratchpad show
-for_window 		[title="dropdown_urxvt"] floating enable sticky enable
-#for_window		[title="dropdown_urxvt"] move position 1364 340
-for_window 		[title="dropdown_urxvt"] move scratchpad
+for_window 			[title="dropdown_urxvt"] floating enable sticky enable
+for_window			[title="dropdown_urxvt"] move position 10 30
+for_window 			[title="dropdown_urxvt"] move scratchpad
 #for_window 		[title="dropdown_urxvt"] resize set 1360 725
 #for_window 		[title="dropdown_urxvt"] resize set 1361 735
+
+# Alacritty
+#exec --no-startup-id alacritty
+#for_window 	[title="Alacritty"] move to position 1738 64
+#for_window 	[class="Alacritty"] resize set 515 356
+#for_window 	[class="Alacritty"] border none
 
 # Dropdown Spotify
 $exec spotify
@@ -285,8 +287,6 @@ floating_modifier $mod
 # Discord
 # betterdiscord
 exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
-# urxvt daemon
-exec --no-startup-id urxvtd -q -o -f
 # Keyboard Layout
 exec_always --no-startup-id $HOME/.scripts/KeyboardLayout.sh
 # Keyboard repeat delay and interval default: 250 30
