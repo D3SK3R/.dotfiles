@@ -565,16 +565,8 @@
 					"file": "/home/d3sk3r/.i3/config",
 					"settings":
 					{
-						"buffer_size": 25795,
+						"buffer_size": 25796,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
-					"settings":
-					{
-						"buffer_size": 728,
 						"line_ending": "Unix"
 					}
 				}
@@ -711,6 +703,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
@@ -837,8 +830,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
 				"/home/d3sk3r/pavolume/pavolume",
 				"/home/d3sk3r/.config/polybar/scripts/weather.py",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt",
-				"/home/d3sk3r/MEGA/discord/Jimi/Ajota/discord"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt"
 			],
 			"find":
 			{
@@ -949,7 +941,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -958,15 +950,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 25795,
+								"buffer_size": 25796,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2379,
-										2379
+										1849,
+										1849
 									]
 								],
 								"settings":
@@ -975,34 +967,6 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 649.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 728,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
