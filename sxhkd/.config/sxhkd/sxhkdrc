@@ -181,7 +181,25 @@ super + Tab
 # Move windows to workspaces
 super + shift + {1-9}
     i3 move container to workspace {1-9}
-super + ctrl + {1-9}
-    i3 move container to workspace {1-9} && i3 workspace {1-9}
+#super + ctrl + {1-9}
+#    i3 move container to workspace {1-9};i3 workspace {1-9}
 
+super + ctrl + 1
+    i3 move container to workspace 1;i3 workspace 1
+super + ctrl + 2
+    i3 move container to workspace 2;i3 workspace 2
+super + ctrl + 3
+    i3 move container to workspace 3;i3 workspace 3
+super + ctrl + 4
+    i3 move container to workspace 4;i3 workspace 4
+super + ctrl + 5
+    i3 move container to workspace 5;i3 workspace 5
+super + ctrl + 6
+    i3 move container to workspace 6;i3 workspace 6
+super + ctrl + 7
+    i3 move container to workspace 7;i3 workspace 7
+super + ctrl + 8
+    i3 move container to workspace 8;i3 workspace 8
+super + ctrl + 9
+    i3 move container to workspace 9;i3 workspace 9
 

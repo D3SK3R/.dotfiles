@@ -569,6 +569,14 @@
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
+					"settings":
+					{
+						"buffer_size": 728,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -941,7 +949,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -967,6 +975,34 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 649.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 728,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1015,7 +1051,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,28,2722,764,2726,768",
+			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
 			"project": "",
 			"replace":
 			{
