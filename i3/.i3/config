@@ -22,7 +22,10 @@ set $mpd_port 1100
 set $mpd_host localhost
 
 exec --no-startup-id i3-msg workspace 1
-exec --no-startup-id $HOME/.i3/mouse_sens.sh
+
+$exec sxhkd
+
+exec --no-startup-id $HOME/.scripts/mouse_sens.sh
 
 # Low ram warning
 #exec --no-startup-id $HOME/.scripts/ram_warning.sh
@@ -32,7 +35,7 @@ $exec $HOME/.scripts/stretch.sh
 
 # Layouts
 #https://github.com/olemartinorg/i3-alternating-layout.git
-exec --no-startup-id ~/.i3/alternating_layouts.py
+exec --no-startup-id ~/.scripts/alternating_layouts.py
 # alternative: https://github.com/nwg-piotr/autotiling
 
 # Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
@@ -50,9 +53,9 @@ workspace $ws9 output eDP1
 
 # Dropdown floating terminal
 $exec urxvt -name floating_urxvt
-bindsym F1 		[title="floating_urxvt"] scratchpad show
+#bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
-for_window		[title="floating_urxvt"] move to position 400 60
+for_window		[title="floating_urxvt"] move to position 0 50
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
 
@@ -62,20 +65,23 @@ for_window 		[title="floating_urxvt"] resize set 570 360
 #for_window 	[class="Alacritty"] resize set 515 356
 #for_window 	[class="Alacritty"] border none
 
-# Dropdown Browser
-exec --no-startup-id qutebrowser
-bindsym F2      [class="qutebrowser"] scratchpad show
-for_window      [class="qutebrowser"] floating enable sticky enable resize set 800 640 move position center
-for_window      [class="qutebrowser"] move scratchpad
+# Secondary floating terminal
+$exec urxvt -name dropdown_urxvt
+#bindsym F2 		[title="dropdown_urxvt"] scratchpad show
+for_window 		[title="dropdown_urxvt"] floating enable sticky enable
+#for_window		[title="dropdown_urxvt"] move position 1364 340
+for_window 		[title="dropdown_urxvt"] move scratchpad
+#for_window 		[title="dropdown_urxvt"] resize set 1360 725
+#for_window 		[title="dropdown_urxvt"] resize set 1361 735
 
 # Dropdown Spotify
 $exec spotify
-bindsym F3      [class="Spotify"] scratchpad show
+#bindsym F3      [class="Spotify"] scratchpad show
 for_window      [class="Spotify"] floating enable sticky enable
 for_window      [class="Spotify"] move scratchpad
 
-# Picture in picture windows
-bindsym F4      [title="Picture in picture"] scratchpad show
+# Dropdown chaturbate picture in picture
+#bindsym F4      [title="Picture in picture"] scratchpad show
 for_window      [title="Picture in picture"] floating enable sticky enable
 for_window      [title="Picture in picture"] move scratchpad
 
@@ -83,108 +89,10 @@ for_window      [title="Picture in picture"] move scratchpad
 # DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
 # to reenable just comment the bindsym line below this and uncomment everything else
 #bindsym $mod+Shift+d                            $exec discord
-bindsym $mod+Shift+d    [class="discord"] scratchpad show
+#bindsym $mod+Shift+d    [class="discord"] scratchpad show
 for_window              [class="discord"] floating enable sticky enable
 for_window              [class="discord"] floating enable move position center
 for_window              [class="discord"] move scratchpad
-
-
-################################################################################################
-##                                       KEYBINDINGS                                          ##
-################################################################################################
-# Terminal
-bindsym $mod+Return 	                   		$exec urxvtc
-#bindsym $mod+Shift+Return 	                   	$exec alacritty
-
-# Rofi
-bindsym $mod+d 									exec --no-startup-id "rofi -modi run,drun,window -show drun -columns 2 -show-icons -sidebar-mode"
-
-# rofi fzf finder
-bindsym $mod+x                                  $exec fd | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open
-
-# rofi NetworkManager
-#bindsym $mod+w                                 $exec networkmanager_dmenu
-bindsym $mod+w                                  $exec /home/d3sk3r/.scripts/networkmanager_rofi.sh
-
-# rofi clipboard manager
-# https://github.com/gilbertw1/roficlip
-bindsym $mod+c                                  $exec roficlip
-# rofi-calc
-# https://github.com/svenstaro/rofi-calc
-bindsym $mod+Ctrl+c                             $exec rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
-# reload the configuration file
-bindsym $mod+Shift+c 							reload
-
-# Launch Chrome
-bindsym $mod+g 									exec --no-startup-id google-chrome-stable --force-dark-mode
-
-# qutebrowser
-bindsym $mod+b									exec --no-startup-id qutebrowser
-
-# Spotify
-bindsym $mod+m                                  $exec spotify
-# ncmpcpp
-#bindsym $mod+m 									exec --no-startup-id $term -e ncmpcpp
-
-# Dolphin
-bindsym $mod+f				    		    	exec --no-startup-id dolphin
-# Toggle Polybar
-bindsym $mod+Ctrl+f                             $exec ~/.config/polybar/scripts/toggle_polybar.sh
-
-# Ranger
-bindsym $mod+r									exec --no-startup-id $term -e ranger
-
-# Gotop
-bindsym $mod+h									exec --no-startup-id $term -e gotop -aps
-
-# Atom
-#bindsym $mod+a									exec --no-startup-id atom
-
-# Dual monitor Script
-# exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id $HOME/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
-bindsym $mod+Shift+s exec --no-startup-id $HOME/.i3/Monitors.sh;exec --no-startup-id ~/.config/polybar/launch.sh;exec --no-startup-id nitrogen --restore
-# Sublime
-bindsym $mod+s									exec --no-startup-id subl
-
-# Layout Manager
-bindsym $mod+ctrl+l								exec --no-startup-id $HOME/.i3/layout_manager.sh
-# Lock screen
-#bindsym $mod+l                                  exec --no-startup-id blurlock
-bindsym $mod+l 									exec --no-startup-id /home/d3sk3r/.i3/lock.sh;exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause
-
-# kill focused window
-bindsym $mod+Shift+q 							kill
-
-# launch categorized menu
-bindsym $mod+z 									exec --no-startup-id morc_menu
-
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-#bindsym $mod+Shift+r 							restart
-
-# exit i3 (logs you out of your X session)
-#bindsym $mod+Shift+e 							exec "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-
-# PRINT:
-# Spectacle
-#bindsym Print 									exec --no-startup-id spectacle
-# Select area
-#bindsym $mod+Print								exec --no-startup-id spectacle -r
-
-# Flameshot "flameshot config" on terminal to configure and import/export config files
-# Fullscreen print:
-bindsym $mod+Print 								exec --no-startup-id flameshot screen -p ~/
-# Select area
-bindsym Print 									exec --no-startup-id flameshot gui -p ~/
-
-# Xkill
-bindsym $mod+Ctrl+x --release 					exec --no-startup-id xkill
-# Manjaro Help
-#bindsym $mod+Shift+h 							exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
-
-# STOP/HIDE EVERYTHING:
-bindsym $mod+Delete							    exec --no-startup-id ~/.scripts/panic.sh
-# reset picom
-bindsym $mod+Shift+Delete                       $exec killall picom && sleep 0.5 && picom -b
 
 #########################################################################################################################################################################################
 # media
@@ -192,8 +100,8 @@ bindsym $mod+Shift+Delete                       $exec killall picom && sleep 0.5
 # XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute
 # XF86AudioPlay, XF86AudioNext, XF86AudioPrev, XF86AudioStop 
 
-bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
-bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
+#bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
+#bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
 
 #bindsym XF86AudioRaiseVolume 					exec --no-startup-id amixer -c 1 sset Master 2%+
 #bindsym XF86AudioLowerVolume		 			exec --no-startup-id amixer -c 1 sset Master 2%-
@@ -212,11 +120,11 @@ bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
 #bindsym XF86AudioNext 							exec --no-startup-id ~/.scripts/mpdNEXT.sh
 #bindsym XF86AudioPrev 							exec --no-startup-id ~/.scripts/mpdPREV.sh
 
-# playerctl (for spotify)
-bindsym XF86AudioPlay		 					$exec playerctl play-pause
-bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous;$exec playerctl stop
-bindsym XF86AudioNext 							$exec playerctl next
-bindsym XF86AudioPrev 							$exec playerctl previous
+# playerctl
+#bindsym XF86AudioPlay		 					$exec playerctl play-pause
+#bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous;$exec playerctl stop
+#bindsym XF86AudioNext 							$exec playerctl next
+#bindsym XF86AudioPrev 							$exec playerctl previous
 
 #########################################################################################################################################################################################
 # Brightness
@@ -228,8 +136,8 @@ bindsym XF86AudioPrev 							$exec playerctl previous
 # kill xfce4-power-manager and re-open it so it doesn't interfere when changing brightness
 exec --no-startup-id kill $(ps ax | awk '/xfce4-power-manager/ {print $1}' | head -n 1);sleep 1;xfce4-power-manager
 
-bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUP.sh
-bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDOWN.sh
+#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUP.sh
+#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDOWN.sh
 
 #########################################################################################################################################################################################
 
@@ -240,10 +148,10 @@ bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDOWN.sh
 #bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Right focus right
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
 
 # move focused window
 #bindsym $mod+Shift+j move left
@@ -252,10 +160,10 @@ bindsym $mod+Up focus up
 #bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+#bindsym $mod+Shift+Left move left
+#bindsym $mod+Shift+Down move down
+#bindsym $mod+Shift+Up move up
+#bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
 #workspace_auto_back_and_forth yes
@@ -265,10 +173,10 @@ bindsym $mod+Shift+Right move right
 # split orientation
 #bindsym $mod+h split h;exec notify-send 'tile horizontally'
 #bindsym $mod+v split v;exec notify-send 'tile vertically'
-bindsym $mod+q split toggle
+#bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
-bindsym $mod+Shift+f fullscreen toggle
+#bindsym $mod+Shift+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+s layout stacking
@@ -276,10 +184,10 @@ bindsym $mod+Shift+f fullscreen toggle
 #bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+#bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # toggle sticky
 #bindsym $mod+Shift+s sticky toggle
@@ -296,8 +204,8 @@ bindsym $mod+space focus mode_toggle
 
 #navigate workspaces next / previous
 # Arrow keys
-bindsym $mod+Ctrl+Right workspace next
-bindsym $mod+Ctrl+Left workspace prev
+#bindsym $mod+Ctrl+Right workspace next
+#bindsym $mod+Ctrl+Left workspace prev
 # Vim keys
 #bindsym $mod+Ctrl+h workspace next
 #bindsym $mod+Ctrl+l workspace prev
@@ -305,7 +213,7 @@ bindsym $mod+Ctrl+Left workspace prev
 
 # Set shut down, restart and locking features
 #bindsym $mod+0 mode "$mode_system"
-bindsym $mod+0 exec --no-startup-id ~/.scripts/rofi_power.sh
+#bindsym $mod+0 exec --no-startup-id $HOME/.scripts/rofi_power.sh
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id i3exit lock, mode "default"
@@ -322,7 +230,7 @@ mode "$mode_system" {
 }
 
 # Resize window (you can also use the mouse for that)
-bindsym $mod+ctrl+r mode "resize"
+#bindsym $mod+ctrl+r mode "resize"
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
         # Pressing left will shrink the window’s width.
@@ -380,7 +288,7 @@ exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;
 # urxvt daemon
 exec --no-startup-id urxvtd -q -o -f
 # Keyboard Layout
-exec_always --no-startup-id $HOME/.i3/KeyboardLayout.sh
+exec_always --no-startup-id $HOME/.scripts/KeyboardLayout.sh
 # Keyboard repeat delay and interval default: 250 30
 exec_always --no-startup-id xset r rate 200 30 # first number after "rate" is delay, and second is interval
 # Polybar
@@ -415,7 +323,7 @@ exec --no-startup-id clipit
 exec --no-startup-id clipster -d
 exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
-exec --no-startup-id xautolock -time 60 -locker /home/d3sk3r/.i3/lock.sh
+exec --no-startup-id xautolock -time 60 -locker ~/.scripts/lock.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id manjaro-hello
@@ -423,7 +331,6 @@ exec_always --no-startup-id fix_xcursor
 # exec_always --no-startup-id sbxkb
 # exec_always --no-startup-id start_conky_maia
 # exec_always --no-startup-id start_conky_green
-$exec telegram-desktop -startintray
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
@@ -464,40 +371,42 @@ set $ws9 "9"
 
 # Workspaces commands
 # Switch to workspace
-bindsym $mod+1			workspace $ws1
-bindsym $mod+2 			workspace $ws2
-bindsym $mod+3			workspace $ws3
-bindsym $mod+4			workspace $ws4
-bindsym $mod+5 		  	workspace $ws5
-bindsym $mod+6 		 	workspace $ws6
-bindsym $mod+7 		 	workspace $ws7
-bindsym $mod+8 		   	workspace $ws8
-bindsym $mod+9 		    workspace $ws9
-bindsym $mod+Tab	    workspace back_and_forth
+#bindsym $mod+1				workspace $ws1
+#bindsym $mod+2 			workspace $ws2
+#bindsym $mod+3				workspace $ws3
+#bindsym $mod+4				workspace $ws4
+#bindsym $mod+5 		  	workspace $ws5
+#bindsym $mod+6 		 	workspace $ws6
+#bindsym $mod+7 		 	workspace $ws7
+#bindsym $mod+8 		   	workspace $ws8
+#bindsym $mod+9 		    workspace $ws9
+
+# GAPS???????
+bindsym $mod+Tab	  	 	workspace back_and_forth
 
 
 # Move the container to the workspace
-bindsym $mod+Shift+1 	    move container to workspace $ws1
-bindsym $mod+Shift+2 	    move container to workspace $ws2
-bindsym $mod+Shift+3 	    move container to workspace $ws3
-bindsym $mod+Shift+4 	    move container to workspace $ws4
-bindsym $mod+Shift+5 	    move container to workspace $ws5
-bindsym $mod+Shift+6 	    move container to workspace $ws6
-bindsym $mod+Shift+7 	    move container to workspace $ws7
-bindsym $mod+Shift+8 	    move container to workspace $ws8
-bindsym $mod+Shift+9 	    move container to workspace $ws9
+#bindsym $mod+Shift+1 	    move container to workspace $ws1
+#bindsym $mod+Shift+2 	    move container to workspace $ws2
+#bindsym $mod+Shift+3 	    move container to workspace $ws3
+#bindsym $mod+Shift+4 	    move container to workspace $ws4
+#bindsym $mod+Shift+5 	    move container to workspace $ws5
+#bindsym $mod+Shift+6 	    move container to workspace $ws6
+#bindsym $mod+Shift+7 	    move container to workspace $ws7
+#bindsym $mod+Shift+8 	    move container to workspace $ws8
+#bindsym $mod+Shift+9 	    move container to workspace $ws9
 
 
 # Move to the workspace with the containter being moved
-bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
-bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
-bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
-bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
-bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
-bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
-bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
+#bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
+#bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
+#bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
+#bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
+#bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
+#bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
+#bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
+#bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
+#bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
 
 
 # bind apps to workspaces
@@ -650,7 +559,7 @@ smart_gaps on
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-#bindsym $mod+Shift+g mode "$mode_gaps"
+bindsym $mod+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
         bindsym o      mode "$mode_gaps_outer"

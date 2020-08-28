@@ -33,19 +33,11 @@ super + {_, ctrl} + f
 
 # Google-chrome
 super + g
-    google-chrome-stable
+    google-chrome-stable --force-dark-mode
 
 # Gotop
 super + h
     urxvtc -e gotop -aps
-
-# Rofi fuzy finder and xkill
-super + {_, ctrl} + x
-    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open, xkill}
-
-# Rofi NetworkManager
-super + w
-    ~/.scripts/networkmanager_rofi.sh
 
 # Lock Screen and Layout Manager
 super + {_, ctrl} + l
@@ -66,6 +58,14 @@ super + r
 super + {_, shift} + s
     {subl, ~/.i3/Monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
+# Rofi NetworkManager
+super + w
+    ~/.scripts/networkmanager_rofi.sh
+
+# Rofi fuzy finder and xkill
+super + {_, ctrl} + x
+    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open, xkill}
+
 # Categorized menu
 super + z
     morc_menu
@@ -78,18 +78,18 @@ super + z
 XF86Audio{Raise,Lower}Volume
     ~/.scripts/volume{UP,DOWN}.sh
 
-# Media controls for mpd and spotify
-# MPD
-#XF86Audio{Play,Stop,Next,Prev}
-#    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
+# Brightness
+XF86MonBrightness{Up,Down}
+    ~/.scripts/brightness{UP,DOWN}.sh
 
 # Spotify
 XF86Audio{Play,Stop,Next,Prev}
     playerctl {play-pause,stop;playerctl previous,next,previous}
 
-# Brightness
-XF86MonBrightness{Up,Down}
-    ~/.scripts/brightness{UP,DOWN}.sh
+# Media controls for mpd and spotify
+# MPD
+#XF86Audio{Play,Stop,Next,Prev}
+#    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
 
 ################################################################################################
 ##                                     I3WM Keybindings                                       ##
@@ -102,7 +102,7 @@ F1
 
 # Qutebrowser
 F2 
-    i3 \[class="qutebrowser"\] scratchpad show
+    i3 \[title="dropdown_urxvt"\] scratchpad show
 
 # Spotify
 F3
@@ -116,14 +116,13 @@ F4
 super + shift + d
     i3 \[class="discord"\] scratchpad show
 
-
 # Reload I3wm
 super + shift + c
     i3 reload
 
 # Restart I3wm
-super + shift + r
-    i3 restart
+#super + shift + r
+#    i3 restart
 
 # Kill focused window
 super + shift + q
@@ -176,7 +175,7 @@ super + ctrl + r
 # Move to workspaces
 super + {1-9}
     i3 workspace {1-9}
-super + tab
+super + Tab
     i3 workspace back_and_forth
 
 # Move windows to workspaces
