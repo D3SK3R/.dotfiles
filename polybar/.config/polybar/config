@@ -320,6 +320,7 @@ format = <label>
 # icons for play/pause
 exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
 #format-underline = #1db954
+click-left = playerctl play-pause
 
 [module/cpu]
 type = internal/cpu

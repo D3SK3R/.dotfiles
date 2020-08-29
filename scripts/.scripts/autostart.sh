@@ -33,7 +33,7 @@ ibinput-gestures-setup restart &
 sleep 5 & flashfocus &
 
 # Send a warning when free ram gets lower
-#~/.scripts/ram_warning.sh
+#~/.scripts/ram_warning.sh &
 
 # Stretch notif
 ~/.scripts/stretch.sh &

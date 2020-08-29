@@ -703,6 +703,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.i3/config",
@@ -727,7 +728,6 @@
 				"/home/d3sk3r/print('a').py",
 				"/home/d3sk3r/untitled.py",
 				"/home/d3sk3r/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/partials/deviceManagerMenu.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/deviceManagerPages/info.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/webpublic/js/main.js",
@@ -1015,7 +1015,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
+			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
