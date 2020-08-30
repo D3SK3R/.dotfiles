@@ -65,7 +65,7 @@ for_window 		[title="floating_urxvt"] resize set 570 360
 $exec urxvt -name dropdown_urxvt
 #bindsym F2 		[title="dropdown_urxvt"] scratchpad show
 for_window 			[title="dropdown_urxvt"] floating enable sticky enable
-for_window			[title="dropdown_urxvt"] move position 10 30
+#for_window			[title="dropdown_urxvt"] move position 10 30
 for_window 			[title="dropdown_urxvt"] move scratchpad
 #for_window 		[title="dropdown_urxvt"] resize set 1360 725
 

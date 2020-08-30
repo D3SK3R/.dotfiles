@@ -137,6 +137,7 @@ autocmd BufWritePost ~/.Xresources !xrdb %
 
 " auto apply tmux conf
 autocmd BufWritePost ~/.tmux.conf !tmux source-file %
+autocmd BufWritePost ~/.tmux.conf.local !tmux source-file %
 
 
 " auto compile .c files

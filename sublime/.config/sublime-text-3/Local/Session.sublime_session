@@ -569,6 +569,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.tmux.conf.local",
+					"settings":
+					{
+						"buffer_size": 10022,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -702,6 +711,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/tmux/.tmux.conf",
+				"/home/d3sk3r/.tmux.conf.local",
 				"/home/d3sk3r/.p10k.zsh",
 				"/home/d3sk3r/.p10k.zshBAK",
 				"/home/d3sk3r/proj",
@@ -827,9 +838,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/DisableMouseAcceleration.txt",
-				"/home/d3sk3r/.config/kcalcrc",
-				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt"
+				"/home/d3sk3r/.config/kcalcrc"
 			],
 			"find":
 			{
@@ -847,6 +856,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"ffffff",
+					"\\|",
+					"|||||||||",
+					"'|'",
+					"|",
+					"00ccff",
+					"username",
+					"tmux_conf_theme_status_right=",
 					"separator",
 					"sleep",
 					"F2",
@@ -941,8 +958,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.tmux.conf.local",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10022,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2367,
+										2367
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 677.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -986,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
+			"position": "0,0,0,0,0,8,36,671,756,2726,768",
 			"project": "",
 			"replace":
 			{
