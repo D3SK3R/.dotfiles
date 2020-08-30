@@ -561,15 +561,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.i3/config",
-					"settings":
-					{
-						"buffer_size": 25796,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -703,10 +694,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/proj",
+				"/home/d3sk3r/.i3/config",
+				"/home/d3sk3r/todo",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
@@ -829,8 +821,7 @@
 				"/home/d3sk3r/.config/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
 				"/home/d3sk3r/pavolume/pavolume",
-				"/home/d3sk3r/.config/polybar/scripts/weather.py",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/chaturbate.txt"
+				"/home/d3sk3r/.config/polybar/scripts/weather.py"
 			],
 			"find":
 			{
@@ -941,37 +932,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.i3/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 25796,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1849,
-										1849
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 649.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1015,7 +977,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
+			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{

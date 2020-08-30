@@ -134,7 +134,13 @@ set background=dark
 
 "Automatically run xrdb /.Xresouces when the file is changed
 autocmd BufWritePost ~/.Xresources !xrdb %
-autocmd BufWritePost *.c !gcc %
+
+" auto apply tmux conf
+autocmd BufWritePost ~/.tmux.conf !tmux source-file %
+
+
+" auto compile .c files
+"autocmd BufWritePost *.c !gcc %
 
 "Set spaces for different file types
 autocmd Filetype html set softtabstop=0 expandtab shiftwidth=2 smarttab
