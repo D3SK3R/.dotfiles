@@ -98,7 +98,7 @@ set scrolloff=5
 " Highlight selected matches
 set hlsearch
 
-" it disables copy from vim using the mouse
+" when its enables, the copy key is the vim key yank, y
 " Enable mouse scrolling
 set mouse=a
 
