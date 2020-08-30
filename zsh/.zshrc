@@ -408,6 +408,7 @@ alias viewn='viewnior'
 alias emoji='rofimoji -c'
 alias short='shortn'
 alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3'
+alias tmux-colors='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n";done'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
