@@ -577,6 +577,14 @@
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/fonts/install.sh",
+					"settings":
+					{
+						"buffer_size": 760,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -958,7 +966,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -984,6 +992,34 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 677.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/fonts/install.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 760,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1032,7 +1068,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,8,36,671,756,2726,768",
+			"position": "0,0,0,0,0,345,403,671,756,2726,768",
 			"project": "",
 			"replace":
 			{
