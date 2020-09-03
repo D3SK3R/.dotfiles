@@ -355,7 +355,7 @@ alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/pentest/kickthemout/kickthemou
 # Shorten URL using the following services: bit.ly, j.mp, t.cn, is.gd, v.gd, tiny.cc.
 alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
 alias botnet='cd /home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS'
-alias botnet_start='pm2 start -f index.js'
+alias botnet_start='pm2 start -f index.js;echo "127.0.0.1:22533"'
 alias botnet_stop='pm2 stop index'
 alias botnet_fix='pm2 delete index'
 alias botnet_pktriot='pm2 status;pktriot info'
