@@ -52,7 +52,7 @@ super + m
 
 # Ranger
 super + r
-    ranger ~
+    urxvtc -e ranger ~
 
 # Sublime and Dual Monitor Script
 super + {_, shift} + s
