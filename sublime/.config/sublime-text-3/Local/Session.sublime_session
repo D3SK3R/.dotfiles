@@ -702,6 +702,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy",
 				"/home/d3sk3r/.tmux.conf.local",
 				"/home/d3sk3r/fonts/install.sh",
@@ -805,7 +806,6 @@
 				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt",
 				"/home/d3sk3r/.oh-my-zsh/LICENSE.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
+			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
