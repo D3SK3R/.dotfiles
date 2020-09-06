@@ -702,6 +702,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.urxvt/ext/vtwheel",
+				"/home/d3sk3r/.urxvt/urxvtd-D3SK3RI3",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy",
 				"/home/d3sk3r/.tmux.conf.local",
@@ -827,9 +829,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/BashAliasArgument",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/visudo.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/USB Stick Formater and Writer/arch",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/SnapPackages.txt"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
+			"position": "0,0,0,0,0,2048,403,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{

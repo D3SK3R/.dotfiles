@@ -135,7 +135,7 @@ set background=dark
 "nnoremap <buffer> <c-x> :exec '!clear;python' shellescape(@%, 1)<cr>
 
 "Automatically run xrdb /.Xresouces when the file is changed
-autocmd BufWritePost ~/.Xresources !xrdb %
+autocmd BufWritePost .Xresources !xrdb %
 
 " auto apply tmux conf
 autocmd BufWritePost ~/.tmux.conf !tmux source-file %

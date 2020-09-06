@@ -308,9 +308,10 @@ alias font-update='sudo fc-cache -fv'
 alias font-list='fc-list'
 alias psa='ps auxf'
 alias free='free -mt'
-alias grep='grep -i'
+alias grep='grep -i --color=always'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
+alias xresources='vim ~/.dotfiles/xresources/.Xresources'
 
 #################################################################
 # Pacman
