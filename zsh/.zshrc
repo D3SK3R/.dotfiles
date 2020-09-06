@@ -270,6 +270,7 @@ alias mkdir='mkdir -p'
 alias fzf="fzf | xargs xdg-open"
 alias vim='stty stop "" -ixoff; vim'
 alias v='stty stop "" -ixoff; vim'
+alias vundle='vim +PluginInstall +qall'
 alias c='clear'
 alias cc='tput reset'
 alias df='df -h'

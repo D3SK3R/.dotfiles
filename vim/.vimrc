@@ -65,6 +65,8 @@ Plugin 'junegunn/fzf.vim'
 
 " urxvt doesn't support icons so I have to disable... :(
 "Plugin 'ryanoasis/vim-devicons'
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
