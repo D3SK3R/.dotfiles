@@ -1,0 +1,633 @@
+# Set mod key (Mod1=<Alt>, Mod4=<Super>)
+set $mod Mod4
+
+# set default desktop layout (default is tiling)
+# workspace_layout tabbed <stacking|tabbed>
+
+focus_follows_mouse yes
+
+# (AUR) i3-gaps-rounded-git
+#border_radius 10
+#smart_borders on
+
+# NO BORDERS AT ALL
+#for_window [class=".*"] border none
+
+################################################################################################
+########################################  SET BASICS   #########################################
+################################################################################################
+set $exec exec --no-startup-id
+set $term urxvtc
+set $mpd_port 1100
+set $mpd_host localhost
+
+exec --no-startup-id i3-msg workspace 1
+
+$exec sxhkd
+
+exec --no-startup-id $HOME/.scripts/mouse_sens.sh
+
+# Low ram warning
+#exec --no-startup-id $HOME/.scripts/ram_warning.sh
+
+# Stretch
+$exec $HOME/.scripts/stretch.sh
+
+# Layouts
+#https://github.com/olemartinorg/i3-alternating-layout.git
+exec --no-startup-id ~/.scripts/alternating_layouts.py
+# alternative: https://github.com/nwg-piotr/autotiling
+
+# Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
+# (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
+# (the assignment its ignored if no other display is connected = perfect)
+workspace $ws1 output eDP1
+workspace $ws2 output DP1
+workspace $ws3 output eDP1
+workspace $ws4 output DP1
+workspace $ws5 output eDP1
+workspace $ws6 output eDP1
+workspace $ws7 output eDP1
+workspace $ws8 output eDP1
+workspace $ws9 output eDP1
+
+# urxvt daemon
+$exec urxvtd -q -o -f
+# Dropdown floating terminal
+$exec sleep 10 && urxvt -name floating_urxvt
+#bindsym F1 		[title="floating_urxvt"] scratchpad show
+for_window 		[title="floating_urxvt"] floating enable sticky enable
+for_window		[title="floating_urxvt"] move to position 400 50
+#for_window		[title="floating_urxvt"] move to position center
+for_window 		[title="floating_urxvt"] move scratchpad
+for_window 		[title="floating_urxvt"] resize set 570 360
+
+# Secondary floating terminal
+$exec sleep 10 && urxvt -name dropdown_urxvt
+#bindsym F2 		[title="dropdown_urxvt"] scratchpad show
+for_window 			[title="dropdown_urxvt"] floating enable sticky enable
+#for_window			[title="dropdown_urxvt"] move position 10 30
+for_window 			[title="dropdown_urxvt"] move scratchpad
+#for_window 		[title="dropdown_urxvt"] resize set 1360 725
+
+# Alacritty
+#exec --no-startup-id alacritty
+#for_window 	[title="Alacritty"] move to position 1738 64
+#for_window 	[class="Alacritty"] resize set 515 356
+#for_window 	[class="Alacritty"] border none
+
+# Dropdown Spotify
+$exec spotify
+#bindsym F3      [class="Spotify"] scratchpad show
+for_window      [class="Spotify"] floating enable sticky enable
+for_window      [class="Spotify"] move scratchpad
+
+# Dropdown chaturbate picture in picture
+#bindsym F4      [title="Picture in picture"] scratchpad show
+for_window      [title="Picture in picture"] floating enable sticky enable
+for_window      [title="Picture in picture"] move scratchpad
+
+# Dropdown discord
+# DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
+# to reenable just comment the bindsym line below this and uncomment everything else
+#bindsym $mod+Shift+d                            $exec discord
+#bindsym $mod+Shift+d    [class="discord"] scratchpad show
+for_window              [class="discord"] floating enable sticky enable
+for_window              [class="discord"] floating enable move position center
+for_window              [class="discord"] move scratchpad
+
+#########################################################################################################################################################################################
+# media
+# key codes:
+# XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute
+# XF86AudioPlay, XF86AudioNext, XF86AudioPrev, XF86AudioStop 
+
+#bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
+#bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
+
+#bindsym XF86AudioRaiseVolume 					exec --no-startup-id amixer -c 1 sset Master 2%+
+#bindsym XF86AudioLowerVolume		 			exec --no-startup-id amixer -c 1 sset Master 2%-
+
+# Media player controls
+# To use:
+# sudo pacman -S mpc
+#bindsym XF86AudioPlay 							exec --no-startup-id mpc -p $mpd_port toggle
+#bindsym XF86AudioNext 							exec --no-startup-id mpc -p $mpd_port next
+#bindsym XF86AudioPrev 							exec --no-startup-id mpc -p $mpd_port seek 0;exec --no-startup-id mpc -p $mpd_port cdprev
+#bindsym XF86AudioStop 							exec --no-startup-id mpc -p $mpd_port seek 0 && mpc -p $mpd_port pause         # restart the song and pauses it
+
+#mpc scripts with Dunst
+#bindsym XF86AudioPlay 							exec --no-startup-id ~/.scripts/mpdTOGGLE.sh
+#bindsym XF86AudioStop 							exec --no-startup-id ~/.scripts/mpdSTOP.sh
+#bindsym XF86AudioNext 							exec --no-startup-id ~/.scripts/mpdNEXT.sh
+#bindsym XF86AudioPrev 							exec --no-startup-id ~/.scripts/mpdPREV.sh
+
+# playerctl
+#bindsym XF86AudioPlay		 					$exec playerctl play-pause
+#bindsym XF86AudioStop                           $exec playerctl stop;$exec playerctl previous;$exec playerctl stop
+#bindsym XF86AudioNext 							$exec playerctl next
+#bindsym XF86AudioPrev 							$exec playerctl previous
+
+#########################################################################################################################################################################################
+# Brightness
+# sudo pacman -S light
+# https://github.com/haikarainen/light
+# key codes:
+# XF86MonBrightnessUp, XF86MonBrightnessDown (Brightness up and down)
+
+# kill xfce4-power-manager and re-open it so it doesn't interfere when changing brightness
+exec --no-startup-id kill $(ps ax | awk '/xfce4-power-manager/ {print $1}' | head -n 1);sleep 1;xfce4-power-manager
+
+#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUP.sh
+#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDOWN.sh
+
+#########################################################################################################################################################################################
+
+# change focus
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
+
+# move focused window
+#bindsym $mod+Shift+j move left
+#bindsym $mod+Shift+k move down
+#bindsym $mod+Shift+l move up
+#bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+#bindsym $mod+Shift+Left move left
+#bindsym $mod+Shift+Down move down
+#bindsym $mod+Shift+Up move up
+#bindsym $mod+Shift+Right move right
+
+# workspace back and forth (with/without active container)
+#workspace_auto_back_and_forth yes
+#bindsym $mod+b workspace back_and_forth
+#bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
+
+# split orientation
+#bindsym $mod+h split h;exec notify-send 'tile horizontally'
+#bindsym $mod+v split v;exec notify-send 'tile vertically'
+#bindsym $mod+q split toggle
+
+# toggle fullscreen mode for the focused container
+#bindsym $mod+Shift+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+#bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+#bindsym $mod+space focus mode_toggle
+
+# toggle sticky
+#bindsym $mod+Shift+s sticky toggle
+
+# focus the parent container
+#bindsym $mod+a focus parent
+
+# move the currently focused window to the scratchpad
+#bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+#bindsym $mod+minus scratchpad show
+
+#navigate workspaces next / previous
+# Arrow keys
+#bindsym $mod+Ctrl+Right workspace next
+#bindsym $mod+Ctrl+Left workspace prev
+# Vim keys
+#bindsym $mod+Ctrl+h workspace next
+#bindsym $mod+Ctrl+l workspace prev
+
+
+# Set shut down, restart and locking features
+#bindsym $mod+0 mode "$mode_system"
+#bindsym $mod+0 exec --no-startup-id $HOME/.scripts/rofi_power.sh
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Resize window (you can also use the mouse for that)
+#bindsym $mod+ctrl+r mode "resize"
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 2 px or 2 ppt
+        bindsym j resize grow height 2 px or 2 ppt
+        bindsym k resize shrink height 2 px or 2 ppt
+        bindsym l resize grow width 2 px or 2 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 2 px or 2 ppt
+        bindsym ctrl+Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 2 px or 2 ppt
+        bindsym ctrl+Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 2 px or 2 ppt
+        bindsym ctrl+Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 2 px or 2 ppt
+        bindsym ctrl+Right resize grow width 10 px or 10 ppt
+
+        # exit resize mode: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+# default:  pixel 1
+new_window pixel 2
+new_float pixel 2
+
+# Hide borders
+hide_edge_borders none
+
+# change borders
+#bindsym $mod+u border none
+#bindsym $mod+y border pixel 1
+#bindsym $mod+n border normal
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font xft:URWGothic-Book 11
+
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+################################################################################################
+##                                    AUTOSTART STUFF                                         ##
+################################################################################################
+
+## AUTOSTART STUFF
+# Discord
+# betterdiscord
+exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
+# Keyboard Layout
+exec_always --no-startup-id $HOME/.scripts/keyboardLayout.sh
+# Keyboard repeat delay and interval default: 250 30
+exec_always --no-startup-id xset r rate 200 30 # first number after "rate" is delay, and second is interval
+# Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# MegaSync
+exec --no-startup-id megasync
+# Touchpad Gestures
+exec --no-startup-id libinput-gestures-setup restart
+# imwheel to control mouse scroll speed
+#$exec imwheel
+# Albert Search
+#exec --no-startup-id albert
+# Dunst notification
+#exec --no-startup-id dunst
+# Redshift
+#exec --no-startup-id redshift-gtk
+#exec --no-startup-id redshift
+# Flash focus animations
+exec_always --no-startup-id sleep 5 && flashfocus
+# Syncthing
+#exec_always --no-startup-id /path/to/syncthing/binary -no-browser -home="/home/d3sk3r/.config/syncthing"
+exec --no-startup-id syncthing -no-browser
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# for picom
+$exec nitrogen --restore;sleep 1;picom -b
+# for compton
+#exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
+exec --no-startup-id nm-applet
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id pamac-tray
+exec --no-startup-id clipit
+exec --no-startup-id clipster -d
+exec --no-startup-id i3-battery-popup-git
+# Time to autolock the screen when not using it
+exec --no-startup-id xautolock -time 60 -locker ~/.scripts/lock.sh
+exec_always --no-startup-id ff-theme-util
+exec_always --no-startup-id fix_xcursor
+# exec --no-startup-id manjaro-hello
+# exec --no-startup-id blueman-applet
+# exec_always --no-startup-id sbxkb
+# exec_always --no-startup-id start_conky_maia
+# exec_always --no-startup-id start_conky_green
+
+################################################################################################
+## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
+################################################################################################
+
+#exec --no-startup-id volumeicon
+# disable mpd startup when using spotify
+#exec --no-startup-id mpd
+# Restart pulseaudio
+# pulseaudio --kill then pulseaudio --start
+#bindsym $mod+Shift+P exec --no-startup-id killall pulseaudio && pulseaudio
+#bindsym $mod+Shift+P exec --no-startup-id pulseaudio
+exec_always --no-startup-id killall pulseaudio && pulseaudio
+#exec --no-startup-id pa-applet
+#bindsym $mod+Ctrl+m exec pavucontrol
+
+################################################################################################
+##                                      WORKSPACE STUFF                                       ##
+################################################################################################
+
+# Workspaces names
+# to display names or symbols instead of plain workspace numbers you can use
+# something like: set $ws1 1:mail
+#                 set $ws2 2:
+# extra icons to choose from
+# http://fontawesome.io/cheatsheet/
+#       v      
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+#set $ws10 "10"
+
+# Workspaces commands
+# Switch to workspace
+#bindsym $mod+1				workspace $ws1
+#bindsym $mod+2 			workspace $ws2
+#bindsym $mod+3				workspace $ws3
+#bindsym $mod+4				workspace $ws4
+#bindsym $mod+5 		  	workspace $ws5
+#bindsym $mod+6 		 	workspace $ws6
+#bindsym $mod+7 		 	workspace $ws7
+#bindsym $mod+8 		   	workspace $ws8
+#bindsym $mod+9 		    workspace $ws9
+
+# GAPS???????
+bindsym $mod+Tab	  	 	workspace back_and_forth
+
+
+# Move the container to the workspace
+#bindsym $mod+Shift+1 	    move container to workspace $ws1
+#bindsym $mod+Shift+2 	    move container to workspace $ws2
+#bindsym $mod+Shift+3 	    move container to workspace $ws3
+#bindsym $mod+Shift+4 	    move container to workspace $ws4
+#bindsym $mod+Shift+5 	    move container to workspace $ws5
+#bindsym $mod+Shift+6 	    move container to workspace $ws6
+#bindsym $mod+Shift+7 	    move container to workspace $ws7
+#bindsym $mod+Shift+8 	    move container to workspace $ws8
+#bindsym $mod+Shift+9 	    move container to workspace $ws9
+
+
+# Move to the workspace with the containter being moved
+#bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
+#bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
+#bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
+#bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
+#bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
+#bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
+#bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
+#bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
+#bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
+
+
+# bind apps to workspaces
+#assign [class="Atom"] $ws4
+#assign [class="VirtualBox"] $ws5
+#assign [class="vlc"] $ws6
+
+# switch to workspace with urgent window automatically
+#for_window [urgent=latest] focus
+
+# Open applications on specific workspaces
+# assign [class="Thunderbird"] $ws1
+# assign [class="Pale moon"] $ws2
+# assign [class="Pcmanfm"] $ws3
+# assign [class="Skype"] $ws5
+
+################################################################################################
+## 								     Per window configuration                                 ##                            
+################################################################################################
+
+# Open specific applications in floating mode
+for_window [class="Arandr"] floating enable
+for_window [title="Atom_Terminal"] floating enable
+for_window [class="TeamViewer"] floating enable
+for_window [title="Blizzard Battle.net"] floating enable
+for_window [class="SimpleScreenRecorder"] floating enable
+for_window [title="Network Connections"] floating enable
+for_window [title="updater.sh"] floating enable
+for_window [class="Google-chrome"] border none
+for_window [title="Task Manager - Google Chrome"] floating enable
+for_window [class="Chromium"] border none
+for_window [class="Brave"] border none
+for_window [class="dolphin"] move position center
+for_window [title="alsamixer"] floating enable border pixel 2
+for_window [class="calamares"] floating enable
+for_window [class="Clipgrab"] floating enable
+for_window [title="File Transfer*"] floating enable
+for_window [class="Galculator"] floating enable border pixel 2
+for_window [class="GParted"] floating enable
+for_window [title="i3_help"] floating enable sticky
+for_window [class="Lightdm-settings"] floating enable
+for_window [class="Lxappearance"] floating enable sticky
+for_window [class="Manjaro-hello"] floating enable
+for_window [class="Manjaro Settings Manager"] floating enable
+for_window [title="MuseScore: Play Panel"] floating enable
+for_window [class="Nitrogen"] floating enable border none
+for_window [class="Oblogout"] fullscreen enable
+for_window [class="octopi"] floating enable
+for_window [title="About Pale Moon"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="qt5ct"] floating enable sticky enable
+for_window [class="Qtconfig-qt4"] floating enable sticky enable
+for_window [class="Simple-scan"] floating enable
+for_window [class="(?i)System-config-printer.py"] floating enable
+for_window [class="Skype"] floating enable
+for_window [class="Timeset-gui"] floating enable
+for_window [class="Xfburn"] floating enable
+for_window [class="Yad" title="yad-calendar"] floating enable
+for_window [class="XTerm"] floating enable move position center
+for_window [class="MEGAsync"] floating enable border none
+for_window [class="Musixmatch"] floating enable resize set 570 360
+for_window [title=".* [0-9]*:[0-9]* - mpv"] move container to workspace 2
+
+
+################################################################################################
+## 								            Colors                                            ##                            
+################################################################################################
+# Color palette used for the terminal ( ~/.Xresources file )
+# Colors are gathered based on the documentation:
+# https://i3wm.org/docs/userguide.html#xresources
+# Change the variable name at the place you want to match the color
+# of your terminal like this:
+# [example]
+# If you want your bar to have the same background color as your 
+# terminal background change the line 362 from:
+# background #14191D
+# to:
+# background $term_background
+# Same logic applied to everything else.
+#set_from_resource $term_background background
+#set_from_resource $term_foreground foreground
+#set_from_resource $term_color0     color0
+#set_from_resource $term_color1     color1
+#set_from_resource $term_color2     color2
+#set_from_resource $term_color3     color3
+#set_from_resource $term_color4     color4
+#set_from_resource $term_color5     color5
+#set_from_resource $term_color6     color6
+#set_from_resource $term_color7     color7
+#set_from_resource $term_color8     color8
+#set_from_resource $term_color9     color9
+#set_from_resource $term_color10    color10
+#set_from_resource $term_color11    color11
+#set_from_resource $term_color12    color12
+#set_from_resource $term_color13    color13
+#set_from_resource $term_color14    color14
+#set_from_resource $term_color15    color15
+
+set_from_resource $bg i3wm.bg       #000000
+set_from_resource $fg i3wm.fg       #ffffff
+
+# colour of                                     border, backgr, text, indic, child_border
+client.focused			                        $bg     $bg     $fg   $bg    $bg
+client.focused_inactive	                        $bg     $bg     $fg   $bg    $bg
+client.unfocused		                        $bg     $bg     $fg   $bg    $bg
+client.urgent			                        $bg     $bg     $fg   $bg    $bg
+client.placeholder		                        $bg     $bg     $fg   $bg    $bg
+client.background		                                $bg
+
+# My older colors
+# colour of                                     border, backgr, text, indicator, child_border
+#client.focused			                        #2f343f #2f343f #d8dee8 #00ccff #00ccff
+#client.focused_inactive	                        #2f343f #2f343f #d8dee8 #d8dee8 #d8dee8
+#client.unfocused		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.urgent			                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.placeholder		                        #2f343f #2f343f #d8dee8 #2f343f #d8dee8
+#client.background		                                #2f343f
+
+# Theme colors DEFAULTS
+# class                   border  backgr. text    indic.   child_border
+#  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+#  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+#  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#
+#  client.background       #2B2C2B
+
+#############################
+### settings for i3-gaps: ###
+#############################
+
+# Set inner/outer gaps
+gaps inner 10
+gaps outer -2
+
+# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
+# gaps inner|outer current|all set|plus|minus <px>
+# gaps inner all set 10
+# gaps outer all plus 5
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+# smart_borders no_gaps
+
+# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+################################################################################################
+################################################################################################
+
+## Defaults from i3 that doesn't work or i don't use
+
+# Start some applications on specific workspaces
+#exec --no-startup-id i3-msg 'workspace 1; exec termite'
+#exec --no-startup-id i3-msg 'workspace 1; exec evolution'
+
+## !Doesn't work!
+## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+#	tray_output primary
+#	tray_output eDP1
+#
+#	bindsym button4 nop
+#	bindsym button5 nop
+#   font xft:URWGothic-Book 11
+#	strip_workspace_numbers yes
+#
+#    colors {
+#        background #222D31
+#        statusline #F9FAF9
+#        separator  #454947
+#
+#                      border  backgr. text
+#        focused_workspace  #F9FAF9 #16a085 #292F34
+#        active_workspace   #595B5B #353836 #FDF6E3
+#        inactive_workspace #595B5B #222D31 #EEE8D5
+#        binding_mode       #16a085 #2C2C2C #F9FAF9
+#        urgent_workspace   #16a085 #FDF6E3 #E5201D
+#    }
+#}
+#
+# bindsym $mod+t exec --no-startup-id pkill compton
+# bindsym $mod+Ctrl+t exec --no-startup-id compton -b
+# bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
+# bindsym Print exec --no-startup-id i3-scrot
+# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s

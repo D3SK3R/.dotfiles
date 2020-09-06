@@ -702,6 +702,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
@@ -722,7 +725,6 @@
 				"/home/d3sk3r/.i3/config",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
@@ -827,9 +829,7 @@
 				"/home/d3sk3r/betterlockscreen/examples/betterlockscreenrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Flashfocus Animations/config/where",
 				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
-				"/home/d3sk3r/.zshrcSTUFF TO ADD",
-				"/home/d3sk3r/.XresourcesBAK",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/configI3-module"
+				"/home/d3sk3r/.zshrcSTUFF TO ADD"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
+			"position": "0,0,0,0,0,2048,403,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{
