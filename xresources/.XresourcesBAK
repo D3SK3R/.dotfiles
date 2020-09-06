@@ -44,7 +44,7 @@ URxvt*boldFont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold,minsp
 
 URxvt.transparent:false
 URxvt.shading:30
-URxvt.geometry:72x24
+URxvt.geometry:190x48
 URxvt.saveLines: 2000
 
 
