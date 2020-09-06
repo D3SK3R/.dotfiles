@@ -469,6 +469,7 @@ for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="XTerm"] floating enable move position center
 for_window [class="MEGAsync"] floating enable border none
 for_window [class="Musixmatch"] floating enable resize set 570 360
+for_window [title=".* [0-9]*:[0-9]* - mpv"] move container to workspace 2
 
 
 ################################################################################################

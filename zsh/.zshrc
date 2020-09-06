@@ -414,7 +414,7 @@ alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp
 alias tmux-colors='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n";done'
 alias move_telegram='sh ~/.scripts/move_telegram.sh'
 alias evernote='tusk'
-
+alias color-test='msgcat --color=test'
 
 
 # # ex = EXtractor for all kinds of archives
