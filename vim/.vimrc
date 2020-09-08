@@ -54,6 +54,12 @@ let g:airline_theme='monochrome'
 " if using a powerline font
 let g:airline_powerline_fonts = 1
 
+" disables "trailing" on airline
+let g:airline_detect_whitespace=0
+let g:airline_section_warning=''
+
+let g:airline#extensions#tabline#left_alt_sep = ' aaa'
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'ap/vim-css-color'
 

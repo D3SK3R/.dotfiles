@@ -320,6 +320,7 @@ alias install='sudo pacman -S'
 alias packages='pacman -Q'
 alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 alias update='yay -Syyu'
+alias update-manual='"yay" -Syyu'
 alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
