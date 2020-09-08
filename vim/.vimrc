@@ -55,8 +55,8 @@ let g:airline_theme='monochrome'
 let g:airline_powerline_fonts = 1
 
 " disables "trailing" on airline
-let g:airline_detect_whitespace=0
-let g:airline_section_warning=''
+let g:airline#extensions#whitespace#enabled = 0
+"let g:airline_section_warning=''
 
 " :h airline
 " if using monochrome theme, if not, comment below
@@ -67,6 +67,14 @@ let g:airline_right_alt_sep = ''
 
 " uncomment below to change symbol characters
 "let g:airline_symbols = {}
+
+" if not using tabs, comment below
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#show_splits = 1
+"let g:airline#extensions#tabline#show_buffers = 1
+"let g:airline#extensions#tabline#show_tab_type = 0
+"let g:airline#extensions#tabline#show_tabs = 0
+"let g:airline#extensions#tabline#show_tab_count = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'ap/vim-css-color'
