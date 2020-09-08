@@ -48,7 +48,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " themes: https://github.com/vim-airline/vim-airline/wiki/Screenshots
 " To set in .vimrc, use let g:airline_theme='<theme>', e.g. let g:airline_theme='simple'
-let g:airline_theme='simple' 
+let g:airline_theme='monochrome' 
 " fav themes: simple/monochrome/minimalist/serene
 
 " if using a powerline font

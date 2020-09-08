@@ -54,7 +54,7 @@ URxvt.saveLines: 2000
 URxvt*foreground:           #ffffff
 !! if not blur = [65]
 !! for blur, use the following
-URxvt*background:          [100]#090909
+URxvt*background:          [50]#000000
 ! Material Grey (disable blurRadius and transparent options)
 !URxvt*background:   [100]#090909
 !URxvt*background:   [100]#0e151b
