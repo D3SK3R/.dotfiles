@@ -31,7 +31,7 @@ exec --no-startup-id $HOME/.scripts/mouse_sens.sh
 #exec --no-startup-id $HOME/.scripts/ram_warning.sh
 
 # Stretch
-$exec $HOME/.scripts/stretch.sh
+$exec $HOME/.scripts/better.sh
 
 # Layouts
 #https://github.com/olemartinorg/i3-alternating-layout.git
