@@ -4,9 +4,16 @@
 
 # source kill.sh to be able to use dkill <arg>
 dkill (){
-    kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2)
-    echo "killing the processes ID: $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2)"
+    if [ -z $1 ]; then
+        echo "Usage: dkill <process name>"
+    else
+        pid=$(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2)
+        if [ -z $pid ]; then
+            echo "process not found"
+        else
+        kill $pid  2>/dev/null
+        echo "killing the processes ID: $pid"
+        fi
+    fi
 }
-
-#kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +3)
 
