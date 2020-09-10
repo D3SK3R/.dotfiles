@@ -702,6 +702,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
@@ -828,8 +829,7 @@
 				"/home/d3sk3r/config",
 				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/Tryone compton",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
-				"/home/d3sk3r/.config/discord/0.0.10/modules/installed.json"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
+			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
