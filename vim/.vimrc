@@ -66,7 +66,6 @@ let g:airline_right_alt_sep = ''
 
 " uncomment below to change symbol characters
 let g:airline_symbols = {}
-
 let g:airline_symbols.linenr = '≡:'
 
 " if not using tabs, comment below

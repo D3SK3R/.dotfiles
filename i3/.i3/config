@@ -283,6 +283,8 @@ floating_modifier $mod
 ##                                    AUTOSTART STUFF                                         ##
 ################################################################################################
 
+# Viber
+$exec viber
 ## AUTOSTART STUFF
 # Discord
 # betterdiscord
