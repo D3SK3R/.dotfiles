@@ -286,7 +286,7 @@ floating_modifier $mod
 ## AUTOSTART STUFF
 # Discord
 # betterdiscord
-exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
+#exec --no-startup-id sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord
 # Keyboard Layout
 exec_always --no-startup-id $HOME/.scripts/keyboardLayout.sh
 # Keyboard repeat delay and interval default: 250 30
