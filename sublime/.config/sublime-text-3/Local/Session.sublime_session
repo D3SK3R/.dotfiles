@@ -569,6 +569,22 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how",
+					"settings":
+					{
+						"buffer_size": 61,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/misc.zsh",
+					"settings":
+					{
+						"buffer_size": 951,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -949,8 +965,65 @@
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 61,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/misc.zsh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 951,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -994,7 +1067,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,848,403,1348,756,2726,768",
+			"position": "1,0,0,0,0,1025,403,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

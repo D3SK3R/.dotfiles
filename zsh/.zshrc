@@ -90,6 +90,27 @@ ENABLE_CORRECTION="true"
 
 PATH=\$PATH:/home/d3sk3r/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
 
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+    fzf
+    fast-syntax-highlighting
+    dirhistory
+    copydir
+    copyfile
+    copybuffer
+    sudo
+    safe-paste
+
+
+)
+
+################################################# 
+# FZF
+################################################# 
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
@@ -106,25 +127,49 @@ export FZF_BASE=/usr/bin/fzf
 # ctrl+r to show command history
 # ctrl-t to search for files
 
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    fzf
-    fast-syntax-highlighting
-    tmux
-)
-
-ZSH_TMUX_AUTOSTART="true"
-#ZSH_TMUX_AUTOCONNECT="false"
-
+################################################# 
+# Fast-syntax-highlighing
+################################################# 
 # To install fast-syntax-highlighting: (if not already on my .oh-my-zsh/ folder)
 # https://github.com/zdharma/fast-syntax-highlighting
 # copy all of this and run on a terminal (these 2 lines together):
 # git clone https://github.com/zdharma/fast-syntax-highlighting.git \
 #  ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+
+################################################# 
+# Dirhistory
+################################################# 
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirhistory
+# alt + left	Go to previous directory
+# alt + right	Undo alt + left
+# alt + up	Move into the parent directory
+# alt + down	Move into the first child directory by alphabetical order
+
+################################################# 
+# copydir/copyfile/copybuffer
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copybuffer
+# Copies the path of your current folder to the system clipboard.
+#Copies the path of your current folder to the system clipboard.
+#use the command copydir to copy the $PWD.
+#
+#Puts the contents of a file in your system clipboard so you can paste it anywhere.
+#run the command copyfile <filename> to copy the file named filename.
+#
+#This plugin binds the "ctrl-o" keyboard shortcut to a command that copies the text that is currently typed in the command line ($BUFFER) to the system clipboard.
+#This is useful if you type a command - and before you hit enter to execute it - want to copy it maybe so you can paste it into a script, gist or whatnot.
+################################################# 
+
+################################################# 
+# sudo
+################################################# 
+#Easily prefix your current or previous commands with sudo by pressing esc twice
+
+################################################# 
+# safe-paste
+################################################# 
+#Preventing any code from actually running while pasting, so you have a chance to review what was actually pasted before running it.
 
 # yay -S lf
 # Navigate throught directories using ctrl+f
@@ -137,6 +182,7 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
+
 bindkey -s '^f' 'lfcd\n'
 
 source $ZSH/oh-my-zsh.sh
@@ -202,36 +248,36 @@ zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 
-# Edit line in vim with ctrl-e:
+# send the current terminal line to vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 ## Keybindings section
-bindkey -e
-bindkey '^[[7~' beginning-of-line                               # Home key
-bindkey '^[[H' beginning-of-line                                # Home key
-if [[ "${terminfo[khome]}" != "" ]]; then
-  bindkey "${terminfo[khome]}" beginning-of-line                # [Home] - Go to beginning of line
-fi
-bindkey '^[[8~' end-of-line                                     # End key
-bindkey '^[[F' end-of-line                                     # End key
-if [[ "${terminfo[kend]}" != "" ]]; then
-  bindkey "${terminfo[kend]}" end-of-line                       # [End] - Go to end of line
-fi
-bindkey '^[[2~' overwrite-mode                                  # Insert key
+#bindkey -e
+#bindkey '^[[7~' beginning-of-line                               # Home key
+#bindkey '^[[H' beginning-of-line                                # Home key
+#if [[ "${terminfo[khome]}" != "" ]]; then
+#  bindkey "${terminfo[khome]}" beginning-of-line                # [Home] - Go to beginning of line
+#fi
+#bindkey '^[[8~' end-of-line                                     # End key
+#bindkey '^[[F' end-of-line                                     # End key
+#if [[ "${terminfo[kend]}" != "" ]]; then
+#  bindkey "${terminfo[kend]}" end-of-line                       # [End] - Go to end of line
+#fi
+#bindkey '^[[2~' overwrite-mode                                  # Insert key
 bindkey '^[[3~' delete-char                                     # Delete key
-bindkey '^[[C'  forward-char                                    # Right key
-bindkey '^[[D'  backward-char                                   # Left key
-bindkey '^[[5~' history-beginning-search-backward               # Page up key
-bindkey '^[[6~' history-beginning-search-forward                # Page down key
-
-# Navigate words with ctrl+arrow keys
+#bindkey '^[[C'  forward-char                                    # Right key
+#bindkey '^[[D'  backward-char                                   # Left key
+#bindkey '^[[5~' history-beginning-search-backward               # Page up key
+#bindkey '^[[6~' history-beginning-search-forward                # Page down key
+#
+## Navigate words with ctrl+arrow keys
 bindkey '^[Oc' forward-word                                     #
 bindkey '^[Od' backward-word                                    #
-bindkey '^[[1;5D' backward-word                                 #
-bindkey '^[[1;5C' forward-word                                  #
+bindkey '^[[1;5D' backward-word                                 # backward word with ctrl right
+bindkey '^[[1;5C' forward-word                                  # forward word with ctrl left
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
-bindkey '^[[Z' undo
+#bindkey '^[[Z' undo
 
 # Color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'
@@ -452,6 +498,7 @@ ex ()
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.scripts/kill.sh
+source ~/.scripts/dotfiles.sh
 # ____             _          _____ _          _ _ 
 #|  _ \           (_)        / ____| |        | | |
 #| |_) | ___  __ _ _ _ __   | (___ | |__   ___| | |
@@ -460,7 +507,8 @@ source ~/.scripts/kill.sh
 #|____/ \___|\__, |_|_| |_| |_____/|_| |_|\___|_|_|
 #             __/ |                                
 #            |___/     
-clear 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+clear 
