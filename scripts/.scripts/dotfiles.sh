@@ -7,6 +7,6 @@ function dots(){
     git commit -m "$message"
     git push
     cd ~
-#    clear
+    clear
 }
 
