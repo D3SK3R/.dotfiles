@@ -11,8 +11,14 @@ dkill (){
         if [ -z $pid ]; then
             echo "process not found"
         else
-        kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2) 2>/dev/null
-        echo "killing the processes ID:\n$pid"
+            echo "Do you really want to kill the processes\n$pid\n\n[Y/n]"
+            read choice
+            if [ -z choice ] || [ "$choice" = "y" ] || [ "$choice" = "" ]; then
+                kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2) 2>/dev/null
+                echo "killing the processes ID:\n$pid"
+            else
+                echo "Exiting without killing the processes"
+            fi
         fi
     fi
 }
