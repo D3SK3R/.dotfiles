@@ -96,13 +96,13 @@ PATH=\$PATH:/home/d3sk3r/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/l
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    fzf
+    fzf # ctrl+t / ctrl+r
     fast-syntax-highlighting
     dirhistory
     copydir
     copyfile
-    copybuffer
-    sudo
+    copybuffer # ctrl+o
+    sudo # esc key twice
     safe-paste
 )
 
