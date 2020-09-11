@@ -88,7 +88,7 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-PATH=\$PATH:/home/d3sk3r/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
+PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -145,6 +145,7 @@ export FZF_BASE=/usr/bin/fzf
 
 ################################################# 
 # copydir/copyfile/copybuffer
+#################################################
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copybuffer
@@ -156,8 +157,7 @@ export FZF_BASE=/usr/bin/fzf
 #run the command copyfile <filename> to copy the file named filename.
 #
 #This plugin binds the "ctrl-o" keyboard shortcut to a command that copies the text that is currently typed in the command line ($BUFFER) to the system clipboard.
-#This is useful if you type a command - and before you hit enter to execute it - want to copy it maybe so you can paste it into a script, gist or whatnot.
-################################################# 
+#This is useful if you type a command - and before you hit enter to execute it - want to copy it maybe so you can paste it into a script, gist or whatnot. 
 
 ################################################# 
 # sudo
@@ -171,6 +171,7 @@ export FZF_BASE=/usr/bin/fzf
 
 # yay -S lf
 # Navigate throught directories using ctrl+f
+# press enter on a directory to open it using a gui file manager
 lfcd () {
     tmp="$(mktemp)"
     lf -last-dir-path="$tmp" "$@"
