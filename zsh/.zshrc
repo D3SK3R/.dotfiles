@@ -112,9 +112,13 @@ export FZF_BASE=/usr/bin/fzf
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  fzf
-  fast-syntax-highlighting
+    fzf
+    fast-syntax-highlighting
+    tmux
 )
+
+ZSH_TMUX_AUTOSTART="true"
+#ZSH_TMUX_AUTOCONNECT="false"
 
 # To install fast-syntax-highlighting: (if not already on my .oh-my-zsh/ folder)
 # https://github.com/zdharma/fast-syntax-highlighting
@@ -302,7 +306,8 @@ alias size='"du" -sh *'
 alias rpolybar='sh ~/.config/polybar/launch.sh'
 alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
-alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
+#alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
+#alias dotfiles='~/.scritps/dotfiles.sh'
 alias mousepos='eval $(xdotool getmouselocation --shell);echo "$X""x""$Y"'
 alias font-update='sudo fc-cache -fv'
 alias font-list='fc-list'
