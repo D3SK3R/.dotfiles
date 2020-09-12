@@ -15,7 +15,8 @@ dkill (){
             read choice
             if [ -z choice ] || [ "$choice" = "y" ] || [ "$choice" = "" ]; then
                 kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2) 2>/dev/null
-                echo "killing the processes ID:\n$pid"
+                #echo "killing the processes ID:\n$pid"
+                echo "Killed."
             else
                 echo "Exiting without killing the processes"
             fi

@@ -383,7 +383,7 @@ alias clean='echo "This command will remove cached packages and sync database of
 #################################################################
 # zsh related
 #################################################################
-alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/config/DOTzshrc'
+alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/dots/.zshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 
 #################################################################

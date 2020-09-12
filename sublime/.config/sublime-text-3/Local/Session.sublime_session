@@ -702,6 +702,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.vimrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshRoot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt",
 				"/home/d3sk3r/.zshrc",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/misc.zsh",
@@ -824,12 +829,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/Cursors/where",
 				"/home/d3sk3r/.themes/index.theme",
 				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt",
-				"/home/d3sk3r/.oh-my-zsh/LICENSE.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/lv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
-				"/home/d3sk3r/config"
+				"/home/d3sk3r/.oh-my-zsh/LICENSE.txt"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1356,764,2726,768",
+			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{

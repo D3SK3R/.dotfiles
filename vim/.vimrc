@@ -1,5 +1,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VUNDLE
+"__   ___   _ _ __   __| | | ___
+"\ \ / / | | | '_ \ / _` | |/ _ \
+" \ V /| |_| | | | | (_| | |  __/
+"  \_/  \__,_|_| |_|\__,_|_|\___|
+
 " https://github.com/VundleVim/Vundle.vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible              " be iMproved, required
@@ -106,6 +111,15 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => VIM
+"       _           
+"__   _(_)_ __ ___  
+"\ \ / / | '_ ` _ \ 
+" \ V /| | | | | | |
+"  \_/ |_|_| |_| |_|
+"                   
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 set number
 syntax on
 filetype indent plugin on
@@ -121,6 +135,8 @@ set scrolloff=5
 
 " Highlight selected matches
 set hlsearch
+" set ctrl+l to clear search
+nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
 
 " when its enables, the copy key is the vim key yank, y
 " Enable mouse scrolling
@@ -207,9 +223,4 @@ imap <c-f> <Esc>:NERDTree<CR>
 
 :command Q q
 :command W w
-
-" Powerline
-"set  rtp+=/usr/lib/python3.7/site-packages/powerline/bindings/vim/
-"set laststatus=2
-"set t_Co=256
 
