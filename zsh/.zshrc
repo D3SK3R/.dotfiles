@@ -88,7 +88,7 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/:${HOME}/.scripts/
+PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -291,7 +291,7 @@ export LESS=-r
 
 ###############################################################
 #			          _ _                     				  #	
-#			    /\   | (_)                    				  #
+#   		    /\   | (_)                    				  #
 #			   /  \  | |_  __ _ ___  ___  ___ 				  #
 #			  / /\ \ | | |/ _` / __|/ _ \/ __|				  #
 #			 / ____ \| | | (_| \__ \  __/\__ \				  #
@@ -361,6 +361,7 @@ alias grep='grep -i --color=always'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources'
+alias clip='clipster -c'
 
 #################################################################
 # Pacman
