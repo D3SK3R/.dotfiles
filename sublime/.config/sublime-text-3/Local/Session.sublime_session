@@ -702,6 +702,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/rofi issue/github",
 				"/home/d3sk3r/.vimrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
@@ -828,8 +829,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/oomox-git/where and git.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/Cursors/where",
 				"/home/d3sk3r/.themes/index.theme",
-				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt",
-				"/home/d3sk3r/.oh-my-zsh/LICENSE.txt"
+				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
+			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
