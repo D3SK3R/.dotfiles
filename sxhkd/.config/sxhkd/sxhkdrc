@@ -40,8 +40,8 @@ super + g
     google-chrome-stable --force-dark-mode
 
 # Gotop
-super + h
-    urxvtc -e gotop -aps
+super + {_, shift +} h
+    {urxvtc -e gotop -aps, urxvtc -e htop}
 
 # Lock Screen and Layout Manager
 super + {_, ctrl} + l
