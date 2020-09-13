@@ -137,6 +137,7 @@ set scrolloff=5
 set hlsearch
 " set ctrl+l to clear search
 nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
+imap <C-l> <Esc>:nohl<CR>
 
 " when its enables, the copy key is the vim key yank, y
 " Enable mouse scrolling
