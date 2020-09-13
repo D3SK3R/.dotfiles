@@ -465,6 +465,7 @@ alias tmux-colors='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[
 alias move_telegram='sh ~/.scripts/move_telegram.sh'
 alias evernote='tusk'
 alias color-test='msgcat --color=test'
+alias cam='chees'
 
 
 # # ex = EXtractor for all kinds of archives
