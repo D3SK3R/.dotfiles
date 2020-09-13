@@ -265,8 +265,8 @@ bindkey '^e' edit-command-line
 #fi
 #bindkey '^[[2~' overwrite-mode                                  # Insert key
 bindkey '^[[3~' delete-char                                     # Delete key
-#bindkey '^[[C'  forward-char                                    # Right key
-#bindkey '^[[D'  backward-char                                   # Left key
+bindkey '^[[C'  forward-char                                    # Right key
+bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[[5~' history-beginning-search-backward               # Page up key
 #bindkey '^[[6~' history-beginning-search-forward                # Page down key
 #
