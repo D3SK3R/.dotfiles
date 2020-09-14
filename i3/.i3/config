@@ -473,6 +473,7 @@ for_window [class="MEGAsync"] floating enable border none
 for_window [class="Musixmatch"] floating enable resize set 570 360
 for_window [title=".* [0-9]*:[0-9]* - mpv"] move container to workspace 2
 for_window [class="ViberPC"] floating enable move position center
+for_window [title="DevTools - *"] floating enable move to position center
 
 ################################################################################################
 ## 								            Colors                                            ##                            
