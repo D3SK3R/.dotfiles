@@ -2,11 +2,21 @@
     "telemetry.machineId": "1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a",
     "openedPathsList": {
         "workspaces3": [
+            {
+                "id": "8eb9ba5a89474d98eebe283b3cc99e2a",
+                "configURIPath": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/workspace.code-workspace"
+            },
+            "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
             "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python"
         ],
         "files2": [
             "file:///home/d3sk3r/MEGA/nmap_scan.py",
             "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py"
+        ],
+        "workspaceLabels": [
+            "~/MEGA/D3SK3R/D3SK3R/coding/workspace (Workspace)",
+            null,
+            null
         ]
     },
     "lastKnownMenubarData": {
@@ -37,14 +47,13 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.24",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -53,7 +62,28 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
+                                        "fsPath": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
+                                        "external": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
+                                        "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/MEGA/D3SK3R/D3SK3R/coding"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/workspace.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/MEGA/D3SK3R/D3SK3R/coding/workspace (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
                                         "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
                                         "scheme": "file"
@@ -138,7 +168,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.23",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -373,7 +403,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.15",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -387,15 +417,14 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
-                                    "label": "Centered Layout"
+                                    "label": "&&Centered Layout"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Show Menu &&Bar",
-                                    "checked": true
+                                    "label": "Show Menu &&Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
@@ -454,7 +483,7 @@
                         }
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.21",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -602,14 +631,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.26",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -658,7 +686,7 @@
                         }
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.27",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -672,54 +700,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -859,7 +878,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.22",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -914,8 +933,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1465,8 +1483,8 @@
     "themeBackground": "#0d0f31",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python",
-            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/a9cccc5a48040ad1ddb36ad2a68327c7",
+            "folder": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
+            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/710bf9cf83c3070a7a0825e5cd951b3e",
             "uiState": {
                 "mode": 1,
                 "x": 2,
@@ -1477,5 +1495,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding"
+    "pickerWorkingDir": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R"
 }

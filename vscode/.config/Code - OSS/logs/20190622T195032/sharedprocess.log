@@ -1,9 +1,0 @@
-[2019-06-22 19:50:36.188] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a"}
-[2019-06-22 19:50:36.328] [sharedprocess] [info] Scanned user extensions: 2
-[2019-06-22 19:50:36.389] [sharedprocess] [info] Scanned user extensions: 2
-[2019-06-22 19:50:36.512] [sharedprocess] [info] Scanned system extensions: 72
-[2019-06-22 19:50:36.521] [sharedprocess] [info] Scanned system extensions: 72
-[2019-06-22 19:50:36.676] [sharedprocess] [info] Scanned user extensions: 2
-[2019-06-22 19:50:36.780] [sharedprocess] [info] Scanned system extensions: 72
-[2019-06-22 19:50:36.796] [sharedprocess] [info] Scanned user extensions: 2
-[2019-06-22 19:51:16.169] [sharedprocess] [info] Starting to clean up unused language packs.

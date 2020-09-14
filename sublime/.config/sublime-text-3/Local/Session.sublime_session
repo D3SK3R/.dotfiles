@@ -702,6 +702,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/flameshot/.config/Dharkael/flameshot.ini",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/screenshot/flameshot.conf",
+				"/home/d3sk3r/flameshot.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mpv/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/transmit.txt",
 				"/home/d3sk3r/rofi issue/github",
 				"/home/d3sk3r/.vimrc",
@@ -825,11 +829,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
 				"/home/d3sk3r/Desktop/Celeste/start",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Games/Dead Cells The Bad Seed/steam_emu.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/oomox-git/where and git.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/Cursors/where",
-				"/home/d3sk3r/.themes/index.theme",
-				"/home/d3sk3r/Desec - 2020 - NOVO PENTEST PROFISSIONAL/Informações.txt"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Games/Dead Cells The Bad Seed/steam_emu.ini"
 			],
 			"find":
 			{
@@ -994,7 +994,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,36,1348,756,2726,768",
+			"position": "0,0,0,0,0,1706,36,2034,389,2726,768",
 			"project": "",
 			"replace":
 			{
