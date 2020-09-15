@@ -5,8 +5,8 @@
 ################################################################################################
 
 # Terminal 
-super + Return
-    urxvtc -cd ~
+super + {_,shift +} Return
+    {urxvtc -cd ~, st}
 
 # Print (flameshot)
 {_,super +} Print

@@ -255,7 +255,7 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 ## Keybindings section
-#bindkey -e
+bindkey -e
 #bindkey '^[[7~' beginning-of-line                               # Home key
 #bindkey '^[[H' beginning-of-line                                # Home key
 #if [[ "${terminfo[khome]}" != "" ]]; then
@@ -377,6 +377,7 @@ alias update-manual='"yay" -Syyu'
 alias update-noCheck='yay -Syyu --mflags --skipinteg'
 alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
+alias remove-force='sudo pacman -Rnsdd'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 # CLEAN:
 # sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos) 

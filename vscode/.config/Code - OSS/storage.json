@@ -2,11 +2,11 @@
     "telemetry.machineId": "1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
             {
                 "id": "8eb9ba5a89474d98eebe283b3cc99e2a",
                 "configURIPath": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/workspace.code-workspace"
             },
-            "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
             "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python"
         ],
         "files2": [
@@ -14,8 +14,8 @@
             "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py"
         ],
         "workspaceLabels": [
-            "~/MEGA/D3SK3R/D3SK3R/coding/workspace (Workspace)",
             null,
+            "~/MEGA/D3SK3R/D3SK3R/coding/workspace (Workspace)",
             null
         ]
     },
@@ -53,7 +53,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -631,7 +632,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -933,7 +935,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

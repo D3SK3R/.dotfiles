@@ -51,6 +51,11 @@ workspace $ws7 output eDP1
 workspace $ws8 output eDP1
 workspace $ws9 output eDP1
 
+#for_window [class="St"] floating enable
+#for_window [class="St"] resize set 1340 725
+#for_window [class="St"] resize set 570 360
+#for_window [class="St"] move to position center
+
 # urxvt daemon
 $exec urxvtd -q -o -f
 # Dropdown floating terminal
@@ -319,7 +324,7 @@ $exec nitrogen --restore;sleep 1;picom -b
 # for compton
 #exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
+#exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id clipster -d
@@ -563,7 +568,7 @@ smart_gaps on
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-bindsym $mod+Shift+g mode "$mode_gaps"
+#bindsym $mod+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
         bindsym o      mode "$mode_gaps_outer"

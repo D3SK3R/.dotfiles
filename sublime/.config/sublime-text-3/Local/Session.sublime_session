@@ -569,6 +569,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
+					"settings":
+					{
+						"buffer_size": 25256,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -702,6 +711,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
+				"/home/d3sk3r/.dotfiles/xresources/.XresourcesOLD",
 				"/home/d3sk3r/.dotfiles/flameshot/.config/Dharkael/flameshot.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/screenshot/flameshot.conf",
 				"/home/d3sk3r/flameshot.conf",
@@ -827,9 +838,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/link",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/pp.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
-				"/home/d3sk3r/Desktop/Celeste/start",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Games/Dead Cells The Bad Seed/steam_emu.ini"
+				"/home/d3sk3r/Desktop/Celeste/start"
 			],
 			"find":
 			{
@@ -949,8 +958,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 25256,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										279,
+										330
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax"
+								},
+								"translation.x": 122.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -994,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1706,36,2034,389,2726,768",
+			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{

@@ -6,16 +6,16 @@ Xft.hinting:true
 Xft.hintstyle:hintfull
 Xft.lcdfilter:lcdfilter
 
-URxvt.scrollstyle:plain
-URxvt.scrollBar:false
-URxvt.scrollTtyOutput:false
-URxvt.scrollWithBuffer:true
-URxvt.scrollTtyKeypress:false
+*scrollstyle:plain
+*scrollBar:false
+*scrollTtyOutput:false
+*scrollWithBuffer:true
+*scrollTtyKeypress:false
 
-URxvt*imLocale: en_US.UTF-8
+*imLocale: en_US.UTF-8
 URxvt*termName: rxvt-unicode-256color
-Urxvt*buffered: true
-URxvt.intensityStyles: true
+URxvt*buffered: true
+*intensityStyles: true
 
 !! Extensions
 !! install urxvt-perls
@@ -36,21 +36,22 @@ URxvt.iso14755: False
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
-URxvt.underlineURLs:true
-URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
-URxvt.boldfont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
-*letterSpace: -1
-*lineSpace: -1
+*underlineURLs:true
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold,minspace=False
+URxvt*boldFont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold,minspace=False
+URxvt.letterSpace: -1
+URxvt.lineSpace: -1
 
 URxvt.transparent:false
 URxvt.shading:30
 URxvt.geometry:190x48
 URxvt.saveLines: 2000
 
+
 !!! COLORS !!!
 
 !! special
-URxvt*foreground:           #ffffff
+*foreground:           #ffffff
 !! if not blur = [65]
 !! for blur, use the following
 URxvt*background:          [50]#000000
@@ -62,7 +63,7 @@ URxvt*background:          [50]#000000
 !URxvt.borderless:true
 !URxvt.internalBorder:4
 
-*colorBD:              #ffffff
+*.colorBD:              #ffffff
 *colorIT:              #1c64ff
 *colorUL:              #1c64ff
 *underlineColor:       #00ccff
@@ -73,40 +74,39 @@ URxvt*background:          [50]#000000
 *cursorColor2:         #000000
 *cursorBlink:          true
 *cursorUnderline:      true
-URxvt.depth:32
+*depth:32
 
-!URxvt.highlightColor: #00ccff
-!URxvt.highlightTextColor: #000000
+!*highlightColor: #00ccff
+!*highlightTextColor: #000000
 
 
-*bg:     #000000
-*fg:     #ffffff
-*color0: #000000
-*color1: #1c64ff
-*color2: #00ccff
-*color3: #05e7c8
-*color4: #0066ff
-*color5: #0066ff
-*color6: #00ccff
-*color7: #ffffff
-*color8: #ff00cc
+*bg:        #000000
+*fg:        #ffffff
+*color0:    #000000
+*color1:    #1c64ff
+*color2:    #00ccff
+*color3:    #05e7c8
+*color4:    #0066ff
+*color5:    #0066ff
+*color6:    #00ccff
+*color7:    #ffffff
+*color8:    #ff00cc
 ! terminal writing and grep matches
-*color9: #4177ff
-*color10: #00cfff
-*color10: #00ccff
-*color11: #00cfff
-*color12: #059bff
-*color13: #00ccff
-*color14: #00828b
-*color14: #1c64ff
-*color15: #00ccff
-!*color15: #0099ff
+*color9:    #4177ff
+*color10:   #00cfff
+*color10:   #00ccff
+*color11:   #00cfff
+*color12:   #059bff
+*color13:   #00ccff
+*color14:   #00828b
+*color14:   #1c64ff
+*color15:   #00ccff
+!*color15:  #0099ff
 
 ! ST
 *background:    #000000
 *alpha:         0.5
 
-*borderpx:      1
 
 ! Xterm
 XTerm*renderFont: true
