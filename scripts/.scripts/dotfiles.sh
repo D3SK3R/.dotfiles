@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function dots(){
-    dir="$(pwd)"
+    dir=$(pwd)
     message=$@
     if [ -z "$message" ]; then
         message="default commit"
