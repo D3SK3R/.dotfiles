@@ -307,9 +307,8 @@ export LESS=-r
 alias cd='f(){ cd "$@" ;ls;  unset -f f; }; f'
 # alias ls='ls -CF --color=always'
 # alias la='ls -lah'
-alias ls='exa'
+alias ls='lsd --icon never'
 alias la='exa -lah'
-#alias la='lsd -lah --icon never'
 alias cl='clear;exa'
 alias rm='trash'
 # confirm before mv or cp overwriting files
