@@ -10,6 +10,7 @@ function dots(){
     git add .
     git commit -m "$message"
     git push
+    sleep 1
     cd $path
     clear
 }
