@@ -1,6 +1,7 @@
 #!/bin/sh
 
 function dots(){
+    dir="$(pwd)"
     message=$@
     if [ -z "$message" ]; then
         message="default commit"
@@ -9,7 +10,7 @@ function dots(){
     git add .
     git commit -m "$message"
     git push
-    cd ~
+    cd $path
     clear
 }
 
