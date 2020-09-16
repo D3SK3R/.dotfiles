@@ -569,15 +569,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
-					"settings":
-					{
-						"buffer_size": 25256,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -711,6 +702,22 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/checkPackages.py",
+				"/home/d3sk3r/check",
+				"/home/d3sk3r/arch_install.sh",
+				"/home/d3sk3r/MEGA/arch_install.sh",
+				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/02-emoji.conf",
+				"/home/d3sk3r/installed",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_PatchedFonts",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/PatchedFonts",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/Installzsh_shell.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
+				"/home/d3sk3r/instal",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
 				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
 				"/home/d3sk3r/.dotfiles/xresources/.XresourcesOLD",
 				"/home/d3sk3r/.dotfiles/flameshot/.config/Dharkael/flameshot.ini",
@@ -721,7 +728,6 @@
 				"/home/d3sk3r/rofi issue/github",
 				"/home/d3sk3r/.vimrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt",
 				"/home/d3sk3r/.zshrc",
@@ -734,10 +740,8 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
@@ -825,24 +829,11 @@
 				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
 				"/home/d3sk3r/access.log",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-				"/home/d3sk3r/.dotfiles/rofi/.config/rofi/config",
-				"/home/d3sk3r/packettracer/packettracer.install",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/dummy-fake_cam.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/loml 8.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/jimi/jimi errada.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pn.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msf_autoRun.sh",
-				"/home/d3sk3r/sms_dump_20200815031655.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/link",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/pp.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
-				"/home/d3sk3r/Desktop/Celeste/start"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 43.0
 			},
 			"find_in_files":
 			{
@@ -856,6 +847,11 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\n",
+					"Noto Sans Mono",
+					"DejaVu Sans Mono",
+					"Source Code Pro",
+					"DejaVu Sans Mono",
 					"ffffff",
 					"\\|",
 					"|||||||||",
@@ -942,9 +938,10 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					" ",
 					"dropdown",
 					"#bindsym",
 					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -958,43 +955,14 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 25256,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										279,
-										330
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 122.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -1036,7 +1004,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":

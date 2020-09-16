@@ -1,0 +1,8 @@
+[2020-09-15 18:31:46.951] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a","windowId":2}
+[2020-09-15 18:31:49.845] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-09-15 18:31:57.226] [sharedprocess] [info] Downloaded extension: ms-python.python /home/d3sk3r/.config/Code - OSS/CachedExtensionVSIXs/ms-python.python-2020.8.109390
+[2020-09-15 18:32:15.558] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.ms-python.python-2020.8.109390: ms-python.python
+[2020-09-15 18:32:15.558] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/ms-python.python-2020.8.109390
+[2020-09-15 18:32:15.573] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-09-15 18:32:15.608] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-09-15 18:32:26.978] [sharedprocess] [info] Starting to clean up unused language packs.

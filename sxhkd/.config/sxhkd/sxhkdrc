@@ -6,7 +6,7 @@
 
 # Terminal 
 super + {_,shift +} Return
-    {urxvtc -cd ~, st}
+    {urxvtc -cd ~, _}
 
 # Print (flameshot)
 {_,super +} Print

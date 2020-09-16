@@ -429,7 +429,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -632,8 +633,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1491,9 +1491,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 2,
-                "y": 30,
+                "y": 2,
                 "width": 1356,
-                "height": 736
+                "height": 764
             }
         },
         "openedWindows": []

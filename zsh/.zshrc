@@ -255,7 +255,7 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 ## Keybindings section
-bindkey -e
+#bindkey -e
 #bindkey '^[[7~' beginning-of-line                               # Home key
 #bindkey '^[[H' beginning-of-line                                # Home key
 #if [[ "${terminfo[khome]}" != "" ]]; then
