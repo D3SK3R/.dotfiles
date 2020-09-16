@@ -43,7 +43,7 @@ KEY="756edce7e9d4c385ef9499a53492678c"
 CITY=$campinas
 UNITS="metric"
 SYMBOL="°C"
-ICON="  "
+#ICON="  "
 
 API="https://api.openweathermap.org/data/2.5"
 

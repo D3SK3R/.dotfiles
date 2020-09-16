@@ -569,6 +569,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 14015,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -955,8 +964,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14015,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2430.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1000,7 +1038,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,36,2714,756,2726,768",
+			"position": "1,0,0,0,0,1706,403,2034,756,2726,768",
 			"project": "",
 			"replace":
 			{

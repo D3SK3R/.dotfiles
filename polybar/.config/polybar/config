@@ -110,7 +110,7 @@ border-bottom-colors = ${colors.transparent}
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-; Make polybar override (stay above them) windows
+; Make polybar override (stay above) windows
 override-redirect = false
 
 ;cursor-click = pointer
@@ -123,14 +123,15 @@ enable-ipc = true
 
 ;==========================================================
 
-font-0 = "Fantasque Sans Mono:pixelsize=9;3"
-font-1 = "Iosevka Nerd Font:pixelsize=13;3"
-font-2 = "MaterialIcons:size=10:antialias=false;5"
-font-3 = "icomoon-extended-ultra:size=10:antialias=false;5"
-font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
-font-5 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
-font-6 = "Font Awesome 5 Brands:pixelsize=10;3"
-font-separator ="Fantasque Sans Mono:pixelsize=10;5"
+font-0 = "DejaVu Sans:pixelsize=9:antialias=true:pixelsize=9;2"
+font-1 = "Fantasque Sans Mono:pixelsize=10:antialias=true:pixelsize=9;2"
+font-2 = "Iosevka Nerd Font:antialias=true:pixelsize=13;3"
+font-3 = "Material Icons:size=15:antialias=true;14;4"
+;font-3 = "Font Awesome:size=12:antialias=true;5;3"
+;font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
+;font-5 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
+;font-6 = "Font Awesome 5 Brands:pixelsize=10;3"
+;font-separator ="Fantasque Sans Mono:pixelsize=10;5"
 
 ;== Module Location ========================================================
 modules-left = i3 spotify 
@@ -317,8 +318,8 @@ interval = 1
 format-prefix = " "
 format = <label>
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
-# icons for play/pause
-exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
+# icons for play/pause  ',' / ',' / ','
+exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
 #format-underline = #1db54
 click-left = playerctl play-pause
 click-right = playerctl previous && playerctl stop
@@ -326,7 +327,8 @@ click-right = playerctl previous && playerctl stop
 [module/cpu]
 type = internal/cpu
 interval = 1
-label = "   %percentage%% "
+#  / 
+label = "  %percentage%% "
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 
@@ -352,7 +354,8 @@ bar-used-empty = 
 bar-used-empty-foreground = ${colors.fg}
 
 format = "<label> <bar-used>"
-format-prefix = "   "
+#  /  / 
+format-prefix = "  "
 format-prefix-foreground = ${colors.fg}
 #format-underline = ${colors.bg}
 format-foreground = ${colors.fg}
@@ -383,8 +386,6 @@ format-discharging                      = <ramp-capacity><label-discharging>
 format-discharging-foreground           = #ffffff
 
 format-full-foreground                  = ${colors.fg}
-
-
 
 full-at                                 = 99
 
@@ -422,6 +423,7 @@ exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
 interval = 100
 #label-font = 2
 #format-prefix = "  "
+format-prefix = "  "
 #format-underline = ${colors.fg}
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
@@ -525,6 +527,7 @@ exec = ~/.config/polybar/scripts/popup-calendar.sh
 interval = 5
 click-left = ~/.config/polybar/scripts/popup-calendar.sh --popup
 #format-underline = ${colors.black}
+#format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 
