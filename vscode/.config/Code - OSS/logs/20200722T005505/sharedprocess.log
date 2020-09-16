@@ -1,8 +1,0 @@
-[2020-07-22 00:55:09.826] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a","windowId":2}
-[2020-07-22 00:55:12.549] [sharedprocess] [info] Installing extension: juanmnl.vscode-theme-1984
-[2020-07-22 00:55:12.552] [sharedprocess] [info] Installing extension: ms-python.python
-[2020-07-22 00:55:15.869] [sharedprocess] [info] Downloaded extension: juanmnl.vscode-theme-1984 /home/d3sk3r/.config/Code - OSS/CachedExtensionVSIXs/juanmnl.vscode-theme-1984-0.3.4
-[2020-07-22 00:55:15.930] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.juanmnl.vscode-theme-1984-0.3.4: juanmnl.vscode-theme-1984
-[2020-07-22 00:55:15.930] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/juanmnl.vscode-theme-1984-0.3.4
-[2020-07-22 00:55:15.931] [sharedprocess] [info] Installation completed. juanmnl.vscode-theme-1984
-[2020-07-22 00:55:15.948] [sharedprocess] [info] Extensions installed successfully: juanmnl.vscode-theme-1984

@@ -569,15 +569,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
-					"settings":
-					{
-						"buffer_size": 14015,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -711,6 +702,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt",
+				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
+				"/home/d3sk3r/.tmux.conf",
 				"/home/d3sk3r/checkPackages.py",
 				"/home/d3sk3r/check",
 				"/home/d3sk3r/arch_install.sh",
@@ -834,11 +829,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
-				"/home/d3sk3r/.games/Celeste.desktop",
-				"/home/d3sk3r/pentesting/deskerTHM.ovpn",
-				"/home/d3sk3r/access.log",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where"
+				"/home/d3sk3r/.games/Celeste.desktop"
 			],
 			"find":
 			{
@@ -964,37 +955,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 14015,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 2430.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1038,7 +1000,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1,0,0,0,0,1706,403,2034,756,2726,768",
+			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

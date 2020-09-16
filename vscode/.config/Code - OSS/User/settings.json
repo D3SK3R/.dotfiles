@@ -4,5 +4,6 @@
     "workbench.colorTheme": "1984 - Fancy",
     "window.menuBarVisibility": "toggle",
     "liveServer.settings.NoBrowser": true,
-    "browser-preview.startUrl": "http://127.0.0.1:5500"
+    "browser-preview.startUrl": "http://127.0.0.1:5500",
+    "liveServer.settings.donotVerifyTags": true
 }
