@@ -569,6 +569,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.config/neofetch/config.conf",
+					"settings":
+					{
+						"buffer_size": 14990,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -702,6 +711,12 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/neofetch/config",
+				"/home/d3sk3r/.ncmpcpp/config",
+				"/home/d3sk3r/.ncmpcpp/config-art-dark",
+				"/home/d3sk3r/.ncmpcpp/config-minimal",
+				"/home/d3sk3r/.ncmpcpp/configBAK",
+				"/home/d3sk3r/.config/tint2/tint2rc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt",
 				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
@@ -823,17 +838,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/QuickLocalServer.txt",
 				"/home/d3sk3r/.config/picom/picom.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/msfvenomWAN.txt",
-				"/home/d3sk3r/pktriot-0.9.18/tcpReverseProxy.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Pentesting/AndroidExploitation/meterpreter through msfvenom",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/PowerlineHow",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/SaveOnCtrlS",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/NERDTree",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/picom/where.txt",
-				"/home/d3sk3r/.games/Celeste.desktop"
+				"/home/d3sk3r/pktriot-0.9.18/tcpReverseProxy.txt"
 			],
 			"find":
 			{
-				"height": 43.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -847,6 +856,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"distro",
+					"distro]",
+					"distro",
+					"image",
+					"arch",
+					"> ",
 					"\\n",
 					"Noto Sans Mono",
 					"DejaVu Sans Mono",
@@ -941,6 +956,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
 					" ",
 					"dropdown",
 					"#bindsym",
@@ -955,8 +971,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.config/neofetch/config.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14990,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										11094,
+										11094
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 8732.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1000,11 +1045,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,403,1348,756,2726,768",
+			"position": "1,0,0,0,0,1025,36,1348,389,2726,768",
 			"project": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":
