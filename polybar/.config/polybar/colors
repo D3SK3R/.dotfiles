@@ -1,0 +1,66 @@
+[colors]
+
+transparent = #00000000
+white = #FFFFFF
+;white = #ECEFF4
+black = #000000
+
+;Transparency: (first 2 digits before 000000)
+;100% — FF
+;90% — E6
+;80% — CC
+;75% — BF
+;70% — B3
+;60% — 99
+;50% — 80
+;40% — 66
+;30% — 4D
+;20% — 33
+;10% — 1A
+;0% — 00
+
+bg = #00000000
+;bg = #e0020202
+;bg = #65000000
+fg = #FFFFFF
+fg-alt = #A9ABB0
+
+urgent = #EF5350
+occupied = #42A5F5
+
+shade1 = #006064
+shade2 = #00838F
+shade3 = #0097A7
+shade4 = #00ACC1
+shade5 = #00BCD4
+shade6 = #26C6DA
+shade7 = #4DD0E1
+shade8 = #80DEEA
+ashade8 = #2C2C2C
+
+## Material Colors
+
+red = #e53935
+pink = #d81b60
+purple = #8e24aa
+deep-purple = #5e35b1
+indigo = #3949ab
+blue = #1e88e5
+light-blue = #039be5
+cyan = #00ccff
+cyan2 = #00acc1
+teal = #00897b
+green = #43a047
+light-green = #7cb342
+lime = #c0ca33
+yellow = #fdd835
+amber = #ffb300
+orange = #fb8c00
+deep-orange = #f4511e
+brown = #6d4c41
+gray = #181B28
+gray1 = #0E151B
+gray2 = #161925
+gray3 = #1A1A1A
+blue-gray = #546e7a
+ 
