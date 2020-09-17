@@ -62,8 +62,8 @@ $exec urxvtd -q -o -f
 $exec sleep 10 && urxvt -name floating_urxvt
 #bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
-#for_window		[title="floating_urxvt"] move to position 400 50
-for_window		[title="floating_urxvt"] move to position center
+for_window		[title="floating_urxvt"] move to position 400 40
+#for_window		[title="floating_urxvt"] move to position center
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
 
