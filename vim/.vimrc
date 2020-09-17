@@ -127,6 +127,26 @@ set wrapmargin=8
 set tabstop=4 softtabstop=0 expandtab smarttab
 set shiftwidth=4
 
+" case ignore
+set ignorecase
+" useful if ignorecase is enabled. If you type a capitalized word, it will
+" only match capitalized words
+set smartcase
+
+" only on a truecolor terminal
+"set termguicolors
+
+" Auto completition
+set wildmode=longest,list,full
+
+" Fix splitting
+set splitbelow splitright
+
+"set cursorline
+"set cursorcolumn
+"highlight CursorLine ctermbg=black cterm=bold guibg=#2b2b2b
+"highlight CursorColumn ctermbg=black cterm=bold guibg=#2b2b2b
+
 " enables backspace to delete characters in insert mode
 set backspace=3
 
@@ -166,12 +186,15 @@ set clipboard=unnamedplus
 " Fix different colors (brown) with urxvt
 set background=dark
 
+" Vertically center document when entering insert mode
+autocmd InsertEnter * norm zz
+
+" Remove trailing (useless) whitespaces on save
+autocmd BufWritePre * %s/\s\+$//e
+
 "Autorun code on save
 "autocmd BufWritePost *.sh !clear;sh %
 "autocmd BufWritePost *.py !clear;python %
-
-"Run code on CTRL X
-"nnoremap <buffer> <c-x> :exec '!clear;python' shellescape(@%, 1)<cr>
 
 "Automatically run xrdb /.Xresouces when the file is changed
 autocmd BufWritePost .Xresources !xrdb %
@@ -192,18 +215,24 @@ autocmd BufRead */i3/config set syntax=dosini
 autocmd BufRead */.i3/config set syntax=dosini
 autocmd BufRead */.i3/config* set syntax=dosini
 
-"Keyboard shortcuts
-"https://unix.stackexchange.com/questions/93144/exit-vim-more-quickly
-"Put this 3 lines to your ~/.bashrc or ~/.zshrc:
-" bind -r '\C-s'
-" stty -ixon
-" alias vim='stty stop "" -ixoff; vim'
-
 " disable vim to change window title
 set notitle
 
-"map "a" to act like "i" and switch to insert mode
-nmap a i
+"Disable :X to encryption and make it write and quit, like :x
+cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
+
+:command Q q
+:command W w
+
+" Key maps
+
+"NERDTree
+nmap <c-f> :NERDTree<CR>
+imap <c-f> <Esc>:NERDTree<CR>
+
+"quit after save
+nmap <c-q> :q<CR>
+imap <c-q> <Esc>:q<CR>
 
 "save/write file and "move" to the next character (actually stays where it was
 "before saving, because the default behaviour is to go to the previous
@@ -211,17 +240,18 @@ nmap a i
 nmap <c-s> :w<CR>l
 imap <c-s> <Esc>:w<CR>l
 
-"quit after save
-nmap <c-q> :q<CR>
-imap <c-q> <Esc>:q<CR>
+"map "a" to act like "i" and switch to insert mode
+nmap a i
 
-"Disable :X to encryption and make it write and quit, like :x
-cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
+" Shortcut for replace command
+nnoremap S :%s///gc<Left><Left><Left><Left>
 
-"NERDTree
-nmap <c-f> :NERDTree<CR>
-imap <c-f> <Esc>:NERDTree<CR>
+"Run code on CTRL X
+"nnoremap <buffer> <c-x> :exec '!clear;python' shellescape(@%, 1)<cr>
 
-:command Q q
-:command W w
-
+"Keyboard shortcuts
+"https://unix.stackexchange.com/questions/93144/exit-vim-more-quickly
+"Put this 3 lines to your ~/.bashrc or ~/.zshrc:
+" bind -r '\C-s'
+" stty -ixon
+" alias vim='stty stop "" -ixoff; vim'
