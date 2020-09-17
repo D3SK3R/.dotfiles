@@ -106,7 +106,6 @@ plugins=(
     copyfile
     copybuffer # ctrl+o
     sudo # esc key twice
-    safe-paste
 )
 
 ################################################# 
@@ -166,11 +165,6 @@ export FZF_BASE=/usr/bin/fzf
 # sudo
 ################################################# 
 #Easily prefix your current or previous commands with sudo by pressing esc twice
-
-################################################# 
-# safe-paste
-################################################# 
-#Preventing any code from actually running while pasting, so you have a chance to review what was actually pasted before running it.
 
 # yay -S lf
 # Navigate throught directories using ctrl+f
@@ -274,15 +268,12 @@ bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[[6~' history-beginning-search-forward                # Page down key
 #
 ## Navigate words with ctrl+arrow keys
-# Multiple tries to bind ctrl+arrows to forward/backward word
-bindkey '^[5C' forward-word                                     #
-bindkey '^[5D' backward-word                                    #
-bindkey '^[2C' forward-word                                     #
-bindkey '^[2D' backward-word                                    #
 bindkey '^[Oc' forward-word                                     #
 bindkey '^[Od' backward-word                                    #
+
 bindkey '^[[1;5D' backward-word                                 # backward word with ctrl right
 bindkey '^[[1;5C' forward-word                                  # forward word with ctrl left
+
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
 #bindkey '^[[Z' undo
 
