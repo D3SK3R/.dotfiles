@@ -274,6 +274,11 @@ bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[[6~' history-beginning-search-forward                # Page down key
 #
 ## Navigate words with ctrl+arrow keys
+# Multiple tries to bind ctrl+arrows to forward/backward word
+bindkey '^[5C' forward-word                                     #
+bindkey '^[5D' backward-word                                    #
+bindkey '^[2C' forward-word                                     #
+bindkey '^[2D' backward-word                                    #
 bindkey '^[Oc' forward-word                                     #
 bindkey '^[Od' backward-word                                    #
 bindkey '^[[1;5D' backward-word                                 # backward word with ctrl right
