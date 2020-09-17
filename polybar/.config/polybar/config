@@ -24,10 +24,11 @@ include-file = ~/.config/polybar/modules
 width = 100%
 ;height = 32
 height = 25
-radius = 8
+; rounded corners
+;radius = 8
 bottom = false
 fixed-center = true
-line-size = 
+line-size =
 
 spacing = 0
 module-margin-left = 0
@@ -38,10 +39,12 @@ offset-x = 0
 
 monitor = ${env:MONITOR:}
 
-border-size = 2
-border-colors = ${colors.transparent}
-border-bottom-size = 1
-border-bottom-colors = ${colors.transparent}
+border-size = 1
+border-colors = ${colors.bg}
+;border-top-size = 1
+;border-top-colors = ${colors.bg}
+;border-bottom-size = 1
+;border-bottom-colors = ${colors.bg}
 ;border-transparent = true
 
 background = ${colors.bg}
@@ -68,9 +71,9 @@ include-file = ~/.config/polybar/fonts
 ; Module Location
 ;==========================================================
 
-modules-left = i3 spotify 
+modules-left = i3 spotify
 modules-center =
-modules-right = cpu ram pavolume battery openweather popup-calendar 
+modules-right = cpu ram pavolume battery openweather popup-calendar
 
 ;left - center - right - none
 tray-position = center

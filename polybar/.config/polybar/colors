@@ -20,7 +20,7 @@ black = #000000
 ;0% — 00
 
 bg = #00000000
-;bg = #e0020202
+;bg = #0e151b
 ;bg = #65000000
 fg = #FFFFFF
 fg-alt = #A9ABB0
@@ -63,4 +63,4 @@ gray1 = #0E151B
 gray2 = #161925
 gray3 = #1A1A1A
 blue-gray = #546e7a
- 
+
