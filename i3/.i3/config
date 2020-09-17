@@ -107,7 +107,7 @@ for_window      [title="Picture in picture"] move scratchpad
 # media
 # key codes:
 # XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute
-# XF86AudioPlay, XF86AudioNext, XF86AudioPrev, XF86AudioStop 
+# XF86AudioPlay, XF86AudioNext, XF86AudioPrev, XF86AudioStop
 
 #bindsym XF86AudioRaiseVolume 					$exec ~/.scripts/volumeUP.sh
 #bindsym XF86AudioLowerVolume 					$exec ~/.scripts/volumeDOWN.sh
@@ -366,7 +366,7 @@ exec_always --no-startup-id killall pulseaudio && pulseaudio
 #                 set $ws2 2:
 # extra icons to choose from
 # http://fontawesome.io/cheatsheet/
-#       v      
+#       v     
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -433,7 +433,7 @@ bindsym $mod+Tab	  	 	workspace back_and_forth
 # assign [class="Skype"] $ws5
 
 ################################################################################################
-## 								     Per window configuration                                 ##                            
+## 								     Per window configuration                                 ##
 ################################################################################################
 
 # Open specific applications in floating mode
@@ -483,7 +483,7 @@ for_window [class="ViberPC"] floating enable move position center
 for_window [title="DevTools - *"] floating enable move to position center
 
 ################################################################################################
-## 								            Colors                                            ##                            
+## 								            Colors                                            ##
 ################################################################################################
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -491,7 +491,7 @@ for_window [title="DevTools - *"] floating enable move to position center
 # Change the variable name at the place you want to match the color
 # of your terminal like this:
 # [example]
-# If you want your bar to have the same background color as your 
+# If you want your bar to have the same background color as your
 # terminal background change the line 362 from:
 # background #14191D
 # to:
@@ -542,7 +542,7 @@ client.background		                                $bg
 #  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
 #  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
 #  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-#  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#  client.placeholder      #000000 #0c0c0c #ffffff #000000
 #
 #  client.background       #2B2C2B
 
@@ -562,7 +562,7 @@ gaps outer -2
 # Smart gaps (gaps used if only more than one container on the workspace)
 smart_gaps on
 
-# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
 # smart_borders no_gaps
 

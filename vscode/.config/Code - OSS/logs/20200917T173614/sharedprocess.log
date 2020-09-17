@@ -1,0 +1,8 @@
+[2020-09-17 17:36:19.393] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a","windowId":2}
+[2020-09-17 17:36:59.418] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-09-17 18:08:02.835] [sharedprocess] [info] Installing extension: miramac.vscode-exec-node
+[2020-09-17 18:08:03.448] [sharedprocess] [info] Downloaded extension: miramac.vscode-exec-node /home/d3sk3r/.config/Code - OSS/CachedExtensionVSIXs/miramac.vscode-exec-node-0.5.3
+[2020-09-17 18:08:03.597] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.miramac.vscode-exec-node-0.5.3: miramac.vscode-exec-node
+[2020-09-17 18:08:03.600] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/miramac.vscode-exec-node-0.5.3
+[2020-09-17 18:08:03.603] [sharedprocess] [info] Installation completed. miramac.vscode-exec-node
+[2020-09-17 18:08:03.624] [sharedprocess] [info] Extensions installed successfully: miramac.vscode-exec-node

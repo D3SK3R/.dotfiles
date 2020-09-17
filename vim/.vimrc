@@ -52,7 +52,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " themes: https://github.com/vim-airline/vim-airline/wiki/Screenshots
-let g:airline_theme='monochrome' 
+let g:airline_theme='monochrome'
 " fav themes: simple/monochrome/minimalist/serene
 
 " if using a powerline font
@@ -112,12 +112,12 @@ filetype plugin indent on    " required
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM
-"       _           
-"__   _(_)_ __ ___  
-"\ \ / / | '_ ` _ \ 
+"       _
+"__   _(_)_ __ ___
+"\ \ / / | '_ ` _ \
 " \ V /| | | | | | |
 "  \_/ |_|_| |_| |_|
-"                   
+"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set number
@@ -187,7 +187,7 @@ set clipboard=unnamedplus
 set background=dark
 
 " Vertically center document when entering insert mode
-autocmd InsertEnter * norm zz
+""autocmd InsertEnter * norm zz
 
 " Remove trailing (useless) whitespaces on save
 autocmd BufWritePre * %s/\s\+$//e
