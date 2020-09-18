@@ -53,10 +53,11 @@ URxvt.saveLines: 2000
 URxvt*foreground:           #ffffff
 !! if not blur = [65]
 !! for blur, use the following
-URxvt*background:          [50]#000000
+!URxvt*background:          [60]#000000
 ! Material Grey (disable blurRadius and transparent options)
 !URxvt*background:   [100]#090909
-!URxvt*background:   [100]#0e151b
+!URxvt*background:   [70]#0e151b
+URxvt*background:    [100]#10141c
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
@@ -79,7 +80,7 @@ URxvt.depth:32
 !URxvt.highlightTextColor: #000000
 
 
-*bg:     #000000
+*bg:     #10141c
 *fg:     #ffffff
 *color0: #000000
 *color1: #1c64ff
@@ -109,8 +110,8 @@ URxvt.keysym.Control-Left:      \033[1;5D
 URxvt.keysym.Control-Right:     \033[1;5C
 
 ! ST
-*background:    #000000
-*alpha:         0.5
+*background:    #10141c
+*alpha:         1
 
 *borderpx:      1
 

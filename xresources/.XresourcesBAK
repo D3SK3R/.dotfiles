@@ -37,16 +37,15 @@ URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
 URxvt.underlineURLs:true
-URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold,minspace=False
-URxvt*boldFont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold,minspace=False
-*.letterSpace: -1
-*.lineSpace: -1
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
+URxvt.boldfont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
+*letterSpace: -1
+*lineSpace: -1
 
 URxvt.transparent:false
 URxvt.shading:30
 URxvt.geometry:190x48
 URxvt.saveLines: 2000
-
 
 !!! COLORS !!!
 
@@ -63,17 +62,17 @@ URxvt*background:          [50]#000000
 !URxvt.borderless:true
 !URxvt.internalBorder:4
 
-URxvt.colorBD:              #ffffff
-URxvt.colorIT:              #1c64ff
-URxvt.colorUL:              #1c64ff
-URxvt.underlineColor:       #00ccff
-URxvt.highlightColor:       #00ccff
-URxvt.highlightTextColor:   #000000
+*colorBD:              #ffffff
+*colorIT:              #1c64ff
+*colorUL:              #1c64ff
+*underlineColor:       #00ccff
+*highlightColor:       #00ccff
+*highlightTextColor:   #000000
 
-URxvt.cursorColor:          #00ccff
-URxvt.cursorColor2:         #000000
-URxvt.cursorBlink:          true
-URxvt.cursorUnderline:      true
+*cursorColor:          #00ccff
+*cursorColor2:         #000000
+*cursorBlink:          true
+*cursorUnderline:      true
 URxvt.depth:32
 
 !URxvt.highlightColor: #00ccff
@@ -91,16 +90,29 @@ URxvt.depth:32
 *color6: #00ccff
 *color7: #ffffff
 *color8: #ff00cc
-*color9: #1c64ff
+! terminal writing and grep matches
+*color9: #4177ff
 *color10: #00cfff
 *color10: #00ccff
-*color11: #00cfff
-*color12: #01ccff
+*color11: #208cff
+*color12: #059bff
 *color13: #00ccff
 *color14: #00828b
 *color14: #1c64ff
 *color15: #00ccff
 !*color15: #0099ff
+
+# ctrl+arrows for vim
+URxvt.keysym.Control-Up:        \033[1;5A
+URxvt.keysym.Control-Down:      \033[1;5B
+URxvt.keysym.Control-Left:      \033[1;5D
+URxvt.keysym.Control-Right:     \033[1;5C
+
+! ST
+*background:    #000000
+*alpha:         0.5
+
+*borderpx:      1
 
 ! Xterm
 XTerm*renderFont: true

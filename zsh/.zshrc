@@ -1,17 +1,17 @@
 clear
 # clear at the start to prevent some 'artifacts' when quickly open terminal windows
 ###############################################################
-#     ___         ___         ___          ___         ___     
-#    /\  \       /\  \       /\__\        /  /\       /  /\    
-#    \:\  \     /::\  \     /:/  /       /  /::\     /  /:/    
-#     \:\  \   /:/\ \  \   /:/__/       /  /:/\:\   /  /:/     
-#      \:\  \ _\:\~\ \  \ /::\  \ ___  /  /:/~/:/  /  /:/  ___ 
+#     ___         ___         ___          ___         ___
+#    /\  \       /\  \       /\__\        /  /\       /  /\
+#    \:\  \     /::\  \     /:/  /       /  /::\     /  /:/
+#     \:\  \   /:/\ \  \   /:/__/       /  /:/\:\   /  /:/
+#      \:\  \ _\:\~\ \  \ /::\  \ ___  /  /:/~/:/  /  /:/  ___
 #_______\:\__\\ \:\ \ \__\:/\:\  /\__\/__/:/ /:/__/__/:/  /  /\
 #\::::::::/__/:\ \:\ \/__//__\:\/:/  /\  \:\/:::::\  \:\ /  /:/
-# \:\~~\~~    \:\ \:\__\      \::/  /  \  \::/~~~~ \  \:\  /:/ 
-#  \:\  \      \:\/:/  /      /:/  /    \  \:\      \  \:\/:/  
-#   \:\__\      \::/  /      /:/  /      \  \:\      \  \::/   
-# ■  \/__/       \/__/       \/__/        \__\/       \__\/    
+# \:\~~\~~    \:\ \:\__\      \::/  /  \  \::/~~~~ \  \:\  /:/
+#  \:\  \      \:\/:/  /      /:/  /    \  \:\      \  \:\/:/
+#   \:\__\      \::/  /      /:/  /      \  \:\      \  \::/
+# ■  \/__/       \/__/       \/__/        \__\/       \__\/
 ###############################################################
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -24,9 +24,9 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# SET ZSH AS DEFAULT SHELL 
+# SET ZSH AS DEFAULT SHELL
 # chsh -s $(which zsh)
-# and 
+# and
 # sudo chsh -s $(which zsh)
 # or
 # sudo chsh -s /bin/zsh
@@ -37,7 +37,7 @@ fi
 DOWNGRADE_FROM_ALA=1
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/d3sk3r/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 #export TERM="xterm-256color"
 export TERM="rxvt-unicode-256color"
 
@@ -108,9 +108,9 @@ plugins=(
     sudo # esc key twice
 )
 
-################################################# 
+#################################################
 # FZF
-################################################# 
+#################################################
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
@@ -127,25 +127,25 @@ export FZF_BASE=/usr/bin/fzf
 # ctrl+r to show command history
 # ctrl-t to search for files
 
-################################################# 
+#################################################
 # Fast-syntax-highlighing
-################################################# 
+#################################################
 # To install fast-syntax-highlighting: (if not already on my .oh-my-zsh/ folder)
 # https://github.com/zdharma/fast-syntax-highlighting
 # copy all of this and run on a terminal (these 2 lines together):
 # git clone https://github.com/zdharma/fast-syntax-highlighting.git \
 #  ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 
-################################################# 
+#################################################
 # Dirhistory
-################################################# 
+#################################################
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirhistory
 # alt + left	Go to previous directory
 # alt + right	Undo alt + left
 # alt + up	Move into the parent directory
 # alt + down	Move into the first child directory by alphabetical order
 
-################################################# 
+#################################################
 # copydir/copyfile/copybuffer
 #################################################
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir
@@ -159,11 +159,11 @@ export FZF_BASE=/usr/bin/fzf
 #run the command copyfile <filename> to copy the file named filename.
 #
 #This plugin binds the "ctrl-o" keyboard shortcut to a command that copies the text that is currently typed in the command line ($BUFFER) to the system clipboard.
-#This is useful if you type a command - and before you hit enter to execute it - want to copy it maybe so you can paste it into a script, gist or whatnot. 
+#This is useful if you type a command - and before you hit enter to execute it - want to copy it maybe so you can paste it into a script, gist or whatnot.
 
-################################################# 
+#################################################
 # sudo
-################################################# 
+#################################################
 #Easily prefix your current or previous commands with sudo by pressing esc twice
 
 # yay -S lf
@@ -289,13 +289,13 @@ export LESS=-r
 
 
 ###############################################################
-#			          _ _                     				  #	
+#			          _ _                     				  #
 #   		    /\   | (_)                    				  #
 #			   /  \  | |_  __ _ ___  ___  ___ 				  #
 #			  / /\ \ | | |/ _` / __|/ _ \/ __|				  #
 #			 / ____ \| | | (_| \__ \  __/\__ \				  #
 #			/_/    \_\_|_|\__,_|___/\___||___/				  #
-############################################################### 
+###############################################################
 
 #################################################################
 #                     Basic terminal commands                   #
@@ -375,7 +375,7 @@ alias remove='sudo pacman -Rns'
 alias remove-force='sudo pacman -Rnsdd'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 # CLEAN:
-# sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos) 
+# sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos)
 # yay - Yc: Does the same as above but for the AUR
 # sudo pacman -Rns $(pacman -Qtdq): Remove all unused dependencies from unisntalled packages
 # sudo paccache -r: clean all packages, except the 3 most recent versions
@@ -499,14 +499,14 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.scripts/kill.sh
 source ~/.scripts/dotfiles.sh
-# ____             _          _____ _          _ _ 
+# ____             _          _____ _          _ _
 #|  _ \           (_)        / ____| |        | | |
 #| |_) | ___  __ _ _ _ __   | (___ | |__   ___| | |
 #|  _ < / _ \/ _` | | '_ \   \___ \| '_ \ / _ \ | |
 #| |_) |  __/ (_| | | | | |  ____) | | | |  __/ | |
 #|____/ \___|\__, |_|_| |_| |_____/|_| |_|\___|_|_|
-#             __/ |                                
-#            |___/     
+#             __/ |
+#            |___/
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

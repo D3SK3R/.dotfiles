@@ -1,6 +1,6 @@
-;  _ ____             
-; (_)__ /_ __ ___ __  
-; | ||_ \ V  V / '  \ 
+;  _ ____
+; (_)__ /_ __ ___ __
+; | ||_ \ V  V / '  \
 ; |_|___/\_/\_/|_|_|_|
 
 [module/i3]
@@ -16,31 +16,32 @@ label-urgent-font = 1
 label-mode-font = 2
 
 label-mode                  = 煉 %mode%
-label-mode-background       = ${colors.bg}
-label-mode-foreground       = #ffffff
+label-mode-background       = ${colors.bg-alt}
+label-mode-foreground       = ${colors.fg-alt}
 label-mode-padding          = 1
 
 label-focused               = 
-label-focused-background    = ${colors.bg}
+label-focused-background    = ${colors.bg-alt}
 ;label-focused-foreground    = #77B9C4
-label-focused-foreground    = #ffffff
+label-focused-foreground    = ${colors.fg-alt}
 label-focused-padding       = 1
 
 label-unfocused             = 
 ;label-unfocused 			= 
-label-unfocused-background  = ${colors.bg}
+label-unfocused-background  = ${colors.bg-alt}
 ;label-unfocused-foreground  = #abb2bf
-label-unfocused-foreground  = #ffffff
+label-unfocused-foreground  = ${colors.fg-alt}
 label-unfocused-padding     = 1
 
 label-urgent                = 
-label-urgent-background     = ${colors.bg}
+label-urgent-background     = ${colors.bg-alt}
 label-urgent-foreground     = #ff0000
 label-urgent-padding        = 1
 
 ;label-visible               = 
 label-visible               = 
-label-visible-foreground    = #ffffff
+label-visible-background     = ${colors.bg-alt}
+label-visible-foreground    = ${colors.fg-alt}
 label-visible-padding       = 1
 
 ;==========================================================
@@ -52,7 +53,7 @@ type = internal/mpd
 ; Can also be the full path to a unix socket where mpd is running.
 host = localhost
 port = 1100
-;password = 
+;password =
 
 ; Seconds to sleep between progressbar/song timer sync
 ; Default: 1
@@ -120,7 +121,7 @@ label-time = %elapsed%  %total%
 ;   None
 ;label-offline = mpd is offline
 
-; Only applies if <icon-X> is used 
+; Only applies if <icon-X> is used
 icon-play = "   "
 icon-pause = "   "
 icon-stop = "   "
@@ -145,7 +146,7 @@ toggle-off-foreground = #55
 ;bar-progress-fill = -
 ;bar-progress-empty = -
 
-bar-progress-indicator = 
+bar-progress-indicator =
 bar-progress-width = 20
 bar-progress-foreground-0 = ${colors.fg}
 bar-progress-fill = 
@@ -160,6 +161,7 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
+format-underline = ${colors.bg-alt}
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
 # icons for play/pause  ',' / ',' / ','
 exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
@@ -172,8 +174,8 @@ type = internal/cpu
 interval = 1
 #  / 
 label = "  %percentage%% "
-label-foreground = ${colors.fg}
-label-background = ${colors.bg}
+label-foreground = ${colors.fg-alt}
+label-background = ${colors.bg-alt}
 
 [module/ram]
 ;https://github.com/jaagr/polybar/wiki/Module:-memory
@@ -203,6 +205,7 @@ format-prefix-foreground = ${colors.fg}
 #format-underline = ${colors.bg}
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
+format-underline = ${colors.bg-alt}
 
 [module/pavolume]
 type = custom/script
@@ -214,8 +217,8 @@ click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 #scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 #scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
 #format-underline = ${colors.fg}
-format-foreground = ${colors.fg}
-format-background = ${colors.bg}
+format-foreground = ${colors.fg-alt}
+format-background = ${colors.bg-alt}
 
 
 [module/battery]
@@ -224,11 +227,14 @@ battery                                 = BAT1
 
 format-charging                         = "<ramp-capacity> <label-charging>"
 format-charging-foreground              = ${colors.fg}
+format-charging-underline 				= ${colors.bg-alt}
 
 format-discharging                      = <ramp-capacity><label-discharging>
-format-discharging-foreground           = #ffffff
+format-discharging-foreground           = ${colors.fg}
+format-discharging-underline = ${colors.bg-alt}
 
 format-full-foreground                  = ${colors.fg}
+format-full-underline 					= ${colors.bg-alt}
 
 full-at                                 = 99
 
@@ -236,11 +242,11 @@ full-at                                 = 99
 label-charging                          = "%percentage%%"
 format-charging-padding                 = 1
 
-;label-discharging 
+;label-discharging
 label-discharging                       = " %percentage%%"
 format-discharging-padding              = 1
 
-;label-full   
+;label-full
 label-full                        		= " %percentage%%"
 format-full-padding                     = 1
 
@@ -268,8 +274,8 @@ interval = 100
 #format-prefix = "  "
 format-prefix = "  "
 #format-underline = ${colors.fg}
-format-foreground = ${colors.fg}
-format-background = ${colors.bg}
+format-foreground = ${colors.fg-alt}
+format-background = ${colors.bg-alt}
 click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
 
 [module/network_wlan0]
@@ -364,14 +370,26 @@ animation-packetloss-1 = 
 animation-packetloss-1-foreground = #000000
 animation-packetloss-framerate = 500
 
-[module/popup-calendar]
+[module/popup-calendar-date]
 type = custom/script
-exec = ~/.config/polybar/scripts/popup-calendar.sh
+exec = ~/.config/polybar/scripts/popup-calendar-date.sh
 interval = 5
-click-left = ~/.config/polybar/scripts/popup-calendar.sh --popup
+click-left = ~/.config/polybar/scripts/popup-calendar-date.sh --popup
 #format-underline = ${colors.black}
-#format-prefix = 
+#format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
+format-underline = ${colors.bg-alt}
 
- 
+[module/popup-calendar-clock]
+type = custom/script
+exec = ~/.config/polybar/scripts/popup-calendar-clock.sh
+interval = 5
+click-left = ~/.config/polybar/scripts/popup-calendar-clock.sh --popup
+#format-underline = ${colors.black}
+#format-prefix = 
+format-foreground = ${colors.fg-alt}
+format-background = ${colors.bg-alt}
+
+
+

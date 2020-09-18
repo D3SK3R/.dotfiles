@@ -4,11 +4,11 @@
 		"/home/d3sk3r/Minecraft"
 	],
 	"last_version": 3211,
-	"last_window_id": 37,
+	"last_window_id": 39,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 748.0,
+		"new_window_height": 721.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -204,6 +204,21 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/polybar/fonts",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Colors/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
+				"/home/d3sk3r/calcRedes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/colors",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/config.ini",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/colors.ini",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/fonts.ini",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/BAK/config",
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts.ini",
 				"/home/d3sk3r/.mozilla/firefox/Bento/index.html",
 				"/home/d3sk3r/.mozilla/firefox/Bento/js/theme.js",
 				"/home/d3sk3r/.mozilla/firefox/Bento/css/style.css",
@@ -249,7 +264,6 @@
 				"/home/d3sk3r/.zshrc",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/misc.zsh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
@@ -266,7 +280,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/.urxvt/ext/vtwheel",
 				"/home/d3sk3r/.urxvt/urxvtd-D3SK3RI3",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy",
 				"/home/d3sk3r/.tmux.conf.local",
 				"/home/d3sk3r/fonts/install.sh",
@@ -318,24 +331,11 @@
 				"/home/d3sk3r/.config/epdfview/main.conf",
 				"/home/d3sk3r/.dotfiles/gtk-3.0/.config/gtk-3.0/settings.ini",
 				"/home/d3sk3r/.config/handlr/handlr.toml",
-				"/home/d3sk3r/.config/Outline Manager/Preferences",
-				"/home/d3sk3r/.config/qutebrowser/autoconfig.yml",
-				"/home/d3sk3r/.config/spotify/prefs",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ascii - hex",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/SublimeThemes.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/JS_HTML/Hello World.html",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/JS_HTML/javascript.html",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/C++/BasicCalculator.cpp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/C/Learning.c",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/shellScript/login.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/bash/login.sh",
-				"/home/d3sk3r/log.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/BatWindows.txt"
+				"/home/d3sk3r/.config/Outline Manager/Preferences"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -464,7 +464,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 27.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -482,7 +482,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -522,7 +522,7 @@
 			{
 			}
 		},
-		"new_window_width": 663.0
+		"new_window_width": 748.0
 	},
 	"windows":
 	[
@@ -591,6 +591,42 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.dotfiles/polybar/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 2351,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/.config/polybar/fonts",
+					"settings":
+					{
+						"buffer_size": 527,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/.config/polybar/colors",
+					"settings":
+					{
+						"buffer_size": 974,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/.config/polybar/modules",
+					"settings":
+					{
+						"buffer_size": 11692,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -724,8 +760,14 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/d3sk3r/.config/polybar/scripts/popup-calendar-date.sh",
+				"/home/d3sk3r/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Colors/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
+				"/home/d3sk3r/calcRedes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/colors",
@@ -779,7 +821,6 @@
 				"/home/d3sk3r/.zshrc",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how",
 				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/misc.zsh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
@@ -846,16 +887,11 @@
 				"/home/d3sk3r/.config/gtk-2.0/gtkfilechooser.ini",
 				"/home/d3sk3r/.config/epdfview/main.conf",
 				"/home/d3sk3r/.dotfiles/gtk-3.0/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/.config/handlr/handlr.toml",
-				"/home/d3sk3r/.config/Outline Manager/Preferences",
-				"/home/d3sk3r/.config/qutebrowser/autoconfig.yml",
-				"/home/d3sk3r/.config/spotify/prefs",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Android/TWRP/Rom/ToInstall",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ascii - hex"
+				"/home/d3sk3r/.config/handlr/handlr.toml"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -869,6 +905,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"openw",
 					"imgbg",
 					"distro",
 					"distro]",
@@ -985,8 +1022,121 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.dotfiles/polybar/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2351,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										842,
+										842
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 258.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/.config/polybar/fonts",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 527,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										196,
+										196
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/.config/polybar/colors",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 974,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										289,
+										289
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/d3sk3r/.config/polybar/modules",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11692,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										11688,
+										11688
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 5339.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1030,7 +1180,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,35,2714,756,2726,768",
+			"position": "0,0,0,0,0,1360,25,2722,764,2726,768",
 			"project": "",
 			"replace":
 			{
