@@ -1,3 +1,48 @@
+[module/l1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.bg-alt}
+content-background = ${colors.fg-alt}
+content-underline = ${colors.bg-alt}
+
+[module/l2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.fg-alt}
+content-background = ${colors.bg-alt}
+
+[module/l3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.bg-alt}
+content-background = ${colors.fg-alt}
+;content-underline = ${colors.bg-alt}
+
+[module/r1]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.fg-alt}
+content-background = ${colors.bg-alt}
+
+[module/r2]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.bg-alt}
+content-background = ${colors.fg-alt}
+content-underline = ${colors.bg-alt}
+
+[module/r3]
+type = custom/text
+content = ""
+content-font = 2
+content-foreground = ${colors.bg-alt}
+content-background = ${colors.fg-alt}
+
 ;  _ ____
 ; (_)__ /_ __ ___ __
 ; | ||_ \ V  V / '  \
@@ -174,8 +219,9 @@ type = internal/cpu
 interval = 1
 #  / 
 label = "  %percentage%% "
-label-foreground = ${colors.fg-alt}
-label-background = ${colors.bg-alt}
+label-foreground = ${colors.fg}
+label-background = ${colors.bg}
+label-underline = ${colors.bg-alt}
 
 [module/ram]
 ;https://github.com/jaagr/polybar/wiki/Module:-memory
@@ -201,11 +247,9 @@ bar-used-empty-foreground = ${colors.fg}
 format = "<label> <bar-used>"
 #  /  / 
 format-prefix = "  "
-format-prefix-foreground = ${colors.fg}
-#format-underline = ${colors.bg}
-format-foreground = ${colors.fg}
-format-background = ${colors.bg}
-format-underline = ${colors.bg-alt}
+format-prefix-foreground = ${colors.fg-alt}
+format-foreground = ${colors.fg-alt}
+format-background = ${colors.bg-alt}
 
 [module/pavolume]
 type = custom/script
@@ -216,9 +260,9 @@ click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 #scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 #scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
-#format-underline = ${colors.fg}
-format-foreground = ${colors.fg-alt}
-format-background = ${colors.bg-alt}
+format-foreground = ${colors.fg}
+format-background = ${colors.bg}
+format-underline = ${colors.bg-alt}
 
 
 [module/battery]
@@ -226,15 +270,15 @@ adapter                                 = AC0
 battery                                 = BAT1
 
 format-charging                         = "<ramp-capacity> <label-charging>"
-format-charging-foreground              = ${colors.fg}
-format-charging-underline 				= ${colors.bg-alt}
+format-charging-foreground              = ${colors.fg-alt}
+format-charging-background              = ${colors.bg-alt}
 
 format-discharging                      = <ramp-capacity><label-discharging>
-format-discharging-foreground           = ${colors.fg}
-format-discharging-underline = ${colors.bg-alt}
+format-discharging-foreground           = ${colors.fg-alt}
+format-discharging-background           = ${colors.bg-alt}
 
-format-full-foreground                  = ${colors.fg}
-format-full-underline 					= ${colors.bg-alt}
+format-full-foreground                  = ${colors.fg-alt}
+format-full-background                  = ${colors.bg-alt}
 
 full-at                                 = 99
 
@@ -273,9 +317,9 @@ interval = 100
 #label-font = 2
 #format-prefix = "  "
 format-prefix = "  "
-#format-underline = ${colors.fg}
-format-foreground = ${colors.fg-alt}
-format-background = ${colors.bg-alt}
+format-foreground = ${colors.fg}
+format-background = ${colors.bg}
+format-underline = ${colors.bg-alt}
 click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
 
 [module/network_wlan0]
@@ -391,5 +435,16 @@ click-left = ~/.config/polybar/scripts/popup-calendar-clock.sh --popup
 format-foreground = ${colors.fg-alt}
 format-background = ${colors.bg-alt}
 
+[module/date]
+type = internal/date
 
+label = "%date% %time%"
+label-foreground = ${colors.fg-alt}
+label-background = ${colors.bg-alt}
+
+date =
+date-alt = "  %a, %d %B %Y "
+
+time = " %H:%M "
+time-alt = " %H:%M:%S "
 
