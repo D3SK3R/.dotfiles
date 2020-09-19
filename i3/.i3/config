@@ -320,7 +320,7 @@ exec --no-startup-id libinput-gestures-setup restart
 exec_always --no-startup-id sleep 5 && flashfocus
 # Syncthing
 #exec_always --no-startup-id /path/to/syncthing/binary -no-browser -home="/home/d3sk3r/.config/syncthing"
-exec --no-startup-id syncthing -no-browser
+#exec --no-startup-id syncthing -no-browser
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # for picom
 $exec nitrogen --restore;sleep 1;picom -b
@@ -331,7 +331,7 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id clipster -d
-exec --no-startup-id i3-battery-popup-git
+#exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
 exec --no-startup-id xautolock -time 60 -locker ~/.scripts/lock.sh
 exec_always --no-startup-id ff-theme-util
@@ -614,7 +614,7 @@ mode "$mode_gaps_outer" {
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 #exec --no-startup-id i3-msg 'workspace 1; exec evolution'
 
-## !Doesn't work!
+## !i3bar!
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
 #	tray_output eDP1
