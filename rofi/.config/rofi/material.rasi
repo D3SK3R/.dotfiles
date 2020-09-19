@@ -29,6 +29,7 @@
 
 	spacing: 0;
 	background-color: transparent;
+    //background-color: #10141c;
 
 	font: "Roboto Mono 12";
 }
@@ -145,4 +146,4 @@ element normal urgent, element selected urgent, element alternate urgent {
 
 element normal active, element selected active, element alternate active {
 	text-color: @base0B;
-} 
+}
