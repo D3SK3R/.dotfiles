@@ -1,0 +1,94 @@
+; vim:ft=dosini
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   Created By Aditya Shakya.
+;
+;==========================================================
+
+include-file = ~/.config/polybar/colors
+include-file = ~/.config/polybar/modules
+
+;==========================================================
+; 				         Primary Bar
+;==========================================================
+[bar/main]
+width = 100%
+;height = 32
+height = 23
+; rounded corners
+radius = 4
+bottom = false
+fixed-center = true
+line-size = 1
+
+spacing = 0
+module-margin-left = 0
+module-margin-right = 0
+
+offset-y = 0
+offset-x = 0
+
+monitor = ${env:MONITOR:}
+
+;border-size = 1
+;border-colors = ${colors.bg}
+;border-top-size = 1
+;border-top-colors = ${colors.bg}
+;border-bottom-size = 1
+;border-bottom-colors = ${colors.bg}
+;border-transparent = true
+
+background = ${colors.bg}
+foreground = ${colors.fg}
+
+; Make polybar override (stay above) windows
+override-redirect = false
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+enable-ipc = true
+
+;==========================================================
+; Fonts
+;==========================================================
+
+include-file = ~/.config/polybar/fonts
+
+;==========================================================
+; Module Location
+;==========================================================
+
+modules-left = l3 l2 i3 l1 spotify
+modules-center =
+;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
+modules-right = cpu r2 ram r1 pavolume r2 battery r1 openweather r2 date r1 r3
+
+;left - center - right - none
+tray-position = center
+;tray-transparent = false
+tray-background = ${colors.bg}
+tray-foreground = ${colors.fg}
+tray-padding = 2
+tray-scale = 1.0
+;tray-maxsize = 15
+tray-offset-x = 0
+tray-offset-y = 0
+tray-output = eDP1
+# "xrandr | grep -Ew 'connected'" to see all connected display names
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
+;tray-detached = false
+
+;== EOF ========================================================

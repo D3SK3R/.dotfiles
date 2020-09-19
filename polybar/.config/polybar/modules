@@ -43,13 +43,15 @@ content-font = 2
 content-foreground = ${colors.bg-alt}
 content-background = ${colors.fg-alt}
 
+;==========================================================
+
 ;  _ ____
 ; (_)__ /_ __ ___ __
 ; | ||_ \ V  V / '  \
 ; |_|___/\_/\_/|_|_|_|
 
 [module/i3]
-format                      = <label-state> <label-mode>
+format                      = <label-state><label-mode>
 index-sort                  = true
 pin-workspaces              = false
 type                        = internal/i3
@@ -60,7 +62,7 @@ label-unfocused-font = 1
 label-urgent-font = 1
 label-mode-font = 2
 
-label-mode                  = 煉 %mode%
+label-mode                  = "煉 %mode%"
 label-mode-background       = ${colors.bg-alt}
 label-mode-foreground       = ${colors.fg-alt}
 label-mode-padding          = 1
@@ -205,7 +207,7 @@ bar-progress-empty-foreground = #ffffff
 type = custom/script
 interval = 1
 format-prefix = " "
-format = <label>
+format = "<label> "
 format-underline = ${colors.bg-alt}
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
 # icons for play/pause  ',' / ',' / ','
