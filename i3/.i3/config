@@ -92,8 +92,8 @@ for_window      [class="Spotify"] move scratchpad
 
 # Dropdown chaturbate picture in picture
 #bindsym F4      [title="Picture in picture"] scratchpad show
-for_window      [title="Picture in picture"] floating enable sticky enable
-for_window      [title="Picture in picture"] move scratchpad
+#for_window      [title="Picture in picture"] floating enable sticky enable
+#for_window      [title="Picture in picture"] move scratchpad
 
 # Dropdown discord
 # DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
