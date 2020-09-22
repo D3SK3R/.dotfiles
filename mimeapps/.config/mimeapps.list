@@ -30,6 +30,7 @@ x-scheme-handler/ftp=userapp-Pale Moon.desktop;
 x-scheme-handler/http=userapp-Pale Moon.desktop;google-chrome.desktop;
 x-scheme-handler/https=userapp-Pale Moon.desktop;google-chrome.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird.desktop;
+x-scheme-handler/tg=telegram-desktop.desktop;
 
 [Default Applications]
 application/msword=wps-office-wps.desktop;
@@ -73,7 +74,8 @@ x-scheme-handler/chrome=userapp-Pale Moon.desktop;
 x-scheme-handler/ftp=userapp-Pale Moon.desktop;
 x-scheme-handler/http=google-chrome.desktop;
 x-scheme-handler/https=google-chrome.desktop;
-x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
+x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop;
 x-scheme-handler/mailto=google-chrome.desktop;
 x-scheme-handler/msteams=teams.desktop;
 x-scheme-handler/ssh=ktelnetservice5.desktop;
+x-scheme-handler/tg=telegram-desktop.desktop;

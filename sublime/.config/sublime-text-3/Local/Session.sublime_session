@@ -591,15 +591,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Gray/config",
-					"settings":
-					{
-						"buffer_size": 16631,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -733,6 +724,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Gray/config",
 				"/home/d3sk3r/.config/polybar/modules",
 				"/home/d3sk3r/.config/polybar/colors",
 				"/home/d3sk3r/.config/polybar/fonts",
@@ -855,12 +851,7 @@
 				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
 				"/home/d3sk3r/.Xresources",
 				"/home/d3sk3r/.dotfiles/qbittorrent/.config/qBittorrent/qBittorrent.conf",
-				"/home/d3sk3r/.config/nitrogen/bg-saved.cfg",
-				"/home/d3sk3r/.config/mimeapps.list",
-				"/home/d3sk3r/.dotfiles/mimeapps/.config/mimeapps.list",
-				"/home/d3sk3r/.config/Dharkael/flameshot.ini",
-				"/home/d3sk3r/.config/gtk-2.0/gtkfilechooser.ini",
-				"/home/d3sk3r/.config/epdfview/main.conf"
+				"/home/d3sk3r/.config/nitrogen/bg-saved.cfg"
 			],
 			"find":
 			{
@@ -995,37 +986,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Gray/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 16631,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6040,
-										6040
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1905.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1069,11 +1031,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1360,23,2722,764,2726,768",
+			"position": "0,0,0,0,0,685,31,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":
