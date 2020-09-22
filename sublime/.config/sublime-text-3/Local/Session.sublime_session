@@ -724,6 +724,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/airlineThemes",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
@@ -799,7 +802,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
@@ -849,9 +851,7 @@
 				"/home/d3sk3r/.mplayer/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/.Xresources",
-				"/home/d3sk3r/.dotfiles/qbittorrent/.config/qBittorrent/qBittorrent.conf",
-				"/home/d3sk3r/.config/nitrogen/bg-saved.cfg"
+				"/home/d3sk3r/.Xresources"
 			],
 			"find":
 			{
@@ -1031,7 +1031,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,31,1348,756,2726,768",
+			"position": "0,0,0,0,0,685,400,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

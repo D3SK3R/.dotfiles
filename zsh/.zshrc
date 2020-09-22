@@ -465,6 +465,7 @@ alias tmux-colors='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[
 alias move_telegram='sh ~/.scripts/move_telegram.sh'
 alias evernote='tusk'
 alias color-test='msgcat --color=test'
+alias colors='curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash'
 alias cam='chees'
 
 

@@ -52,22 +52,22 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " themes: https://github.com/vim-airline/vim-airline/wiki/Screenshots
-let g:airline_theme='monochrome'
+let g:airline_theme='simple'
 " fav themes: simple/monochrome/minimalist/serene
 
 " if using a powerline font
 let g:airline_powerline_fonts = 1
 
-" disables "trailing" on airline
+" disables "trailing" on airline (2 below lines = 2 options to disable)
 let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_section_warning=''
 
 " :h airline
 " if using monochrome theme, if not, comment below
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
 
 " uncomment below to change symbol characters
 let g:airline_symbols = {}
