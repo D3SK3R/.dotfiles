@@ -724,6 +724,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.themes/theme-desker/gtk-3.0/gtk.css",
+				"/home/d3sk3r/.themes/gtk-3.0/gtk-dark.css",
+				"/home/d3sk3r/.themes/theme-desker/index.theme",
+				"/home/d3sk3r/.themes/shadow-materia/index.theme",
+				"/home/d3sk3r/.themes/shadow-materia/gtk-3.0/gtk.css",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/airlineThemes",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
@@ -846,12 +851,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/maindb.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/index.js",
 				"/home/d3sk3r/maindb.json",
-				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
-				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
-				"/home/d3sk3r/.mplayer/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/.Xresources"
+				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme"
 			],
 			"find":
 			{
@@ -869,6 +869,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"1818",
 					"openw",
 					"imgbg",
 					"distro",
@@ -1031,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,400,1348,756,2726,768",
+			"position": "0,0,0,0,0,685,31,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

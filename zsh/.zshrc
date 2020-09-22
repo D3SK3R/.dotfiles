@@ -309,7 +309,7 @@ alias cl='clear;exa'
 alias rm='trash'
 # confirm before mv or cp overwriting files
 alias mv='mv -i'
-alias cp='cp -i'
+alias cp='cp -ri'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias mkdir='mkdir -p'
@@ -358,7 +358,7 @@ alias free='free -mt'
 alias grep='grep -i --color=always'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
-alias xresources='vim ~/.dotfiles/xresources/.Xresources'
+alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~'
 alias clip='clipster -c'
 
 #################################################################

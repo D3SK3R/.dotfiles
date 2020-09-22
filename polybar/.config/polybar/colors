@@ -22,7 +22,8 @@ black = #000000
 ;bg = #00000000
 ;bg = #0e151b
 bg = #10141c
-bg-alt = #88C0D0
+bg-alt = #00CCFF
+;bg-alt = #88C0D0
 ;fg = #FFFFFF
 fg-alt = #10141c
 ;less white
