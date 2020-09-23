@@ -484,6 +484,7 @@ for_window [class="ViberPC"] floating enable move position center
 for_window [title="DevTools - *"] floating enable move to position center
 for_window [class="VirtualBox"] move to position center
 #for_window [class="VirtualBox Manger"] move to position center
+for_window [title="Spreed - the speed reading extension"] floating enable move to position center resize set 770 460
 
 ################################################################################################
 ## 								            Colors                                            ##

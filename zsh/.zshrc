@@ -261,7 +261,7 @@ bindkey '^e' edit-command-line
 #  bindkey "${terminfo[kend]}" end-of-line                       # [End] - Go to end of line
 #fi
 #bindkey '^[[2~' overwrite-mode                                  # Insert key
-bindkey '^[[3~' delete-char                                     # Delete key
+#bindkey '^[[3~' delete-char                                     # Delete key
 bindkey '^[[C'  forward-char                                    # Right key
 bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[[5~' history-beginning-search-backward               # Page up key
