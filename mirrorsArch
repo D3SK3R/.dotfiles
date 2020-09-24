@@ -1,0 +1,23 @@
+##
+## Arch Linux repository mirrorlist
+## Filtered by mirror score from mirror status page
+## Generated on 2020-09-24
+##
+
+## Brazil
+Server = http://br.mirror.archlinux-br.org/$repo/os/$arch
+## Brazil
+Server = https://www.caco.ic.unicamp.br/archlinux/$repo/os/$arch
+## Brazil
+Server = http://mirror.ufscar.br/archlinux/$repo/os/$arch
+## Brazil
+Server = http://archlinux.c3sl.ufpr.br/$repo/os/$arch
+## Brazil
+Server = http://mirror.ufam.edu.br/archlinux/$repo/os/$arch
+## Brazil
+Server = http://linorg.usp.br/archlinux/$repo/os/$arch
+## Brazil
+Server = http://archlinux.pop-es.rnp.br/$repo/os/$arch
+## Brazil
+Server = http://www.caco.ic.unicamp.br/archlinux/$repo/os/$arch
+
