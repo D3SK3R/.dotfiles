@@ -16,6 +16,10 @@ super + {_,shift +} Return
 super + {_, shift} + Delete
     {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b}
 
+# mute mic on pulseaudio
+super+apostrophe
+    ~/.scripts/mute-toggle.sh
+
 # Rofi clipboard manager
 super + c
     roficlip
