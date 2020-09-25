@@ -724,6 +724,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Blizzard Security question-answer.txt",
+				"/home/d3sk3r/clipster",
 				"/home/d3sk3r/xclip",
 				"/home/d3sk3r/.themes/theme-desker/gtk-3.0/gtk.css",
 				"/home/d3sk3r/.themes/gtk-3.0/gtk-dark.css",
@@ -849,9 +851,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/partials/deviceManagerMenu.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/deviceManagerPages/info.ejs",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/webpublic/js/main.js",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/maindb.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/index.js",
-				"/home/d3sk3r/maindb.json"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/maindb.json"
 			],
 			"find":
 			{
@@ -1032,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1368,400,2034,756,2726,768",
+			"position": "0,0,0,0,0,2048,31,2714,756,2726,768",
 			"project": "",
 			"replace":
 			{
