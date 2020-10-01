@@ -31,10 +31,6 @@ super + ctrl + c
 super + d
     rofi -modi run,drun,window -show drun -show-icons
 
-# Viber
-super + shift + d
-    viber
-
 # Dolphin and Toggle Polybar
 super + {_, ctrl} + f
     {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
@@ -121,8 +117,8 @@ F4
     i3 \[title="Picture in picture"\] scratchpad show
 
 # Discord
-#super + shift + d
-    #i3 \[class="discord"\] scratchpad show
+super + shift + d
+    i3 \[class="discord"\] scratchpad show
 
 # Reload I3wm
 super + shift + c
