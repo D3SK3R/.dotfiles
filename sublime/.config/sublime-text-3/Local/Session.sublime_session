@@ -724,6 +724,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/copyq/.config/copyq/copyq-commands.ini",
+				"/home/d3sk3r/.config/copyq/copyq_tabs.ini",
 				"/home/d3sk3r/.config/copyq/copyq.conf",
 				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
 				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
@@ -849,9 +851,7 @@
 				"/home/d3sk3r/PISRC.txt",
 				"/home/d3sk3r/PISRC,txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
-				"/home/d3sk3r/aa.py",
-				"/home/d3sk3r/print('a').py"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt"
 			],
 			"find":
 			{
@@ -1032,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,400,1348,756,2726,768",
+			"position": "0,0,0,0,0,685,31,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

@@ -22,7 +22,8 @@ super+apostrophe
 
 # Rofi clipboard manager
 super + c
-    roficlip
+    copyq toggle
+    #roficlip
 # Rofi-calc
 super + ctrl + c
     rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
