@@ -724,6 +724,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/copyq/copyq.conf",
+				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
+				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/yr/ingrid.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/mass delete discord pv messeges.ahk.ahk",
@@ -848,10 +851,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
 				"/home/d3sk3r/aa.py",
-				"/home/d3sk3r/print('a').py",
-				"/home/d3sk3r/untitled.py",
-				"/home/d3sk3r/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/partials/deviceManagerMenu.ejs"
+				"/home/d3sk3r/print('a').py"
 			],
 			"find":
 			{
@@ -1032,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2714,756,2726,768",
+			"position": "0,0,0,0,0,685,400,1348,756,2726,768",
 			"project": "",
 			"replace":
 			{

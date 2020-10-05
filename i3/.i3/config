@@ -332,6 +332,8 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id clipster -d
+$exec copyq
+
 #exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
 exec --no-startup-id xautolock -time 60 -locker ~/.scripts/lock.sh
@@ -486,6 +488,7 @@ for_window [title="DevTools - *"] floating enable move to position center
 for_window [class="VirtualBox"] move to position center
 #for_window [class="VirtualBox Manger"] move to position center
 for_window [title="Spreed - the speed reading extension"] floating enable move to position center resize set 770 460
+for_window [class="copyq"] floating enable move to position center
 
 ################################################################################################
 ## 								            Colors                                            ##

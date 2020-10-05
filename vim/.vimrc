@@ -190,7 +190,8 @@ set background=dark
 ""autocmd InsertEnter * norm zz
 
 " Remove trailing (useless) whitespaces on save
-autocmd BufWritePre * %s/\s\+$//e
+" (causes weird movment when saving
+"autocmd BufWritePre * %s/\s\+$//e
 
 "Autorun code on save
 "autocmd BufWritePost *.sh !clear;sh %
