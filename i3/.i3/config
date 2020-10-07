@@ -324,7 +324,7 @@ exec_always --no-startup-id sleep 5 && flashfocus
 #exec --no-startup-id syncthing -no-browser
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # for picom
-$exec nitrogen --restore;sleep 1;picom -b
+$exec nitrogen --restore;sleep 1;picom -b --experimental-backend
 # for compton
 #exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
