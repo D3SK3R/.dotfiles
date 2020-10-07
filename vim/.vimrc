@@ -241,8 +241,19 @@ imap <c-q> <Esc>:q<CR>
 nmap <c-s> :w<CR>l
 imap <c-s> <Esc>:w<CR>l
 
+"map ctrl backspace to delete word, like ctrl w
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
+
 "map "a" to act like "i" and switch to insert mode
 nmap a i
+
+"prevent x, in normal mode, to yank while deleting
+nnoremap x "_x
+
+"since p pastes the content after the letter the cursor is, P is more useful than p
+nnoremap p P
+nnoremap P p
 
 " Shortcut for replace command
 nnoremap S :%s///gc<Left><Left><Left><Left>

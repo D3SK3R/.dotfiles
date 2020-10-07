@@ -591,6 +591,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
+					"settings":
+					{
+						"buffer_size": 71,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -987,8 +995,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 71,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1032,7 +1069,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,8,400,671,756,2726,768",
+			"position": "0,0,0,0,0,2389,31,2718,390,2726,768",
 			"project": "",
 			"replace":
 			{

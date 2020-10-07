@@ -330,7 +330,7 @@ $exec nitrogen --restore;sleep 1;picom -b --experimental-backend
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
+#exec --no-startup-id clipit
 exec --no-startup-id clipster -d
 $exec copyq
 

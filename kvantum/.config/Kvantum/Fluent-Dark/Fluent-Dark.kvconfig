@@ -65,7 +65,7 @@ intensity=1.00
 no_inactiveness=false
 reduce_menu_opacity=0
 saturation=1.00
-shadowless_popup=true
+shadowless_popup=false
 click_behavior=0
 
 [Focus]
@@ -102,11 +102,11 @@ link.visited.color=#452886
 progress.indicator.text.color=#f6f6f6
 
 [Hacks]
-transparent_ktitle_label=false
+transparent_ktitle_label=true
 transparent_dolphin_view=true
 transparent_pcmanfm_sidepane=true
 blur_translucent=true
-transparent_menutitle=false
+transparent_menutitle=true
 respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=true
