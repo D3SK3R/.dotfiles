@@ -11,7 +11,7 @@ focus_follows_mouse yes
 #smart_borders on
 
 # NO BORDERS AT ALL
-#for_window [class=".*"] border none
+for_window [class=".*"] border none
 
 ################################################################################################
 ########################################  SET BASICS   #########################################
