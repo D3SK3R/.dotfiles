@@ -100,7 +100,7 @@ for_window      [class="Spotify"] move scratchpad
 # to reenable just comment the bindsym line below this and uncomment everything else
 #bindsym $mod+Shift+d                            $exec discord
 #bindsym $mod+Shift+d    [class="discord"] scratchpad show
-#$exec discord
+$exec discord
 for_window              [class="discord"] floating enable sticky enable
 for_window              [class="discord"] move position center resize set 1360 740
 for_window              [class="discord"] move scratchpad
