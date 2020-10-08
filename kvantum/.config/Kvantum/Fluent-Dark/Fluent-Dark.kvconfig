@@ -89,7 +89,7 @@ light.color=#f6f6f6
 mid.light.color=#f5f5f5
 dark.color=#c8c8c8
 mid.color=#c6c8cc00
-highlight.color=#000000
+highlight.color=#5294e2
 inactive.highlight.color=#5294e2
 text.color=#ffffff
 window.text.color=#ffffff
@@ -391,7 +391,7 @@ frame.element=menuitem
 interior.element=menuitem
 indicator.element=menuitem
 size.minheight=22
-text.normal.color=#ffffff
+
 text.focus.color=#f6f6f6
 text.margin.top=3
 text.margin.bottom=3
