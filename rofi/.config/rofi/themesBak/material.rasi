@@ -28,8 +28,8 @@
 	/*base0D: #00BCD4;*/
 
 	spacing: 0;
-	//background-color: transparent;
-    background-color: #10141c;
+	background-color: transparent;
+    //background-color: #10141c;
 
 	font: "Roboto Mono 12";
 }
@@ -54,8 +54,8 @@ mainbox {
 	padding: 20px 0;
 	border: 2px;
 	//border-color: @base0D;
-	border-color: #7a9dda;
-    border-radius: 6px;
+	border-color: #000000;
+    border-radius: 8px;
 }
 
 inputbar {
@@ -85,13 +85,13 @@ case-indicator {
 
 sidebar, message {
 	border: 1px 0;
-	border-color: @background;
+	border-color: @base0D;
 }
 
 button, textbox {
-	background-color: @background;
+	background-color: @base03;
 	text-color: @base07;
-	padding: 0px 30px;
+	padding: 5px;
 }
 
 button selected {
@@ -104,29 +104,29 @@ listview {
 }
 
 scrollbar {
-	background-color: @background;
-	handle-color: #51526c;
+	background-color: #000000;
+	handle-color: #00CCFF;
 	handle-width: 10px;
 	border: 0 1px;
-	border-color: #51526c;
+	border-color: #00CCFF;
     border-radius: 10px;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 20px;
 }
 
 element {
 	padding: 5px;
 	highlight: bold underline;
     border: 0;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 element normal {
-	background-color: @background;
+	background-color: transparent;
 }
 
 element selected {
-	background-color: #51526c;
-	text-color: #FFFFFF;
+	background-color: #00CCFF;
+	text-color: @text;
 }
 
 element alternate {

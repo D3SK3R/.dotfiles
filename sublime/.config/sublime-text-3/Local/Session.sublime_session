@@ -591,6 +591,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
+					"settings":
+					{
+						"buffer_size": 522,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -987,8 +995,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 522,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1032,7 +1069,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
+			"position": "1,0,0,0,0,346,400,678,760,1366,768",
 			"project": "",
 			"replace":
 			{

@@ -115,11 +115,11 @@ XF86Audio{Play,Stop,Next,Prev}
 #########################################################################################
 
 # Floating Stuff
-# Terminal
+# Floating terminal 1
 F1
     i3 \[title="floating_urxvt"\] scratchpad show
 
-# Qutebrowser
+# Floating terminal 2
 F2
     i3 \[title="dropdown_urxvt"\] scratchpad show
 
@@ -143,7 +143,7 @@ super + shift + c
 #super + shift + r
 #    i3 restart
 
-# Kill focused window
+# Kill/quit/close focused window
 super + shift + q
     i3 kill
 
@@ -190,15 +190,19 @@ super + ctrl + r
 # Move to workspaces
 super + {1-9}
     i3 workspace {1-9}
+
+# Move back and forth to workspaces
 super + Tab
     i3 workspace back_and_forth
 
 # Move windows to workspaces
 super + shift + {1-9}
     i3 move container to workspace {1-9}
+
 #super + ctrl + {1-9}
 #    i3 move container to workspace {1-9};i3 workspace {1-9}
 
+# Move windows to workspaces and focus them
 super + ctrl + 1
     i3 move container to workspace 1;i3 workspace 1
 super + ctrl + 2

@@ -488,7 +488,7 @@ for_window [title="DevTools - *"] floating enable move to position center
 for_window [class="VirtualBox"] move to position center
 #for_window [class="VirtualBox Manger"] move to position center
 for_window [title="Spreed - the speed reading extension"] floating enable move to position center resize set 770 460
-for_window [class="copyq"] floating enable move to position center
+for_window [class="copyq"] floating enable
 
 ################################################################################################
 ## 								            Colors                                            ##
