@@ -29,7 +29,8 @@
 
 	spacing: 0;
 	//background-color: transparent;
-    background-color: #10141c;
+    background-color: #10141C;
+    foreground: #FFFFFF;
 
 	font: "Roboto Mono 12";
 }
@@ -49,9 +50,9 @@ window {
 
 mainbox {
 	children: [inputbar, message, listview];
-	spacing: 20px;
+	spacing: 0px;
 	/*margin: 20%;*/
-	padding: 20px 0;
+	padding: 5px 4px;
 	border: 2px;
 	//border-color: @base0D;
 	border-color: #7a9dda;
@@ -59,13 +60,13 @@ mainbox {
 }
 
 inputbar {
-	padding: 0 30px;
+	padding: 15px 0px 15px 30px;
 	//children: [prompt, textbox-prompt-colon, entry, case-indicator];
     children: [entry, case-indicator];
 }
 
 prompt {
-	text-color: @base0D;
+	text-color: #FFFFFF;
 }
 
 textbox-prompt-colon {
@@ -76,7 +77,8 @@ textbox-prompt-colon {
 }
 
 entry {
-	text-color: @base07;
+	text-color: @foreground;
+    padding: 0px 0px;
 }
 
 case-indicator {
@@ -85,6 +87,7 @@ case-indicator {
 
 sidebar, message {
 	border: 1px 0;
+    padding: 0px 0px 10px 0px;
 	border-color: @background;
 }
 
@@ -100,7 +103,7 @@ button selected {
 
 listview {
 	scrollbar: true;
-	margin: 0 10px 0 30px;
+	margin: 0px 10px 0px 20px;
 }
 
 scrollbar {
@@ -110,7 +113,7 @@ scrollbar {
 	border: 0 1px;
 	border-color: #51526c;
     border-radius: 10px;
-	margin: 0 0 0 15px;
+	margin: 0px 0px 15px 15px;
 }
 
 element {
