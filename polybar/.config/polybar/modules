@@ -322,7 +322,8 @@ format-prefix = "  "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 format-underline = ${colors.bg-alt}
-click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
+;click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
+click-left = urxvt -e sh -c 'curl -s wttr.in | head -n7;sleep 10000'
 
 [module/network_wlan0]
 type = internal/network

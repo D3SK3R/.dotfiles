@@ -1,8 +1,18 @@
-################################################################################################
-##                                  Application Keybindings                                   ##
-################################################################################################
-##             Alphabetical order, and command keys, like Return, and etc, first 			  ##
-################################################################################################
+
+#########################################################################################
+##                              Application Keybindings                                ##
+#########################################################################################
+##         Alphabetical order, and command keys, like Return, and etc, first           ##
+#########################################################################################
+
+# Show hotkeys
+super + slash
+    ~/.scripts/hotkeys.sh
+    #urxvtc -e sh -c 'sed -n 1,1000p ~/.config/sxhkd/sxhkdrc|less'
+
+# Reload sxhkd config
+super + Pause
+  pkill -USR1 -x sxhkd;notify-send 'sxhkd' 'Reloaded config'
 
 # Terminal
 super + {_,shift +} Return
@@ -12,13 +22,17 @@ super + {_,shift +} Return
 {_,super +} Print
     {flameshot gui -p ~, flameshot screen -p ~}
 
-# Panic / Stop/hide everything and reset picom
+# Panic - Stop/hide everything / reset picom
 super + {_, shift} + Delete
     {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b --experimental-backend}
 
 # mute mic on pulseaudio
 super+apostrophe
     ~/.scripts/mute-toggle.sh
+
+# Power options
+super + 0
+    ~/.scripts/rofi_power.sh
 
 # Rofi clipboard manager
 super + c
@@ -75,9 +89,9 @@ super + {_, ctrl} + x
 super + z
     morc_menu
 
-################################################################################################
-##                                      Media Keybindings                                     ##
-################################################################################################
+#########################################################################################
+##                                Media Keybindings                                    ##
+#########################################################################################
 
 # Raise and Lower volume
 XF86Audio{Raise,Lower}Volume
@@ -96,9 +110,9 @@ XF86Audio{Play,Stop,Next,Prev}
 #XF86Audio{Play,Stop,Next,Prev}
 #    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
 
-################################################################################################
-##                                     I3WM Keybindings                                       ##
-################################################################################################
+#########################################################################################
+##                               I3WM Keybindings                                      ##
+#########################################################################################
 
 # Floating Stuff
 # Terminal
@@ -168,10 +182,6 @@ super + space
 # Navigate workspaces
 super + ctrl + {Left, Right}
     i3 workspace {prev, next}
-
-# Power options
-super + 0
-    ~/.scripts/rofi_power.sh
 
 # Resize mode
 super + ctrl + r

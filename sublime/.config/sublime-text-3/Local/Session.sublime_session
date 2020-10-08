@@ -591,22 +591,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
-					"settings":
-					{
-						"buffer_size": 71,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/how",
-					"settings":
-					{
-						"buffer_size": 73,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -740,6 +724,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fontPreview/link",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/Vimix/theme.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/how",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/link and package name",
@@ -863,11 +851,7 @@
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-doble",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/albumart",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/art-dark.sh",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-cover",
-				"/home/d3sk3r/FerramentasAuditoria.txt",
-				"/home/d3sk3r/.config/polybar/config",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt"
+				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-cover"
 			],
 			"find":
 			{
@@ -1003,65 +987,8 @@
 			"groups":
 			[
 				{
-					"selected": 1,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 71,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/how",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 73,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
