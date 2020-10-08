@@ -51,7 +51,7 @@ super + d
 super + {_, ctrl} + f
     {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
 
-# Google-chrome
+# Google-chrome browser
 super + g
     google-chrome-stable --force-dark-mode
 
