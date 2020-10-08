@@ -34,10 +34,11 @@ super+apostrophe
 super + 0
     ~/.scripts/rofi_power.sh
 
-# Rofi clipboard manager
+# Clipboard manager
 super + c
     copyq toggle
     #roficlip
+
 # Rofi-calc
 super + ctrl + c
     rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
