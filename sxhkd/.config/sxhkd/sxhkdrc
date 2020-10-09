@@ -47,6 +47,9 @@ super + ctrl + c
 super + d
     rofi -modi run,drun,window -show drun -show-icons
 
+super + e
+    ~/.scripts/lagSwitch.sh
+
 # Dolphin and Toggle Polybar
 super + {_, ctrl} + f
     {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
