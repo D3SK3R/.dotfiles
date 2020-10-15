@@ -591,14 +591,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
-					"settings":
-					{
-						"buffer_size": 522,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -732,6 +724,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt",
 				"/home/d3sk3r/fontPreview/link",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/Vimix/theme.txt",
@@ -857,9 +851,7 @@
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-viz",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-doble",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/albumart",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/art-dark.sh",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-cover"
+				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/albumart"
 			],
 			"find":
 			{
@@ -995,37 +987,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 522,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1069,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1,0,0,0,0,346,400,678,760,1366,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{

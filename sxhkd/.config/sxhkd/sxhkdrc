@@ -22,13 +22,13 @@ super + {_,shift +} Return
 {_,super +} Print
     {flameshot gui -p ~, flameshot screen -p ~}
 
-# Panic - Stop/hide everything / reset picom
+# Panic / reset picom
 super + {_, shift} + Delete
     {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b --experimental-backend}
 
-# mute mic on pulseaudio
-super+apostrophe
-    ~/.scripts/mute-toggle.sh
+# mute mic / lagswitch
+super + {_,shift +} apostrophe
+    {~/.scripts/mute-toggle.sh,~/.scripts/lagSwitch.sh}
 
 # Power options
 super + 0
