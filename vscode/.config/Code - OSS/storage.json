@@ -10,6 +10,7 @@
             "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python"
         ],
         "files2": [
+            "file:///home/d3sk3r/vscode%3Aextension/JackVandergriff.xresources-theme",
             "file:///home/d3sk3r/MEGA/nmap_scan.py",
             "file:///home/d3sk3r/Stuff/programa%C3%A7%C3%A3o/1_diaMesAno.py"
         ],
@@ -93,6 +94,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/d3sk3r/vscode%3Aextension/JackVandergriff.xresources-theme",
+                                        "path": "/home/d3sk3r/vscode:extension/JackVandergriff.xresources-theme",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/vscode:extension/JackVandergriff.xresources-theme"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -428,7 +440,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -632,7 +645,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1490,10 +1504,10 @@
             "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/710bf9cf83c3070a7a0825e5cd951b3e",
             "uiState": {
                 "mode": 1,
-                "x": 2,
-                "y": 25,
-                "width": 1356,
-                "height": 741
+                "x": 0,
+                "y": 23,
+                "width": 1360,
+                "height": 745
             }
         },
         "openedWindows": []

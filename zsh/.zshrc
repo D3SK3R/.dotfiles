@@ -322,6 +322,8 @@ alias c='clear'
 alias cc='tput reset'
 alias df='df -h'
 alias open='xdg'
+alias mount='sudo mount'
+alias umount='sudo umount'
 #alias cn='tput reset;neofetch | lolcat -a -s 1000000'
 alias cn='clear;neofetch'
 # host text on a pastebin web

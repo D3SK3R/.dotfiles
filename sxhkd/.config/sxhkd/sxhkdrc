@@ -30,6 +30,10 @@ super + {_, shift} + Delete
 super + {_,shift +} apostrophe
     {~/.scripts/mute-toggle.sh,~/.scripts/lagSwitch.sh}
 
+# mount umount drives
+super + F1
+    ~/.scripts/mount.sh
+
 # Power options
 super + 0
     ~/.scripts/rofi_power.sh

@@ -1,10 +1,11 @@
 {
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
-    "workbench.colorTheme": "1984 - Fancy",
+    "workbench.colorTheme": "1984",
     "window.menuBarVisibility": "toggle",
     "liveServer.settings.NoBrowser": true,
     "browser-preview.startUrl": "http://127.0.0.1:5500",
     "liveServer.settings.donotVerifyTags": true,
-    "miramac.node.showInfo": false
+    "miramac.node.showInfo": false,
+    "xresourcesTheme.xresourcesPath": "~/.dotfiles/xresources/.Xresources"
 }
