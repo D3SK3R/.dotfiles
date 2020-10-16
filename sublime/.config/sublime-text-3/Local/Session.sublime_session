@@ -591,15 +591,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-					"settings":
-					{
-						"buffer_size": 1096,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -733,6 +724,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
 				"/home/d3sk3r/1",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt",
 				"/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
@@ -766,7 +760,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Gray/config",
 				"/home/d3sk3r/.config/polybar/modules",
 				"/home/d3sk3r/.config/polybar/colors",
@@ -777,7 +770,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/colors",
@@ -859,8 +851,7 @@
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-viz",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-doble"
+				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-viz"
 			],
 			"find":
 			{
@@ -996,37 +987,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1096,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1096,
-										1096
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 45.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
