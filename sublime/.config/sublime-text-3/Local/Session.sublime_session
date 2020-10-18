@@ -724,6 +724,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/fake fb.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
@@ -850,8 +851,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-viz"
+				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart"
 			],
 			"find":
 			{
@@ -1032,7 +1032,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,400,1352,760,2726,768",
+			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{

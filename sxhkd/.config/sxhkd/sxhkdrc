@@ -107,7 +107,8 @@ XF86Audio{Raise,Lower}Volume
 
 # Brightness
 XF86MonBrightness{Up,Down}
-    ~/.scripts/brightness{UP,DOWN}.sh
+    ~/.scripts/brightness.sh {+,-}
+    #~/.scripts/brightness{UP,DOWN}.sh
 
 # Spotify
 XF86Audio{Play,Stop,Next,Prev}
