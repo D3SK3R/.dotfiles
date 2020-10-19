@@ -591,6 +591,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
+					"settings":
+					{
+						"buffer_size": 391,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -987,8 +995,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 391,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										199,
+										199
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1032,7 +1069,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,1706,400,2038,760,2726,768",
 			"project": "",
 			"replace":
 			{
