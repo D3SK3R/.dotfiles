@@ -365,7 +365,7 @@ alias clip='clipster -c'
 alias dots='sh .scripts/dotfiles.sh'
 
 #################################################################
-# Pacman
+# Pacman 
 #################################################################
 alias install='sudo pacman -S'
 alias packages='pacman -Q'
