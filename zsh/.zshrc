@@ -362,6 +362,7 @@ alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~'
 alias clip='clipster -c'
+alias dots='sh .scripts/dotfiles.sh'
 
 #################################################################
 # Pacman
