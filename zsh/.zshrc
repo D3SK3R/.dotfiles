@@ -373,9 +373,9 @@ alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 #alias update-manual='"yay" -Syyu'
 #alias update-noCheck='yay -Syyu --mflags --skipinteg'
 alias tri='f(){ trizen "$@" --noconfirm --sudo-autorepeat-at-runtime;  unset -f f; }; f'
-alias update='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime'
-alias update-manual='trizen -Syyu --sudo-autorepeat-at-runtime'
-alias update-noCheck='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime --skipinteg'
+alias update='sudo trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime'
+alias update-manual='sudo trizen -Syyu --sudo-autorepeat-at-runtime'
+alias update-noCheck='sudo trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime --skipinteg'
 alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
 alias remove-force='sudo pacman -Rnsdd'
@@ -504,8 +504,8 @@ ex ()
 #################################################################
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-source ~/.scripts/kill.sh
-source ~/.scripts/dotfiles.sh
+source $HOME/.scripts/kill.sh
+source $HOME/.scripts/dotfiles.sh
 # ____             _          _____ _          _ _
 #|  _ \           (_)        / ____| |        | | |
 #| |_) | ___  __ _ _ _ __   | (___ | |__   ___| | |
