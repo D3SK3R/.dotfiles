@@ -37,7 +37,7 @@ window:
   # Values for `decorations`:
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
-  decorations: full
+  decorations: none
 
   # When true, alacritty starts maximized.
   #start_maximized: false
@@ -84,20 +84,20 @@ font:
   # Normal (roman) font face
   normal:
     
-    family: DejaVu Sans Mono
+    family: DejaVu Sans Mono for Powerline
     # The `style` can be specified to pick a specific face.
     #style: Regular
     style: Bold
     
   # Bold font face
   bold:
-    family: DejaVu Sans Mono
+    family: DejaVu Sans Mono for Powerline
     # The `style` can be specified to pick a specific face.
     style: Bold
 
   # Italic font face
   italic:
-    family: DejaVu Sans Mono
+    family: DejaVu Sans Mono for Powerline
     # The `style` can be specified to pick a specific face.
     #style: Italic
     style: Bold
@@ -128,7 +128,7 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '#000000'
+    background: '#10141c'
     foreground: '#FFFFFF'
 
     # Bright and dim foreground colors
@@ -150,9 +150,9 @@ colors:
   # Normal colors
   normal:
     black:   '#000000'
-    red:     '#FF00CC'
-    green:   '#0099cc'
-    yellow:  '#0048BA'
+    red:     '#1C64FF'
+    green:   '#00CCFF'
+    yellow:  '#05E7C8'
     blue:    '#0066ff'
     magenta: '#0066ff'
     cyan:    '#00ccff'
@@ -160,14 +160,14 @@ colors:
 
   # Bright colors
   bright:
-    black:   '#FF8833'
-    red:     '#FFCBA4'
+    black:   '#FF00CC'
+    red:     '#4177FF'
     green:   '#00ccff'
-    yellow:  '#00ccff'
-    blue:    '#00ccff'
-    magenta: '#FF00CC'
-    cyan:    '#FF00CC'
-    white:   '#FF00CC'
+    yellow:  '#208cff'
+    blue:    '#059bff'
+    magenta: '#00CCFF'
+    cyan:    '#1C64FF'
+    white:   '#00CCFF'
 
   # Dim colors
   #
@@ -219,7 +219,7 @@ bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.65
+background_opacity: 1
 
 # Mouse bindings
 #

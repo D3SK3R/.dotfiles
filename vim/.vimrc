@@ -72,11 +72,33 @@ Plugin 'junegunn/fzf.vim'
 " urxvt doesn't support icons so I have to disable... :(
 "Plugin 'ryanoasis/vim-devicons'
 
-"Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/goyo.vim'
 
 Plugin 'junegunn/limelight.vim'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:limelight_conceal_ctermfg = 240
+
+function! s:goyo_enter()
+  if executable('tmux') && strlen($TMUX)
+    silent !tmux set status off
+    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
+  endif
+  set scrolloff=999
+  Limelight
+endfunction
+
+function! s:goyo_leave()
+  if executable('tmux') && strlen($TMUX)
+    silent !tmux set status on
+    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
+  endif
+  set scrolloff=5
+  Limelight!
+  set background=dark
+endfunction
+
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -252,6 +274,9 @@ nnoremap S :%s///gc<Left><Left><Left><Left>
 " Move selected lines with CTRL up and down
 xnoremap <C-Up> :move '<-2<CR>gv-gv
 xnoremap <C-Down> :move '>+1<CR>gv-gv
+
+" Enter key to enter/exit goyo
+map <ENTER> :Goyo<CR>
 
 " Removes Q binding
 nnoremap Q <nop>
