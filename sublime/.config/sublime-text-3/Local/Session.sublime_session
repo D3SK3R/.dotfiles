@@ -726,6 +726,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/type.txt",
+				"/home/d3sk3r/regex.py",
+				"/home/d3sk3r/installToOpt.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/14_dotfiles.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_sxhkd/where",
@@ -850,10 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/.urxvt/ext/vtwheel",
-				"/home/d3sk3r/.urxvt/urxvtd-D3SK3RI3",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
 			"project": "",
 			"replace":
 			{
