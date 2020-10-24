@@ -19,28 +19,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-"Plugin 'tpope/vim-fugitive'
-
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-
-" git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
-
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
 " 'vim +PluginInstall +qall' on terminal or :PluginInstall on vim to install a
 " plugin
 
@@ -86,6 +64,7 @@ Plugin 'ap/vim-css-color'
 
 " ctrl+f to use
 Plugin 'preservim/nerdtree'
+let NERDTreeQuitOnOpen=1
 
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
@@ -93,6 +72,11 @@ Plugin 'junegunn/fzf.vim'
 " urxvt doesn't support icons so I have to disable... :(
 "Plugin 'ryanoasis/vim-devicons'
 
+Plugin 'junegunn/goyo.vim'
+
+Plugin 'junegunn/limelight.vim'
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -225,6 +209,7 @@ cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
 :command Q q
 :command W w
 
+
 " Key maps
 
 "NERDTree
@@ -263,6 +248,13 @@ nnoremap S :%s///gc<Left><Left><Left><Left>
 
 "Run code on CTRL X
 "nnoremap <buffer> <c-x> :exec '!clear;python' shellescape(@%, 1)<cr>
+
+" Move selected lines with CTRL up and down
+xnoremap <C-Up> :move '<-2<CR>gv-gv
+xnoremap <C-Down> :move '>+1<CR>gv-gv
+
+" Removes Q binding
+nnoremap Q <nop>
 
 "Keyboard shortcuts
 "https://unix.stackexchange.com/questions/93144/exit-vim-more-quickly

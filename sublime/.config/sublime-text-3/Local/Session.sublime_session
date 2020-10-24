@@ -4,11 +4,11 @@
 		"/home/d3sk3r/Minecraft"
 	],
 	"last_version": 3211,
-	"last_window_id": 39,
+	"last_window_id": 40,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 721.0,
+		"new_window_height": 729.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -204,13 +204,62 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/tmp/ark-VBfSRv/how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
+				"/home/d3sk3r/1",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
+				"/home/d3sk3r/fontPreview/link",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/Vimix/theme.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/link and package name",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/sexyflowerwater/link",
+				"/home/d3sk3r/.dotfiles/copyq/.config/copyq/copyq-commands.ini",
+				"/home/d3sk3r/.config/copyq/copyq_tabs.ini",
+				"/home/d3sk3r/.config/copyq/copyq.conf",
+				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
+				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/yr/ingrid.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/mass delete discord pv messeges.ahk.ahk",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Blizzard Security question-answer.txt",
+				"/home/d3sk3r/clipster",
+				"/home/d3sk3r/xclip",
+				"/home/d3sk3r/.themes/theme-desker/gtk-3.0/gtk.css",
+				"/home/d3sk3r/.themes/gtk-3.0/gtk-dark.css",
+				"/home/d3sk3r/.themes/theme-desker/index.theme",
+				"/home/d3sk3r/.themes/shadow-materia/index.theme",
+				"/home/d3sk3r/.themes/shadow-materia/gtk-3.0/gtk.css",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/airline/airlineThemes",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Gray/config",
+				"/home/d3sk3r/.config/polybar/modules",
+				"/home/d3sk3r/.config/polybar/colors",
 				"/home/d3sk3r/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/config",
+				"/home/d3sk3r/.config/polybar/scripts/popup-calendar-date.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Colors/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/colors",
@@ -246,7 +295,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/Installzsh_shell.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/instal",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
@@ -271,12 +319,8 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_TerminalApps/vim/where",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/.urxvt/ext/vtwheel",
 				"/home/d3sk3r/.urxvt/urxvtd-D3SK3RI3",
@@ -287,55 +331,11 @@
 				"/home/d3sk3r/.p10k.zsh",
 				"/home/d3sk3r/.p10k.zshBAK",
 				"/home/d3sk3r/proj",
-				"/home/d3sk3r/.i3/config",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
-				"/home/d3sk3r/.dotfiles/i3/.i3/config",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-viz",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-doble",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/albumart",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/art-dark.sh",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config-cover",
-				"/home/d3sk3r/FerramentasAuditoria.txt",
-				"/home/d3sk3r/.config/polybar/config",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
-				"/home/d3sk3r/PISRC.txt",
-				"/home/d3sk3r/PISRC,txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/packettracer.txt",
-				"/home/d3sk3r/aa.py",
-				"/home/d3sk3r/print('a').py",
-				"/home/d3sk3r/untitled.py",
-				"/home/d3sk3r/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/partials/deviceManagerMenu.ejs",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/deviceManagerPages/info.ejs",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/webpublic/js/main.js",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/maindb.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/index.js",
-				"/home/d3sk3r/maindb.json",
-				"/home/d3sk3r/.notifyosdconf/My-Theme.osdtheme",
-				"/home/d3sk3r/.dotfiles/urxvt/.urxvt/ext/vtwheel",
-				"/home/d3sk3r/.mplayer/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/.Xresources",
-				"/home/d3sk3r/.dotfiles/qbittorrent/.config/qBittorrent/qBittorrent.conf",
-				"/home/d3sk3r/.config/nitrogen/bg-saved.cfg",
-				"/home/d3sk3r/.config/mimeapps.list",
-				"/home/d3sk3r/.dotfiles/mimeapps/.config/mimeapps.list",
-				"/home/d3sk3r/.config/Dharkael/flameshot.ini",
-				"/home/d3sk3r/.config/gtk-2.0/gtkfilechooser.ini",
-				"/home/d3sk3r/.config/epdfview/main.conf",
-				"/home/d3sk3r/.dotfiles/gtk-3.0/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/.config/handlr/handlr.toml",
-				"/home/d3sk3r/.config/Outline Manager/Preferences"
+				"/home/d3sk3r/.i3/config"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -349,6 +349,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"1818",
+					"openw",
 					"imgbg",
 					"distro",
 					"distro]",
@@ -482,7 +484,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -522,7 +524,7 @@
 			{
 			}
 		},
-		"new_window_width": 748.0
+		"new_window_width": 670.0
 	},
 	"windows":
 	[
@@ -591,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
-					"settings":
-					{
-						"buffer_size": 391,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -732,9 +726,26 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/14_dotfiles.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/15_Dotfiles.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_sxhkd/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_dmenu/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_dmenu/DOTdmenurc",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Dropdown Terminal",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_PatchedFonts",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/blurlock/where and how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
+				"/tmp/ark-VBfSRv/how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
 				"/home/d3sk3r/MEGA/fake fb.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
 				"/home/d3sk3r/1",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt",
@@ -808,13 +819,11 @@
 				"/home/d3sk3r/MEGA/arch_install.sh",
 				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/02-emoji.conf",
 				"/home/d3sk3r/installed",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_PatchedFonts",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/PatchedFonts",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/Installzsh_shell.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/instal",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
@@ -841,29 +850,14 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
 				"/home/d3sk3r/google/.Xresources",
 				"/home/d3sk3r/.Xresources.swp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/.urxvt/ext/vtwheel",
 				"/home/d3sk3r/.urxvt/urxvtd-D3SK3RI3",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy",
-				"/home/d3sk3r/.tmux.conf.local",
-				"/home/d3sk3r/fonts/install.sh",
-				"/home/d3sk3r/.dotfiles/tmux/.tmux.conf",
-				"/home/d3sk3r/.p10k.zsh",
-				"/home/d3sk3r/.p10k.zshBAK",
-				"/home/d3sk3r/proj",
-				"/home/d3sk3r/.i3/config",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS/assets/views/logs.ejs",
-				"/home/d3sk3r/.dotfiles/i3/.i3/config",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/ncmpcpp-albumart"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/httpsReverseProxy"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -995,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 391,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										199,
-										199
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1069,11 +1034,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1706,400,2038,760,2726,768",
+			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1116,7 +1081,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 37,
+			"window_id": 40,
 			"workspace_name": ""
 		}
 	],

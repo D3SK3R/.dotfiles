@@ -352,6 +352,7 @@ alias rpolybar='sh ~/.config/polybar/launch.sh'
 alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
 #alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
+alias dots='sh .scripts/dotfiles.sh'
 alias mousepos='eval $(xdotool getmouselocation --shell);echo "$X""x""$Y"'
 alias font-update='sudo fc-cache -fv'
 alias font-list='fc-list'
@@ -362,7 +363,6 @@ alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~'
 alias clip='clipster -c'
-alias dots='sh .scripts/dotfiles.sh'
 
 #################################################################
 # Pacman 
@@ -374,19 +374,14 @@ alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 #alias update-manual='"yay" -Syyu'
 #alias update-noCheck='yay -Syyu --mflags --skipinteg'
 alias tri='f(){ trizen "$@" --noconfirm --sudo-autorepeat-at-runtime;  unset -f f; }; f'
-alias update='sudo trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime'
-alias update-manual='sudo trizen -Syyu --sudo-autorepeat-at-runtime'
-alias update-noCheck='sudo trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime --skipinteg'
+alias update='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime'
+alias update-manual='trizen -Syyu --sudo-autorepeat-at-runtime'
+alias update-noCheck='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime --skipinteg'
 alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
 alias remove-force='sudo pacman -Rnsdd'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
-# CLEAN:
-# sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos)
-# yay - Yc: Does the same as above but for the AUR
-# sudo pacman -Rns $(pacman -Qtdq): Remove all unused dependencies from unisntalled packages
-# sudo paccache -r: clean all packages, except the 3 most recent versions
-alias clean='echo "This command will remove cached packages and sync database of not installed packages, keep only the 3 most recent versions of installed packages, and remove all unused dependencies..." && sudo pacman -Sc && yay -Yc && sudo pacman -Rns $(pacman -Qtdq) && sudo paccache -r'
+alias cleanup='sh ~/.scripts/cleanup.sh'
 
 #################################################################
 # zsh related
@@ -505,7 +500,7 @@ ex ()
 #################################################################
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-source $HOME/.scripts/kill.sh
+#source $HOME/.scripts/kill.sh
 #source $HOME/.scripts/dotfiles.sh
 # ____             _          _____ _          _ _
 #|  _ \           (_)        / ____| |        | | |
