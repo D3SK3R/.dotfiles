@@ -248,8 +248,8 @@ imap <c-q> <Esc>:q<CR>
 nmap <c-s> :w<CR>l
 imap <c-s> <Esc>:w<CR>l
 
-"set backtick to show all marks using fzf
-nnoremap ` :Marks<CR>
+"set M to show all marks using fzf
+nnoremap M :Marks<CR>
 
 "map ctrl backspace to delete word, like ctrl w
 noremap! <C-BS> <C-w>
