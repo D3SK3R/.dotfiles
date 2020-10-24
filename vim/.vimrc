@@ -72,7 +72,7 @@ Plugin 'junegunn/fzf.vim'
 " urxvt doesn't support icons so I have to disable... :(
 "Plugin 'ryanoasis/vim-devicons'
 
-Plugin 'junegunn/goyo.vim'
+"Plugin 'junegunn/goyo.vim'
 
 Plugin 'junegunn/limelight.vim'
 let g:limelight_conceal_ctermfg = 'gray'
