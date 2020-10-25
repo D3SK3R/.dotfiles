@@ -2,7 +2,7 @@
 
 # killall <program> not always work, so I'd have to find the process id and use kill <id>, this script substitutes this.
 
-# source kill.sh to be able to use dkill <arg>
+# put the code inside the function and source dkill.sh to be able to use dkill <arg>
 dkill (){
     if [ -z $1 ]; then
         echo "Usage: dkill <process name>"

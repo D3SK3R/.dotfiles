@@ -77,7 +77,7 @@ include-file = ~/.config/polybar/fonts
 modules-left = l3 l2 i3 l1 spotify
 modules-center =
 ;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
-modules-right = cpu r2 ram r1 pavolume r2 battery r1 openweather r2 date r1 r3
+modules-right = cpu r2 ram r1 mute pavolume r2 battery r1 openweather r2 date r1 r3
 
 ;left - center - right - none
 tray-position = center

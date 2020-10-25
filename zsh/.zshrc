@@ -317,7 +317,6 @@ alias mkdir='mkdir -p'
 alias fzf="fzf | xargs xdg-open"
 alias vim='stty stop "" -ixoff; vim'
 alias v='stty stop "" -ixoff; vim'
-alias vundle='vim +PluginInstall +qall'
 alias c='clear'
 alias cc='tput reset'
 alias df='df -h'
@@ -388,6 +387,7 @@ alias cleanup='sh ~/.scripts/cleanup.sh'
 #################################################################
 alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/dots/.zshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
+alias vundle='vim +PluginInstall +qall'
 
 #################################################################
 # pentest related
@@ -462,7 +462,7 @@ alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
 alias viewn='viewnior'
 alias emoji='rofimoji -c'
 alias short='shortn'
-alias notify='notify-send Finished;mpg123 -q /home/d3sk3r/.scripts/ding-notif.mp3'
+alias notify='notify-send Finished;mpg123 -q ~/.scripts/ding-notif.mp3'
 alias tmux-colors='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n";done'
 alias move_telegram='sh ~/.scripts/move_telegram.sh'
 alias evernote='tusk'

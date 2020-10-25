@@ -206,7 +206,7 @@ bar-progress-empty-foreground = #ffffff
 #https://github.com/Jvanrhijn/polybar-spotify
 type = custom/script
 interval = 1
-format-prefix = " "
+#format-prefix = " "
 format = "<label> "
 format-underline = ${colors.bg-alt}
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
@@ -422,8 +422,17 @@ type = custom/script
 exec = ~/.config/polybar/scripts/popup-calendar-date.sh
 interval = 5
 click-left = ~/.config/polybar/scripts/popup-calendar-date.sh --popup
-#format-underline = ${colors.black}
 #format-prefix = 
+format-foreground = ${colors.fg}
+format-background = ${colors.bg}
+format-underline = ${colors.bg-alt}
+
+[module/mute]
+type = custom/script
+exec = ~/.config/polybar/scripts/mute.sh
+interval = 0.5
+#click = ~/.scripts/mute-toggle.sh
+#format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 format-underline = ${colors.bg-alt}
