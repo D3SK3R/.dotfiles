@@ -15,5 +15,6 @@ datecolor=ffffff
 loginbox=000000
 font="sans-serif"
 #font="DejaVu Sans Mono"
-locktext='Type password to unlock...'
+#locktext='Type password to unlock...'
+locktext='Desker'
 lock_timeout=60
