@@ -24,7 +24,7 @@ super + {_,shift +} Return
 
 # Panic / reset picom
 super + {_, shift} + Delete
-    {~/.scripts/panic.sh, killall picom && sleep 0.5 && picom -b --experimental-backend}
+    {~/.scripts/panic.sh, killall picom & sleep 0.5 && picom -b --experimental-backend}
 
 # mute mic / lagswitch
 super + {_,shift +} apostrophe
