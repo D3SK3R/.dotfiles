@@ -120,6 +120,16 @@ XF86Audio{Play,Stop,Next,Prev}
 #XF86Audio{Play,Stop,Next,Prev}
 #    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
 
+
+#########################################################################################
+##                           WM independent Keybindings                                ##
+#########################################################################################
+
+# Kill/quit/close focused window
+super + shift + q
+    xdo close
+
+
 #########################################################################################
 ##                               I3WM Keybindings                                      ##
 #########################################################################################
@@ -152,10 +162,6 @@ super + shift + c
 # Restart I3wm
 #super + shift + r
 #    i3 restart
-
-# Kill/quit/close focused window
-super + shift + q
-    i3 kill
 
 # Change focus
 super + {Left, Right, Up, Down}
