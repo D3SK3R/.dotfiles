@@ -593,6 +593,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+					"settings":
+					{
+						"buffer_size": 182,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -726,6 +734,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/arch_install.sh",
+				"/home/d3sk3r/.sh",
 				"/home/d3sk3r/MEGA/discord/elo/@fb.txt",
 				"/home/d3sk3r/type.txt",
 				"/home/d3sk3r/regex.py",
@@ -851,9 +861,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt",
-				"/home/d3sk3r/google/.Xresources",
-				"/home/d3sk3r/.Xresources.swp"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt"
 			],
 			"find":
 			{
@@ -989,8 +997,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 182,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										39
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1034,7 +1071,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
 			"project": "",
 			"replace":
 			{
