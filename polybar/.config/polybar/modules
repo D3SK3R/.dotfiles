@@ -266,7 +266,6 @@ format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 format-underline = ${colors.bg-alt}
 
-
 [module/battery]
 adapter                                 = AC0
 battery                                 = BAT1
@@ -428,14 +427,14 @@ format-background = ${colors.bg}
 format-underline = ${colors.bg-alt}
 
 [module/mute]
-type = custom/script
-exec = ~/.config/polybar/scripts/mute.sh
-interval = 0.5
+type = custom/ipc
+hook-0 = ~/.config/polybar/scripts/mute.sh
 #click = ~/.scripts/mute-toggle.sh
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 format-underline = ${colors.bg-alt}
+initial = 1
 
 [module/popup-calendar-clock]
 type = custom/script

@@ -26,9 +26,9 @@ super + {_,shift +} Return
 super + {_, shift} + Delete
     {~/.scripts/panic.sh, killall picom & sleep 0.5 && picom -b --experimental-backend}
 
-# mute mic / lagswitch
-super + {_,shift +} apostrophe
-    {~/.scripts/mute-toggle.sh,~/.scripts/lagSwitch.sh}
+# mute mic
+super + apostrophe
+    ~/.scripts/mute-toggle.sh && polybar-msg hook mute 1
 
 # mount umount drives
 super + F1
@@ -103,7 +103,8 @@ super + z
 
 # Raise and Lower volume
 XF86Audio{Raise,Lower}Volume
-    ~/.scripts/volume{UP,DOWN}.sh
+    ~/.scripts/volume.sh Master {2%+,2%-}
+#    ~/.scripts/volume{UP,DOWN}.sh
 
 # Brightness
 XF86MonBrightness{Up,Down}
