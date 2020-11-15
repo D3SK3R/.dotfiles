@@ -16,7 +16,7 @@ super + Pause
 
 # Terminal
 super + {_,shift +} Return
-    {urxvtc -cd ~, alacritty}
+    {urxvtc -cd ~, urxvt}
 
 # Print (flameshot)
 {_,super +} Print
