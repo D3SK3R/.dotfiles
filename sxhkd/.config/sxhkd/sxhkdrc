@@ -149,7 +149,7 @@ F3
 
 # Picture in picture windows
 F4
-    i3 \[title="Picture in picture"\] scratchpad show
+    i3 \[class="firefox"\] scratchpad show
 
 # Discord
 super + shift + d

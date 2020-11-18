@@ -91,11 +91,13 @@ $exec spotify
 for_window      [class="Spotify"] floating enable sticky enable
 for_window      [class="Spotify"] move scratchpad
 
-# Dropdown chaturbate picture in picture
-#bindsym F4      [title="Picture in picture"] scratchpad show
-#for_window      [title="Picture in picture"] floating enable sticky enable
-#for_window      [title="Picture in picture"] move scratchpad
-
+# Dropdown firefix
+#bindsym F4      [class="firefox"] scratchpad show
+for_window      [class="firefox"] floating enable sticky enable
+for_window      [class="firefox"] resize set 1360 740
+for_window      [class="firefox"] move to position center
+for_window      [class="firefox"] move scratchpad
+ 
 # Dropdown discord
 # DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
 # to reenable just comment the bindsym line below this and uncomment everything else

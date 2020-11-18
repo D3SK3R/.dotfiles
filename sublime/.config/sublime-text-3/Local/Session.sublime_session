@@ -593,6 +593,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/fpfsi/respostas.txt",
+					"settings":
+					{
+						"buffer_size": 1825,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -989,8 +998,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/fpfsi/respostas.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1825,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										878,
+										878
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 225.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1034,7 +1072,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
