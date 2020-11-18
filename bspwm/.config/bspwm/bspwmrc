@@ -1,0 +1,63 @@
+#!/bin/sh
+bcpc rule -r "*"
+
+##############################################################
+### Autostart ###
+pgrep -x sxhkd > /dev/null || sxhkd &
+killall pulseaudio;sleep 1;pulseaudio &
+$HOME/.scripts/keyboardLayout.sh &
+xset r rate 200 30 &
+$HOME/.config/polybar/launch.sh &
+megasync &
+libinput-gestures-setup restart &
+sleep 5 && flashfocus &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+nitrogen --restore;sleep 1;picom -b --experimental-backend &
+killall nm-applet;nm-applet &
+xfce4-power-manager &
+clipster -d &
+copyq &
+xautolock -time 60 -locker ~/.scripts/lock.sh &
+ff-theme-util &
+fix_xcursor &
+##############################################################
+
+### Monitors ###
+bspc monitor eDP1 -d 1 3 5 6 7 8 9
+bspc monitor DP1 -d 2 4
+bspc config remove_disabled_monitors true
+bspc config remove_unplugged_monitors true
+bspc config merge_overlapping_monitors true
+
+### Global Settings ###
+# Windows and borders
+bspc config border_width        0
+bspc config window_gap          10
+bspc config top_padding         32
+bspc config bottom_padding      0
+bspc config left_padding        0
+bspc config right_padding       0
+
+# Layouts
+bspc config split_ratio         0.52
+bspc config borderless_monocle  true
+bspc config gapless_monocle     true
+
+# Mouse
+bspc config pointer_modifier mod1
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+bspc config focus_follows_pointer true
+bspc config click_to_focus none
+bspc config swallow_first_click true
+
+### Rules ###
+bspc rule -a URxvt:floating_urxvt sticky=on state=floating center=true rectangle=570x360+0+0 
+bspc rule -a Arandr state=floating
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Chromium desktop='^2'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
