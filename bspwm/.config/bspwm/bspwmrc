@@ -30,6 +30,8 @@ bspc config remove_unplugged_monitors true
 bspc config merge_overlapping_monitors true
 
 ### Global Settings ###
+xsetroot -cursor_name ptr &
+
 # Windows and borders
 bspc config border_width        0
 bspc config window_gap          10

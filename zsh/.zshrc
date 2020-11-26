@@ -368,6 +368,8 @@ alias clip='clipster -c'
 #################################################################
 alias install='sudo pacman -S'
 alias packages='pacman -Q'
+# only works on manjaro, for arch, use something like reflector-simple
+alias update-mirrors='sudo pacman-mirrors -id'
 alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 #alias update='yay -Syyu'
 #alias update-manual='"yay" -Syyu'
@@ -385,7 +387,7 @@ alias cleanup='sh ~/.scripts/cleanup.sh'
 #################################################################
 # zsh related
 #################################################################
-alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/dots/.zshrc'
+alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/dots/.zshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 alias vundle='vim +PluginInstall +qall'
 

@@ -593,15 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/fpfsi/respostas.txt",
-					"settings":
-					{
-						"buffer_size": 1825,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -735,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
+				"/home/d3sk3r/fpfsi/respostas.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/arch_install.sh",
 				"/home/d3sk3r/.sh",
@@ -752,7 +745,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/blurlock/where and how",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
 				"/tmp/ark-VBfSRv/how",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
@@ -861,8 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/MEGA/nmap_scan.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_rofi/where.txt"
+				"/home/d3sk3r/MEGA/nmap_scan.py"
 			],
 			"find":
 			{
@@ -998,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/fpfsi/respostas.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1825,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										878,
-										878
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 225.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1072,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
+			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
