@@ -89,9 +89,9 @@ super + {_, shift} + s
 super + w
     ~/.scripts/networkmanager_rofi.sh
 
-# Rofi fuzy finder and xkill
+# Rofi fuzzy finder and xkill
 super + {_, ctrl} + x
-    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -theme themes/fuzzy-material -p "locate:" | xargs xdg-open, xkill}
+    {~/.scripts/rofi-fuzzy.sh, xkill}
 
 # Categorized menu
 super + z
