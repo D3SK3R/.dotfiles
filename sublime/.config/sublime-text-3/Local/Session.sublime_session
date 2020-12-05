@@ -594,10 +594,19 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/fontes",
+					"file": "/home/d3sk3r/infraTI.txt",
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 2062,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/calcRedes.txt",
+					"settings":
+					{
+						"buffer_size": 304,
 						"line_ending": "Unix"
 					}
 				}
@@ -734,6 +743,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fontes",
 				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
 				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/config.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/where.txt",
@@ -860,8 +870,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt",
-				"/home/d3sk3r/.zshrc",
-				"/home/d3sk3r/.oh-my-zsh/Other Libs (optional)/how"
+				"/home/d3sk3r/.zshrc"
 			],
 			"find":
 			{
@@ -997,16 +1006,44 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/fontes",
+							"file": "/home/d3sk3r/infraTI.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 193,
+								"buffer_size": 2062,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/calcRedes.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 304,
 								"regions":
 								{
 								},
@@ -1071,7 +1108,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,1025,31,1352,390,2726,768",
 			"project": "",
 			"replace":
 			{
