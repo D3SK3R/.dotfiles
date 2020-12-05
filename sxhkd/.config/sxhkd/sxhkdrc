@@ -49,7 +49,7 @@ super + ctrl + c
 
 # Rofi
 super + d
-    rofi -modi run,drun,window -show drun -show-icons
+    rofi -modi run,drun,window -show drun -show-icons -theme themes/launcher-material
 
 super + e
     ~/.scripts/lagSwitch.sh
@@ -91,7 +91,7 @@ super + w
 
 # Rofi fuzy finder and xkill
 super + {_, ctrl} + x
-    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs xdg-open, xkill}
+    {fd . ~ | rofi -threads 0 -width 100 -dmenu -i -theme themes/fuzzy-material -p "locate:" | xargs xdg-open, xkill}
 
 # Categorized menu
 super + z
