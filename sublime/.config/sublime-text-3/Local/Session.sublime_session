@@ -726,6 +726,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fzfbuku.sh",
 				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
 				"/home/d3sk3r/test",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
+			"position": "0,0,0,0,0,8,400,675,760,2726,768",
 			"project": "",
 			"replace":
 			{
