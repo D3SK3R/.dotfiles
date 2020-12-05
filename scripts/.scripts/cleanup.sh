@@ -11,7 +11,7 @@ read -p "This command will remove cached packages and sync database of not insta
 
 if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
     echo 'Cleaning...'
-    sudo pacman -Sc && 
+    sudo pacman -Sc --noconfirm && 
     yay -Yc &&
     sudo pacman -Rns $(pacman -Qtdq) && 
     sudo paccache -r

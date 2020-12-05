@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
-					"settings":
-					{
-						"buffer_size": 304,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
+				"/home/d3sk3r/test",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
 				"/home/d3sk3r/fpfsi/respostas.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
@@ -777,7 +771,6 @@
 				"/home/d3sk3r/.dotfiles/copyq/.config/copyq/copyq-commands.ini",
 				"/home/d3sk3r/.config/copyq/copyq_tabs.ini",
 				"/home/d3sk3r/.config/copyq/copyq.conf",
-				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
 				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/yr/ingrid.txt",
@@ -860,8 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/where",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/shortcut/minecraft.desktop",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/MEGA/nmap_scan.py"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux"
 			],
 			"find":
 			{
@@ -997,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 304,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],

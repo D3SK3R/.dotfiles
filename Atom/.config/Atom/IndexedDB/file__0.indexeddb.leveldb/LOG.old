@@ -1,3 +1,6 @@
-2020/09/14-14:08:55.001 2cde32 Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2020/09/14-14:08:55.001 2cde32 Recovering log #29
-2020/09/14-14:08:55.010 2cde32 Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000029.log 
+2020/09/14-14:31:08.970 2d34d3 Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/09/14-14:31:08.970 2d34d3 Recovering log #29
+2020/09/14-14:31:08.974 2d34d3 Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000029.log 
+2020/09/14-14:34:35.068 2d40b3 Level-0 table #34: started
+2020/09/14-14:34:35.109 2d40b3 Level-0 table #34: 1832948 bytes OK
+2020/09/14-14:34:35.119 2d40b3 Delete type=0 #29
