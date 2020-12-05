@@ -57,7 +57,7 @@ URxvt*foreground:           #ffffff
 ! Material Grey (disable blurRadius and transparent options)
 !URxvt*background:   [100]#090909
 !URxvt*background:   [70]#0e151b
-URxvt*background:    [100]#10141c
+URxvt*background:    [90]#10141c
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
