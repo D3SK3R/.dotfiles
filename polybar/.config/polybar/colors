@@ -19,15 +19,14 @@ black = #000000
 ;10% — 1A
 ;0% — 00
 
-;bg = #00000000
 ;bg = #0e151b
-bg = #10141c
+; E6 to transparency
+bg = #E610141c
 bg-alt = #00CCFF
 ;bg-alt = #88C0D0
-;fg = #FFFFFF
-fg-alt = #10141c
-;less white
 fg = #F2F2F2
+; E6 to transparency
+fg-alt = #E610141c
 
 urgent = #EF5350
 occupied = #42A5F5
