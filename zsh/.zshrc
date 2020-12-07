@@ -472,7 +472,7 @@ alias evernote='tusk'
 alias color-test='msgcat --color=test'
 alias colors='curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash'
 alias cam='chees'
-
+alias loopbackmic='arecord -f cd - | aplay -'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>

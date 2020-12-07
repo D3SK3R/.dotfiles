@@ -594,20 +594,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/infraTI.txt",
+					"file": "/home/d3sk3r/discord bug.16",
 					"settings":
 					{
-						"buffer_size": 2062,
+						"buffer_size": 966,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/calcRedes.txt",
-					"settings":
-					{
-						"buffer_size": 304,
-						"line_ending": "Unix"
+						"line_ending": "Unix",
+						"name": "versão do discord do android: 48.16"
 					}
 				}
 			],
@@ -743,6 +736,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/infraTI.txt",
+				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/fontes",
 				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
 				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/config.ini",
@@ -820,7 +815,6 @@
 				"/home/d3sk3r/.config/polybar/scripts/popup-calendar-date.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/Config-Colors/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/config/modules",
-				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/Daemon",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
@@ -869,8 +863,7 @@
 				"/home/d3sk3r/rofi issue/github",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt",
-				"/home/d3sk3r/.zshrc"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt"
 			],
 			"find":
 			{
@@ -1006,56 +999,29 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/infraTI.txt",
+							"file": "/home/d3sk3r/discord bug.16",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2062,
+								"buffer_size": 966,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										966,
+										966
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/calcRedes.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 304,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
+									"auto_name": "versão do discord do android: 48.16",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1108,7 +1074,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1025,31,1352,390,2726,768",
+			"position": "0,0,0,0,0,0,23,1360,768,2726,768",
 			"project": "",
 			"replace":
 			{
