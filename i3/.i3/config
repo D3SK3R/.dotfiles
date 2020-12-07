@@ -10,9 +10,11 @@ focus_follows_mouse yes
 #border_radius 10
 #smart_borders on
 
-# NO BORDERS AT ALL
-# for borders, change 'border none' to 'border pixel <size>' default is 2
-for_window [class=".*"] border none
+# for borders
+# change to 'border none' to have no borders
+# or
+# 'border pixel <size>' default is 2
+for_window [class=".*"] border pixel 0
 
 ################################################################################################
 ########################################  SET BASICS   #########################################

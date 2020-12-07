@@ -55,9 +55,10 @@ URxvt*foreground:           #ffffff
 !! for blur, use the following
 !URxvt*background:          [60]#000000
 ! Material Grey (disable blurRadius and transparent options)
+!URxvt*background:  [100]#121212
 !URxvt*background:   [100]#090909
-!URxvt*background:   [70]#0e151b
-URxvt*background:    [90]#10141c
+!URxvt*background:    [90]#10141c
+URxvt*background:    [60]#000000
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
@@ -80,7 +81,8 @@ URxvt.depth:32
 !URxvt.highlightTextColor: #000000
 
 
-*bg:     #10141c
+!*bg:     #10141c
+*bg:     #000000
 *fg:     #ffffff
 *color0: #000000
 *color1: #1c64ff
