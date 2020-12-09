@@ -360,7 +360,7 @@ alias free='free -mt'
 alias grep='grep -i --color=always'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
-alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~'
+alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'
 alias clip='clipster -c'
 
 #################################################################

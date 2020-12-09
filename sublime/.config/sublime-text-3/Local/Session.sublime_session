@@ -594,13 +594,11 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/discord bug.16",
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
 					"settings":
 					{
-						"buffer_size": 966,
-						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "versão do discord do android: 48.16"
+						"buffer_size": 1371,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -736,6 +734,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/discord bug.16",
+				"/home/d3sk3r/.viminfy.tmp",
+				"/home/d3sk3r/typing.txt",
+				"/home/d3sk3r/.p10k.zsh",
+				"/home/d3sk3r/todo.txt",
 				"/home/d3sk3r/infraTI.txt",
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/fontes",
@@ -858,12 +861,7 @@
 				"/home/d3sk3r/.dotfiles/flameshot/.config/Dharkael/flameshot.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/screenshot/flameshot.conf",
 				"/home/d3sk3r/flameshot.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mpv/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/transmit.txt",
-				"/home/d3sk3r/rofi issue/github",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/DOTbashrc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zsh_shell.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mpv/where"
 			],
 			"find":
 			{
@@ -1004,28 +1002,27 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/discord bug.16",
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 966,
+								"buffer_size": 1371,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										966,
-										966
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"auto_name": "versão do discord do android: 48.16",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 45.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1074,7 +1071,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,23,1360,768,2726,768",
+			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
 			"project": "",
 			"replace":
 			{
