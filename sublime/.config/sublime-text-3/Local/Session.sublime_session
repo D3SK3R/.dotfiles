@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
-					"settings":
-					{
-						"buffer_size": 1371,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,6 +726,15 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/Kvantum/kvantum.kvconfig",
+				"/home/d3sk3r/lush-pop/Sweet-Mars-transparent-toolbar/Sweet-Mars-transparent-toolbar.kvconfig",
+				"/home/d3sk3r/lush-pop/Nature.colors",
+				"/home/d3sk3r/MEGA/microsoft/microsoft.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/where",
+				"/home/d3sk3r/microsoft.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/discord bug.16",
 				"/home/d3sk3r/.viminfy.tmp",
 				"/home/d3sk3r/typing.txt",
@@ -852,16 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
-				"/home/d3sk3r/instal",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/st/config.h",
-				"/home/d3sk3r/.dotfiles/xresources/.Xresources",
-				"/home/d3sk3r/.dotfiles/xresources/.XresourcesOLD",
-				"/home/d3sk3r/.dotfiles/flameshot/.config/Dharkael/flameshot.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/screenshot/flameshot.conf",
-				"/home/d3sk3r/flameshot.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mpv/where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link"
 			],
 			"find":
 			{
@@ -997,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1371,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 45.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1071,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,31,1352,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{

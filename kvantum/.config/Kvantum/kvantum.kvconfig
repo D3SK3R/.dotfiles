@@ -2,8 +2,4 @@
 theme=Fluent-Dark
 
 [Applications]
-Default=VirtualBoxManager, Virtualbox, virtualbox, VirtualBoxMachine, PKHeX, mpv, gl
-Fluent-Dark=VirtualBoxManager, Virtualbox, virtualbox, PKHeX, mpv, gl, wps, Wps
-KvAdaptaMaiaBlack=VirtualBoxManager, Virtualbox, virtualbox, PKHeX, mpv, gl
-KvSimplicityDark=VirtualBoxManager, Virtualbox, virtualbox, PKHeX, mpv, gl
-Sweet=virtualbox, VirtualBox, VirtualBoxManager
+Sweet=VirtualBoxManager, Virtualbox, virtualbox, VirtualBoxMachine, PKHeX, mpv, gl
