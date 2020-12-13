@@ -28,7 +28,7 @@ super + {_, shift} + Delete
 
 # mute mic
 super + apostrophe
-    ~/.scripts/mute-toggle.sh && polybar-msg hook mute 1
+    ~/.scripts/mute-toggle.sh 
 
 # mount umount drives
 super + F1
@@ -104,21 +104,19 @@ super + z
 # Raise and Lower volume
 XF86Audio{Raise,Lower}Volume
     ~/.scripts/volume.sh Master {2%+,2%-}
-#    ~/.scripts/volume{UP,DOWN}.sh
 
 # Brightness
 XF86MonBrightness{Up,Down}
     ~/.scripts/brightness.sh {+,-}
-    #~/.scripts/brightness{UP,DOWN}.sh
+
+# Media controls (works for system and mpd)
+# MPD
+XF86Audio{Play,Stop,Next,Prev}
+    ~/.scripts/mediaControl.sh {toggle, stop, next, prev}
 
 # Spotify
-XF86Audio{Play,Stop,Next,Prev}
-    playerctl {play-pause,stop;playerctl previous,next,previous}
-
-# Media controls for mpd and spotify
-# MPD
 #XF86Audio{Play,Stop,Next,Prev}
-#    ~/.scripts/mpd{TOGGLE,STOP,NEXT,PREV}.sh
+#    playerctl {play-pause,stop;playerctl previous,next,previous}
 
 
 #########################################################################################

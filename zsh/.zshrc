@@ -359,6 +359,8 @@ alias font-list='fc-list'
 alias psa='ps auxf'
 alias free='free -mt'
 alias grep='grep -i --color=always'
+# grep to show everything and just highlight the match:
+alias grephl='grep --color=always -e "^" -e'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'

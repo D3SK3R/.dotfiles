@@ -12,4 +12,5 @@ elif [[ $mute = 'yes' ]]; then
     dunstify -t 1000 'Mic unmuted' ' ' -p 2 -r 2
 fi
 
+polybar-msg hook mute 1
 

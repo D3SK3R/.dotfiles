@@ -3,6 +3,10 @@
 # Changes the volume level of an audio track
 # Signals an the status bar to update
 
+# usage example:
+# ./volume.sh Master 2%+ to increase 2% to the actual volume
+
+# mute 'feature' not working
 if [ "$1" = "All" ]; then
     if [ "$2" = "mute" ]; then
         volume="$(i3volume)"
@@ -25,4 +29,5 @@ else
 
 fi
 
-polybar-msg hook volume 1
+# not using polybar hook
+#polybar-msg hook volume 1
