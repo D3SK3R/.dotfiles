@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-					"settings":
-					{
-						"buffer_size": 257,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,6 +726,9 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/voz.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
+				"/home/d3sk3r/.minecraft/resourcepacks/nebula/pack.mcmeta",
 				"/home/d3sk3r/.config/Kvantum/kvantum.kvconfig",
 				"/home/d3sk3r/lush-pop/Sweet-Mars-transparent-toolbar/Sweet-Mars-transparent-toolbar.kvconfig",
 				"/home/d3sk3r/lush-pop/Nature.colors",
@@ -858,10 +853,7 @@
 				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/02-emoji.conf",
 				"/home/d3sk3r/installed",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Polybar/PatchedFonts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/FontProblems/Link"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_Urxvt/ext folder"
 			],
 			"find":
 			{
@@ -997,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 257,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1071,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
