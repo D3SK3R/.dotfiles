@@ -41,6 +41,8 @@ export ZSH="$HOME/.oh-my-zsh"
 #export TERM="xterm-256color"
 export TERM="rxvt-unicode-256color"
 
+export BROWSER="/usr/bin/google-chrome-stable"
+
 # Map the menu key to slash
 xmodmap -e "keycode 135 = slash"
 
@@ -99,7 +101,7 @@ PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    fzf # ctrl+t / ctrl+r
+    fzf # ctrl+t / ctrl+r / ** <tab>
     fast-syntax-highlighting
     dirhistory
     copydir
@@ -151,7 +153,6 @@ export FZF_BASE=/usr/bin/fzf
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copybuffer
-# Copies the path of your current folder to the system clipboard.
 #Copies the path of your current folder to the system clipboard.
 #use the command copydir to copy the $PWD.
 #
@@ -377,11 +378,11 @@ alias yay='f(){ yay "$@" --noconfirm;  unset -f f; }; f'
 #alias update='yay -Syyu'
 #alias update-manual='"yay" -Syyu'
 #alias update-noCheck='yay -Syyu --mflags --skipinteg'
-alias tri='f(){ trizen "$@" --noconfirm --sudo-autorepeat-at-runtime;  unset -f f; }; f'
-alias update='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime'
-alias update-manual='trizen -Syyu --sudo-autorepeat-at-runtime'
-alias update-noCheck='trizen -Syyu --noconfirm --sudo-autorepeat-at-runtime --skipinteg'
-alias patchnotes='google-chrome-stable https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
+alias tri='f(){ trizen "$@" --noconfirm;  unset -f f; }; f'
+alias update='trizen -Syyu --noconfirm'
+alias update-manual='trizen -Syyu'
+alias update-noCheck='trizen -Syyu --noconfirm --skipinteg'
+alias patchnotes='$BROWSER https://forum.manjaro.org/c/announcements/stable-updates & sleep 1;c'
 alias remove='sudo pacman -Rns'
 alias remove-force='sudo pacman -Rnsdd'
 alias unlock="sudo rm /var/lib/pacman/db.lck"

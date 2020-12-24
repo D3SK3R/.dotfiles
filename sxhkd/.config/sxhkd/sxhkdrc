@@ -16,7 +16,7 @@ super + Pause
 
 # Terminal
 super + {_,shift +} Return
-    {urxvtc -cd ~, urxvt}
+    {urxvtc -cd ~, alacritty}
 
 # Print (flameshot)
 {_,super +} Print
@@ -49,7 +49,7 @@ super + ctrl + c
 
 # Rofi
 super + d
-    rofi -modi run,drun,window -show drun -show-icons -theme themes/launcher-material
+    rofi -modi run,drun -show drun -show-icons -theme themes/launcher-material
 
 super + e
     ~/.scripts/lagSwitch.sh

@@ -47,13 +47,13 @@ URxvt.shading:30
 URxvt.geometry:190x48
 URxvt.saveLines: 2000
 
+!URxvt.internalBorder:  4
+URxvt.externalBorder:  4
+
 !!! COLORS !!!
 
 !! special
 URxvt*foreground:           #ffffff
-!! if not blur = [65]
-!! for blur, use the following
-!URxvt*background:          [60]#000000
 ! Material Grey (disable blurRadius and transparent options)
 !URxvt*background:  [100]#121212
 !URxvt*background:   [100]#090909
