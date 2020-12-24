@@ -69,11 +69,22 @@ let NERDTreeQuitOnOpen=1
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 
+""""""
+Plugin 'terryma/vim-multiple-cursors'
+" https://github.com/terryma/vim-multiple-cursors#installation
+"start: <C-n> start multicursor and add a virtual cursor + selection on the match
+"next: <C-n> add a new virtual cursor + selection on the next match
+"skip: <C-x> skip the next match
+"prev: <C-p> remove current virtual cursor + selection and go back on previous match
+"select all: <A-n> start multicursor and directly select all matches
+""""""
+
 " urxvt doesn't support icons so I have to disable... :(
 "Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'junegunn/goyo.vim'
 
+""""""
 Plugin 'junegunn/limelight.vim'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:limelight_conceal_ctermfg = 240
