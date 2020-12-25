@@ -23,12 +23,19 @@ while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
 desktop=$(echo $DESKTOP_SESSION)
 count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
 
+# Monitors
+PRIMARY=$(xrandr --query | grep " connected" | grep "primary" | cut -d" " -f1)
+OTHERS=$(xrandr --query | grep " connected" | grep -v "primary" | cut -d" " -f1)
+
 case $desktop in
     i3)
     if type "xrandr" > /dev/null; then
-      for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-        MONITOR=$m polybar --reload main -c ~/.config/polybar/config &
-      done
+        MONITOR=$PRIMARY polybar --reload main -c ~/.config/polybar/config &
+        # sleep necessary so that the bar on the main monitor loads first and takes the tray output
+        sleep 0.5 
+        for m in $OTHERS; do
+            MONITOR=$m polybar --reload main -c ~/.config/polybar/config &
+        done
     else
     polybar --reload main -c ~/.config/polybar/config &
     fi
@@ -73,6 +80,6 @@ case $desktop in
 esac
 
 #for future scripts - how to find interface
-interface=$(ip route | grep '^default' | awk '{print $5}' | head -n1)
+#interface=$(ip route | grep '^default' | awk '{print $5}' | head -n1)
 #interface-name=$(ip route | grep '^default' | awk '{print $5}')
 #interface-name=$(ifconfig -a | sed -n 's/^\([^ ]\+\).*/\1/p' | grep -Fvx -e lo:| sed 's/.$//')

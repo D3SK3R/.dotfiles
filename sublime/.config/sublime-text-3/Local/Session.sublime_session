@@ -726,6 +726,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/AltAccount.txt",
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/bb.txt",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
 				"/home/d3sk3r/.tmux.conf",
 				"/home/d3sk3r/checkPackages.py",
-				"/home/d3sk3r/check",
-				"/home/d3sk3r/arch_install.sh"
+				"/home/d3sk3r/check"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,685,400,1352,760,2726,768",
+			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
