@@ -454,6 +454,7 @@ for_window [title="Network Connections"] floating enable
 for_window [title="updater.sh"] floating enable
 for_window [class="Google-chrome"] border none
 for_window [title="Task Manager - Google Chrome"] floating enable
+for_window [title="Save File"] resize set 700 550 move to position center 
 for_window [class="Chromium"] border none
 for_window [class="Brave"] border none
 for_window [class="dolphin"] move to position center
