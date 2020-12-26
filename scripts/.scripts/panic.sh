@@ -60,7 +60,6 @@ else
             echo $line
             i3 $line
         fi
-
     done < $filename
 
     rm /tmp/panic
