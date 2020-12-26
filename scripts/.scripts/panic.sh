@@ -1,7 +1,9 @@
 #!/bin/sh
 
+file=/tmp/panic
+
 if [ -z $(ls /tmp/ | grep panic) ]; then
-    touch /tmp/panic
+    touch $file
 
     # Get the workspace i'm in and write it to the file
     ws=$(i3-msg -t get_workspaces \
@@ -13,7 +15,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     if xrandr | grep -ow "DP1 connected" >/dev/null; then
         i3 workspace 4
         i3 workspace 9
-        echo "second monitor" >> /tmp/panic
+        echo "second monitor" >> $file
     else
         i3 workspace 9
     fi
@@ -21,11 +23,11 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # writing the actual workspace AFTER the possible second monitor is already
     # in the file, so that the script moves me to the right workspace in the second
     # monitor and only then, moves me to the right workspace in the main monitor
-    echo "workspace $ws" >> /tmp/panic
+    echo "workspace $ws" >> $file
 
     # pauses the media if playing
     if [ $(playerctl status) = "Playing" ]; then
-        echo 'playing' >> /tmp/panic
+        echo 'playing' >> $file
         playerctl stop;playerctl previous
     fi
     mpc -p 1100 seek 0 && mpc -p 1100 pause
@@ -45,7 +47,7 @@ else
     xdo close -N 'URxvt' -d
 
     # reads the file to know whether the script has paused the music, if so, resumes it
-    filename=/tmp/panic
+    filename=$file
     while read line; do
         if [ "$line" = 'playing' ]; then
             playerctl play
@@ -62,7 +64,7 @@ else
         fi
     done < $filename
 
-    rm /tmp/panic
+    rm $file
 fi
 
 
