@@ -83,9 +83,9 @@ for_window 			[title="dropdown_urxvt"] move scratchpad
 
 # Alacritty
 #exec --no-startup-id alacritty
-for_window 	[title="floating_Alacritty"] floating enable sticky enable
+for_window 	    [title="floating_Alacritty"] floating enable sticky enable
 #for_window 	[title="floating_Alacritty"] move to position 400 40
-for_window 	[title="floating_Alacritty"] resize set 570 360
+for_window 	    [title="floating_Alacritty"] resize set 570 360
 #for_window 	[title="floating_Alacritty"] move scratchpad
 
 # Dropdown Spotify
