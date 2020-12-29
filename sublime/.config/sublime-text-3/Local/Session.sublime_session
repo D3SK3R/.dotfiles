@@ -726,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/clipboard",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/voz.txt",
 				"/home/d3sk3r/.config/mpv/mpv.conf",
 				"/home/d3sk3r/.config/mpv/scripts/mpv_thumbnail_script_client_osc.lua",
 				"/home/d3sk3r/try",
@@ -739,7 +741,6 @@
 				"/home/d3sk3r/infraTI.txt",
 				"/home/d3sk3r/MEGA/microsoft/microsoft.txt",
 				"/home/d3sk3r/cam",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/voz.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/.minecraft/resourcepacks/nebula/pack.mcmeta",
 				"/home/d3sk3r/.config/Kvantum/kvantum.kvconfig",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/.ncmpcpp/configBAK",
 				"/home/d3sk3r/.config/tint2/tint2rc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt",
-				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,8,400,675,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
