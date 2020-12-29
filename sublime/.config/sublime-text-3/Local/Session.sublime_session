@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/discord/leticia/cam",
-					"settings":
-					{
-						"buffer_size": 162,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,13 +726,16 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/mpv/mpv.conf",
+				"/home/d3sk3r/.config/mpv/scripts/mpv_thumbnail_script_client_osc.lua",
+				"/home/d3sk3r/try",
+				"/home/d3sk3r/MEGA/discord/leticia/cam",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/AltAccount.txt",
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/bb.txt",
 				"/home/d3sk3r/a",
-				"/home/d3sk3r/try",
 				"/home/d3sk3r/infraTI.txt",
 				"/home/d3sk3r/MEGA/microsoft/microsoft.txt",
 				"/home/d3sk3r/cam",
@@ -858,10 +853,7 @@
 				"/home/d3sk3r/.config/tint2/tint2rc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt",
-				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config",
-				"/home/d3sk3r/.tmux.conf",
-				"/home/d3sk3r/checkPackages.py",
-				"/home/d3sk3r/check"
+				"/home/d3sk3r/dotfiles/polybar/.config/polybar/config"
 			],
 			"find":
 			{
@@ -997,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/discord/leticia/cam",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 162,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1071,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,31,2718,760,2726,768",
+			"position": "0,0,0,0,0,8,400,675,760,2726,768",
 			"project": "",
 			"replace":
 			{

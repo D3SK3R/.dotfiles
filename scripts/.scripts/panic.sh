@@ -25,6 +25,9 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # monitor and only then, moves me to the right workspace in the main monitor
     echo "workspace $ws" >> $file
 
+    # hides all possible open scratchpad windows
+    
+
     # pauses the media if playing
     if [ $(playerctl status) = "Playing" ]; then
         echo 'playing' >> $file
