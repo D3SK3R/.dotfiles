@@ -726,6 +726,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/50-enable-terminess-powerline.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/ext/vtwheel",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/ext folder",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/clipboard",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/voz.txt",
 				"/home/d3sk3r/.config/mpv/mpv.conf",
@@ -850,10 +853,7 @@
 				"/home/d3sk3r/.ncmpcpp/config",
 				"/home/d3sk3r/.ncmpcpp/config-art-dark",
 				"/home/d3sk3r/.ncmpcpp/config-minimal",
-				"/home/d3sk3r/.ncmpcpp/configBAK",
-				"/home/d3sk3r/.config/tint2/tint2rc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fonts/.fonts/where.txt"
+				"/home/d3sk3r/.ncmpcpp/configBAK"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
+			"position": "0,0,0,0,0,2075,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{

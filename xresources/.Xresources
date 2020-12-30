@@ -37,8 +37,8 @@ URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
 URxvt.underlineURLs:true
-URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
-URxvt.boldfont: xft:DejaVu Sans Mono for Powerline:pixelsize=12:style:bold:autohint=true:antialias=true
+URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
+URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 *letterSpace: -1
 *lineSpace: -1
 
