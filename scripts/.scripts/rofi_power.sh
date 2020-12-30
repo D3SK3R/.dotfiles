@@ -8,8 +8,8 @@
 uptime=$(uptime -p | sed -e 's/up //g')
 
 #OPTIONS="Reboot system\nPower-off system\nSuspend system\nHibernate system"
-#OPTIONS=" Lock\n Sleep\n Logout\n Restart\n Shutdown"
-OPTIONS=" LOCK\n SLEEP\n LOGOUT\n REBOOT\n SHUTDOWN"
+#OPTIONS=" Lock\n Sleep\n Logout\n Restart\n Shutdown"
+OPTIONS=" LOCK\n SLEEP\n LOGOUT\n REBOOT\n SHUTDOWN"
 
 # source configuration or use default values
 if [ -f $HOME/.config/rofi-power/config ]; then

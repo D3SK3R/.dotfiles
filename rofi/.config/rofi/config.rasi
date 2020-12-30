@@ -1,0 +1,7 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         false;
+  icon-theme:         "Papirus";
+}
+
