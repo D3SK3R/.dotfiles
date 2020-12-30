@@ -307,7 +307,7 @@ exec_always --no-startup-id $HOME/.scripts/keyboardLayout.sh
 # Keyboard repeat delay and interval default: 250 30
 exec_always --no-startup-id xset r rate 200 30 # first number after "rate" is delay, and second is interval
 # Polybar
-exec_always --no-startup-id sleep 3 && $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id sleep 4 && $HOME/.config/polybar/launch.sh
 # MegaSync
 exec --no-startup-id megasync
 # Touchpad Gestures
