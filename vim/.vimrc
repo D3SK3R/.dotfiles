@@ -79,8 +79,8 @@ Plugin 'terryma/vim-multiple-cursors'
 "select all: <A-n> start multicursor and directly select all matches
 """"""
 
-" urxvt doesn't support icons so I have to disable... :(
-"Plugin 'ryanoasis/vim-devicons'
+" disable if in a terminal that doesn't support icons 
+Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'junegunn/goyo.vim'
 
