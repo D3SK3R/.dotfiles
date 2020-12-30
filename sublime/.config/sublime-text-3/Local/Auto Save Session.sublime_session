@@ -600,6 +600,17 @@
 						"buffer_size": 3004,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"contents": "https://wiki.archlinux.org/index.php/improving_performance#Zram_or_zswap \n",
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/links",
+					"file_size": 2,
+					"file_write_time": 132538364172602880,
+					"settings":
+					{
+						"buffer_size": 74,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -997,7 +1008,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1023,6 +1034,34 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 225.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/links",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 74,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										72,
+										72
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1071,7 +1110,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1,0,0,0,0,2048,400,2718,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
