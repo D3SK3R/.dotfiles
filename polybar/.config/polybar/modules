@@ -476,7 +476,7 @@ hook-0 = ~/.config/polybar/scripts/mute.sh
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-format-underline = ${colors.bg-alt}
+#format-underline = ${colors.bg-alt}
 initial = 1
 
 [module/popup-calendar-clock]
