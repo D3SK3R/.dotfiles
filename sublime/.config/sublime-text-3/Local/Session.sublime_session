@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
-					"settings":
-					{
-						"buffer_size": 3004,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,6 +726,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/scratchpad",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
+				"/home/d3sk3r/zram.service",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/links",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/test zram and swaps",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
 				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/50-enable-terminess-powerline.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/ext/vtwheel",
@@ -856,12 +853,7 @@
 				"/home/d3sk3r/.mozilla/firefox/Bento/js/theme.js",
 				"/home/d3sk3r/.mozilla/firefox/Bento/css/style.css",
 				"/home/d3sk3r/.config/neofetch/config.conf",
-				"/home/d3sk3r/.vimrc",
-				"/home/d3sk3r/.config/neofetch/config",
-				"/home/d3sk3r/.ncmpcpp/config",
-				"/home/d3sk3r/.ncmpcpp/config-art-dark",
-				"/home/d3sk3r/.ncmpcpp/config-minimal",
-				"/home/d3sk3r/.ncmpcpp/configBAK"
+				"/home/d3sk3r/.vimrc"
 			],
 			"find":
 			{
@@ -997,37 +989,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3004,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2756,
-										819
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 225.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1071,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1,0,0,0,0,2048,400,2718,760,2726,768",
+			"position": "0,0,0,0,0,2048,400,2718,760,2726,768",
 			"project": "",
 			"replace":
 			{
