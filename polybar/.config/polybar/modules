@@ -262,7 +262,7 @@ format-background = ${colors.bg}
 type = internal/cpu
 interval = 1
 #  / 
-label = "  %percentage%% "
+label = " %percentage%% "
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 #label-underline = ${colors.bg-alt}
@@ -290,7 +290,7 @@ bar-used-empty-foreground = ${colors.fg}
 
 format = "<label> <bar-used>"
 #  /  / 
-format-prefix = "  "
+format-prefix = " "
 format-prefix-foreground = ${colors.fg-alt}
 format-foreground = ${colors.fg-alt}
 format-background = ${colors.bg-alt}
@@ -299,7 +299,7 @@ format-background = ${colors.bg-alt}
 [module/pavolume]
 type = custom/script
 tail = true
-label = " %output% "
+label = "%output% "
 exec = ~/.config/polybar/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
@@ -360,7 +360,7 @@ exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
 interval = 100
 #label-font = 2
 #format-prefix = "  "
-format-prefix = "  "
+format-prefix = " "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 #format-underline = ${colors.bg-alt}

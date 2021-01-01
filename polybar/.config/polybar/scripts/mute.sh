@@ -6,6 +6,7 @@ if [[ $mute = 'no' ]]; then
     echo ''
 elif [[ $mute = 'yes' ]]; then
     #   
-    echo ' - '
+    echo ' -  '
+    #echo ' '
 fi
 
