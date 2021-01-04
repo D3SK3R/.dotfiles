@@ -250,6 +250,9 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 ## Keybindings section
+## KEY CODES: https://www.zsh.org/mla/users/2014/msg00266.html
+## COMMAND TO TEST KEY CODES: xxd
+## AVAILABLE COMMANDS: http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#:~:text=The%20ZLE%20commands%20that%20key,modules%20(see%20Zsh%20Modules).
 #bindkey -e
 #bindkey '^[[7~' beginning-of-line                               # Home key
 #bindkey '^[[H' beginning-of-line                                # Home key
@@ -269,13 +272,17 @@ bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[[6~' history-beginning-search-forward                # Page down key
 #
 ## Navigate words with ctrl+arrow keys
-bindkey '^[Oc' forward-word                                     #
-bindkey '^[Od' backward-word                                    #
+#bindkey '^[Oc' forward-word                                     #
+#bindkey '^[Od' backward-word                                    #
 
 bindkey '^[[1;5D' backward-word                                 # backward word with ctrl right
 bindkey '^[[1;5C' forward-word                                  # forward word with ctrl left
 
+bindkey '^[[1;5A' end-of-line                                   # move to end of the line with ctrl up
+bindkey '^[[1;5B' beginning-of-line                             # move to start of the line with ctrl down
+
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
+bindkey '^[^?' kill-word                                        # delete forward word with alt+backspace
 #bindkey '^[[Z' undo
 
 # Color man pages
