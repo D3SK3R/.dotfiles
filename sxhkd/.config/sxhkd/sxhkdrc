@@ -45,7 +45,7 @@ super + c
 
 # Rofi-calc
 super + ctrl + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c"
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c" -theme themes/launcher-material.rasi
 
 # Rofi
 super + d
