@@ -32,7 +32,8 @@ flash-on-focus: true
 #      another window was just closed. 
 #   'on_switch':
 #      Lone windows will be flashed only upon switching desktops.
-flash-lone-windows: 'on_open_close'
+#flash-lone-windows: 'on_open_close'
+flash-lone-windows: 'always'
 
 # Defining window-specific flash rules
 #
@@ -44,9 +45,9 @@ flash-lone-windows: 'on_open_close'
 # Say I'd like to set all 'termite' windows to 80% opacity but leave other
 # windows at full opacity:
 #
-# rules:
-#   - window-class: Termite
-#     default-opacity: 0.8
+rules:
+   - window-class: Nitrogen
+     default-opacity: 0.7
 #
 #
 # I also would prefer that firefox windows are not flashed on focus:
