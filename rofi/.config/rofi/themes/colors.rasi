@@ -3,7 +3,7 @@
 //fulltr = full transparent
 //se = selected
 * {
-  tr:          #00000060;
+  tr:          #00000070;
   fulltr:      #00000000;
   bg:          #000000;
   se:          #dbe4f5;
