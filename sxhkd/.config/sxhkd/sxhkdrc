@@ -5,7 +5,7 @@
 ##         Alphabetical order, and command keys, like Return, and etc, first           ##
 #########################################################################################
 
-# Show hotkeys
+# Show hotkeys/help
 super + slash
     ~/.scripts/hotkeys.sh
     #urxvtc -e sh -c 'sed -n 1,1000p ~/.config/sxhkd/sxhkdrc|less'
@@ -34,7 +34,7 @@ super + apostrophe
 super + F1
     ~/.scripts/mount.sh
 
-# Power options
+# Rofi power options
 super + 0
     ~/.scripts/rofi_power.sh
 
@@ -45,11 +45,11 @@ super + c
 
 # Rofi-calc
 super + ctrl + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c" -theme themes/launcher-material.rasi
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c" -theme themes/style.rasi
 
 # Rofi
 super + d
-    rofi -modi run,drun -show drun -show-icons -theme themes/launcher-material
+    rofi -modi run,drun -show drun -show-icons -theme themes/style.rasi
 
 super + e
     ~/.scripts/lagSwitch.sh

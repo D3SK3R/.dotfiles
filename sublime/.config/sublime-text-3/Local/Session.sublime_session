@@ -726,6 +726,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/rofi/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/i3-alternating-layout/other options",
 				"/home/d3sk3r/scratchpad",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts.ini",
 				"/home/d3sk3r/.mozilla/firefox/Bento/index.html",
 				"/home/d3sk3r/.mozilla/firefox/Bento/js/theme.js",
-				"/home/d3sk3r/.mozilla/firefox/Bento/css/style.css",
-				"/home/d3sk3r/.config/neofetch/config.conf"
+				"/home/d3sk3r/.mozilla/firefox/Bento/css/style.css"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,402,1358,760,2732,768",
+			"position": "0,0,0,0,0,2395,35,2724,392,2732,768",
 			"project": "",
 			"replace":
 			{

@@ -514,7 +514,7 @@ ex ()
 #################################################################
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-#source $HOME/.scripts/kill.sh
+source $HOME/.scripts/dkill.sh
 #source $HOME/.scripts/dotfiles.sh
 # ____             _          _____ _          _ _
 #|  _ \           (_)        / ____| |        | | |
