@@ -49,7 +49,7 @@ super + ctrl + c
 
 # Rofi
 super + d
-    rofi -modi run,drun -show drun -show-icons -theme themes/style.rasi
+    rofi -modi run,drun -show drun -theme themes/style.rasi
 
 super + e
     ~/.scripts/lagSwitch.sh
