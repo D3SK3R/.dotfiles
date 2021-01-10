@@ -62,8 +62,12 @@ else
         fi
         # reads the file to know what workspace was in and goes to it
         if [ $(echo $line | cut -d' ' -f1) = 'workspace' ]; then
-            echo $line
-            i3 $line
+            if [[ $line == 'workspace 2' ]] || [[ $line == 'workspace 4' ]]; then
+                i3 workspace 1
+            else
+                echo $line
+                i3 $line
+            fi
         fi
     done < $filename
 

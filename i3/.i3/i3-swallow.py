@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 #-----------------------------------------------
+# https://www.reddit.com/r/i3wm/comments/gziwmf/oc_i3_swallow_automatic/
+# https://gist.github.com/windwp/b46e8bdeac793867b34d2191e66a6f44
 # used to swallow a terminal window in i3
 #
 # INSTALL 

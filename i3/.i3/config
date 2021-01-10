@@ -109,6 +109,7 @@ for_window      [class="firefox"] move scratchpad
 #bindsym $mod+Shift+d                            $exec discord
 #bindsym $mod+Shift+d    [class="discord"] scratchpad show
 $exec discord
+$exec premid
 for_window              [class="discord"] floating enable sticky enable
 for_window              [class="discord"] move position center resize set 1360 740
 for_window              [class="discord"] move scratchpad
