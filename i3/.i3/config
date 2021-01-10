@@ -32,6 +32,10 @@ $exec ~/.scripts/monitors.sh
 
 $exec $HOME/.scripts/mouse_sens.sh
 
+$exec python3 $HOME/.i3/i3-swallow.py
+
+$exec sleep 10 && $HOME/.scripts/headset-mic.sh
+
 # Low ram warning
 #exec --no-startup-id $HOME/.scripts/ram_warning.sh
 
