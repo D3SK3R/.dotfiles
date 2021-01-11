@@ -1,5 +1,18 @@
 #!/bin/sh
 
+# Panic script
+# it works as toggle:
+# execute the first time to panic and the second to go back to normal
+
+# Executing it the first time will chec if this is actually the first part of the toggle
+# then its gonna create an file to show, the next time, that the the script is activated
+
+# requirements:
+# i3-msg
+# xdo
+# wmctrl
+# 
+
 file=/tmp/panic
 
 if [ -z $(ls /tmp/ | grep panic) ]; then
@@ -25,13 +38,30 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # monitor and only then, moves me to the right workspace in the main monitor
     echo "workspace $ws" >> $file
 
-    # hides all possible open scratchpad windows
-    
+    # hides all scratchpad windows using wmctrl and i3-msg
+    # this part is probably the 'haviest' in this script and may slow everything down
+    # to fix:
+    # doesn't hide firefox, depending on the title
+    # for example: when you have unread messages on whatsapp
+    # echo commands for debug
 
+    titles=$(wmctrl -l | grep -e '-1' | cut -d' ' -f4-)
+    #echo "TITLES: $titles"
+    lines=$(echo "$titles" | wc -l)
+    #echo "LINES: $lines"
+
+    for line in $(seq $lines);
+    do
+        #continue
+        echo $(echo "$titles" | sed -n "$line"p | sed 's/^/"/;s/$/"/')
+        title=$(echo "$titles" | sed -n "$line"p | sed 's/^/"/;s/$/"/')
+        i3 "[title="$title"]" move scratchpad
+    done
+    
     # pauses the media if playing
     if [ $(playerctl status) = "Playing" ]; then
         echo 'playing' >> $file
-        playerctl stop;playerctl previous
+        playerctl play-pause
     fi
     mpc -p 1100 seek 0 && mpc -p 1100 pause
 
