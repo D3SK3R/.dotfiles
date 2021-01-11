@@ -8,10 +8,9 @@
 # then its gonna create an file to show, the next time, that the the script is activated
 
 # requirements:
-# i3-msg
+# i3 / i3-msg
 # xdo
 # wmctrl
-# 
 
 file=/tmp/panic
 
@@ -43,7 +42,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # to fix:
     # doesn't hide firefox, depending on the title
     # for example: when you have unread messages on whatsapp
-    # echo commands for debug
+    # (echo commands for debug)
 
     titles=$(wmctrl -l | grep -e '-1' | cut -d' ' -f4-)
     #echo "TITLES: $titles"
