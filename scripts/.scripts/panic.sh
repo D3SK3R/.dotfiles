@@ -44,6 +44,8 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # for example: when you have unread messages on whatsapp
     # (echo commands for debug)
 
+    # another command to get title of scratchpad windows:
+    # i3-msg -t get_tree | jq ".nodes|.[]|.|.nodes|.[]|.nodes|.[]|select(.name==\"__i3_scratch\")|.floating_nodes|.[]|.nodes|.[]|.name"
     titles=$(wmctrl -l | grep -e '-1' | cut -d' ' -f4-)
     #echo "TITLES: $titles"
     lines=$(echo "$titles" | wc -l)

@@ -10,8 +10,11 @@ focus_follows_mouse yes
 #border_radius 10
 #smart_borders on
 
-# NO BORDERS AT ALL
-#for_window [class=".*"] border none
+# for borders
+# change to 'border none' to have no borders
+# or
+# 'border pixel <size>' default is 2
+for_window [class=".*"] border pixel 0
 
 ################################################################################################
 ########################################  SET BASICS   #########################################
@@ -28,6 +31,10 @@ $exec sxhkd
 $exec ~/.scripts/monitors.sh
 
 $exec $HOME/.scripts/mouse_sens.sh
+
+$exec python3 $HOME/.i3/i3-swallow.py
+
+$exec sleep 10 && $HOME/.scripts/headset-mic.sh
 
 # Low ram warning
 #exec --no-startup-id $HOME/.scripts/ram_warning.sh
@@ -65,8 +72,8 @@ $exec urxvtd -q -o -f
 $exec sleep 10 && urxvt -name floating_urxvt
 #bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
-#for_window		[title="floating_urxvt"] move to position 400 40
-for_window		[title="floating_urxvt"] move to position center
+for_window		[title="floating_urxvt"] move to position 400 30
+#for_window		[title="floating_urxvt"] move to position center
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
 
@@ -80,9 +87,10 @@ for_window 			[title="dropdown_urxvt"] move scratchpad
 
 # Alacritty
 #exec --no-startup-id alacritty
-#for_window 	[title="Alacritty"] move to position 1738 64
-#for_window 	[class="Alacritty"] resize set 515 356
-#for_window 	[class="Alacritty"] border none
+for_window 	    [title="floating_Alacritty"] floating enable sticky enable
+#for_window 	[title="floating_Alacritty"] move to position 400 40
+for_window 	    [title="floating_Alacritty"] resize set 570 360
+#for_window 	[title="floating_Alacritty"] move scratchpad
 
 # Dropdown Spotify
 $exec spotify
@@ -90,19 +98,21 @@ $exec spotify
 for_window      [class="Spotify"] floating enable sticky enable
 for_window      [class="Spotify"] move scratchpad
 
-# Dropdown chaturbate picture in picture
-#bindsym F4      [title="Picture in picture"] scratchpad show
-for_window      [title="Picture in picture"] floating enable sticky enable
-for_window      [title="Picture in picture"] move scratchpad
-
+# Dropdown firefix
+#bindsym F4      [class="firefox"] scratchpad show
+for_window      [class="firefox"] floating enable sticky enable
+for_window      [class="firefox"] resize set 1360 740
+for_window      [class="firefox"] move to position center
+for_window      [class="firefox"] move scratchpad
+ 
 # Dropdown discord
-# DROPDOWN DISABLED BECAUSE IT CAUSES DISCORD TO LAG AS FUCK
-# to reenable just comment the bindsym line below this and uncomment everything else
 #bindsym $mod+Shift+d                            $exec discord
 #bindsym $mod+Shift+d    [class="discord"] scratchpad show
-#for_window              [class="discord"] floating enable sticky enable
-#for_window              [class="discord"] floating enable move position center
-#for_window              [class="discord"] move scratchpad
+$exec discord
+$exec premid
+for_window              [class="discord"] floating enable sticky enable
+for_window              [class="discord"] move position center resize set 1360 740
+for_window              [class="discord"] move scratchpad
 
 #########################################################################################################################################################################################
 # media
@@ -302,7 +312,7 @@ exec_always --no-startup-id $HOME/.scripts/keyboardLayout.sh
 # Keyboard repeat delay and interval default: 250 30
 exec_always --no-startup-id xset r rate 200 30 # first number after "rate" is delay, and second is interval
 # Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id sleep 4 && $HOME/.config/polybar/launch.sh
 # MegaSync
 exec --no-startup-id megasync
 # Touchpad Gestures
@@ -320,18 +330,20 @@ exec --no-startup-id libinput-gestures-setup restart
 exec_always --no-startup-id sleep 5 && flashfocus
 # Syncthing
 #exec_always --no-startup-id /path/to/syncthing/binary -no-browser -home="/home/d3sk3r/.config/syncthing"
-exec --no-startup-id syncthing -no-browser
+#exec --no-startup-id syncthing -no-browser
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # for picom
-$exec nitrogen --restore;sleep 1;picom -b
+$exec nitrogen --restore;sleep 1;picom -b --experimental-backend
 # for compton
 #exec --no-startup-id nitrogen --restore; sleep 1; compton -b --config ~/.config/compton-i3.conf-fading
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
+#exec --no-startup-id clipit
 exec --no-startup-id clipster -d
-exec --no-startup-id i3-battery-popup-git
+$exec copyq
+
+#exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
 exec --no-startup-id xautolock -time 60 -locker ~/.scripts/lock.sh
 exec_always --no-startup-id ff-theme-util
@@ -392,8 +404,9 @@ set $ws9 "9"
 #bindsym $mod+9 		    workspace $ws9
 
 # GAPS???????
+# for some reason I have to have workspace back_and_forth
+# assigned to a key combo for the gaps to work
 bindsym $mod+Tab	  	 	workspace back_and_forth
-
 
 # Move the container to the workspace
 #bindsym $mod+Shift+1 	    move container to workspace $ws1
@@ -447,9 +460,11 @@ for_window [title="Network Connections"] floating enable
 for_window [title="updater.sh"] floating enable
 for_window [class="Google-chrome"] border none
 for_window [title="Task Manager - Google Chrome"] floating enable
+for_window [title="Save File"] resize set 700 550 
+for_window [title="Save File"] move to position center 
 for_window [class="Chromium"] border none
 for_window [class="Brave"] border none
-for_window [class="dolphin"] move position center
+for_window [class="dolphin"] move to position center
 for_window [title="alsamixer"] floating enable border pixel 2
 for_window [class="calamares"] floating enable
 for_window [class="Clipgrab"] floating enable
@@ -468,7 +483,7 @@ for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
 for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
-for_window [class="qt5ct"] floating enable sticky enable
+for_window [class="qt5ct"] floating enable
 for_window [class="Qtconfig-qt4"] floating enable sticky enable
 for_window [class="Simple-scan"] floating enable
 for_window [class="(?i)System-config-printer.py"] floating enable
@@ -482,6 +497,10 @@ for_window [class="Musixmatch"] floating enable resize set 570 360
 for_window [title=".* [0-9]*:[0-9]* - mpv"] move container to workspace 2
 for_window [class="ViberPC"] floating enable move position center
 for_window [title="DevTools - *"] floating enable move to position center
+for_window [class="VirtualBox"] move to position center
+#for_window [class="VirtualBox Manger"] move to position center
+for_window [title="Spreed - the speed reading extension"] floating enable move to position center resize set 770 460
+for_window [class="copyq"] floating enable
 
 ################################################################################################
 ## 								            Colors                                            ##
@@ -612,7 +631,7 @@ mode "$mode_gaps_outer" {
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 #exec --no-startup-id i3-msg 'workspace 1; exec evolution'
 
-## !Doesn't work!
+## !i3bar!
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
 #	tray_output eDP1

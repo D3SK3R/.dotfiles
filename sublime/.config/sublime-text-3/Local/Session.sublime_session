@@ -726,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/i3/.i3/config",
+				"/home/d3sk3r/.dotfiles/i3/.i3/config.O",
 				"/home/d3sk3r/.config/rofi/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/i3-alternating-layout/other options",
 				"/home/d3sk3r/scratchpad",
@@ -851,9 +853,7 @@
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/fonts.ini",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/BAK/config",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts.ini",
-				"/home/d3sk3r/.mozilla/firefox/Bento/index.html",
-				"/home/d3sk3r/.mozilla/firefox/Bento/js/theme.js",
-				"/home/d3sk3r/.mozilla/firefox/Bento/css/style.css"
+				"/home/d3sk3r/.mozilla/firefox/Bento/index.html"
 			],
 			"find":
 			{

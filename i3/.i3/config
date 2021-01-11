@@ -404,8 +404,9 @@ set $ws9 "9"
 #bindsym $mod+9 		    workspace $ws9
 
 # GAPS???????
+# for some reason I have to have workspace back_and_forth
+# assigned to a key combo for the gaps to work
 bindsym $mod+Tab	  	 	workspace back_and_forth
-
 
 # Move the container to the workspace
 #bindsym $mod+Shift+1 	    move container to workspace $ws1
