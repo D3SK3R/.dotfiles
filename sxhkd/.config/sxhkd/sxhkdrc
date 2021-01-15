@@ -153,7 +153,7 @@ F4
 super + shift + d
     i3 \[class="discord"\] scratchpad show
 
-# Reload I3wm
+# Apply I3wm config
 super + shift + c
     i3 reload
 
