@@ -81,9 +81,9 @@ modules-center =
 modules-right = sepR4 cpu sepL2 sepR1 ram sepL3 sepR2 mute pavolume sepL2 sepR1 battery sepL3 sepR2 openweather sepL2 sepR1 date sepL3
 
 ;left - center - right - none
-tray-position = none
+tray-position = center
 ;tray-transparent = false
-tray-background = ${colors.bg}
+tray-background = ${colors.transparent}
 tray-foreground = ${colors.fg}
 tray-padding = 2
 tray-scale = 1.0

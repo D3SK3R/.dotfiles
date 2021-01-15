@@ -385,6 +385,8 @@ format-prefix = "  "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 #format-underline = ${colors.bg-alt}
+# hideIt.sh --name '^Polybar tray window$' --direction top --steps 1 --signal
+click-right = hideIt.sh --name '^Polybar tray window$' --toggle
 click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
 ;click-left = urxvt -e sh -c 'curl -s wttr.in | head -n7;sleep 10000'
 
@@ -522,4 +524,5 @@ date-alt = "  %a, %d %B %Y "
 
 time = " %H:%M "
 time-alt = " %H:%M:%S "
+
 
