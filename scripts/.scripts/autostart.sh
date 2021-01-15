@@ -1,99 +1,75 @@
 #!/bin/sh
 
-################################################################################################
-##                                         SCRIPTS                                            ##
-################################################################################################
+# function to check if the program is already running
+# if not, run it with an & in the end
+function run {
+    if ! pgrep $1; then
+        $@&
+    fi
+}
 
-# script to change i3 layout setting
-~/.scripts/alternating_layouts.py &
-# alternative: https://github.com/nwg-piotr/autotiling
+#######################
+###     programs    ###
+#######################
+run sxhkd
 
-# script to change mouse sens
-~/.scripts/mouse_sens.sh &
+run urxvtd -q -o -f
 
-# set keyboard layout 
-~/.scripts/keyboardLayout.sh &
+run xfce4-power-manager
 
-# set timeout to lock the screen
-xautolock -time 60 -locker ~/.scripts/lock.sh
+#run megasync
 
-# set keyboard repeat delay and interval
-xset r rate 200 30 # first number after "rate" is delay, and second is interval
+#run libinput-gestures-setup restart
 
-# theming?
-ff-theme-util
+#run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-# fix/set cursor theme
-fix_xcursor
+run nm-applet
 
-# touchpad gestures
-ibinput-gestures-setup restart &
+run pamac-tray
 
-# flashfocus 
-sleep 5 & flashfocus &
+run clipster -d
 
-# Send a warning when free ram gets lower
-#~/.scripts/ram_warning.sh &
+run copyq
 
-# Stretch notif
-~/.scripts/stretch.sh &
+#run xautolock -time 60 -locker ~/.scripts/lock.sh
 
-################################################################################################
-##                                         PROGRAMS                                           ##
-################################################################################################
+run ff-theme-util
 
-# polybar
-~/.config/polybar/launch.sh &
+run fix_xcursor
 
-# pulseaudio
-killall pulseaudio & sleep 0.5 & pulseaudio &
+#run spotify
 
-# urxvt daemon
-urxtv -q -o -f &
+#run firefox
 
-# run urxvt to use with scratchpad
-urxvt -name floating_urxvt &
+#run discord
 
-# restart xfce4-power-manager
-kill $(ps ax | awk '/xfce4-power-manager/ {print $1}' | head -n 1);sleep 1;xfce4-power-manager &
+#run premid
 
-# qutebrowser to use with scratchpad
-qutebrowser &
+xsetroot -cursor_name left_ptr &
 
-# spotify
-spotify &
+setxkbmap -model abnt2 -layout br -variant abnt2 &
 
-# fix betterdiscord and open discord
-sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord &
+killall pulseaudio && pulseaudio &
 
-# megasync
-megasync &
+nitrogen --restore;sleep 1;picom -b --experimental-backend &
 
-# albert
-#albert &
+#sleep 5 && flashfocus &
 
-# dunst notification
-#dunst &
+#######################
+###     scripts     ###
+#######################
+sleep 4 && $HOME/.config/polybar/launch.sh &
 
-# syncthing
-syncthing -no-browser &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+$HOME/.scripts/mouse_sens.sh &
 
-# picom
-nitrogen --restore;sleep 1;picom -b &
+#$HOME/.scripts/monitors.sh &
 
-# network-manager applet
-nm-applet &
+xset r rate 200 30 & 
+# first number is delay, and second is interval
 
-# pamac
-pamac-tray &
+#sleep 10 && $HOME/.scripts/headset-mic.sh &
 
-# clipit and clipster
-clipit & clipster -d &
-
-# telegram
-telegram-desktop -startintray &
-
+#$HOME/.scripts/better.sh &
 
 
 
