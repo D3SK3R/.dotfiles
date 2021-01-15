@@ -2,49 +2,7 @@
 # reset bspc rules when first running
 bcpc rule -r "*"
 
-##############################################################
-### Autostart ###
-pgrep -x sxhkd > /dev/null || sxhkd &
-
-killall pulseaudio;sleep 1;pulseaudio &
-
-#$HOME/.scripts/monitors.sh &
-
-$HOME/.scripts/keyboardLayout.sh &
-
-xset r rate 200 30 &
-
-$HOME/.config/polybar/launch.sh &
-
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
-nitrogen --restore;sleep 1;picom -b --experimental-backend &
-
-killall nm-applet;nm-applet &
-
-xfce4-power-manager &
-
-#sleep 10 && $HOME/.scripts/headset-mic.sh
-
-#libinput-gestures-setup restart &
-
-#megasync &
-
-#sleep 5 && flashfocus &
-
-clipster -d &
-
-copyq &
-
-xautolock -time 60 -locker $HOME/.scripts/lock.sh &
-
-ff-theme-util &
-
-fix_xcursor &
-
-urxvtd -q -o -f
-
-#$HOME/.scripts/better.sh
+$HOME/.scripts/autostart.sh
 ##############################################################
 
 ### Monitors ###
@@ -82,10 +40,15 @@ bspc config swallow_first_click     true
 # Colors
 bspc config normal_border_color     "#51526c"
 bspc config active_border_color     "#7fadff"
+bspc config focused_border_color    "#7fadff"
+bspc config presel_border_color     "#7fadff"
+bspc config urgent_border_color     "#7fadff"
 
 ### Rules ###
-bspc rule -a URxvt:floating_urxvt sticky=on state=floating center=true rectangle=570x360+0+0 
+#sleep 10 && urxvt -name floating_terminal
+bspc rule -a "*:*:floating_terminal" sticky=on state=floating center=true rectangle=570x360+0+0 
 bspc rule -a Arandr state=floating
+bspc rule -a Pavucontrol state=floating
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Chromium desktop='^2'
