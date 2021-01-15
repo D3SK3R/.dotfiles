@@ -8,7 +8,7 @@ monitor=$(xrandr | grep -ow 'DP1 connected')
 if [ "$monitor" ]; then
     # If second monitor connected, activated it to the left of my main monitor
     dunstify 'Second Monitor detected' '' -p 5 -r 5
-    xrandr --output eDP1 --primary --mode 1366x768 --pos 1360x0 --rotate normal --output DP1 --mode 1360x768 --pos 0x0 --rotate normal --output HDMI1 --off --output HDMI2 --off --output VIRTUAL1 --off;
+    xrandr --output eDP1 --primary --mode 1366x768 --pos 1360x0 --rotate normal --output DP1 --mode 1360x768 --pos 0x0 --rotate normal;
     #xrandr --output eDP1 --primary --auto --output DP1 --left-of eDP1 --auto
     #kill picom;picom -b --experimental-backend;
 else

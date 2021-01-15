@@ -45,8 +45,16 @@ $exec $HOME/.scripts/better.sh
 # Layouts
 #https://github.com/olemartinorg/i3-alternating-layout.git
 #$exec ~/.scripts/alternating_layouts.py
-$exec autotiling
-# alternative: https://github.com/nwg-piotr/autotiling
+
+# written in rust, possibly the best alternative
+#https://github.com/chmln/i3-auto-layout
+$exec ~/.i3/i3-autotiling
+
+# alternative: https://github.com/nwg-piotr/autotiling // or on AUR: autotiling // pip install autotiling
+#$exec autotiling
+
+# tested and buggy:
+# AUR: autotiling 1.3-1
 
 # Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
 # (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
@@ -72,8 +80,8 @@ $exec urxvtd -q -o -f
 $exec sleep 10 && urxvt -name floating_urxvt
 #bindsym F1 		[title="floating_urxvt"] scratchpad show
 for_window 		[title="floating_urxvt"] floating enable sticky enable
-for_window		[title="floating_urxvt"] move to position 400 30
-#for_window		[title="floating_urxvt"] move to position center
+#for_window		[title="floating_urxvt"] move to position 400 30
+for_window		[title="floating_urxvt"] move to position center
 for_window 		[title="floating_urxvt"] move scratchpad
 for_window 		[title="floating_urxvt"] resize set 570 360
 
