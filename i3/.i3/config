@@ -24,7 +24,7 @@ set $term urxvtc
 set $mpd_port 1100
 set $mpd_host localhost
 
-$exec sleep 3 && i3-msg workspace 1
+$exec sleep 3 && i3 workspace 1
 
 $exec sxhkd
 
@@ -56,7 +56,7 @@ $exec ~/.i3/i3-autotiling
 
 # Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
 # (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
-# (the assignment its ignored if no other display is connected = perfect)
+# (the assignment is ignored if no other display is connected = perfect)
 workspace $ws1 output eDP1
 workspace $ws2 output DP1
 workspace $ws3 output eDP1
@@ -106,6 +106,7 @@ for_window      [class="Spotify"] move scratchpad
 
 # Dropdown firefix
 #bindsym F4      [class="firefox"] scratchpad show
+$exec firefox
 for_window      [class="firefox"] floating enable sticky enable
 for_window      [class="firefox"] resize set 1360 740
 for_window      [class="firefox"] move to position center
@@ -117,7 +118,9 @@ for_window      [class="firefox"] move scratchpad
 $exec discord
 $exec premid
 for_window              [class="discord"] floating enable sticky enable
-for_window              [class="discord"] move position center resize set 1360 740
+#for_window              [class="discord"] move position center resize set 1360 740
+for_window              [class="discord"] resize set 1360 740
+for_window              [class="discord"] move to position center
 for_window              [class="discord"] move scratchpad
 
 #########################################################################################################################################################################################
@@ -348,7 +351,6 @@ exec --no-startup-id pamac-tray
 #exec --no-startup-id clipit
 exec --no-startup-id clipster -d
 $exec copyq
-$exec firefox
 
 #exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it
