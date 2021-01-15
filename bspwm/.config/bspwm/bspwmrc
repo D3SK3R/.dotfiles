@@ -58,26 +58,30 @@ bspc config merge_overlapping_monitors true
 xsetroot -cursor_name ptr &
 
 # Windows and borders
-bspc config border_width        0
-bspc config window_gap          10
-bspc config top_padding         32
-bspc config bottom_padding      0
-bspc config left_padding        0
-bspc config right_padding       0
+bspc config border_width            0
+bspc config window_gap              10
+bspc config top_padding             32
+bspc config bottom_padding          0
+bspc config left_padding            0
+bspc config right_padding           0
 
 # Layouts
-bspc config split_ratio         0.52
-bspc config borderless_monocle  true
-bspc config gapless_monocle     true
+bspc config split_ratio             0.52
+bspc config borderless_monocle      true
+bspc config gapless_monocle         true
 
 # Mouse
-bspc config pointer_modifier mod1
-bspc config pointer_action1 move
-bspc config pointer_action2 resize_side
-bspc config pointer_action3 resize_corner
-bspc config focus_follows_pointer true
-bspc config click_to_focus none
-bspc config swallow_first_click true
+bspc config pointer_modifier        mod1
+bspc config pointer_action1         move
+bspc config pointer_action2         resize_side
+bspc config pointer_action3         resize_corner
+bspc config focus_follows_pointer   true
+bspc config click_to_focus          none
+bspc config swallow_first_click     true
+
+# Colors
+bspc config normal_border_color     "#51526c"
+bspc config active_border_color     "#7fadff"
 
 ### Rules ###
 bspc rule -a URxvt:floating_urxvt sticky=on state=floating center=true rectangle=570x360+0+0 
