@@ -1,44 +1,65 @@
-[module/separatorR1]
-type = custom/text
-content = 
-content-font = 5
-content-foreground = ${colors.bg-alt}
-content-background = ${colors.fg-alt}
-
-[module/separatorR2]
-type = custom/text
-content = 
-content-font = 5
-content-foreground = ${colors.fg-alt}
-content-background = ${colors.bg-alt}
-
-[module/separatorR3]
+[module/sepR1]
 type = custom/text
 content = 
 content-font = 5
 content-foreground = ${colors.bg-alt}
 content-background = ${colors.transparent}
 
-[module/separatorL1]
+[module/sepR2]
+type = custom/text
+content = 
+content-font = 5
+content-foreground = ${colors.bg}
+content-background = ${colors.trasparent}
+
+[module/sepR3]
+type = custom/text
+content = 
+content-font = 5
+content-foreground = ${colors.bg-alt}
+content-background = ${colors.transparent}
+
+[module/sepR4]
+type = custom/text
+content = 
+content-font = 5
+content-foreground = ${colors.bg}
+content-background = ${colors.transparent}
+
+[module/sepL1]
 type = custom/text
 content = 
 content-font = 5
 content-foreground = ${colors.bg-alt}
-content-background = ${colors.fg-alt}
+content-background = ${colors.bg}
 
-[module/separatorL2]
+[module/sepL2]
 type = custom/text
 content = 
 content-font = 5
 content-foreground = ${colors.fg-alt}
-content-background = ${colors.bg-alt}
+content-background = ${colors.transparent}
 
-[module/separatorL3]
+[module/sepL3]
 type = custom/text
 content = 
 content-font = 5
 content-foreground = ${colors.bg-alt}
 content-background = ${colors.transparent}
+
+[module/sepL4]
+type = custom/text
+content = 
+content-font = 5
+content-foreground = ${colors.bg}
+content-background = ${colors.transparent}
+
+[module/mid]
+type = custom/text
+content = "   "
+content-font = 5
+content-foreground = ${colors.bg}
+content-background = ${colors.bg}
 
 [module/l1]
 type = custom/text
@@ -249,10 +270,10 @@ bar-progress-empty-foreground = #ffffff
 type = custom/script
 interval = 1
 #format-prefix = " "
-format = "<label> "
+format = "<label>"
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
 # icons for play/pause  ',' / ',' / ','
-exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
+exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f '{play_pause} {artist} - {song}' -t 55
 click-left = playerctl play-pause
 click-right = playerctl previous && playerctl stop
 format-background = ${colors.bg}
@@ -262,7 +283,7 @@ format-background = ${colors.bg}
 type = internal/cpu
 interval = 1
 #  / 
-label = " %percentage%% "
+label = " %percentage%%"
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 #label-underline = ${colors.bg-alt}
@@ -299,7 +320,7 @@ format-background = ${colors.bg-alt}
 [module/pavolume]
 type = custom/script
 tail = true
-label = "%output% "
+label = "%output%"
 exec = ~/.config/polybar/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
@@ -360,12 +381,12 @@ exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
 interval = 100
 #label-font = 2
 #format-prefix = "  "
-format-prefix = " "
+format-prefix = "  "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 #format-underline = ${colors.bg-alt}
-;click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
-click-left = urxvt -e sh -c 'curl -s wttr.in | head -n7;sleep 10000'
+click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
+;click-left = urxvt -e sh -c 'curl -s wttr.in | head -n7;sleep 10000'
 
 [module/network_wlan0]
 type = internal/network

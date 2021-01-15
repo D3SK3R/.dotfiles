@@ -19,13 +19,14 @@ black = #000000
 ;10% — 1A
 ;0% — 00
 
-;bg = #0e151b
-bg = #10141c
+bg = #090c12
+;bg = #10141c
 ;bg = #00000000
-bg-alt = #00CCFF
-;bg-alt = #88C0D0
+bg-alt = #18c1ff
+;bg-alt = #00CCFF
 fg = #F2F2F2
-fg-alt = #10141c
+;fg-alt = #10141c
+fg-alt = #090c12
 
 urgent = #EF5350
 occupied = #42A5F5

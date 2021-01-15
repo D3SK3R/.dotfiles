@@ -36,7 +36,7 @@ let g:airline_theme='simple'
 " if using a powerline font
 let g:airline_powerline_fonts = 1
 
-" disables "trailing" on airline (2 below lines = 2 options to disable)
+" disables "trailing" on airline (2 below lines = 2 ways to disable)
 let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_section_warning=''
 

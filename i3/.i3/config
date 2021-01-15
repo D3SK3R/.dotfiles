@@ -342,6 +342,7 @@ exec --no-startup-id pamac-tray
 #exec --no-startup-id clipit
 exec --no-startup-id clipster -d
 $exec copyq
+$exec firefox
 
 #exec --no-startup-id i3-battery-popup-git
 # Time to autolock the screen when not using it

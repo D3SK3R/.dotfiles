@@ -50,7 +50,7 @@ border-colors = ${colors.transparent}
 ;border-bottom-colors = ${colors.bg}
 ;border-transparent = true
 
-background = ${colors.bg}
+background = ${colors.transparent}
 foreground = ${colors.fg}
 
 ; Make polybar override (stay above) windows
@@ -74,13 +74,91 @@ include-file = ~/.config/polybar/fonts
 ; Module Location
 ;=========================================================
 
-modules-left = separatorR3 i3 separatorL1 spotify
-modules-center =
+modules-left = sepR1 i3 sepL3 sepR2 spotify sepL2
+modules-center = 
+#modules-center = sepR2 mid mid mid mid sepL2
 ;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
-modules-right = cpu separatorR1 ram separatorR2 mute pavolume separatorR1 battery separatorR2 openweather separatorR1 date separatorL3
+modules-right = sepR4 cpu sepL2 sepR1 ram sepL3 sepR2 mute pavolume sepL2 sepR1 battery sepL3 sepR2 openweather sepL2 sepR1 date sepL3
 
 ;left - center - right - none
-tray-position = center
+tray-position = none
+;tray-transparent = false
+tray-background = ${colors.bg}
+tray-foreground = ${colors.fg}
+tray-padding = 2
+tray-scale = 1.0
+;tray-maxsize = 15
+tray-offset-x = 0
+tray-offset-y = 0
+tray-output = eDP1
+# "xrandr | grep -Ew 'connected'" to see all connected display names
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
+;tray-detached = false
+
+;==========================================================
+; 				         Secondary Bar
+;==========================================================
+[bar/main2]
+width = 100%
+;height = 32
+height = 23
+; rounded corners
+radius = 4
+;radius-bottom = 4
+bottom = false
+fixed-center = true
+line-size = 1
+
+;padding = 5
+
+spacing = 0
+module-margin-left = 0
+module-margin-right = 0
+
+offset-y = 0
+offset-x = 0
+
+monitor = ${env:MONITOR:}
+
+border-size = 2
+border-colors = ${colors.transparent}
+;border-top-size = 2
+;border-top-colors = ${colors.transparent}
+;border-bottom-size = 1
+;border-bottom-colors = ${colors.bg}
+;border-transparent = true
+
+background = ${colors.transparent}
+foreground = ${colors.fg}
+
+; Make polybar override (stay above) windows
+override-redirect = false
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+enable-ipc = true
+
+;==========================================================
+; Fonts
+;==========================================================
+
+include-file = ~/.config/polybar/fonts
+
+;==========================================================
+; Module Location
+;=========================================================
+
+modules-left = sepR1 i3 sepL3 sepR2 spotify sepL2
+modules-center =
+;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
+modules-right = sepR4 cpu sepL2 sepR1 ram sepL3 sepR2 mute pavolume sepL2 sepR1 battery sepL3 sepR2 openweather sepL2 sepR1 date sepL3
+
+;left - center - right - none
+tray-position = none
 ;tray-transparent = false
 tray-background = ${colors.bg}
 tray-foreground = ${colors.fg}
