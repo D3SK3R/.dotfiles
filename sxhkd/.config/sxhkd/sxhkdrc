@@ -139,19 +139,19 @@ super + shift + q
 #########################################################################################
 
 F1
-    ~/.scripts/floating_toggle.sh --name floating_terminal
+    ~/.config/bspwm/floating_toggle.sh --name floating_terminal
 
 F2
-    ~/.scripts/floating_toggle.sh --name floating_terminal2
+    ~/.config/bspwm/floating_toggle.sh --name floating_terminal2
 
 F3
-    ~/.scripts/floating_toggle.sh --class Spotify
+    ~/.config/bspwm/floating_toggle.sh --class Spotify
 
 F4
-    ~/.scripts/floating_toggle.sh --class Firefox
+    ~/.config/bspwm/floating_toggle.sh --class Firefox
 
 super + shift + d
-    ~/.scripts/floating_toggle.sh --class discord
+    ~/.config/bspwm/floating_toggle.sh --class discord
 
 # focus or send a window to a desktop
 super + {_,shift + }{1-9}

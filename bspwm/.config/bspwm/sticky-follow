@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# https://www.reddit.com/r/bspwm/comments/hq8ygu/making_floating_scratchpad_windows_follow_focused/
+#"If you want to modify the behaviour of hidden sticky windows to make them also follow the focused desktop between monitors, you can use this subscribe script:"
+
+while bspc subscribe monitor_focus -c 1 > /dev/null; do
+    while bspc node 'any.!local.hidden.sticky.window' -d focused; do
+        :
+    done
+done
