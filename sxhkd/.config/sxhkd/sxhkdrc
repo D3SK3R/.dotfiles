@@ -158,8 +158,8 @@ super + {_,shift + }{1-9}
     bspc {desktop -f,node -d} {1-9}
     #bspc {desktop -f,node -d} focused:'^{1-9}'
 
-super + {_,shift + }Tab
-    {bspc monitor -f next,bspc node --to-monitor next}
+#super + {_,shift + }Tab
+#    {bspc monitor -f next,bspc node --to-monitor next}
 
 # focus/move the node in/to the given direction
 super + {_,shift + }{Left,Down,Up,Right}
