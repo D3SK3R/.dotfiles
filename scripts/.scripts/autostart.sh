@@ -25,9 +25,6 @@ $HOME/.scripts/mouse_sens.sh &
 
 #$HOME/.scripts/monitors.sh &
 
-xset r rate 200 30 & 
-# first number is delay, and second is interval
-
 #sleep 10 && $HOME/.scripts/headset-mic.sh &
 
 #$HOME/.scripts/better.sh &
@@ -35,6 +32,8 @@ xset r rate 200 30 &
 #######################
 ###     programs    ###
 #######################
+xrdb -merge $HOME/.Xresources
+
 run sxhkd
 
 run urxvtd -q -o -f
@@ -46,7 +45,6 @@ run xfce4-power-manager
 #run libinput-gestures-setup restart
 
 #run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
 
 run nm-applet
 
@@ -65,6 +63,9 @@ run fix_xcursor
 killall pulseaudio && pulseaudio &
 
 xsetroot -cursor_name left_ptr &
+
+xset r rate 200 30 & 
+# first number is delay, and second is interval
 
 setxkbmap -model abnt2 -layout br -variant abnt2 &
 
