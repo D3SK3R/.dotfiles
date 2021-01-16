@@ -48,11 +48,10 @@ $exec $HOME/.scripts/better.sh
 
 # written in rust, possibly the best alternative
 # https://github.com/chmln/i3-auto-layout
-$exec ~/.i3/i3-autotiling
+#$exec ~/.i3/i3-autotiling
 
-# tested and buggy:
 # https://github.com/nwg-piotr/autotiling // or on AUR: autotiling // pip install autotiling
-#$exec autotiling
+$exec autotiling
 
 # Assign workspaces 3 and 4 for the second display, and the other workspaces for the default
 # (Change "eDP1" and "DP1" with the displays in use [see all connected displays and their names using "xrandr | grep -Ew 'connected'" ])
