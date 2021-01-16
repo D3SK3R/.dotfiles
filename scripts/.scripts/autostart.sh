@@ -80,7 +80,7 @@ setxkbmap -model abnt2 -layout br -variant abnt2 &
 
 nitrogen --restore;sleep 1;picom -b --experimental-backend &
 
-flashfocus &
+sleep 3 $$ flashfocus &
 
 # floating stuff
 sleep 3 && urxvt -name floating_terminal &
