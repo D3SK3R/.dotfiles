@@ -49,11 +49,11 @@ run urxvtd -q -o -f
 
 run xfce4-power-manager
 
-#run megasync
+run megasync
 
-#run libinput-gestures-setup restart
+run libinput-gestures-setup restart
 
-#run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 run nm-applet
 
@@ -87,10 +87,10 @@ sleep 3 && urxvt -name floating_terminal &
 
 sleep 3 && urxvt -name floating_terminal2 &
 
-#sleep 3 && spotify &
+sleep 3 && bspc rule -a "*:" -o hidden=on sticky=on state=floating & spotify &
 
-#sleep 4 && firefox &
+sleep 4 && firefox &
 
-#sleep 3 && discord & premid &
+sleep 3 && discord & premid &
 
 

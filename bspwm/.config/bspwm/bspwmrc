@@ -66,9 +66,11 @@ bspc config urgent_border_color     "#7fadff"
 bspc rule -a "URxvt:*:floating_terminal" hidden=on sticky=on state=floating rectangle=570x360+400+32 
 bspc rule -a "URxvt:*:floating_terminal2" hidden=on sticky=on state=floating rectangle=1356x732+3+28
 # DO NOT USE: spotify (or bspwm) is bugged, it shows as having no class/name
+# workaround: bspc rule -a "*:" -o hidden=on sticky=on state=floating
+# then open spotify
 #bspc rule -a "*:" hidden=on sticky=on state=floating rectangle=800x600+283+84
-bspc rule -a firefox hidden=on sticky=on state=floating rectangle=1356x732+3+28
-bspc rule -a discord hidden=on sticky=on state=floating rectangle=1356x732+3+28
+bspc rule -a firefox hidden=on sticky=on state=floating rectangle=1356x732+5+32
+bspc rule -a discord hidden=on sticky=on state=floating rectangle=1356x732+5+32
 #bspc rule -a copyq state=floating center=true rectangle=665x355+0+0
 bspc rule -a copyq state=floating center=true
 bspc rule -a Arandr state=floating
