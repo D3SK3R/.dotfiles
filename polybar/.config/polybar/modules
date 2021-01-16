@@ -107,6 +107,63 @@ content-foreground = ${colors.bg-alt}
 content-background = ${colors.fg-alt}
 
 ;==========================================================
+;https://github.com/polybar/polybar/wiki/Module:-bspwm
+[module/bspwm]
+type = internal/bspwm
+format = <label-state><label-monitor>
+pin-workspaces = false
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+label-monitor-font = 1
+label-focused-font = 1
+label-occupied-font = 1
+label-empty-font = 1
+label-urgent-font = 1
+
+label-monitor = %name%
+label-monitor-background       = ${colors.bg-alt}
+label-monitor-foreground       = ${colors.fg-alt}
+label-monitor-padding          = 1
+
+label-focused               = 
+label-focused-background    = ${colors.bg-alt}
+;label-focused-foreground    = #77B9C4
+label-focused-foreground    = ${colors.fg-alt}
+label-focused-padding       = 1
+
+;label-occupied               = 
+label-occupied               = 
+label-occupied-background     = ${colors.bg-alt}
+label-occupied-foreground    = ${colors.fg-alt}
+label-occupied-padding       = 1
+
+; leave this blank so that the bar will only show desktops occupied by something
+label-empty             =
+;label-empty             = 
+;label-empty 			= 
+label-empty-background  = ${colors.bg-alt}
+;label-empty-foreground  = #abb2bf
+label-empty-foreground  = ${colors.fg-alt}
+label-empty-padding     = 1
+
+label-urgent                = 
+label-urgent-background     = ${colors.bg-alt}
+label-urgent-foreground     = #ff0000
+label-urgent-padding        = 1
+
+; If any values for label-dimmed-N are defined, the workspace/mode
+; colors will get overridden with those values if the monitor is out of focus
+; To only override workspaces in a specific state, use:
+;   label-dimmed-focused
+;   label-dimmed-occupied
+;   label-dimmed-urgent
+;   label-dimmed-empty
+;label-dimmed-foreground = #555
+;label-dimmed-focused-background = #f00
+
 
 ;  _ ____
 ; (_)__ /_ __ ___ __

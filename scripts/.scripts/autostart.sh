@@ -3,10 +3,12 @@
 # check if the script is running right after the system started
 # so that I can edit and reload my bspwmrc without it
 # re-running this script
-#uptime="$(uptime -p | cut -d' ' -f2)"
-if [[ "$uptime" -gt "1" ]]; then
+uptime="$(cat /proc/uptime | cut -d' ' -f1 | cut -d'.' -f1)"
+if [[ "$uptime" -gt "100" ]]; then
     exit 
 fi
+
+dunstify "Running autostart script"
 
 # function to check if the program is already running
 # if not, run it with an & in the end
@@ -25,7 +27,9 @@ $HOME/.scripts/mouse_sens.sh &
 
 #$HOME/.scripts/monitors.sh &
 
-#sleep 10 && $HOME/.scripts/headset-mic.sh &
+$HOME/.config/bspwm/swallowbspwm &
+
+#sleep 5 && $HOME/.scripts/headset-mic.sh &
 
 #$HOME/.scripts/better.sh &
 
@@ -78,7 +82,7 @@ sleep 3 && urxvt -name floating_terminal2 &
 
 #sleep 3 && spotify &
 
-sleep 3 && firefox &
+sleep 4 && firefox &
 
 sleep 3 && discord & premid &
 

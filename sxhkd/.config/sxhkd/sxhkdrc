@@ -107,6 +107,10 @@ super + z
 XF86Audio{Raise,Lower}Volume
     ~/.scripts/volume.sh Master {2%+,2%-}
 
+# change volume using super + mouse
+super + {button4, button5}
+    ~/.scripts/volume.sh Master {2%+,2%-}
+
 # Brightness
 XF86MonBrightness{Up,Down}
     ~/.scripts/brightness.sh {+,-}
@@ -150,7 +154,7 @@ super + shift + q
 #
 ## focus or send a window to a desktop
 #super + {_,shift + }{1-9}
-#	bspc {desktop -f,node -d} focused:'^{1-9}'
+#	bspc {desktop -s,node -d} focused:'^{1-9}'
 #
 ## focus/move the node in/to the given direction
 #super + {_,shift + }{Left,Down,Up,Right}
@@ -178,7 +182,8 @@ super + shift + q
 #
 ## toggle fullscreen and pseudo-fullscreen
 #super + {shift, ctrl} + f
-#    {bspc desktop -l next, bspc node -t \~fullscreen;~/.config/polybar/scripts/toggle_polybar.sh;sleep 0.1;bspc config top_padding 22}
+#    {bspc desktop -l next, bspc node -t \~fullscreen}
+##    {bspc desktop -l next, bspc node -t \~fullscreen;~/.config/polybar/scripts/toggle_polybar.sh;sleep 0.1;bspc config top_padding 22}
 
 #########################################################################################
 ##                               I3WM Keybindings                                      ##
