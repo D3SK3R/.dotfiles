@@ -34,9 +34,9 @@ $HOME/.scripts/mouse_sens.sh &
 
 $HOME/.config/bspwm/swallowbspwm &
 
-#$HOME/.scripts/better.sh &
+$HOME/.scripts/better.sh &
 
-#sleep 2 && $HOME/.scripts/headset-mic.sh &
+sleep 2 && $HOME/.scripts/headset-mic.sh &
 
 #######################
 ###     programs    ###
