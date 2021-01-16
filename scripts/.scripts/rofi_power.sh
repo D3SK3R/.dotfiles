@@ -40,7 +40,8 @@ then
         sleep 0.5;i3exit suspend
         ;;
       LOGOUT)
-        i3exit logout
+        #i3exit logout
+        bspc quit
         ;;
       REBOOT)
         i3exit reboot
