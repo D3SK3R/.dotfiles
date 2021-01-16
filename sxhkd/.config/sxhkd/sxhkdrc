@@ -140,7 +140,13 @@ F2
     ~/.scripts/floating_toggle.sh --name floating_terminal2
 
 F3
-    ~/.scritps/floating_toggle.sh --class Spotify
+    ~/.scripts/floating_toggle.sh --class Spotify
+
+F4
+    ~/.scripts/floating_toggle.sh --class Firefox
+
+super + shift + d
+    ~/.scripts/floating_toggle.sh --class discord
 
 # focus or send a window to a desktop
 super + {_,shift + }{1-9}
@@ -155,7 +161,7 @@ super + ctrl + {Left,Down,Up,Right}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
-ctrl + alt + shift + {Left,Down,Up,Right}
+ctrl + alt + {Left,Down,Up,Right}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
@@ -180,20 +186,20 @@ super + {shift, ctrl} + f
 
 # Floating Stuff
 # Floating terminal 1
-F1
-    i3 \[title="floating_urxvt"\] scratchpad show
-
-# Floating terminal 2
-F2
-    i3 \[title="dropdown_urxvt"\] scratchpad show
-
-# Spotify
-F3
-    i3 \[class="Spotify"\] scratchpad show
-
-# Picture in picture windows
-F4
-    i3 \[class="firefox"\] scratchpad show
+#F1
+#    i3 \[title="floating_urxvt"\] scratchpad show
+#
+## Floating terminal 2
+#F2
+#    i3 \[title="dropdown_urxvt"\] scratchpad show
+#
+## Spotify
+#F3
+#    i3 \[class="Spotify"\] scratchpad show
+#
+## Picture in picture windows
+#F4
+#    i3 \[class="firefox"\] scratchpad show
 
 # Discord
 super + shift + d

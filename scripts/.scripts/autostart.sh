@@ -39,14 +39,6 @@ run fix_xcursor
 
 run pulseaudio &
 
-#run spotify
-
-#run firefox
-
-#run discord
-
-#run premid
-
 xsetroot -cursor_name left_ptr &
 
 setxkbmap -model abnt2 -layout br -variant abnt2 &

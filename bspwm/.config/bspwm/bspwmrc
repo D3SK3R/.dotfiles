@@ -2,6 +2,12 @@
 # reset bspc rules when first running
 bcpc rule -r "*"
 
+# get node property:
+# first get the id:
+# xdotool search --name "<program name>"
+# or --class "<program class>"
+# bspc node <id> --focus;bspc query -T -n
+
 #$HOME/.scripts/autostart.sh
 ##############################################################
 
@@ -16,7 +22,7 @@ bspc config merge_overlapping_monitors true
 xsetroot -cursor_name ptr &
 
 # Windows and borders
-bspc config border_width            2
+bspc config border_width            0
 bspc config window_gap              10
 bspc config top_padding             22
 bspc config bottom_padding          0
@@ -56,12 +62,21 @@ bspc config presel_border_color     "#7fadff"
 bspc config urgent_border_color     "#7fadff"
 
 ### Rules ###
-#sleep 10 && urxvt -name floating_terminal
+# exec stuff in the autostart.sh
+# so that it wont duplicate everytime
+# the config file is reset
+#sleep 5 && urxvt -name floating_terminal &
 bspc rule -a "*:*:floating_terminal" hidden=on sticky=on state=floating rectangle=570x360+400+32 
-#sleep 10 && urxvt -name floating_termianl2
-bspc rule -a "*:*:floating_terminal2" hidden=on sticky=on state=floating center=true
-#spotify
-#bspc rule -a Spotify sticky=on state=floating center=true
+#sleep 5 && urxvt -name floating_terminal2 &
+bspc rule -a "*:*:floating_terminal2" hidden=on sticky=on state=floating rectangle=1356x732+3+28
+#spotify &
+# spotify (or bspwm) is bugged, it shows as having no class/name
+#bspc rule -a "*:" hidden=on sticky=on state=floating rectangle=800x600+283+84
+#firefox &
+bspc rule -a firefox hidden=on sticky=on state=floating rectangle=1356x732+3+28
+#discord &
+#premid &
+bspc rule -a discord hidden=on sticky=on state=floating rectangle=1356x732+3+28
 bspc rule -a Arandr state=floating
 bspc rule -a Pavucontrol state=floating
 
