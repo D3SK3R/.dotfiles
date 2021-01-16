@@ -37,6 +37,8 @@ run ff-theme-util
 
 run fix_xcursor
 
+run pulseaudio &
+
 #run spotify
 
 #run firefox
@@ -48,8 +50,6 @@ run fix_xcursor
 xsetroot -cursor_name left_ptr &
 
 setxkbmap -model abnt2 -layout br -variant abnt2 &
-
-killall pulseaudio && pulseaudio &
 
 nitrogen --restore;sleep 1;picom -b --experimental-backend &
 
