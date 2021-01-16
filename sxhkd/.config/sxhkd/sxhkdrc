@@ -133,53 +133,53 @@ super + shift + q
 ##                               BSPWM Keybindings                                     ##
 #########################################################################################
 
-#F1
-#    ~/.scripts/floating_toggle.sh --name floating_terminal
-#
-#F2
-#    ~/.scripts/floating_toggle.sh --name floating_terminal2
-#
-#F3
-#    ~/.scripts/floating_toggle.sh --class Spotify
-#
-#F4
-#    ~/.scripts/floating_toggle.sh --class Firefox
-#
-#super + shift + d
-#    ~/.scripts/floating_toggle.sh --class discord
-#
-## focus or send a window to a desktop
-#super + {_,shift + }{1-9}
-#	bspc {desktop -f,node -d} focused:'^{1-9}'
-#
-## focus/move the node in/to the given direction
-#super + {_,shift + }{Left,Down,Up,Right}
-#	bspc node -{f,s} {west,south,north,east}
-#
-## expand a window by moving one of its side outward
-#super + ctrl + {Left,Down,Up,Right}
-#	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-#
-## contract a window by moving one of its side inward
-##ctrl + alt + shift {Left,Down,Up,Right}
-##	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-#
-## move a floating window
-#super + alt + {Left,Down,Up,Right}
-#	bspc node -v {-20 0,0 20,0 -20,20 0}
-#
-## apply bspwm config
-#super + shift + c
-#    bspc wm -r
-#
-## toggle floating
-#super + shift + space
-#    bspc node -t \~floating
-#
-## toggle fullscreen
-#super + {shift, ctrl} + f
-#    {bspc desktop -l next, bspc node -t \~fullscreen;~/.config/polybar/scripts/toggle_polybar.sh}
-#
+F1
+    ~/.scripts/floating_toggle.sh --name floating_terminal
+
+F2
+    ~/.scripts/floating_toggle.sh --name floating_terminal2
+
+F3
+    ~/.scripts/floating_toggle.sh --class Spotify
+
+F4
+    ~/.scripts/floating_toggle.sh --class Firefox
+
+super + shift + d
+    ~/.scripts/floating_toggle.sh --class discord
+
+# focus or send a window to a desktop
+super + {_,shift + }{1-9}
+	bspc {desktop -f,node -d} focused:'^{1-9}'
+
+# focus/move the node in/to the given direction
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# expand a window by moving one of its side outward
+super + ctrl + {Left,Down,Up,Right}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+ctrl + alt + {Left,Down,Up,Right}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + alt + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# apply bspwm config
+super + shift + c
+    bspc wm -r
+
+# toggle floating
+super + shift + space
+    bspc node -t \~floating
+
+# toggle fullscreen
+super + {shift, ctrl} + f
+    {bspc desktop -l next, bspc node -t \~fullscreen;~/.config/polybar/scripts/toggle_polybar.sh;sleep 0.1;bspc config top_padding 22}
+
 #########################################################################################
 ##                               I3WM Keybindings                                      ##
 #########################################################################################
@@ -200,7 +200,7 @@ super + shift + q
 ## Picture in picture windows
 #F4
 #    i3 \[class="firefox"\] scratchpad show
-
+#
 # Discord
 super + shift + d
     i3 \[class="discord"\] scratchpad show

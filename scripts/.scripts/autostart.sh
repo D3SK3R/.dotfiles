@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# check if the script is running right after the system started
+# so that I can edit and reload my bspwmrc without it
+# re-running this script
+#uptime="$(uptime -p | cut -d' ' -f2)"
+if [[ "$uptime" -gt "1" ]]; then
+    exit 
+fi
+
 # function to check if the program is already running
 # if not, run it with an & in the end
 function run {
@@ -7,6 +15,22 @@ function run {
         $@&
     fi
 }
+
+#######################
+###     scripts     ###
+#######################
+$HOME/.config/polybar/launch.sh &
+
+$HOME/.scripts/mouse_sens.sh &
+
+#$HOME/.scripts/monitors.sh &
+
+xset r rate 200 30 & 
+# first number is delay, and second is interval
+
+#sleep 10 && $HOME/.scripts/headset-mic.sh &
+
+#$HOME/.scripts/better.sh &
 
 #######################
 ###     programs    ###
@@ -23,13 +47,14 @@ run xfce4-power-manager
 
 #run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
+
 run nm-applet
 
 run pamac-tray
 
 run clipster -d
 
-run copyq
+run copyq 
 
 #run xautolock -time 60 -locker ~/.scripts/lock.sh
 
@@ -37,7 +62,7 @@ run ff-theme-util
 
 run fix_xcursor
 
-run pulseaudio &
+killall pulseaudio && pulseaudio &
 
 xsetroot -cursor_name left_ptr &
 
@@ -45,23 +70,17 @@ setxkbmap -model abnt2 -layout br -variant abnt2 &
 
 nitrogen --restore;sleep 1;picom -b --experimental-backend &
 
-#sleep 5 && flashfocus &
+# floating stuff
+sleep 3 && urxvt -name floating_terminal &
 
-#######################
-###     scripts     ###
-#######################
-sleep 4 && $HOME/.config/polybar/launch.sh &
+sleep 3 && urxvt -name floating_terminal2 &
 
-$HOME/.scripts/mouse_sens.sh &
+#sleep 3 && spotify &
 
-#$HOME/.scripts/monitors.sh &
+sleep 3 && firefox &
 
-xset r rate 200 30 & 
-# first number is delay, and second is interval
+sleep 3 && discord & premid &
 
-#sleep 10 && $HOME/.scripts/headset-mic.sh &
-
-#$HOME/.scripts/better.sh &
-
+flashfocus &
 
 

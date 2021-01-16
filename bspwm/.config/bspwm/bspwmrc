@@ -8,7 +8,7 @@ bcpc rule -r "*"
 # or --class "<program class>"
 # bspc node <id> --focus;bspc query -T -n
 
-#$HOME/.scripts/autostart.sh
+$HOME/.scripts/autostart.sh
 ##############################################################
 
 ### Monitors ###
@@ -62,20 +62,11 @@ bspc config presel_border_color     "#7fadff"
 bspc config urgent_border_color     "#7fadff"
 
 ### Rules ###
-# exec stuff in the autostart.sh
-# so that it wont duplicate everytime
-# the config file is reset
-#sleep 3 && urxvt -name floating_terminal &
-bspc rule -a "*:*:floating_terminal" hidden=on sticky=on state=floating rectangle=570x360+400+32 
-#sleep 3 && urxvt -name floating_terminal2 &
-bspc rule -a "*:*:floating_terminal2" hidden=on sticky=on state=floating rectangle=1356x732+3+28
-#sleep 3 && spotify &
-# spotify (or bspwm) is bugged, it shows as having no class/name
+bspc rule -a "URxvt:*:floating_terminal" hidden=on sticky=on state=floating rectangle=570x360+400+32 
+bspc rule -a "URxvt:*:floating_terminal2" hidden=on sticky=on state=floating rectangle=1356x732+3+28
+# DO NOT USE: spotify (or bspwm) is bugged, it shows as having no class/name
 #bspc rule -a "*:" hidden=on sticky=on state=floating rectangle=800x600+283+84
-#sleep 3 && firefox &
 bspc rule -a firefox hidden=on sticky=on state=floating rectangle=1356x732+3+28
-#sleep 3 && discord &
-#premid &
 bspc rule -a discord hidden=on sticky=on state=floating rectangle=1356x732+3+28
 bspc rule -a Arandr state=floating
 bspc rule -a Pavucontrol state=floating
