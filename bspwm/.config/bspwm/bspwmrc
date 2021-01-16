@@ -1,6 +1,6 @@
 #!/bin/sh
 # reset bspc rules when first running
-bcpc rule -r "*"
+#bcpc rule -r "*"
 
 # get node property:
 # first get the id:
@@ -12,8 +12,8 @@ $HOME/.scripts/autostart.sh
 ##############################################################
 
 ### Monitors ###
-bspc monitor eDP1 -d 1 3 5 6 7 8 9
-bspc monitor DP1 -d 2 4
+# already set in the autostart script
+#bspc monitor -d 1 2 3 4 5 6 7 8 9
 bspc config remove_disabled_monitors true
 bspc config remove_unplugged_monitors true
 bspc config merge_overlapping_monitors true
@@ -51,7 +51,8 @@ bspc config pointer_action1         move
 bspc config pointer_action2         resize_side
 bspc config pointer_action3         resize_corner
 bspc config focus_follows_pointer   true
-bspc config click_to_focus          none
+bspc config pointer_follows_monitor true
+bspc config click_to_focus          button1
 bspc config swallow_first_click     true
 
 # Colors
@@ -68,7 +69,8 @@ bspc rule -a "URxvt:*:floating_terminal2" hidden=on sticky=on state=floating rec
 #bspc rule -a "*:" hidden=on sticky=on state=floating rectangle=800x600+283+84
 bspc rule -a firefox hidden=on sticky=on state=floating rectangle=1356x732+3+28
 bspc rule -a discord hidden=on sticky=on state=floating rectangle=1356x732+3+28
-bspc rule -a copyq state=floating center=true rectangle=665x355+0+0
+#bspc rule -a copyq state=floating center=true rectangle=665x355+0+0
+bspc rule -a copyq state=floating center=true
 bspc rule -a Arandr state=floating
 bspc rule -a Pavucontrol state=floating
 

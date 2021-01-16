@@ -75,7 +75,7 @@ include-file = ~/.config/polybar/fonts
 ; Module Location
 ;=========================================================
 
-modules-left = sepR1 i3 sepL3 sepR2 spotify sepL2
+modules-left = sepR1 bspwm sepL3 sepR2 spotify sepL2
 modules-center = 
 #modules-center = sepR2 mid mid mid mid sepL2
 ;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
@@ -154,7 +154,7 @@ include-file = ~/.config/polybar/fonts
 ; Module Location
 ;=========================================================
 
-modules-left = sepR1 i3 sepL3 sepR2 spotify sepL2
+modules-left = sepR1 bspwm sepL3 sepR2 spotify sepL2
 modules-center =
 ;modules-right = r3 cpu r1 ram r2 pavolume r1 battery r2 openweather r1 popup-calendar-date r2 popup-calendar-clock r1 r3
 modules-right = sepR4 cpu sepL2 sepR1 ram sepL3 sepR2 mute pavolume sepL2 sepR1 battery sepL3 sepR2 openweather sepL2 sepR1 date sepL3
