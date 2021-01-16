@@ -727,6 +727,8 @@
 			"file_history":
 			[
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Shades-BlacknWhite/config",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/modules",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/config",
 				"/home/d3sk3r/changes",
 				"/home/d3sk3r/MEGA/discord/shizu/insta",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
@@ -851,9 +853,7 @@
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/modules",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/fonts",
 				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/colors",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/config.ini",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/colors.ini",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/fonts.ini"
+				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/ex/config.ini"
 			],
 			"find":
 			{
@@ -1034,7 +1034,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2048,35,2718,760,2726,768",
+			"position": "0,0,0,0,0,2054,37,2722,758,2732,768",
 			"project": "",
 			"replace":
 			{
