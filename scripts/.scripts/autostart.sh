@@ -21,14 +21,14 @@ function run {
 #######################
 ###     scripts     ###
 #######################
+autorandr --change &
 # everything about monitors is commented
 # since I'm using autorandr that executed all of this
 #$HOME/.config/bspwm/monitors-bspwm &
 
 # both scripts are already inside monitors-bspwm
 #$HOME/.scripts/monitors.sh &
-
-sleep 3 && $HOME/.config/polybar/launch.sh &
+#sleep 3 && $HOME/.config/polybar/launch.sh &
 
 $HOME/.scripts/mouse_sens.sh &
 
@@ -42,8 +42,6 @@ $HOME/.config/bspwm/swallowbspwm &
 ###     programs    ###
 #######################
 xrdb -merge $HOME/.Xresources
-
-autorandr --change &
 
 run sxhkd
 
