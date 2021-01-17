@@ -726,6 +726,12 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/gtk.css",
+				"/home/d3sk3r/.dotfiles/kvantum/.config/Kvantum/KvantumGently-Kv/KvantumGently-Kv.kvconfig",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/oomox-git/where and git.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi issue/toInstall",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/13_ignoreUpdates - not necessary/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/airline/where",
@@ -847,13 +853,7 @@
 				"/home/d3sk3r/.config/copyq/copyq_tabs.ini",
 				"/home/d3sk3r/.config/copyq/copyq.conf",
 				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/yr/ingrid.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/mass delete discord pv messeges.ahk.ahk",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Blizzard Security question-answer.txt",
-				"/home/d3sk3r/clipster",
-				"/home/d3sk3r/xclip",
-				"/home/d3sk3r/.themes/theme-desker/gtk-3.0/gtk.css"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini"
 			],
 			"find":
 			{
@@ -871,6 +871,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"text",
 					"1818",
 					"openw",
 					"imgbg",
@@ -1034,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,678,758,2732,768",
+			"position": "0,0,0,0,0,2054,402,2722,758,2732,768",
 			"project": "",
 			"replace":
 			{

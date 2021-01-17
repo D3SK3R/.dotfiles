@@ -1,5 +1,2 @@
 [General]
-theme=Fluent-Dark
-
-[Applications]
-Sweet=VirtualBoxManager, Virtualbox, virtualbox, VirtualBoxMachine, PKHeX, mpv, gl
+theme=Kde-Story-Dark-Kvantum

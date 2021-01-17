@@ -87,7 +87,8 @@ super + r
 
 # Sublime and Dual Monitor Script
 super + {_, shift} + s
-    {subl, ~/.config/bspwm/monitors-bspwm}
+    {subl, $HOME/.config/polybar/launch.sh}
+    #{subl, ~/.config/bspwm/monitors-bspwm}
     #{subl, ~/.scripts/monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
 # Rofi NetworkManager
