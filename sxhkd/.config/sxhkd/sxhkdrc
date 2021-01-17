@@ -15,8 +15,10 @@ super + Pause
   pkill -USR1 -x sxhkd;notify-send 'sxhkd' 'Reloaded config'
 
 # Terminal
-super + {_,shift +} Return
-    {urxvtc -cd ~, alacritty}
+super + Return
+    urxvtc -cd ~
+#super + {_,shift +} Return
+#    {urxvtc -cd ~, alacritty}
 
 # Print (flameshot)
 {_,super +} Print
@@ -167,7 +169,8 @@ super + {_,shift + }{Left,Down,Up,Right}
 
 # expand a window by moving one of its side outward
 super + ctrl + {Left,Down,Up,Right}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+	~/resize-bspwm {left,down,up,right} 20
+	#bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
 ctrl + alt + {Left,Down,Up,Right}
@@ -188,7 +191,14 @@ super + shift + space
 # toggle fullscreen and pseudo-fullscreen
 super + {shift, ctrl} + f
     {bspc desktop -l next, bspc node -t \~fullscreen}
-#    {bspc desktop -l next, bspc node -t \~fullscreen;~/.config/polybar/scripts/toggle_polybar.sh;sleep 0.1;bspc config top_padding 22}
+
+# preselect
+super + shift + Return; {Left,Down,Up,Right}
+    bspc node -p {west,south,north,east}
+
+# Rotate tree
+super + shift + {d,a}
+    bspc node @/ -C {forward,backward}
 
 #########################################################################################
 ##                               I3WM Keybindings                                      ##
