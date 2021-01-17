@@ -38,17 +38,24 @@ spacing = 0
 module-margin-left = 0
 module-margin-right = 0
 
-offset-y = 0
-offset-x = 0
+offset-y = 0%
+offset-x = 0%
 
+# ex: MONITOR=eDP1 polybar --reload main
 monitor = ${env:MONITOR:}
 
 border-size = 2
 border-colors = ${colors.transparent}
+
 ;border-top-size = 2
 ;border-top-colors = ${colors.transparent}
+
 ;border-bottom-size = 1
 ;border-bottom-colors = ${colors.bg}
+
+;border-left-size = 0
+;border-bottom-size = 0
+
 ;border-transparent = true
 
 background = ${colors.transparent}
@@ -91,7 +98,7 @@ tray-scale = 1.0
 ;tray-maxsize = 15
 tray-offset-x = 0
 tray-offset-y = 0
-tray-output = eDP1
+tray-output = ${env:MONITOR:}
 # "xrandr | grep -Ew 'connected'" to see all connected display names
 ;tray_output {display_name, e.g.: eDP1 or 'primary'}
 ;tray-detached = false
