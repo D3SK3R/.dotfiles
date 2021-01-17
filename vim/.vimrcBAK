@@ -19,28 +19,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-"Plugin 'tpope/vim-fugitive'
-
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-
-" git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
-
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
 " 'vim +PluginInstall +qall' on terminal or :PluginInstall on vim to install a
 " plugin
 
@@ -52,22 +30,22 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " themes: https://github.com/vim-airline/vim-airline/wiki/Screenshots
-let g:airline_theme='monochrome'
+let g:airline_theme='simple'
 " fav themes: simple/monochrome/minimalist/serene
 
 " if using a powerline font
 let g:airline_powerline_fonts = 1
 
-" disables "trailing" on airline
+" disables "trailing" on airline (2 below lines = 2 ways to disable)
 let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_section_warning=''
 
 " :h airline
 " if using monochrome theme, if not, comment below
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
 
 " uncomment below to change symbol characters
 let g:airline_symbols = {}
@@ -86,13 +64,56 @@ Plugin 'ap/vim-css-color'
 
 " ctrl+f to use
 Plugin 'preservim/nerdtree'
+let NERDTreeQuitOnOpen=1
 
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 
-" urxvt doesn't support icons so I have to disable... :(
-"Plugin 'ryanoasis/vim-devicons'
+""""""
+Plugin 'terryma/vim-multiple-cursors'
+" https://github.com/terryma/vim-multiple-cursors#installation
+"start: <C-n> start multicursor and add a virtual cursor + selection on the match
+"next: <C-n> add a new virtual cursor + selection on the next match
+"skip: <C-x> skip the next match
+"prev: <C-p> remove current virtual cursor + selection and go back on previous match
+"select all: <A-n> start multicursor and directly select all matches
+""""""
 
+" disable if in a terminal that doesn't support icons 
+Plugin 'ryanoasis/vim-devicons'
+
+Plugin 'junegunn/goyo.vim'
+
+""""""
+Plugin 'junegunn/limelight.vim'
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+
+function! s:goyo_enter()
+  if executable('tmux') && strlen($TMUX)
+    silent !tmux set status off
+    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
+    set noshowmode
+    set noshowcmd
+  endif
+  set scrolloff=999
+  Limelight
+endfunction
+
+function! s:goyo_leave()
+  if executable('tmux') && strlen($TMUX)
+    silent !tmux set status on
+    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
+    set showmode
+    set showcmd
+  endif
+  set scrolloff=5
+  Limelight!
+  set background=dark
+endfunction
+
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -190,7 +211,8 @@ set background=dark
 ""autocmd InsertEnter * norm zz
 
 " Remove trailing (useless) whitespaces on save
-autocmd BufWritePre * %s/\s\+$//e
+" (causes weird movment when saving
+"autocmd BufWritePre * %s/\s\+$//e
 
 "Autorun code on save
 "autocmd BufWritePost *.sh !clear;sh %
@@ -224,6 +246,7 @@ cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
 :command Q q
 :command W w
 
+
 " Key maps
 
 "NERDTree
@@ -240,14 +263,38 @@ imap <c-q> <Esc>:q<CR>
 nmap <c-s> :w<CR>l
 imap <c-s> <Esc>:w<CR>l
 
+"set M to show all marks using fzf
+nnoremap M :Marks<CR>
+
+"map ctrl backspace to delete word, like ctrl w
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
+
 "map "a" to act like "i" and switch to insert mode
 nmap a i
+
+"prevent x, in normal mode, to yank while deleting
+nnoremap x "_x
+
+"since p pastes the content after the letter the cursor is, P is more useful than p
+nnoremap p P
+nnoremap P p
 
 " Shortcut for replace command
 nnoremap S :%s///gc<Left><Left><Left><Left>
 
 "Run code on CTRL X
 "nnoremap <buffer> <c-x> :exec '!clear;python' shellescape(@%, 1)<cr>
+
+" Move selected lines with CTRL up and down
+xnoremap <C-Up> :move '<-2<CR>gv-gv
+xnoremap <C-Down> :move '>+1<CR>gv-gv
+
+" Enter key to enter/exit goyo
+map <ENTER> :Goyo<CR>
+
+" Removes Q binding
+nnoremap Q <nop>
 
 "Keyboard shortcuts
 "https://unix.stackexchange.com/questions/93144/exit-vim-more-quickly
