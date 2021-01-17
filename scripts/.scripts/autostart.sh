@@ -87,10 +87,10 @@ sleep 3 && urxvt -name floating_terminal &
 
 sleep 3 && urxvt -name floating_terminal2 &
 
-#sleep 3 && bspc rule -a "*:" -o hidden=on sticky=on state=floating & spotify &
+#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating;spotify &
 
-#sleep 4 && firefox &
+sleep 4 && firefox &
 
-#sleep 3 && discord & premid &
+sleep 3 && discord & premid &
 
 

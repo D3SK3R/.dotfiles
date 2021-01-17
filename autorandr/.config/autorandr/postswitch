@@ -2,4 +2,4 @@
 
 sleep 3 && $HOME/.config/polybar/launch.sh &
 sleep 2 && picom -b --experimental-backend &
-sleep 1 && nitrogen --restore
+sleep 1 && nitrogen --restore &

@@ -1,3 +1,3 @@
-2020/12/05-12:27:23.996 8111 Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2020/12/05-12:27:23.996 8111 Recovering log #33
-2020/12/05-12:27:24.059 8111 Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000033.log 
+2021/01/17-19:42:10.369 b37b Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/01/17-19:42:10.370 b37b Recovering log #33
+2021/01/17-19:42:10.373 b37b Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000033.log 
