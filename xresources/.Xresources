@@ -47,7 +47,7 @@ URxvt.shading:30
 URxvt.geometry:190x48
 URxvt.saveLines: 5000
 
-!URxvt.internalBorder:  4
+URxvt.internalBorder:  6
 URxvt.externalBorder:  4
 
 !!! COLORS !!!
