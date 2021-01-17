@@ -1,5 +1,6 @@
 #!/bin/sh
 # resize {up,down,east,west} delta
+# delta = pixels increase/decrease
 
 delta=${2:-"30"}
 
