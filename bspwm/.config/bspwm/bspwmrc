@@ -67,7 +67,7 @@ bspc rule -a "URxvt:*:floating_terminal2" hidden=on sticky=on state=floating rec
 # DO NOT USE: spotify (or bspwm) is bugged, it shows as having no class/name
 # workaround: bspc rule -a "*:" -o hidden=on sticky=on state=floating
 # then open spotify
-#bspc rule -a "*:" hidden=on sticky=on state=floating rectangle=800x600+283+84
+#bspc rule -a "*:" hidden=on sticky=on state=floating
 bspc rule -a "firefox" hidden=on sticky=on state=floating rectangle=1356x732+5+32
 bspc rule -a "discord" hidden=on sticky=on state=floating rectangle=1356x732+5+32
 #bspc rule -a copyq state=floating center=true rectangle=665x355+0+0

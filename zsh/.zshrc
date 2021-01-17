@@ -51,6 +51,7 @@ xmodmap -e "keycode 135 = slash"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+#ZSH_THEME="rounded"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -340,8 +341,10 @@ alias gotop='gotop -aps'
 alias python='python3'
 alias pip='sudo pip'
 alias clock='tty-clock -cb'
-alias floating='urxvt -name floating_urxvt &'
-alias floating2='urxvt -name dropdown_urxvt &'
+alias floating='urxvt -name floating_terminal &'
+alias floating2='urxvt -name floating_terminal2 &'
+#alias floating='urxvt -name floating_urxvt &'
+#alias floating2='urxvt -name dropdown_urxvt &'
 alias kill='kill -9'
 alias ramfree='ps -eo pid --no-headers --sort=-%mem | head -1 | xargs kill -9'
 alias todo='calcurse;clear'
