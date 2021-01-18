@@ -107,6 +107,7 @@ content-foreground = ${colors.bg-alt}
 content-background = ${colors.fg-alt}
 
 ;==========================================================
+;https://gitlab.com/polybar/polybar/-/wikis/Module:-bspwm
 ;https://github.com/polybar/polybar/wiki/Module:-bspwm
 [module/bspwm]
 type = internal/bspwm
@@ -125,6 +126,15 @@ label-focused-font = 1
 label-occupied-font = 1
 label-empty-font = 1
 label-urgent-font = 1
+
+; <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
+; example: <label-state><label-mode> shows the workspaces and the mode for that workspace
+
+label-tiled                 = T
+label-monocle               = M
+label-monocle-background       = ${colors.bg-alt}
+label-monocle-foreground       = ${colors.fg-alt}
+label-monocle-padding          = 1
 
 label-monitor = %name%
 label-monitor-background       = ${colors.bg-alt}
@@ -555,7 +565,7 @@ format-underline = ${colors.bg-alt}
 [module/mute]
 type = custom/ipc
 hook-0 = ~/.config/polybar/scripts/mute.sh
-#click = ~/.scripts/mute-toggle.sh
+#click-left = ~/.scripts/mute-toggle.sh
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
