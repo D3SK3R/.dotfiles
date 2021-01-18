@@ -78,6 +78,7 @@ bspc rule -a "Pavucontrol" state=floating
 bspc rule -a "*:*:Network Connections" state=floating
 bspc rule -a "*:*:Task Manager - Google Chrome" state=floating center=true
 bspc rule -a "Lxappearance" state=floating
+bspc rule -a "net-mc-main-Main" state=floating center=true
 bspc rule -a "Manjaro Settings Manager" state=floating
 bspc rule -a "Nitrogen" state=floating
 bspc rule -a "Pamac-manager" state=floating
