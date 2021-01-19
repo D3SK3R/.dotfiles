@@ -190,6 +190,10 @@ super + shift + Return; {Left,Down,Up,Right}
     bspc node -p {west,south,north,east}
     # cancel preselection: bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
+# cycle between nodes in monocle mode
+super + {comma, period}
+    bspc node -f {prev,next}.tiled.local
+
 # Rotate tree left/right
 super + ctrl + {d,a}
     bspc node @/ -C {forward,backward}
