@@ -71,6 +71,7 @@ bspc rule -a "qutebrowser"                          state=floating rectangle=784
 bspc rule -a "copyq"                                state=floating
 bspc rule -a "Arandr"                               state=floating
 bspc rule -a "Pavucontrol"                          state=floating
+bspc rule -a "*:*:Power Manager"                    state=floating
 bspc rule -a "*:*:Network Connections"              state=floating
 bspc rule -a "*:*:Task Manager - Google Chrome"     state=floating center=true
 bspc rule -a "Lxappearance"                         state=floating
@@ -87,6 +88,6 @@ bspc rule -a "Kvantum Manager"                      state=floating
 ##                      AUTOSTART                     ##
 #########################################################
 $HOME/.scripts/autostart.sh
-bspc config top_padding 22
 bspc desktop -f 1
+sleep 2 && bspc config top_padding 22
 

@@ -56,7 +56,7 @@ super + d
 super + e
     ~/.scripts/lagSwitch.sh
 
-# Dolphin and Toggle Polybar
+# Dolphin
 super + f
     dolphin
 
@@ -85,7 +85,7 @@ super + r
 
 # Sublime and Dual Monitor Script
 super + {_, shift} + s
-    {subl, $HOME/.config/polybar/launch.sh}
+    {subl, $HOME/.config/polybar/launch.sh & sleep 2 && bspc config top_padding 22}
     #{subl, ~/.config/bspwm/monitors-bspwm}
     #{subl, ~/.scripts/monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 
