@@ -726,6 +726,20 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/infinity hacks.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/icons/icons.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/command.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_connect.sh",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_toggle.sh",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_troll.sh",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adbNmap.sh",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adbOLD.py",
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/auto_adb.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/scripts/where.txt",
+				"/home/d3sk3r/Desec - 2020/Informações.txt",
+				"/home/d3sk3r/Desec - 2020/torrent.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/gtk.css",
 				"/home/d3sk3r/.dotfiles/kvantum/.config/Kvantum/KvantumGently-Kv/KvantumGently-Kv.kvconfig",
@@ -839,21 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
 				"/home/d3sk3r/1",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/monitorsBAK.sh",
-				"/home/d3sk3r/fontPreview/link",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Theme/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/Vimix/theme.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/how",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_compton/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/clipboard/link and package name",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/sexyflowerwater/link",
-				"/home/d3sk3r/.dotfiles/copyq/.config/copyq/copyq-commands.ini",
-				"/home/d3sk3r/.config/copyq/copyq_tabs.ini",
-				"/home/d3sk3r/.config/copyq/copyq.conf",
-				"/home/d3sk3r/.config/copyq/copyq_geometry.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/assin.txt"
 			],
 			"find":
 			{
@@ -1035,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768",
 			"project": "",
 			"replace":
 			{

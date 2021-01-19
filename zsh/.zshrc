@@ -317,6 +317,7 @@ alias ls='lsd'
 alias la='exa -lah'
 alias cl='clear;exa'
 alias rm='trash'
+alias rmtrash='"rm" -rf ~/.local/share/Trash/files'
 # confirm before mv or cp overwriting files
 alias mv='mv -i'
 alias cp='cp -ri'
@@ -427,11 +428,6 @@ alias msf='sudo msfconsole'
 alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/pentest/kickthemout/kickthemout.py'
 # Shorten URL using the following services: bit.ly, j.mp, t.cn, is.gd, v.gd, tiny.cc.
 alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
-alias botnet='cd /home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/INFINITY-HACKS'
-alias botnet_start='pm2 start -f index.js;echo "127.0.0.1:22533"'
-alias botnet_stop='pm2 stop index'
-alias botnet_fix='pm2 delete index'
-alias botnet_pktriot='pm2 status;pktriot info'
 
 #################################################################
 # WEB/IP related
