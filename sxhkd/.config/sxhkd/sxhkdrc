@@ -68,9 +68,9 @@ super + g
 super + {_, shift +} h
     {urxvtc -e gotop -aps, urxvtc -e htop}
 
-# Lock Screen and Layout Manager
-super + {_, ctrl} + l
-   {~/.scripts/lock.sh;mpc -p 1100 seek 0 && mpc -p 1100 pause, ~/.i3/layout_manager.sh}
+# Lock Screen
+super + l
+   ~/.scripts/lock.sh
 
 # Spotify
 super + m

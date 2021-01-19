@@ -1,4 +1,4 @@
 #!/bin/bash
 
-playerctl stop;betterlockscreen -l blur 
-#i3lock-fancy -t ""
+mpc -p 1100 seek 0 && mpc -p 1100 pause &
+playerctl stop && betterlockscreen -l blur 

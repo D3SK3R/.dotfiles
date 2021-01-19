@@ -34,20 +34,19 @@ then
         eval $1
         ;;
       LOCK)
-        sleep 0.5;betterlockscreen -l blur;mpc -p 1100 seek 0 && mpc -p 1100 pause
+       ~/.scripts/lock.sh 
         ;;
       SLEEP)
-        sleep 0.5;i3exit suspend
+        sleep 0.5;systemctl suspend
         ;;
       LOGOUT)
-        #i3exit logout
         bspc quit
         ;;
       REBOOT)
-        i3exit reboot
+        systemctl reboot
         ;;
       SHUTDOWN)
-        i3exit shutdown
+        systemctl poweroff
         ;;
       *)
         ;;
