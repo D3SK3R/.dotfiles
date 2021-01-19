@@ -41,7 +41,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     echo "workspace1 $ws1" >> $file
     echo "focused $focused" >> $file
 
-    # hides all floating windows
+    # hides all shown floating windows
     # and writes their ID into the file
     for i in $(bspc query -N -n .floating.\!hidden); do
         bspc node $i -g hidden=on
@@ -85,7 +85,7 @@ else
         if [ $(echo $line | cut -d' ' -f1) = 'focused' ]; then
             bspc desktop -f $(echo $line | cut -d' ' -f2)
         fi
-        # read the file to know what floating windows were hidden by panic
+        # reads the file to know what floating windows were hidden by panic
         if [ $(echo $line | cut -d' ' -f1) = 'hidden' ]; then
             bspc node $(echo $line | cut -d' ' -f2) -g hidden=off
         fi
