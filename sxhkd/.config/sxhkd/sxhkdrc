@@ -59,8 +59,6 @@ super + e
 # Dolphin and Toggle Polybar
 super + f
     dolphin
-#super + {_, ctrl} + f
-#    {dolphin, ~/.config/polybar/scripts/toggle_polybar.sh}
 
 # Google-chrome browser
 super + g

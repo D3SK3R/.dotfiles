@@ -1,3 +1,10 @@
+[module/sep]
+type = custom/text
+content = " "
+content-font = 5
+content-foreground = ${colors.transparent}
+content-background = ${colors.transparent}
+
 [module/sepR1]
 type = custom/text
 content = 
