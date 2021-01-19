@@ -42,8 +42,10 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     echo "focused $focused" >> $file
 
     # hides all floating windows
-    for i in $(bspc query -N -n .floating); do
+    # and writes their ID into the file
+    for i in $(bspc query -N -n .floating.\!hidden); do
         bspc node $i -g hidden=on
+        echo "hidden $i" >> $file
     done
 
     # pauses the media if playing
@@ -83,13 +85,10 @@ else
         if [ $(echo $line | cut -d' ' -f1) = 'focused' ]; then
             bspc desktop -f $(echo $line | cut -d' ' -f2)
         fi
-        # NOT WORKING: I still don't know how to differentiate which windows
-        # are from the 'scratchpad'/hidden AND are showing when I execute
-        # the script, to bring them back.
-        # read the file to know what floating windows where showing
-        #if [ $(echo $line | cut -d' ' -f1) = 'floating' ]; then
-        #    bspc node $(echo $line | cut -d' ' -f2) -g hidden=on
-        #fi
+        # read the file to know what floating windows were hidden by panic
+        if [ $(echo $line | cut -d' ' -f1) = 'hidden' ]; then
+            bspc node $(echo $line | cut -d' ' -f2) -g hidden=off
+        fi
     done < $file
 
     # executes swallow again and removes the file used to toggle the script
