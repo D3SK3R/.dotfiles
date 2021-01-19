@@ -52,7 +52,9 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
         playerctl play-pause
     fi
     mpc -p 1100 seek 0 && mpc -p 1100 pause
-
+    
+    # kills swallow script so that the terminals don't get swallowed
+    killall swallowbspwm
     # opens 3 terminals
     urxvt -name 'panic' -e gotop -aps &
     sleep 0.2
@@ -81,12 +83,17 @@ else
         if [ $(echo $line | cut -d' ' -f1) = 'focused' ]; then
             bspc desktop -f $(echo $line | cut -d' ' -f2)
         fi
+        # NOT WORKING: I still don't know how to differentiate which windows
+        # are from the 'scratchpad'/hidden AND are showing when I execute
+        # the script, to bring them back.
         # read the file to know what floating windows where showing
         #if [ $(echo $line | cut -d' ' -f1) = 'floating' ]; then
         #    bspc node $(echo $line | cut -d' ' -f2) -g hidden=on
         #fi
     done < $file
 
+    # executes swallow again and removes the file used to toggle the script
+    $HOME/.config/bspwm/swallowbspwm &
     rm $file
 fi
 

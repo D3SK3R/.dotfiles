@@ -72,7 +72,7 @@ bspc rule -a "URxvt:*:floating_terminal2" hidden=on sticky=on state=floating rec
 bspc rule -a "firefox" hidden=on sticky=on state=floating rectangle=1356x732+5+32
 bspc rule -a "discord" hidden=on sticky=on state=floating rectangle=1356x732+5+32
 #bspc rule -a copyq state=floating center=true rectangle=665x355+0+0
-bspc rule -a "copyq" state=floating center=true
+bspc rule -a "copyq" state=floating
 bspc rule -a "Arandr" state=floating
 bspc rule -a "Pavucontrol" state=floating
 bspc rule -a "*:*:Network Connections" state=floating
