@@ -7,58 +7,45 @@
 # Executing it the first time will chec if this is actually the first part of the toggle
 # then its gonna create an file to show, the next time, that the the script is activated
 
-# requirements:
-# i3 / i3-msg
-# xdo
-# wmctrl
+#TODO
+# 1: fix the 'hides all floating windows' part, since it also
+# hides the floating windows thats not from sctratchpad
 
 file=/tmp/panic
 
 if [ -z $(ls /tmp/ | grep panic) ]; then
     touch $file
 
-    # Get the workspace i'm in and write it to the file
-    ws=$(i3-msg -t get_workspaces \
-    | jq '.[] | select(.focused==true).name' \
-    | cut -d"\"" -f2)
-
+    # workspace I'm currently focusing
+    focused=$(bspc query -D -d focused --names)
+    # Get the workspaces i'm in, write it to the file and
     # sees if theres another monitor, if so, move it to another workspace
     # and writes to the file
     if xrandr | grep -ow "DP1 connected" >/dev/null; then
-        i3 workspace 4
-        i3 workspace 9
-        echo "second monitor" >> $file
+        ws1=$(bspc query -m eDP1 -T | jq | grep "focusedDesktopId" | \
+            awk -F " " '{print $NF}' | cut -d',' -f1)
+        ws2=$(bspc query -m DP1 -T | gron | grep "focusedDesktopId" | \
+            awk -F " " '{print $NF}' | cut -d';' -f1)
+        bspc desktop -f 4
+        bspc desktop -f 9
     else
-        i3 workspace 9
+        ws1=$(bspc query -m eDP1 -T | jq | grep "focusedDesktopId" | \
+        awk -F " " '{print $NF}' | cut -d',' -f1)
+        bspc desktop -f 9
     fi
     
     # writing the actual workspace AFTER the possible second monitor is already
     # in the file, so that the script moves me to the right workspace in the second
     # monitor and only then, moves me to the right workspace in the main monitor
-    echo "workspace $ws" >> $file
+    echo "workspace2 $ws2" >> $file
+    echo "workspace1 $ws1" >> $file
+    echo "focused $focused" >> $file
 
-    # hides all scratchpad windows using wmctrl and i3-msg
-    # this part is probably the 'haviest' in this script and may slow everything down
-    # to fix:
-    # doesn't hide firefox, depending on the title
-    # for example: when you have unread messages on whatsapp
-    # (echo commands for debug)
-
-    # another command to get title of scratchpad windows:
-    # i3-msg -t get_tree | jq ".nodes|.[]|.|.nodes|.[]|.nodes|.[]|select(.name==\"__i3_scratch\")|.floating_nodes|.[]|.nodes|.[]|.name"
-    titles=$(wmctrl -l | grep -e '-1' | cut -d' ' -f4-)
-    #echo "TITLES: $titles"
-    lines=$(echo "$titles" | wc -l)
-    #echo "LINES: $lines"
-
-    for line in $(seq $lines);
-    do
-        #continue
-        echo $(echo "$titles" | sed -n "$line"p | sed 's/^/"/;s/$/"/')
-        title=$(echo "$titles" | sed -n "$line"p | sed 's/^/"/;s/$/"/')
-        i3 "[title="$title"]" move scratchpad
+    # hides all floating windows
+    for i in $(bspc query -N -n .floating); do
+        bspc node $i -g hidden=on
     done
-    
+
     # pauses the media if playing
     if [ $(playerctl status) = "Playing" ]; then
         echo 'playing' >> $file
@@ -67,40 +54,38 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     mpc -p 1100 seek 0 && mpc -p 1100 pause
 
     # opens 3 terminals
-    urxvt -e gotop -aps &
+    urxvt -name 'panic' -e gotop -aps &
     sleep 0.2
-    urxvt -e ranger &
+    urxvt -name 'panic' -e ranger &
     sleep 0.2
-    urxvt &
+    urxvt -name 'panic' &
     #sleep 0.8
 else
     # closes the terminals that the panic button opened
-    # if executed from a urxvt terminal
-    # this script will 'break', making it not run the lines above xdo close
-    # since this is also gonna close the terminal the script is running
-    xdo close -N 'URxvt' -d
+    xdo close -n 'panic'
 
-    # reads the file to know whether the script has paused the music, if so, resumes it
-    filename=$file
     while read line; do
+        # reads the file to know whether the music was paused, if so, resumes it
         if [ "$line" = 'playing' ]; then
             playerctl play
             mpc -p 1100 toggle
         fi
-        # read the file to know whether I have my second monitor on
-        if [ "$line" = 'second monitor' ]; then
-            i3 workspace 2
+        # reads the file to know what workspaces I was in and goes to it
+        if [ $(echo $line | cut -d' ' -f1) = 'workspace2' ]; then
+            bspc desktop -f $(echo $line | cut -d' ' -f2)
         fi
-        # reads the file to know what workspace was in and goes to it
-        if [ $(echo $line | cut -d' ' -f1) = 'workspace' ]; then
-            if [[ $line == 'workspace 2' ]] || [[ $line == 'workspace 4' ]]; then
-                i3 workspace 1
-            else
-                echo $line
-                i3 $line
-            fi
+        if [ $(echo $line | cut -d' ' -f1) = 'workspace1' ]; then
+            bspc desktop -f $(echo $line | cut -d' ' -f2)
         fi
-    done < $filename
+        # last, focus the exact workspace I was focusing before panic
+        if [ $(echo $line | cut -d' ' -f1) = 'focused' ]; then
+            bspc desktop -f $(echo $line | cut -d' ' -f2)
+        fi
+        # read the file to know what floating windows where showing
+        #if [ $(echo $line | cut -d' ' -f1) = 'floating' ]; then
+        #    bspc node $(echo $line | cut -d' ' -f2) -g hidden=on
+        #fi
+    done < $file
 
     rm $file
 fi
