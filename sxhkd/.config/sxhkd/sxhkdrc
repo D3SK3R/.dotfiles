@@ -185,6 +185,9 @@ super + shift + space
 super + {shift, ctrl} + f
     {bspc desktop -l next, bspc node -t \~fullscreen}
 
+super + p
+    bspc node -t \~pseudo_tiled
+
 # preselect
 super + shift + Return; {Left,Down,Up,Right}
     bspc node -p {west,south,north,east}

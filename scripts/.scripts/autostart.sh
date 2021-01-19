@@ -47,6 +47,8 @@ run sxhkd
 
 run urxvtd -q -o -f
 
+run xsetroot -cursor_name ptr
+
 run xfce4-power-manager
 
 run megasync

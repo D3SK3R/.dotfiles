@@ -18,8 +18,6 @@ bspc config remove_unplugged_monitors   true
 bspc config merge_overlapping_monitors  true
 
 ### Global Settings ###
-xsetroot -cursor_name ptr &
-
 bspc config ignore_ewmh_focus           true
 
 # Windows
