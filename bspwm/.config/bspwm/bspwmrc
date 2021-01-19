@@ -86,5 +86,6 @@ bspc rule -a "Kvantum Manager"                      state=floating
 ##                      AUTOSTART                     ##
 #########################################################
 $HOME/.scripts/autostart.sh
+bspc config top_padding 22
 bspc desktop -f 1
 
