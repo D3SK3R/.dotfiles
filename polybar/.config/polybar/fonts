@@ -2,9 +2,10 @@
 ; On polybar configs, it starts from font 1, so here the font-0 is the font = 1 there
 font-0 = "DejaVu Sans:antialias=true:pixelsize=9;2"
 font-1 = "Fantasque Sans Mono:antialias=true:pixelsize=9;2"
-font-2 = "Iosevka Nerd Font:antialias=true:pixelsize=13;3"
-font-3 = "Material Icons:size=15:antialias=true;14;4"
-font-4 = "Iosevka Nerd Font:antialias=true:pixelsize=15;3"
+; one Iosoveka is for some icons and the other is for the separators
+font-2 = "Iosevka Nerd Font:antialias=true:pixelsize=15;3"
+font-3 = "Iosevka Nerd Font:antialias=true:pixelsize=15;3"
+font-4 = "Material Icons:size=15:antialias=true;14;4"
 ;font-4 = "Dejavu Sans:style=Bold:size=14;5"
 ;font-4 = "Font Awesome 5 Free Solid:style=solid:size=9;4"
 ;font-5 = "Font Awesome 5 Free:style=regular:pixelsize=9;3"

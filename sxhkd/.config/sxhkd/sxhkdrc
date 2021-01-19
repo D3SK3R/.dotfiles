@@ -155,8 +155,8 @@ super + shift + d
     ~/.config/bspwm/floating_toggle.sh --class discord
 
 # apply bspwm config
-super + shift + c
-    bspc wm -r
+#super + shift + c
+#    bspc wm -r
 
 # focus or send a window to a desktop
 super + {_,shift + }{1-9}

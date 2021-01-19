@@ -1,70 +1,71 @@
-[module/sep]
-type = custom/text
-content = " "
-content-font = 5
-content-foreground = ${colors.transparent}
-content-background = ${colors.transparent}
+[glyph]
+left = 
+right = 
+;left = 
+;right = 
+;left = 
+;right = 
 
 [module/sepR1]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.right}
+content-font = 4
 content-foreground = ${colors.bg-alt}
 content-background = ${colors.transparent}
 
 [module/sepR2]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.right}
+content-font = 4
 content-foreground = ${colors.bg}
-content-background = ${colors.trasparent}
+content-background = ${colors.bg-alt}
 
 [module/sepR3]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.right}
+content-font = 4
 content-foreground = ${colors.bg-alt}
-content-background = ${colors.transparent}
+content-background = ${colors.bg}
 
 [module/sepR4]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.right}
+content-font = 4
 content-foreground = ${colors.bg}
 content-background = ${colors.transparent}
 
 [module/sepL1]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.left}
+content-font = 4
 content-foreground = ${colors.bg-alt}
-content-background = ${colors.bg}
+content-background = ${colors.transparent}
 
 [module/sepL2]
 type = custom/text
-content = 
-content-font = 5
-content-foreground = ${colors.fg-alt}
+content = ${glyph.left}
+content-font = 4
+content-foreground = ${colors.bg}
 content-background = ${colors.transparent}
 
 [module/sepL3]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.left}
+content-font = 4
 content-foreground = ${colors.bg-alt}
-content-background = ${colors.transparent}
+content-background = ${colors.fg-alt}
 
 [module/sepL4]
 type = custom/text
-content = 
-content-font = 5
+content = ${glyph.left}
+content-font = 4
 content-foreground = ${colors.bg}
 content-background = ${colors.transparent}
 
 [module/mid]
 type = custom/text
 content = "   "
-content-font = 5
+content-font = 4
 content-foreground = ${colors.bg}
 content-background = ${colors.bg}
 
@@ -350,7 +351,7 @@ interval = 1
 format = "<label>"
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
 # icons for play/pause  ',' / ',' / ','
-exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f '{play_pause} {artist} - {song}' -t 55
+exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f ' {play_pause} {artist} - {song}' -t 55
 click-left = playerctl play-pause
 click-right = playerctl previous && playerctl stop
 format-background = ${colors.bg}
@@ -360,7 +361,7 @@ format-background = ${colors.bg}
 type = internal/cpu
 interval = 1
 #  / 
-label = " %percentage%%"
+label = " %percentage%% "
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 #label-underline = ${colors.bg-alt}
@@ -397,7 +398,7 @@ format-background = ${colors.bg-alt}
 [module/pavolume]
 type = custom/script
 tail = true
-label = "%output%"
+label = "%output% "
 exec = ~/.config/polybar/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
