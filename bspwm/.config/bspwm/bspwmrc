@@ -20,6 +20,8 @@ bspc config merge_overlapping_monitors  true
 ### Global Settings ###
 xsetroot -cursor_name ptr &
 
+bspc config ignore_ewmh_focus           true
+
 # Windows
 bspc config window_gap              10
 bspc config top_padding             22
