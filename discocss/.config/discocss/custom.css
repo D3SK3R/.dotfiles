@@ -285,8 +285,8 @@ button[class*="lookFilled"] {
 }
 
 [class*="panels"] > *:nth-child(2) {
-  height: 4.6rem;
-  padding-bottom: 0.5rem;
+  height: 3rem;
+  padding-bottom: 0rem;
 }
 
 div[class*="chat"] div[class*="root"] {
