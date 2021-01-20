@@ -40,8 +40,8 @@ configuration {
 
 * {
     background-color:             	@bg;
-    height:                         52%;
-    widht:                          35%;
+    height:                         56%;
+    widht:                          33%;
 }
 
 window {

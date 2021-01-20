@@ -39,14 +39,14 @@ configuration {
 @import "colors.rasi"
 
 * {
-    background-color:             	@fulltr;
-    height:                         50%;
+    background-color:             	@bg;
+    height:                         52%;
     widht:                          35%;
 }
 
 window {
     border: 						2px;
-    border-color: 					#000000;
+    border-color: 					@bd;
     border-radius: 					12px;
     padding: 						15;
     width: 							60%;
