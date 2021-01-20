@@ -59,13 +59,20 @@
     # Horizontal padding.
     horizontal_padding = 16
 
+    # Define the corner radius of the notification window
+    # in pixel size. If the radius is 0, you have no rounded
+    # corners.
+    # The radius will be automatically lowered if it exceeds half of the
+    # notification height to avoid clipping text and/or icons.
+    corner_radius = 8
+
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
     frame_width = 2
 
     # Defines color of the frame around the notification window.
     #frame_color = "#bcecff"
-    frame_color = "#000000"
+    frame_color = "#16aee5"
     
     # Define a color for the separator.
     # possible values are:
@@ -162,7 +169,7 @@
     ### Icons ###
 
     # Align icons left/right/off
-    icon_position = off
+    icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
     max_icon_size = 32
@@ -252,24 +259,24 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#000000"
+    background = "#090c12"
     foreground = "#ffffff"
     #frame_color = "#4a4a4a"
-    frame_color = "#000000"
+    frame_color = "#16aee5"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#000000"
+    background = "#090c12"
     foreground = "#ffffff"
-    frame_color = "#000000"
+    frame_color = "#16aee5"
     timeout = 5
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#000000"
+    background = "#090c12"
     foreground = "#ffffff"
     frame_color = "#ff0000"
     timeout = 20
