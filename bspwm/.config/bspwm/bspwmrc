@@ -71,6 +71,7 @@ bspc rule -a "qutebrowser"                          state=floating rectangle=784
 bspc rule -a "copyq"                                state=floating
 bspc rule -a "Arandr"                               state=floating
 bspc rule -a "Pavucontrol"                          state=floating
+bspc rule -a "*:cpupower-gui"                       state=floating
 bspc rule -a "*:*:Power Manager"                    state=floating
 bspc rule -a "*:*:Network Connections"              state=floating
 bspc rule -a "*:*:Task Manager - Google Chrome"     state=floating center=true

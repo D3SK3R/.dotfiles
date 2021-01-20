@@ -50,7 +50,7 @@ run sxhkd
 
 run urxvtd -q -o -f
 
-run xsetroot -cursor_name ptr
+run xsetroot -cursor_name left_ptr
 
 run xfce4-power-manager
 
@@ -75,8 +75,6 @@ run ff-theme-util
 run fix_xcursor
 
 killall pulseaudio && pulseaudio &
-
-xsetroot -cursor_name left_ptr &
 
 xset r rate 200 30 & 
 # first number is delay, and second is interval
