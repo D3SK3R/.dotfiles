@@ -25,6 +25,11 @@ if [[ "$crunch_appname" == "dunstify" ]]; then
     exit
 fi
 
+# limit the log size so that it doesn't get slow
+if [[ $(cat /tmp/dunstlog | wc -l) -gt 100 ]]; then
+    rm /tmp/dunstlog
+fi
+
 echo -en "$timestamp\n$crunch_urgency\n$crunch_icon\n$crunch_body\n$crunch_summary\n$crunch_appname\n" >> /tmp/dunstlog
 
 #echo "$crunch_appname\n$crunch_summary\n$crunch_body\n$crunch_icon\n$crunch_urgency\x0f" >> /tmp/dunstlog
