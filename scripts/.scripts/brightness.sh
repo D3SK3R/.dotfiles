@@ -13,14 +13,16 @@
 file="/sys/class/backlight/intel_backlight/brightness"
 level=$(cat $file)
 
+icon="/usr/share/icons/Papirus-Dark/16x16/devices/display.svg"
+
 if [[ "$#" -eq 0 ]]; then
     cat $file
 elif [[ "$1" = "-" ]]; then
     echo $(( level - 1 )) > $file
     current=$(cat $file)
-    dunstify -t 1000 "Brightness -1%" "Current brightness: $current" -p 2 -r 2
+    dunstify -i $icon -t 1000 "Brightness -1%" "Current brightness: $current" -p 2 -r 2
 elif [[ "$1" = "+" ]]; then
     echo $(( level + 1 )) > $file
     current=$(cat $file)
-    dunstify -t 1000 "Brightness +1%" "Current brightness: $current" -p 2 -r 2
+    dunstify -i $icon -t 1000 "Brightness +1%" "Current brightness: $current" -p 2 -r 2
 fi

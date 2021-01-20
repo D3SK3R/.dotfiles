@@ -8,7 +8,7 @@
 #    exit 
 #fi
 
-dunstify "Running autostart script"
+dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script"
 
 # function to check if the program is already running
 # if not, run it with an & in the end
