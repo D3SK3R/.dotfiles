@@ -224,6 +224,9 @@
     # where there are multiple screens with very different dpi values.
     per_monitor_dpi = false
 
+[log_notifs]
+    script = ~/.config/dunst/dunst-logger.sh
+
 [shortcuts]
 
     # Shortcuts are specified as [modifier+][modifier+]...key
@@ -291,7 +294,6 @@
 # to "".
 # NOTE: It might be helpful to run dunst -print in a terminal in order
 # to find fitting options for rules.
-
 #[espeak]
 #    summary = "*"
 #    script = dunst_espeak.sh

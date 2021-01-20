@@ -12,7 +12,7 @@ super + slash
 
 # Reload sxhkd config
 super + Pause
-  pkill -USR1 -x sxhkd;notify-send 'sxhkd' 'Reloaded config'
+  pkill -USR1 -x sxhkd;dunstify 'sxhkd' 'Reloaded config'
 
 # Terminal
 super + Return
@@ -78,6 +78,10 @@ super + m
 # ncmpcpp
 #super + m
 #    ncmpcpp
+
+# Rofi notify center
+super + n
+    ~/.scripts/rofi-notifcenter.sh
 
 # Ranger
 super + r
