@@ -21,14 +21,17 @@ function run {
 #######################
 ###     scripts     ###
 #######################
-autorandr --change &
+if xrandr | grep -ow "DP1 connected" >/dev/null; then
+    autorandr --change &
+else
+    bspc monitor -d 1 2 3 4 5 6 7 8 9
+    sleep 3 && $HOME/.config/polybar/launch.sh &
+fi
 # everything about monitors is commented
 # since I'm using autorandr that executed all of this
 #$HOME/.config/bspwm/monitors-bspwm &
 
-# both scripts are already inside monitors-bspwm
 #$HOME/.scripts/monitors.sh &
-#sleep 3 && $HOME/.config/polybar/launch.sh &
 
 $HOME/.scripts/mouse_sens.sh &
 
