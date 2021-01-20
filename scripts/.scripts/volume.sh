@@ -4,7 +4,7 @@
 # Signals an the status bar to update
 
 # usage example:
-# ./volume.sh Master 2%+ to increase 2% to the actual volume
+# ./volume.sh Master 2%+ to increase 2% to the current volume
 
 # mute 'feature' not working
 if [ "$1" = "All" ]; then

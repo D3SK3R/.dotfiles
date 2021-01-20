@@ -39,8 +39,8 @@ URxvt.keysym.M-v: perl:clipboard:paste
 URxvt.underlineURLs:true
 URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
-!*letterSpace: -1
-!*lineSpace: -1
+*letterSpace: -1
+*lineSpace: -1
 
 URxvt.transparent:false
 URxvt.shading:30
@@ -82,7 +82,6 @@ URxvt.depth:32
 !*bg:     #10141c
 *bg:     #090c12
 *fg:     #ffffff
-*frame:  #16aee5
 *color0: #090C12
 *color1: #1c64ff
 *color2: #00ccff
