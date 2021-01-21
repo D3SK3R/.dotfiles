@@ -30,6 +30,6 @@ while true; do
         echo 'setting headset mic volume to 50'
         pacmd set-source-volume 1 32985
     fi
-    sleep 10
+    sleep 60
 done
 

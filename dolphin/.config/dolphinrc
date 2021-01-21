@@ -37,9 +37,9 @@ PreviewSize=48
 Height 768=545
 Width 1360=503
 Width 1366=503
-eDP1 DP1 Height 768=438
+eDP1 DP1 Height 768=448
 eDP1 DP1 Width 1360=445
-eDP1 DP1 Width 1366=401
+eDP1 DP1 Width 1366=417
 
 [MainWindow]
 Height 768=725
@@ -60,7 +60,7 @@ eDP1 YPosition=33
 
 [Open-with settings]
 CompletionMode=1
-History=ark,subl,epd,mpv,urx,vim,anki,buka,book,kden,urxvt,wps,chrome,presen,wine
+History=zath,ark,subl,epd,mpv,urx,vim,anki,buka,book,kden,urxvt,wps,chrome,presen
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

@@ -80,8 +80,9 @@ super + m
 #    ncmpcpp
 
 # Rofi notify center
-super + n
-    ~/.scripts/rofi-notifcenter.sh
+super + {_,shift + } n
+    {urxvt -name "notetaker" -e ~/notetaker,zenity --text-info --filename=$(ls -r *.md | head -n1)}
+    #~/.scripts/rofi-notifcenter.sh
 
 # Ranger
 super + r
