@@ -379,6 +379,7 @@ alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'
 alias clip='clipster -c'
+alias memmonitor="while true; do c;echo '*/proc/swaps';cat /proc/swaps;echo '\n*free -m';free;echo '\n*swapon -s';swapon -s;echo '\n*zramctl'; zramctl;sleep 0.2;done"
 
 #################################################################
 # Pacman 

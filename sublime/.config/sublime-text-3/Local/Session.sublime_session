@@ -593,6 +593,15 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "Q",
+					"settings":
+					{
+						"buffer_size": 1,
+						"line_ending": "Unix",
+						"name": "Q"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -726,6 +735,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxSystemSettings.ini",
+				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxGame.ini",
+				"/home/d3sk3r/beforechanges",
+				"/home/d3sk3r/changes",
 				"/home/d3sk3r/note-2021-01-20.md",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/bb.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
@@ -778,7 +791,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Shades-BlacknWhite/config",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/modules",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/config",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/MEGA/discord/shizu/insta",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config.O",
@@ -850,10 +862,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
-				"/home/d3sk3r/MEGA/fake fb.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudowithoutpassword.txt",
-				"/home/d3sk3r/1"
+				"/home/d3sk3r/MEGA/fake fb.txt"
 			],
 			"find":
 			{
@@ -990,8 +999,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"auto_name": "Q",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1035,7 +1073,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{
