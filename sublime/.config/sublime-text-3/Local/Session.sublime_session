@@ -593,15 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "Q",
-					"settings":
-					{
-						"buffer_size": 1,
-						"line_ending": "Unix",
-						"name": "Q"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -735,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
+				"/home/d3sk3r/.config/ncmpcpp/config",
 				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxSystemSettings.ini",
 				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxGame.ini",
 				"/home/d3sk3r/beforechanges",
@@ -860,9 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/tcpReverseProxy.txt",
-				"/home/d3sk3r/MEGA/fake fb.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers"
 			],
 			"find":
 			{
@@ -999,37 +990,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1,
-										1
-									]
-								],
-								"settings":
-								{
-									"auto_name": "Q",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1073,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768",
+			"position": "0,0,0,0,0,2393,402,2718,754,2732,768",
 			"project": "",
 			"replace":
 			{

@@ -74,7 +74,7 @@ super + l
 
 # Spotify
 super + m
-    bspc rule -a "*" -o hidden=on sticky=on center=true state=floating;spotify
+    bspc rule -a "*" -o hidden=on sticky=on center=true state=floating rectangle=800x800+238+84;spotify
 # ncmpcpp
 #super + m
 #    ncmpcpp
