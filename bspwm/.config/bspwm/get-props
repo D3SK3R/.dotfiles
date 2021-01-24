@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sleep 2
+
+id=$(bspc query -T -n)
+
+echo "Window ID: $id"
+

@@ -1303,6 +1303,9 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
+  <resource identifier="Andale Mono" checksum="(null)">
+  </resource>
+
   <resource identifier="Anonymous Pro for Powerline" checksum="(null)">
   </resource>
 
@@ -1313,6 +1316,24 @@
   </resource>
 
   <resource identifier="Anonymous Pro for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arabic Newspaper" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Black," checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Arimo for Powerline" checksum="(null)">
@@ -1405,6 +1426,24 @@
   <resource identifier="Comfortaa Light" checksum="(null)">
   </resource>
 
+  <resource identifier="Comic Sans MS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Comic Sans MS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Cousine for Powerline" checksum="(null)">
   </resource>
 
@@ -1417,7 +1456,16 @@
   <resource identifier="Cousine for Powerline Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="cursor.pcf" checksum="(null)">
+  </resource>
+
   <resource identifier="D050000L" checksum="(null)">
+  </resource>
+
+  <resource identifier="deccurs.pcf" checksum="(null)">
+  </resource>
+
+  <resource identifier="decsess.pcf" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
@@ -1621,6 +1669,18 @@
   <resource identifier="Font Awesome 5 Free Heavy" checksum="(null)">
   </resource>
 
+  <resource identifier="Georgia" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Goha-Tibeb Zemen Medium" checksum="(null)">
   </resource>
 
@@ -1664,6 +1724,9 @@
   </resource>
 
   <resource identifier="Icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Impact Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Inconsolata-dz for Powerline Medium" checksum="(null)">
@@ -1948,6 +2011,33 @@
   <resource identifier="MesloLGS NF Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="micro.pcf" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Medium Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Wide Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Misc Fixed Wide Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="monofur for Powerline" checksum="(null)">
   </resource>
 
@@ -1970,6 +2060,18 @@
   </resource>
 
   <resource identifier="MT Extra" checksum="(null)">
+  </resource>
+
+  <resource identifier="mtx" checksum="(null)">
+  </resource>
+
+  <resource identifier="MUTT ClearlyU Alternate Glyphs Wide" checksum="(null)">
+  </resource>
+
+  <resource identifier="MUTT ClearlyU PUA" checksum="(null)">
+  </resource>
+
+  <resource identifier="MUTT ClearlyU Wide" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Mono PS" checksum="(null)">
@@ -2029,10 +2131,88 @@
   <resource identifier="Noto Kufi Arabic Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Kufi Arabic Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Kufi Arabic Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Kufi Arabic Semi-Bold" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Lao UI Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Looped Thai UI Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Mono for Powerline" checksum="(null)">
@@ -2047,16 +2227,40 @@
   <resource identifier="Noto Naskh Arabic Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Naskh Arabic Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Naskh Arabic UI" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Naskh Arabic UI Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Naskh Arabic UI Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Nastaliq Urdu" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Nastaliq Urdu" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Rashi Hebrew Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans" checksum="(null)">
@@ -2065,7 +2269,13 @@
   <resource identifier="Noto Sans Adlam" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Adlam Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Adlam Unjoined" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Adlam Unjoined Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Anatolian Hieroglyphs" checksum="(null)">
@@ -2128,7 +2338,22 @@
   <resource identifier="Noto Sans Avestan" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Balinese" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Balinese Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Balinese Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Bamum" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Bamum Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Bamum Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Bassa Vah" checksum="(null)">
@@ -2347,6 +2572,9 @@
   <resource identifier="Noto Sans Elbasan" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Elymaic" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Ethiopic" checksum="(null)">
   </resource>
 
@@ -2398,10 +2626,37 @@
   <resource identifier="Noto Sans Gujarati Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Gujarati Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati Thin" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Gujarati UI" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Gujarati UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gujarati UI Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gunjala Gondi" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Gurmukhi" checksum="(null)">
@@ -2441,6 +2696,12 @@
   </resource>
 
   <resource identifier="Noto Sans Hanifi Rohingya" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Hanifi Rohingya Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Hanifi Rohingya Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hanunoo" checksum="(null)">
@@ -2534,6 +2795,12 @@
   </resource>
 
   <resource identifier="Noto Sans Kayah Li" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Kayah Li Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Kayah Li Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kharoshthi" checksum="(null)">
@@ -2638,6 +2905,12 @@
   <resource identifier="Noto Sans Lisu" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Lisu Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Lisu Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Lycian" checksum="(null)">
   </resource>
 
@@ -2692,10 +2965,22 @@
   <resource identifier="Noto Sans Marchen" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Masaram Gondi" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Math" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mayan Numerals" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Medefaidrin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Medefaidrin Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Medefaidrin Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Medium" checksum="(null)">
@@ -2705,6 +2990,21 @@
   </resource>
 
   <resource identifier="Noto Sans Meetei Mayek" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Meetei Mayek Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Meetei Mayek Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Meetei Mayek Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Meetei Mayek Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Meetei Mayek Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mende Kikakui" checksum="(null)">
@@ -2794,10 +3094,19 @@
   <resource identifier="Noto Sans NKo" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Nushu" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Ogham" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ol Chiki" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ol Chiki Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ol Chiki Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Old Hungarian" checksum="(null)">
@@ -2830,10 +3139,22 @@
   <resource identifier="Noto Sans Oriya Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Oriya Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Oriya Thin" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Oriya UI" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Oriya UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Oriya UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Oriya UI Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Osage" checksum="(null)">
@@ -2881,6 +3202,9 @@
   <resource identifier="Noto Sans Siddham" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans SignWriting" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Sinhala" checksum="(null)">
   </resource>
 
@@ -2917,10 +3241,28 @@
   <resource identifier="Noto Sans Sinhala UI Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Sogdian" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Sora Sompeng" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Sora Sompeng Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Sora Sompeng Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Soyombo" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Sundanese" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Sundanese Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Sundanese Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Syloti Nagri" checksum="(null)">
@@ -2966,6 +3308,12 @@
   </resource>
 
   <resource identifier="Noto Sans Tai Tham" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tai Tham Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tai Tham weight=482" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tai Viet" checksum="(null)">
@@ -3109,13 +3457,40 @@
   <resource identifier="Noto Sans Thin Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tibetan" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Tibetan Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="Noto Sans Tifinagh" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Adrar" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Agraw Imazighen" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Ahaggar" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Air" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh APT" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Azawagh" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Ghat" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Hawad" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Rhissa Ixa" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh SIL" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Tifinagh Tawellemmet" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tirhuta" checksum="(null)">
@@ -3127,10 +3502,16 @@
   <resource identifier="Noto Sans Vai" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Wancho" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Warang Citi" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Yi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Zanabazar Square" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif" checksum="(null)">
@@ -3277,6 +3658,9 @@
   <resource identifier="Noto Serif Georgian Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Serif Grantha" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Serif Gujarati" checksum="(null)">
   </resource>
 
@@ -3337,6 +3721,15 @@
   <resource identifier="Noto Serif Hebrew Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Serif Hmong Nyiakeng" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Hmong Nyiakeng Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Hmong Nyiakeng Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Serif Italic" checksum="(null)">
   </resource>
 
@@ -3374,6 +3767,12 @@
   </resource>
 
   <resource identifier="Noto Serif Khmer Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Khojki" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Khojki Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao" checksum="(null)">
@@ -3427,13 +3826,13 @@
   <resource identifier="Noto Serif Myanmar" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Myanmar Bold" checksum="(null)">
+  <resource identifier="Noto Serif Myanmar" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Myanmar" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Myanmar Heavy" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Serif Myanmar Light" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Myanmar Medium" checksum="(null)">
@@ -3559,10 +3958,19 @@
   <resource identifier="Noto Serif Tibetan Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="NovaMono for Powerline" checksum="(null)">
+  <resource identifier="Noto Serif Yezidi" checksum="(null)">
   </resource>
 
-  <resource identifier="octicons Medium" checksum="(null)">
+  <resource identifier="Noto Serif Yezidi Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Yezidi Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Traditional Nushu" checksum="(null)">
+  </resource>
+
+  <resource identifier="NovaMono for Powerline" checksum="(null)">
   </resource>
 
   <resource identifier="Open Sans" checksum="(null)">
@@ -3605,9 +4013,6 @@
   </resource>
 
   <resource identifier="P052 Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Pomodoro" checksum="(null)">
   </resource>
 
   <resource identifier="PowerlineSymbols Medium" checksum="(null)">
@@ -3715,6 +4120,24 @@
   <resource identifier="Sans-serif Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Schumacher Clean" checksum="(null)">
+  </resource>
+
+  <resource identifier="Schumacher Clean Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Schumacher Clean Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Schumacher Clean Wide" checksum="(null)">
+  </resource>
+
+  <resource identifier="Schumacher Clean Wide Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Schumacher Clean Wide Medium Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Scriptina" checksum="(null)">
   </resource>
 
@@ -3767,6 +4190,9 @@
   </resource>
 
   <resource identifier="Serto Urhoy Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Sony Fixed" checksum="(null)">
   </resource>
 
   <resource identifier="Source Code Pro" checksum="(null)">
@@ -3874,6 +4300,9 @@
   <resource identifier="Source Code Variable Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Source Code Variable Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Source Code Variable Light" checksum="(null)">
   </resource>
 
@@ -3934,28 +4363,25 @@
   <resource identifier="Symbol Neu for Powerline" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Bold" checksum="(null)">
+  <resource identifier="Symbols Nerd Font" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Bold Italic" checksum="(null)">
+  <resource identifier="Terminus" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Medium" checksum="(null)">
+  <resource identifier="Terminus Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Medium Italic" checksum="(null)">
+  <resource identifier="Times New Roman," checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Mono Bold" checksum="(null)">
+  <resource identifier="Times New Roman, Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Mono Bold Italic" checksum="(null)">
+  <resource identifier="Times New Roman, Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Mono Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="TerminessTTF Nerd Font Mono Medium Italic" checksum="(null)">
+  <resource identifier="Times New Roman, Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Tinos for Powerline" checksum="(null)">
@@ -3968,6 +4394,18 @@
   </resource>
 
   <resource identifier="Tinos for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Twemoji" checksum="(null)">
@@ -4009,6 +4447,18 @@
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="Verdana" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Webdings" checksum="(null)">
   </resource>
 
@@ -4025,6 +4475,12 @@
   </resource>
 
   <resource identifier="xos4 Terminess Powerline Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="xos4 Terminus" checksum="(null)">
+  </resource>
+
+  <resource identifier="xos4 Terminus Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Z003 Medium Italic" checksum="(null)">
