@@ -74,6 +74,8 @@ run ff-theme-util
 
 run fix_xcursor
 
+run udiskie -t
+
 killall pulseaudio && pulseaudio &
 
 xset r rate 200 30 & 
