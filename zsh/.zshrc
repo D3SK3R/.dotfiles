@@ -529,3 +529,6 @@ source $HOME/.scripts/dkill.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# these 2 lines prevent the % when fast opening terminals
+clear
+unsetopt PROMPT_SP
