@@ -179,9 +179,9 @@ super + ctrl + {Left,Down,Up,Right}
 super + alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-# toggle floating
-super + shift + space
-    bspc node -t \~floating
+# toggle floating focus/mode
+super + {_,shift + } space
+    {bspc node -f any.floating,bspc node -t \~floating}
 
 # toggle fullscreen and pseudo-fullscreen
 super + {shift, ctrl} + f
