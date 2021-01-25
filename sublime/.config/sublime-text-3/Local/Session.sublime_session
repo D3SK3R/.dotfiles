@@ -726,6 +726,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Plants.Vs.Zombies.GOTY/Plants Vs Zombies GOTY/Plants vs. Zombies/properties/partner.xml",
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
 				"/home/d3sk3r/.config/ncmpcpp/config",
 				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxSystemSettings.ini",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/alsa-base.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt"
 			],
 			"find":
 			{
@@ -1035,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2393,400,2718,754,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{

@@ -24,6 +24,7 @@ function run {
 if xrandr | grep -ow "DP1 connected" >/dev/null; then
     autorandr --change &
 else
+    run autorandr
     bspc monitor -d 1 2 3 4 5 6 7 8 9
     sleep 3 && $HOME/.config/polybar/launch.sh &
 fi
