@@ -413,6 +413,8 @@ format-background = ${colors.bg}
 #format-underline = ${colors.bg-alt}
 
 [module/battery]
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
 adapter                                 = AC0
 battery                                 = BAT1
 
@@ -433,7 +435,6 @@ full-at                                 = 99
 label-charging                          = "%percentage%% "
 format-charging-padding                 = 1
 
-;label-discharging
 label-discharging                       = "%percentage%% "
 format-discharging-padding              = 1
 
@@ -441,7 +442,7 @@ format-discharging-padding              = 1
 label-full                        		= " %percentage%% "
 format-full-padding                     = 1
 
-poll-interval                           = 5
+poll-interval                           = 10
 
 type                                    = internal/battery
 
@@ -455,7 +456,6 @@ ramp-capacity-6                         = 
 ramp-capacity-7                         = 
 ramp-capacity-8                         = 
 ramp-capacity-9                         = 
-
 
 [module/openweather]
 type = custom/script

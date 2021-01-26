@@ -53,7 +53,7 @@ run urxvtd -q -o -f
 
 run xsetroot -cursor_name left_ptr
 
-run xfce4-power-manager
+#run xfce4-power-manager
 
 run megasync
 
@@ -71,9 +71,8 @@ run copyq
 
 run xautolock -time 60 -locker ~/.scripts/lock.sh
 
-run ff-theme-util
-
-run fix_xcursor
+# deactivated for testing
+#run fix_xcursor
 
 run udiskie -t
 
@@ -84,7 +83,9 @@ xset r rate 200 30 &
 
 setxkbmap -model abnt2 -layout br -variant abnt2 &
 
-nitrogen --restore;sleep 1;picom -b --experimental-backend &
+nitrogen --restore &
+
+picom -b --experimental-backend &
 
 sleep 4 && flashfocus &
 
@@ -93,7 +94,8 @@ sleep 3 && urxvt -name floating_terminal &
 
 sleep 3 && urxvt -name floating_terminal2 &
 
-#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating;spotify &
+# doesn't work
+#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x800+238+84 && spotify &
 
 sleep 4 && firefox &
 

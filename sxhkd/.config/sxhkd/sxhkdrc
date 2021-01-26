@@ -61,8 +61,8 @@ super + f
     dolphin
 
 # Google-chrome browser
-super + g
-    google-chrome-stable --force-dark-mode
+super + {_,shift +} g
+    {google-chrome-stable --force-dark-mode,chromium --app=https://discord.com/login}
 
 # Gotop
 super + {_, shift +} h
@@ -74,7 +74,7 @@ super + l
 
 # Spotify
 super + m
-    bspc rule -a "*" -o hidden=on sticky=on center=true state=floating rectangle=800x800+238+84;spotify
+    bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x800+238+84;spotify
 # ncmpcpp
 #super + m
 #    ncmpcpp

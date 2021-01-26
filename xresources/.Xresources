@@ -96,16 +96,14 @@ URxvt.depth:32
 ! terminal writing and grep matches
 *color9: #4177ff
 *color10: #00cfff
-*color10: #00ccff
 *color11: #208cff
 *color12: #059bff
 *color13: #00ccff
-*color14: #00828b
 *color14: #1c64ff
 *color15: #00ccff
 !*color15: #0099ff
 
-# ctrl+arrows for vim
+! ctrl+arrows for vim
 URxvt.keysym.Control-Up:        \033[1;5A
 URxvt.keysym.Control-Down:      \033[1;5B
 URxvt.keysym.Control-Left:      \033[1;5D
