@@ -267,6 +267,8 @@ zstyle ':completion::*:(-command-|export):*' fake-parameters ${${${_comps[(I)-va
 zstyle ':completion:*:*:*:*:processes' command "ps -u $USER -o pid,user,comm -w -w"
 zstyle ':completion:*:processes-names' command 'ps c -u ${USER} -o command | uniq'
 zstyle ':completion:*:(vim|nvim|vi|nano):*' ignored-patterns '*.(wav|mp3|flac|ogg|mp4|avi|mkv|iso|so|o|7z|zip|tar|gz|bz2|rar|deb|pkg|gzip|pdf|png|jpeg|jpg|gif)'
+zstyle ':completion:*:(viewnior):*' ignored-patterns '*.(sh|docx|doc|wav|mp3|flac|ogg|mp4|avi|mkv|iso|so|o|7z|zip|tar|gz|bz2|rar|deb|pkg|gzip|pdf|)'
+zstyle ':completion:*:(mpv):*' ignored-patterns '*.(sh|docx|doc|iso|so|o|7z|zip|tar|gz|bz2|rar|deb|pkg|gzip|pdf|$)'
 
 # send the current terminal line to vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
@@ -496,7 +498,6 @@ alias cpu='lscpu | grep MHz | lolcat;sensors | grep Core | lolcat'
 alias hh='hollywood;kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
 alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
 alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
-alias viewn='viewnior'
 alias emoji='rofimoji -c'
 alias short='shortn'
 alias notify='notify-send Finished;mpg123 -q ~/.scripts/ding-notif.mp3'
