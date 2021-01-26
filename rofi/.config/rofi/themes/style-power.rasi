@@ -46,7 +46,7 @@ configuration {
 
 window {
     border: 						2px;
-    border-color: 					#000000;
+    border-color: 					@bd;
     border-radius: 					12px;
     padding: 						15;
     width: 							35%;
