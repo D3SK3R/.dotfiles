@@ -231,11 +231,15 @@ function hist() {
 }
 
 # options
+# http://zsh.sourceforge.net/Doc/Release/Options.html
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
 setopt correct
 setopt appendhistory
+setopt interactive_comments
 
+
+## Completition
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'       # Case insensitive tab completion
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"         # Colored completion (different colors for dirs/files/etc)
 zstyle ':completion:*' rehash true                              # automatically find new executables in path
@@ -245,6 +249,25 @@ zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
+
+# labels and categories on TAB completition
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*:matches' group 'yes'
+zstyle ':completion:*:options' description 'yes'
+zstyle ':completion:*:options' auto-description '%d'
+zstyle ':completion:*:default' list-prompt '%S%M matches%s'
+zstyle ':completion:*' format ' %F{green}->%F{yellow} %d%f'
+zstyle ':completion:*:messages' format ' %F{green}->%F{purple} %d%f'
+zstyle ':completion:*:descriptions' format ' %F{green}->%F{yellow} %d%f'
+zstyle ':completion:*:warnings' format ' %F{green}->%F{red} no matches%f'
+zstyle ':completion:*:corrections' format ' %F{green}->%F{green} %d: %e%f'
+
+# command parameters
+zstyle ':completion:*:functions' ignored-patterns '(prompt*|_*|*precmd*|*preexec*)'
+zstyle ':completion::*:(-command-|export):*' fake-parameters ${${${_comps[(I)-value-*]#*,}%%,*}:#-*-}
+zstyle ':completion:*:*:*:*:processes' command "ps -u $USER -o pid,user,comm -w -w"
+zstyle ':completion:*:processes-names' command 'ps c -u ${USER} -o command | uniq'
+zstyle ':completion:*:(vim|nvim|vi|nano):*' ignored-patterns '*.(wav|mp3|flac|ogg|mp4|avi|mkv|iso|so|o|7z|zip|tar|gz|bz2|rar|deb|pkg|gzip|pdf|png|jpeg|jpg|gif)'
 
 # send the current terminal line to vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line

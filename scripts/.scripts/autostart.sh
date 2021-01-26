@@ -57,7 +57,7 @@ run xfce4-power-manager
 
 run megasync
 
-#run libinput-gestures-setup restart
+run libinput-gestures-setup restart
 
 run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -79,8 +79,8 @@ run udiskie -t
 
 killall pulseaudio && pulseaudio &
 
-xset r rate 200 30 & 
 # first number is delay, and second is interval
+xset r rate 200 30 & 
 
 setxkbmap -model abnt2 -layout br -variant abnt2 &
 
