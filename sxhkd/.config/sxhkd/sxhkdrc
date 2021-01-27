@@ -62,7 +62,7 @@ super + f
 
 # Google-chrome browser
 super + {_,shift +} g
-    {google-chrome-stable --force-dark-mode,chromium --app=https://discord.com/login}
+    {google-chrome-stable --force-dark-mode,chromium}
 
 # Gotop
 super + {_, shift +} h
