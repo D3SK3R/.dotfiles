@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # kill chrome GPU process.
-# causes chrome to 'flick' for a second but free lots of unsed ram
+# causes chrome to 'flick' for a second but free lots of unused ram
 kill $(ps auxf | grep "gpu" | grep "chrome" | awk '{print $2}')
 
 # restart picom, since it keeps getting more and more cached mem
