@@ -26,7 +26,7 @@ if [[ "$crunch_appname" == "dunstify" ]]; then
 fi
 
 # limit the log size so that it doesn't get slow
-if [[ $(cat /tmp/dunstlog | wc -l) -gt 50 ]]; then
+if [[ $(cat /tmp/dunstlog | wc -l) -gt 150 ]]; then
     rm /tmp/dunstlog
 fi
 
