@@ -4,4 +4,4 @@ sleep 1 && $HOME/.config/polybar/launch.sh &
 sleep 3 && picom -b --experimental-backend &
 sleep 1 && nitrogen --restore &
 sleep 3 && bspc config top_padding 22 &
-sleep 5 && killall flashfocus & flashfocus &
+sleep 8 && killall flashfocus;flashfocus &

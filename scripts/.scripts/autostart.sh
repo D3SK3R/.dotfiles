@@ -87,7 +87,7 @@ nitrogen --restore &
 
 picom -b --experimental-backend &
 
-sleep 4 && flashfocus &
+sleep 10 && flashfocus &
 
 # floating stuff
 sleep 3 && urxvt -name floating_terminal &

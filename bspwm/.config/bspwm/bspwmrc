@@ -65,20 +65,20 @@ bspc config presel_feedback_color   "#16aee5"
 ### Rules ###
 bspc rule -a "URxvt:*:floating_terminal"            state=floating hidden=on sticky=on rectangle=570x360+400+32 
 bspc rule -a "URxvt:*:floating_terminal2"           state=floating hidden=on sticky=on rectangle=1356x732+3+28
-bspc rule -a "firefox"                              state=floating hidden=on sticky=on rectangle=1356x732+3+32
-bspc rule -a "discord"                              state=floating hidden=on sticky=on rectangle=1356x732+3+32
+bspc rule -a "firefox"                              state=floating hidden=on sticky=on rectangle=1356x732+3+28
+bspc rule -a "discord"                              state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "*:*:Open File"                        state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Save File"                        state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Task Manager - Google Chrome"     state=floating rectangle=757x564+1654+94
-bspc rule -a "copyq"                                state=floating
+bspc rule -a "net-mc-main-Main"                     state=floating center=true
 bspc rule -a "qutebrowser"                          state=floating center=true
-bspc rule -a "Arandr"                               state=floating
-bspc rule -a "Pavucontrol"                          state=floating
 bspc rule -a "*:cpupower-gui"                       state=floating
 bspc rule -a "*:*:Power Manager"                    state=floating
 bspc rule -a "*:*:Network Connections"              state=floating
+bspc rule -a "copyq"                                state=floating
+bspc rule -a "Arandr"                               state=floating
+bspc rule -a "Pavucontrol"                          state=floating
 bspc rule -a "Lxappearance"                         state=floating
-bspc rule -a "net-mc-main-Main"                     state=floating center=true
 bspc rule -a "Manjaro Settings Manager"             state=floating
 bspc rule -a "Nitrogen"                             state=floating
 bspc rule -a "Pamac-manager"                        state=floating
@@ -92,6 +92,6 @@ bspc rule -a "Gucharmap"                            state=floating
 ##                      AUTOSTART                     ##
 #########################################################
 $HOME/.scripts/autostart.sh
-bspc desktop -f 1
+sleep 2 && bspc desktop -f 1
 sleep 5 && bspc config top_padding 22
 
