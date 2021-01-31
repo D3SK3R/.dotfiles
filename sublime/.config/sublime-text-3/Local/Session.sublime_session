@@ -726,6 +726,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/Evellyn/niv.txt",
+				"/home/d3sk3r/MEGA/discord/Evellyn/eve.txt",
 				"/home/d3sk3r/MEGA/discord/Jimi/@end",
 				"/home/d3sk3r/.cache/kioexec/krun/8573_0/0-betterlockscreen",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_Touchpad Gestures/Github and install",
@@ -851,9 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_dmenu/DOTdmenurc",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Dropdown Terminal",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_PatchedFonts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/blurlock/where and how",
-				"/tmp/ark-VBfSRv/how",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/combo jack/video.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/blurlock/where and how"
 			],
 			"find":
 			{
@@ -1035,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1027,139,1352,754,2732,768",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768",
 			"project": "",
 			"replace":
 			{
