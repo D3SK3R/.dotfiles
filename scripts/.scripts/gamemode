@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# May crash chrome
+
 file=/tmp/gamemode
 notifyid=6125
 
@@ -20,9 +22,6 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     sleep 1.6 && notify-send DUNST_COMMAND_TOGGLE
 
 else
-    # Delete toggle file
-    rm $file
-
     # Re enable notifications
     notify-send DUNST_COMMAND_TOGGLE
 
@@ -31,5 +30,8 @@ else
 
     # Starting compositor
     picom -b --experimental-backend &
+
+    # Delete toggle file
+    rm $file
 
 fi
