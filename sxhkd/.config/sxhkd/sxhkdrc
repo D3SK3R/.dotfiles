@@ -60,9 +60,9 @@ super + e
 super + f
     dolphin
 
-# Google-chrome browser
+# Google-chrome browser and gamemode toggle
 super + {_,shift +} g
-    {google-chrome-stable --force-dark-mode,chromium}
+    {google-chrome-stable --force-dark-mode,~/.scripts/gamemode}
 
 # Gotop
 super + {_, shift +} h

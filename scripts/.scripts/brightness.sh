@@ -20,9 +20,9 @@ if [[ "$#" -eq 0 ]]; then
 elif [[ "$1" = "-" ]]; then
     echo $(( level - 1 )) > $file
     current=$(cat $file)
-    dunstify -i $icon -t 1000 "Brightness -1%" "Current brightness: $current" -p 2 -r 2
+    dunstify -i $icon -t 1000 "Brightness -1%" "Current brightness: $current" -r 2
 elif [[ "$1" = "+" ]]; then
     echo $(( level + 1 )) > $file
     current=$(cat $file)
-    dunstify -i $icon -t 1000 "Brightness +1%" "Current brightness: $current" -p 2 -r 2
+    dunstify -i $icon -t 1000 "Brightness +1%" "Current brightness: $current" -r 2
 fi
