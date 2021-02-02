@@ -6,15 +6,15 @@ while true; do
     while [ $(ps aux | grep -e "\<telegram\>" | wc -l) -lt '2' ]; do
         echo "telegram is closed"
         telegram="closed"
-        if [ -d "/home/d3sk3r/Telegram Desktop" ]; then
-            rm -rf /home/d3sk3r/Telegram\ Desktop
+        if [ -d "~/Telegram Desktop" ]; then
+            rm -rf ~/Telegram\ Desktop
         fi
         sleep 1
     done
     
-    if [ -d "/home/d3sk3r/Telegram Desktop" ]; then
+    if [ -d "~/Telegram Desktop" ]; then
         echo "telegram is open"
-        mv /home/d3sk3r/Telegram\ Desktop/* /home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/2D/
+        mv ~/Telegram\ Desktop/* ~/MEGA/D3SK3R/Other/Paste/Girls/2D/
     fi
     sleep 1
 done

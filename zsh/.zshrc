@@ -460,8 +460,8 @@ alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
 alias server='python -m  http.server 1337'
 #alias httpdon='sudo systemctl enable httpd'
 #alias httpdoff='sudo systemctl disable httpd'
-alias ngrok='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
-alias pktriot='/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/pktriot'
+alias ngrok='~/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
+alias pktriot='~/MEGA/D3SK3R/D3SK3R/pktriot-0.9.18/pktriot'
 alias remote_ssh='ssh -R d3sk3r:22:localhost:22 serveo.net'
 # To connect to the remote_ssh: ssh -J serveo.net d3sk3r@d3sk3r
 

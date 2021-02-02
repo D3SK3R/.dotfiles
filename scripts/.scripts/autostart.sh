@@ -99,6 +99,6 @@ sleep 3 && urxvt -name floating_terminal2 &
 
 sleep 4 && firefox &
 
-sleep 3 && discord & premid &
+sleep 3 && discord & #premid &
 
 
