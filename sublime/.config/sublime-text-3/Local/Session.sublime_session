@@ -593,6 +593,18 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "15/01\nsou disciplinado\nsou eficiente\n- Consegui reprogramar e melhorar meu script (panic)\n\n16/01\nsou cuidadoso\nsou criterioso\n- Minha amiga, do nada, me mandou um texto falando do quanto sou importante pra ela, do quando faço a vida dela melhor\n\n17/01\nsou confiante\nsou compreensivo\n- Só estudei e conheci umas pessoas legais no discord\n\n18/01\nsou companheiro\nsou confiável\n- Passei o dia td jogando com uns amigos\n\n19/01\nsou autêntico\nsou aplicado\n- Ela conseguiu ficar com o cel da mãe dela e a gente pôde conversar por mais tempo, em call\n\n20/01\nsou agradável\nsou altruísta\n- Consegui mudar e configurar um novo WM\n",
+					"file": "/home/d3sk3r/MEGA/psi.txt",
+					"file_size": 626,
+					"file_write_time": 132556842687151179,
+					"settings":
+					{
+						"buffer_size": 618,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -990,8 +1002,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/psi.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 618,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1035,7 +1076,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{
