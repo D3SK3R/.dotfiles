@@ -151,7 +151,7 @@ function output() {
     reloadSink
     getCurVol
     volMuteStatus
-    lowVol='30'
+    lowVol='40'
     if [ "${curStatus}" = 'yes' ]
     then
         echo "婢 $curVol%"
