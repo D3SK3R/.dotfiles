@@ -21,13 +21,10 @@ black = #000000
 
 bg = #090c12
 ;bg = #10141c
-;bg = #00000000
 bg-alt = #16aee5
 ;bg-alt = #7fadff
-;bg-alt = #18c1ff
-fg = #F2F2F2
-;fg-alt = #10141c
-fg-alt = #090c12
+fg = #16aee5
+fg-alt = #16aee5
 
 urgent = #EF5350
 occupied = #42A5F5
@@ -50,8 +47,8 @@ deep-purple = #5e35b1
 indigo = #3949ab
 blue = #1e88e5
 light-blue = #039be5
-cyan = #00ccff
-cyan2 = #00acc1
+cyan = #16aee5
+cyan2 = #00ccff
 teal = #00897b
 green = #43a047
 light-green = #7cb342

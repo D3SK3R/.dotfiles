@@ -45,13 +45,13 @@ offset-x = 0%
 monitor = ${env:MONITOR:}
 
 border-size = 2
-border-colors = ${colors.transparent}
+border-color = ${colors.transparent}
 
 ;border-top-size = 2
-;border-top-colors = ${colors.transparent}
+;border-top-color = ${colors.transparent}
 
 ;border-bottom-size = 1
-;border-bottom-colors = ${colors.bg}
+;border-bottom-color = ${colors.bg}
 
 ;border-left-size = 0
 ;border-bottom-size = 0
@@ -82,9 +82,9 @@ include-file = ~/.config/polybar/fonts
 ; Module Location
 ;=========================================================
 
-modules-left = sepR1 bspwm sepL3 spotify mpd sepL4
+modules-left = sepR1 bspwm sepL2 spotify mpd sepL4
 modules-center =
-modules-right = sepR4 cpu sepR3 ram sepR2 mute pavolume sepR3 battery sepR2 openweather sepR3 date sepL1
+modules-right = sepR4 cpu sepR2 ram sepR2 mute pavolume sepR2 battery sepR2 openweather sepR3 date sepL1
 
 ;left - center - right - none
 tray-position = center
