@@ -726,6 +726,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/todo",
 				"/home/d3sk3r/MEGA/psi.txt",
 				"/home/d3sk3r/MEGA/microsoft/microsoft.txt",
 				"/home/d3sk3r/MEGA/discord/Evellyn/niv.txt",
@@ -852,8 +853,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/3_sxhkd/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_dmenu/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_dmenu/DOTdmenurc",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Dropdown Terminal",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_PatchedFonts"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_I3/Dropdown Terminal"
 			],
 			"find":
 			{
@@ -1035,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
 			"project": "",
 			"replace":
 			{
