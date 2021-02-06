@@ -8,10 +8,10 @@ iconOff="/usr/share/icons/Papirus-Dark/16x16/panel/mic-volume-muted.svg"
 
 if [[ $mute = 'no' ]]; then
     pactl set-source-mute 1 toggle
-    dunstify -i $iconOff -t 1000 'Mic muted' ' ' -r 2
+    dunstify -i $iconOff -t 1000 'Mic muted' -r 2
 elif [[ $mute = 'yes' ]]; then
     pactl set-source-mute 1 toggle
-    dunstify -i $iconOn -t 1000 'Mic unmuted' ' ' -r 2
+    dunstify -i $iconOn -t 1000 'Mic unmuted' -r 2
 fi
 
 polybar-msg hook mute 1
