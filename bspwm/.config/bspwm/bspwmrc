@@ -88,6 +88,7 @@ bspc rule -a "MEGAsync"                             state=floating
 bspc rule -a "GParted"                              state=floating
 bspc rule -a "Kvantum Manager"                      state=floating
 bspc rule -a "Gucharmap"                            state=floating
+bspc rule -a "soundux"                              state=floating
 
 #########################################################
 ##                      AUTOSTART                     ##

@@ -117,7 +117,7 @@ super + z
 XF86Audio{Raise,Lower}Volume
     ~/.scripts/volume.sh Master {2%+,2%-}
 
-# change volume using super + mouse
+# Change volume using super + mouse
 super + {button4, button5}
     ~/.scripts/volume.sh Master {2%+,2%-}
 

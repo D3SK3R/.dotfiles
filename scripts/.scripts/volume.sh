@@ -8,7 +8,7 @@
 
 icon="/usr/share/icons/Papirus-Dark/16x16/actions/audio-volume-high.svg"
 
-# mute 'feature' not working
+# mute feature not working
 if [ "$1" = "All" ]; then
     if [ "$2" = "mute" ]; then
         volume="$(i3volume)"
@@ -28,7 +28,6 @@ else
     current=$(pacmd list-sinks | grep -A 15 "index: " | grep 'volume:' | grep -E -v 'base volume:' | awk -F : '{print $3}' | grep -o -P '.{0,3}%'| sed s/.$// | tr -d ' ')
 
     dunstify -i $icon -t 1000 "Volume $2" "Current volume: $current" -r 1
-
 fi
 
 # not using polybar hook
