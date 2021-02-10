@@ -408,7 +408,8 @@ alias memmonitor="while true; do c;echo '*/proc/swaps';cat /proc/swaps;echo '\n*
 #################################################################
 # Pacman 
 #################################################################
-alias install='sudo pacman -S'
+#alias install='sudo pacman -S'
+alias install='~/.scripts/install'
 alias search='pacman -Ss'
 alias packages='pacman -Q'
 # only works on manjaro, for arch, use something like reflector-simple
