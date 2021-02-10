@@ -1,0 +1,32 @@
+#!/bin/sh
+
+filePacman=/tmp/toinstallpacman
+fileAur=/tmp/toinstallaur
+
+rm $filePacman &>/dev/null
+rm $fileAur &>/dev/null
+
+for package in $@;
+do
+    if [[ $(pacman -Ss $package) ]]; then
+        echo $package >> $filePacman
+    else
+        echo $package >> $fileAur
+    fi
+done
+
+if [[ $(ls /tmp/ | grep toinstallpacman) ]]; then
+    trap 'rm $filePacman;exit' INT
+    printf "\e[1;36m\nInstalling from the Official Repos\e[0m\n\n"
+    yay -S $(cat $filePacman)
+    rm $filePacman &>/dev/null
+fi
+
+if [[ $(ls /tmp/ | grep toinstallaur) ]]; then
+    trap 'rm $fileAur;exit' INT
+    printf "\e[1;36m\nInstalling from the AUR\e[0m\n\n"
+    yay -S $(cat $fileAur) --noconfirm --sudoloop
+    rm $fileAur &>/dev/null
+fi
+
+
