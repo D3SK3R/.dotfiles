@@ -97,7 +97,7 @@ sleep 3 && urxvt -name floating_terminal2 &
 # doesn't work
 #sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x800+238+84 && spotify &
 
-sleep 4 && firefox &
+sleep 5 && firefox &
 
 sleep 3 && discord & #premid &
 
