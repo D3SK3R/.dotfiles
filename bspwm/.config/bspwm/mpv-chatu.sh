@@ -5,7 +5,5 @@ do
     name=$(xprop -id "$node" | cut -d'"' -f2 | grep -E ".* [0-9]*:[0-9]* - mpv")
     if [[ ! -z $(echo $name | grep -E ".* [0-9]*:[0-9]* - mpv") ]]; then
         bspc node $node -d 2
-    else
-        echo "normal window"
     fi
 done
