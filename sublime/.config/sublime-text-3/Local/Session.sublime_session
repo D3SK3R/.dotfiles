@@ -726,6 +726,12 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg",
+				"/home/d3sk3r/.minecraft/LabyMod/filters.json",
+				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json",
+				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
+				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
+				"/home/d3sk3r/.minecraft/LabyMod/autotext.json",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
@@ -847,13 +853,7 @@
 				"/home/d3sk3r/todo.txt",
 				"/home/d3sk3r/fontes",
 				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
-				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/config.ini",
-				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/config.ini",
-				"/home/d3sk3r/.dotfiles/spicetify/.config/spicetify/afterInstallCommands.txt",
-				"/home/d3sk3r/fzfbuku.sh",
-				"/home/d3sk3r/test",
-				"/home/d3sk3r/fpfsi/respostas.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
+				"/home/d3sk3r/dotfiles/spicetify/.config/spicetify/config.ini"
 			],
 			"find":
 			{
@@ -1035,7 +1035,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{

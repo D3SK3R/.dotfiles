@@ -322,6 +322,10 @@ export LESS=-r
 
 
 ###############################################################
+#                         Functions                           #
+###############################################################
+
+###############################################################
 #			          _ _                     				  #
 #   		    /\   | (_)                    				  #
 #			   /  \  | |_  __ _ ___  ___  ___ 				  #
@@ -336,7 +340,6 @@ export LESS=-r
 alias cd='f(){ cd "$@" ;ls;  unset -f f; }; f'
 # alias ls='ls -CF --color=always'
 # alias la='ls -lah'
-#alias ls='lsd --icon never'
 alias ls='lsd --group-dirs first'
 alias la='exa -lah'
 alias cl='clear;exa'
