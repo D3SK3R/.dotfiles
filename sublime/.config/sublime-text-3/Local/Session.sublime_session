@@ -594,11 +594,11 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/Valheim.v0.143.5/HOW TO RUN GAME!!.txt",
+					"file": "/home/d3sk3r/.minecraft/launcher_profiles.json",
 					"settings":
 					{
-						"buffer_size": 279,
-						"line_ending": "Windows"
+						"buffer_size": 2097,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -734,10 +734,23 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.minecraft/options.txt",
+				"/home/d3sk3r/.minecraft/optionsof.txt",
+				"/home/d3sk3r/Valheim.v0.143.5/HOW TO RUN GAME!!.txt",
+				"/home/d3sk3r/.minecraft/shig.inima",
+				"/home/d3sk3r/.minecraft/launcher_profiles.json",
+				"/home/d3sk3r/.minecraft/modcore/config.toml",
+				"/home/d3sk3r/.minecraft/usercache.json",
+				"/home/d3sk3r/.minecraft/mods/commands",
+				"/home/d3sk3r/.minecraft/versions/1.8.9-forge1.8.9-11.15.1.1722-lwjglpatch/1.8.9-forge1.8.9-11.15.1.1722-lwjglpatch.json",
+				"/home/d3sk3r/XanderBaatzTweaks.reg",
+				"/home/d3sk3r/.minecraft/patcher/negative_cache.txt",
+				"/home/d3sk3r/.minecraft/optionsshaders.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§6  dynamic [1.8]§0/assets/minecraft/mcpatcher/color.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/.minecraft/usernamecache.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/.minecraft/patcher/negative_cache.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
 				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
 				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg",
@@ -750,7 +763,6 @@
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
 				"/home/d3sk3r/.cache/kioexec/krun/4091689_0/0-try2",
-				"/home/d3sk3r/.minecraft/optionsof.txt",
 				"/home/d3sk3r/.minecraft/tlauncher_profiles.json",
 				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/nebulaE/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
@@ -849,19 +861,7 @@
 				"/home/d3sk3r/calcRedes.txt",
 				"/home/d3sk3r/MEGA/nmap_scan.py",
 				"/home/d3sk3r/a",
-				"/home/d3sk3r/infraTI.txt",
-				"/home/d3sk3r/cam",
-				"/home/d3sk3r/.minecraft/resourcepacks/nebula/pack.mcmeta",
-				"/home/d3sk3r/.config/Kvantum/kvantum.kvconfig",
-				"/home/d3sk3r/lush-pop/Sweet-Mars-transparent-toolbar/Sweet-Mars-transparent-toolbar.kvconfig",
-				"/home/d3sk3r/lush-pop/Nature.colors",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/where",
-				"/home/d3sk3r/microsoft.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Flashfocus Animations/link and how.txt",
-				"/home/d3sk3r/discord bug.16",
-				"/home/d3sk3r/.viminfy.tmp",
-				"/home/d3sk3r/typing.txt"
+				"/home/d3sk3r/infraTI.txt"
 			],
 			"find":
 			{
@@ -879,6 +879,11 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"lw",
+					"path",
+					"lw",
+					"lww",
+					"path",
 					"text",
 					"1818",
 					"openw",
@@ -992,8 +997,8 @@
 				"reverse": false,
 				"show_context": true,
 				"use_buffer2": true,
-				"whole_word": true,
-				"wrap": true
+				"whole_word": false,
+				"wrap": false
 			},
 			"groups":
 			[
@@ -1003,11 +1008,11 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/Valheim.v0.143.5/HOW TO RUN GAME!!.txt",
+							"file": "/home/d3sk3r/.minecraft/launcher_profiles.json",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 279,
+								"buffer_size": 2097,
 								"regions":
 								{
 								},
@@ -1020,10 +1025,10 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 409.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
