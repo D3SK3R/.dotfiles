@@ -53,7 +53,7 @@ run urxvtd -q -o -f
 
 run xsetroot -cursor_name left_ptr
 
-#run xfce4-power-manager
+run xfce4-power-manager
 
 run megasync
 

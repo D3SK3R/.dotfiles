@@ -154,7 +154,7 @@ F2
     ~/.config/bspwm/floating_toggle.sh --name floating_terminal2
 
 F3
-    ~/.config/bspwm/floating_toggle.sh --class Spotify
+    ~/.config/bspwm/floating_toggle.sh --class spotify
 
 F4
     ~/.config/bspwm/floating_toggle.sh --class Firefox
