@@ -593,14 +593,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
-					"settings":
-					{
-						"buffer_size": 222,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -734,19 +726,32 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/.minecraft/optionsLC.txt",
+				"/home/d3sk3r/fatec/SSORCI/REGEX",
+				"/home/d3sk3r/tracosEmpreendedor.txt",
+				"/home/d3sk3r/quintonkaine",
+				"/home/d3sk3r/quinton kaine.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
+				"/home/d3sk3r/.minecraft/usercache.json",
+				"/home/d3sk3r/.minecraft/launcher_log.txt",
+				"/home/d3sk3r/.minecraft/launcher_settings.json",
+				"/home/d3sk3r/.minecraft/resourcepacks/!       ⌡5⌡lCooldude's ⌡615k ⌡3Pack/assets/minecraft/textures/blocks/coal_ore.png.mcmeta",
+				"/home/d3sk3r/.minecraft/launcher_accounts.json",
+				"/home/d3sk3r/.minecraft/launcher_ui_state.json",
+				"/home/d3sk3r/.minecraft/launcher_profiles.json",
 				"/home/d3sk3r/.minecraft/window_settings_launcher.conf",
+				"/home/d3sk3r/.minecraft/usernamecache.json",
+				"/home/d3sk3r/.minecraft/optionsLC.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/accs",
-				"/home/d3sk3r/.minecraft/launcher_profiles.json",
 				"/home/d3sk3r/.minecraft/options.txt",
 				"/home/d3sk3r/.minecraft/optionsof.txt",
 				"/home/d3sk3r/Valheim.v0.143.5/HOW TO RUN GAME!!.txt",
 				"/home/d3sk3r/.minecraft/shig.inima",
 				"/home/d3sk3r/.minecraft/modcore/config.toml",
-				"/home/d3sk3r/.minecraft/usercache.json",
 				"/home/d3sk3r/.minecraft/mods/commands",
 				"/home/d3sk3r/.minecraft/versions/1.8.9-forge1.8.9-11.15.1.1722-lwjglpatch/1.8.9-forge1.8.9-11.15.1.1722-lwjglpatch.json",
 				"/home/d3sk3r/XanderBaatzTweaks.reg",
@@ -754,7 +759,6 @@
 				"/home/d3sk3r/.minecraft/optionsshaders.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§6  dynamic [1.8]§0/assets/minecraft/mcpatcher/color.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
-				"/home/d3sk3r/.minecraft/usernamecache.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
 				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
@@ -849,19 +853,7 @@
 				"/home/d3sk3r/.dotfiles/i3/.i3/config",
 				"/home/d3sk3r/.dotfiles/i3/.i3/config.O",
 				"/home/d3sk3r/.config/rofi/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/i3-alternating-layout/other options",
-				"/home/d3sk3r/scratchpad",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
-				"/home/d3sk3r/zram.service",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/links",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/zram/test zram and swaps",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance.txt",
-				"/home/d3sk3r/.dotfiles/fonts/.config/fontconfig/conf.d/50-enable-terminess-powerline.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/ext/vtwheel",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/voz.txt",
-				"/home/d3sk3r/.config/mpv/mpv.conf",
-				"/home/d3sk3r/.config/mpv/scripts/mpv_thumbnail_script_client_osc.lua",
-				"/home/d3sk3r/try"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/i3-alternating-layout/other options"
 			],
 			"find":
 			{
@@ -1003,37 +995,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 222,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1077,7 +1040,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
+			"position": "0,0,0,0,0,1376,400,2040,754,2732,768",
 			"project": "",
 			"replace":
 			{
