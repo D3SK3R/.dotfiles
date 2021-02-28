@@ -593,6 +593,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/tracosEmpreendedor.txt",
+					"settings":
+					{
+						"buffer_size": 5,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -726,6 +735,55 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky42.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky41.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky40.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky39.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky38.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky29.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky27.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky26.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky25.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky24.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky22.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky21.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky20.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky19.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky18.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky17.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky16.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky15.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky14.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky13.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky12.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky11.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky10.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky9.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky8.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky7.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/MEGA/FATEC/SSORCI/REGEX",
 				"/home/d3sk3r/fatec/SSORCI/REGEX",
 				"/home/d3sk3r/tracosEmpreendedor.txt",
 				"/home/d3sk3r/quintonkaine",
@@ -804,56 +862,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/icons/icons.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/NodeMCU/command.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_connect.sh",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_toggle.sh",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_troll.sh",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/adbNmap.sh",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/adbOLD.py",
-				"/home/d3sk3r/.dotfiles/scripts/.scripts/auto_adb.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/AndroidExploitation/scripts/where.txt",
-				"/home/d3sk3r/Desec - 2020/Informações.txt",
-				"/home/d3sk3r/Desec - 2020/torrent.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/gtk.css",
-				"/home/d3sk3r/.dotfiles/kvantum/.config/Kvantum/KvantumGently-Kv/KvantumGently-Kv.kvconfig",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/oomox-git/where and git.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi issue/toInstall",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/13_ignoreUpdates - not necessary/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/airline/where",
-				"/home/d3sk3r/.dotfiles/vim/.vim/.netrwhist",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/clipboard",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/PowerlineHow",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/10_TerminalApps/vim/multipleCommentUncomment.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/where.txt",
-				"/home/d3sk3r/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/autohide_polybar.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/8_picom/Tryone compton",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/PatchedFonts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/ext folder",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/5_Urxvt/Daemon",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/PatchedFonts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/2_PatchedFonts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/updateMirrorsPacman.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/GTK_themes/oomox-git/where and git.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/GTK_themes/Where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Theme/Cursors/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/Dropdown Terminal",
-				"/home/d3sk3r/ac",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Shades-BlacknWhite/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/modules",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/Config-Transparent/config",
-				"/home/d3sk3r/MEGA/discord/shizu/insta",
-				"/home/d3sk3r/.dotfiles/i3/.i3/config",
-				"/home/d3sk3r/.dotfiles/i3/.i3/config.O",
-				"/home/d3sk3r/.config/rofi/config",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_I3/i3-alternating-layout/other options"
+				"/home/d3sk3r/.dotfiles/scripts/.scripts/adb_connect.sh"
 			],
 			"find":
 			{
@@ -995,8 +1004,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/tracosEmpreendedor.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1040,7 +1078,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1376,400,2040,754,2732,768",
+			"position": "0,0,0,0,0,0,28,1366,768,2732,768",
 			"project": "",
 			"replace":
 			{
