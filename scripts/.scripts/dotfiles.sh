@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# As a script to be run
 message=$@
 if [ -z "$message" ]; then
     message="default commit"
