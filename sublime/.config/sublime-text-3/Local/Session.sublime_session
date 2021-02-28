@@ -594,10 +594,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/tracosEmpreendedor.txt",
+					"file": "/home/d3sk3r/estagio",
 					"settings":
 					{
-						"buffer_size": 5,
+						"buffer_size": 1386,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -735,6 +735,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/tracosEmpreendedor.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
@@ -785,7 +786,6 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
 				"/home/d3sk3r/MEGA/FATEC/SSORCI/REGEX",
 				"/home/d3sk3r/fatec/SSORCI/REGEX",
-				"/home/d3sk3r/tracosEmpreendedor.txt",
 				"/home/d3sk3r/quintonkaine",
 				"/home/d3sk3r/quinton kaine.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
@@ -1009,11 +1009,11 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/tracosEmpreendedor.txt",
+							"file": "/home/d3sk3r/estagio",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5,
+								"buffer_size": 1386,
 								"regions":
 								{
 								},
@@ -1078,7 +1078,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1366,768,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{
