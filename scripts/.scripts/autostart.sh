@@ -94,8 +94,8 @@ sleep 3 && urxvt -name floating_terminal &
 
 sleep 3 && urxvt -name floating_terminal2 &
 
-# doesn't work
-#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x800+238+84 && spotify &
+# doesn't work, at least not with a low sleep delay
+#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
 
 sleep 5 && firefox &
 
