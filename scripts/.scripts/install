@@ -20,8 +20,11 @@ for package in $@;
 do
     if [[ $(pacman -Ss $package) ]]; then
         echo $package >> $filePacman
-    else
+    elif [[ $(yay -Ss $package) ]]; then
         echo $package >> $fileAur
+    else
+        printf "\e[1;36m$package\e[0m not found.\n"
+        exit
     fi
 done
 
