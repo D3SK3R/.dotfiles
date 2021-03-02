@@ -11,8 +11,8 @@
     (size 640 480))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 28)
-    (size 1366 740)
+    (position 228 32)
+    (size 1124 722)
     (open-on-exit)
     (aux-info
         (left-docks-width "44")
@@ -71,12 +71,11 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 0 21)
-    (size 840 671))
+    (size 678 628))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 0 24)
-    (size 882 605)
-    (monitor 1))
+    (size 678 628))
 
 (hide-docks no)
 (single-window-mode yes)

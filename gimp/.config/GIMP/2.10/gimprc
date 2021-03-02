@@ -8,12 +8,12 @@
 
 (use-opencl yes)
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 112)
-(monitor-yresolution 115)
+(monitor-xresolution 102)
+(monitor-yresolution 103)
 (theme "System")
 (icon-theme "Symbolic-High-Contrast")
 (icon-size small)
-(layer-new-fill-type background)
+(layer-merge-discard-invisible yes)
 (fill-options
     (style solid)
     (antialias yes)

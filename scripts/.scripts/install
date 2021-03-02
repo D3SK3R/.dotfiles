@@ -2,7 +2,7 @@
 
 #TODO
 # 1- if a package is in the official repo but isn't exactly what you type, it tries to install but fails
-# ex: obs
+## ex: obs
 # theres obs-studio, so if I type install obs, it sees that theres an obs*something and tries to install obs, but fails cause the package name is obs-studio
 # 2- if theres no package in the official repos, it tries to install using the AUR without checking if it exists
 
