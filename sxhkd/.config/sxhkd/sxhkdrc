@@ -114,21 +114,24 @@ super + z
 #########################################################################################
 
 # Raise and Lower volume
-XF86Audio{Raise,Lower}Volume
+#XF86Audio{Raise,Lower}Volume
+alt + {Up, Down}
     ~/.scripts/volume.sh Master {2%+,2%-}
 
-# Change volume using super + mouse
-super + {button4, button5}
+# Change volume using super + mouse scroll
+alt + {button4, button5}
     ~/.scripts/volume.sh Master {2%+,2%-}
 
 # Brightness
-XF86MonBrightness{Up,Down}
-    ~/.scripts/brightness.sh {+,-}
+#XF86MonBrightness{Down,Up}
+alt + {Left, Right}
+    ~/.scripts/brightness.sh {-,+}
 
 # Media controls (works for system and mpd)
 # MPD
-XF86Audio{Play,Stop,Next,Prev}
-    ~/.scripts/mediaControl.sh {toggle, stop, next, prev}
+#XF86Audio{Play,Stop,Prev,Next}
+alt + {KP_Divide, KP_Multiply, comma, period}
+    ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
 
 # Spotify
 #XF86Audio{Play,Stop,Next,Prev}
