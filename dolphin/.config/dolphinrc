@@ -37,11 +37,11 @@ PreviewSize=48
 Height 768=545
 Width 1360=503
 Width 1366=503
-eDP1 DP1 Height 1366x768=532
+eDP1 DP1 Height 1366x768=438
 eDP1 DP1 Height 768=532
 eDP1 DP1 Width 1360=445
 eDP1 DP1 Width 1366=510
-eDP1 DP1 Width 1366x768=510
+eDP1 DP1 Width 1366x768=466
 
 [MainWindow]
 Height 768=725

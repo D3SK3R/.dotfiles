@@ -732,6 +732,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.cache/kioexec/krun/166618_0/8006-bb.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
@@ -858,8 +859,7 @@
 				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
 				"/home/d3sk3r/.config/ncmpcpp/config",
 				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxSystemSettings.ini",
-				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxGame.ini",
-				"/home/d3sk3r/beforechanges"
+				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxGame.ini"
 			],
 			"find":
 			{
@@ -1046,7 +1046,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{

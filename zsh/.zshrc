@@ -310,6 +310,12 @@ bindkey '^H' backward-kill-word                                 # delete previou
 bindkey '^[^?' kill-word                                        # delete forward word with alt+backspace
 #bindkey '^[[Z' undo
 
+# bind delete-char to delete key
+bindkey '^[[3~' delete-char
+# disables insert key
+bindkey -s '\e[2~' ''
+
+
 # Color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'
 export LESS_TERMCAP_md=$'\E[01;32m'
@@ -344,7 +350,7 @@ alias ls='lsd --group-dirs first'
 alias la='exa -lah'
 alias cl='clear;exa'
 alias rm='trash'
-alias rmtrash='"rm" -rf ~/.local/share/Trash/files'
+alias rmtrash='"rm" -rf ~/.local/share/Trash/files/*'
 # confirm before mv or cp overwriting files
 alias mv='mv -i'
 alias cp='cp -ri'
