@@ -442,7 +442,7 @@ alias vundle='vim +PluginInstall +qall'
 #################################################################
 # pentest related
 #################################################################
-#alias dirbuster='java -jar /opt/dirbuster/dirbuster.jar'
+alias pwncat-env='source /opt/pwncat/pwncat-env/bin/activate'
 alias airgeddon='sudo airgeddon'
 alias evillimiter='sudo evillimiter'
 alias arpspoof='sudo arpspoof'
