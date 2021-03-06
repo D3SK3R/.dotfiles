@@ -129,7 +129,8 @@ alt + {Left, Right}
 
 # Media controls (works for system and mpd)
 # MPD
-#XF86Audio{Play,Stop,Prev,Next}
+XF86Audio{Play,Stop,Prev,Next}
+    ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
 alt + {KP_Divide, KP_Multiply, comma, period}
     ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
 

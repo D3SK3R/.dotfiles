@@ -71,7 +71,7 @@ bspc rule -a "*:*:Save File"                                state=floating recta
 bspc rule -a "*:*:Open File"                                state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Open Files"                               state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Task Manager - Google Chrome"             state=floating rectangle=757x564+1654+94
-bspc rule -a "minecraft-launcher"                           state=floating rectangle=999x658+1547+55
+bspc rule -a "Minecraft Launcher"                           state=floating rectangle=999x658+1547+55
 bspc rule -a "lunarclient"                                  state=floating rectangle=973x666+1560+50
 bspc rule -a "qutebrowser"                                  state=floating center=true
 bspc rule -a "*:cpupower-gui"                               state=floating
