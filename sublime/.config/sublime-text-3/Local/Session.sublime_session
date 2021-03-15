@@ -599,14 +599,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
-					"settings":
-					{
-						"buffer_size": 39,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -740,6 +732,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/.config/Microsoft/Microsoft Teams - Insiders/logs.txt",
+				"/home/d3sk3r/RR-N-v5.8.5-20180214-j23g-Final/META-INF/com/google/android/updater-script",
 				"/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
 				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
@@ -864,10 +859,7 @@
 				"/home/d3sk3r/MEGA/discord/Evellyn/eve.txt",
 				"/home/d3sk3r/MEGA/discord/Jimi/@end",
 				"/home/d3sk3r/.cache/kioexec/krun/8573_0/0-betterlockscreen",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_Touchpad Gestures/Github and install",
-				"/home/d3sk3r/.dotfiles/libinput-gestures/.config/libinput-gestures.conf",
-				"/home/d3sk3r/Plants.Vs.Zombies.GOTY/Plants Vs Zombies GOTY/Plants vs. Zombies/properties/partner.xml",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_Touchpad Gestures/Github and install"
 			],
 			"find":
 			{
@@ -1009,37 +1001,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 39,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/CSS/CSS.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1083,7 +1046,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1366,768,2732,768",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
 			"project": "",
 			"replace":
 			{
