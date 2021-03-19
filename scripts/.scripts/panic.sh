@@ -54,7 +54,10 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
         playerctl play-pause
     fi
     mpc -p 1100 seek 0 && mpc -p 1100 pause
-    
+
+    # stops and closes all possible notifications
+    notify-send DUNST_COMMAND_PAUSE
+
     # kills swallow script so that the terminals don't get swallowed
     killall swallowbspwm
     # opens 3 terminals
@@ -90,6 +93,10 @@ else
             bspc node $(echo $line | cut -d' ' -f2) -g hidden=off
         fi
     done < $file
+
+    # re-enable notifications
+    dunstctl close-all
+    notify-send DUNST_COMMAND_RESUME
 
     # executes swallow again and removes the file used to toggle the script
     $HOME/.config/bspwm/swallowbspwm &

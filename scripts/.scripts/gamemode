@@ -19,10 +19,11 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     sleep 1.6 && killall picom
     
     # Disable notifications
-    sleep 1.6 && notify-send DUNST_COMMAND_TOGGLE
+    sleep 0.8 && notify-send DUNST_COMMAND_TOGGLE
 
 else
     # Re enable notifications
+    dunstctl close-all
     notify-send DUNST_COMMAND_TOGGLE
 
     # Send notify
@@ -33,5 +34,4 @@ else
 
     # Delete toggle file
     rm $file
-
 fi
