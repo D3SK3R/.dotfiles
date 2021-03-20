@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Takes the first thing in the clipboard, in this case it needs to be an URL
+# and opens it with mpv using the youtube-dl module
+
+clipboard=$(copyq read 1)
+
+regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+
+if [[ $clipboard =~ $regex ]]; then
+    continue
+else
+    dunstify "Not a valid URL" -r 69
+    exit
+fi
+
+# If the url contains 'chaturbate', it opens on the desktop 2
+if [[ $clipboard == *"chaturbate"* ]]; then
+    bspc rule -a "mpv" -o desktop=2
+fi
+
+dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Opening to MPV" "$clipboard" -r 69
+
+mpv --mute=yes $clipboard &
+
+

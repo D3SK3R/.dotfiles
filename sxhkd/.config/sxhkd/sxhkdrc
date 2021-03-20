@@ -87,6 +87,9 @@ super + m
 super + {_,shift + } n
     ~/.scripts/rofi-notifcenter.sh
 
+super + o
+    ~/.scripts/openToMPV
+
 # Ranger
 super + r
     urxvtc -e ranger ~
