@@ -599,6 +599,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/discord/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+					"settings":
+					{
+						"buffer_size": 3149,
+						"encoding": "Western (Windows 1252)",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1001,8 +1010,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/discord/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3149,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 135.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],

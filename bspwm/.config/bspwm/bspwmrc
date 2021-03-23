@@ -67,6 +67,7 @@ bspc rule -a "URxvt:*:floating_terminal"                    state=floating hidde
 bspc rule -a "URxvt:*:floating_terminal2"                   state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "firefox"                                      state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "discord"                                      state=floating hidden=on sticky=on rectangle=1356x732+3+28
+bspc rule -a "lightcord"                                    state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "*:*:Save File"                                state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Open File"                                state=floating rectangle=723x543+1687+103
 bspc rule -a "*:*:Open Files"                               state=floating rectangle=723x543+1687+103

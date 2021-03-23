@@ -87,14 +87,16 @@ super + m
 super + {_,shift + } n
     ~/.scripts/rofi-notifcenter.sh
 
-super + o
-    ~/.scripts/openToMPV
+# Open clipboard URL with mpv, shift to close all mpv windows
+super + {_,shift + } o
+    {~/.scripts/openToMPV, xdo close -N mpv}
 
 # Ranger
 super + r
     urxvtc -e ranger ~
 
-# Sublime and Dual Monitor Script
+## Sublime and Dual Monitor Script
+# Sublime and restart polybar
 super + {_, shift} + s
     {subl, $HOME/.config/polybar/launch.sh & sleep 2 && bspc config top_padding 22}
     #{subl, ~/.config/bspwm/monitors-bspwm}
@@ -167,7 +169,7 @@ F4
     ~/.config/bspwm/floating_toggle.sh --class Firefox
 
 super + shift + d
-    ~/.config/bspwm/floating_toggle.sh --class discord
+    ~/.config/bspwm/floating_toggle.sh --class lightcord
 
 # apply bspwm config
 #super + shift + c

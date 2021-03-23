@@ -1,1 +1,2 @@
-copy-only = true
+#copy-only = true
+clipboarder = xsel
