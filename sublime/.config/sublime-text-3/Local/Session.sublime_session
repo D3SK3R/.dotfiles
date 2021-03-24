@@ -607,6 +607,15 @@
 						"encoding": "Western (Windows 1252)",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/exec",
+					"settings":
+					{
+						"buffer_size": 72,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -1010,7 +1019,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1036,6 +1045,34 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 135.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/exec",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 72,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

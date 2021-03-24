@@ -109,6 +109,7 @@ plugins=(
     copyfile
     copybuffer # ctrl+o
     sudo # esc key twice
+#    zsh-autosuggestions
 )
 
 #################################################
@@ -167,6 +168,13 @@ export FZF_BASE=/usr/bin/fzf
 # sudo
 #################################################
 #Easily prefix your current or previous commands with sudo by pressing esc twice
+
+#################################################
+# zsh-autosuggestions
+#################################################
+# https://github.com/zsh-users/zsh-autosuggestions
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#6b7078,bold,underline"
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 # yay -S lf
 # Navigate throught directories using ctrl+f
