@@ -261,7 +261,7 @@ imap <c-q> <Esc>:q<CR>
 "save/write file and "move" to the next character (actually stays where it was
 "before saving, because the default behaviour is to go to the previous
 "character)
-nmap <c-s> :w<CR>l
+nmap <c-s> :w<CR>
 imap <c-s> <Esc>:w<CR>l
 
 "set M to show all marks using fzf
