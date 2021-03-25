@@ -189,7 +189,7 @@ set mouse=a
 set textwidth=0 wrapmargin=0
 
 " To wrap lines visually (i.e. the line is still one line of text, but Vim displays it on multiple lines) [DEFAULT].
-:set wrap
+set wrap
 
 " To display long lines as just one line (i.e. you have to scroll horizontally to see the entire line).
 ":set nowrap
@@ -276,6 +276,9 @@ nmap a i
 
 "prevent x, in normal mode, to yank while deleting
 nnoremap x "_x
+
+"prevent ci (change in ...) from yaking the selection
+nnoremap ci "_ci
 
 "since p pastes the content after the letter the cursor is, P is more useful than p
 nnoremap p P

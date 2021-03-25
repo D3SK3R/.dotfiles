@@ -8,6 +8,7 @@
  */
 
 configuration {
+    run-list-command:               "";
     lines:							10;
     columns:						1;
     font: 							"Roboto Mono 12";

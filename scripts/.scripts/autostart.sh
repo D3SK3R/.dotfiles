@@ -43,7 +43,7 @@ $HOME/.scripts/better.sh &
 sleep 2 && $HOME/.scripts/headset-mic.sh &
 
 #######################
-###     programs    ###
+###    programs     ###
 #######################
 xrdb -merge $HOME/.Xresources
 

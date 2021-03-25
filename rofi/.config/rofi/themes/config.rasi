@@ -1,3 +1,4 @@
 configuration {
 	theme: "material";
+    run-list-command: "";
 }
