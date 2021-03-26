@@ -14,7 +14,7 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
     sudo pacman -Sc --noconfirm &&
     yay -Sc --noconfirm &&
     yay -Yc &&
-    sudo pacman -Rns $(pacman -Qtdq) && 
+    sudo pacman -Rns --noconfirm $(pacman -Qtdq) && 
     sudo paccache -r
 else
     echo 'Aborting...'

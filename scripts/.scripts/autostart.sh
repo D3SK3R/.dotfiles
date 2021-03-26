@@ -57,7 +57,7 @@ run xfce4-power-manager
 
 run megasync
 
-run libinput-gestures-setup restart
+#run libinput-gestures-setup restart
 
 run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -76,7 +76,9 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-killall pulseaudio && pulseaudio &
+run pulseaudio
+
+#killall pulseaudio && pulseaudio &
 
 # first number is delay, and second is interval
 xset r rate 200 30 & 
