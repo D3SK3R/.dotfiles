@@ -365,6 +365,7 @@ alias cp='cp -ri'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias mkdir='mkdir -p'
+alias python='bpython'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
 alias fzf="fzf | xargs xdg-open"
 alias vim='stty stop "" -ixoff; vim'
