@@ -76,9 +76,7 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-run pulseaudio
-
-#killall pulseaudio && pulseaudio &
+killall pulseaudio && pulseaudio &
 
 # first number is delay, and second is interval
 xset r rate 200 30 & 
@@ -93,14 +91,15 @@ sleep 10 && flashfocus &
 
 # floating stuff
 sleep 3 && urxvt -name floating_terminal &
-
+#sleep 3 && st -n floating_terminal &
 sleep 3 && urxvt -name floating_terminal2 &
+#sleep 3 && st -n floating_terminal2 &
 
 # doesn't work, at least not with a low sleep delay
 #sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
 
 sleep 5 && firefox &
 
-sleep 3 && discord & #premid &
+sleep 3 && lightcord & #premid &
 
 
