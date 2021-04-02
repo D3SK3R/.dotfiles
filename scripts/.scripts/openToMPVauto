@@ -1,0 +1,36 @@
+#!/bin/sh
+
+file=/tmp/openToMPVauto
+#regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+regex='(https?|ftp)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+
+if [[ -z $(ls /tmp/ | grep openToMPVauto) ]]; then
+    touch $file
+
+    dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Capturing URLs from the clipboard" -r 70
+
+    while true; do
+        echo "getting clipboard"
+        clipboard=$(copyq read 1)
+        if [[ $(ps auxf | grep "$clipboard" | sed -n '2p') ]]; then
+            echo "URL already playing, ignoring."
+            continue
+        else
+            if [[ $clipboard =~ $regex ]]; then
+                if [[ $clipboard == *"chaturbate"* ]]; then
+                    bspc rule -a "mpv" -o desktop=2
+                fi
+                dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Opening to MPV" "$clipboard" -r 69
+
+                mpv --mute=yes $clipboard & copyq remove 1
+            else
+                echo "not an URL, ignoring."
+            fi
+        fi
+    done
+else
+    dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_stop.svg "Stop capturing URLs from the clipboard" -r 70
+    rm $file
+    killall openToMPVauto
+fi
+

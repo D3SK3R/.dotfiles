@@ -89,7 +89,7 @@ super + {_,shift + } n
 
 # Open clipboard URL with mpv, shift to close all mpv windows
 super + {_,shift + } o
-    {~/.scripts/openToMPV, xdo close -N mpv}
+    {~/.scripts/openToMPVauto, xdo close -N mpv}
 
 # Ranger
 super + r
