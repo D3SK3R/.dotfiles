@@ -88,8 +88,8 @@ super + {_,shift + } n
     ~/.scripts/rofi-notifcenter.sh
 
 # Open clipboard URL with mpv, shift to close all mpv windows
-super + {_,shift + } o
-    {~/.scripts/openToMPVauto, xdo close -N mpv}
+super + {_,shift,ctrl + } o
+    {~/.scripts/openToMPVauto, ~/.scripts/openToMPV, xdo close -N mpv}
 
 # Ranger
 super + r
