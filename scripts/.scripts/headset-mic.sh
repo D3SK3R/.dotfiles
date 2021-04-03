@@ -18,7 +18,7 @@ while true; do
         echo 'no headset microphone detected'
     else
         micInUse=$(pacmd list | grep 'active port: <analog-input-headset-mic>')
-        # checks if the headset mic is in use or not
+        # checks whether the headset mic is in use or not
         # if its not, set it to use
         if [ -z "$micInUse" ]; then
             echo 'headset mic set as input'

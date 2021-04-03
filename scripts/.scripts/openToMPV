@@ -3,7 +3,7 @@
 # Takes the first thing in the clipboard, in this case it needs to be an URL
 # and opens it with mpv using the youtube-dl module
 
-clipboard=$(copyq read 1)
+clipboard=$(copyq read 0)
 
 #regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 regex='(https?|ftp)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# for some reason, on external keyboards
+# if I just set this commands at boot
+# it's gonna reset 'randomly'
+while true; do
+    xset r rate 200 30 &
+    setxkbmap -model abnt2 -layout br -variant abnt2 &
+    sleep 20
+done
+

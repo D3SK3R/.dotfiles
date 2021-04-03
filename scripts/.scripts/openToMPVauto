@@ -11,7 +11,7 @@ if [[ -z $(ls /tmp/ | grep openToMPVauto) ]]; then
 
     while true; do
         echo "getting clipboard"
-        clipboard=$(copyq read 1)
+        clipboard=$(copyq read 0)
         if [[ $(ps auxf | grep "$clipboard" | sed -n '2p') ]]; then
             echo "URL already playing, ignoring."
             continue

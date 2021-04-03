@@ -40,7 +40,9 @@ $HOME/.config/bspwm/swallowbspwm &
 
 $HOME/.scripts/better.sh &
 
-sleep 2 && $HOME/.scripts/headset-mic.sh &
+$HOME/.scripts/keyboardSet &
+
+sleep 10 && $HOME/.scripts/headset-mic.sh &
 
 #######################
 ###    programs     ###
@@ -77,11 +79,6 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 run udiskie -t
 
 killall pulseaudio && pulseaudio &
-
-# first number is delay, and second is interval
-xset r rate 200 30 & 
-
-setxkbmap -model abnt2 -layout br -variant abnt2 &
 
 nitrogen --restore &
 
