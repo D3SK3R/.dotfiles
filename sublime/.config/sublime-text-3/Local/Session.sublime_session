@@ -741,6 +741,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
 				"/home/d3sk3r/changes",
 				"/home/d3sk3r/modelo proposta pergunta.txt",
 				"/home/d3sk3r/relatório.txt",
@@ -867,8 +868,7 @@
 				"/home/d3sk3r/.minecraft/tlauncher_profiles.json",
 				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/nebulaE/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky3.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky4.properties"
 			],
 			"find":
 			{
@@ -1084,7 +1084,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
+			"position": "0,0,0,0,0,1027,32,1352,386,2732,768",
 			"project": "",
 			"replace":
 			{
