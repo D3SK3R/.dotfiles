@@ -274,8 +274,12 @@ noremap! <C-h> <C-w>
 "map "a" to act like "i" and switch to insert mode
 nmap a i
 
-"prevent x, in normal mode, to yank while deleting
+"""""""""""""""
+"" clipboard
+"""""""""""""""
+"prevent x, in normal and visual mode, to yank while deleting
 nnoremap x "_x
+vnoremap x "_x
 
 "prevent ci (change in ...) from yaking the selection
 nnoremap ci "_ci
