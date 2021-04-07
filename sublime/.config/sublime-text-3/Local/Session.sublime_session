@@ -607,6 +607,14 @@
 						"line_ending": "Unix",
 						"name": "Q2z7VXYuHnMJ11Ks9drvakV3s0pADkcPDQl1TlRMMdSzzHJQzX"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/a.out",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -1010,7 +1018,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1032,6 +1040,34 @@
 								"settings":
 								{
 									"auto_name": "Q2z7VXYuHnMJ11Ks9drvakV3s0pADkcPDQl1TlRMMdSzzHJQzX",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/a.out",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1084,7 +1120,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1027,32,1352,386,2732,768",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768",
 			"project": "",
 			"replace":
 			{
