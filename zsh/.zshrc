@@ -560,6 +560,7 @@ ex ()
 }
 
 #################################################################
+DOWNGRADE_FROM_ALA=1
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source $HOME/.scripts/dkill.sh

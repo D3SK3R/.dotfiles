@@ -92,8 +92,8 @@ super + {_,shift,ctrl + } o
     {~/.scripts/openToMPVauto, ~/.scripts/openToMPV, xdo close -N mpv}
 
 # Ranger
-super + r
-    urxvtc -e ranger ~
+super + {_, shift +} r
+    { ~/.scripts/recraftMine,urxvtc -e ranger ~,}
 
 ## Sublime and Dual Monitor Script
 # Sublime and restart polybar

@@ -1,0 +1,44 @@
+#!/bin/sh
+
+bowl_x=2055;bowl_y=397
+mush1_x=2078;mush1_y=397
+mush2_x=2120;mush2_y=397
+
+craft1_x=2061;craft1_y=291
+craft2_x=2104;craft2_y=291
+craft3_x=2101;craft3_y=317
+
+result_x=2180;result_y=307
+
+window=54525993
+xdotool windowactivate $window
+
+xdotool mousemove $bowl_x $bowl_y
+xdotool click 3
+xdotool mousemove $craft1_x $craft1_y
+xdotool click 1
+
+xdotool mousemove $mush1_x $mush1_y
+xdotool click 3
+xdotool mousemove $craft2_x $craft2_y
+xdotool click 1
+
+xdotool mousemove $mush2_x $mush2_y
+xdotool click 3
+xdotool mousemove $craft3_x $craft3_y
+xdotool click 1
+
+xdotool mousemove $result_x $result_y
+xdotool keydown shift click 1 keyup shift
+
+xdotool mousemove $craft1_x $craft1_y
+xdotool keydown shift click 1 keyup shift
+xdotool mousemove $craft2_x $craft2_y
+xdotool keydown shift click 1 keyup shift
+xdotool mousemove $craft3_x $craft3_y
+xdotool keydown shift click 1 keyup shift
+
+xdotool keydown Escape keyup Escape
+
+
+
