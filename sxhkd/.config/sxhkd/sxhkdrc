@@ -92,7 +92,7 @@ super + {_,shift,ctrl + } o
     {~/.scripts/openToMPVauto, ~/.scripts/openToMPV, xdo close -N mpv}
 
 # Ranger
-super + {_, shift +} r
+{alt, super} + r
     { ~/.scripts/recraftMine,urxvtc -e ranger ~,}
 
 ## Sublime and Dual Monitor Script
