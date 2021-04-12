@@ -617,14 +617,6 @@
 						"line_ending": "Unix",
 						"name": "quando foi criado"
 					}
-				},
-				{
-					"file": "/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
-					"settings":
-					{
-						"buffer_size": 43487,
-						"line_ending": "Unix"
-					}
 				}
 			],
 			"build_system": "",
@@ -759,6 +751,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/?.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
 				"/home/d3sk3r/estagio",
 				"/home/d3sk3r/exec",
@@ -884,13 +878,11 @@
 				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
 				"/home/d3sk3r/.minecraft/LabyMod/autotext.json",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
-				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
-				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
-				"/home/d3sk3r/.cache/kioexec/krun/4091689_0/0-try2"
+				"/home/d3sk3r/MEGA/FATEC/infraTI.txt"
 			],
 			"find":
 			{
-				"height": 175.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -904,6 +896,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"custom\": 1,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"online\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"streaming\": 1",
 					"\"disabled\": false,\n\t\t\t\"online\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"dnd\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"streaming\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"custom\": 1",
 					"762451972817158185",
 					"\"disabled\": false",
@@ -1016,6 +1009,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"\"custom\": 0,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"online\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"streaming\": 0",
 					"\"disabled\": true,\n\t\t\t\"online\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"dnd\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"streaming\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"custom\": 0",
 					"\"disabled\": false,\n\t\t\t\"online\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"dnd\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"streaming\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"custom\": 0",
 					"\"disabled\": true",
@@ -1034,7 +1028,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1062,7 +1056,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -1086,35 +1080,6 @@
 								{
 									"auto_name": "quando foi criado",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 43487,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										34202,
-										34202
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1166,7 +1131,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1376,37,2040,754,2732,768",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{

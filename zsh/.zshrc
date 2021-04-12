@@ -532,6 +532,7 @@ alias tmux-layout='tmux select-layout "2e4b,190x47,0,0{95x47,0,0,0,94x47,96,0[94
 alias color-test='msgcat --color=test'
 alias colors='curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash'
 alias loopbackmic='arecord -f cd - | aplay -'
+alias urandom='{ while true; do head -c 16 /dev/urandom | xxd; sleep 0.2; done; }'
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
