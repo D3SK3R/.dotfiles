@@ -24,7 +24,7 @@ if [[ -z $(ls /tmp/ | grep openToMPVauto) ]]; then
                 fi
                 dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Opening to MPV" "$clipboard" -r 69
 
-                mpv --mute=yes $clipboard & copyq remove 0
+                mpv --mute=yes --loop-file $clipboard & copyq remove 0
                 sleep 0.5
             else
                 echo "not an URL, ignoring."
