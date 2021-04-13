@@ -13,6 +13,8 @@ result_x=2180;result_y=307
 window=54525993
 xdotool windowactivate $window
 
+sleep 0.1;xdotool keydown --clearmodifiers e keyup --clearmodifiers e
+
 xdotool mousemove $bowl_x $bowl_y
 xdotool click 3
 xdotool mousemove $craft1_x $craft1_y
@@ -38,7 +40,8 @@ xdotool keydown shift click 1 keyup shift
 xdotool mousemove $craft3_x $craft3_y
 xdotool keydown shift click 1 keyup shift
 
-xdotool keydown Escape keyup Escape
+#xdotool keydown Escape keyup Escape
+sleep 0.1;xdotool keydown --clearmodifiers e keyup --clearmodifiers e
 
 
 
