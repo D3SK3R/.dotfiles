@@ -609,13 +609,26 @@
 					}
 				},
 				{
+					"contents": "*Revisão bibliográfica:\nAspectos históricos e conceitos\no que é\nquando foi criado\npor que foi criado\ncom qual objetivo foi criado\nusar definição de no mínimo 3 autores diferentes\nqual a importância disso (no caso, do regex)",
 					"file": "/home/d3sk3r/tcc",
+					"file_size": 231,
+					"file_write_time": 132624763473508707,
 					"settings":
 					{
 						"buffer_size": 223,
-						"encoding": "UTF-8",
 						"line_ending": "Unix",
 						"name": "quando foi criado"
+					}
+				},
+				{
+					"contents": "",
+					"file": "/tmp/CopyQ.wZHoeK.txt",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -751,6 +764,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/lousa_2021_03_09.txt",
+				"/home/d3sk3r/todo",
 				"/home/d3sk3r/?.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
@@ -832,7 +847,6 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
 				"/home/d3sk3r/Quiver-1.7.0/Quiver",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/tracosEmpreendedor.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
 				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
@@ -877,8 +891,7 @@
 				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
 				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
 				"/home/d3sk3r/.minecraft/LabyMod/autotext.json",
-				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
-				"/home/d3sk3r/MEGA/FATEC/infraTI.txt"
+				"/home/d3sk3r/MEGA/FATEC/packettracer.txt"
 			],
 			"find":
 			{
@@ -1028,7 +1041,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -1056,7 +1069,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
@@ -1079,6 +1092,34 @@
 								"settings":
 								{
 									"auto_name": "quando foi criado",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/tmp/CopyQ.wZHoeK.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1131,7 +1172,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768",
 			"project": "",
 			"replace":
 			{

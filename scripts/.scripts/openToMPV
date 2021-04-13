@@ -16,14 +16,17 @@ else
 fi
 
 # If the url contains 'chaturbate', it opens on the desktop 2
+# and only loops if its not from chaturbate
 if [[ $clipboard == *"chaturbate"* ]]; then
     bspc rule -a "mpv" -o desktop=2
+    loop=''
 else
     bspc rule -r "mpv" -o desktop=2
+    loop='--loop-file'
 fi
 
 dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Opening to MPV" "$clipboard" -r 69
 
-mpv --mute=yes --loop-file $clipboard &
+mpv --mute=yes $loop $clipboard &
 
 
