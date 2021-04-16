@@ -619,17 +619,6 @@
 						"line_ending": "Unix",
 						"name": "quando foi criado"
 					}
-				},
-				{
-					"contents": "",
-					"file": "/tmp/CopyQ.wZHoeK.txt",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Unix"
-					}
 				}
 			],
 			"build_system": "",
@@ -764,6 +753,7 @@
 			},
 			"file_history":
 			[
+				"/tmp/CopyQ.wZHoeK.txt",
 				"/home/d3sk3r/lousa_2021_03_09.txt",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/?.txt",
@@ -890,8 +880,7 @@
 				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json",
 				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
 				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
-				"/home/d3sk3r/.minecraft/LabyMod/autotext.json",
-				"/home/d3sk3r/MEGA/FATEC/packettracer.txt"
+				"/home/d3sk3r/.minecraft/LabyMod/autotext.json"
 			],
 			"find":
 			{
@@ -1041,7 +1030,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1069,7 +1058,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -1092,34 +1081,6 @@
 								"settings":
 								{
 									"auto_name": "quando foi criado",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/tmp/CopyQ.wZHoeK.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1172,7 +1133,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768",
+			"position": "0,0,0,0,0,0,28,1366,768,2732,768",
 			"project": "",
 			"replace":
 			{
