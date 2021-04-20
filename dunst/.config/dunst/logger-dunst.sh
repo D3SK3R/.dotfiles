@@ -9,6 +9,7 @@ crunch_body=$(echo "$3" | sed  '/^$/d' | tr $'\n' ' ')
 crunch_icon=$(echo "$4" | sed  '/^$/d')
 crunch_urgency=$(echo "$5" | sed  '/^$/d')
 timestamp=$(date +"%I:%M %p")
+file="$HOME/.config/dunst/dunstlog"
 
 # not using this spotify curl thing makes
 # opening the notification center faster
@@ -26,10 +27,10 @@ if [[ "$crunch_appname" == "dunstify" ]]; then
 fi
 
 # limit the log size so that it doesn't get slow
-if [[ $(cat /tmp/dunstlog | wc -l) -gt 150 ]]; then
-    rm /tmp/dunstlog
+if [[ $file -gt 150 ]]; then
+    rm $file
 fi
 
-echo -en "$timestamp\n$crunch_urgency\n$crunch_icon\n$crunch_body\n$crunch_summary\n$crunch_appname\n" >> /tmp/dunstlog
+echo -en "$timestamp\n$crunch_urgency\n$crunch_icon\n$crunch_body\n$crunch_summary\n$crunch_appname\n" >> $file
 
 #echo "$crunch_appname\n$crunch_summary\n$crunch_body\n$crunch_icon\n$crunch_urgency\x0f" >> /tmp/dunstlog

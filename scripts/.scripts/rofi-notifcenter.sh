@@ -8,11 +8,11 @@
 directory="/usr/share/icons/Papirus-Dark/32x32"
 #In case there is no icon path provided, use appname to guess icons
 use_appname=true
-
+file="$HOME/.config/dunst/dunstlog"
 ###########################
 
 ### Raw data
-raw=$(tac /tmp/dunstlog)
+raw=$(tac $file)
 appname=$(echo -n "$raw" | sed -n '1~6p')
 to_rofi=$(echo -n "$raw" | sed -n '2~6p;3~6p' | sed 's/\&/&amp;/g')
 icon=$(echo -n "$raw" | sed -n '4~6p' | while read -r line; do echo "$line"; done)
@@ -105,5 +105,5 @@ if [ -n "$selection" ]; then
     remove_whitespace=$(echo -ne "$remove_markup" | sed '1~3 s/\s.*$//')
     add_timestamp="$remove_whitespace\n.*\n.*\n$extract_date\n"
     reverse_search=$(tac <(echo -ne "$add_timestamp") | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
-    sed -i "N;N;N;N;N; /^$reverse_search$/d" /tmp/dunstlog
+    sed -i "N;N;N;N;N; /^$reverse_search$/d" $file
 fi
