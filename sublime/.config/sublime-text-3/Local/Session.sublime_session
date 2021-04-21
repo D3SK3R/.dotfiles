@@ -609,33 +609,20 @@
 					}
 				},
 				{
-					"contents": "*Revisão bibliográfica:\nAspectos históricos e conceitos\no que é\nquando foi criado\npor que foi criado\ncom qual objetivo foi criado\nusar definição de no mínimo 3 autores diferentes\nqual a importância disso (no caso, do regex)",
 					"file": "/home/d3sk3r/tcc",
-					"file_size": 231,
-					"file_write_time": 132624763473508707,
 					"settings":
 					{
 						"buffer_size": 223,
+						"encoding": "UTF-8",
 						"line_ending": "Unix",
 						"name": "quando foi criado"
 					}
 				},
 				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+					"file": "/home/d3sk3r/bibliografia",
 					"settings":
 					{
-						"buffer_size": 538,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "/effect <player> <ID> <time> <strenght>\n/effect Deskerr 3 1000000 10\n\nno particles: /effect <player> <ID> <time> <strenght> <\"true\" to hide particles>\ninvisible without particles: /effect D3SK3R 14 1000000 255 true\n\nclean effects: /effect <player> clear\n\n\n1     Speed=Increases Speed\n\n2     Slowness=Increases Slowness\n\n3     Haste=Increases Mining Speed\n\n4     Mining Fatigue=Makes Mining Slower\n\n5     Strength Increases Player Strength\n\n6     Instant Health=Gives Player Instant Health\n\n7     Instant Damage=Gives Player Instant Damage\n\n8     Jump Boost=Gives Player Jump Boost\n\n9     Nausea=Makes Player Screen Blurry\n\n10    Regeneration=Regenerates Player's Health\n\n11    Resistance=Makes Player Resistant\n\n12    Fire Resistance=Makes Player Resistant To Fire\n\n13    Water Breathing=Longer breathing in water\n\n14    Invisibility=Makes player invisible\n\n15    Blindness=Blinds Player\n\n16    Night Vision=Helps Player see at night\n\n17    Hunger=Gives the Player a hunger effect\n\n18    Weakness=Makes Player weak\n\n19    Poison=Poisons Player\n\n20    Wither=Effect Varies\n",
-					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
-					"file_size": 1073,
-					"file_write_time": 132071637099850206,
-					"settings":
-					{
-						"buffer_size": 1072,
+						"buffer_size": 227,
 						"line_ending": "Unix"
 					}
 				}
@@ -772,6 +759,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
 				"/tmp/CopyQ.wZHoeK.txt",
 				"/home/d3sk3r/lousa_2021_03_09.txt",
 				"/home/d3sk3r/todo",
@@ -876,7 +865,6 @@
 				"/home/d3sk3r/.minecraft/usernamecache.json",
 				"/home/d3sk3r/.minecraft/optionsLC.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/accs",
 				"/home/d3sk3r/.minecraft/options.txt",
@@ -898,8 +886,7 @@
 				"/home/d3sk3r/.minecraft/LabyMod/filters.json",
 				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json",
 				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
-				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
-				"/home/d3sk3r/.minecraft/LabyMod/autotext.json"
+				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json"
 			],
 			"find":
 			{
@@ -1049,7 +1036,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1077,7 +1064,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
@@ -1106,24 +1093,24 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+							"file": "/home/d3sk3r/bibliografia",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 538,
+								"buffer_size": 227,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										440,
-										440
+										0,
+										0
 									]
 								],
 								"settings":
@@ -1135,34 +1122,6 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1072,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										68,
-										40
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
 							"type": "text"
 						}
 					]
