@@ -37,8 +37,8 @@ then
        ~/.scripts/lock.sh 
         ;;
       SLEEP)
-        sleep 0.5;systemctl suspend
-        #sleep 0.5;xset dpms force off
+        #sleep 0.5;systemctl suspend
+        sleep 0.5;xset dpms force off
         ;;
       LOGOUT)
         bspc quit
