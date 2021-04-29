@@ -609,20 +609,11 @@
 					}
 				},
 				{
-					"file": "/home/d3sk3r/tcc",
+					"file": "/home/d3sk3r/fatec/tcc/revisao bibliografica",
 					"settings":
 					{
-						"buffer_size": 223,
+						"buffer_size": 86,
 						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "quando foi criado"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/bibliografia",
-					"settings":
-					{
-						"buffer_size": 227,
 						"line_ending": "Unix"
 					}
 				}
@@ -759,6 +750,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/bibliografia",
+				"/home/d3sk3r/tcc",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
 				"/tmp/CopyQ.wZHoeK.txt",
@@ -884,9 +877,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
 				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg",
 				"/home/d3sk3r/.minecraft/LabyMod/filters.json",
-				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json",
-				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
-				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json"
+				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json"
 			],
 			"find":
 			{
@@ -1036,7 +1027,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -1064,53 +1055,24 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/tcc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 223,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										55,
-										55
-									]
-								],
-								"settings":
-								{
-									"auto_name": "quando foi criado",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
 							"stack_index": 1,
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "/home/d3sk3r/bibliografia",
+							"buffer": 1,
+							"file": "/home/d3sk3r/fatec/tcc/revisao bibliografica",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 227,
+								"buffer_size": 86,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										84,
+										84
 									]
 								],
 								"settings":
@@ -1167,7 +1129,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
+			"position": "0,0,0,0,0,10,400,674,754,2732,768",
 			"project": "",
 			"replace":
 			{
