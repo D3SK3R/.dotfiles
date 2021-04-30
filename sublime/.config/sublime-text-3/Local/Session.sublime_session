@@ -600,21 +600,12 @@
 			"buffers":
 			[
 				{
-					"contents": "Q2z7VXYuHnMJ11Ks9drvakV3s0pADkcPDQl1TlRMMdSzzHJQzX\n\neKqR22ODhv7SlpxkAEJXSL7s8KT9EaaM3saDwVnXMajkCQfGuDjJZjKtBPMWAZGsDntoXUTxPLh9\n\nJwW4qTGeq71lsmYRzQJh9ZjidMf2REpP4Te4kTgznVnKdpkvWdl2F6yYOaZTYoUDfubcEMi05o7frFD2alJadnjFdqxreG30C8",
+					"contents": "QQ",
 					"settings":
 					{
-						"buffer_size": 228,
+						"buffer_size": 2,
 						"line_ending": "Unix",
-						"name": "Q2z7VXYuHnMJ11Ks9drvakV3s0pADkcPDQl1TlRMMdSzzHJQzX"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/fatec/tcc/revisao bibliografica",
-					"settings":
-					{
-						"buffer_size": 86,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"name": "QQ"
 					}
 				}
 			],
@@ -750,6 +741,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
 				"/home/d3sk3r/bibliografia",
 				"/home/d3sk3r/tcc",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
@@ -876,8 +868,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
 				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
 				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg",
-				"/home/d3sk3r/.minecraft/LabyMod/filters.json",
-				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json"
+				"/home/d3sk3r/.minecraft/LabyMod/filters.json"
 			],
 			"find":
 			{
@@ -1027,7 +1018,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -1035,48 +1026,20 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 228,
+								"buffer_size": 2,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										228,
-										228
+										2,
+										2
 									]
 								],
 								"settings":
 								{
-									"auto_name": "Q2z7VXYuHnMJ11Ks9drvakV3s0pADkcPDQl1TlRMMdSzzHJQzX",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/fatec/tcc/revisao bibliografica",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 86,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										84,
-										84
-									]
-								],
-								"settings":
-								{
+									"auto_name": "QQ",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1129,7 +1092,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768",
 			"project": "",
 			"replace":
 			{
