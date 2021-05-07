@@ -436,3 +436,27 @@ LOW
 5 Seconds of Summer - Youngblood (Deluxe) 
 Youngblood 
 Spotify
+02:52 
+LOW
+nm-no-connection
+The network connection has been disconnected. 
+Disconnected 
+NetworkManager
+02:52 
+NORMAL
+
+MEGAsync is unable to connect. Please check your Internet connectivity and local firewall configuration. Note that most antivirus software includes a firewall. 
+MEGAsync 
+MEGAsync
+02:54 
+NORMAL
+system-software-install-symbolic
+Updates Available 
+Package Manager 
+Package Manager
+02:54 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager

@@ -99,6 +99,6 @@ bspc rule -a "soundux"                                      state=floating
 ##                      AUTOSTART                     ##
 #########################################################
 $HOME/.scripts/autostart.sh
-sleep 2 && bspc desktop -f 1 && bspc node -t \~fullscreen
+sleep 2 && bspc desktop -f 1 && bspc desktop -l next
 sleep 5 && bspc config top_padding 22
 
