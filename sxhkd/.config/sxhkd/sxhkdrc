@@ -76,12 +76,9 @@ super + {_, shift +} h
 super + l
    ~/.scripts/lock.sh
 
-# Spotify
-super + m
-    bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify
-# ncmpcpp
-#super + m
-#    ncmpcpp
+# ncmpcpp and Spotify
+super + {_, shift +} m
+    {urxvt -title ncmpcpp -e ncmpcpp, bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify}
 
 # Rofi notify center
 super + {_,shift + } n
@@ -163,7 +160,8 @@ F2
     ~/.config/bspwm/floating_toggle.sh --name floating_terminal2
 
 F3
-    ~/.config/bspwm/floating_toggle.sh --class spotify
+    ~/.config/bspwm/floating_toggle.sh --name ncmpcpp
+    #~/.config/bspwm/floating_toggle.sh --class spotify
 
 F4
     ~/.config/bspwm/floating_toggle.sh --class Firefox

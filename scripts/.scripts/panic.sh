@@ -53,7 +53,10 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
         echo 'playing' >> $file
         playerctl play-pause
     fi
-    mpc -p 1100 seek 0 && mpc -p 1100 pause
+    if [[ $(mpc -p 1100 | grep playing) ]]; then
+        echo 'playing' >> $file
+        mpc -p 1100 pause
+    fi
 
     # stops and closes all possible notifications
     notify-send DUNST_COMMAND_PAUSE
@@ -75,7 +78,7 @@ else
         # reads the file to know whether the music was paused, if so, resumes it
         if [ "$line" = 'playing' ]; then
             playerctl play
-            mpc -p 1100 toggle
+            mpc -p 1100 play
         fi
         # reads the file to know what workspaces I was in and goes to it
         if [ $(echo $line | cut -d' ' -f1) = 'workspace2' ]; then

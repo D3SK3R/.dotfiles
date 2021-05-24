@@ -65,8 +65,10 @@ bspc config presel_feedback_color   "#0f151f"
 ### Rules ###
 bspc rule -a "URxvt:*:floating_terminal"                    state=floating hidden=on sticky=on rectangle=570x360+400+32 
 bspc rule -a "URxvt:*:floating_terminal2"                   state=floating hidden=on sticky=on rectangle=1356x732+3+28
+bspc rule -a "URxvt:*:ncmpcpp"                              state=floating hidden=on sticky=on rectangle=801x525+275+100
 bspc rule -a "*:st:floating_terminal"                       state=floating hidden=on sticky=on rectangle=570x360+400+32 
 bspc rule -a "*:st:floating_terminal2"                      state=floating hidden=on sticky=on rectangle=1356x732+3+28
+bspc rule -a "*:st:ncmpcpp"                                 state=floating hidden=on sticky=on rectangle=801x525+275+100
 bspc rule -a "firefox"                                      state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "discord"                                      state=floating hidden=on sticky=on rectangle=1356x732+3+28
 bspc rule -a "lightcord"                                    state=floating hidden=on sticky=on rectangle=1356x732+3+28

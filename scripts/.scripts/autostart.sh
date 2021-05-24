@@ -80,6 +80,8 @@ run udiskie -t
 
 killall pulseaudio && pulseaudio &
 
+run mpd
+
 nitrogen --restore &
 
 picom -b --experimental-backend &
@@ -87,10 +89,12 @@ picom -b --experimental-backend &
 sleep 10 && flashfocus &
 
 # floating stuff
-sleep 3 && urxvt -name floating_terminal &
+sleep 3 && urxvt -title floating_terminal &
 #sleep 3 && st -n floating_terminal &
-sleep 3 && urxvt -name floating_terminal2 &
+sleep 3 && urxvt -title floating_terminal2 &
 #sleep 3 && st -n floating_terminal2 &
+
+sleep 3 && urxvt -title floating_ncmpcpp -e ncmpcpp &
 
 # doesn't work, at least not with a low sleep delay
 #sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &

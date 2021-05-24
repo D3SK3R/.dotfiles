@@ -1,9 +1,9 @@
-sw_volume: 80
+sw_volume: 20
 audio_device_state:1:My Pulse Output
 audio_device_state:1:FIFO
 audio_device_state:1:D3SK3R's Stream
 state: pause
-current: 80
+current: 89
 time: 0.000000
 random: 1
 repeat: 1
@@ -102,4 +102,5 @@ playlist_begin
 86:Palaye Royale - Lonely.mp3
 87:NEFFEX - Without You.mp3
 88:Aaron Smith - Dancin (Krono Remix).mp3
+89:Ivan B - Blow Up.mp3
 playlist_end
