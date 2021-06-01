@@ -3,12 +3,14 @@
 	[
 		"/home/d3sk3r/Minecraft"
 	],
-	"last_version": 3211,
+	"last_version": 4107,
 	"last_window_id": 44,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 722.0,
+		"new_window_full_screen": false,
+		"new_window_height": 354.0,
+		"new_window_maximized": false,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -204,6 +206,41 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/tabela-escrita",
+				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
+				"/home/d3sk3r/bibliografia",
+				"/home/d3sk3r/tcc",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
+				"/tmp/CopyQ.wZHoeK.txt",
+				"/home/d3sk3r/lousa_2021_03_09.txt",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/?.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
+				"/home/d3sk3r/estagio",
+				"/home/d3sk3r/exec",
+				"/home/d3sk3r/relatório.txt",
+				"/home/d3sk3r/lousa_2021_04_06.txt",
+				"/home/d3sk3r/lousa_2021_04_08.txt",
+				"/home/d3sk3r/a.out",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/modelo proposta pergunta.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/MEGA/discord/m/[].txt",
+				"/home/d3sk3r/MEGA/discord/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/.config/Microsoft/Microsoft Teams - Insiders/logs.txt",
+				"/home/d3sk3r/RR-N-v5.8.5-20180214-j23g-Final/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
+				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§9Fractal §f[512x]/pack.mcmeta",
 				"/home/d3sk3r/.cache/kioexec/krun/166618_0/8006-bb.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
@@ -259,8 +296,6 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
 				"/home/d3sk3r/Quiver-1.7.0/Quiver",
-				"/home/d3sk3r/estagio",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/tracosEmpreendedor.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
 				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
@@ -268,7 +303,6 @@
 				"/home/d3sk3r/fatec/SSORCI/REGEX",
 				"/home/d3sk3r/quintonkaine",
 				"/home/d3sk3r/quinton kaine.txt",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
 				"/home/d3sk3r/.minecraft/usercache.json",
@@ -282,7 +316,6 @@
 				"/home/d3sk3r/.minecraft/usernamecache.json",
 				"/home/d3sk3r/.minecraft/optionsLC.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/accs",
 				"/home/d3sk3r/.minecraft/options.txt",
@@ -300,46 +333,15 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
 				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
-				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg",
-				"/home/d3sk3r/.minecraft/LabyMod/filters.json",
-				"/home/d3sk3r/.minecraft/LabyMod/LabyMod-3.json",
-				"/home/d3sk3r/.minecraft/LabyMod/modules.json",
-				"/home/d3sk3r/.minecraft/LabyMod/playermenu.json",
-				"/home/d3sk3r/.minecraft/LabyMod/autotext.json",
-				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
-				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
-				"/home/d3sk3r/MEGA/FATEC/calcRedes.txt",
-				"/home/d3sk3r/.cache/kioexec/krun/4091689_0/0-try2",
-				"/home/d3sk3r/.minecraft/tlauncher_profiles.json",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/nebulaE/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/Foxation 3k/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/nebulaE/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
-				"/home/d3sk3r/MEGA/discord/leticia/cam",
-				"/home/d3sk3r/MEGA/psi.txt",
-				"/home/d3sk3r/MEGA/microsoft/microsoft.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/niv.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/eve.txt",
-				"/home/d3sk3r/MEGA/discord/Jimi/@end",
-				"/home/d3sk3r/.cache/kioexec/krun/8573_0/0-betterlockscreen",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/12_Touchpad Gestures/Github and install",
-				"/home/d3sk3r/.dotfiles/libinput-gestures/.config/libinput-gestures.conf",
-				"/home/d3sk3r/Plants.Vs.Zombies.GOTY/Plants Vs Zombies GOTY/Plants vs. Zombies/properties/partner.xml",
-				"/home/d3sk3r/.dotfiles/ncmpcpp/.ncmpcpp/config",
-				"/home/d3sk3r/.config/ncmpcpp/config",
-				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxSystemSettings.ini",
-				"/home/d3sk3r/.local/share/Steam/steamapps/common/A Story About My Uncle/ASAMU/Config/Linux/LinuxGame.ini"
+				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 112.0,
 				"where_history":
 				[
 				]
@@ -349,6 +351,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"custom\": 1,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"online\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"streaming\": 1",
+					"\"disabled\": false,\n\t\t\t\"online\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"dnd\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"streaming\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"custom\": 1",
+					"762451972817158185",
+					"\"disabled\": false",
 					"lw",
 					"path",
 					"lw",
@@ -458,6 +464,10 @@
 				"regex": true,
 				"replace_history":
 				[
+					"\"custom\": 0,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"online\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"streaming\": 0",
+					"\"disabled\": true,\n\t\t\t\"online\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"dnd\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"streaming\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"custom\": 0",
+					"\"disabled\": false,\n\t\t\t\"online\": 0,\n\t\t\t\"idle\": 0,\n\t\t\t\"dnd\": 0,\n\t\t\t\"playing\": 0,\n\t\t\t\"listening\": 0,\n\t\t\t\"streaming\": 0,\n\t\t\t\"offline\": 0,\n\t\t\t\"mobile\": 0,\n\t\t\t\"custom\": 0",
+					"\"disabled\": true",
 					"",
 					" ",
 					"dropdown",
@@ -465,8 +475,10 @@
 					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 				],
 				"reverse": false,
+				"scrollbar_highlights": true,
 				"show_context": true,
 				"use_buffer2": true,
+				"use_gitignore": true,
 				"whole_word": false,
 				"wrap": false
 			},
@@ -504,12 +516,12 @@
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -599,6 +611,23 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+					"settings":
+					{
+						"buffer_size": 4573,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/fatec/SSORCI/template .doc",
+					"settings":
+					{
+						"buffer_size": 131840,
+						"encoding": "Hexadecimal",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -863,7 +892,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -1001,8 +1030,10 @@
 					"/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 				],
 				"reverse": false,
+				"scrollbar_highlights": true,
 				"show_context": true,
 				"use_buffer2": true,
+				"use_gitignore": true,
 				"whole_word": false,
 				"wrap": false
 			},
@@ -1011,12 +1042,71 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4573,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/fatec/SSORCI/template .doc",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 131840,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 40.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -1054,11 +1144,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1376,32,1940,754,2732,768",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
-				"height": 346.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
