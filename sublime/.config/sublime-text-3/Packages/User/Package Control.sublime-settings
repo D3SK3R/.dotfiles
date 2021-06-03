@@ -6,16 +6,16 @@
 	"installed_packages":
 	[
 		"BlackRain",
+		"Buildview",
 		"Monokai-Black",
 		"OLED Color Scheme",
 		"Package Control",
 		"Python 3",
-		"sublime-text-2-buildview",
 		"Theme - Cyanide",
 		"Theme - Darkmatter"
 	],
 	"repositories":
 	[
 		"https://github.com/matkl/Monokai-Black"
-	]
+	],
 }

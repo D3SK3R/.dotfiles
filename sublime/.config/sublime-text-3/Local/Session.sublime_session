@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -206,6 +206,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
 				"/home/d3sk3r/tabela-escrita",
 				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
 				"/home/d3sk3r/bibliografia",
@@ -332,8 +333,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
-				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
-				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg"
+				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta"
 			],
 			"find":
 			{
@@ -627,6 +627,26 @@
 						"encoding": "Hexadecimal",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/changes",
+					"settings":
+					{
+						"buffer_size": 373,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAACDAQAAaHR0cHM6Ly9hc2t1YnVudHUuY29tL3F1ZXN0aW9ucy85MjIxOC9ob3ctdG8tZXhlY3V0ZS1hLWNvbW1hbmQtYWZ0ZXItcmVzdW1lLWZyb20tc3VzcGVuZC8xMDQxMzU4IzEwNDEzNTgKCnN1ZG8gdmltIC9ldGMvc3lzdGVtZC9zeXN0ZW0vcmVzdGFydC1uZXR3b3JrLWFmdGVyLXN1c3BlbmQuc2VydmljZQoKc3VkIHN5c3RlbWN0bCBlbmFibGUgcmVzdGFydC1uZXR3b3JrLWFmdGVyLXN1c3BlbmQKCihvcHRpb25hbCkgaWYgbm90IHdvcmtpbmcgYWZ0ZXIgcmVzdW1lIGZyb20gc3VzcGVuZCA+IGNoZWNrIGZvciBlcnJvcnMgd2l0aAoKam91cm5hbGN0bCAtdSBzb21lbmFtZS5zZXJ2aWNlCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18K",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACDAQAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -761,6 +781,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
 				"/home/d3sk3r/tabela-escrita",
 				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
 				"/home/d3sk3r/bibliografia",
@@ -887,8 +908,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/.minecraft/resourcepacks/textures",
-				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta",
-				"/home/d3sk3r/.minecraft/config/BetterSprinting.cfg"
+				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta"
 			],
 			"find":
 			{
@@ -1067,14 +1087,13 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
 							"file": "/home/d3sk3r/fatec/SSORCI/template .doc",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1087,6 +1106,36 @@
 									[
 										0,
 										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/changes",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 373,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										299,
+										299
 									]
 								],
 								"settings":
@@ -1144,7 +1193,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
