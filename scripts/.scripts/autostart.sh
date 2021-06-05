@@ -42,7 +42,7 @@ $HOME/.scripts/better.sh &
 
 $HOME/.scripts/keyboardSet &
 
-sleep 10 && $HOME/.scripts/headset-mic.sh &
+sleep 10 && $HOME/.scripts/headset-configure &
 
 #######################
 ###    programs     ###
