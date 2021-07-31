@@ -206,6 +206,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/fatec/SSORCI/template .doc",
 				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
 				"/home/d3sk3r/tabela-escrita",
 				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
@@ -226,7 +229,6 @@
 				"/home/d3sk3r/lousa_2021_04_08.txt",
 				"/home/d3sk3r/a.out",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/modelo proposta pergunta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
@@ -331,9 +333,7 @@
 				"/home/d3sk3r/.minecraft/optionsshaders.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§6  dynamic [1.8]§0/assets/minecraft/mcpatcher/color.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/.minecraft/resourcepacks/textures",
-				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux"
 			],
 			"find":
 			{
@@ -351,6 +351,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"discord",
+					"disco",
 					"\"custom\": 1,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"online\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"streaming\": 1",
 					"\"disabled\": false,\n\t\t\t\"online\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"dnd\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"streaming\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"custom\": 1",
 					"762451972817158185",
@@ -612,40 +614,538 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+					"contents": " accounts-qml-module-0.7-4  alsa-card-profiles-1:0.3.32-1  alsa-lib-1.2.5.1-3  alsa-plugins-1:1.2.5-2  alsa-tools-1.2.5-1  alsa-topology-conf-1.2.5.1-1  alsa-ucm-conf-1.2.5.1-1\n               alsa-utils-1.2.5.1-1  android-tools-31.0.2-1  aom-3.1.2-1  apache-2.4.48-1  apm-2.6.4-1  appstream-glib-0.7.18-3  archlinux-appstream-data-20210723-1  ark-21.04.3-1\n               at-spi2-core-2.40.3-1  atom-1.58.0-1  attica-5.84.0-1  audit-3.0.2-1  baloo-5.84.0-1  baloo-widgets-21.04.3-1  bind-9.16.18-1  blas-3.10.0-1  bluez-5.60-1  bluez-libs-5.60-1\n               boost-libs-1.76.0-1  breeze-icons-5.84.0-1  brltty-6.3-4  btrfs-progs-5.13-1  ca-certificates-20210603-1  ca-certificates-mozilla-3.68-1  ca-certificates-utils-20210603-1\n               cblas-3.10.0-1  ceph-libs-15.2.13-2  chromium-92.0.4515.107-3  ckbcomp-1.204-1  clang-12.0.1-1  code-1.58.0-1  colord-1.4.5-4  compiler-rt-12.0.1-2  cpupower-5.13-1\n               curl-7.78.0-1  dbus-python-1.2.18-1  dialog-1:1.3_20210621-1  dolphin-21.04.3-1  downgrade-10.1.0-2  dpkg-1.20.9-1  dtc-1.6.1-1  dunst-1.6.1-2  dunstify-1.6.1-2  dust-0.6.1-2\n               editorconfig-core-c-0.12.5-1  edk2-ovmf-202105-1  electron-13.1.7-1  electron12-12.0.15-1  elfutils-0.185-1  enchant-2.3.0-1  etcher-1.5.121-1  ethtool-1:5.13-1  exiv2-0.27.4-2\n               expac-10-3  f2fs-tools-1.14.0-2  faudio-21.07-1  feh-3.7.1-1  ffmpeg-2:4.4-4  filelight-21.04.3-1  firefox-90.0.2-1  fish-3.3.1-1  fmt-8.0.1-1  fontconfig-2:2.13.94-1\n               fuse-common-3.10.4-1  fuse3-3.10.4-1  fzf-0.27.2-1  gd-2.3.2-4  gdbm-1.20-1  gdk-pixbuf2-2.42.6-2  gegl-0.4.30-5  geoip-database-20210727-1  gimp-2.10.24-5  git-2.32.0-1\n               glib2-2.68.3-1  glslang-11.5.0-1  glu-9.0.2-1  gnome-desktop-1:40.3-1  gnupg-2.2.29-1  gnutls-3.7.2-2  go-2:1.16.6-1  gparted-1.3.1-1  gpgme-1.16.0-1  gptfdisk-1.0.8-1\n               graphviz-2.48.0-2  groff-1.22.4-6  grub-2.06-1  gsl-2.7-1  gst-plugins-bad-1.18.4-9  gst-plugins-bad-libs-1.18.4-9  gtest-1.11.0-1  gtk-update-icon-cache-1:4.2.1-2\n               gtk3-1:3.24.30-1  gucharmap-13.0.8-1  gupnp-1.2.7-1  harfbuzz-2.8.2-1  harfbuzz-icu-2.8.2-1  hashcat-1:6.2.3-1  hdparm-9.62-1  hwids-20210613-1  hwinfo-21.75-1  hwloc-2.5.0-1\n               iana-etc-20210624-1  imagemagick-7.1.0.4-1  imath-3.1.1-1  impacket-0.9.23-1  inetutils-2.0-1  inkscape-1.1-4  intel-ucode-20210608-1  inxi-3.3.06.1-1  iproute2-5.13.0-1\n               jack-0.125.0-9 [removal]  jack2-1.9.19-2  jasper-2.0.32-1  jemalloc-1:5.2.1-3  jre-openjdk-16.0.2.u7-1  jre-openjdk-headless-16.0.2.u7-1  js78-78.12.0-1\n               kaccounts-integration-21.04.3-1  kactivities-5.84.0-1  kactivities-stats-5.84.0-1  karchive-5.84.0-1  kauth-5.84.0-1  kbookmarks-5.84.0-1  kcalc-21.04.3-1  kcmutils-5.84.0-1\n               kcodecs-5.84.0-1  kcolorchooser-21.04.3-1  kcompletion-5.84.0-1  kconfig-5.84.0-1  kconfigwidgets-5.84.0-1  kcoreaddons-5.84.0-1  kcrash-5.84.0-1  kdbusaddons-5.84.0-1\n               kdeclarative-5.84.0-1  kded-5.84.0-1  kdenlive-21.04.3-1  kdnssd-5.84.0-1  kdsoap-2.0.0-1  kdsoap-ws-discovery-client-git20200927-2  kfilemetadata-5.84.0-1\n               kglobalaccel-5.84.0-1  kguiaddons-5.84.0-1  ki18n-5.84.0-1  kiconthemes-5.84.0-1  kidletime-5.84.0-1  kimageannotator-0.5.1-1  kinit-5.84.0-1  kio-5.84.0-2  kio-extras-21.04.3-1\n               kirigami2-5.84.0-1  kitemmodels-5.84.0-1  kitemviews-5.84.0-1  kitty-0.22.0-1  kitty-terminfo-0.22.0-1  kjobwidgets-5.84.0-1  knewstuff-5.84.0-1  knotifications-5.84.0-1\n               knotifyconfig-5.84.0-1  kolourpaint-21.04.3-1  kpackage-5.84.0-1  kparts-5.84.0-1  kpty-5.84.0-1  kservice-5.84.0-1  ktexteditor-5.84.0-1  ktextwidgets-5.84.0-1\n               kvantum-qt5-0.20.1-1  kwallet-5.84.0-1  kwayland-5.84.0-1  kwidgetsaddons-5.84.0-1  kwindowsystem-5.84.0-1  kwrite-21.04.3-1  kxmlgui-5.84.0-1  lapack-3.10.0-1  ldb-1:2.4.0-1\n               less-1:590-1  lib32-curl-7.78.0-1  lib32-faudio-21.07-1  lib32-fontconfig-2:2.13.94-1  lib32-glib2-2.68.3-1  lib32-gnutls-3.7.2-1  lib32-harfbuzz-2.8.2-1  lib32-libcap-2.51-1\n               lib32-libdrm-2.4.107-1  lib32-libelf-0.185-1  lib32-libldap-2.4.59-1  lib32-libpcap-1.10.1-1  lib32-libtasn1-4.17.0-1  lib32-libtirpc-1.3.2-1  lib32-libx11-1.7.2-1\n               lib32-libxcrypt-4.4.23-1  lib32-libxfixes-6.0.0-1  lib32-llvm-libs-12.0.1-1  lib32-mesa-21.1.5-1  lib32-mesa-vdpau-21.1.5-1  lib32-nettle-3.7.3-1  lib32-p11-kit-0.24.0-1\n               lib32-systemd-248.6-1  lib32-util-linux-2.37.1-1  lib32-vulkan-icd-loader-1.2.184-1  lib32-vulkan-intel-21.1.5-1  lib32-vulkan-radeon-21.1.5-1  lib32-zstd-1.5.0-2\n               libaccounts-glib-1.25-4  libaccounts-qt-1.16-3  libavif-0.9.2-1  libbytesize-2.6-1  libcanberra-0.30+2+gc0620e4-5  libcanberra-pulse-0.30+2+gc0620e4-3 [removal]  libcap-2.51-1\n               libcolord-1.4.5-4  libconfig-1.7.3-1  libcurl-gnutls-7.78.0-1  libdrm-2.4.107-1  libedit-20210522_3.1-1  libelf-0.185-1  libgit2-1:1.1.1-1  libgusb-0.3.7-1  libhandy-1.2.3-1\n               libidn-1.38-1  libinput-1.18.0-1  libkipi-21.04.3-1  libksane-21.04.3-1  libksba-1.6.0-1  libldac-2.0.2.3-1  libldap-2.4.59-2  liblouis-3.18.0-1  libmbim-1.24.8-1\n               libmediainfo-21.03-1  libmfx-21.2.3-1  libmm-glib-1.16.8-1  libmp4v2-5.0.1-1  libnftnl-1.2.0-1  libnghttp2-1.44.0-1  libnice-0.1.18-2  libnm-1.32.4-1  libogg-1.3.5-1\n               libopenaptx-0.2.0-1  libp11-kit-0.24.0-1  libpamac-11.0.1-3  libpcap-1.10.1-1  libplacebo-3.120.3-2  libqmi-1.28.6-1  libratbag-0.16-1  librsvg-2:2.50.7-1  libsidplayfp-2.2.1-1\n               libslirp-4.6.1-1  libtorrent-rasterbar-1:1.2.14-1  libuv-1.42.0-1  libva-2.12.0-1  libva-mesa-driver-21.1.5-1  libva-utils-2.12.0-1  libwacom-1.11-1  libwpe-1.10.1-1\n               libx11-1.7.2-1  libxcrypt-4.4.23-1  libxnvctrl-470.57.02-2  libzen-0.4.39-1  lightdm-settings-1.5.5-1  lightdm-slick-greeter-1.5.4-1  linux-firmware-20210719.r1990.168452e-1\n               linux54-5.4.135-1  linux54-headers-5.4.135-1  linux54-r8168-8.049.02-6  linux54-virtualbox-host-modules-6.1.24-2  llvm-libs-12.0.1-2  m4-1.4.19-1  man-db-2.9.4-2\n               man-pages-5.12-2  manjaro-release-21.1.0rc3-1  mariadb-libs-10.6.3-1  mediainfo-21.03-1  memtest86+-5.31b-1  mesa-21.1.5-1  mesa-vdpau-21.1.5-1  meson-0.59.0-2\n               metasploit-6.0.53-1  mhwd-db-0.6.5-14  mhwd-nvidia-470.57.02-1  mhwd-nvidia-390xx-390.144-1  mintstick-1.4.6-1  mkinitcpio-30-2  mkinitcpio-busybox-1.33.1-1\n               modemmanager-1.16.8-1  mongo-c-driver-1.18.0-1  mpd-0.22.9-1  mpg123-1.28.2-1  mtools-1:4.0.34-1  mujs-1.1.3-1  nano-5.8-1  ncdu-1.16-1  ncmpcpp-0.9.2-3  neovim-0.5.0-1\n               netctl-1.25-1  netpbm-10.73.34-1  nettle-3.7.3-1  networkmanager-1.32.4-1  nfs-utils-2.5.4-1  nfsidmap-2.5.4-1  node-gyp-8.1.0-2  nodejs-16.5.0-1  nodejs-nopt-5.0.0-2\n               noto-fonts-emoji-20210625-1  npm-7.20.2-1  nspr-4.32-1  nss-3.68-1  ocl-icd-2.3.0-1  openexr-3.0.5-2  openmpi-4.1.1-2  openvpn-2.5.3-1  opera-ffmpeg-codecs-91.0.4472.164-1\n               p11-kit-0.24.0-1  pacman-6.0.0-2  pacman-mirrors-4.21.5-1  pacutils-0.11.0-4  pahole-1.21-1  pamac-cli-10.1.3-3  pamac-common-10.0.6-2 [removal]  pamac-gtk-10.1.3-3\n               pambase-20210605-2  pango-1:1.48.7-1  papirus-icon-theme-20210701-1  pcre-8.45-1  perl-5.34.0-2  perl-file-basedir-0.09-1  perl-http-message-6.33-1  perl-json-xs-4.03-1\n               perl-libwww-6.55-1  perl-term-readline-gnu-1.42-1  php-8.0.8-1  piper-0.6-1  pipewire-1:0.3.32-1  polkit-0.119-1  polkit-qt5-0.114.0-1  poppler-21.07.0-3  poppler-glib-21.07.0-3\n               poppler-qt5-21.07.0-3  postgresql-13.3-3  postgresql-libs-13.3-3  protobuf-3.17.3-1  pulseaudio-alsa-1:1.2.5-2  purpose-5.84.0-1  python-3.9.6-1  python-anyio-3.3.0-1\n               python-cffi-1.14.6-1  python-configargparse-1.4.1-1  python-distlib-0.3.2-1  python-docutils-0.17.1-1  python-geographiclib-1.52-1  python-geopy-2.2.0-1\n               python-httpcore-0.13.6-1  python-httpx-0.18.2-1  python-idna-3.2-1  python-importlib-metadata-4.6.1-1  python-jeepney-0.7.0-1  python-ldap3-2.9.1-1  python-marshmallow-3.13.0-1\n               python-more-itertools-8.8.0-1  python-pep517-0.11.0-1  python-pillow-8.3.1-1  python-pip-20.3.4-1  python-requests-2.26.0-1  python-resolvelib-0.5.5-1  python-rich-10.6.0-1\n               python-setuptools-1:57.4.0-1  python-tomli-1.1.0-2  python-urllib3-1.26.6-1  python-xapp-2.2.1-1  python-xlib-0.31-1  python-zipp-3.5.0-1  python2-cffi-1.14.6-1\n               python2-distlib-0.3.2-1  python2-pathlib2-2.3.6-1  python2-pep517-0.11.0-1  python2-pip-20.3.4-1  python2-requests-2.26.0-1  python2-resolvelib-0.5.5-1  python2-urllib3-1.26.6-1\n               qbittorrent-4.3.6-1  qt5-base-5.15.2+kde+r210-1  qt5-declarative-5.15.2+kde+r29-1  qt5-tools-5.15.2+kde+r17-3  qt5-wayland-5.15.2+kde+r29-1  qt5-webengine-5.15.5-1\n               qutebrowser-2.3.0-1  re2-1:20210601-1  recode-3.7.9-1  ripgrep-13.0.0-2  rnnoise-0.4.1-1  rofimoji-5.2.0-2  rpcbind-1.2.6-1  rubberband-1.9.2-1  ruby-3.0.2-1\n               ruby-bundler-2.2.24-1  ruby-irb-1.3.6-1  ruby2.7-2.7.4-1  rubygems-3.2.21-1  samba-4.14.6-1  scrot-1.6-1  shaderc-2021.1-1  shotcut-21.06.29-1\n               signon-kwallet-extension-21.04.3-1  smbclient-4.14.6-1  solid-5.84.0-1  sonnet-5.84.0-1  spectacle-21.04.3-1  spice-0.15.0-1  sqlite-3.36.0-1  sqlmap-1.5.7-1  strace-5.13-1\n               sudo-1.9.7.p1-1  syncthing-1.17.0-1  syndication-5.84.0-1  syntax-highlighting-5.84.0-1  syslog-ng-3.33.1-1  systemd-248.6-1  systemd-libs-248.6-1  systemd-sysvcompat-248.6-1\n               talloc-2.3.3-1  tcpdump-4.99.1-1  tdb-1.4.5-1  telegram-desktop-2.8.11-2.0  tevent-1:0.11.0-1  texinfo-6.8-1  tinyxml2-9.0.0-1  tmux-3.2_a-1  trash-cli-0.21.6.30-1\n               tree-sitter-0.20.0-1  trizen-1.64-2  unrar-1:6.0.7-1  upower-0.99.12-2  util-linux-2.37.1-1  util-linux-libs-2.37.1-1  ventoy-1.0.47-1  vim-nerdtree-6.10.10-1\n               virtualbox-6.1.24-1  virtualbox-sdk-6.1.24-1  vlc-3.0.16-2  vpnc-1:0.5.3.r496.r153-2  vte-common-0.64.2-2  vte3-0.64.2-2  vulkan-icd-loader-1.2.185-1  vulkan-intel-21.1.5-1\n               vulkan-radeon-21.1.5-1  webkit2gtk-2.32.3-1  webrtc-audio-processing-0.3.1-3  whois-5.5.10-1  wine-6.13-1  wine-mono-6.2.0-1  wireless-regdb-2021.04.21-1  wireshark-cli-3.4.7-1\n               wireshark-qt-3.4.7-1  wpebackend-fdo-1.10.0-1  xapp-2.2.3-1  xf86-input-libinput-1.1.0-1  xfce4-power-manager-4.16.0-3  xfce4-settings-4.16.2-1  xfconf-4.16.0-2\n               xfsprogs-5.12.0-1  xkeyboard-config-2.33-1  xterm-368-1  yarn-1.22.11-1  yay-10.3.0-1  youtube-dl-2021.06.06-1  zbar-0.23.1-7  zimg-3.0.2-1  zsh-theme-powerlevel10k-1.15.0-2\n",
 					"settings":
 					{
-						"buffer_size": 4573,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/fatec/SSORCI/template .doc",
-					"settings":
-					{
-						"buffer_size": 131840,
-						"encoding": "Hexadecimal",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/changes",
-					"settings":
-					{
-						"buffer_size": 373,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"buffer_size": 10605,
+						"line_ending": "Unix",
+						"name": "accounts-qml-module-0.7-4  alsa-card-profiles-1:0"
 					},
 					"undo_stack":
 					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "da"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							2,
+							1,
+							"insert",
+							{
+								"characters": " a"
+							},
+							"AgAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAADwvw"
+						],
 						[
 							3,
 							1,
 							"left_delete",
 							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAACDAQAAaHR0cHM6Ly9hc2t1YnVudHUuY29tL3F1ZXN0aW9ucy85MjIxOC9ob3ctdG8tZXhlY3V0ZS1hLWNvbW1hbmQtYWZ0ZXItcmVzdW1lLWZyb20tc3VzcGVuZC8xMDQxMzU4IzEwNDEzNTgKCnN1ZG8gdmltIC9ldGMvc3lzdGVtZC9zeXN0ZW0vcmVzdGFydC1uZXR3b3JrLWFmdGVyLXN1c3BlbmQuc2VydmljZQoKc3VkIHN5c3RlbWN0bCBlbmFibGUgcmVzdGFydC1uZXR3b3JrLWFmdGVyLXN1c3BlbmQKCihvcHRpb25hbCkgaWYgbm90IHdvcmtpbmcgYWZ0ZXIgcmVzdW1lIGZyb20gc3VzcGVuZCA+IGNoZWNrIGZvciBlcnJvcnMgd2l0aAoKam91cm5hbGN0bCAtdSBzb21lbmFtZS5zZXJ2aWNlCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18K",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACDAQAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+							"AQAAAAMAAAAAAAAAAwAAAAAAAAABAAAAYQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "d"
+							},
+							"AQAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							5,
+							2,
+							"left_delete",
+							null,
+							"AgAAAAMAAAAAAAAAAwAAAAAAAAABAAAAZAIAAAAAAAAAAgAAAAAAAAABAAAAIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "da"
+							},
+							"AgAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": " a"
+							},
+							"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": " na"
+							},
+							"AwAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							9,
+							3,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AwAAAAcAAAAAAAAABwAAAAAAAAACAAAAbmEFAAAAAAAAAAUAAAAAAAAAAgAAAGEgAAAAAAAAAAAAAAAAAAAAAAUAAABkYWRhIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "Na"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							11,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAACAAAATmE",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "Dada"
+							},
+							"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": " a"
+							},
+							"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " natureza"
+							},
+							"CQAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " do"
+							},
+							"AwAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " ta"
+							},
+							"AwAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABIAAAAAAAAAEgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							17,
+							1,
+							"left_delete",
+							null,
+							"AQAAABQAAAAAAAAAFAAAAAAAAAABAAAAYQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABUAAAAAAAAAFQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": "rabalho"
+							},
+							"BwAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " e"
+							},
+							"AgAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABsAAAAAAAAAGwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": " tópicos"
+							},
+							"CAAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							21,
+							1,
+							"left_delete",
+							null,
+							"AQAAACQAAAAAAAAAJAAAAAAAAAABAAAAcw",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACUAAAAAAAAAJQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							22,
+							1,
+							"insert",
+							{
+								"characters": " estudado,"
+							},
+							"CgAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": " não"
+							},
+							"BAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC4AAAAAAAAALgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": " há"
+							},
+							"AwAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADIAAAAAAAAAMgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": " muito"
+							},
+							"BgAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADsAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADUAAAAAAAAANQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": " que"
+							},
+							"BAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADsAAAAAAAAAOwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAD8AAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD8AAAAAAAAAPwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							28,
+							1,
+							"left_delete",
+							null,
+							"AQAAAD8AAAAAAAAAPwAAAAAAAAABAAAAIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							29,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAADwAAAAAAAAAPAAAAAAAAAADAAAAcXVl",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD8AAAAAAAAAPwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": "o"
+							},
+							"AQAAADwAAAAAAAAAPQAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": " que"
+							},
+							"BAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD0AAAAAAAAAPQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": " elaborar"
+							},
+							"CQAAAEEAAAAAAAAAQgAAAAAAAAAAAAAAQgAAAAAAAABDAAAAAAAAAAAAAABDAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEEAAAAAAAAAQQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": " no"
+							},
+							"AwAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEoAAAAAAAAASgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": " capítulo"
+							},
+							"CQAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAE0AAAAAAAAATQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": "  de"
+							},
+							"BAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFYAAAAAAAAAVgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							36,
+							3,
+							"left_delete",
+							null,
+							"AwAAAFkAAAAAAAAAWQAAAAAAAAABAAAAZVgAAAAAAAAAWAAAAAAAAAABAAAAZFcAAAAAAAAAVwAAAAAAAAABAAAAIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFoAAAAAAAAAWgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "de"
+							},
+							"AgAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFcAAAAAAAAAVwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": " metodoligi"
+							},
+							"CwAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFkAAAAAAAAAWQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							39,
+							3,
+							"left_delete",
+							null,
+							"AwAAAGMAAAAAAAAAYwAAAAAAAAABAAAAaWIAAAAAAAAAYgAAAAAAAAABAAAAZ2EAAAAAAAAAYQAAAAAAAAABAAAAaQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "ogia,"
+							},
+							"BQAAAGEAAAAAAAAAYgAAAAAAAAAAAAAAYgAAAAAAAABjAAAAAAAAAAAAAABjAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGEAAAAAAAAAYQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " já"
+							},
+							"AwAAAGYAAAAAAAAAZwAAAAAAAAAAAAAAZwAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGkAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGYAAAAAAAAAZgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " que"
+							},
+							"BAAAAGkAAAAAAAAAagAAAAAAAAAAAAAAagAAAAAAAABrAAAAAAAAAAAAAABrAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAbQAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGkAAAAAAAAAaQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": " o"
+							},
+							"AgAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABvAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG0AAAAAAAAAbQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": " mesmo"
+							},
+							"BgAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAABxAAAAAAAAAHIAAAAAAAAAAAAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHUAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG8AAAAAAAAAbwAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							45,
+							1,
+							"insert",
+							{
+								"characters": " re"
+							},
+							"AwAAAHUAAAAAAAAAdgAAAAAAAAAAAAAAdgAAAAAAAAB3AAAAAAAAAAAAAAB3AAAAAAAAAHgAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHUAAAAAAAAAdQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": "quereu"
+							},
+							"BgAAAHgAAAAAAAAAeQAAAAAAAAAAAAAAeQAAAAAAAAB6AAAAAAAAAAAAAAB6AAAAAAAAAHsAAAAAAAAAAAAAAHsAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAAB9AAAAAAAAAAAAAAB9AAAAAAAAAH4AAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": " u"
+							},
+							"AgAAAH4AAAAAAAAAfwAAAAAAAAAAAAAAfwAAAAAAAACAAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH4AAAAAAAAAfgAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": "ma"
+							},
+							"AgAAAIAAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							49,
+							1,
+							"insert",
+							{
+								"characters": " abordagem"
+							},
+							"CgAAAIIAAAAAAAAAgwAAAAAAAAAAAAAAgwAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIUAAAAAAAAAAAAAAIUAAAAAAAAAhgAAAAAAAAAAAAAAhgAAAAAAAACHAAAAAAAAAAAAAACHAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAACKAAAAAAAAAAAAAACKAAAAAAAAAIsAAAAAAAAAAAAAAIsAAAAAAAAAjAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIIAAAAAAAAAggAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": " bastante"
+							},
+							"CQAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							51,
+							1,
+							"insert",
+							{
+								"characters": " simples."
+							},
+							"CQAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJUAAAAAAAAAlQAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							1,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAACjAAAARGFkYSBhIG5hdHVyZXphIGRvIHRyYWJhbGhvIGUgdMOzcGljbyBlc3R1ZGFkbywgbsOjbyBow6EgbXVpdG8gbyBxdWUgZWxhYm9yYXIgbm8gY2Fww610dWxvIGRlIG1ldG9kb2xvZ2lhLCBqw6EgcXVlIG8gbWVzbW8gcmVxdWVyZXUgdW1hIGFib3JkYWdlbSBiYXN0YW50ZSBzaW1wbGVzLg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							2,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAAbSkAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 						]
+					]
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
+					"settings":
+					{
+						"buffer_size": 207,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
 					]
 				}
 			],
@@ -781,6 +1281,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/fatec/SSORCI/template .doc",
 				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
 				"/home/d3sk3r/tabela-escrita",
 				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
@@ -801,7 +1304,6 @@
 				"/home/d3sk3r/lousa_2021_04_08.txt",
 				"/home/d3sk3r/a.out",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/modelo proposta pergunta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
@@ -906,9 +1408,7 @@
 				"/home/d3sk3r/.minecraft/optionsshaders.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§6  dynamic [1.8]§0/assets/minecraft/mcpatcher/color.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/- §k§!§r§2§S§f§t§6§o§1§n§9§e§e§d§k§!§r §f[32x]/assets/minecraft/mcpatcher/color.properties.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
-				"/home/d3sk3r/.minecraft/resourcepacks/textures",
-				"/home/d3sk3r/.minecraft/resourcepacks/edited dynamic 1.8/pack.mcmeta"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux"
 			],
 			"find":
 			{
@@ -926,6 +1426,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"discord",
+					"disco",
 					"\"custom\": 1,\n\t\t\t\"disabled\": true,\n\t\t\t\"dnd\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"online\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"streaming\": 1",
 					"\"disabled\": false,\n\t\t\t\"online\": 1,\n\t\t\t\"idle\": 1,\n\t\t\t\"dnd\": 1,\n\t\t\t\"playing\": 1,\n\t\t\t\"listening\": 1,\n\t\t\t\"streaming\": 1,\n\t\t\t\"offline\": 1,\n\t\t\t\"mobile\": 1,\n\t\t\t\"custom\": 1",
 					"762451972817158185",
@@ -1064,56 +1566,29 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4573,
+								"buffer_size": 10605,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										10605,
+										10605
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"auto_name": "accounts-qml-module-0.7-4  alsa-card-profiles-1:0",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/fatec/SSORCI/template .doc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 131840,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 3211.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -1121,21 +1596,21 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "/home/d3sk3r/changes",
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 373,
+								"buffer_size": 207,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										299,
-										299
+										111,
+										207
 									]
 								],
 								"settings":
