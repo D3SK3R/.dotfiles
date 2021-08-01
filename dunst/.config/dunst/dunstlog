@@ -256,3 +256,9 @@ NORMAL
 to com sdd 
 caroll 
 lightcord
+12:55 
+NORMAL
+dialog-information
+DUNST_COMMAND_* has been removed, please switch to dunstctl. See #830 for more details. https://github.com/dunst-project/dunst/pull/830 
+DUNST_COMMAND_TOGGLE 
+notify-send

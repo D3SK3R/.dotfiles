@@ -81,6 +81,8 @@ bspc rule -a "Minecraft Launcher"                           state=floating recta
 bspc rule -a "lunarclient:*:*"                              state=floating rectangle=973x666+193+50
 bspc rule -a "Haguichi"                                     state=floating center=true
 bspc rule -a "qutebrowser"                                  state=floating center=true
+bspc rule -a "realvnc-vncserverui-service:*"                state=floating center=true
+bspc rule -a "realvnc-vncviewer:*"                          state=floating center=true
 bspc rule -a "*:cpupower-gui"                               state=floating
 bspc rule -a "*:*:Power Manager"                            state=floating
 bspc rule -a "*:*:Network Connections"                      state=floating

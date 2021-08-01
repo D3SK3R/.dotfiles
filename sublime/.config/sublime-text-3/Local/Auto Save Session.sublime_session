@@ -614,10 +614,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/changes",
+					"file": "/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 2793,
 						"line_ending": "Unix"
 					}
 				}
@@ -754,6 +754,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
+				"/home/d3sk3r/changes",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
@@ -767,7 +769,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/14_Dotfiles.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
 				"/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/fatec/SSORCI/template .doc",
 				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
 				"/home/d3sk3r/tabela-escrita",
@@ -880,8 +881,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
 				"/home/d3sk3r/accs",
-				"/home/d3sk3r/.minecraft/options.txt",
-				"/home/d3sk3r/.minecraft/optionsof.txt"
+				"/home/d3sk3r/.minecraft/options.txt"
 			],
 			"find":
 			{
@@ -1039,12 +1039,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/changes",
+							"file": "/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 373,
+								"buffer_size": 2793,
 								"regions":
 								{
 								},
@@ -1057,7 +1057,9 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,

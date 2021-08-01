@@ -19,12 +19,12 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     sleep 1.6 && killall picom
     
     # Disable notifications
-    sleep 0.8 && notify-send DUNST_COMMAND_TOGGLE
+    sleep 0.8 && dunstctl set-paused true
 
 else
     # Re enable notifications
     dunstctl close-all
-    notify-send DUNST_COMMAND_TOGGLE
+    dunstctl set-paused false
 
     # Send notify
     dunstify -t 1500 -i "/usr/share/icons/Papirus-Dark/22x22/actions/attentions.svg" "Disabling Game mode" -r $notifyid
