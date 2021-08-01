@@ -5,6 +5,16 @@
 ##         Alphabetical order, and command keys, like Return, and etc, first           ##
 #########################################################################################
 
+# Turn off the display when pressing the power button
+## if systemd is in use, need to modify /etc/systemd/logind.conf to ignore power button events
+##From: #HandlePowerKey=poweroff
+##To: HandlePowerKey=ignore
+## and then run 
+## sudo systemctl restart systemd-logind
+## to restart systemd daemon
+XF86PowerOff
+    xset dpms force off
+
 # Show hotkeys/help
 super + slash
     ~/.scripts/hotkeys.sh
