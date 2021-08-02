@@ -206,8 +206,12 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
+				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
+				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
+				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
 				"/home/d3sk3r/changes",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
@@ -329,11 +333,7 @@
 				"/home/d3sk3r/.minecraft/launcher_profiles.json",
 				"/home/d3sk3r/.minecraft/window_settings_launcher.conf",
 				"/home/d3sk3r/.minecraft/usernamecache.json",
-				"/home/d3sk3r/.minecraft/optionsLC.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
-				"/home/d3sk3r/accs",
-				"/home/d3sk3r/.minecraft/options.txt"
+				"/home/d3sk3r/.minecraft/optionsLC.txt"
 			],
 			"find":
 			{
@@ -613,14 +613,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
-					"settings":
-					{
-						"buffer_size": 2793,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -754,8 +746,12 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
+				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
+				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
+				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
 				"/home/d3sk3r/changes",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
@@ -877,11 +873,7 @@
 				"/home/d3sk3r/.minecraft/launcher_profiles.json",
 				"/home/d3sk3r/.minecraft/window_settings_launcher.conf",
 				"/home/d3sk3r/.minecraft/usernamecache.json",
-				"/home/d3sk3r/.minecraft/optionsLC.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Accs mine.txt",
-				"/home/d3sk3r/accs",
-				"/home/d3sk3r/.minecraft/options.txt"
+				"/home/d3sk3r/.minecraft/optionsLC.txt"
 			],
 			"find":
 			{
@@ -1037,38 +1029,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2793,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
