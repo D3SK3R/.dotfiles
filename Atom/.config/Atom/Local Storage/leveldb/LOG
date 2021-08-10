@@ -1,3 +1,12 @@
-2021/01/17-19:42:10.218 b37b Reusing MANIFEST leveldb/MANIFEST-000001
-2021/01/17-19:42:10.218 b37b Recovering log #39
-2021/01/17-19:42:10.218 b37b Reusing old log leveldb/000039.log 
+2021/08/10-10:53:30.692 35c1e Reusing MANIFEST /home/d3sk3r/.config/Atom/Local Storage/leveldb/MANIFEST-000001
+2021/08/10-10:53:30.692 35c1e Recovering log #39
+2021/08/10-10:53:30.693 35c1e Reusing old log /home/d3sk3r/.config/Atom/Local Storage/leveldb/000039.log 
+2021/08/10-10:56:48.605 37ae5 Level-0 table #44: started
+2021/08/10-10:56:48.612 37ae5 Level-0 table #44: 76129 bytes OK
+2021/08/10-10:56:48.619 37ae5 Delete type=0 #39
+2021/08/10-10:56:56.189 37ae5 Level-0 table #46: started
+2021/08/10-10:56:56.195 37ae5 Level-0 table #46: 83702 bytes OK
+2021/08/10-10:56:56.201 37ae5 Delete type=0 #43
+2021/08/10-11:00:34.354 37ae5 Level-0 table #48: started
+2021/08/10-11:00:34.362 37ae5 Level-0 table #48: 51708 bytes OK
+2021/08/10-11:00:34.371 37ae5 Delete type=0 #45

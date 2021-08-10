@@ -454,3 +454,27 @@ NORMAL
 besta 
 caroll 
 lightcord
+09:58 
+NORMAL
+system-software-install-symbolic
+Updates Available 
+Package Manager 
+Package Manager
+11:09 
+NORMAL
+dialog-information
+DUNST_COMMAND_* has been removed, please switch to dunstctl. See #830 for more details. https://github.com/dunst-project/dunst/pull/830 
+DUNST_COMMAND_RESUME 
+notify-send
+11:09 
+NORMAL
+dialog-information
+DUNST_COMMAND_* has been removed, please switch to dunstctl. See #830 for more details. https://github.com/dunst-project/dunst/pull/830 
+DUNST_COMMAND_PAUSE 
+notify-send
+11:09 
+NORMAL
+dialog-information
+DUNST_COMMAND_* has been removed, please switch to dunstctl. See #830 for more details. https://github.com/dunst-project/dunst/pull/830 
+DUNST_COMMAND_RESUME 
+notify-send

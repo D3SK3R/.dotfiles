@@ -59,7 +59,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     fi
 
     # stops and closes all possible notifications
-    notify-send DUNST_COMMAND_PAUSE
+    dunstctl set-paused true
 
     # kills swallow script so that the terminals don't get swallowed
     killall swallowbspwm
@@ -99,7 +99,7 @@ else
 
     # re-enable notifications
     dunstctl close-all
-    notify-send DUNST_COMMAND_RESUME
+    dunstctl set-paused false
 
     # executes swallow again and removes the file used to toggle the script
     $HOME/.config/bspwm/swallowbspwm &

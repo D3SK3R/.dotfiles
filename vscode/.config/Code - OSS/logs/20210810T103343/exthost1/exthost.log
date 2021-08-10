@@ -1,0 +1,30 @@
+[2021-08-10 10:33:54.226] [exthost] [info] extension host started
+[2021-08-10 10:33:54.362] [exthost] [info] Lock '/home/d3sk3r/.config/Code - OSS/User/workspaceStorage/9584ca51ce67e707bd7728b74a4a7159/vscode.lock': Lock acquired.
+[2021-08-10 10:33:55.134] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-08-10 10:33:55.135] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-08-10 10:33:55.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-10 10:33:55.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-10 10:33:55.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-10 10:33:55.253] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-10 10:33:56.664] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-10 10:33:56.665] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-10 10:33:57.012] [exthost] [info] eager extensions activated
+[2021-08-10 10:33:57.095] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-10 10:33:57.095] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-10 10:33:58.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-10 10:33:58.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-10 10:33:58.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-10 10:33:58.772] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-10 10:33:58.802] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-10 10:33:58.802] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-08-10 10:34:03.657] [exthost] [info] ExtensionService#_doActivateExtension JackVandergriff.xresources-theme {"startup":false,"extensionId":{"value":"JackVandergriff.xresources-theme","_lower":"jackvandergriff.xresources-theme"},"activationEvent":"*"}
+[2021-08-10 10:34:03.657] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/d3sk3r/.vscode-oss/extensions/jackvandergriff.xresources-theme-1.0.1/out/extension.js
+[2021-08-10 10:34:03.881] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":false,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-08-10 10:34:03.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/d3sk3r/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-08-10 10:34:12.636] [exthost] [info] ExtensionService#_doActivateExtension auchenberg.vscode-browser-preview {"startup":false,"extensionId":{"value":"auchenberg.vscode-browser-preview","_lower":"auchenberg.vscode-browser-preview"},"activationEvent":"onDebug"}
+[2021-08-10 10:34:12.636] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/d3sk3r/.vscode-oss/extensions/auchenberg.vscode-browser-preview-0.6.7/build/ext-src/extension.js
+[2021-08-10 10:34:17.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-08-10 10:34:17.756] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-server-ready/dist/extension
+[2021-08-10 10:34:53.134] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-10 10:34:53.137] [exthost] [info] Lock '/home/d3sk3r/.config/Code - OSS/User/workspaceStorage/9584ca51ce67e707bd7728b74a4a7159/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-10 10:34:54.192] [exthost] [info] exiting with code 0

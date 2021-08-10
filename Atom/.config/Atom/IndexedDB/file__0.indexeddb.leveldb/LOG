@@ -1,3 +1,30 @@
-2021/01/17-19:42:10.369 b37b Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2021/01/17-19:42:10.370 b37b Recovering log #33
-2021/01/17-19:42:10.373 b37b Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000033.log 
+2021/08/10-10:53:34.325 35c30 Reusing MANIFEST /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/08/10-10:53:34.325 35c30 Recovering log #33
+2021/08/10-10:53:34.338 35c30 Reusing old log /home/d3sk3r/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000033.log 
+2021/08/10-10:57:36.819 3837d Level-0 table #37: started
+2021/08/10-10:57:36.878 3837d Level-0 table #37: 1378078 bytes OK
+2021/08/10-10:57:36.887 3837d Delete type=0 #33
+2021/08/10-10:59:59.332 3837d Level-0 table #39: started
+2021/08/10-10:59:59.366 3837d Level-0 table #39: 1470013 bytes OK
+2021/08/10-10:59:59.372 3837d Delete type=0 #36
+2021/08/10-11:00:55.889 3837d Level-0 table #41: started
+2021/08/10-11:00:55.950 3837d Level-0 table #41: 2312069 bytes OK
+2021/08/10-11:00:55.959 3837d Delete type=0 #38
+2021/08/10-11:00:55.961 3837d Compacting 4@0 + 1@1 files
+2021/08/10-11:00:56.035 3837d Generated table #42@0: 246 keys, 295027 bytes
+2021/08/10-11:00:56.035 3837d Compacted 4@0 + 1@1 files => 295027 bytes
+2021/08/10-11:00:56.043 3837d compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/10-11:00:56.044 3837d Delete type=2 #37
+2021/08/10-11:00:56.044 3837d Delete type=2 #34
+2021/08/10-11:00:56.044 3837d Delete type=2 #31
+2021/08/10-11:00:56.044 3837d Delete type=2 #41
+2021/08/10-11:00:56.044 3837d Delete type=2 #39
+2021/08/10-11:01:40.397 3837d Level-0 table #44: started
+2021/08/10-11:01:40.454 3837d Level-0 table #44: 2282450 bytes OK
+2021/08/10-11:01:40.463 3837d Delete type=0 #40
+2021/08/10-11:05:58.532 3837d Level-0 table #46: started
+2021/08/10-11:05:58.576 3837d Level-0 table #46: 2255329 bytes OK
+2021/08/10-11:05:58.582 3837d Delete type=0 #43
+2021/08/10-11:06:51.985 3837d Level-0 table #48: started
+2021/08/10-11:06:52.026 3837d Level-0 table #48: 2250331 bytes OK
+2021/08/10-11:06:52.031 3837d Delete type=0 #45
