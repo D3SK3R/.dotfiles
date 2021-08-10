@@ -25,6 +25,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 " USER plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"https://github.com/jiangmiao/auto-pairs
+Plugin 'jiangmiao/auto-pairs'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-airline
 " https://github.com/vim-airline/vim-airline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -115,6 +119,7 @@ endfunction
 
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+"""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -131,6 +136,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" VimCompletesMe
+" https://github.com/ackyshake/VimCompletesMe
+autocmd FileType vim let b:vcm_tab_complete = 'vim'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM

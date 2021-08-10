@@ -10,3 +10,15 @@
 2021/08/10-11:00:34.354 37ae5 Level-0 table #48: started
 2021/08/10-11:00:34.362 37ae5 Level-0 table #48: 51708 bytes OK
 2021/08/10-11:00:34.371 37ae5 Delete type=0 #45
+2021/08/10-11:14:15.349 37ae5 Level-0 table #50: started
+2021/08/10-11:14:15.357 37ae5 Level-0 table #50: 15038 bytes OK
+2021/08/10-11:14:15.363 37ae5 Delete type=0 #47
+2021/08/10-11:14:15.363 37ae5 Compacting 4@0 + 1@1 files
+2021/08/10-11:14:15.408 37ae5 Generated table #51@0: 698 keys, 761622 bytes
+2021/08/10-11:14:15.408 37ae5 Compacted 4@0 + 1@1 files => 761622 bytes
+2021/08/10-11:14:15.415 37ae5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/10-11:14:15.416 37ae5 Delete type=2 #50
+2021/08/10-11:14:15.416 37ae5 Delete type=2 #48
+2021/08/10-11:14:15.416 37ae5 Delete type=2 #44
+2021/08/10-11:14:15.416 37ae5 Delete type=2 #41
+2021/08/10-11:14:15.416 37ae5 Delete type=2 #46
