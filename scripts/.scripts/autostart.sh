@@ -38,7 +38,7 @@ $HOME/.scripts/mouse_sens.sh &
 
 $HOME/.config/bspwm/swallowbspwm &
 
-$HOME/.scripts/better.sh &
+#$HOME/.scripts/better.sh &
 
 $HOME/.scripts/keyboardSet &
 
