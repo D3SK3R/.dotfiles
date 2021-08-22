@@ -3,6 +3,12 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/d3sk3r/react/react-app"
+            },
+            {
+                "folderUri": "file:///home/d3sk3r"
+            },
+            {
                 "folderUri": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding"
             },
             {
@@ -14,6 +20,12 @@
             },
             {
                 "folderUri": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/Coding/Python"
+            },
+            {
+                "fileUri": "file:///home/d3sk3r/vscode%3Aextension/Equinusocio.vsc-material-theme"
+            },
+            {
+                "fileUri": "file:///home/d3sk3r/react/react-app/src/App.js"
             },
             {
                 "fileUri": "file:///home/d3sk3r/vscode%3Aextension/JackVandergriff.xresources-theme"
@@ -70,7 +82,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
+                                        "fsPath": "/home/d3sk3r/react/react-app",
+                                        "external": "file:///home/d3sk3r/react/react-app",
+                                        "path": "/home/d3sk3r/react/react-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/react/react-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/d3sk3r",
+                                        "path": "/home/d3sk3r",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/d3sk3r"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
                                         "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
                                         "scheme": "file"
@@ -101,6 +135,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/d3sk3r/vscode%3Aextension/Equinusocio.vsc-material-theme",
+                                        "path": "/home/d3sk3r/vscode:extension/Equinusocio.vsc-material-theme",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/vscode:extension/Equinusocio.vsc-material-theme"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/d3sk3r/react/react-app/src/App.js",
+                                        "path": "/home/d3sk3r/react/react-app/src/App.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/react/react-app/src/App.js"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -974,8 +1030,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1514,11 +1569,11 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0d0f31",
+    "themeBackground": "#07090f",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding",
-            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/710bf9cf83c3070a7a0825e5cd951b3e",
+            "folder": "file:///home/d3sk3r/react/react-app",
+            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/2ca81df3eeb765c376eb604003c851d3",
             "uiState": {
                 "mode": 1,
                 "x": 1366,
@@ -1533,14 +1588,14 @@
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#0d0f31",
-            "editorBackground": "#0d0f31",
-            "titleBarBackground": "#070825",
-            "activityBarBackground": "#070825",
-            "sideBarBackground": "#070825",
-            "statusBarBackground": "#070825",
-            "statusBarNoFolderBackground": "#070825"
+            "foreground": "#576daf",
+            "background": "#07090f",
+            "editorBackground": "#07090f",
+            "titleBarBackground": "#07090f",
+            "activityBarBackground": "#07090f",
+            "sideBarBackground": "#07090f",
+            "statusBarBackground": "#86a5ff",
+            "statusBarNoFolderBackground": "#68217a"
         },
         "layoutInfo": {
             "sideBarSide": "left",

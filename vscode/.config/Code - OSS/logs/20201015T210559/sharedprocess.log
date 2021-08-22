@@ -1,8 +1,0 @@
-[2020-10-15 21:06:03.844] [sharedprocess] [info] main {"machineId":"1993e6f464a89484db336d3c35066eb92af816a0ad87cabf273af5b1be2bc79a","windowId":2}
-[2020-10-15 21:06:04.775] [sharedprocess] [info] Deleted from disk ms-python.python /home/d3sk3r/.vscode-oss/extensions/ms-python.python-2020.8.109390
-[2020-10-15 21:06:43.869] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-10-15 21:08:40.995] [sharedprocess] [info] Installing the extension: jackvandergriff.xresources-theme
-[2020-10-15 21:08:41.816] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.jackvandergriff.xresources-theme-1.0.1: jackvandergriff.xresources-theme
-[2020-10-15 21:08:41.817] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/jackvandergriff.xresources-theme-1.0.1
-[2020-10-15 21:08:41.818] [sharedprocess] [info] Installation completed. jackvandergriff.xresources-theme
-[2020-10-15 21:08:41.820] [sharedprocess] [info] Successfully installed the extension: jackvandergriff.xresources-theme

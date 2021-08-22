@@ -1,0 +1,64 @@
+[2021-08-22 16:15:26.300] [exthost] [info] extension host started
+[2021-08-22 16:15:26.380] [exthost] [info] Lock '/home/d3sk3r/.config/Code - OSS/User/workspaceStorage/eb268a14efd8e2319b1ed09d2f9e44cb/vscode.lock': Lock acquired.
+[2021-08-22 16:15:26.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-22 16:15:26.856] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-22 16:15:26.863] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-22 16:15:26.863] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-22 16:15:27.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-22 16:15:27.539] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-22 16:15:27.630] [exthost] [info] eager extensions activated
+[2021-08-22 16:15:27.785] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-22 16:15:27.785] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-22 16:15:28.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-22 16:15:28.350] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-22 16:15:28.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-22 16:15:28.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-22 16:15:28.370] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-22 16:15:28.370] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-08-22 16:15:28.445] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-22 16:15:28.446] [exthost] [info] Lock '/home/d3sk3r/.config/Code - OSS/User/workspaceStorage/eb268a14efd8e2319b1ed09d2f9e44cb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-22 16:15:28.453] [exthost] [error] Activating extension ms-vscode.js-debug failed due to an error:
+[2021-08-22 16:15:28.453] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8094)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:682)
+	at h (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31703)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29468)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-08-22 16:15:28.454] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-08-22 16:15:28.454] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8094)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:682)
+	at h (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31703)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29468)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-08-22 16:15:28.454] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-08-22 16:15:28.454] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8094)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:682)
+	at h (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31703)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29468)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-08-22 16:15:28.454] [exthost] [error] Activating extension vscode.testing-editor-contributions failed due to an error:
+[2021-08-22 16:15:28.454] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8094)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:682)
+	at h (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31703)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29468)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-08-22 16:15:29.452] [exthost] [info] exiting with code 0

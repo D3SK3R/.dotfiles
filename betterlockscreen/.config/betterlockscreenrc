@@ -17,4 +17,4 @@ font="sans-serif"
 #font="DejaVu Sans Mono"
 #locktext='Type password to unlock...'
 locktext='Desker'
-lock_timeout=60
+#lock_timeout=60
