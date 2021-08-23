@@ -29,3 +29,8 @@
 [2021-08-22 19:17:57.797] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
 [2021-08-22 19:17:57.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
 [2021-08-22 19:17:57.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-08-22 19:22:10.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-08-22 19:22:10.302] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-08-22 19:22:35.752] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-22 19:22:35.753] [exthost] [info] Lock '/home/d3sk3r/.config/Code - OSS/User/workspaceStorage/4af9dbf64591c2f85744080d7cbb5743/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-22 19:22:36.836] [exthost] [info] exiting with code 0
