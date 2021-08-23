@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -206,6 +206,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
@@ -332,8 +333,7 @@
 				"/home/d3sk3r/.minecraft/launcher_accounts.json",
 				"/home/d3sk3r/.minecraft/launcher_ui_state.json",
 				"/home/d3sk3r/.minecraft/launcher_profiles.json",
-				"/home/d3sk3r/.minecraft/window_settings_launcher.conf",
-				"/home/d3sk3r/.minecraft/usernamecache.json"
+				"/home/d3sk3r/.minecraft/window_settings_launcher.conf"
 			],
 			"find":
 			{
@@ -544,7 +544,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -746,6 +746,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
@@ -872,8 +873,7 @@
 				"/home/d3sk3r/.minecraft/launcher_accounts.json",
 				"/home/d3sk3r/.minecraft/launcher_ui_state.json",
 				"/home/d3sk3r/.minecraft/launcher_profiles.json",
-				"/home/d3sk3r/.minecraft/window_settings_launcher.conf",
-				"/home/d3sk3r/.minecraft/usernamecache.json"
+				"/home/d3sk3r/.minecraft/window_settings_launcher.conf"
 			],
 			"find":
 			{
@@ -1072,7 +1072,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,2",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
