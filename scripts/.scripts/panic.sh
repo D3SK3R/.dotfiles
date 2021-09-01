@@ -21,15 +21,15 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # Get the workspaces i'm in, write it to the file and
     # sees if theres another monitor, if so, move it to another workspace
     # and writes to the file
-    if xrandr | grep -ow "DP1 connected" >/dev/null; then
-        ws1=$(bspc query -m eDP1 -T | jq | grep "focusedDesktopId" | \
+    if xrandr | grep -ow "DP-1 connected" >/dev/null; then
+        ws1=$(bspc query -m eDP-1 -T | jq | grep "focusedDesktopId" | \
             awk -F " " '{print $NF}' | cut -d',' -f1)
-        ws2=$(bspc query -m DP1 -T | gron | grep "focusedDesktopId" | \
+        ws2=$(bspc query -m DP-1 -T | gron | grep "focusedDesktopId" | \
             awk -F " " '{print $NF}' | cut -d';' -f1)
         bspc desktop -f 4
         bspc desktop -f 9
     else
-        ws1=$(bspc query -m eDP1 -T | jq | grep "focusedDesktopId" | \
+        ws1=$(bspc query -m eDP-1 -T | jq | grep "focusedDesktopId" | \
         awk -F " " '{print $NF}' | cut -d',' -f1)
         bspc desktop -f 9
     fi
@@ -49,7 +49,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     done
 
     # pauses the media if playing
-    if [ $(playerctl status) = "Playing" ]; then
+    if [[ $(playerctl status) = "Playing" ]]; then
         echo 'playing' >> $file
         playerctl play-pause
     fi

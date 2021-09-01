@@ -21,7 +21,8 @@ function run {
 #######################
 ###     scripts     ###
 #######################
-if xrandr | grep -ow "DP1 connected" >/dev/null; then
+#if xrandr | grep -ow "DP1 connected" >/dev/null; then
+if xrandr | grep -ow "DP-1 connected" >/dev/null; then
     autorandr --change &
 else
     run autorandr
