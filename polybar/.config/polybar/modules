@@ -23,14 +23,14 @@ type = custom/text
 content = ${glyph.right}
 content-font = 4
 content-background = ${colors.bg}
-content-foreground = ${colors.fg-alt}
+content-foreground = ${colors.fg}
 
 [module/sepR3]
 type = custom/text
 content = ${glyph.right}
 content-font = 4
 content-background = ${colors.bg}
-content-foreground = ${colors.fg-alt}
+content-foreground = ${colors.fg}
 
 [module/sepR4]
 type = custom/text
@@ -51,14 +51,14 @@ type = custom/text
 content = ${glyph.left}
 content-font = 4
 content-background = ${colors.bg}
-content-foreground = ${colors.fg-alt}
+content-foreground = ${colors.fg}
 
 [module/sepL3]
 type = custom/text
 content = ${glyph.left}
 content-font = 4
 content-background = ${colors.bg}
-content-foreground = ${colors.fg-alt}
+content-foreground = ${colors.fg}
 
 [module/sepL4]
 type = custom/text
@@ -78,45 +78,45 @@ content-background = ${colors.bg}
 type = custom/text
 content = ""
 content-font = 2
-content-foreground = ${colors.bg-alt}
+content-foreground = ${colors.fg}
 content-background = ${colors.bg}
-content-underline = ${colors.bg-alt}
+content-underline = ${colors.fg}
 
 [module/l2]
 type = custom/text
 content = ""
 content-font = 2
 content-foreground = ${colors.bg}
-content-background = ${colors.bg-alt}
+content-background = ${colors.fg}
 
 [module/l3]
 type = custom/text
 content = ""
 content-font = 2
-content-foreground = ${colors.bg-alt}
+content-foreground = ${colors.fg}
 content-background = ${colors.bg}
-;content-underline = ${colors.bg-alt}
+;content-underline = ${colors.fg}
 
 [module/r1]
 type = custom/text
 content = ""
 content-font = 2
 content-foreground = ${colors.bg}
-content-background = ${colors.bg-alt}
+content-background = ${colors.fg}
 
 [module/r2]
 type = custom/text
 content = ""
 content-font = 2
-content-foreground = ${colors.bg-alt}
+content-foreground = ${colors.fg}
 content-background = ${colors.bg}
-content-underline = ${colors.bg-alt}
+content-underline = ${colors.fg}
 
 [module/r3]
 type = custom/text
 content = ""
 content-font = 2
-content-foreground = ${colors.bg-alt}
+content-foreground = ${colors.fg}
 content-background = ${colors.bg}
 
 ;==========================================================
@@ -127,7 +127,7 @@ type = internal/bspwm
 #  
 format = "  <label-state>"
 format-background =         ${colors.bg}
-format-foreground =         ${colors.fg-alt}
+format-foreground =         ${colors.fg}
 pin-workspaces = true
 
 enable-click = true
@@ -146,24 +146,24 @@ label-urgent-font = 1
 label-tiled                 = T
 label-monocle               = M
 label-monocle-background       = ${colors.bg}
-label-monocle-foreground       = ${colors.fg-alt}
+label-monocle-foreground       = ${colors.fg}
 label-monocle-padding          = 1
 
 label-monitor = %name%
 label-monitor-background       = ${colors.bg}
-label-monitor-foreground       = ${colors.fg-alt}
+label-monitor-foreground       = ${colors.fg}
 label-monitor-padding          = 1
 
 label-focused               = 
 label-focused-background    = ${colors.bg}
 ;label-focused-foreground    = #77B9C4
-label-focused-foreground    = ${colors.fg-alt}
+label-focused-foreground    = ${colors.fg}
 label-focused-padding       = 1
 
 ;label-occupied               = 
 label-occupied               = 
 label-occupied-background     = ${colors.bg}
-label-occupied-foreground    = ${colors.fg-alt}
+label-occupied-foreground    = ${colors.fg}
 label-occupied-padding       = 1
 
 ; leave this blank so that the bar will only show desktops occupied by something
@@ -172,7 +172,7 @@ label-empty             =
 ;label-empty 			= 
 label-empty-background  = ${colors.bg}
 ;label-empty-foreground  = #abb2bf
-label-empty-foreground  = ${colors.fg-alt}
+label-empty-foreground  = ${colors.fg}
 label-empty-padding     = 1
 
 label-urgent                = 
@@ -209,31 +209,31 @@ label-urgent-font = 1
 label-mode-font = 2
 
 label-mode                  = "煉 %mode%"
-label-mode-background       = ${colors.bg-alt}
+label-mode-background       = ${colors.fg}
 label-mode-foreground       = ${colors.bg}
 label-mode-padding          = 1
 
 label-focused               = 
-label-focused-background    = ${colors.bg-alt}
+label-focused-background    = ${colors.fg}
 ;label-focused-foreground    = #77B9C4
 label-focused-foreground    = ${colors.bg}
 label-focused-padding       = 1
 
 label-unfocused             = 
 ;label-unfocused 			= 
-label-unfocused-background  = ${colors.bg-alt}
+label-unfocused-background  = ${colors.fg}
 ;label-unfocused-foreground  = #abb2bf
 label-unfocused-foreground  = ${colors.bg}
 label-unfocused-padding     = 1
 
 label-urgent                = 
-label-urgent-background     = ${colors.bg-alt}
+label-urgent-background     = ${colors.fg}
 label-urgent-foreground     = #ff0000
 label-urgent-padding        = 1
 
 ;label-visible               = 
 label-visible               = 
-label-visible-background     = ${colors.bg-alt}
+label-visible-background     = ${colors.fg}
 label-visible-foreground    = ${colors.bg}
 label-visible-padding       = 1
 
@@ -361,8 +361,8 @@ exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f '{play
 click-left = playerctl play-pause
 click-right = playerctl previous && playerctl stop
 format-background = ${colors.bg}
-format-foreground = ${colors.fg-alt}
-#format-underline = ${colors.bg-alt}
+format-foreground = ${colors.fg}
+#format-underline = ${colors.fg}
 
 [module/cpu]
 type = internal/cpu
@@ -371,7 +371,7 @@ interval = 1
 label = " %percentage%% "
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
-#label-underline = ${colors.bg-alt}
+#label-underline = ${colors.fg}
 
 [module/ram]
 ;https://github.com/jaagr/polybar/wiki/Module:-memory
@@ -398,8 +398,8 @@ format = "<label> <bar-used>"
 #  /  / 
 format-prefix = " "
 format-background = ${colors.bg}
-format-prefix-foreground = ${colors.fg-alt}
-format-foreground = ${colors.fg-alt}
+format-prefix-foreground = ${colors.fg}
+format-foreground = ${colors.fg}
 ;format-underline = ${colors.bg}
 
 [module/pavolume]
@@ -413,7 +413,7 @@ click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 #scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-#format-underline = ${colors.bg-alt}
+#format-underline = ${colors.fg}
 
 [module/battery]
 ; Use the following command to list batteries and adapters:
@@ -423,14 +423,14 @@ battery                                 = BAT1
 
 format-charging                         = "<ramp-capacity> <label-charging>"
 format-charging-background              = ${colors.bg}
-format-charging-foreground              = ${colors.fg-alt}
+format-charging-foreground              = ${colors.fg}
 
 format-discharging                      = "<ramp-capacity> <label-discharging>"
 format-discharging-background           = ${colors.bg}
-format-discharging-foreground           = ${colors.fg-alt}
+format-discharging-foreground           = ${colors.fg}
 
 format-full-background                  = ${colors.bg}
-format-full-foreground                  = ${colors.fg-alt}
+format-full-foreground                  = ${colors.fg}
 
 full-at                                 = 99
 
@@ -469,7 +469,7 @@ interval = 100
 format-prefix = " "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-#format-underline = ${colors.bg-alt}
+#format-underline = ${colors.fg}
 # hideIt.sh --name '^Polybar tray window$' --direction top --steps 1 --signal
 click-right = hideIt.sh --name '^Polybar tray window$' --toggle
 click-left = google-chrome-stable "https://www.google.com/search?q=weather+campinas"
@@ -575,7 +575,7 @@ click-left = ~/.config/polybar/scripts/popup-calendar-date.sh --popup
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-format-underline = ${colors.bg-alt}
+format-underline = ${colors.fg}
 
 [module/mute]
 type = custom/ipc
@@ -584,7 +584,7 @@ hook-0 = ~/.config/polybar/scripts/mute.sh
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-#format-underline = ${colors.bg-alt}
+#format-underline = ${colors.fg}
 initial = 1
 
 [module/popup-calendar-clock]
@@ -595,14 +595,14 @@ click-left = ~/.config/polybar/scripts/popup-calendar-clock.sh --popup
 #format-underline = ${colors.black}
 #format-prefix = 
 format-foreground = ${colors.bg}
-format-background = ${colors.bg-alt}
+format-background = ${colors.fg}
 
 [module/date]
 type = internal/date
 
 label = "%date% %time%"
 label-background = ${colors.bg}
-label-foreground = ${colors.fg-alt}
+label-foreground = ${colors.fg}
 
 date =
 date-alt = "  %a, %d %B %Y "

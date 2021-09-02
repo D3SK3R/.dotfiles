@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 735.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -207,13 +207,13 @@
 			"file_history":
 			[
 				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/changes",
 				"/home/d3sk3r/justBefore",
 				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
 				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
@@ -544,7 +544,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -613,17 +613,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/test.sh",
-					"settings":
-					{
-						"buffer_size": 145,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -758,13 +747,13 @@
 			"file_history":
 			[
 				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/changes",
 				"/home/d3sk3r/justBefore",
 				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
 				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
 				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
 				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
@@ -1040,38 +1029,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/test.sh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 145,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										95,
-										102
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1115,7 +1072,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,33,1366,768,2732,768,0",
+			"position": "0,0,0,0,0,688,32,1352,386,2732,768,0",
 			"project": "",
 			"replace":
 			{

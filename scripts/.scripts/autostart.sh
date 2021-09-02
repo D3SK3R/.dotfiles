@@ -24,6 +24,9 @@ function run {
 #if xrandr | grep -ow "DP1 connected" >/dev/null; then
 if xrandr | grep -ow "DP-1 connected" >/dev/null; then
     autorandr --change &
+    sleep 2 && bspc desktop 2 --focus &&
+    sleep 0.5 &&
+    bspc desktop 1 --focus
 else
     run autorandr
     bspc monitor -d 1 2 3 4 5 6 7 8 9
@@ -41,8 +44,7 @@ $HOME/.config/bspwm/swallowbspwm &
 
 #$HOME/.scripts/better.sh &
 
-# Testing if changing /etc/vconsole.conf works
-#$HOME/.scripts/keyboardSet &
+$HOME/.scripts/keyboardSet &
 
 sleep 10 && $HOME/.scripts/headset-configure &
 
