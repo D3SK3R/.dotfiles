@@ -41,7 +41,8 @@ $HOME/.config/bspwm/swallowbspwm &
 
 #$HOME/.scripts/better.sh &
 
-$HOME/.scripts/keyboardSet &
+# Testing if changing /etc/vconsole.conf works
+#$HOME/.scripts/keyboardSet &
 
 sleep 10 && $HOME/.scripts/headset-configure &
 
