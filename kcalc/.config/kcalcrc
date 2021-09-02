@@ -17,3 +17,6 @@ StatFontsColor=0,204,255
 [Font]
 ButtonFont=DejaVu Sans Mono,13,-1,5,50,0,0,0,0,0
 DisplayFont=DejaVu Sans Mono,14,-1,5,75,0,0,0,0,0,Bold
+
+[General]
+CalculatorMode=science

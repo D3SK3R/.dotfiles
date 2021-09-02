@@ -32,7 +32,7 @@
 external_editor = "vim"
 ## Note: set to yes if external editor is a console application.
 use_console_editor = "yes"
-mpd_music_dir = "/home/d3sk3r/MEGA/D3SK3R/Midia/Music/"
+mpd_music_dir = "~/MEGA/D3SK3R/Midia/Music/"
 mpd_host = "127.0.0.1"
 mpd_port = "1100"
 mpd_connection_timeout = "5"
