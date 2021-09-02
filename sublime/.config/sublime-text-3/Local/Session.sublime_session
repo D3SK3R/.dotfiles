@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 735.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -544,7 +544,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -617,9 +617,12 @@
 					"file": "/home/d3sk3r/test.sh",
 					"settings":
 					{
-						"buffer_size": 637,
+						"buffer_size": 145,
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
@@ -1044,15 +1047,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 637,
+								"buffer_size": 145,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										95,
+										102
 									]
 								],
 								"settings":
@@ -1112,7 +1115,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,0,33,1366,768,2732,768,0",
 			"project": "",
 			"replace":
 			{
