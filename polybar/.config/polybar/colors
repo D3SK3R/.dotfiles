@@ -23,8 +23,8 @@ bg = #090c12
 ;bg = #10141c
 ;bg-alt = #16aee5
 ;bg-alt = #7fadff
-;fg = #a2b2d2
-fg = #16aee5
+fg = #a2b2d2
+;fg = #16aee5
 ;fg-alt = #16aee5
 
 urgent = #EF5350

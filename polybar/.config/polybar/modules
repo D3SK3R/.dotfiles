@@ -10,6 +10,12 @@ right=
 ;left=
 ;right=" "
 
+[module/space]
+type = custom/text
+content = " "
+content-font = 4
+content-background = ${colors.bg}
+content-foreground = ${colors.transparent}
 
 [module/sepR1]
 type = custom/text
