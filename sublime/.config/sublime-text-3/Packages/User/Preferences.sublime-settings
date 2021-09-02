@@ -6,4 +6,5 @@
 		"Vintage",
 	],
 	"theme": "Cyanide.sublime-theme",
+	"remember_workspace": false,
 }
