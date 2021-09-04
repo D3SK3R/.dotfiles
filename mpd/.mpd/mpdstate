@@ -1,10 +1,10 @@
-sw_volume: 36
+sw_volume: 22
 audio_device_state:1:My Pulse Output
 audio_device_state:1:FIFO
 audio_device_state:1:D3SK3R's Stream
 state: play
-current: 87
-time: 124.999000
+current: 33
+time: 125.010000
 random: 1
 repeat: 1
 single: 0
