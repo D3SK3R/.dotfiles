@@ -103,6 +103,7 @@ super + {_,shift,ctrl + } o
     { ~/.scripts/mineRecraft,urxvtc -e ranger ~,}
 
 ## Sublime and Dual Monitor Script
+## super + ctrl + s is being used in the bspwm section
 # Sublime and restart polybar
 super + {_, shift} + s
     {subl, $HOME/.config/polybar/launch.sh & sleep 2 && bspc config top_padding 22}
@@ -223,6 +224,10 @@ super + {comma, period}
 # Rotate tree left/right
 super + ctrl + {d,a}
     bspc node @/ -C {forward,backward}
+
+# Toggle sticky
+super + ctrl + s
+    bspc node -g sticky
 
 #########################################################################################
 ##                               I3WM Keybindings                                      ##
