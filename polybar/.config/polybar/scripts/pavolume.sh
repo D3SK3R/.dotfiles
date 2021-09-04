@@ -158,9 +158,11 @@ function output() {
     else
         if [ "$curVol" -lt "$lowVol" ];
         then
-            echo "奔 $curVol%"
+            #echo "奔 $curVol%"
+            echo "奔 $curVol"
         else
-            echo "墳 $curVol%"
+            #echo "奔 $curVol%"
+            echo "奔 $curVol"
         fi
     fi
 } #}}}

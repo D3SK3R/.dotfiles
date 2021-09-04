@@ -41,7 +41,7 @@ module-margin-right = 0
 offset-y = 0%
 offset-x = 0%
 
-# ex: MONITOR=eDP1 polybar --reload main
+# ex: MONITOR=eDP-1 polybar --reload main
 monitor = ${env:MONITOR:}
 
 border-size = 2

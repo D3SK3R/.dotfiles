@@ -379,34 +379,47 @@ label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 #label-underline = ${colors.fg}
 
-[module/ram]
-;https://github.com/jaagr/polybar/wiki/Module:-memory
-type = internal/memory
-interval = 1
-; Available tokens:
-;   %percentage_used% (default)
-;   %percentage_free%
-;   %gb_used%
-;   %gb_free%
-;   %gb_total%
-;   %mb_used%
-;   %mb_free%
-;   %mb_total%
-label = %gb_used%
-bar-used-indicator =
-bar-used-width = 1
-bar-used-fill = 
-bar-used-foreground-0 = ${colors.fg}
-bar-used-empty = 
-bar-used-empty-foreground = ${colors.fg}
+#[module/ram]
+#;https://github.com/jaagr/polybar/wiki/Module:-memory
+#type = internal/memory
+#interval = 1
+#; Available tokens:
+#;   %percentage_used% (default)
+#;   %percentage_free%
+#;   %gb_used%
+#;   %gb_free%
+#;   %gb_total%
+#;   %mb_used%
+#;   %mb_free%
+#;   %mb_total%
+#label = %gb_used%
+#bar-used-indicator = 
+#bar-used-width = 1
+#bar-used-fill = 
+#bar-used-foreground-0 = ${colors.fg}
+#bar-used-empty = 
+#bar-used-empty-foreground = ${colors.fg}
+#
+#format = "<label> "
+##  /  / 
+#format-prefix = " "
+#format-background = ${colors.bg}
+#format-prefix-foreground = ${colors.fg}
+#format-foreground = ${colors.fg}
+#;format-underline = ${colors.bg}
 
-format = "<label> <bar-used>"
-#  /  / 
+[module/ram]
+type = custom/script
+interval = 1
+exec = ~/.config/polybar/scripts/ram.sh
+click-left = exec urxvt -e gotop
+click-right = exec urxvt -e htop
+
 format-prefix = " "
-format-background = ${colors.bg}
-format-prefix-foreground = ${colors.fg}
+format-suffix = " "
 format-foreground = ${colors.fg}
-;format-underline = ${colors.bg}
+format-background = ${colors.bg}
+#format-underline = ${colors.fg}
 
 [module/pavolume]
 type = custom/script
@@ -417,6 +430,7 @@ click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 #scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 #scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
+
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 #format-underline = ${colors.fg}
