@@ -7,8 +7,8 @@ consequences=$4
 title=$(xtitle "$wid")
 
 # use these if needed
-class=$(echo ${2} | xargs)
-instance=$(echo ${3} | xargs)
+#class=$(echo ${2} | xargs)
+#instance=$(echo ${3} | xargs)
 
 case $class in
     "URxvt" | "St")
