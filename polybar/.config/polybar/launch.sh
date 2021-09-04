@@ -25,7 +25,7 @@ if type "xrandr" > /dev/null; then
         MONITOR=$m polybar --reload main2 -c ~/.config/polybar/config &
     done
 else
-polybar --reload main -c ~/.config/polybar/config &
+    polybar --reload main -c ~/.config/polybar/config &
 fi
 
 #count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
