@@ -9,10 +9,9 @@
 
 configuration {
     run-list-command:               "";
-    lines:							10;
-    columns:						1;
+    //lines:							10;
+    //columns:						1;
     font: 							"Roboto Mono 12";
-    bw: 							0;
     location: 						0;
     padding: 						0;
     fixed-num-lines: 				true;
@@ -20,14 +19,10 @@ configuration {
     //icon-theme:						"candy-icons";
     // set to true to get the buttons to change modi
     sidebar-mode: 					false;
-    separator-style: 				"none";
-    hide-scrollbar: 				true;
-    fullscreen: 					false;
-    fake-transparency: 				false;
+    //separator-style: 				"none";
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
-    show-match: 					false;
     combi-hide-mode-prefix: 		false;
     display-window: 				" ";
     display-windowcd: 				" ";
@@ -41,6 +36,7 @@ configuration {
 
 * {
     background-color:             	@bg;
+    text-color: 					@fg;
     height:                         56%;
     widht:                          33%;
 }
@@ -56,7 +52,7 @@ window {
 prompt {
     enabled:                        true;
     spacing: 						0;
-    border: 						0;
+    border: 						0px;
     text-color: 					@fg;
 }
 
@@ -87,63 +83,47 @@ inputbar {
 mainbox {
     border: 						0px;
     border-color: 					@ac;
-    padding: 						6;
+    padding: 						6px;
 }
 
-listview {
-    fixed-height: 					0;
-    border: 						0px;
-    border-color: 					@ac;
-    spacing: 						4px;
-    scrollbar: 						false;
-    padding: 						5px 5px 0px 5px;
-}
+//listview {
+//    fixed-height: 					0;
+//    border: 						0px;
+//    border-color: 					@ac;
+//    spacing: 						4px;
+//    scrollbar: 						false;
+//    padding: 						5px 5px 0px 5px;
+//}
 
 element {
-    border: 						0px;
-    border-radius: 					4px;
     padding: 						5px;
+    border:                         -3px;
+    border-radius: 					5px;
+    spacing:                        5px;
 }
-element normal.normal {
-    background-color: 				@tr;
-    text-color:       				@fg;
+element-text {
+    border: 						3px;
+    border-radius: 					5px;
+    border-color: 					@bg;
+    padding: 						2px;
+    background-color:               @bg;
+    text-color:                     @fg;
 }
-element normal.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
-}
-element normal.active {
-    background-color: 				@green;
-    text-color:       				@bg;
-}
-element selected.normal {
-    background-color: 				@se;
-    text-color:       				@bg;
-}
-element selected.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
-}
-element selected.active {
+element selected {
     background-color: 				@fg;
-    text-color:       				@bg;
+    border:                         0px;
+    border-radius: 					6px;
 }
-element alternate.normal {
+element alternate {
     background-color: 				@bg;
-    text-color:       				@fg;
-}
-element alternate.urgent {
-    background-color: 				@bg;
-    text-color:       				@fg;
-}
-element alternate.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
+    border:                         0px;
+    border-radius: 					6px;
+    text-color:                     @fg;
 }
 
 sidebar {
     border:       					0px;
-    border-color: 					@ac;
+    border-color: 					@bd;
     border-radius: 					0px;
 }
 
