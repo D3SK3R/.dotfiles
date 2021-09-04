@@ -1,0 +1,148 @@
+#!/bin/sh
+
+wid=$1
+class=$2
+instance=$3
+consequences=$4
+title=$(xtitle "$wid")
+
+# use these if needed
+class=$(echo ${2} | xargs)
+instance=$(echo ${3} | xargs)
+
+case $class in
+    "URxvt" | "St")
+        if [ "$title" = "floating_terminal" ]; then
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=570x360+400+32"
+        fi
+        if [ "$title" = "floating_terminal2" ]; then
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=1356x732+3+28"
+        fi
+        if [ "$title" = "ncmpcpp" ]; then
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=801x525+275+100"
+        fi
+        ;;
+    "firefox")
+        if [[ "$title" = "Save File" || "$title" = "Save As" ]]; then
+            echo "state=floating"
+            echo "rectangle=723x543+1687+103"
+        elif [[ "$title" = "File Upload" ]]; then
+            echo "state=floating"
+            echo "rectangle=723x543+1687+103"
+        else
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=1356x732+3+28"
+        fi
+        ;;
+    "discord" | "lightcord")
+        if [[ "$title" =~ .*\Discord ]]; then
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=1356x732+3+28"
+        fi
+        if [[ "$title" =~ .*\Lightcord ]]; then
+            echo "state=floating"
+            echo "hidden=on"
+            echo "sticky=on"
+            echo "rectangle=1356x732+3+28"
+        fi
+        ;;
+    "XTerm" | "UXTerm")
+        echo "state=floating"
+        echo "rectangle=872x501+1613+127"
+        ;;
+    "Minecraft Launcher" | "minecraft-launcher")
+        echo "state=floating"
+        echo "rectangle=999x658+1547+55"
+        ;;
+    "lunarclient")
+        echo "state=floating"
+        echo "rectangle=973x666+1559+50"
+        ;;
+    "Pavucontrol")
+        echo "state=floating"
+        echo "rectangle=703x451+1695+156"
+        ;;
+    "Nitrogen")
+        echo "state=floating"
+        echo "rectangle=553x627+1780+68"
+        ;;
+    "qutebrowser")
+        echo "state=floating"
+        echo "center=on"
+        ;;
+    "realvnc-vncviewer")
+        echo "state=floating"
+        echo "center=on"
+        ;;
+    "realvnc-vncserverui-service")
+        echo "state=floating"
+        echo "center=on"
+        ;;
+    "Manjaro Settings Manager")
+        echo "state=floating"
+        ;;
+    "Arandr")
+        echo "state=floating"
+        ;;
+    "copyq")
+        echo "state=floating"
+        ;;
+    "Lxappearance")
+        echo "state=floating"
+        ;;
+    "Pamac-manager")
+        echo "state=floating"
+        ;;
+    "MEGAsync")
+        echo "state=floating"
+        ;;
+    "GParted")
+        echo "state=floating"
+        ;;
+    "Kvantum Manager")
+        echo "state=floating"
+        ;;
+    "Gucharmap")
+        echo "state=floating"
+        ;;
+    "Soundux")
+        echo "state=floating"
+        ;;
+esac
+
+case $title in
+    "Task Manager - Google Chrome")
+        echo "state=floating"
+        echo "rectangle=923x543+1590+103"
+        #echo "center=on"
+        ;;
+    "Save File")
+        echo "state=floating"
+        echo "rectangle=723x543+1687+103"
+        ;;
+    "Open File" | "Open Files")
+        echo "state=floating"
+        echo "rectangle=723x543+1687+103"
+        ;;
+    "Power Manager")
+        echo "state=floating"
+        ;;
+    "Network Connections")
+        echo "state=floating"
+        ;;
+esac
+
+
