@@ -1,6 +1,6 @@
 #!/bin/sh
 
-available=$(free -mt | awk -F" " 'END{ram=$3 / 1024;printf ("%.2fGB\n", ram)}')
+available=$(free -m | awk -F" " 'NR==2 {ram=$3 / 1024;printf ("%.2fGB\n", ram)}')
 
 echo "$available"
 

@@ -82,7 +82,7 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-killall pulseaudio && pulseaudio &
+killall pulseaudio && sleep 2 && pulseaudio &
 
 run mpd
 
@@ -100,11 +100,12 @@ sleep 3 && urxvt -title floating_terminal2 &
 
 sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
+# workaround: use external rules bspwm
 # doesn't work, at least not with a low sleep delay
 #sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
 
 sleep 5 && firefox &
 
-sleep 3 && lightcord & #premid &
+sleep 4 && lightcord & #premid &
 
 
