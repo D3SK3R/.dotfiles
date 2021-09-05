@@ -40,8 +40,6 @@ configuration {
 
 * {
     background-color:             	@bg;
-    height:                         35%;
-    widht:                          35%;
 }
 
 window {
@@ -49,7 +47,8 @@ window {
     border-color: 					@bd;
     border-radius: 					12px;
     padding: 						15;
-    width: 							35%;
+    height:                         38%;
+    width: 							20%;
 }
 
 prompt {
@@ -99,45 +98,29 @@ listview {
 }
 
 element {
-    border: 						0px;
-    border-radius: 					4px;
     padding: 						5px;
+    border:                         -3px;
+    border-radius: 					5px;
+    spacing:                        5px;
 }
-element normal.normal {
-    background-color: 				@tr;
-    text-color:       				@fg;
+element-text {
+    border: 						3px;
+    border-radius: 					5px;
+    border-color: 					@bg;
+    padding: 						2px;
+    background-color:               @bg;
+    text-color:                     @fg;
 }
-element normal.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
-}
-element normal.active {
-    background-color: 				@green;
-    text-color:       				@bg;
-}
-element selected.normal {
-    background-color: 				@se;
-    text-color:       				@bg;
-}
-element selected.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
-}
-element selected.active {
+element selected {
     background-color: 				@fg;
-    text-color:       				@bg;
+    border:                         0px;
+    border-radius: 					6px;
 }
-element alternate.normal {
+element alternate {
     background-color: 				@bg;
-    text-color:       				@fg;
-}
-element alternate.urgent {
-    background-color: 				@bg;
-    text-color:       				@fg;
-}
-element alternate.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
+    border:                         0px;
+    border-radius: 					6px;
+    text-color:                     @fg;
 }
 
 sidebar {
