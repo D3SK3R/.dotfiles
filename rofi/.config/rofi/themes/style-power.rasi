@@ -8,21 +8,20 @@
  */
 
 configuration {
-    lines:							10;
-    columns:						1;
+    //lines:							10;
+    //columns:						1;
     font: 							"Roboto Mono 12";
     bw: 							0;
     location: 						0;
     padding: 						0;
     fixed-num-lines: 				true;
-    show-icons: 					true;
+    show-icons: 					false;
     //icon-theme:						"candy-icons";
     // set to true to get the buttons to change modi
     sidebar-mode: 					false;
-    separator-style: 				"none";
+    //separator-style: 				"none";
     hide-scrollbar: 				true;
     fullscreen: 					false;
-    fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
@@ -85,17 +84,17 @@ inputbar {
 mainbox {
     border: 						0px;
     border-color: 					@ac;
-    padding: 						6;
+    padding: 						6px;
 }
 
-listview {
-    fixed-height: 					0;
-    border: 						0px;
-    border-color: 					@ac;
-    spacing: 						4px;
-    scrollbar: 						false;
-    padding: 						5px 5px 0px 5px;
-}
+//listview {
+//    fixed-height: 					0;
+//    border: 						0px;
+//    border-color: 					@ac;
+//    spacing: 						4px;
+//    scrollbar: 						false;
+//    padding: 						5px 5px 0px 5px;
+//}
 
 element {
     padding: 						5px;

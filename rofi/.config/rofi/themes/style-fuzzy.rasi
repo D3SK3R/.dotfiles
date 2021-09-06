@@ -15,7 +15,7 @@ configuration {
     location: 						0;
     padding: 						0;
     fixed-num-lines: 				true;
-    show-icons: 					true;
+    show-icons: 					false;
     //icon-theme:						"candy-icons";
     // set to true to get the buttons to change modi
     sidebar-mode: 					false;

@@ -37,8 +37,6 @@ configuration {
 * {
     background-color:             	@bg;
     text-color: 					@fg;
-    height:                         56%;
-    widht:                          33%;
 }
 
 window {
@@ -46,6 +44,7 @@ window {
     border-color: 					@bd;
     border-radius: 					12px;
     padding: 						15;
+    height:                         56%;
     width: 							35%;
 }
 
