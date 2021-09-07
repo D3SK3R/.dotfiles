@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -432,7 +432,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -516,6 +516,20 @@
 						"buffer_size": 162,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"contents": "[Screenshots]\nimagestart = gmmlbk\nurl = https://prnt.sc/\niterations = 20\n\n",
+					"file": "/home/d3sk3r/config.cfg",
+					"file_size": 74,
+					"file_write_time": 132755170571405020,
+					"settings":
+					{
+						"buffer_size": 74,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
@@ -846,14 +860,13 @@
 								"translation.y": 90.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
 							"file": "/home/d3sk3r/MEGA/discord/leticia/cam",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -866,6 +879,36 @@
 									[
 										0,
 										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/config.cfg",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 74,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										27,
+										33
 									]
 								],
 								"settings":
@@ -923,7 +966,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,3",
 			"project": "",
 			"replace":
 			{
