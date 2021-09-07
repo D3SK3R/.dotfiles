@@ -505,7 +505,15 @@
 					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 					"settings":
 					{
-						"buffer_size": 3371,
+						"buffer_size": 3263,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/discord/leticia/cam",
+					"settings":
+					{
+						"buffer_size": 162,
 						"line_ending": "Unix"
 					}
 				}
@@ -816,11 +824,10 @@
 						{
 							"buffer": 0,
 							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3371,
+								"buffer_size": 3263,
 								"regions":
 								{
 								},
@@ -837,6 +844,36 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 90.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/discord/leticia/cam",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 162,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

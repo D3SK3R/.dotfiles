@@ -104,7 +104,7 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 # doesn't work, at least not with a low sleep delay
 #sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
 
-sleep 5 && firefox &
+#sleep 5 && firefox &
 
 sleep 4 && lightcord & #premid &
 
