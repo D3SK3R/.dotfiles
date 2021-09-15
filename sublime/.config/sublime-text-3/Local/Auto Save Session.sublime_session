@@ -1,0 +1,946 @@
+{
+	"folder_history":
+	[
+		"/home/d3sk3r/Minecraft"
+	],
+	"last_version": 4113,
+	"last_window_id": 47,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 740.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"floating",
+						"floating_urxvt"
+					],
+					[
+						"configu",
+						"configuration"
+					],
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Python 3/Python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"build",
+						"Build With: Python"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"htmp",
+						"Set Syntax: HTML (ASP)"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Build With: Python"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"comment",
+						"Toggle Block Comment"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 108.0,
+				"history":
+				[
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/justBefore",
+				"/home/d3sk3r/entr/port-scanner.py",
+				"/home/d3sk3r/ram",
+				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
+				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
+				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/mpv-chatu.sh",
+				"/home/d3sk3r/MEGA/discord/Carol/.directory",
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/terminals",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/swallow",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/14_Dotfiles.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
+				"/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+				"/home/d3sk3r/fatec/SSORCI/template .doc",
+				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
+				"/home/d3sk3r/tabela-escrita",
+				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
+				"/home/d3sk3r/bibliografia",
+				"/home/d3sk3r/tcc",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
+				"/tmp/CopyQ.wZHoeK.txt",
+				"/home/d3sk3r/lousa_2021_03_09.txt",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/?.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
+				"/home/d3sk3r/estagio",
+				"/home/d3sk3r/exec",
+				"/home/d3sk3r/relatório.txt",
+				"/home/d3sk3r/lousa_2021_04_06.txt",
+				"/home/d3sk3r/lousa_2021_04_08.txt",
+				"/home/d3sk3r/a.out",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
+				"/home/d3sk3r/modelo proposta pergunta.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/MEGA/discord/m/[].txt",
+				"/home/d3sk3r/MEGA/discord/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/.config/Microsoft/Microsoft Teams - Insiders/logs.txt",
+				"/home/d3sk3r/RR-N-v5.8.5-20180214-j23g-Final/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
+				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§9Fractal §f[512x]/pack.mcmeta",
+				"/home/d3sk3r/.cache/kioexec/krun/166618_0/8006-bb.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky7.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky8.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky9.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky10.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky11.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky12.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky13.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky14.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky15.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky16.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky17.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky18.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky19.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky20.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky21.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky22.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky24.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky25.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky26.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky27.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky29.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky38.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky39.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky40.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky41.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky42.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
+				"/home/d3sk3r/Quiver-1.7.0/Quiver",
+				"/home/d3sk3r/tracosEmpreendedor.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/MEGA/FATEC/SSORCI/REGEX",
+				"/home/d3sk3r/fatec/SSORCI/REGEX",
+				"/home/d3sk3r/quintonkaine",
+				"/home/d3sk3r/quinton kaine.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
+				"/home/d3sk3r/.minecraft/usercache.json",
+				"/home/d3sk3r/.minecraft/launcher_log.txt",
+				"/home/d3sk3r/.minecraft/launcher_settings.json",
+				"/home/d3sk3r/.minecraft/resourcepacks/!       ⌡5⌡lCooldude's ⌡615k ⌡3Pack/assets/minecraft/textures/blocks/coal_ore.png.mcmeta"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 112.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 265.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1366.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"floating",
+						"floating_urxvt"
+					],
+					[
+						"configu",
+						"configuration"
+					],
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+					"settings":
+					{
+						"buffer_size": 3263,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Python 3/Python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"build",
+						"Build With: Python"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"htmp",
+						"Set Syntax: HTML (ASP)"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Build With: Python"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"comment",
+						"Toggle Block Comment"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 108.0,
+				"history":
+				[
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3sk3r/MEGA/discord/leticia/cam",
+				"/home/d3sk3r/config.cfg",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/justBefore",
+				"/home/d3sk3r/entr/port-scanner.py",
+				"/home/d3sk3r/ram",
+				"/home/d3sk3r/MEGA/FATEC/infraTI.txt",
+				"/home/d3sk3r/MEGA/FATEC/packettracer.txt",
+				"/home/d3sk3r/.oh-my-zsh/lib/completion.zsh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/mpv-chatu.sh",
+				"/home/d3sk3r/MEGA/discord/Carol/.directory",
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/terminals",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/swallow",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/14_Dotfiles.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/themes.txt",
+				"/home/d3sk3r/altDotfiles/cfg/polybar/bars.ini",
+				"/home/d3sk3r/fatec/SSORCI/template .doc",
+				"/home/d3sk3r/fatec/PISRC/modelo proposta pergunta.txt",
+				"/home/d3sk3r/tabela-escrita",
+				"/home/d3sk3r/fatec/tcc/revisao bibliografica",
+				"/home/d3sk3r/bibliografia",
+				"/home/d3sk3r/tcc",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
+				"/tmp/CopyQ.wZHoeK.txt",
+				"/home/d3sk3r/lousa_2021_03_09.txt",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/?.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
+				"/home/d3sk3r/estagio",
+				"/home/d3sk3r/exec",
+				"/home/d3sk3r/relatório.txt",
+				"/home/d3sk3r/lousa_2021_04_06.txt",
+				"/home/d3sk3r/lousa_2021_04_08.txt",
+				"/home/d3sk3r/a.out",
+				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
+				"/home/d3sk3r/modelo proposta pergunta.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/MEGA/discord/m/[].txt",
+				"/home/d3sk3r/MEGA/discord/BetterDiscord/themes/D3SK3R-DCSL.theme.css",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/.config/Microsoft/Microsoft Teams - Insiders/logs.txt",
+				"/home/d3sk3r/RR-N-v5.8.5-20180214-j23g-Final/META-INF/com/google/android/updater-script",
+				"/home/d3sk3r/.mozilla/firefox/aenp919z.default-release/chrome/userChrome.css",
+				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/§9Fractal §f[512x]/pack.mcmeta",
+				"/home/d3sk3r/.cache/kioexec/krun/166618_0/8006-bb.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky1.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky3.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky7.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky8.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky9.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky10.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky11.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky12.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky13.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky14.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky15.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky16.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky17.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky18.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky19.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky20.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky21.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky22.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky24.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky25.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky26.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky27.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky29.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky38.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky39.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky40.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky41.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky42.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
+				"/home/d3sk3r/Quiver-1.7.0/Quiver",
+				"/home/d3sk3r/tracosEmpreendedor.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
+				"/home/d3sk3r/MEGA/FATEC/SSORCI/REGEX",
+				"/home/d3sk3r/fatec/SSORCI/REGEX",
+				"/home/d3sk3r/quintonkaine",
+				"/home/d3sk3r/quinton kaine.txt",
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
+				"/home/d3sk3r/.minecraft/usercache.json",
+				"/home/d3sk3r/.minecraft/launcher_log.txt"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 112.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3263,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 90.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 265.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 45,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
