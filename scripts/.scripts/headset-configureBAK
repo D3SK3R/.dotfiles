@@ -1,0 +1,76 @@
+#!/bin/sh
+
+# Check if the headset (P3 or USB) is in use 
+# if its not, set it and set its volume
+# Sources: https://askubuntu.com/questions/349427/two-microphones-listed-in-the-input-section-of-pulseaudio-internal-microphone
+# https://askubuntu.com/questions/165877/mic-is-not-workin-in-my-desktop-available-unknown
+
+# Info:
+# how to easily know what sink-index to use:
+# sound input:
+# mute the mic input and use the command:
+# pacmd list-sources | grep 'muted: yes' -B 11 -A 53
+# then:
+# pacmd set-source-port <port to set> '<name of the source>'
+
+# sound output:
+# mute the output and use the command:
+# pacmd list-sinks | grep 'muted: yes' -B 11 -A 52
+# pacmd set-sink-port <port to set> '<name of the sink>'
+
+# headset P3
+while true; do
+    headsetP3=$(pacmd list | grep 'analog-input-headphone-mic: Microphone (priority 8700, latency offset 0 usec, available: unknown)')
+
+    # if theres a P3 headset microphone
+    if [ -n "$headsetP3" ]; then
+        echo 'P3 Headset connected'
+        micInUse=$(pacmd list | grep 'active port: <analog-input-headset-mic>')
+        # checks whether the headset mic is in use or not
+        # if its not, set it to use
+        if [ -z "$micInUse" ]; then
+            echo 'P3 Headset mic set as input'
+            pacmd set-source-port 3 'analog-input-headset-mic'
+            pacmd set-default-source 3
+        fi
+        # set its volume to 50
+        # volume 50: 32985 / volume 70: 45830
+        echo 'Setting mic volume to 50'
+        pacmd set-source-volume 3 32985
+    # if there isn't
+    # tries to detect a USB Headset
+    else
+        headsetUSB=$(pacmd list-sinks | grep 'usb-Logitech_G432_Gaming_Headset')
+
+        # if the USB Headset is connected
+        if [[ -n "$headsetUSB" ]]; then
+            echo 'USB Headset connected'
+            micInUse=$(pacmd list | grep 'active port: <analog-input-headset-mic>')
+            # checks whether the headset mic is in use or not
+            # if its not, set it to use
+            if [ -z "$micInUse" ]; then
+                # set output to headset
+                ## each kernel version uses one diff port...
+                ## workaround until I fix
+                pacmd set-sink-port 1 'analog-output-headphones'
+                pacmd set-sink-port 0 'analog-output-headphones'
+                # set input to headset mic
+                pacmd set-source-port 3 'analog-input-headset-mic'
+                pacmd set-source-port 1 'analog-input-headset-mic'
+            fi
+            # set the input volume
+            echo 'Setting mic volume to 50'
+            pacmd set-source-volume 3 32985
+            pacmd set-source-volume 1 65540
+        else
+            echo 'No Headset not connected'
+            # set output to speakers
+            pacmd set-sink-port 1 'analog-output-speaker'
+            # set input to internal mic
+            pacmd set-source-port 3 'analog-input-internal-mic'
+        fi
+    fi
+
+    sleep 2
+done
+

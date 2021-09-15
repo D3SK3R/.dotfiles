@@ -262,3 +262,27 @@ flameshot
 Capture saved as /home/d3sk3r/Screenshot_2021-09-15_00-12-26.png 
 Flameshot Info 
 flameshot
+01:35 
+LOW
+nm-no-connection
+The network connection has been disconnected. 
+Disconnected 
+NetworkManager
+01:35 
+NORMAL
+
+MEGAsync is unable to connect. Please check your Internet connectivity and local firewall configuration. Note that most antivirus software includes a firewall. 
+MEGAsync 
+MEGAsync
+01:46 
+LOW
+nm-signal-100
+You are now connected to the Wi-Fi network “NET_2G8E52B5”. 
+Connection Established 
+NetworkManager
+01:58 
+NORMAL
+dialog-information
+no handlers found for 'x-scheme-handler/apt' 
+handlr error 
+notify-send

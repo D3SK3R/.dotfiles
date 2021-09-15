@@ -40,7 +40,12 @@ while true; do
     # if there isn't
     # tries to detect a USB Headset
     else
-        headsetUSB=$(pacmd list-sinks | grep 'usb-Logitech_G432_Gaming_Headset')
+        #headsetUSB=$(pacmd list-sinks | grep 'usb-Logitech_G432_Gaming_Headset')
+        headsetUSB=$(pacmd list-sinks | grep 'usb')
+        sinkPort=$(pacmd list-sinks | grep -B 1 alsa_output.pci-0000_00_1b.0.analog-stereo | awk -F' ' 'NR==1 {print $3}')
+        sourcePort=$(pacmd list-sources | grep -B 1 alsa_input.pci-0000_00_1b.0.analog-stereo | awk -F' ' 'NR==1 {print $2}')
+
+        activeSource=$(pacmd list-sources | awk '/* index:/{print $3}')
 
         # if the USB Headset is connected
         if [[ -n "$headsetUSB" ]]; then
@@ -50,19 +55,20 @@ while true; do
             # if its not, set it to use
             if [ -z "$micInUse" ]; then
                 # set output to headset
-                pacmd set-sink-port 1 'analog-output-headphones'
+                pacmd set-sink-port $sinkPort 'analog-output-headphones'
                 # set input to headset mic
-                pacmd set-source-port 3 'analog-input-headset-mic'
+                pacmd set-source-port $sourcePort 'analog-input-headset-mic'
             fi
             # set the input volume
-            echo 'Setting mic volume to 50'
-            pacmd set-source-volume 3 32985
+            #echo 'Setting mic volume to 50 (32985)'
+            echo 'Setting mic volume to 100'
+            pacmd set-source-volume $activeSource 65540
         else
-            echo 'No Headset not connected'
+            echo 'No Headset connected'
             # set output to speakers
-            pacmd set-sink-port 1 'analog-output-speaker'
+            pacmd set-sink-port $sinkPort 'analog-output-speaker'
             # set input to internal mic
-            pacmd set-source-port 3 'analog-input-internal-mic'
+            pacmd set-source-port $sourcePort 'analog-input-internal-mic'
         fi
     fi
 
