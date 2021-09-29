@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -507,7 +507,10 @@
 					{
 						"buffer_size": 3263,
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
@@ -827,8 +830,8 @@
 								"selection":
 								[
 									[
-										0,
-										0
+										689,
+										700
 									]
 								],
 								"settings":
@@ -886,7 +889,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
