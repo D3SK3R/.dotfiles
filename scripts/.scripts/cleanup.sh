@@ -10,15 +10,26 @@ read -p "This command will remove cached packages and sync database of not insta
 [Y/n]: " choice 
 
 if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
-    echo 'Cleaning...'
+    printf "Cleaning..."
+    
+    printf "\nsudo pacman -Sc --noconfirm"
     sudo pacman -Sc --noconfirm &&
+
+    printf "\nyay -Sc --noconfirm"
     yay -Sc --noconfirm &&
+
+    printf "\nyay -Yc"
     yay -Yc &&
+
+    printf "\nsudo pacman -Rns --noconfirm $(pacman -Qtdq)"
     sudo pacman -Rns --noconfirm $(pacman -Qtdq) && 
+
+    printf "\nsudo paccache -r"
     sudo paccache -r
+
     rm -rf ~/.local/share/Trash/files/*
 else
-    echo 'Aborting...'
+    printf "Aborting..."
 fi
 
 
