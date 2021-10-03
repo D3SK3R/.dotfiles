@@ -9,7 +9,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -211,6 +211,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
 				"/home/d3sk3r/MEGA/discord/leticia/cam",
 				"/home/d3sk3r/config.cfg",
 				"/home/d3sk3r/changes",
@@ -336,9 +338,7 @@
 				"/home/d3sk3r/quintonkaine",
 				"/home/d3sk3r/quinton kaine.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
-				"/home/d3sk3r/.minecraft/usercache.json",
-				"/home/d3sk3r/.minecraft/launcher_log.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where"
 			],
 			"find":
 			{
@@ -501,17 +501,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-					"settings":
-					{
-						"buffer_size": 3263,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -650,6 +639,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
 				"/home/d3sk3r/MEGA/discord/leticia/cam",
 				"/home/d3sk3r/config.cfg",
 				"/home/d3sk3r/changes",
@@ -775,9 +766,7 @@
 				"/home/d3sk3r/quintonkaine",
 				"/home/d3sk3r/quinton kaine.txt",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/color.properties",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where",
-				"/home/d3sk3r/.minecraft/usercache.json",
-				"/home/d3sk3r/.minecraft/launcher_log.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/Where"
 			],
 			"find":
 			{
@@ -816,36 +805,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3263,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										689,
-										700
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 270.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -889,7 +848,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
