@@ -2,7 +2,9 @@ sw_volume: 24
 audio_device_state:1:My Pulse Output
 audio_device_state:1:FIFO
 audio_device_state:1:D3SK3R's Stream
-state: stop
+state: play
+current: 0
+time: 100.805000
 random: 1
 repeat: 1
 single: 0
@@ -11,4 +13,92 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:The Score - Unstoppable.mp3
+1:The Score - Stronger.mp3
+2:The Score - Only One.mp3
+3:The Score - On And On.mp3
+4:The Score - Never Going Back.mp3
+5:The Score - Money Run Low.mp3
+6:The Score - Miracle.mp3
+7:The Score - Higher.mp3
+8:The Score - Glory.mp3
+9:The Score - Born For This.mp3
+10:The Score - Under The Pressure.mp3
+11:5 Seconds Of Summer - Youngblood.mp3
+12:Mike Shinoda - Watching As I Fall.mp3
+13:Mike Shinoda - Promisses I Can't Keep.mp3
+14:Mike Shinoda - Hold It Together.mp3
+15:Cant Hear You Now - Mike Shinoda.mp3
+16:Mike Shinoda - I.O.U.mp3
+17:Sam Smith - I'm Not The Only One.mp3
+18:Dean Lewis - Be Alright.mp3
+19:John Legend - Preach.mp3
+20:NF - If You Want Love.mp3
+21:NF - Thats Alright.mp3
+22:NF - Paralyzed.mp3
+23:Maroon 5 - Girls Like You ft. Cardi B.mp3
+24:LetoDie - Uma Noite a Mais.mp3
+25:OneRepublic - Start Again ft Logic.mp3
+26:Bruno Mars - When I Was Your Man.mp3
+27:Bruno Mars - Talking To The Moon.mp3
+28:The Calling - Wherever You Will Go.mp3
+29:Skillet - Awake and Alive.mp3
+30:Skillet - Comatose.mp3
+31:Skillet - Feel Invincible.mp3
+32:Skillet - Fire And Fury.mp3
+33:Skillet - Legendary.mp3
+34:Skillet - Monster.mp3
+35:Skillet - Not Gonna Die.mp3
+36:Skillet - Rise.mp3
+37:Skillet - The Resistance.mp3
+38:Hozier - Take Me To Church.mp3
+39:The Chainsmokers - Beach House.mp3
+40:Lil Nas X - Old Town Road feat. Billy Ray Cyrus.mp3
+41:The Unlikely Candidates - Novocaine.mp3
+42:Tom Walker - Fly Away With Me.mp3
+43:Shawn James - Through the Valley.mp3
+44:polarrana cover - Alec Benjaminlet – me down slowly.mp3
+45:polarrana cover - lorde – liability.mp3
+46:polarrana cover - Lana Del Rey - Summertime Sadness.mp3
+47:Imagine Dragons - Believer.mp3
+48:Imagine Dragons - Whatever It Takes.mp3
+49:Imagine Dragons - Bleeding Out.mp3
+50:Bryce Fox - Horns.mp3
+51:Memphis May Fire - Virus.mp3
+52:Neffex - Life.mp3
+53:Neffex - Watch Me.mp3
+54:Yonas - Fall Back.mp3
+55:The Score - Stay.mp3
+56:NF - Lie.mp3
+57:Ed Sheeran - Remember The Name.mp3
+58:Macklemore - Shadow (feat. IRO).mp3
+59:The Score - Hunger.mp3
+60:Chamillionaire - The Evening News.mp3
+61:Desiigner - Tiimmy Turner.mp3
+62:Jason Derulo - Trumpets.mp3
+63:YUNGBLUD - Parents.mp3
+64:My Chemical Romance - Famous Last Words.mp3
+65:Dean Lewis - 7 Minutes.mp3
+66:Pollo - Vagalumes.mp3
+67:Skillet - I Want to Live.mp3
+68:Tule - Fearless Pt. II.mp3
+69:Two Feet - Pink.mp3
+70:Fort Minor - Welcome.mp3
+71:Spektrum & Sara Skinner - Keep You.mp3
+72:Arctic Monkeys - Do I Wanna Know_.mp3
+73:Sam Tinnesz - Play With Fire (feat. Yacht Money).mp3
+74:Imagine Dragons - Demons.mp3
+75:Bohnes - Zombie Love.mp3
+76:Eminem - River.mp3
+77:Major Lazer - Be Together.mp3
+78:Alan Walker - Darkside.mp3
+79:Arctic Monkeys - Why-'d You Only Call Me When You-'re High.mp3
+80:The Neighbourhood - Single.mp3
+81:The Neighbourhood - Wires.mp3
+82:The Neighbourhood - R.I.P. 2 My Youth.mp3
+83:The Neighbourhood - Afraid.mp3
+84:Palaye Royale - Lonely.mp3
+85:NEFFEX - Without You.mp3
+86:Linkin Park - What I've Done.mp3
+87:Mike Shinoda - Promisses I Can't Keep.mp3
 playlist_end

@@ -20,30 +20,30 @@ if [ -z $mpdRunning ]; then
     esac
 # if pidof mpd returns something, it enters this else and controls mpc
 else
-    mpc='mpc -p 1100'
+    mpc='mpc -p 6600'
     case $1 in
         next)
             $mpc next
-            playing=$(mpc -p 1100 | head -n 1)
-            dunstify -t 2000 " Next..." "$playing" -r 1100
+            playing=$(mpc -p 6600 | head -n 1)
+            dunstify -t 2000 " Next..." "$playing" -r 6600
             ;;
         prev)
             $mpc seek 0;$mpc cdprev
-            playing=$(mpc -p 1100 | head -n 1)
-            dunstify -t 2000 " Previous..." "$playing" -r 1100
+            playing=$(mpc -p 6600 | head -n 1)
+            dunstify -t 2000 " Previous..." "$playing" -r 6600
             ;;
         stop)
             $mpc seek 0;$mpc pause
-            playing=$(mpc -p 1100 | head -n 1)
-            dunstify -t 2000 " Stopping..." "$playing" -r 1100
+            playing=$(mpc -p 6600 | head -n 1)
+            dunstify -t 2000 " Stopping..." "$playing" -r 6600
             ;;
         toggle)
-            playing=$(mpc -p 1100 | head -n 1)
-            state=$(mpc -p 1100 | sed -n 2p | cut -d' ' -f1)
+            playing=$(mpc -p 6600 | head -n 1)
+            state=$(mpc -p 6600 | sed -n 2p | cut -d' ' -f1)
             if [ $state == '[playing]' ]; then
-                dunstify -t 2000 " Pausing..." "$playing" -r 1100
+                dunstify -t 2000 " Pausing..." "$playing" -r 6600
             else
-                dunstify -t 2000 " Playing..." "$playing" -r 1100
+                dunstify -t 2000 " Playing..." "$playing" -r 6600
             fi
             $mpc toggle
     esac
