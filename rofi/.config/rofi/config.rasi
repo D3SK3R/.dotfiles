@@ -16,7 +16,6 @@ configuration {
 	window-format: "[{w}] ··· {c} ···   {t}";
 	click-to-exit: true;
 	//show-match: false;
-	theme: "themes/style";
 	combi-hide-mode-prefix: false;
 	display-window: " ";
 	display-windowcd: " ";
@@ -25,3 +24,5 @@ configuration {
 	display-drun: " ";
 	display-combi: " ";
 }
+
+@theme "themes/style"
