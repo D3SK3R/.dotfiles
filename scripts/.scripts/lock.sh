@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mpc -p 1100 pause &
+mpc -p 6600 pause &
 playerctl pause;betterlockscreen -l blur 
