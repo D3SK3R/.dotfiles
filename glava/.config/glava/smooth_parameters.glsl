@@ -75,4 +75,4 @@
    most hardware, this will improve performance, but involves doing a
    separate render step for each audio texture and will add some driver
    (CPU) overhead. */
-#request setsmoothpass true
+#request setsmoothpass false
