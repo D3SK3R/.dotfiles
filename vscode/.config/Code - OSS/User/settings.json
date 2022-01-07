@@ -8,5 +8,6 @@
     "liveServer.settings.donotVerifyTags": true,
     "miramac.node.showInfo": false,
     "xresourcesTheme.xresourcesPath": "~/.dotfiles/xresources/.Xresources",
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true
 }

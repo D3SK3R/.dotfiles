@@ -63,10 +63,10 @@
                     },
                     {
                         "id": "workbench.action.openWorkspace",
-                        "label": "Open Wor&&kspace..."
+                        "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.30",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -247,7 +247,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.28",
+                        "id": "submenuitem.29",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -258,6 +258,10 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
+                                },
+                                {
+                                    "id": "settings.filterByTelemetry",
+                                    "label": "Telemetry Settings"
                                 },
                                 {
                                     "id": "workbench.view.extensions",
@@ -272,7 +276,7 @@
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
-                                    "label": "&&Keymaps"
+                                    "label": "&&Migrate Keyboard Shortcuts from..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -482,7 +486,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.19",
+                        "id": "submenuitem.20",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -564,7 +568,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.27",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -676,7 +680,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -695,7 +700,8 @@
                     },
                     {
                         "id": "editor.action.toggleRenderControlCharacter",
-                        "label": "Render &&Control Characters"
+                        "label": "Render &&Control Characters",
+                        "checked": true
                     }
                 ]
             },
@@ -712,14 +718,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.31",
+                        "id": "submenuitem.32",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -768,7 +773,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -782,54 +787,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -854,28 +850,23 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition",
-                        "enabled": false
+                        "label": "Go to &&Definition"
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration",
-                        "enabled": false
+                        "label": "Go to &&Declaration"
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition",
-                        "enabled": false
+                        "label": "Go to &&Type Definition"
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations",
-                        "enabled": false
+                        "label": "Go to &&Implementations"
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References",
-                        "enabled": false
+                        "label": "Go to &&References"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -975,7 +966,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1086,15 +1077,19 @@
                 "items": [
                     {
                         "id": "workbench.action.openWalkthrough",
-                        "label": "Welcome"
+                        "label": "Get Started"
                     },
                     {
-                        "id": "workbench.action.showInteractivePlayground",
-                        "label": "I&&nteractive Playground"
+                        "id": "workbench.action.showCommands",
+                        "label": "Show All Commands"
                     },
                     {
                         "id": "workbench.action.openDocumentationUrl",
                         "label": "&&Documentation"
+                    },
+                    {
+                        "id": "workbench.action.showInteractivePlayground",
+                        "label": "Editor Playgrou&&nd"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1104,8 +1099,8 @@
                         "label": "&&Keyboard Shortcuts Reference"
                     },
                     {
-                        "id": "workbench.action.openIntroductoryVideosUrl",
-                        "label": "Introductory &&Videos"
+                        "id": "workbench.action.openVideoTutorialsUrl",
+                        "label": "&&Video Tutorials"
                     },
                     {
                         "id": "workbench.action.openTipsAndTricksUrl",
@@ -1197,11 +1192,6 @@
                 "label": "Ctrl+K Ctrl+S",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+s"
-            },
-            "workbench.extensions.action.showRecommendedKeymapExtensions": {
-                "label": "Ctrl+K Ctrl+M",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+m"
             },
             "workbench.action.selectTheme": {
                 "label": "Ctrl+K Ctrl+T",
@@ -1577,9 +1567,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 1366,
-                "y": 28,
+                "y": 33,
                 "width": 1366,
-                "height": 740
+                "height": 735
             }
         },
         "openedWindows": []

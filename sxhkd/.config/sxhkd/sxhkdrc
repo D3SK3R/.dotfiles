@@ -179,6 +179,7 @@ F4
 
 super + shift + d
     ~/.config/bspwm/floating_toggle.sh --name lightcord
+    #~/.config/bspwm/floating_toggle.sh --name discord 
 
 # apply bspwm config
 #super + shift + c

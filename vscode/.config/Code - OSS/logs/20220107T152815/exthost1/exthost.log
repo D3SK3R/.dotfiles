@@ -1,0 +1,14 @@
+[2022-01-07 15:28:27.065] [exthost] [info] Extension host with pid 1235589 started
+[2022-01-07 15:28:27.066] [exthost] [info] Skipping acquiring lock for /home/d3sk3r/.config/Code - OSS/User/workspaceStorage/4af9dbf64591c2f85744080d7cbb5743.
+[2022-01-07 15:28:27.594] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-07 15:28:27.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-07 15:28:27.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-07 15:28:28.145] [exthost] [info] ExtensionService#_doActivateExtension JackVandergriff.xresources-theme, startup: true, activationEvent: '*'
+[2022-01-07 15:28:28.278] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: true, activationEvent: '*'
+[2022-01-07 15:28:30.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-01-07 15:28:31.637] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-07 15:28:32.706] [exthost] [info] Eager extensions activated
+[2022-01-07 15:28:33.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 15:31:47.751] [exthost] [info] ExtensionService#_doActivateExtension auchenberg.vscode-browser-preview, startup: false, activationEvent: 'onView:targetTree'
+[2022-01-07 15:33:12.219] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-07 15:33:12.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

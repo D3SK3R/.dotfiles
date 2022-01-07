@@ -10,6 +10,9 @@ eDP1 DP1 YPosition=31
 [CompactMode]
 FontWeight=50
 
+[CreateDialog]
+LastMimeType=application/x-lz4-compressed-tar
+
 [DetailsMode]
 FontWeight=50
 
@@ -38,7 +41,7 @@ Height 768=545
 Width 1360=503
 Width 1366=503
 eDP-1 DP-1 Height 1366x768=448
-eDP-1 DP-1 Width 1366x768=438
+eDP-1 DP-1 Width 1366x768=433
 eDP1 DP1 Height 1366x768=600
 eDP1 DP1 Height 768=532
 eDP1 DP1 Width 1360=445
@@ -53,7 +56,7 @@ Width 1360=323
 Width 1366=666
 eDP-1 DP-1 Height 1366x768=735
 eDP-1 DP-1 Width 1366x768=1366
-eDP-1 DP-1 XPosition 1366x768=0
+eDP-1 DP-1 XPosition 1366x768=1366
 eDP-1 DP-1 YPosition 1366x768=33
 eDP1 DP1 Height 1366x768=740
 eDP1 DP1 Height 768=740

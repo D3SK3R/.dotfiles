@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 47,
 	"log_indexing": false,
-	"next_update_check": 1641574389,
+	"next_update_check": 1641660789,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 717.0,
+		"new_window_height": 352.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,14 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/usbreset.c",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/mpd.txt",
+				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Kingdoms of Amalur/como instalar.txt",
 				"/home/d3sk3r/estagio.txt",
 				"/home/d3sk3r/hedgepoint.txt",
 				"/home/d3sk3r/osuLazer.txt",
@@ -222,10 +230,8 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
 				"/home/d3sk3r/MEGA/discord/leticia/cam",
 				"/home/d3sk3r/config.cfg",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/justBefore",
 				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
@@ -257,7 +263,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
 				"/tmp/CopyQ.wZHoeK.txt",
 				"/home/d3sk3r/lousa_2021_03_09.txt",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/?.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
@@ -334,12 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
-				"/home/d3sk3r/Quiver-1.7.0/Quiver",
-				"/home/d3sk3r/tracosEmpreendedor.txt",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
-				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties"
 			],
 			"find":
 			{
@@ -503,54 +503,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/usbreset.c",
+					"file": "/tmp/ark-FnlRwk/rede.sh",
 					"settings":
 					{
-						"buffer_size": 989,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/todo",
-					"settings":
-					{
-						"buffer_size": 170,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							2,
-							1,
-							"right_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAZXhwb3J0IE1FU0FfR0xTTF9DQUNIRV9ESVNBQkxFPXRydWU7Z29vZ2xlLWNocm9tZS1zdGFibGUK",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAA5AAAAAAAAAAAAAAAAAAAA"
-						]
-					]
-				},
-				{
-					"file": "/home/d3sk3r/changes",
-					"settings":
-					{
-						"buffer_size": 2,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/test.sh",
-					"settings":
-					{
-						"buffer_size": 522,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/mpd.txt",
-					"settings":
-					{
-						"buffer_size": 125,
+						"buffer_size": 80,
 						"line_ending": "Unix"
 					}
 				}
@@ -692,6 +648,14 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/usbreset.c",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/test.sh",
+				"/home/d3sk3r/mpd.txt",
+				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Kingdoms of Amalur/como instalar.txt",
 				"/home/d3sk3r/estagio.txt",
 				"/home/d3sk3r/hedgepoint.txt",
 				"/home/d3sk3r/osuLazer.txt",
@@ -702,10 +666,8 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
 				"/home/d3sk3r/MEGA/discord/leticia/cam",
 				"/home/d3sk3r/config.cfg",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/justBefore",
 				"/home/d3sk3r/entr/port-scanner.py",
 				"/home/d3sk3r/ram",
@@ -737,7 +699,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Minecraft_EffectsID.txt",
 				"/tmp/CopyQ.wZHoeK.txt",
 				"/home/d3sk3r/lousa_2021_03_09.txt",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/?.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/FriendNotifications.config.json",
@@ -814,12 +775,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky43.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky44.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky45.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky47.properties",
-				"/home/d3sk3r/Quiver-1.7.0/Quiver",
-				"/home/d3sk3r/tracosEmpreendedor.txt",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/textures/blocks/gold_ore.png.mcmeta",
-				"/home/d3sk3r/.minecraft/resourcepacks/(wood and wool)1.8 AciDicBliTzz Short Sword Pack By TBNRnorton/assets/minecraft/textures/blocks/gold_ore.png.mcmeta"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky46.properties"
 			],
 			"find":
 			{
@@ -860,132 +816,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/usbreset.c",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 989,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 102.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/todo",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 170,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/d3sk3r/changes",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/d3sk3r/test.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 522,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/d3sk3r/mpd.txt",
+							"file": "/tmp/ark-FnlRwk/rede.sh",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 125,
+								"buffer_size": 80,
 								"regions":
 								{
 								},
@@ -998,7 +834,7 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1051,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,37,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,292,232,956,584,2732,768,0",
 			"project": "",
 			"replace":
 			{
