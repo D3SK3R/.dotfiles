@@ -178,8 +178,8 @@ F4
     ~/.config/bspwm/floating_toggle.sh --class Firefox
 
 super + shift + d
-    ~/.config/bspwm/floating_toggle.sh --name lightcord
-    #~/.config/bspwm/floating_toggle.sh --name discord 
+    ~/.config/bspwm/floating_toggle.sh --class discord 
+    #~/.config/bspwm/floating_toggle.sh --name lightcord
 
 # apply bspwm config
 #super + shift + c
