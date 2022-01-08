@@ -12,3 +12,5 @@
 [2022-01-07 15:31:47.751] [exthost] [info] ExtensionService#_doActivateExtension auchenberg.vscode-browser-preview, startup: false, activationEvent: 'onView:targetTree'
 [2022-01-07 15:33:12.219] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-01-07 15:33:12.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-07 20:20:24.259] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-07 20:20:25.294] [exthost] [info] Extension host with pid 1235589 exiting with code 0
