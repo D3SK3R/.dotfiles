@@ -84,7 +84,7 @@ run udiskie -t
 
 killall pulseaudio && sleep 1 && pulseaudio &
 
-run mpd
+mpd
 
 nitrogen --restore &
 
