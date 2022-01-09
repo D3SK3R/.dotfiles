@@ -121,6 +121,9 @@ case $class in
     "Soundux")
         echo "state=floating"
         ;;
+    "Xfce4-mime-settings")
+        echo "state=floating"
+        ;;
 esac
 
 case $title in

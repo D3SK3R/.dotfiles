@@ -526,7 +526,7 @@ alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f
 alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
 alias emoji='rofimoji -c'
 alias short='shortn'
-alias notify='notify-send Finished;mpg123 -q ~/.scripts/ding-notif.mp3'
+alias notify='dunstify Finished;mpg123 -q ~/.scripts/ding-notif.mp3' 
 alias colors-list='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n";done'
 alias tmux-layout='tmux select-layout "2e4b,190x47,0,0{95x47,0,0,0,94x47,96,0[94x23,96,0,1,94x23,96,24,2]}"'
 alias color-test='msgcat --color=test'

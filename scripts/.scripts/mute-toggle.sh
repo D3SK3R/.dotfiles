@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Check if my audio input (pulseaudio) is muted or not, and send a notification
+# Check if my audio input (pulseaudio) is muted or not, mute or unmute, and send a notification
 
 #mute=$(pactl list sources | grep Mute | awk -F' ' 'NR==2 {print $2}')
 
