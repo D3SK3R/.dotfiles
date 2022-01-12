@@ -1,0 +1,29 @@
+{
+  "absoluteFile": "/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/recorded/texasthicc_2022-01-12_18-02-00_550.ts",
+  "associatedFiles": [],
+  "id": "0356fc2d-a785-4630-a670-481e6d8ed556",
+  "metaDataFile": "/home/d3sk3r/.dotfiles/ctbrec/.config/ctbrec/recordings/texasthicc_2022-01-12_18-02-00_550.json",
+  "model": {
+    "type": "ctbrec.sites.chaturbate.ChaturbateModel",
+    "name": "texasthicc",
+    "description": "hiccup show !",
+    "url": "https://chaturbate.com/texasthicc/",
+    "priority": 50,
+    "streamUrlIndex": 0,
+    "suspended": false,
+    "markedForLater": true,
+    "lastSeen": 1642021364523,
+    "lastRecorded": 1642021320550,
+    "addedTimestamp": 0,
+    "recordUntil": 1642107780000,
+    "recordUntilSubsequentAction": "PAUSE",
+    "siteSpecific": {}
+  },
+  "pinned": false,
+  "progress": -1,
+  "selectedResolution": 1080,
+  "singleFile": true,
+  "sizeInByte": 64537204,
+  "startDate": 1642021320550,
+  "status": "FINISHED"
+}

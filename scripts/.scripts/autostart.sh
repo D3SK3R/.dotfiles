@@ -82,9 +82,9 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-killall pulseaudio && sleep 1.5 && pulseaudio &
+killall pulseaudio && sleep 2 && pulseaudio &
 
-mpd
+run mpd
 
 nitrogen --restore &
 

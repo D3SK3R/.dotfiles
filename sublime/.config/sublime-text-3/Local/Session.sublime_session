@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 47,
 	"log_indexing": false,
-	"next_update_check": 1642006389,
+	"next_update_check": 1642092789,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 717.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -502,6 +502,17 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
+					"settings":
+					{
+						"buffer_size": 169,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -806,6 +817,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 169,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										169,
+										169
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -849,7 +890,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,37,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
