@@ -83,7 +83,7 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-killall pulseaudio && sleep 2 && pulseaudio &
+sleep 1 && killall pulseaudio && sleep 1 && pulseaudio &
 
 run mpd
 
