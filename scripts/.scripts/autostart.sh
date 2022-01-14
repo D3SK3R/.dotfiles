@@ -21,7 +21,8 @@ function run {
 #######################
 ###     scripts     ###
 #######################
-#if xrandr | grep -ow "DP1 connected" >/dev/null; then
+
+## BSPWM Monitors setup
 if xrandr | grep -ow "DP-1 connected" >/dev/null; then
     autorandr --change &
     sleep 2 && bspc desktop 2 --focus &&
