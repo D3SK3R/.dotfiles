@@ -538,6 +538,8 @@ alias fakecam='f(){ ffmpeg -stream_loop -1 -re -i $@ -vcodec rawvideo -threads 0
 alias webcam-disable='sudo modprobe -r uvcvideo'
 alias webcam-enable='sudo modprobe uvcvideo'
 
+alias vps='ssh -i ~/.ssh/id_rsa ubuntu@144.22.163.237'
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
