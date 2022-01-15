@@ -31,10 +31,14 @@ fi
 # or
 # sudo chsh -s /bin/zsh
 
+## DOWNGRADE
+
 #The entries listed as "local" are versions from your local package cache. The entries identified as "remote" are available from the Arch Linux Archive(ALA).
 
 #Warning: Installing packages from the ALA is inherently dangerous as sometimes Manjaro needs custom versions of certain packages. Doing this can result in a broken system. As a result, downgrading from the ALA is disabled by default on the stable branch. If needed, you can enable it by setting the environment variable
+# just setting this variable like this isn't enough
 DOWNGRADE_FROM_ALA=1
+alias downgrade='sudo DOWNGRADE_FROM_ALA=1 downgrade'
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
