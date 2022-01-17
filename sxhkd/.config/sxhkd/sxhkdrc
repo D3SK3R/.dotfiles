@@ -72,7 +72,8 @@ super + f
 
 # Google-chrome browser
 super + g
-    google-chrome-stable --enable-features=WebUIDarkMode --force-dark-mode --disable-gpu
+    google-chrome-stable
+    #google-chrome-stable --enable-features=WebUIDarkMode --force-dark-mode --disable-gpu
 
 # Gamemode toggle
 super + shift + @g
