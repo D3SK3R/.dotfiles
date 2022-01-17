@@ -12,8 +12,9 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     # Send notify 
     dunstify -t 1500 -i "/usr/share/icons/Papirus-Dark/22x22/actions/attentions.svg" "Enabling Game mode" -r $notifyid
 
+    # now it completely kills chrome
     # Kill chrome GPU process
-    kill $(ps auxf | grep "gpu" | grep "chrome" | awk '{print $2}')
+    #kill $(ps auxf | grep "gpu" | grep "chrome" | awk '{print $2}')
     
     # Kill compositor
     sleep 1.6 && killall picom

@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1642265589,
+	"next_update_check": 1642438389,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 717.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
+				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
 				"/home/d3sk3r/mpd.txt",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.tmTheme",
@@ -222,7 +224,6 @@
 				"/home/d3sk3r/desker.ovpn",
 				"/tmp/ark-FnlRwk/rede.sh",
 				"/home/d3sk3r/usbreset.c",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/changes",
 				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
@@ -338,8 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky38.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties"
 			],
 			"find":
 			{
@@ -503,10 +503,28 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/todo",
+					"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 					"settings":
 					{
-						"buffer_size": 170,
+						"buffer_size": 1365102,
+						"encoding": "Western (Windows 1252)",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
+					"settings":
+					{
+						"buffer_size": 1365002,
+						"encoding": "Western (Windows 1252)",
 						"line_ending": "Unix"
 					}
 				}
@@ -648,6 +666,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
+				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
 				"/home/d3sk3r/mpd.txt",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.tmTheme",
@@ -658,7 +678,6 @@
 				"/home/d3sk3r/desker.ovpn",
 				"/tmp/ark-FnlRwk/rede.sh",
 				"/home/d3sk3r/usbreset.c",
-				"/home/d3sk3r/todo",
 				"/home/d3sk3r/changes",
 				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
@@ -774,8 +793,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky38.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties"
 			],
 			"find":
 			{
@@ -816,12 +834,42 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/todo",
-							"selected": true,
+							"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 170,
+								"buffer_size": 1365102,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
 								"regions":
 								{
 								},
@@ -835,6 +883,38 @@
 								"settings":
 								{
 									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1365002,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -887,7 +967,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,37,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{

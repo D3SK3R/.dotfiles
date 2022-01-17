@@ -2,10 +2,11 @@
 
 (foreground (color-rgb 1 1 1))
 (palette "Standard")
-(font "Standard")
+(font "Standard Symbols PS")
 (font-size 22)
 (hint-style full)
 (justify right)
 (line-spacing 4)
+(box-mode fixed)
 
 # end of gimp-text-tool options

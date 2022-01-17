@@ -41,7 +41,7 @@ fi
 
 $HOME/.scripts/mouse_sens.sh &
 
-$HOME/.config/bspwm/swallowbspwm &
+#$HOME/.config/bspwm/swallowbspwm &
 
 #$HOME/.scripts/better.sh &
 
@@ -78,12 +78,14 @@ run copyq
 
 run xautolock -time 60 -locker ~/.scripts/lock.sh
 
-# deactivated for testing
+# not necessary
 #run fix_xcursor
 
 run udiskie -t
 
-sleep 1 && killall pulseaudio && sleep 1 && pulseaudio &
+start-pulseaudio-x11
+#pulseaudio --kill & pulseaudio
+#sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
 run mpd
 
