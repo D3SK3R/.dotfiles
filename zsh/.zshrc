@@ -113,7 +113,8 @@ plugins=(
     copyfile
     copybuffer # ctrl+o
     sudo # esc key twice
-    zsh-autosuggestions
+    # autosuggestions make stuff slower
+    #zsh-autosuggestions
 )
 
 #################################################
