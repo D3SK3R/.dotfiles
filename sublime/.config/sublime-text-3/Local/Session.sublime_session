@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1642438389,
+	"next_update_check": 1643092639,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -212,6 +212,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
+				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
+				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
 				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
@@ -284,7 +289,6 @@
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
 				"/home/d3sk3r/modelo proposta pergunta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/MEGA/discord/m/[].txt",
@@ -335,11 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties"
 			],
 			"find":
 			{
@@ -503,29 +503,11 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
+					"file": "/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
 					"settings":
 					{
-						"buffer_size": 1365102,
-						"encoding": "Western (Windows 1252)",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
-					"settings":
-					{
-						"buffer_size": 1365002,
-						"encoding": "Western (Windows 1252)",
-						"line_ending": "Unix"
+						"buffer_size": 302,
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -666,6 +648,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
+				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
+				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
 				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
@@ -738,7 +725,6 @@
 				"/home/d3sk3r/.config/Lightcord_BD/plugins/XenoLib.config.json",
 				"/home/d3sk3r/modelo proposta pergunta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/MEGA/discord/m/[].txt",
@@ -789,11 +775,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky34.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky35.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky36.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky37.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties"
 			],
 			"find":
 			{
@@ -834,42 +816,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
+							"file": "/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
+							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1365102,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
+								"buffer_size": 302,
 								"regions":
 								{
 								},
@@ -883,38 +835,6 @@
 								"settings":
 								{
 									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1365002,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -967,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
