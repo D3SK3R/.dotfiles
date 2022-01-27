@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1643092639,
+	"next_update_check": 1643404236,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,8 +212,14 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
+				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
@@ -229,7 +235,6 @@
 				"/home/d3sk3r/desker.ovpn",
 				"/tmp/ark-FnlRwk/rede.sh",
 				"/home/d3sk3r/usbreset.c",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
@@ -334,12 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky25.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky26.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky27.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky29.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties"
 			],
 			"find":
 			{
@@ -502,14 +502,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-					"settings":
-					{
-						"buffer_size": 302,
-						"line_ending": "Windows"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -648,8 +640,14 @@
 			},
 			"file_history":
 			[
-				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
+				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
@@ -665,7 +663,6 @@
 				"/home/d3sk3r/desker.ovpn",
 				"/tmp/ark-FnlRwk/rede.sh",
 				"/home/d3sk3r/usbreset.c",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/test.sh",
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
@@ -770,12 +767,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky25.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky26.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky27.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky29.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky30.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky31.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky32.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky33.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky28.properties"
 			],
 			"find":
 			{
@@ -814,36 +806,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 302,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -887,7 +849,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{

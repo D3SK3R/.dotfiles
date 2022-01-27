@@ -84,7 +84,7 @@ case $class in
         echo "center=on"
         ;;
     "realvnc-vncviewer")
-        if [[ "$title" =~ ".* - VNC Viewer" ]]; then
+        if [[ "$title | awk '/) - VNC Viewer/{print}'" ]]; then
             echo "state=floating"
             echo "rectangle=1356x732+3+28"
         else
@@ -127,6 +127,9 @@ case $class in
         echo "state=floating"
         ;;
     "Xfce4-mime-settings")
+        echo "state=floating"
+        ;;
+    "qt5ct" | "qt6ct" )
         echo "state=floating"
         ;;
 esac
