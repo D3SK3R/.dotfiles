@@ -84,13 +84,13 @@ case $class in
         echo "center=on"
         ;;
     "realvnc-vncviewer")
-        if [[ "$title | awk '/) - VNC Viewer/{print}'" ]]; then
-            echo "state=floating"
-            echo "rectangle=1356x732+3+28"
-        else
-            echo "state=floating"
-            echo "center=on"
-        fi
+        echo "state=floating"
+        echo "rectangle=870x546+113+221"
+        echo "center=on"
+        #if [[ "$title | awk '/) - VNC Viewer/{print}'" ]]; then
+        #    echo "state=floating"
+        #    echo "rectangle=1356x732+3+28"
+        #fi
         ;;
     "realvnc-vncserverui-service")
         echo "state=floating"
