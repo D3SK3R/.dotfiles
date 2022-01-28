@@ -50,6 +50,9 @@ export BROWSER="/usr/bin/google-chrome-stable"
 # Map the menu key to slash
 xmodmap -e "keycode 135 = slash"
 
+autoload -U compinit
+compinit
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -105,15 +108,16 @@ PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# *info about all the plugins below
 plugins=(
     fzf # ctrl+t / ctrl+r / ** <tab>
-    fast-syntax-highlighting
-    dirhistory
-    copydir
-    copyfile
-    copybuffer # ctrl+o
     sudo # esc key twice
-    # autosuggestions make stuff slower
+    fast-syntax-highlighting
+    copybuffer # ctrl+o
+    #copydir
+    #copyfile
+    #dirhistory 
+    # autosuggestions make zsh slower
     #zsh-autosuggestions
 )
 
@@ -181,7 +185,7 @@ export FZF_BASE=/usr/bin/fzf
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#6b7078,bold,underline"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
-# yay -S lf
+# install lf package
 # Navigate throught directories using ctrl+f
 # press enter on a directory to open it using a gui file manager
 lfcd () {
@@ -197,8 +201,9 @@ lfcd () {
 bindkey -s '^f' 'lfcd\n'
 
 source $ZSH/oh-my-zsh.sh
-#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # User configuration
+
 # VIM
 
 #export EDITOR=/usr/bin/vim
@@ -288,21 +293,25 @@ zstyle ':completion:*:(viewnior):*' ignored-patterns '*.(sh|docx|doc|wav|mp3|fla
 zstyle ':completion:*:(mpv):*' ignored-patterns '*.(sh|docx|doc|iso|so|o|7z|zip|tar|gz|bz2|rar|deb|pkg|gzip|pdf|$)'
 
 # send the current terminal line to vim with ctrl-e:
-autoload edit-command-line; zle -N edit-command-line
-bindkey '^e' edit-command-line
+#autoload edit-command-line; zle -N edit-command-line
+#bindkey '^e' edit-command-line
 
 ## Keybindings section
+## *EASIES WAY TO GET KEY CODES*
+## open a terminal, press ctrl + v, it will show a ^, press the key and it will how like:
+## ^[[3~ (this is for the insert key)
+## and this is the code ZSH uses
+
 ## KEY CODES: https://www.zsh.org/mla/users/2014/msg00266.html
 ## COMMAND TO TEST KEY CODES: xxd
 ## AVAILABLE COMMANDS: http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#:~:text=The%20ZLE%20commands%20that%20key,modules%20(see%20Zsh%20Modules).
+
 #bindkey -e
-#bindkey '^[[7~' beginning-of-line                               # Home key
 #bindkey '^[[H' beginning-of-line                                # Home key
 #if [[ "${terminfo[khome]}" != "" ]]; then
 #  bindkey "${terminfo[khome]}" beginning-of-line                # [Home] - Go to beginning of line
 #fi
 #bindkey '^[[8~' end-of-line                                     # End key
-#bindkey '^[[F' end-of-line                                     # End key
 #if [[ "${terminfo[kend]}" != "" ]]; then
 #  bindkey "${terminfo[kend]}" end-of-line                       # [End] - Go to end of line
 #fi
@@ -329,9 +338,22 @@ bindkey '^[^?' kill-word                                        # delete forward
 
 # bind delete-char to delete key
 bindkey '^[[3~' delete-char
-# disables insert key
+# disables insert, end, home, page up and page down keys
 bindkey -s '\e[2~' ''
+bindkey -s '\e[8~' ''
+bindkey -s '\e[7~' ''
+bindkey -s '\e[6~' ''
+bindkey -s '\e[5~' ''
 
+#disables f8, f9, f10, f11 and f12 key
+bindkey -s '\e[24~' ''
+bindkey -s '\e[23~' ''
+bindkey -s '\e[21~' ''
+bindkey -s '\e[20~' ''
+bindkey -s '\e[19~' ''
+bindkey -s '\e[18~' ''
+bindkey -s '\e[17~' ''
+bindkey -s '\e[15~' ''
 
 # Color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'
@@ -390,7 +412,6 @@ alias cn='clear;neofetch'
 # host text on a pastebin web
 alias bin='nc termbin.com 9999'
 alias gotop='gotop -aps'
-alias python='python3'
 alias pip='sudo pip'
 alias clock='tty-clock -cb'
 alias floating='urxvt -name floating_terminal &'
@@ -398,7 +419,6 @@ alias floating2='urxvt -name floating_terminal2 &'
 #alias floating='urxvt -name floating_urxvt &'
 #alias floating2='urxvt -name dropdown_urxvt &'
 alias kill='kill -9'
-alias ramfree='ps -eo pid --no-headers --sort=-%mem | head -1 | xargs kill -9'
 alias todo='calcurse;clear'
 alias cal='cal -y'
 alias myip='curl ipinfo.io/ip'
@@ -529,8 +549,7 @@ alias pipes='pipes.sh -t3'
 alias cpu='lscpu | grep MHz | lolcat;sensors | grep Core | lolcat'
 alias hh='hollywood;kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
 alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
-alias ctb='sh MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh'
-alias emoji='rofimoji -c'
+alias emoji='rofimoji --action copy'
 alias short='shortn'
 alias notify='dunstify Finished;mpg123 -q ~/.scripts/ding-notif.mp3' 
 alias colors-list='for i in {0..255}; do; printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n";done'
@@ -572,7 +591,6 @@ ex ()
 }
 
 #################################################################
-DOWNGRADE_FROM_ALA=1
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source $HOME/.scripts/dkill.sh
