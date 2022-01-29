@@ -29,4 +29,4 @@ dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_play.svg "Opening
 
 mpv --mute=yes $loop $clipboard &
 
-
+sleep 20;bspc rule -r "mpv"

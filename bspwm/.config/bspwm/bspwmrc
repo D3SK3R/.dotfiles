@@ -63,6 +63,8 @@ bspc config urgent_border_color     "#16aee5"
 bspc config presel_feedback_color   "#0f151f"
 
 ### Rules ###
+# Discriminate windows based on their class_name:instance_name:name/title
+# example vim:*:pythonScript.py
 bspc config external_rules_command                         ~/.config/bspwm/external_rules
 #bspc rule -a "URxvt:*:floating_terminal"                    state=floating hidden=on sticky=on rectangle=570x360+400+32 
 #bspc rule -a "URxvt:*:floating_terminal2"                   state=floating hidden=on sticky=on rectangle=1356x732+3+28

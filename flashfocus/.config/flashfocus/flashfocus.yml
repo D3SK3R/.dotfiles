@@ -50,6 +50,10 @@ rules:
   #   default-opacity: 0.7
    - window-class: Sublime_text
      default-opacity: 0.8
+   - window-class: XTerm
+     default-opacity: 0.9
+   - window-class: UXTerm
+     default-opacity: 0.9
 #
 # I also would prefer that firefox windows are not flashed on focus:
 #
