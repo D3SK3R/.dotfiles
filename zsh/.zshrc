@@ -326,6 +326,8 @@ bindkey '^[[D'  backward-char                                   # Left key
 #bindkey '^[Oc' forward-word                                     #
 #bindkey '^[Od' backward-word                                    #
 
+bindkey '^A' kill-whole-line                                    # delete the whole line with ctrl + a 
+
 bindkey '^[[1;5D' backward-word                                 # backward word with ctrl right
 bindkey '^[[1;5C' forward-word                                  # forward word with ctrl left
 

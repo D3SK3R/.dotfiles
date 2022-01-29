@@ -18,5 +18,5 @@ while true; do
                         echo "2 $MOUSEID2"
                 fi
         fi
-        sleep 2
+        sleep 4
 done &
