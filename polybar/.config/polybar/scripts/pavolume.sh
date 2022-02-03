@@ -154,7 +154,7 @@ function output() {
     lowVol='40'
     if [ "${curStatus}" = 'yes' ]
     then
-        echo "婢 $curVol%"
+        echo "婢 $curVol"
     else
         if [ "$curVol" -lt "$lowVol" ];
         then
