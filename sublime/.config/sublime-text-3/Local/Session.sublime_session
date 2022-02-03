@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1643922636,
+	"next_update_check": 1644009036,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 735.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
 				"/run/media/d3sk3r/Ventoy/persistence.dat",
 				"/run/media/d3sk3r/8GB/autorun.inf",
 				"/run/media/d3sk3r/8GB/syslinux.cfg",
@@ -338,8 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky20.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky21.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky22.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky24.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties"
 			],
 			"find":
 			{
@@ -433,7 +433,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -640,6 +640,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
 				"/run/media/d3sk3r/Ventoy/persistence.dat",
 				"/run/media/d3sk3r/8GB/autorun.inf",
 				"/run/media/d3sk3r/8GB/syslinux.cfg",
@@ -766,8 +767,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky20.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky21.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky22.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky24.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky23.properties"
 			],
 			"find":
 			{
@@ -849,7 +849,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,33,2732,768,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
