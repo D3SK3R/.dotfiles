@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
 				"/run/media/d3sk3r/Ventoy/persistence.dat",
 				"/run/media/d3sk3r/8GB/autorun.inf",
@@ -270,7 +271,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/mpv-chatu.sh",
 				"/home/d3sk3r/MEGA/discord/Carol/.directory",
-				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/terminals",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/swallow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/where",
@@ -433,7 +433,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -640,6 +640,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
 				"/run/media/d3sk3r/Ventoy/persistence.dat",
 				"/run/media/d3sk3r/8GB/autorun.inf",
@@ -698,7 +699,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixManjaro.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/mpv-chatu.sh",
 				"/home/d3sk3r/MEGA/discord/Carol/.directory",
-				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/terminals",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/swallow",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/4_bspwm/where",
@@ -849,7 +849,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,3",
 			"project": "",
 			"replace":
 			{
