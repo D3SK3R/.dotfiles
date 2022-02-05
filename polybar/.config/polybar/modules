@@ -14,7 +14,7 @@ right=
 type = custom/text
 content = " "
 content-font = 4
-content-background = ${colors.bg}
+content-background = ${colors.transparent}
 content-foreground = ${colors.transparent}
 
 [module/sepR1]

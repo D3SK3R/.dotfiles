@@ -5,6 +5,8 @@
 ##         Alphabetical order, and command keys, like Return, and etc, first           ##
 #########################################################################################
 
+# USE xev COMMAND TO GET KEY NAMES
+
 # Turn off the display when pressing the power button
 ## if systemd is in use, need to modify /etc/systemd/logind.conf to ignore power button events
 ##From: #HandlePowerKey=poweroff
@@ -29,6 +31,10 @@ super + Return
     urxvtc -cd ~
 #super + {_,shift +} Return
 #    {urxvtc -cd ~, alacritty}
+
+# Toggle systray
+super + Tab
+    ~/.scripts/toggleTray.sh
 
 # Print (flameshot)
 {_,super +} Print
@@ -166,21 +172,19 @@ super + shift + q
 #########################################################################################
 
 F1
-    ~/.config/bspwm/floating_toggle.sh --name floating_terminal
+    ~/.config/bspwm/hide_toggle.sh --name floating_terminal
 
 F2
-    ~/.config/bspwm/floating_toggle.sh --name floating_terminal2
+    ~/.config/bspwm/hide_toggle.sh --name floating_terminal2
 
 F3
-    ~/.config/bspwm/floating_toggle.sh --name ncmpcpp
-    #~/.config/bspwm/floating_toggle.sh --class spotify
+    ~/.config/bspwm/hide_toggle.sh --name ncmpcpp
 
 F4
-    ~/.config/bspwm/floating_toggle.sh --class Firefox
+    ~/.config/bspwm/hide_toggle.sh --class Firefox
 
 super + shift + d
-    ~/.config/bspwm/floating_toggle.sh --name lightcord
-    #~/.config/bspwm/floating_toggle.sh --class discord 
+    ~/.config/bspwm/hide_toggle.sh --class discord 
 
 # apply bspwm config
 #super + shift + c

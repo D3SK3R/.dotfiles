@@ -109,6 +109,6 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
 #sleep 5 && firefox &
 
-sleep 4 && lightcord & #premid &
+sleep 4 && discord & #premid &
 
 

@@ -45,6 +45,12 @@ case $class in
             echo "rectangle=1356x732+3+28"
         fi
         ;;
+    "Google-chrome")
+        if [[ $instance == crx* ]]; then
+            echo "state=floating"
+            echo "center=on"
+        fi
+        ;;
     "discord" | "lightcord")
         if [[ "$title" =~ .*\Discord ]]; then
             echo "state=floating"
@@ -139,6 +145,9 @@ case $title in
         echo "state=floating"
         echo "rectangle=923x543+1590+103"
         #echo "center=on"
+        ;;
+    "Bitwarden")
+        echo "state=floating"
         ;;
     "Save File")
         echo "state=floating"
