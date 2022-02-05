@@ -211,7 +211,7 @@ super + {_,shift + } space
 super + {shift, ctrl} + f
     {bspc desktop -l next, bspc node -t \~fullscreen}
 
-# resize to picture-in-picture or toggle pseudo tiling
+# toggle picture-in-picture or toggle pseudo tiling
 super + {_,shift +} p
     {sh ~/.scripts/pipResize.sh, bspc node -t \~pseudo_tiled}
 

@@ -29,7 +29,7 @@ bspc config right_padding           0
 
 # Rounded Corner
 # https://aur.archlinux.org/packages/bspwm-rounded-corners/
-bspc config border_radius           8
+sleep 4 && bspc config border_radius     8 &
 
 # Layouts
 # how bigger will the master window be 
