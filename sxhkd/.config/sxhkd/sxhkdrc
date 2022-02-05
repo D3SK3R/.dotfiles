@@ -36,7 +36,7 @@ super + Return
 super + Tab
     ~/.scripts/toggleTray.sh
 
-# Print (flameshot)
+# Print (flameshot v0.10.2)
 {_,super +} Print
     {flameshot gui -p ~, flameshot screen -p ~}
 
