@@ -61,8 +61,6 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # stops and closes all possible notifications
     dunstctl set-paused true
 
-    # kills swallow script so that the terminals don't get swallowed
-    killall swallowbspwm
     # opens 3 terminals
     urxvt -name 'panic' -e gotop -aps &
     sleep 0.2
@@ -101,8 +99,6 @@ else
     dunstctl close-all
     dunstctl set-paused false
 
-    # executes swallow again and removes the file used to toggle the script
-    $HOME/.config/bspwm/swallowbspwm &
     rm $file
 fi
 
