@@ -39,7 +39,7 @@ fi
 
 #$HOME/.scripts/monitors.sh &
 
-$HOME/.scripts/mouse_sens.sh &
+#$HOME/.scripts/mouse_sens.sh &
 
 #$HOME/.config/bspwm/swallowbspwm &
 
