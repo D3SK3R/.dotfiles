@@ -39,12 +39,6 @@ fi
 
 #$HOME/.scripts/monitors.sh &
 
-#$HOME/.scripts/mouse_sens.sh &
-
-#$HOME/.config/bspwm/swallowbspwm &
-
-#$HOME/.scripts/better.sh &
-
 $HOME/.scripts/keyboardSet &
 
 sleep 10 && $HOME/.scripts/headset-configure &

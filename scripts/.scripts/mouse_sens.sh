@@ -1,4 +1,11 @@
 #!/bin/sh
+
+# A better way of doing this:
+# sudo vim /usr/share/X11/xorg.conf.d/40-libinput.conf
+# find the identifier "libinput ponter catchall"
+# add the line (before the Driver line):
+# Option "AccelSpeed" "-0.8"
+
 # To see all connected devices:
 # xinput --list --short
 while true; do
