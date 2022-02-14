@@ -52,3 +52,9 @@ drive-removable-media
 device disappeared on /dev/sdc 
 Device removed 
 udiskie
+03:14 
+NORMAL
+drive-removable-media
+device disappeared on /dev/sdb 
+Device removed 
+udiskie
