@@ -113,7 +113,7 @@ plugins=(
     fzf # ctrl+t / ctrl+r / ** <tab>
     sudo # esc key twice
     fast-syntax-highlighting
-    copybuffer # ctrl+o
+    #copybuffer # ctrl+o
     #copydir
     #copyfile
     #dirhistory 
@@ -388,7 +388,7 @@ alias cd='f(){ cd "$@" ;ls;  unset -f f; }; f'
 # alias ls='ls -CF --color=always'
 # alias la='ls -lah'
 alias ls='lsd --group-dirs first'
-alias la='exa -lah'
+alias la='exa --group-directories-first -lah'
 alias cl='clear;ls'
 alias rm='trash'
 alias rmtrash='\rm -rf ~/.local/share/Trash/files/*'
@@ -398,6 +398,7 @@ alias cp='cp -ri'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias mkdir='mkdir -p'
+alias cat='bat'
 alias python='bpython'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
 alias fzf="fzf | xargs xdg-open"
@@ -406,6 +407,10 @@ alias v='stty stop "" -ixoff; vim'
 alias c='clear'
 alias cc='tput reset'
 alias df='df -h'
+alias grep='rg -i --color=always'
+alias egrep='egrep -i --color=always'
+# grep to show everything and just highlight the match:
+alias grephl='rg --color=always -e "^" -e'
 alias open='xdg'
 alias mount='sudo mount'
 alias umount='sudo umount'
@@ -444,10 +449,6 @@ alias font-update='sudo fc-cache -fv'
 alias font-list='fc-list'
 alias psa='ps auxf'
 alias free='free -mt'
-alias grep='grep -i --color=always'
-alias egrep='egrep -i --color=always'
-# grep to show everything and just highlight the match:
-alias grephl='grep --color=always -e "^" -e'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
 alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'
