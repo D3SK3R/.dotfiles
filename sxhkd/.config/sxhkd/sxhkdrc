@@ -36,9 +36,9 @@ super + Return
 super + Tab
     ~/.scripts/toggleTray.sh
 
-# Print (flameshot v0.10.2)
+# Print
 {_,super +} Print
-    {flameshot gui -p ~, flameshot screen -p ~}
+    {flameshot gui, flameshot screen -p ~}
 
 # Panic / reset picom
 super + {_, shift} + Delete
