@@ -167,7 +167,7 @@ include-file = ~/.config/polybar/fonts
 
 modules-left = sepR1 bspwm sepL3 mpd sepL4
 modules-center =
-modules-right = sepR4 cpu sepR3 ram sepR2 mute pavolume sepR3 battery sepR3 date sepL1
+modules-right = sepR4 cpu sepR2 ram sepR2 btc sepR2 mute pavolume sepR2 battery sepR3 date sepL1
 ;modules-right = sepR4 cpu sepR3 ram sepR2 mute pavolume sepR3 battery sepR2 openweather sepR3 date sepL1
 
 ;left - center - right - none

@@ -567,6 +567,10 @@ alias webcam-enable='sudo modprobe uvcvideo'
 
 alias vps='ssh -i ~/.ssh/id_rsa ubuntu@144.22.163.237'
 
+# simple alternative:
+#alias crypto='f(){ forx $@ brl;  unset -f f; }; f'
+alias crypto='export ALPHAVANTAGE_API_KEY=7YHWWPANUG42KXZS;tstock -c brl'
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
