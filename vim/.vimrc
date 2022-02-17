@@ -68,6 +68,10 @@ let g:airline_symbols.linenr = '≡:'
 Plugin 'ap/vim-css-color'
 
 " ctrl+f to use
+"NERDTree
+nmap <c-f> :NERDTree<CR>
+imap <c-f> <Esc>:NERDTree<CR>
+
 Plugin 'preservim/nerdtree'
 let NERDTreeQuitOnOpen=1
 
@@ -87,38 +91,41 @@ Plugin 'terryma/vim-multiple-cursors'
 " disable if in a terminal that doesn't support icons 
 Plugin 'ryanoasis/vim-devicons'
 
-Plugin 'junegunn/goyo.vim'
+" Enter key to enter/exit goyo
+"map <ENTER> :Goyo<CR>
+
+"Plugin 'junegunn/goyo.vim'
 
 """"""
-Plugin 'junegunn/limelight.vim'
-let g:limelight_conceal_ctermfg = 'gray'
-let g:limelight_conceal_ctermfg = 240
-
-function! s:goyo_enter()
-  if executable('tmux') && strlen($TMUX)
-    silent !tmux set status off
-    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
-    set noshowmode
-    set noshowcmd
-  endif
-  set scrolloff=999
-  Limelight
-endfunction
-
-function! s:goyo_leave()
-  if executable('tmux') && strlen($TMUX)
-    silent !tmux set status on
-    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
-    set showmode
-    set showcmd
-  endif
-  set scrolloff=5
-  Limelight!
-  set background=dark
-endfunction
-
-autocmd! User GoyoEnter nested call <SID>goyo_enter()
-autocmd! User GoyoLeave nested call <SID>goyo_leave()
+"Plugin 'junegunn/limelight.vim'
+"let g:limelight_conceal_ctermfg = 'gray'
+"let g:limelight_conceal_ctermfg = 240
+"
+"function! s:goyo_enter()
+"  if executable('tmux') && strlen($TMUX)
+"    silent !tmux set status off
+"    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
+"    set noshowmode
+"    set noshowcmd
+"  endif
+"  set scrolloff=999
+"  Limelight
+"endfunction
+"
+"function! s:goyo_leave()
+"  if executable('tmux') && strlen($TMUX)
+"    silent !tmux set status on
+"    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
+"    set showmode
+"    set showcmd
+"  endif
+"  set scrolloff=5
+"  Limelight!
+"  set background=dark
+"endfunction
+"
+"autocmd! User GoyoEnter nested call <SID>goyo_enter()
+"autocmd! User GoyoLeave nested call <SID>goyo_leave()
 """""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -243,7 +250,6 @@ autocmd BufWritePost ~/.tmux.conf.local !tmux source-file %
 autocmd Filetype html set softtabstop=0 expandtab shiftwidth=2 smarttab
 
 autocmd BufRead */polybar/config set syntax=dosini
-autocmd BufRead */i3/config set syntax=dosini
 autocmd BufRead */.i3/config set syntax=dosini
 autocmd BufRead */.i3/config* set syntax=dosini
 
@@ -258,10 +264,6 @@ cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
 
 
 " Key maps
-
-"NERDTree
-nmap <c-f> :NERDTree<CR>
-imap <c-f> <Esc>:NERDTree<CR>
 
 "quit after save
 nmap <c-q> :q<CR>
@@ -306,9 +308,6 @@ nnoremap S :%s///gc<Left><Left><Left><Left>
 " Move selected lines with CTRL up and down
 xnoremap <C-Up> :move '<-2<CR>gv-gv
 xnoremap <C-Down> :move '>+1<CR>gv-gv
-
-" Enter key to enter/exit goyo
-map <ENTER> :Goyo<CR>
 
 " Removes Q binding
 nnoremap Q <nop>
