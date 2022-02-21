@@ -244,3 +244,51 @@ flameshot
 Capture saved to clipboard. 
 Flameshot Info 
 flameshot
+11:39 
+NORMAL
+drive-removable-media
+device disappeared on /dev/sdb 
+Device removed 
+udiskie
+12:11 
+NORMAL
+battery-level-100-charged-symbolic
+Your Battery is fully charged 
+Power Manager 
+xfce4-power-manager
+12:11 
+NORMAL
+drive-removable-media
+device appeared on /dev/sdb 
+Device added 
+udiskie
+12:11 
+NORMAL
+drive-removable-media
+/dev/sdb1: SD-8GB mounted on /run/media/d3sk3r/SD-8GB 
+Device mounted 
+udiskie
+01:10 
+NORMAL
+/tmp/.com.google.Chrome.YZl4sB
+<a href="https://web.whatsapp.com/">web.whatsapp.com</a> eu te amo muito meu amor‎‏ - ‪13:10‬ 
+amor ❤️ 
+Google Chrome
+01:15 
+NORMAL
+/tmp/.com.google.Chrome.fWpjbc
+<a href="https://web.whatsapp.com/">web.whatsapp.com</a> em umas 10 horas‎‏ - ‪13:15‬ 
+Yuri 
+Google Chrome
+03:07 
+LOW
+nm-no-connection
+The network connection has been disconnected. 
+Disconnected 
+NetworkManager
+03:07 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
