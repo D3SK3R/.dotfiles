@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Valheim + Dedicated Server (0.206.5)/valheim_v0.206.5.run",
+				"/home/d3sk3r/r8169_blacklist.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where",
@@ -337,9 +339,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky4.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties"
 			],
 			"find":
 			{
@@ -523,7 +523,7 @@
 							"paste",
 							null,
 							"AQAAAAAAAAAAAAAAGcUAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							44,
@@ -533,7 +533,7 @@
 								"characters": "value"
 							},
 							"BgAAAICFAAAAAAAAgYUAAAAAAAAAAAAAgYUAAAAAAACBhQAAAAAAAAsAAABwbGFjZWhvbGRlcoGFAAAAAAAAgoUAAAAAAAAAAAAAgoUAAAAAAACDhQAAAAAAAAAAAACDhQAAAAAAAISFAAAAAAAAAAAAAISFAAAAAAAAhYUAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACAhQAAAAAAAIuFAAAAAAAAAAAAAAAA8L8"
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACAhQAAAAAAAIuFAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							49,
@@ -543,7 +543,7 @@
 								"characters": "D3S3R"
 							},
 							"BgAAAImFAAAAAAAAioUAAAAAAAAAAAAAioUAAAAAAACKhQAAAAAAAAgAAAB1c2VybmFtZYqFAAAAAAAAi4UAAAAAAAAAAAAAi4UAAAAAAACMhQAAAAAAAAAAAACMhQAAAAAAAI2FAAAAAAAAAAAAAI2FAAAAAAAAjoUAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJhQAAAAAAAJGFAAAAAAAAAAAAAAAA8L8"
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJhQAAAAAAAJGFAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							50,
@@ -551,7 +551,7 @@
 							"left_delete",
 							null,
 							"AgAAAI2FAAAAAAAAjYUAAAAAAAABAAAAUoyFAAAAAAAAjIUAAAAAAAABAAAAMw",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACOhQAAAAAAAI6FAAAAAAAAAAAAAAAA8L8"
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACOhQAAAAAAAI6FAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							51,
@@ -561,7 +561,7 @@
 								"characters": "K3R"
 							},
 							"AwAAAIyFAAAAAAAAjYUAAAAAAAAAAAAAjYUAAAAAAACOhQAAAAAAAAAAAACOhQAAAAAAAI+FAAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACMhQAAAAAAAIyFAAAAAAAAAAAAAAAA8L8"
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACMhQAAAAAAAIyFAAAAAAAAAAAAAAAA8L8"
 						]
 					]
 				}
@@ -703,6 +703,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Valheim + Dedicated Server (0.206.5)/valheim_v0.206.5.run",
+				"/home/d3sk3r/r8169_blacklist.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where",
@@ -828,9 +830,7 @@
 				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky2.properties",
 				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky4.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky6.properties",
-				"/home/d3sk3r/.minecraft/resourcepacks/§bDesker§9  dynamic §5[1.8]§0/assets/minecraft/mcpatcher/sky/world0/sky4.properties"
+				"/home/d3sk3r/.minecraft/resourcepacks/(sky and wool)!                     §6Glimpse§3Fault §f[16x]/assets/minecraft/mcpatcher/sky/world0/sky5.properties"
 			],
 			"find":
 			{
@@ -949,7 +949,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
