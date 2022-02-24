@@ -1,7 +1,0 @@
-[2021-08-22 19:05:11.638] [renderer1] [warning] UNRESPONSIVE extension host, 'JackVandergriff.xresources-theme' took 89% of 817.54ms, saved PROFILE here: 'file:///tmp/exthost-9a24c3.cpuprofile' [{"id":"JackVandergriff.xresources-theme","total":731149,"percentage":89},{"id":"ritwickdey.LiveServer","total":4065,"percentage":0},{"id":"self","total":33529,"percentage":4},{"id":"vscode.debug-auto-launch","total":154,"percentage":0},{"id":"vscode.git","total":2913,"percentage":0},{"id":"vscode.npm","total":1012,"percentage":0},{"id":"vscode.typescript-language-features","total":42155,"percentage":5}]
-[2021-08-22 19:06:43.514] [renderer1] [error] XHR failed: Error: XHR failed
-    at XMLHttpRequest.w.onerror (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:76:24456)
-[2021-08-22 19:10:32.943] [renderer1] [error] Error: XHR failed
-    at XMLHttpRequest.w.onerror (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:76:24456)
-[2021-08-22 19:10:55.918] [renderer1] [error] Error: XHR failed
-    at XMLHttpRequest.w.onerror (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:76:24456)
