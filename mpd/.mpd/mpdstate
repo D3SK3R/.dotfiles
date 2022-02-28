@@ -1,10 +1,10 @@
-sw_volume: 30
+sw_volume: 32
 audio_device_state:1:My Pulse Output
 audio_device_state:1:FIFO
 audio_device_state:1:D3SK3R's Stream
-state: play
-current: 48
-time: 122.989000
+state: pause
+current: 76
+time: 0.000000
 random: 1
 repeat: 1
 single: 0
@@ -101,4 +101,5 @@ playlist_begin
 85:NEFFEX - Without You.mp3
 86:Linkin Park - What I've Done.mp3
 87:Mike Shinoda - Promisses I Can't Keep.mp3
+88:Jason Mraz - I'm Yours.mp3
 playlist_end
