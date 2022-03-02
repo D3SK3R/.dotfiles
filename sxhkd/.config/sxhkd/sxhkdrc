@@ -107,7 +107,7 @@ super + {_,shift,ctrl + } o
 
 # Ranger
 {super, alt} + r
-    { ~/.scripts/mineRecraft,urxvtc -e ranger ~,}
+    { urxvtc -e ranger ~, ~/.scripts/mineRecraft}
 
 ## Sublime and Dual Monitor Script
 ## super + ctrl + s is being used in the bspwm section
