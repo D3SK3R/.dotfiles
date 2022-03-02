@@ -226,7 +226,8 @@ super + shift + Return; {Left,Down,Up,Right}
 
 # cycle between nodes in monocle mode
 super + {comma, period}
-    bspc node -f {prev,next}.tiled.local.\!hidden
+    bspc node -f {prev,next}.normal.local.\!hidden
+    #bspc node -f {prev,next}.tiled.local.\!hidden
 
 # Rotate tree left/right
 super + ctrl + {d,a}
