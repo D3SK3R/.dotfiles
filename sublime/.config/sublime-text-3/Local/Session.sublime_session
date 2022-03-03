@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1646322259,
+	"next_update_check": 1646408659,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 717.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
@@ -338,8 +339,7 @@
 				"/home/d3sk3r/estagio.br",
 				"/home/d3sk3r/opsu/.opsu.log",
 				"/home/d3sk3r/vpcs.hist",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
-				"/home/d3sk3r/MEGA/discord/leticia/cam"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt"
 			],
 			"find":
 			{
@@ -646,6 +646,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
@@ -772,8 +773,7 @@
 				"/home/d3sk3r/estagio.br",
 				"/home/d3sk3r/opsu/.opsu.log",
 				"/home/d3sk3r/vpcs.hist",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt",
-				"/home/d3sk3r/MEGA/discord/leticia/cam"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/console command to get token.txt"
 			],
 			"find":
 			{
@@ -861,7 +861,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,37,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
