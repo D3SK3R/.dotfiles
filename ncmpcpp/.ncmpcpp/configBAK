@@ -1,0 +1,132 @@
+#### For Song format you can use:
+##
+## %l - length 
+## %f - filename
+## %D - directory
+## %a - artist
+## %A - album artist
+## %t - title
+## %b - album
+## %y - date
+## %n - track number (01/12 -> 01)
+## %N - full track info (01/12 -> 01/12)
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %P - priority
+## $R - begin right alignment
+
+## - 0 - default window color (discards all other colors)
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+
+external_editor = "vim"
+## Note: set to yes if external editor is a console application.
+use_console_editor = "yes"
+mpd_music_dir = "~/MEGA/D3SK3R/Midia/Music/"
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+playlist_disable_highlight_delay = "0"
+incremental_seeking = "yes"
+startup_screen = "playlist"
+autocenter_mode = "yes"
+# For a really minimalist look
+# set header and statusbar visibility to "no"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+ignore_leading_the = "yes"
+titles_visibility = no
+#If you press down arrow being at the end of list, it'll take you to the beginning
+cyclic_scrolling = yes
+allow_for_physical_item_deletion = "yes"
+enable_window_title= no
+
+# User interface
+user_interface = "alternative" # (alternative, classic)
+alternative_header_first_line_format = "$0$aqqu$/a {$6%a$9 - }{$3%t$9}|{$3%f$9} $0$atqq$/a$9"
+alternative_header_second_line_format = "{{$0%b$9}{ [$2%y$9]}}|{$0%D$9}"
+
+# Songs list
+song_columns_list_format = "(10)[blue]{l} (20)[green]{t} (30f)[blue]{a} (25f)[yellow]{b}"
+song_list_format = "{$7%a - $9}{$5%t$9}|{$5%f$9}$R{$6%b $9}{$3%l$9}"
+#song_columns_list_format = "(25)[cyan]{f} (4f)[cyan]{l}
+
+# Display modes = columns / classic
+playlist_editor_display_mode = "columns"
+search_engine_display_mode = "columns"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+
+#progressbar_look = "->"
+#progressbar_look = "─╼"
+progressbar_look = "▃▃▃"
+
+#Clock settings
+clock_display_seconds="yes"
+
+## Now Playing ##
+now_playing_prefix = "$3> $9"
+centered_cursor = "yes"
+
+## Current Item ##
+#current_item_prefix = "$(cyan)$r"
+current_item_prefix = "$3- $9"
+current_item_suffix = "$/r$9"
+current_item_inactive_column_prefix = "- "
+
+## Selected tracks ##
+selected_item_prefix = "* "
+discard_colors_if_item_is_selected = "no"
+
+#Lyrics
+fetch_lyrics_for_current_song_in_background = "yes"
+#lyrics_database = "1"
+store_lyrics_in_song_dir = "yes"
+follow_now_playing_lyrics = "yes"
+#lyrics will be switched at song's change to currently playing one's
+display_bitrate = "yes"
+
+ask_before_clearing_playlists = "yes"
+
+#Status bar display 
+song_status_format="%f"
+
+locked_screen_width_part = 50
+
+## Visualizer ##
+#visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+#visualizer_sync_interval = "60"
+visualizer_type = "spectrum"
+visualizer_in_stereo = "yes"
+visualizer_look = "◆▋"
+
+# colors
+colors_enabled = "yes"
+main_window_color = "white"
+header_window_color = "cyan"
+volume_color = "cyan"
+progressbar_color = "black"
+progressbar_elapsed_color = "blue"
+statusbar_color = "blue"
+color1 = "blue"
+color2 = "cyan"
+#active_column_color = "cyan"
+active_window_border = "blue"
+
+## Other ##
+system_encoding = "utf-8"
+regular_expressions = "extended"
+

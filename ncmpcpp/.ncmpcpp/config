@@ -70,7 +70,8 @@ browser_display_mode = "columns"
 
 #progressbar_look = "->"
 #progressbar_look = "─╼"
-progressbar_look = "▃▃▃"
+#progressbar_look = "▃▃▃"
+progressbar_look = "▂▂▂"
 
 #Clock settings
 clock_display_seconds="yes"
