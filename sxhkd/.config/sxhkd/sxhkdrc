@@ -34,7 +34,7 @@ super + Return
 
 # Toggle systray
 super + Tab
-    ~/.scripts/toggleTray.sh
+    ~/.scripts/togglePolybar.sh
 
 # Print
 {_,super +} Print

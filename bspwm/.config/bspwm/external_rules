@@ -140,6 +140,7 @@ case $class in
         ;;
     "scrcpy")
         echo "state=floating"
+        echo "rectangle=402x715+486+36"
         ;;
 esac
 

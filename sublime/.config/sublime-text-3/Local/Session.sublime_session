@@ -212,6 +212,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
@@ -312,9 +314,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
@@ -508,6 +508,23 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/Desec - 2020/torrent.txt",
+					"settings":
+					{
+						"buffer_size": 117,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/Desec - 2020/Informações.txt",
+					"settings":
+					{
+						"buffer_size": 67,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -646,6 +663,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
@@ -746,9 +765,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
-				"/home/d3sk3r/changes",
 				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
 				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
@@ -818,6 +835,65 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/Desec - 2020/torrent.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 117,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/Desec - 2020/Informações.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 67,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -861,7 +937,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
