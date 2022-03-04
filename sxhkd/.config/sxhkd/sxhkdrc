@@ -200,11 +200,11 @@ super + {_,shift + }{Left,Down,Up,Right}
 	bspc node --{focus,swap} {west,south,north,east}
 
 # resize windows
-super + ctrl + {Left,Down,Up,Right}
+super + alt + {Left,Down,Up,Right}
 	~/.config/bspwm/resize-bspwm {left,down,up,right} 20
 
 # move windows
-super + alt + {Left,Down,Up,Right}
+super + ctrl + {Left,Down,Up,Right}
 	~/.config/bspwm/move-bspwm {Left,Down,Up,Right}
     #bspc node -v {-20 0,0 20,0 -20,20 0}
 
