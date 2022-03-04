@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Alternative to it:
+# Package: light
+# commands:
+# light -A 1 to increase brightness by 1
+# light -U 1 to decrease brightness by 1
+
 # USAGE:
 # ./brightness + or - to increase or decrease brightness, or no argument to show brightness
 

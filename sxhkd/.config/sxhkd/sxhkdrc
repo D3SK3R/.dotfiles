@@ -1,4 +1,4 @@
-
+# vim: set ft=sxhkdrc:
 #########################################################################################
 ##                              Application Keybindings                                ##
 #########################################################################################
@@ -197,15 +197,16 @@ super + {_,shift + }{1-9}
 
 # focus/swap the node in/to the given direction
 super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
+	bspc node --{focus,swap} {west,south,north,east}
 
 # resize windows
 super + ctrl + {Left,Down,Up,Right}
 	~/.config/bspwm/resize-bspwm {left,down,up,right} 20
 
-# move a floating window
+# move windows
 super + alt + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
+	~/.config/bspwm/move-bspwm {Left,Down,Up,Right}
+    #bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # toggle floating focus/mode
 super + {_,shift + } space

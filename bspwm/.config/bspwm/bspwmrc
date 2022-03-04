@@ -64,7 +64,9 @@ bspc config active_border_color     "#000000"
 bspc config focused_border_color    "#16aee5"
 bspc config urgent_border_color     "#16aee5"
 
-bspc config presel_feedback_color   "#0f151f"
+#bspc config presel_feedback_color   "#0f151f"
+
+
 
 ### Rules ###
 # Discriminate windows based on their class_name:instance_name:name/title

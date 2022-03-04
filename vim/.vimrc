@@ -86,7 +86,9 @@ Plugin 'terryma/vim-multiple-cursors'
 "skip: <C-x> skip the next match
 "prev: <C-p> remove current virtual cursor + selection and go back on previous match
 "select all: <A-n> start multicursor and directly select all matches
-""""""
+"
+"after selecting everything you want, press shitf + I to interact
+"""""""
 
 " disable if in a terminal that doesn't support icons 
 Plugin 'ryanoasis/vim-devicons'

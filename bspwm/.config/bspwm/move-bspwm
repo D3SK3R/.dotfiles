@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Move the window independent if it's floating or tiled
+# usage: ./move-bspwm Left (either Left, Down, Up, or Right)
+
+state=$(bspc query --node --tree | \grep -w "\"state\":\"tiled\"")
+
+if [[ "$state" ]]; then
+    case $1 in
+        "Left")
+            bspc node --to-node west
+            ;;
+        "Down")
+            bspc node --to-node south
+            ;;
+        "Up")
+            bspc node --to-node north
+            ;;
+        "Right")
+            bspc node --to-node east
+            ;;
+    esac
+else
+    case $1 in
+        "Left")
+            bspc node --move -20 0
+            ;;
+        "Down")
+            bspc node --move 0 20
+            ;;
+        "Up")
+            bspc node --move 0 -20
+            ;;
+        "Right")
+            bspc node --move 20 0
+            ;;
+    esac
+fi
+
