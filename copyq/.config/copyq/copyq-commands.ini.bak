@@ -34,4 +34,15 @@
 7\InMenu=true
 7\Input=application/x-copyq-tags
 7\Name=Clear all tags
-size=7
+8\Command=copyq: toggle()
+8\Icon=\xf022
+8\InternalId=copyq_global_toggle
+8\IsGlobalShortcut=true
+8\Name=Show/hide main window
+9\Command=copyq: showAt()
+9\GlobalShortcut=ctrl+shift+n
+9\Icon=\xf022
+9\InternalId=copyq_global_show_under_mouse
+9\IsGlobalShortcut=true
+9\Name=Show main window under mouse cursor
+size=9
