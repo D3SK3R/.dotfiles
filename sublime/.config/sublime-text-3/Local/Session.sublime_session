@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1646581459,
+	"next_update_check": 1646667859,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
 				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall",
 				"/home/d3sk3r/Desec - 2020/torrent.txt",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
@@ -338,8 +339,7 @@
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Kingdoms of Amalur/como instalar.txt",
-				"/home/d3sk3r/estagio.txt",
-				"/home/d3sk3r/hedgepoint.txt"
+				"/home/d3sk3r/estagio.txt"
 			],
 			"find":
 			{
@@ -646,6 +646,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
 				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall",
 				"/home/d3sk3r/Desec - 2020/torrent.txt",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
@@ -772,8 +773,7 @@
 				"/home/d3sk3r/.minecraft/window_settings_xal_login.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/DarkOrbit/Contas DarkOrbit.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Kingdoms of Amalur/como instalar.txt",
-				"/home/d3sk3r/estagio.txt",
-				"/home/d3sk3r/hedgepoint.txt"
+				"/home/d3sk3r/estagio.txt"
 			],
 			"find":
 			{
@@ -861,7 +861,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,4",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
