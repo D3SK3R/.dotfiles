@@ -40,7 +40,6 @@
 8\IsGlobalShortcut=true
 8\Name=Show/hide main window
 9\Command=copyq: showAt()
-9\GlobalShortcut=ctrl+shift+n
 9\Icon=\xf022
 9\InternalId=copyq_global_show_under_mouse
 9\IsGlobalShortcut=true

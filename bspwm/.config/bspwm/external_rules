@@ -110,6 +110,8 @@ case $class in
         ;;
     "copyq")
         echo "state=floating"
+        echo "hidden=on"
+        echo "sticky=on"
         echo "center=on"
         ;;
     "Lxappearance")
