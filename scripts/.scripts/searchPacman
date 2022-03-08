@@ -1,0 +1,16 @@
+#!/bin/sh
+
+pac="$(pacman -Ss $1)"
+
+if [[ -n $pac ]]; then
+    printf "$pac\n"
+else
+    aur="$(yay -Ss $1)"
+    if [[ -n $aur ]]; then
+        printf "\e[1;36mAUR:\e[0m\n\n"
+        printf "$aur\n"
+    else
+        printf "Package not find.\n"
+    fi
+fi
+

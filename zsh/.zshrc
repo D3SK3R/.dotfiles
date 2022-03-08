@@ -463,7 +463,7 @@ alias ip="ip -c"
 #################################################################
 #alias install='sudo pacman -S'
 alias install='~/.scripts/install'
-alias search='pacman -Ss'
+alias search='~/.scripts/searchPacman'
 alias packages='pacman -Q'
 # only works on manjaro, for arch, use something like reflector-simple
 alias update-mirrors='sudo pacman-mirrors -id'

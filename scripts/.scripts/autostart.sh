@@ -41,7 +41,7 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
-sleep 10 && $HOME/.scripts/headset-configure &
+sleep 6 && $HOME/.scripts/headset-configure &
 
 #######################
 ###    programs     ###
