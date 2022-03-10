@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1646754259,
+	"next_update_check": 1646927059,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -212,6 +212,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
@@ -338,8 +339,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/d3sk3r/desker.ovpn",
-				"/tmp/ark-FnlRwk/rede.sh",
-				"/home/d3sk3r/usbreset.c"
+				"/tmp/ark-FnlRwk/rede.sh"
 			],
 			"find":
 			{
@@ -646,6 +646,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
@@ -772,8 +773,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/d3sk3r/desker.ovpn",
-				"/tmp/ark-FnlRwk/rede.sh",
-				"/home/d3sk3r/usbreset.c"
+				"/tmp/ark-FnlRwk/rede.sh"
 			],
 			"find":
 			{
@@ -861,7 +861,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
