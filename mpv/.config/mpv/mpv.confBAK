@@ -1,0 +1,11 @@
+# Limits resolution for youtube-dl sources to 720p
+ytdl-format=bestvideo[height<=?720][vcodec!=?vp9]+bestaudio/best[height<=720]
+
+# Use hardware acceleration
+hwdec=auto
+
+# Set startup volume
+volume=50
+
+# Set max volume
+volume-max=300

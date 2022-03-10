@@ -1,10 +1,10 @@
-sw_volume: 36
+sw_volume: 44
 audio_device_state:1:My Pulse Output
 audio_device_state:1:FIFO
 audio_device_state:1:D3SK3R's Stream
 state: pause
-current: 25
-time: 0.000000
+current: 89
+time: 0.136000
 random: 1
 repeat: 1
 single: 0
@@ -102,4 +102,5 @@ playlist_begin
 86:Linkin Park - What I've Done.mp3
 87:Mike Shinoda - Promisses I Can't Keep.mp3
 88:Jason Mraz - I'm Yours.mp3
+89:Sia - Unstoppable.mp3
 playlist_end
