@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -18,6 +18,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"backgrun",
+						"background"
+					],
 					[
 						"floating",
 						"floating_urxvt"
@@ -212,6 +216,21 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/amor-extension/valentine/motivos.html",
+				"/home/d3sk3r/amor-extension/valentine/index.html",
+				"/home/d3sk3r/amor-extension/valentine/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine/favs.html",
+				"/home/d3sk3r/amor-extension/popup.html",
+				"/home/d3sk3r/amor-extension.pem",
+				"/home/d3sk3r/amor-extension/popup.js",
+				"/home/d3sk3r/amor-extension/valentine2/style.css",
+				"/home/d3sk3r/amor-extension/valentine2/index.html",
+				"/home/d3sk3r/amor-extension/valentine2/favs.html",
+				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
+				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine2/styleNos.css",
+				"/home/d3sk3r/amor-extension/context.js",
+				"/home/d3sk3r/amor-extension/valentine2/a.html",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
@@ -324,22 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
-				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
-				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
-				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
-				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
-				"/home/d3sk3r/mpd.txt",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.tmTheme",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.sublime-theme",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
-				"/home/d3sk3r/desker.ovpn",
-				"/tmp/ark-FnlRwk/rede.sh"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new"
 			],
 			"find":
 			{
@@ -439,7 +443,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -448,6 +452,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"backgrun",
+						"background"
+					],
 					[
 						"floating",
 						"floating_urxvt"
@@ -646,6 +654,21 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/amor-extension/valentine/motivos.html",
+				"/home/d3sk3r/amor-extension/valentine/index.html",
+				"/home/d3sk3r/amor-extension/valentine/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine/favs.html",
+				"/home/d3sk3r/amor-extension/popup.html",
+				"/home/d3sk3r/amor-extension.pem",
+				"/home/d3sk3r/amor-extension/popup.js",
+				"/home/d3sk3r/amor-extension/valentine2/style.css",
+				"/home/d3sk3r/amor-extension/valentine2/index.html",
+				"/home/d3sk3r/amor-extension/valentine2/favs.html",
+				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
+				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine2/styleNos.css",
+				"/home/d3sk3r/amor-extension/context.js",
+				"/home/d3sk3r/amor-extension/valentine2/a.html",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
@@ -758,22 +781,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new",
-				"/home/d3sk3r/horus-TCP4-11950-vpn-user-alunos-cert-config.ovpn",
-				"/home/d3sk3r/Dead Cells + 6 DLC/dead_cells_1_17_0e_52767.sh",
-				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_the_queen_and_the_sea_1_17_0e_52767.sh",
-				"/home/d3sk3r/Dead Cells + 6 DLC/DLC/dead_cells_fatal_falls_1_17_0e_52767.sh",
-				"/home/d3sk3r/Hyper Light Drifter - GOG Linux/gog_hyper_light_drifter_2.8.0.9.sh",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-color-scheme",
-				"/home/d3sk3r/mpd.txt",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.tmTheme",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/Theme - Cyanide/Cyanide.sublime-theme",
-				"/home/d3sk3r/.dotfiles/sublime/.config/sublime-text-3/Packages/User/Cyanide.sublime-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/ctbrec/ctbrec.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
-				"/home/d3sk3r/desker.ovpn",
-				"/tmp/ark-FnlRwk/rede.sh"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new"
 			],
 			"find":
 			{
@@ -861,7 +869,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,2",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{

@@ -9,6 +9,10 @@
                         "label": "&&New File"
                     },
                     {
+                        "id": "welcome.showNewFileEntries",
+                        "label": "New File..."
+                    },
+                    {
                         "id": "workbench.action.newWindow",
                         "label": "New &&Window"
                     },
@@ -28,7 +32,7 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -43,13 +47,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/d3sk3r/mpv-extension",
-                                        "external": "file:///home/d3sk3r/mpv-extension",
-                                        "path": "/home/d3sk3r/mpv-extension",
+                                        "fsPath": "/home/d3sk3r/amor-extension",
+                                        "external": "file:///home/d3sk3r/amor-extension",
+                                        "path": "/home/d3sk3r/amor-extension",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/mpv-extension"
+                                    "label": "~/amor-extension"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -208,7 +212,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.31",
+                        "id": "submenuitem.32",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -501,6 +505,27 @@
                                     "label": "&&Move Side Bar Right"
                                 },
                                 {
+                                    "id": "submenuitem.31",
+                                    "label": "Panel Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelLeft",
+                                                "label": "Left"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelRight",
+                                                "label": "Right"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
                                     "id": "submenuitem.30",
                                     "label": "Align Panel",
                                     "submenu": {
@@ -700,14 +725,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.34",
+                        "id": "submenuitem.35",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -756,7 +780,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.35",
+                        "id": "submenuitem.36",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1142,6 +1166,10 @@
             "workbench.action.files.newUntitledFile": {
                 "label": "Ctrl+N",
                 "userSettingsLabel": "ctrl+n"
+            },
+            "welcome.showNewFileEntries": {
+                "label": "Ctrl+Alt+Super+N",
+                "userSettingsLabel": "ctrl+alt+meta+n"
             },
             "workbench.action.newWindow": {
                 "label": "Ctrl+Shift+N",
@@ -1560,14 +1588,14 @@
     "themeBackground": "#07090f",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/d3sk3r/mpv-extension",
-            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/1533be5b2c14834edf5cfb216729485b",
+            "folder": "file:///home/d3sk3r/amor-extension",
+            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/cd63c8755542cc74a5fa2babe64316ac",
             "uiState": {
                 "mode": 1,
-                "x": 1366,
-                "y": 28,
-                "width": 1366,
-                "height": 740
+                "x": 1378,
+                "y": 34,
+                "width": 664,
+                "height": 722
             }
         },
         "openedWindows": []

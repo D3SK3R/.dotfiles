@@ -1,0 +1,13 @@
+[2022-03-11 20:31:57.720] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User)
+[2022-03-11 20:31:57.739] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User/settings.json, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User/settings.json)
+[2022-03-11 20:31:58.101] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-03-11 20:31:58.352] [main] [info] ExtensionHostStarterWorker created
+[2022-03-11 20:32:01.929] [main] [info] Starting extension host with pid 2321848 (fork() took 24 ms).
+[2022-03-11 20:32:01.930] [main] [info] ExtensionHostStarterWorker.start() took 28 ms.
+[2022-03-11 20:32:02.441] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User)
+[2022-03-11 20:32:02.442] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User/settings.json, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User/settings.json)
+[2022-03-11 20:32:14.701] [main] [info] Extension host with pid 2321848 exited with code: 0, signal: null.
+[2022-03-11 20:32:20.221] [main] [info] Starting extension host with pid 2322706 (fork() took 11 ms).
+[2022-03-11 20:32:20.222] [main] [info] ExtensionHostStarterWorker.start() took 14 ms.
+[2022-03-11 23:01:22.369] [main] [info] Waiting for extension host with pid 2322706 to exit.
+[2022-03-11 23:01:22.401] [main] [info] Extension host with pid 2322706 exited with code: 0, signal: null.
