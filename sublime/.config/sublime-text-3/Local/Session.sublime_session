@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1647099859,
+	"next_update_check": 1647359059,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/aa.py",
+				"/home/d3sk3r/crypto.txt",
+				"/run/media/d3sk3r/AE71-E26A/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/nos2.html",
@@ -247,7 +251,6 @@
 				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
 				"/home/d3sk3r/leaks/note.txt",
@@ -340,10 +343,7 @@
 				"/run/media/d3sk3r/8GB/autorun.inf",
 				"/run/media/d3sk3r/8GB/syslinux.cfg",
 				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini"
 			],
 			"find":
 			{
@@ -654,6 +654,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/aa.py",
+				"/home/d3sk3r/crypto.txt",
+				"/run/media/d3sk3r/AE71-E26A/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/nos2.html",
@@ -685,7 +689,6 @@
 				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
 				"/home/d3sk3r/leaks/note.txt",
@@ -778,10 +781,7 @@
 				"/run/media/d3sk3r/8GB/autorun.inf",
 				"/run/media/d3sk3r/8GB/syslinux.cfg",
 				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/new"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini"
 			],
 			"find":
 			{
@@ -869,7 +869,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
