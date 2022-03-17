@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1647359059,
+	"next_update_check": 1647531859,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 717.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,15 +216,19 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/amor-extension/popup.html",
+				"/home/d3sk3r/amor-extension/manifest.json",
+				"/home/d3sk3r/amor-extension/valentine/vid.html",
+				"/home/d3sk3r/amor-extension/valentine/favs.html",
+				"/home/d3sk3r/amor-extension/valentine/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine/index.html",
+				"/home/d3sk3r/amor-extension/valentine/motivos.html",
+				"/home/d3sk3r/drop/original.txt",
 				"/home/d3sk3r/aa.py",
 				"/home/d3sk3r/crypto.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
-				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/amor-extension/valentine/index.html",
-				"/home/d3sk3r/amor-extension/valentine/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine/favs.html",
-				"/home/d3sk3r/amor-extension/popup.html",
 				"/home/d3sk3r/amor-extension.pem",
 				"/home/d3sk3r/amor-extension/popup.js",
 				"/home/d3sk3r/amor-extension/valentine2/style.css",
@@ -339,11 +343,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
-				"/run/media/d3sk3r/Ventoy/persistence.dat",
-				"/run/media/d3sk3r/8GB/autorun.inf",
-				"/run/media/d3sk3r/8GB/syslinux.cfg",
-				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini"
+				"/run/media/d3sk3r/Ventoy/persistence.dat"
 			],
 			"find":
 			{
@@ -361,6 +361,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"style",
 					"username",
 					"placeholder",
 					"user",
@@ -654,15 +655,19 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
+				"/home/d3sk3r/amor-extension/popup.html",
+				"/home/d3sk3r/amor-extension/manifest.json",
+				"/home/d3sk3r/amor-extension/valentine/vid.html",
+				"/home/d3sk3r/amor-extension/valentine/favs.html",
+				"/home/d3sk3r/amor-extension/valentine/nos2.html",
+				"/home/d3sk3r/amor-extension/valentine/index.html",
+				"/home/d3sk3r/amor-extension/valentine/motivos.html",
+				"/home/d3sk3r/drop/original.txt",
 				"/home/d3sk3r/aa.py",
 				"/home/d3sk3r/crypto.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
-				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/amor-extension/valentine/index.html",
-				"/home/d3sk3r/amor-extension/valentine/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine/favs.html",
-				"/home/d3sk3r/amor-extension/popup.html",
 				"/home/d3sk3r/amor-extension.pem",
 				"/home/d3sk3r/amor-extension/popup.js",
 				"/home/d3sk3r/amor-extension/valentine2/style.css",
@@ -777,11 +782,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/pass.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/fps setter.py",
-				"/run/media/d3sk3r/Ventoy/persistence.dat",
-				"/run/media/d3sk3r/8GB/autorun.inf",
-				"/run/media/d3sk3r/8GB/syslinux.cfg",
-				"/home/d3sk3r/.config/gtk-3.0/settings.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/settings.ini"
+				"/run/media/d3sk3r/Ventoy/persistence.dat"
 			],
 			"find":
 			{
@@ -799,6 +800,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"style",
 					"username",
 					"placeholder",
 					"user",
@@ -869,7 +871,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,688,37,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
