@@ -1,6 +1,12 @@
 #!/bin/sh
 
 # killall <program> not always work, so I'd have to find the process id and use kill <id>, this script substitutes this.
+# WARNING: it may kill the unintended processes 
+
+# usage: 
+# source dkill.sh
+# then:
+# dkill <process name to be killed>
 
 # put the code inside the function and source dkill.sh to be able to use dkill <arg>
 dkill (){
