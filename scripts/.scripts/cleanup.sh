@@ -26,7 +26,7 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
 
     printf "\nsudo paccache -r\n"
     sudo paccache -r
-
+    
     rm -rf ~/.local/share/Trash/files/*
 else
     printf "Aborting..."

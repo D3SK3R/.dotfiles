@@ -115,7 +115,7 @@ super + {_,shift,ctrl + } o
 ## super + ctrl + s is being used in the bspwm section
 # Sublime and restart polybar
 super + {_, shift} + s
-    {subl, $HOME/.config/polybar/launch.sh & sleep 2 && bspc config top_padding 22}
+    {subl, $HOME/.config/polybar/launch.sh & sleep 3 && bspc config top_padding 22}
     #{subl, ~/.config/bspwm/monitors-bspwm}
     #{subl, ~/.scripts/monitors.sh;~/.config/polybar/launch.sh;nitrogen --restore}
 

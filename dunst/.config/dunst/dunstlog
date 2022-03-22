@@ -376,3 +376,27 @@ NORMAL
 <a href="https://web.whatsapp.com/">web.whatsapp.com</a> mas só pra saber se vou ter que te sequestrar agora ou n‎‏ - ‪19:11‬ 
 amor ❤️ 
 Google Chrome
+07:41 
+NORMAL
+drive-removable-media
+device appeared on /dev/sdb 
+Device added 
+udiskie
+07:41 
+NORMAL
+drive-removable-media
+/dev/sdb1: Ventoy mounted on /run/media/d3sk3r/Ventoy 
+Device mounted 
+udiskie
+07:43 
+NORMAL
+drive-removable-media
+/dev/sdb1: Ventoy unmounted 
+Device unmounted 
+udiskie
+07:43 
+NORMAL
+drive-removable-media
+device disappeared on /dev/sdb 
+Device removed 
+udiskie
