@@ -118,6 +118,10 @@ case $class in
         #echo "follow=on"
         #echo "desktop=focused"
         #echo "monitor=focused"
+        if [[ "$title" = "Preferences — CopyQ" ]]; then
+            echo "state=floating"
+            echo "hidden=off"
+        fi
         # bspc node <copyq wid> --to-<monitor|desktop> focused --focus
         ;;
     "Lxappearance")
