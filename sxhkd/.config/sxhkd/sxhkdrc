@@ -59,7 +59,6 @@ super + 0
 # Clipboard manager
 super + c
     ~/.config/bspwm/hide_toggle.sh --class copyq & copyq show
-    #copyq show & ~/.config/bspwm/hide_toggle.sh --class copyq
     #copyq toggle
     #roficlip
 

@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1648223059,
+	"next_update_check": 1648741459,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/vaga.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt"
 			],
 			"find":
 			{
@@ -518,11 +518,12 @@
 			"buffers":
 			[
 				{
-					"file": "/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
+					"file": "/home/d3sk3r/vaga.txt",
 					"settings":
 					{
-						"buffer_size": 6,
-						"line_ending": "Unix"
+						"buffer_size": 4006,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -663,6 +664,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/vaga.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
@@ -788,9 +791,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt"
 			],
 			"find":
 			{
@@ -838,20 +839,20 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
+							"file": "/home/d3sk3r/vaga.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 6,
+								"buffer_size": 4006,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										6,
-										6
+										0,
+										0
 									]
 								],
 								"settings":
@@ -859,7 +860,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 204.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
