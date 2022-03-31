@@ -91,7 +91,7 @@ super + {_, shift +} h
     {urxvtc -e gotop -aps, urxvtc -e htop}
 
 # Lock Screen
-super + l
+super + Escape
    ~/.scripts/lock.sh
 
 # ncmpcpp and Spotify

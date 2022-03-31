@@ -457,6 +457,7 @@ alias copy='clipster -c'
 alias memmonitor="while true; do c;echo '*/proc/swaps';cat /proc/swaps;echo '\n*free -m';free;echo '\n*swapon -s';swapon -s;echo '\n*zramctl'; zramctl;sleep 0.2;done"
 alias keydetect="xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'"
 alias ip="ip -c"
+alias keys="sh .scripts/showKeys.sh"
 
 #################################################################
 # Pacman 
