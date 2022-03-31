@@ -111,10 +111,10 @@ case $class in
     "copyq")
         echo "state=floating"
         echo "rectangle=645x395+1724+184"
-        #echo "hidden=on"
+        echo "hidden=on"
         echo "sticky=on"
         echo "center=on"
-        #echo "focus=on"
+        echo "focus=on"
         #echo "follow=on"
         #echo "desktop=focused"
         #echo "monitor=focused"

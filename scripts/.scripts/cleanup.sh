@@ -44,5 +44,7 @@ fi
 # and 
 # sudo journalctl --vacuum-size=500M
 # to clean older files enough so that the new usage is about 500M
+# you can also schedule a vacuum:
+# sudo journalctl --vacuum-time=10d
 
 
