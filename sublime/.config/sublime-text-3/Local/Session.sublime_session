@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/var/cache/debtap/aur-packages",
+				"/var/cache/debtap/debian-main-packages-files",
 				"/home/d3sk3r/vaga.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
 			],
 			"find":
 			{
@@ -444,7 +444,7 @@
 			{
 			}
 		},
-		"new_window_width": 325.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -655,6 +655,8 @@
 			},
 			"file_history":
 			[
+				"/var/cache/debtap/aur-packages",
+				"/var/cache/debtap/debian-main-packages-files",
 				"/home/d3sk3r/vaga.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
@@ -780,9 +782,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/InstallDebPackages.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
 			],
 			"find":
 			{
@@ -871,7 +871,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,349,400,674,754,2732,768,0",
+			"position": "0,0,0,0,0,10,400,674,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
