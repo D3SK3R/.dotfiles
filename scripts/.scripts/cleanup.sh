@@ -33,11 +33,16 @@ else
 fi
 
 # Other tips to get more space:
-# 1 - pacman cached packages (older versions of the installed packages): 
+
+# 1 - ~/.cache/
+# go to ~/.cache/
+# use some program like dust to show file sizes and delete unused stuff
+
+# 2 - pacman cached packages (older versions of the installed packages): 
 # go to /var/cache/pacman/pkg/
 # and delete packages that you wont use (to downgrade, for example)
 
-# 2 - journalctl logs
+# 3 - journalctl logs
 # run 
 # journalctl --disk-usage
 # to check journalctl usage
@@ -46,5 +51,11 @@ fi
 # to clean older files enough so that the new usage is about 500M
 # you can also schedule a vacuum:
 # sudo journalctl --vacuum-time=10d
+
+# 4 - packages in opt
+# search for unused packages in /opt/
+# (only packages you won't use!)
+
+
 
 
