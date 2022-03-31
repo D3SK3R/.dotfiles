@@ -414,6 +414,7 @@ alias grephl='rg --color=always -e "^" -e'
 alias open='xdg'
 alias mount='sudo mount'
 alias umount='sudo umount'
+alias fd='fd -H'
 #alias cn='tput reset;neofetch | lolcat -a -s 1000000'
 alias cn='clear;neofetch'
 # host text on a pastebin web
