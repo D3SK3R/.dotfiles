@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1648741459,
+	"next_update_check": 1649795161,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/try.txt",
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
 				"/var/cache/debtap/debian-main-packages-files",
 				"/home/d3sk3r/vaga.txt",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
 			],
 			"find":
 			{
@@ -444,7 +444,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -655,6 +655,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/try.txt",
+				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
 				"/var/cache/debtap/debian-main-packages-files",
 				"/home/d3sk3r/vaga.txt",
@@ -780,9 +782,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
 			],
 			"find":
 			{
@@ -871,7 +871,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768,0",
+			"position": "0,0,0,0,0,0,28,1366,768,2732,768,0",
 			"project": "",
 			"replace":
 			{
