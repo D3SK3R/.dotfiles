@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1649795161,
+	"next_update_check": 1650054361,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -361,6 +361,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"atb",
+					" ",
 					"style",
 					"username",
 					"placeholder",
@@ -444,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -517,6 +519,18 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/Desktop/Valheim.desktop",
+					"settings":
+					{
+						"buffer_size": 263,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -800,6 +814,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"atb",
+					" ",
 					"style",
 					"username",
 					"placeholder",
@@ -828,6 +844,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/Desktop/Valheim.desktop",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 263,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										47,
+										75
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -871,7 +917,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1366,768,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
