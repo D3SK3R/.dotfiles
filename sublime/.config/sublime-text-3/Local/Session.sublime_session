@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1650054361,
+	"next_update_check": 1650313561,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,11 +216,22 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/nft/get-pip.py",
+				"/home/d3sk3r/anime",
+				"/home/d3sk3r/crypto.txt",
+				"/home/d3sk3r/fundos",
+				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/why-bspwm.txt",
+				"/home/d3sk3r/vaga.txt",
 				"/home/d3sk3r/try.txt",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/aa.py",
+				"/home/d3sk3r/a.txt",
+				"/home/d3sk3r/Desktop/Valheim.desktop",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
 				"/var/cache/debtap/debian-main-packages-files",
-				"/home/d3sk3r/vaga.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
@@ -234,8 +245,6 @@
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
 				"/home/d3sk3r/drop/original.txt",
-				"/home/d3sk3r/aa.py",
-				"/home/d3sk3r/crypto.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
 				"/home/d3sk3r/amor-extension.pem",
@@ -260,8 +269,6 @@
 				"/home/d3sk3r/Desec - 2020/torrent.txt",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/pqp/when.txt",
-				"/home/d3sk3r/changes",
-				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
@@ -336,14 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/resetLoginAttempts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt"
 			],
 			"find":
 			{
@@ -519,18 +519,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/Desktop/Valheim.desktop",
-					"settings":
-					{
-						"buffer_size": 263,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -669,11 +657,22 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/nft/get-pip.py",
+				"/home/d3sk3r/anime",
+				"/home/d3sk3r/crypto.txt",
+				"/home/d3sk3r/fundos",
+				"/home/d3sk3r/internet.sh",
+				"/home/d3sk3r/todo",
+				"/home/d3sk3r/why-bspwm.txt",
+				"/home/d3sk3r/vaga.txt",
 				"/home/d3sk3r/try.txt",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/aa.py",
+				"/home/d3sk3r/a.txt",
+				"/home/d3sk3r/Desktop/Valheim.desktop",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
 				"/var/cache/debtap/debian-main-packages-files",
-				"/home/d3sk3r/vaga.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
@@ -687,8 +686,6 @@
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
 				"/home/d3sk3r/drop/original.txt",
-				"/home/d3sk3r/aa.py",
-				"/home/d3sk3r/crypto.txt",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
 				"/home/d3sk3r/amor-extension.pem",
@@ -713,8 +710,6 @@
 				"/home/d3sk3r/Desec - 2020/torrent.txt",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/pqp/when.txt",
-				"/home/d3sk3r/changes",
-				"/home/d3sk3r/internet.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
@@ -789,14 +784,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/resetLoginAttempts",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/TwitchGUI.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt"
 			],
 			"find":
 			{
@@ -844,36 +832,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/Desktop/Valheim.desktop",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 263,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										47,
-										75
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -917,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
