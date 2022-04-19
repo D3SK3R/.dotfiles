@@ -68,8 +68,6 @@ run pamac-tray
 
 run clipster -d
 
-run copyq 
-
 run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 # not necessary
@@ -82,6 +80,8 @@ start-pulseaudio-x11
 #sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
 run mpd
+
+sleep 2 && killall copyq && copyq & 
 
 nitrogen --restore &
 
