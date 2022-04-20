@@ -151,6 +151,9 @@ case $class in
     "qt5ct" | "qt6ct")
         echo "state=floating"
         ;;
+    "SimpleScreenRecorder")
+        echo "state=floating"
+        ;;
     "scrcpy")
         echo "state=floating"
         echo "rectangle=402x715+486+36"

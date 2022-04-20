@@ -5,9 +5,9 @@
 
 # Directory to search for icons
 #directory="/usr/share/icons/Nord-Icon/48x48/"
-directory="/usr/share/icons/Papirus-Dark/32x32"
+#directory="/usr/share/icons/Papirus-Dark/32x32/"
 #In case there is no icon path provided, use appname to guess icons
-use_appname=true
+use_appname=false
 file="$HOME/.config/dunst/dunstlog"
 ###########################
 

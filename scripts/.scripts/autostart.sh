@@ -82,7 +82,7 @@ start-pulseaudio-x11
 run mpd
 
 #sleep 3 && killall copyq;copyq & 
-sh -c "sleep 5; copyq &"
+#sh -c "sleep 5; copyq &"
 
 nitrogen --restore &
 

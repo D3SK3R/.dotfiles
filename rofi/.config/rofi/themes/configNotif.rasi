@@ -53,40 +53,25 @@ window {
     border-color: @bd;
 }
 
-mainbox {
-	spacing:  0.8em;
-    orientation: vertical;
-	children: [ inputbar, listview ];
-}
-
-button { padding: 5px 2px; }
-
-button selected {
-	background-color: @active-background;
-	text-color:       @background-color;
-}
-
 inputbar {
 	padding: 5px;
 	spacing: 5px;
 }
 
-// space between notifs
-listview {
-	spacing: 0.5em;
-	dynamic: true;
-	cycle:   false;
+mainbox {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						6px;
 }
 
-element {
-        padding: 10px 10px 10px 10px;
-}
-
-// notification center string
-prompt {
-       padding:     20px 0px 0px 115px;
-       font:        "monospace 12";
-}
+//listview {
+//    fixed-height: 					0;
+//    border: 						0px;
+//    border-color: 					@ac;
+//    spacing: 						4px;
+//    scrollbar: 						false;
+//    padding: 						5px 5px 0px 5px;
+//}
 
 entry {
 	expand:         true;
@@ -96,61 +81,76 @@ entry {
     enabled:        false;
 }
 
-element normal.normal {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @normal-foreground;
+// notification center string
+prompt {
+       padding:     5px 0px 0px 115px;
+       font:        "monospace 12";
 }
 
-element normal.urgent {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @urgent-foreground;
+element {
+    padding: 						5px;
+    border:                         -3px;
+    border-radius: 					5px;
+    spacing:                        5px;
+}
+element-text {
+    border: 						3px;
+    border-radius: 					5px;
+    border-color: 					@bg;
+    padding: 						2px;
+    background-color:               @bg;
+    text-color:                     @fg;
+}
+element selected {
+    background-color: 				@fg;
+    border:                         0px;
+    border-radius: 					6px;
+}
+element alternate {
+    background-color: 				@bg;
+    border:                         0px;
+    border-radius: 					6px;
+    text-color:                     @fg;
 }
 
-element normal.active {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @active-foreground;
+sidebar {
+    border:       					0px;
+    border-color: 					@ac;
+    border-radius: 					0px;
 }
 
-element selected.normal {
-	background-color: @selected-normal-background;
-	text-color:       @selected-normal-foreground;
+button {
+    background-color:             	@bg;
+    text-color: 					@fg;
+    margin: 						5px;
+    padding: 						5px;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					@fg;
 }
 
-element selected.urgent {
-	background-color: @selected-urgent-background;
-	text-color:       @selected-urgent-foreground;
+button selected {
+    background-color:             	@ac;
+    text-color: 					@bg;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					@fg;
 }
 
-element selected.active {
-	background-color: @selected-active-background;
-	text-color:       @selected-active-foreground;
+scrollbar {
+    width:        					4px;
+    border:       					0px;
+    handle-color: 					@fg;
+    handle-width: 					8px;
+    padding:      					0;
 }
 
-element alternate.normal {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @normal-foreground;
+message {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						0px 0px 1px 10px;
 }
 
-element alternate.urgent {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @urgent-foreground;
-}
-
-element alternate.active {
-	background-color: @bg;
-    border-radius:    8px;
-	text-color:       @active-foreground;
-}
-element-icon {
-	size: 7ch;
-}
-element.selected {
-    border-radius: 8px;
-	border:           0 0 0 5px solid;
-	border-color:	    @winbg;
+textbox {
+    text-color: 					@fg;
 }
