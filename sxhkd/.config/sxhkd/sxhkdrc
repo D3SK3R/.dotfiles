@@ -27,10 +27,10 @@ super + Pause
   pkill -USR1 -x sxhkd;dunstify 'sxhkd' 'Reloaded config'
 
 # Terminal
-super + Return
-    urxvtc -cd ~
-#super + {_,shift +} Return
-#    {urxvtc -cd ~, alacritty}
+super + {_,shift +} Return
+    {urxvtc -cd ~, st}
+#super + Return
+#    urxvtc -cd ~
 
 # Toggle systray
 super + Tab

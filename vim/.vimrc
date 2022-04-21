@@ -166,6 +166,8 @@ filetype indent plugin on
 set wrapmargin=8
 set tabstop=4 softtabstop=0 expandtab smarttab
 set shiftwidth=4
+" fixes mouse for ST terminal
+set ttymouse=sgr
 
 " case ignore
 set ignorecase
