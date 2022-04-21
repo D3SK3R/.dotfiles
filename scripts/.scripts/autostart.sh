@@ -106,4 +106,6 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
 sleep 4 && discord & #premid &
 
+sleep 10 && copyq &
+
 
