@@ -28,8 +28,9 @@
 	/*base0D: #00BCD4;*/
 
 	spacing: 0;
-	background-color: transparent;
-    //background-color: #10141c;
+	//background-color: transparent;
+    background-color: #10141C;
+    foreground: #FFFFFF;
 
 	font: "Roboto Mono 12";
 }
@@ -49,23 +50,23 @@ window {
 
 mainbox {
 	children: [inputbar, message, listview];
-	spacing: 20px;
+	spacing: 0px;
 	/*margin: 20%;*/
-	padding: 20px 0;
+	padding: 5px 4px;
 	border: 2px;
 	//border-color: @base0D;
-	border-color: #000000;
-    border-radius: 8px;
+	border-color: #7a9dda;
+    border-radius: 6px;
 }
 
 inputbar {
-	padding: 0 30px;
+	padding: 15px 0px 15px 30px;
 	//children: [prompt, textbox-prompt-colon, entry, case-indicator];
     children: [entry, case-indicator];
 }
 
 prompt {
-	text-color: @base0D;
+	text-color: #FFFFFF;
 }
 
 textbox-prompt-colon {
@@ -76,7 +77,8 @@ textbox-prompt-colon {
 }
 
 entry {
-	text-color: @base07;
+	text-color: @foreground;
+    padding: 0px 0px;
 }
 
 case-indicator {
@@ -85,13 +87,14 @@ case-indicator {
 
 sidebar, message {
 	border: 1px 0;
-	border-color: @base0D;
+    padding: 0px 0px 10px 0px;
+	border-color: @background;
 }
 
 button, textbox {
-	background-color: @base03;
+	background-color: @background;
 	text-color: @base07;
-	padding: 5px;
+	padding: 0px 30px;
 }
 
 button selected {
@@ -100,33 +103,33 @@ button selected {
 
 listview {
 	scrollbar: true;
-	margin: 0 10px 0 30px;
+	margin: 0px 10px 0px 20px;
 }
 
 scrollbar {
-	background-color: #000000;
-	handle-color: #00CCFF;
+	background-color: @background;
+	handle-color: #51526c;
 	handle-width: 10px;
 	border: 0 1px;
-	border-color: #00CCFF;
+	border-color: #51526c;
     border-radius: 10px;
-	margin: 0 0 0 20px;
+	margin: 0px 0px 15px 15px;
 }
 
 element {
 	padding: 5px;
 	highlight: bold underline;
     border: 0;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 element normal {
-	background-color: transparent;
+	background-color: @background;
 }
 
 element selected {
-	background-color: #00CCFF;
-	text-color: @text;
+	background-color: #51526c;
+	text-color: #FFFFFF;
 }
 
 element alternate {
