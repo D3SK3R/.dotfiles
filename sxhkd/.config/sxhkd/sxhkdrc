@@ -98,9 +98,9 @@ super + Escape
 super + {_, shift +} m
     {urxvt -title ncmpcpp -e ncmpcpp, bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify}
 
-# Rofi notify center
+# Rofi notify center and toggle notifications show
 super + {_,shift + } n
-    ~/.scripts/rofi-notifcenter.sh
+    {~/.scripts/rofi-notifcenter.sh, dunstctl set-paused toggle}
 
 # Open clipboard URL with mpv, shift to close all mpv windows
 super + {_,shift,ctrl + } o
