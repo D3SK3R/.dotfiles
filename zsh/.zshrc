@@ -127,6 +127,8 @@ plugins=(
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
+export FZF_COMPLETION_OPTS='--height=60% --color=16'
+
 # Uncomment the following line to disable fuzzy completion
 # export DISABLE_FZF_AUTO_COMPLETION="true"
 
@@ -401,7 +403,8 @@ alias mkdir='mkdir -p'
 alias cat='bat'
 alias python='bpython'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
-alias fzf="fzf | xargs xdg-open"
+#alias fzf="fzf --bind 'enter:execute(xdg-open {})'"
+alias fzf="fzf --height=60% --color=16 | xargs xdg-open"
 alias vim='stty stop "" -ixoff; vim'
 alias v='stty stop "" -ixoff; vim'
 alias c='clear'

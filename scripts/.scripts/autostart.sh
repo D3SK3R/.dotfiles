@@ -80,7 +80,7 @@ start-pulseaudio-x11
 #sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
 run mpd
-run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+#run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
 #sleep 3 && killall copyq;copyq & 
 #sh -c "sleep 5; copyq &"
