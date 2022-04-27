@@ -158,6 +158,18 @@ case $class in
         echo "state=floating"
         echo "rectangle=402x715+486+36"
         ;;
+    "Steam")
+        if [[ $title =~ "Properties".* ]]; then
+            echo "state=floating"
+        else
+            echo "state=floating"
+            echo "rectangle=1314x701+1388+43"
+        fi
+        ;;
+    "Spotify")
+        echo "state=floating"
+        echo "rectangle=963x682+1559+49"
+        ;;
 esac
 
 case $title in

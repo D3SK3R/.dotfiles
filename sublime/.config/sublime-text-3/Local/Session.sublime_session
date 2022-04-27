@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1650313561,
+	"next_update_check": 1651091161,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/pqp",
+				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
+				"/home/d3sk3r/pqp.txt",
 				"/home/d3sk3r/nft/get-pip.py",
 				"/home/d3sk3r/anime",
 				"/home/d3sk3r/crypto.txt",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/.local/share/powercord/themes/FrostedGlass/Frosted-Glass.theme.css",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
 				"/home/d3sk3r/MEGA/pqp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini"
 			],
 			"find":
 			{
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -657,6 +657,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/pqp",
+				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
+				"/home/d3sk3r/pqp.txt",
 				"/home/d3sk3r/nft/get-pip.py",
 				"/home/d3sk3r/anime",
 				"/home/d3sk3r/crypto.txt",
@@ -781,10 +784,7 @@
 				"/home/d3sk3r/.local/share/powercord/themes/FrostedGlass/Frosted-Glass.theme.css",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
 				"/home/d3sk3r/MEGA/pqp",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/fzf fuzzy finder/links.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FIX_ETHERNET/FIX_ETHERNET.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/gamemode/gamemode.ini"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,2",
 			"project": "",
 			"replace":
 			{
