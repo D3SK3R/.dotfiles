@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1651091161,
+	"next_update_check": 1651177561,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
+				"/home/d3sk3r/MEGA/discord/leticia/cam",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp",
 				"/home/d3sk3r/MEGA/sbll/Dreams.txt",
 				"/home/d3sk3r/pqp",
 				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/Valheim + Dedicated Server (0.206.5)/valheim_v0.206.5.run",
 				"/home/d3sk3r/r8169_blacklist.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where",
-				"/home/d3sk3r/.local/share/powercord/themes/FrostedGlass/Frosted-Glass.theme.css",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
-				"/home/d3sk3r/MEGA/pqp"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where"
 			],
 			"find":
 			{
@@ -657,6 +657,9 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
+				"/home/d3sk3r/MEGA/discord/leticia/cam",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp",
 				"/home/d3sk3r/MEGA/sbll/Dreams.txt",
 				"/home/d3sk3r/pqp",
 				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
@@ -781,10 +784,7 @@
 				"/home/d3sk3r/Valheim + Dedicated Server (0.206.5)/valheim_v0.206.5.run",
 				"/home/d3sk3r/r8169_blacklist.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where",
-				"/home/d3sk3r/.local/share/powercord/themes/FrostedGlass/Frosted-Glass.theme.css",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/installToOpt.txt",
-				"/home/d3sk3r/MEGA/pqp"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
