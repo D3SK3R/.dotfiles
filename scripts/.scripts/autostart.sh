@@ -82,8 +82,7 @@ start-pulseaudio-x11
 run mpd
 #run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
-#sleep 3 && killall copyq;copyq & 
-#sh -c "sleep 5; copyq &"
+kmonad ~/.config/kmonad/config.kbd &
 
 nitrogen --restore &
 
