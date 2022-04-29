@@ -90,6 +90,8 @@ picom -b --experimental-backend &
 
 sleep 10 && flashfocus &
 
+sleep 10 && copyq &
+
 # floating stuff
 sleep 3 && urxvt -title floating_terminal &
 #sleep 3 && st -n floating_terminal &
@@ -105,7 +107,5 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 #sleep 5 && firefox &
 
 sleep 4 && discord & #premid &
-
-sleep 10 && copyq &
 
 
