@@ -90,6 +90,7 @@ picom -b --experimental-backend &
 
 sleep 10 && flashfocus &
 
+# disable the autostart option inside copyq's preferences
 sleep 10 && copyq &
 
 # floating stuff
