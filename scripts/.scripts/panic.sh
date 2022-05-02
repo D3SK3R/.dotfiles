@@ -50,11 +50,11 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
 
     # pauses the media if playing
     if [[ $(playerctl status) = "Playing" ]]; then
-        echo 'playing' >> $file
+        echo 'playerctl playing' >> $file
         playerctl play-pause
     fi
     if [[ $(mpc -p 6600 | grep playing) ]]; then
-        echo 'playing' >> $file
+        echo 'mpd playing' >> $file
         mpc -p 6600 pause
     fi
 
@@ -73,9 +73,11 @@ else
     xdo close -n 'panic'
 
     while read line; do
-        # reads the file to know whether the music was paused, if so, resumes it
-        if [ "$line" = 'playing' ]; then
+        # reads the file to know whether it's paused the media, if so, resumes it
+        if [ "$line" = 'playerctl playing' ]; then
             playerctl play
+        fi
+        if [ "$line" = 'mpd playing' ]; then
             mpc -p 6600 play
         fi
         # reads the file to know what workspaces I was in and goes to it
