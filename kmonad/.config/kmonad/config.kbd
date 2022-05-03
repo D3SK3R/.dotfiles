@@ -40,7 +40,7 @@
 )
 
 ;; maps caps to act as super (windows) key when held down and as normal capslock when tapped
-(defalias caps (tap-hold 100 caps lmet))
+(defalias caps (tap-hold 150 caps lmet))
 ;;(defalias lctl (tap-hold 200 lctl lsft))
 
 (deflayer  default

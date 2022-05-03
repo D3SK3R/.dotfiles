@@ -10,22 +10,22 @@
 killall -q polybar
 
 # Wait until the processes have been shut down
-while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
+#while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
 
 # Monitors
 PRIMARY=$(xrandr --query | grep " connected" | grep "primary" | cut -d" " -f1)
 OTHERS=$(xrandr --query | grep " connected" | grep -v "primary" | cut -d" " -f1)
 
 if type "xrandr" > /dev/null; then
-    MONITOR=$PRIMARY polybar --reload main -c ~/.config/polybar/config &
+    MONITOR=$PRIMARY polybar --reload main -c ~/.config/polybar/config.ini &
     # sleep necessary so that the bar on the main monitor loads first and takes the tray output
     # *only necessary if using 1 bar for two monitors, if not, just leave the tray enable on only 1 monitor
     #sleep 1
     for m in $OTHERS; do
-        MONITOR=$m polybar --reload main2 -c ~/.config/polybar/config &
+        MONITOR=$m polybar --reload main2 -c ~/.config/polybar/config.ini &
     done
 else
-    polybar --reload main -c ~/.config/polybar/config &
+    polybar --reload main -c ~/.config/polybar/config.ini &
 fi
 
 #count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
