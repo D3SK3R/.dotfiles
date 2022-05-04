@@ -2,31 +2,39 @@
 
 # CLEAN:
 # sudo pacman -Sc: Remove all the cached packages that are not currently installed, and the unused sync database from pacman (default repos)
-# yay - Yc: Does the same as above but for the AUR
-# sudo pacman -Rns $(pacman -Qtdq): Remove all unused dependencies from unisntalled packages
-# sudo paccache -r: clean all packages, except the 3 most recent versions
+# yay -Yc: Does the same as above but for the AUR
+# pacman -Qtdq | sudo pacman -Rns --noconfirm -: Remove all unused dependencies from unisntalled packages
+# sudo paccache -r -k 2: clean all packages, except the 2 most recent versions
 
 read -p "This command will remove cached packages and sync database of not installed packages, keep only the 2 most recent versions of installed packages (paccache), and remove all unused dependencies... It will also clean the trash.
 [Y/n]: " choice 
 
 if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
     printf "Cleaning..."
-    
-    #printf "\nsudo pacman -Sc --noconfirm"
-    #sudo pacman -Sc --noconfirm &&
+   
+    # removes not installed packages from cache 
+    printf "\n\nsudo pacman -Sc --noconfirm\n"
+    sudo pacman -Sc --noconfirm 
 
-    #printf "\nyay -Sc --noconfirm"
-    #yay -Sc --noconfirm &&
+    printf "\nyay -Sc --noconfirm\n"
+    yay -Sc --noconfirm 
 
-    #printf "\nyay -Yc"
-    #yay -Yc &&
+    printf "\nyay -Yc --noconfirm\n"
+    yay -Yc --noconfirm
 
-    #printf "\nsudo pacman -Rns --noconfirm $(pacman -Qtdq)"
-    #sudo pacman -Rns --noconfirm $(pacman -Qtdq) && 
+    # removes unused packages (orphans)
+    # https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Removing_unused_packages_(orphans)
+    printf "\nsudo pacman -Rns --noconfirm $(pacman -Qtdq)"
+    pacman -Qtdq | sudo pacman -Rns --noconfirm -
+    #sudo pacman -Rns --noconfirm $(pacman -Qtdq) 
 
+    # removes packages from cache, maintaning only 2 versions of each (for downgrade)
+    # not necessary to be here since there's a hook in:
+    # /usr/share/libalpm/hooks/paccache.hook
     printf "\nsudo paccache -r -k 2\n"
-    sudo paccache -r
-    
+    sudo paccache -r -k 2
+   
+    printf "\ncleaning trash\n" 
     rm -rf ~/.local/share/Trash/files/*
 else
     printf "Aborting..."
@@ -34,9 +42,13 @@ fi
 
 # Other tips to get more space:
 
+# good guide:
+# https://averagelinuxuser.com/clean-arch-linux/
+
 # 1 - ~/.cache/
 # go to ~/.cache/
 # use some program like dust to show file sizes and delete unused stuff
+# (there would be no problem to just delete everything inside .cache)
 
 # 2 - pacman cached packages (older versions of the installed packages): 
 # go to /var/cache/pacman/pkg/
