@@ -24,7 +24,7 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
 
     # removes unused packages (orphans)
     # https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Removing_unused_packages_(orphans)
-    printf "\nsudo pacman -Rns --noconfirm $(pacman -Qtdq)"
+    printf "\nsudo pacman -Rns --noconfirm \$(pacman -Qtdq)\n"
     pacman -Qtdq | sudo pacman -Rns --noconfirm -
     #sudo pacman -Rns --noconfirm $(pacman -Qtdq) 
 
