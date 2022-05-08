@@ -60,17 +60,17 @@
     (monitor 0))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 0 12))
+    (position 479 222))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 342 68)
-    (size 678 628))
+    (position 342 11)
+    (size 678 741))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 0 0))
+    (position 459 148))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 342 68)
+    (position 342 11)
     (size 678 741))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")

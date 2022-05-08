@@ -570,6 +570,9 @@ alias color-test='msgcat --color=test'
 alias colors='curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash'
 alias loopbackmic='arecord -f cd - | aplay -'
 alias urandom='{ while true; do head -c 16 /dev/urandom | xxd; sleep 0.2; done; }'
+
+alias webp2jpg='magick mogrify -format jpg *.webp;rm *.webp'
+
 alias fakecam='f(){ ffmpeg -stream_loop -1 -re -i $@ -vcodec rawvideo -threads 0 -f v4l2 /dev/video0;  unset -f f; }; f'
 alias webcam-disable='sudo modprobe -r uvcvideo'
 alias webcam-enable='sudo modprobe uvcvideo'

@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Windows.bat",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Disable AV windows.ps1",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Defender.bat",
 				"/home/d3sk3r/anime",
 				"/home/d3sk3r/freeze.txt",
 				"/home/d3sk3r/pqp.txt",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/discord/Evellyn/@info.txt",
 				"/home/d3sk3r/linux/install-protocol.sh",
-				"/home/d3sk3r/MEGA/discord/Evellyn/@num.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/niv.txt",
-				"/home/d3sk3r/.games/Celeste/desktop",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt"
+				"/home/d3sk3r/MEGA/discord/Evellyn/@num.txt"
 			],
 			"find":
 			{
@@ -657,6 +657,9 @@
 			},
 			"file_history":
 			[
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Windows.bat",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Disable AV windows.ps1",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Defender.bat",
 				"/home/d3sk3r/anime",
 				"/home/d3sk3r/freeze.txt",
 				"/home/d3sk3r/pqp.txt",
@@ -781,10 +784,7 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/discord/Evellyn/@info.txt",
 				"/home/d3sk3r/linux/install-protocol.sh",
-				"/home/d3sk3r/MEGA/discord/Evellyn/@num.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/niv.txt",
-				"/home/d3sk3r/.games/Celeste/desktop",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt"
+				"/home/d3sk3r/MEGA/discord/Evellyn/@num.txt"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
