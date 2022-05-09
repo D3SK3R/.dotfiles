@@ -109,4 +109,6 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
 sleep 4 && discord & #premid &
 
+sh $HOME/.scripts/better.sh &
+
 
