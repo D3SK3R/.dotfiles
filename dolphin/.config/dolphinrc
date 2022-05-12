@@ -1,5 +1,11 @@
+MenuBar=Disabled
+
 [CompactMode]
 FontWeight=50
+
+[ContextMenu]
+ShowSortBy=false
+ShowViewMode=false
 
 [CreateDialog]
 LastMimeType=application/x-lz4-compressed-tar
@@ -9,6 +15,7 @@ FontWeight=50
 
 [General]
 RememberOpenedTabs=false
+ShowFullPath=true
 ShowZoomSlider=false
 SortingChoice=CaseInsensitiveSorting
 Version=201
@@ -36,3 +43,6 @@ History=viewn
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
