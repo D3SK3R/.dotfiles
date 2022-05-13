@@ -41,7 +41,7 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
-sleep 6 && $HOME/.scripts/headset-configure &
+sleep 4 && $HOME/.scripts/headset-configure &
 
 #######################
 ###    programs     ###
@@ -49,6 +49,8 @@ sleep 6 && $HOME/.scripts/headset-configure &
 xrdb -merge $HOME/.Xresources
 
 run sxhkd
+
+run kmonad ~/.config/kmonad/config.kbd &
 
 run urxvtd -q -o -f
 
@@ -81,8 +83,6 @@ start-pulseaudio-x11
 
 run mpd
 #run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
-
-kmonad ~/.config/kmonad/config.kbd &
 
 nitrogen --restore &
 
