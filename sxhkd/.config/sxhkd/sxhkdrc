@@ -62,9 +62,10 @@ super + c
     #copyq toggle
     #roficlip
 
+# https://github.com/svenstaro/rofi-calc
 # Rofi-calc
 super + ctrl + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '{result}' | clipster -c" -theme themes/style.rasi
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | clipster -c" -theme themes/style.rasi
 
 # Rofi
 super + d
