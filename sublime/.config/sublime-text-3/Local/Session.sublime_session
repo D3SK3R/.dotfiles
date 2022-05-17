@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/analytics/desker_/bianquinha182.json",
 				"/home/d3sk3r/GauFarm/GauPoints.exe.config",
 				"/home/d3sk3r/MEGA/discord/Carol/extensao/amor-extension/context.js",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Windows.bat",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/dpsFatec.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
-				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/@info.txt"
+				"/home/d3sk3r/MEGA/voice.txt"
 			],
 			"find":
 			{
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 1065.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -657,6 +657,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/analytics/desker_/bianquinha182.json",
 				"/home/d3sk3r/GauFarm/GauPoints.exe.config",
 				"/home/d3sk3r/MEGA/discord/Carol/extensao/amor-extension/context.js",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Windows.bat",
@@ -783,8 +784,7 @@
 				"/home/d3sk3r/dpsFatec.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
-				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/discord/Evellyn/@info.txt"
+				"/home/d3sk3r/MEGA/voice.txt"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,287,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
