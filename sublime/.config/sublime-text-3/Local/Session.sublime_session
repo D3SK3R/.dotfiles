@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1652813945,
+	"next_update_check": 1652900345,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,17 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/minecraft.desktop",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
+				"/home/d3sk3r/.lunarclient/licenses/replaymod.txt",
+				"/home/d3sk3r/.lunarclient/launcher-cache/hwid-private-do-not-share",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTconfiglunarclient/where.txt",
+				"/home/d3sk3r/MEGA/facul/FATEC/tcc/Campus Academico/whatsapp.txt",
+				"/home/d3sk3r/.minecraft/launcher_gamer_pics.json",
+				"/home/d3sk3r/.lunarclient/settings/game/profile_manager.json",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/analytics/desker_/bianquinha182.json",
 				"/home/d3sk3r/GauFarm/GauPoints.exe.config",
 				"/home/d3sk3r/MEGA/discord/Carol/extensao/amor-extension/context.js",
@@ -332,18 +343,7 @@
 				"/home/d3sk3r/SecLists/Passwords/Software/john-the-ripper.txt",
 				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/rockyou-15.txt",
 				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/singles.org-withcount.txt",
-				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/youporn2012-raw.txt",
-				"/home/d3sk3r/SecLists/IOCs/kaspersky-careto-C2.txt",
-				"/home/d3sk3r/SecLists/IOCs/kaspersky-careto-domains.txt",
-				"/home/d3sk3r/SecLists/randomFinds/crackstation-human-only.txt",
-				"/home/d3sk3r/SecLists/randomFinds/Valid Mails.txt",
-				"/home/d3sk3r/SecLists/randomFinds/dlh.txt",
-				"/home/d3sk3r/aptoide.com_g0d.one.txt",
-				"/home/d3sk3r/zynga_g0d.one.txt",
-				"/home/d3sk3r/dpsFatec.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
-				"/home/d3sk3r/MEGA/voice.txt"
+				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/youporn2012-raw.txt"
 			],
 			"find":
 			{
@@ -519,6 +519,54 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
+					"settings":
+					{
+						"buffer_size": 85,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
+					"settings":
+					{
+						"buffer_size": 23,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
+					"settings":
+					{
+						"buffer_size": 322,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/performance.json",
+					"settings":
+					{
+						"buffer_size": 152,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/sound_settings.txt",
+					"settings":
+					{
+						"buffer_size": 2,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json",
+					"settings":
+					{
+						"buffer_size": 61,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +705,17 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/add to path/minecraft.desktop",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/accs.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/JavaLinux",
+				"/home/d3sk3r/.lunarclient/licenses/replaymod.txt",
+				"/home/d3sk3r/.lunarclient/launcher-cache/hwid-private-do-not-share",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTconfiglunarclient/where.txt",
+				"/home/d3sk3r/MEGA/facul/FATEC/tcc/Campus Academico/whatsapp.txt",
+				"/home/d3sk3r/.minecraft/launcher_gamer_pics.json",
+				"/home/d3sk3r/.lunarclient/settings/game/profile_manager.json",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/Shiginima_Launcher/JavaLinux",
 				"/home/d3sk3r/analytics/desker_/bianquinha182.json",
 				"/home/d3sk3r/GauFarm/GauPoints.exe.config",
 				"/home/d3sk3r/MEGA/discord/Carol/extensao/amor-extension/context.js",
@@ -773,18 +832,7 @@
 				"/home/d3sk3r/SecLists/Passwords/Software/john-the-ripper.txt",
 				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/rockyou-15.txt",
 				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/singles.org-withcount.txt",
-				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/youporn2012-raw.txt",
-				"/home/d3sk3r/SecLists/IOCs/kaspersky-careto-C2.txt",
-				"/home/d3sk3r/SecLists/IOCs/kaspersky-careto-domains.txt",
-				"/home/d3sk3r/SecLists/randomFinds/crackstation-human-only.txt",
-				"/home/d3sk3r/SecLists/randomFinds/Valid Mails.txt",
-				"/home/d3sk3r/SecLists/randomFinds/dlh.txt",
-				"/home/d3sk3r/aptoide.com_g0d.one.txt",
-				"/home/d3sk3r/zynga_g0d.one.txt",
-				"/home/d3sk3r/dpsFatec.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
-				"/home/d3sk3r/MEGA/voice.txt"
+				"/home/d3sk3r/SecLists/Passwords/Leaked-Databases/youporn2012-raw.txt"
 			],
 			"find":
 			{
@@ -832,6 +880,183 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 85,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 23,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 322,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax"
+								},
+								"translation.x": 2020.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/performance.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 152,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax"
+								},
+								"translation.x": 83.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/sound_settings.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 61,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -875,7 +1100,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{

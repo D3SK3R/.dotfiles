@@ -634,7 +634,7 @@ time-alt = " %H:%M:%S "
 [module/btc]
 type = custom/script
 exec = forx btc brl | cut -d . -f 1
-interval = 30
+interval = 60
 
 format = <label>
 format-background = ${colors.bg}

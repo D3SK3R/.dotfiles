@@ -43,7 +43,7 @@
 (defalias caps (tap-hold 150 caps lmet))
 
 ;; maps enter/ret(urn) to act as super when held down
-(defalias ret (tap-hold 200 ret lmet))
+(defalias ret (tap-hold 250 ret lmet))
 
 ;; maps left control to left shift when held down (for test purposes)
 ;;(defalias lctl (tap-hold 200 lctl lsft))
