@@ -50,7 +50,7 @@ xrdb -merge $HOME/.Xresources
 
 run sxhkd
 
-run kmonad ~/.config/kmonad/config.kbd &
+sleep 5 && run kmonad ~/.config/kmonad/config.kbd &
 
 run urxvtd -q -o -f
 
