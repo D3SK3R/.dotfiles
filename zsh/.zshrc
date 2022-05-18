@@ -473,6 +473,7 @@ alias keys="sh .scripts/showKeys.sh"
 alias install='~/.scripts/install'
 alias search='~/.scripts/searchPacman'
 alias packages='pacman -Q'
+alias lastpacman='\grep -E "upgraded|installed" /var/log/pacman.log'
 # only works on manjaro, for arch, use something like reflector-simple
 alias update-mirrors='sudo pacman-mirrors -id'
 alias yay='f(){ yay "$@" --noconfirm --sudoloop;  unset -f f; }; f'
