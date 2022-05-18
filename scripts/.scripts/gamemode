@@ -15,7 +15,10 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     # now it completely kills chrome
     # Kill chrome GPU process
     #kill $(ps auxf | grep "gpu" | grep "chrome" | awk '{print $2}')
-    
+   
+    # Killing polybar
+    killall polybar
+
     # Kill compositor
     sleep 1.6 && killall picom
     
@@ -29,6 +32,9 @@ else
 
     # Send notify
     dunstify -t 1500 -i "/usr/share/icons/Papirus-Dark/22x22/actions/attentions.svg" "Disabling Game mode" -r $notifyid
+
+    # Starting Polybar
+    $HOME/.config/polybar/launch.sh & sleep 3 && bspc config top_padding 22 &
 
     # Starting compositor
     picom -b --experimental-backend &

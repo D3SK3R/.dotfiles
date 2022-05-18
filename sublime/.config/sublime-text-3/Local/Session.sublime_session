@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -566,6 +566,14 @@
 						"buffer_size": 61,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/found",
+					"settings":
+					{
+						"buffer_size": 299,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -907,7 +915,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 6,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -936,7 +944,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 5,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -965,7 +973,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 4,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -994,7 +1002,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -1023,14 +1031,13 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 5,
 							"file": "/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1048,6 +1055,36 @@
 								"settings":
 								{
 									"syntax": "Packages/JSON/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/d3sk3r/found",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 299,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1100,7 +1137,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
