@@ -394,6 +394,7 @@ alias la='exa --group-directories-first --icons -lah'
 alias cl='clear;ls'
 alias rm='trash'
 alias rmtrash='\rm -rf ~/.local/share/Trash/files/*'
+alias trashcd='cd ~/.local/share/Trash/files/'
 # confirm before mv or cp overwriting files
 alias mv='mv -i'
 alias cp='cp -ri'
