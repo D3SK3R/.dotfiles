@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,19 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
@@ -270,7 +283,6 @@
 				"/var/cache/debtap/debian-main-packages-files",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
 				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
 				"/home/d3sk3r/amor-extension/popup.html",
@@ -331,19 +343,7 @@
 				"/home/d3sk3r/leaks/list.txt",
 				"/home/d3sk3r/SecLists/Passwords/Cracked-Hashes/milw0rm-dictionary.txt",
 				"/home/d3sk3r/SecLists/Passwords/Permutations/password-permutations.txt",
-				"/home/d3sk3r/SecLists/Passwords/twitter-banned.txt",
-				"/home/d3sk3r/MEGA/FATEC/tcc/tcc.txt",
-				"/home/d3sk3r/MEGA/FATEC/tcc/Campus Academico/whatsapp.txt",
-				"/home/d3sk3r/Leet.cc Database leaked August 2016/leet.cc.sql",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/discordToken.py",
-				"/home/d3sk3r/MEGA/discord/1discord token/grabber.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/LaZagne/Github.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/grabber.py",
-				"/home/d3sk3r/MEGA/discord/1discord token/Access discord account using token.txt",
-				"/home/d3sk3r/MEGA/discord/1discord token/console command to get token.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/passwds/autorun.inf",
-				"/run/media/d3sk3r/persistence/persistence.conf",
-				"/home/d3sk3r/deadcells"
+				"/home/d3sk3r/SecLists/Passwords/twitter-banned.txt"
 			],
 			"find":
 			{
@@ -519,6 +519,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
+					"settings":
+					{
+						"buffer_size": 665,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +665,19 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
@@ -711,7 +732,6 @@
 				"/var/cache/debtap/debian-main-packages-files",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
 				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
 				"/home/d3sk3r/amor-extension/popup.html",
@@ -772,19 +792,7 @@
 				"/home/d3sk3r/leaks/list.txt",
 				"/home/d3sk3r/SecLists/Passwords/Cracked-Hashes/milw0rm-dictionary.txt",
 				"/home/d3sk3r/SecLists/Passwords/Permutations/password-permutations.txt",
-				"/home/d3sk3r/SecLists/Passwords/twitter-banned.txt",
-				"/home/d3sk3r/MEGA/FATEC/tcc/tcc.txt",
-				"/home/d3sk3r/MEGA/FATEC/tcc/Campus Academico/whatsapp.txt",
-				"/home/d3sk3r/Leet.cc Database leaked August 2016/leet.cc.sql",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/discordToken.py",
-				"/home/d3sk3r/MEGA/discord/1discord token/grabber.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/LaZagne/Github.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/discord token/grabber.py",
-				"/home/d3sk3r/MEGA/discord/1discord token/Access discord account using token.txt",
-				"/home/d3sk3r/MEGA/discord/1discord token/console command to get token.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/USBPasswds/passwds/autorun.inf",
-				"/run/media/d3sk3r/persistence/persistence.conf",
-				"/home/d3sk3r/deadcells"
+				"/home/d3sk3r/SecLists/Passwords/twitter-banned.txt"
 			],
 			"find":
 			{
@@ -832,6 +840,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 665,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -875,7 +913,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
