@@ -50,7 +50,8 @@ xrdb -merge $HOME/.Xresources
 
 run sxhkd
 
-sleep 5 && run kmonad ~/.config/kmonad/config.kbd &
+# too high cpu from time to time
+#sleep 5 && run kmonad ~/.config/kmonad/config.kbd &
 
 run urxvtd -q -o -f
 
