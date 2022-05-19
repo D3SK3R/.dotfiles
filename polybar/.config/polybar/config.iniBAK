@@ -1,0 +1,188 @@
+; vim:ft=dosini
+;========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   Created By Aditya Shakya.
+;
+;==========================================================
+
+include-file = ~/.config/polybar/colors
+include-file = ~/.config/polybar/modules
+
+;==========================================================
+; 				         Primary Bar
+;==========================================================
+[bar/main]
+width = 100%
+;height = 32
+height = 23
+; rounded corners
+radius = 4
+;radius-bottom = 4
+bottom = false
+fixed-center = true
+line-size = 1
+wm-restack = bspwm
+
+;padding = 5
+
+spacing = 0
+module-margin-left = 0
+module-margin-right = 0
+
+offset-y = 0%
+offset-x = 0%
+
+# ex: MONITOR=eDP-1 polybar --reload main
+monitor = ${env:MONITOR:}
+
+border-size = 2
+border-color = ${colors.transparent}
+
+;border-top-size = 2
+;border-top-color = ${colors.transparent}
+
+;border-bottom-size = 1
+;border-bottom-color = ${colors.bg}
+
+;border-left-size = 0
+;border-bottom-size = 0
+
+;border-transparent = true
+
+background = ${colors.transparent}
+foreground = ${colors.fg}
+
+; Make polybar override (stay above) windows
+override-redirect = false
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+enable-ipc = true
+
+;==========================================================
+; Fonts
+;==========================================================
+
+include-file = ~/.config/polybar/fonts
+
+;==========================================================
+; Module Location
+;=========================================================
+
+modules-left = sepR1 bspwm sepL2 mpd sepL4
+modules-center =
+modules-right = sepR4 cpu sepR2 ram sepR2 mute pavolume sepR2 battery sepR3 date sepL1
+
+;left - center - right - none
+tray-position = center
+;tray-transparent = false
+tray-background = ${colors.transparent}
+tray-foreground = ${colors.fg}
+tray-padding = 2
+tray-scale = 1.0
+;tray-maxsize = 15
+tray-offset-x = 0
+tray-offset-y = 0
+tray-output = ${env:MONITOR:}
+# "xrandr | grep -Ew 'connected'" to see all connected display names
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
+;tray-detached = false
+
+;==========================================================
+; 				         Secondary Bar
+;==========================================================
+[bar/main2]
+width = 100%
+;height = 32
+height = 23
+; rounded corners
+radius = 4
+;radius-bottom = 4
+botto = false
+fixed-center = true
+line-size = 1
+wm-restack = bspwm
+
+;padding = 5
+
+spacing = 0
+module-margin-left = 0
+module-margin-right = 0
+
+offset-y = 0
+offset-x = 0
+
+monitor = ${env:MONITOR:}
+
+border-size = 2
+border-colors = ${colors.transparent}
+
+;border-top-size = 2
+;border-top-colors = ${colors.transparent}
+
+;border-bottom-size = 1
+;border-bottom-colors = ${colors.bg}
+
+;border-left-size = 0
+;border-bottom-size = 0
+
+;border-transparent = true
+
+background = ${colors.transparent}
+foreground = ${colors.fg}
+
+; Make polybar override (stay above) windows
+override-redirect = false
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+enable-ipc = true
+
+;==========================================================
+; Fonts
+;==========================================================
+
+include-file = ~/.config/polybar/fonts
+
+;==========================================================
+; Module Location
+;=========================================================
+
+modules-left = sepR1 bspwm sepL3 mpd sepL4
+modules-center =
+modules-right = sepR4 cpu sepR2 ram sepR2 btc sepR2 mute pavolume sepR2 battery sepR3 date sepL1
+;modules-right = sepR4 cpu sepR3 ram sepR2 mute pavolume sepR3 battery sepR2 openweather sepR3 date sepL1
+
+;left - center - right - none
+tray-position = none
+;tray-transparent = false
+tray-background = ${colors.bg}
+tray-foreground = ${colors.fg}
+tray-padding = 2
+tray-scale = 1.0
+;tray-maxsize = 15
+tray-offset-x = 0
+tray-offset-y = 0
+tray-output = eDP1
+# "xrandr | grep -Ew 'connected'" to see all connected display names
+;tray_output {display_name, e.g.: eDP1 or 'primary'}
+;tray-detached = false
+
+;== EOF ========================================================
