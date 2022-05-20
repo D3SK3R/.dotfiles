@@ -2,8 +2,8 @@
 
 # script to show/hide polybar
 
-wid=$(xdotool search --name "polybar-main_eDP-1" | head -n1)
-wid2=$(xdotool search --name "polybar-main2_DP-1" | head -n1)
+wid=$(xdotool search --name "polybar-main_eDP1" | head -n1)
+wid2=$(xdotool search --name "polybar-main2_DP1" | head -n1)
 state=$(xwininfo -id $wid | grep "Map State:")
 
 if [[ $state == *IsViewable ]]; then
