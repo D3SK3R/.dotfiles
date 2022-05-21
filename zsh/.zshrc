@@ -47,9 +47,6 @@ export TERM="rxvt-unicode-256color"
 
 export BROWSER="/usr/bin/google-chrome-stable"
 
-# Map the menu key to slash
-xmodmap -e "keycode 135 = slash"
-
 autoload -U compinit
 compinit
 
@@ -202,6 +199,7 @@ lfcd () {
 
 bindkey -s '^f' 'lfcd\n'
 
+# Sourcing oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -477,6 +475,9 @@ alias packages='pacman -Q'
 alias lastpacman='\grep -E "upgraded|installed" /var/log/pacman.log'
 # only works on manjaro, for arch, use something like reflector-simple
 alias update-mirrors='sudo pacman-mirrors -id'
+# for arch:
+#alias updatemirrors='sudo reflector --verbose --latest 50 --protocol https \
+#  --sort rate --save /etc/pacman.d/mirrorlist && yay'
 alias yay='f(){ yay "$@" --noconfirm --sudoloop;  unset -f f; }; f'
 alias update='yay -Syyu --sudoloop'
 alias update-manual='"yay" -Syyu --sudoloop'
@@ -585,6 +586,19 @@ alias vps='ssh -i ~/.ssh/id_rsa ubuntu@144.22.163.237'
 #alias crypto='f(){ forx $@ brl;  unset -f f; }; f'
 alias crypto='export ALPHAVANTAGE_API_KEY=7YHWWPANUG42KXZS;tstock -c brl'
 
+##########################################################################
+# Create and Extract files
+##########################################################################
+
+# create a *.tar.xz archive from a given file or directory
+maketarxz() { tar cvJf "${1%%/}.tar.xz" "${1%%/}/" || return 1; }
+
+# create a *.tar.gz archive from a given file or directory
+maketargz() { tar cvzf "${1%%/}.tar.gz" "${1%%/}/" || return 1; }
+
+# create a *.zip archive from a given file or directory
+makezip() { zip -r "${1%%/}.zip" "$1" || return 1; }
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
@@ -608,6 +622,57 @@ ex ()
     esac
   else
     echo "'$1' is not a valid file"
+  fi
+}
+
+# extract all files from an archive into current directory
+extract() {
+  local usage="Usage: extract <path/filename>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z\
+|xz|ex|tar.bz2|tar.gz|tar.xz>"
+  if [[ -z "$1" ]]; then
+    echo "${usage}"
+    return 1
+  elif [[ ! -f "$1" ]]; then
+    if [[ -d "$1" ]]; then
+      echo -e "Error: '$1' is a directory.\n${usage}"
+    else
+      echo -e "Error: '$1' does not exist.\n${usage}"
+    fi
+    return 1
+  else
+    case "$1" in
+      *.tar.bz2)  tar xvjf "$1"    ;;
+      *.tar.gz)   tar xvzf "$1"    ;;
+      *.tar.xz)   tar xvJf "$1"    ;;
+      *.lzma)     unlzma "$1"      ;;
+      *.bz2)      bunzip2 "$1"     ;;
+      *.rar)      unrar x -ad "$1" ;;
+      *.gz)       gunzip "$1"      ;;
+      *.tar)      tar xvf "$1"     ;;
+      *.tbz2)     tar xvjf "$1"    ;;
+      *.tgz)      tar xvzf "$1"    ;;
+      *.zip)      unzip "$1"       ;;
+      *.Z)        uncompress "$1"  ;;
+      *.7z)       7z x "$1"        ;;
+      *.xz)       unxz "$1"        ;;
+      *.exe)      cabextract "$1"  ;;
+      *)
+        echo -e "Error: '$1' has no recognized extraction method.\n${usage}"
+        return 1
+        ;;
+    esac
+  fi
+}
+
+# create a directory and cd into it
+#mcd() {
+mkd() {
+  if [[ -z "$1" ]]; then
+    echo "Usage: mkd <new_dir>"
+    return 1
+  else
+    mkdir "$1" || return 1
+    cd "$1" || return 1
   fi
 }
 
