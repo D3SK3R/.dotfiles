@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1653152891,
+	"next_update_check": 1653283213,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/TODO.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt",
 				"/home/d3sk3r/leaks/files/leaks/password_&_email_dump!.txt",
 				"/home/d3sk3r/leaks/files/leaks/password_dump_2015.txt",
-				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt",
-				"/home/d3sk3r/leaks/files/leaks/Google, Gmail/gmail-5mil-passwords2.txt",
-				"/home/d3sk3r/leaks/list.txt"
+				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt"
 			],
 			"find":
 			{
@@ -519,6 +519,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/dead.letter",
+					"settings":
+					{
+						"buffer_size": 140,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +665,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/TODO.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
@@ -782,9 +792,7 @@
 				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt",
 				"/home/d3sk3r/leaks/files/leaks/password_&_email_dump!.txt",
 				"/home/d3sk3r/leaks/files/leaks/password_dump_2015.txt",
-				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt",
-				"/home/d3sk3r/leaks/files/leaks/Google, Gmail/gmail-5mil-passwords2.txt",
-				"/home/d3sk3r/leaks/list.txt"
+				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt"
 			],
 			"find":
 			{
@@ -832,6 +840,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/dead.letter",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 140,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -875,7 +913,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{

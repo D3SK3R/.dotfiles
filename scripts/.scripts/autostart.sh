@@ -115,4 +115,5 @@ sh $HOME/.scripts/better.sh &
 # Map the menu key to slash
 xmodmap -e "keycode 135 = slash"
 
+polybar-msg hook mute 1
 
