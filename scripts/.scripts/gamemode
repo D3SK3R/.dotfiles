@@ -17,7 +17,8 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     #kill $(ps auxf | grep "gpu" | grep "chrome" | awk '{print $2}')
    
     # Killing polybar
-    killall polybar
+    echo 'poly'
+    kill $(ps aux | grep polybar | grep main | awk '{print $2}')
 
     # Kill compositor
     sleep 1.6 && killall picom
