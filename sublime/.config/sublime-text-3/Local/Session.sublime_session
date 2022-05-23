@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
+				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt",
 				"/home/d3sk3r/leaks/files/leaks/minecraft_accounts.txt",
 				"/home/d3sk3r/leaks/files/leaks/100k E-Mail-Pass HQ Combos.txt",
-				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt",
-				"/home/d3sk3r/leaks/files/leaks/password_&_email_dump!.txt",
-				"/home/d3sk3r/leaks/files/leaks/password_dump_2015.txt",
-				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt"
+				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt"
 			],
 			"find":
 			{
@@ -520,12 +520,560 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/dead.letter",
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 183,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "copy"
+							},
+							"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAY29weQ",
+							"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "put"
+							},
+							"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": " evbe"
+							},
+							"BQAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							2,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AgAAAAQAAAAAAAAABAAAAAAAAAAEAAAAZXZiZQAAAAAAAAAAAAAAAAAAAAAEAAAAcHV0IA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "put"
+							},
+							"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": " ocn"
+							},
+							"BAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							3,
+							"left_delete",
+							null,
+							"AwAAAAoAAAAAAAAACgAAAAAAAAABAAAAbgkAAAAAAAAACQAAAAAAAAABAAAAYwgAAAAAAAAACAAAAAAAAAABAAAAbw",
+							"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "contents"
+							},
+							"CAAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": " o"
+							},
+							"AgAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAASAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"left_delete",
+							null,
+							"AQAAABIAAAAAAAAAEgAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "f"
+							},
+							"AQAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " default.conf"
+							},
+							"DQAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": " /etc/keyd/"
+							},
+							"CwAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": "default.conf"
+							},
+							"DAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAADwAAAAAAAAAPgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "not"
+							},
+							"AwAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"insert",
+							{
+								"characters": " jus"
+							},
+							"BAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAABCAAAAAAAAAEMAAAAAAAAAAAAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEQAAAAAAAAARQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"left_delete",
+							null,
+							"AQAAAEQAAAAAAAAARAAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "t"
+							},
+							"AQAAAEQAAAAAAAAARQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": " copy"
+							},
+							"BQAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": " ful"
+							},
+							"BAAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFEAAAAAAAAAUQAAAAAAAAABAAAAbFAAAAAAAAAAUAAAAAAAAAABAAAAdQ",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": "ile"
+							},
+							"AwAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFYAAAAAAAAAVwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFYAAAAAAAAAVgAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": " /etc/keyd/"
+							},
+							"CwAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": " since"
+							},
+							"BgAAAGEAAAAAAAAAYgAAAAAAAAAAAAAAYgAAAAAAAABjAAAAAAAAAAAAAABjAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAABmAAAAAAAAAGcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": " it"
+							},
+							"AwAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABpAAAAAAAAAAAAAABpAAAAAAAAAGoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": " may"
+							},
+							"BAAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAG0AAAAAAAAAAAAAAG0AAAAAAAAAbgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": " have"
+							},
+							"BQAAAG4AAAAAAAAAbwAAAAAAAAAAAAAAbwAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHEAAAAAAAAAAAAAAHEAAAAAAAAAcgAAAAAAAAAAAAAAcgAAAAAAAABzAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbgAAAAAAAABuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHMAAAAAAAAAdAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "permissions"
+							},
+							"CwAAAHQAAAAAAAAAdQAAAAAAAAAAAAAAdQAAAAAAAAB2AAAAAAAAAAAAAAB2AAAAAAAAAHcAAAAAAAAAAAAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB5AAAAAAAAAAAAAAB5AAAAAAAAAHoAAAAAAAAAAAAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAB/AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " probem"
+							},
+							"BwAAAH8AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACBAAAAAAAAAAAAAACBAAAAAAAAAIIAAAAAAAAAAAAAAIIAAAAAAAAAgwAAAAAAAAAAAAAAgwAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIUAAAAAAAAAAAAAAIUAAAAAAAAAhgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							2,
+							"left_delete",
+							null,
+							"AgAAAIUAAAAAAAAAhQAAAAAAAAABAAAAbYQAAAAAAAAAhAAAAAAAAAABAAAAZQ",
+							"AQAAAAAAAAABAAAAhgAAAAAAAACGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": "lems"
+							},
+							"BAAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACGAAAAAAAAAAAAAACGAAAAAAAAAIcAAAAAAAAAAAAAAIcAAAAAAAAAiAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhAAAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": "a"
+							},
+							"AQAAAIgAAAAAAAAAiQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiAAAAAAAAACIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIgAAAAAAAAAiAAAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACNAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": "and"
+							},
+							"AwAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							51,
+							1,
+							"insert",
+							{
+								"characters": " then:"
+							},
+							"BgAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjwAAAAAAAACPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"insert",
+							{
+								"characters": "\nsudo"
+							},
+							"BQAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"insert",
+							{
+								"characters": " systemctrl"
+							},
+							"CwAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAAClAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							54,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAKUAAAAAAAAApgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							55,
+							3,
+							"left_delete",
+							null,
+							"AwAAAKUAAAAAAAAApQAAAAAAAAABAAAAIKQAAAAAAAAApAAAAAAAAAABAAAAbKMAAAAAAAAAowAAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAApgAAAAAAAACmAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							56,
+							1,
+							"insert",
+							{
+								"characters": "l"
+							},
+							"AQAAAKMAAAAAAAAApAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAowAAAAAAAACjAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							1,
+							"insert",
+							{
+								"characters": " enable"
+							},
+							"BwAAAKQAAAAAAAAApQAAAAAAAAAAAAAApQAAAAAAAACmAAAAAAAAAAAAAACmAAAAAAAAAKcAAAAAAAAAAAAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"insert",
+							{
+								"characters": " --now"
+							},
+							"BgAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAACtAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"insert",
+							{
+								"characters": " keyd"
+							},
+							"BQAAALEAAAAAAAAAsgAAAAAAAAAAAAAAsgAAAAAAAACzAAAAAAAAAAAAAACzAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtQAAAAAAAAAAAAAAtQAAAAAAAAC2AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsQAAAAAAAACxAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -665,6 +1213,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
+				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
@@ -789,10 +1340,7 @@
 				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt",
 				"/home/d3sk3r/leaks/files/leaks/minecraft_accounts.txt",
 				"/home/d3sk3r/leaks/files/leaks/100k E-Mail-Pass HQ Combos.txt",
-				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt",
-				"/home/d3sk3r/leaks/files/leaks/password_&_email_dump!.txt",
-				"/home/d3sk3r/leaks/files/leaks/password_dump_2015.txt",
-				"/home/d3sk3r/SecLists/Miscellaneous/lang-portuguese.txt"
+				"/home/d3sk3r/leaks/files/leaks/23MB [user.pass] combos.txt"
 			],
 			"find":
 			{
@@ -842,20 +1390,20 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/dead.letter",
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 140,
+								"buffer_size": 183,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										182,
+										182
 									]
 								],
 								"settings":
@@ -913,7 +1461,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
