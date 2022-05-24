@@ -714,3 +714,5 @@ source $HOME/.scripts/dkill.sh
 # these 2 lines prevent the % when fast opening terminals
 clear
 unsetopt PROMPT_SP
+
+eval $(thefuck --alias)
