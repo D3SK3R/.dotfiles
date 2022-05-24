@@ -41,6 +41,8 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
+sleep 2.5 && polybar-msg hook mute 1
+
 sleep 4 && $HOME/.scripts/headset-configure &
 
 #######################
@@ -115,5 +117,4 @@ sh $HOME/.scripts/better.sh &
 # Map the menu key to slash
 xmodmap -e "keycode 135 = slash"
 
-polybar-msg hook mute 1
 
