@@ -633,7 +633,7 @@ time-alt = " %H:%M:%S "
 
 [module/btc]
 type = custom/script
-exec = forx btc brl | cut -d . -f 1
+exec = forx btc usd | cut -d . -f 1
 interval = 60
 
 format = <label>
