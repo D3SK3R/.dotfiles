@@ -170,6 +170,9 @@ case $class in
         echo "state=floating"
         echo "rectangle=963x682+1559+49"
         ;;
+    "GameConqueror.py")
+        echo "state=floating"
+        ;;
 esac
 
 case $title in

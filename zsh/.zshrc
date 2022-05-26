@@ -47,9 +47,6 @@ export TERM="rxvt-unicode-256color"
 
 export BROWSER="/usr/bin/google-chrome-stable"
 
-autoload -U compinit
-compinit
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -98,8 +95,10 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
+#PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
+PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
 
+# https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load/#initial-setup
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -187,17 +186,16 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # install lf package
 # Navigate throught directories using ctrl+f
 # press enter on a directory to open it using a gui file manager
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp"
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
-}
-
-bindkey -s '^f' 'lfcd\n'
+#lfcd () {
+#    tmp="$(mktemp)"
+#    lf -last-dir-path="$tmp" "$@"
+#    if [ -f "$tmp" ]; then
+#        dir="$(cat "$tmp")"
+#        rm -f "$tmp"
+#        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+#    fi
+#}
+#bindkey -s '^f' 'lfcd\n'
 
 # Sourcing oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -562,8 +560,8 @@ alias pipes='pipes.sh -t3'
 #alias powersave='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/powersave.sh'
 #alias performance='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/performance.sh'
 alias cpu='lscpu | grep MHz | lolcat;sensors | grep Core | lolcat'
-alias hh='hollywood;kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
-alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
+#alias hh='hollywood;kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
+#alias hq='kill $(ps ax | grep -e "tmux" -e "hollywood" | head -n1 | cut -d" " -f1);killall ccze'
 alias emoji='rofimoji --action copy'
 alias short='shortn'
 alias notify='dunstify Finished;mpg123 -q ~/.scripts/ding-notif.mp3' 
@@ -617,35 +615,9 @@ maketargz() { tar cvzf "${1%%/}.tar.gz" "${1%%/}/" || return 1; }
 # create a *.zip archive from a given file or directory
 makezip() { zip -r "${1%%/}.zip" "$1" || return 1; }
 
-# # ex = EXtractor for all kinds of archives
-# # usage: ex <file>
-ex ()
-{
-  if [ -f $1 ] ; then
-    case $1 in
-      *.tar.bz2)   tar xjf $1   ;;
-      *.tar.gz)    tar xzf $1   ;;
-      *.bz2)       bunzip2 $1   ;;
-      *.rar)       unrar x $1   ;;
-      *.gz)        gunzip $1    ;;
-      *.tar)       tar xf $1    ;;
-      *.tbz2)      tar xjf $1   ;;
-      *.tgz)       tar xzf $1   ;;
-      *.zip)       unzip $1     ;;
-      *.Z)         uncompress $1;;
-      *.7z)        7z x $1      ;;
-      *.deb)       ar x $1      ;;
-      *.tar.xz)    tar xf $1    ;;
-      *)           echo "'$1' cannot be extracted via ex()" ;;
-    esac
-  else
-    echo "'$1' is not a valid file"
-  fi
-}
-
 # extract all files from an archive into current directory
-extract() {
-  local usage="Usage: extract <path/filename>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z\
+ex() {
+  local usage="Usage: extract <path/filename>.<zip|rar|bz2|deb|gz|tar|tbz2|tgz|Z|7z\
 |xz|ex|tar.bz2|tar.gz|tar.xz>"
   if [[ -z "$1" ]]; then
     echo "${usage}"
@@ -669,6 +641,7 @@ extract() {
       *.tar)      tar xvf "$1"     ;;
       *.tbz2)     tar xvjf "$1"    ;;
       *.tgz)      tar xvzf "$1"    ;;
+      *.deb)      ar x $1          ;;
       *.zip)      unzip "$1"       ;;
       *.Z)        uncompress "$1"  ;;
       *.7z)       7z x "$1"        ;;
@@ -697,8 +670,31 @@ mkd() {
 #################################################################
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-source $HOME/.scripts/dkill.sh
-#source $HOME/.scripts/dotfiles.sh
+#autoload -U compinit
+#compinit
+
+# only for oh-my-zsh
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR:-${HOME}}/$ZSH_COMPDUMP(#qN.mh+24) ]]; then
+    compinit -d $ZSH_COMPDUMP
+else
+    compinit -C
+fi
+
+# -D ........... disables .zcompudump file
+# -d ........... used to set an alternative name to .zcompdump
+# -i ........... accept insecure files
+# -C ........... ignore checking at all
+
+# Execute code in the background to not affect the current session
+{
+  # Compile zcompdump, if modified, to increase startup speed.
+  zcompdump="${ZDOTDIR:-$HOME}/.zcompdump"
+  if [[ -s "$zcompdump" && (! -s "${zcompdump}.zwc" || "$zcompdump" -nt "${zcompdump}.zwc") ]]; then
+    zcompile "$zcompdump"
+  fi
+} &!
+
 # ____             _          _____ _          _ _
 #|  _ \           (_)        / ____| |        | | |
 #| |_) | ___  __ _ _ _ __   | (___ | |__   ___| | |
@@ -711,8 +707,11 @@ source $HOME/.scripts/dkill.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+source $HOME/.scripts/dkill.sh
+
 # these 2 lines prevent the % when fast opening terminals
-clear
+#clear
 unsetopt PROMPT_SP
 
-eval $(thefuck --alias)
+# slow zsh down
+#eval $(thefuck --alias)

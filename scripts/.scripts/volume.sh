@@ -4,13 +4,21 @@
 # Signals an the status bar to update
 
 # usage example:
+
+# Using pactl (apparently more cpu friendly)
+# ./volume.sh +2% to increase 2% to the current volume
+
+# Using amixer: (comment currentSink and pactl command, and uncomment amixer command)
 # ./volume.sh Master 2%+ to increase 2% to the current volume
 
 icon="/usr/share/icons/Papirus-Dark/16x16/actions/audio-volume-high.svg"
 
-amixer set "$1" "$2"
-#current=$(pacmd list-sinks | grep -A 15 "index: " | grep 'volume:' | grep -E -v 'base volume:' | awk -F : '{print $3}' | grep -o -P '.{0,3}%'| head -n1 | tr -d ' ')
-current=$(pacmd list-sinks | \grep -A 7 "* index:" | awk -F' ' 'END{print $5}')
+currentSink=$(pacmd list-sinks | \grep "* index:" | awk '{print $3}')
+pactl set-sink-volume $currentSink $1
 
-dunstify -i $icon -t 1000 "Volume $2" "Current volume: $current" -r 1
+#amixer set "$1" "$2"
+
+currentVol=$(pacmd list-sinks | \grep -A 7 "* index:" | awk -F' ' 'END{print $5}')
+
+dunstify -i $icon -t 1000 "Volume $2" "Current volume: $currentVol" -r 1
 

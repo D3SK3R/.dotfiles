@@ -137,13 +137,16 @@ super + z
 
 # Raise and Lower volume
 XF86Audio{Raise,Lower}Volume
-    ~/.scripts/volume.sh Master {2%+,2%-}
+    ~/.scripts/volume.sh {+2%,-2%}
+    #~/.scripts/volume.sh Master {2%+,2%-}
 alt + {Up, Down}
-    ~/.scripts/volume.sh Master {2%+,2%-}
+    ~/.scripts/volume.sh {+2%,-2%}
+    #~/.scripts/volume.sh Master {2%+,2%-}
 
 # Change volume using alt + mouse scroll
 alt + {button4, button5}
-    ~/.scripts/volume.sh Master {2%+,2%-}
+    ~/.scripts/volume.sh {+2%,-2%}
+    #~/.scripts/volume.sh Master {2%+,2%-}
 
 # Brightness
 XF86MonBrightness{Down,Up}
