@@ -41,9 +41,9 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
-sleep 10 && polybar-msg hook mute 1 &
-
 sleep 4 && $HOME/.scripts/headset-configure &
+
+sleep 10 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
