@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1653759524,
+	"next_update_check": 1654105124,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/leaks/files/leaks/Paypal/700K Email Pass for Paypal.txt",
 				"/home/d3sk3r/leaks/files/leaks/Twitter/twitter.txt",
 				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt",
-				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt",
-				"/home/d3sk3r/leaks/files/leaks/minecraft_accounts.txt"
+				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt"
 			],
 			"find":
 			{
@@ -520,10 +520,11 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
+					"file": "/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 223,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -665,6 +666,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
@@ -791,8 +793,7 @@
 				"/home/d3sk3r/leaks/files/leaks/Paypal/700K Email Pass for Paypal.txt",
 				"/home/d3sk3r/leaks/files/leaks/Twitter/twitter.txt",
 				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt",
-				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt",
-				"/home/d3sk3r/leaks/files/leaks/minecraft_accounts.txt"
+				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt"
 			],
 			"find":
 			{
@@ -842,12 +843,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
+							"file": "/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 223,
 								"regions":
 								{
 								},
@@ -913,7 +914,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
