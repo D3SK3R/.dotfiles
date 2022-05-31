@@ -5,3 +5,6 @@ sleep 3 && picom -b --experimental-backend &
 sleep 1 && nitrogen --restore &
 sleep 4 && bspc config top_padding 22 &
 sleep 8 && killall flashfocus;flashfocus &
+
+
+
