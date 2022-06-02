@@ -42,10 +42,10 @@ fi
 $HOME/.scripts/keyboardSet &
 
 # 4
-sleep 1 && $HOME/.scripts/headset-configure &
+sleep 0.5 && $HOME/.scripts/headset-configure &
 
 # 5
-sleep 2 && polybar-msg hook mute 1 &
+sleep 1 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
@@ -53,9 +53,6 @@ sleep 2 && polybar-msg hook mute 1 &
 xrdb -merge $HOME/.Xresources
 
 run sxhkd
-
-# too high cpu from time to time
-#sleep 5 && run kmonad ~/.config/kmonad/config.kbd &
 
 run urxvtd -q -o -f
 
@@ -65,7 +62,7 @@ run xfce4-power-manager
 
 run megasync
 
-#run libinput-gestures-setup restart
+run libinput-gestures-setup restart
 
 run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -76,9 +73,6 @@ run pamac-tray
 run clipster -d
 
 run xautolock -time 60 -locker ~/.scripts/lock.sh
-
-# not necessary
-#run fix_xcursor
 
 run udiskie -t
 
@@ -114,9 +108,9 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
 sleep 4 && discord & #premid &
 
-sh $HOME/.scripts/better.sh &
+#sh $HOME/.scripts/better.sh &
 
-# Map the menu key to slash
-xmodmap -e "keycode 135 = slash"
+# Map the menu key to slash (doesn't work when running before keyd/kmonad)
+#xmodmap -e "keycode 135 = slash"
 
 
