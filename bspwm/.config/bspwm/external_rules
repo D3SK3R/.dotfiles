@@ -108,20 +108,23 @@ case $class in
     "Arandr")
         echo "state=floating"
         ;;
+    "kcalc")
+        echo "state=floating"
+        ;;
     "copyq")
         echo "state=floating"
         echo "rectangle=645x395+1724+184"
-        echo "hidden=on"
-        echo "sticky=on"
-        echo "center=on"
-        echo "focus=on"
-        #echo "follow=on"
-        #echo "desktop=focused"
-        #echo "monitor=focused"
-        if [[ "$title" = "Preferences — CopyQ" ]]; then
-            echo "state=floating"
-            echo "hidden=off"
-        fi
+        #echo "hidden=on"
+        #echo "sticky=on"
+        #echo "center=on"
+        #echo "focus=on"
+        ##echo "follow=on"
+        ##echo "desktop=focused"
+        ##echo "monitor=focused"
+        #if [[ "$title" = "Preferences — CopyQ" ]]; then
+        #    echo "state=floating"
+        #    echo "hidden=off"
+        #fi
         # bspc node <copyq wid> --to-<monitor|desktop> focused --focus
         ;;
     "Lxappearance")
