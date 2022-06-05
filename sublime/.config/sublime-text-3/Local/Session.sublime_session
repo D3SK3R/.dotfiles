@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1654105124,
+	"next_update_check": 1654450724,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 704.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
 				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/SecLists/Usernames/Honeypot-Captures/multiplesources-users-fabian-fingerle.de.txt",
 				"/home/d3sk3r/leaks/files/leaks/Paypal/700K Email Pass for Paypal.txt",
 				"/home/d3sk3r/leaks/files/leaks/Twitter/twitter.txt",
-				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt",
-				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt"
+				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt"
 			],
 			"find":
 			{
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 664.0
+		"new_window_width": 393.0
 	},
 	"windows":
 	[
@@ -520,13 +520,56 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
+					"contents": "Been moving all my days \nSeen life and I’ve seen pain \nSame blood in my veins \n\nThere’s trouble in my skin \nSame fires wearing thin \nDon’t look the other way \n\nBeen working waste away \nSame evil in my face \n\nThey talk but they never wanna listen \nThey scream and we never wanna hear it \nThey try but they’re never gonna get me \nAll I know singing \n\nSome day gonna get me out of my head \nSorry I don’t have another mind set \nThey see that they’re never gonna get me \nAll I know singing \n\nI found another way \nTo find joy and not the pain \nThere’s no escaping me \n\nSome day \nI’ll try\nTo find the light that’s in those eyes \nOne day we’ll find the path that leads us from the lies",
 					"settings":
 					{
-						"buffer_size": 223,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
+						"buffer_size": 677,
+						"line_ending": "Unix",
+						"name": "Been moving all my days"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAADQUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAANBQAAWW91IGRvbnQga25vdyB0aGUgaGVsbCBpdmUgYmVlbiB0aHJvdWdoCnlvdSBkb250IGtub3cgdGhlIHByaWNlIGl2ZSBwYWlkCnlvdSBjYW50IHNlZSB0aGUgd2FsbHMgaW0gYnJhY2luZyB0aW1lIGltIGZhY2luZwphbGwgbXkgZGF5cwoKZXZlcnkgYml0IG9mIG1hbiBpIG9uY2Ugd2FzIApldmVyeSBiaXQgb2YgbG92ZSB0aGF0IGkgY291bGQgaGF2ZQpsaXZpbmcgaW4gYSBtb21lbnQgc2V0dGluZyBpbnRvIG1vdGlvbgphbGwgdGhlIG90aGVyIGZlYXIgaSBoYWQgCgpub2JvZHkgaGVscCBtZSAKaW0gbm90IGNvbGQgaW0gZW1wdHkKc29tYm9keSBoZWFsIG1lIGhvbGQgbWUgbWFrZSBtZSBrbm93IG1lIApoYXRlIG1lCgpubyBvbmUgY2FuIGxvdmUgbWUgCmluc2lkZSBteSBsb25sZXkgCnNvbW9uZSB3b250IGZlZWwgbWUgc2hvdyBtZSBtYWtlIG1lIGtub3cgbWUKaW0gbm90IHNhZmUKCmkgY2FudCBjb21wZWwgbWUKbXkgbWluZCB3b250IHNlbGwgbWUgCml0IHdhbnRzIHRvIGZhaWwgbWUgaGFpbCBtZSBsZXQgbWUgY2FycnkgCmhlbHAgbWUgCgp0aGlzIGlzIG15IG1pc2VyeSAKaXQgd2FudHMgdG8ga2lsbCBtZSAKaXRzIGluIG15IG1lbW9yeSBidXQgaW0gc2hha2luZyB3aGVuIGl0IApmYWlscyBtZSAKCllvdSBkb250IGtub3cgdGhlIGhlbGwgaXZlIGJlZW4gdGhyb3VnaAp5b3UgZG9udCBrbm93IHRoZSBwcmljZSBpdmUgcGFpZAp5b3UgY2FudCBzZWUgdGhlIHdhbGxzIGltIGJyYWNpbmcgdGltZSBpbSBmYWNpbmcKYWxsIG15IGRheXMKCmV2ZXJ5IGJpdCBvZiBtYW4gaSBvbmNlIHdhcyAKZXZlcnkgYml0IG9mIGxvdmUgdGhhdCBpIGNvdWxkIGhhdmUKbGl2aW5nIGluIGEgbW9tZW50IHNldHRpbmcgaW50byBtb3Rpb24KYWxsIHRoZSBvdGhlciBmZWFyIGkgaGFkIAoKdGFrZSBpdCBmcm9tIG1lIGl2ZSB0YWtlbiBhIHdlZWsgdG8gZmVlbCBmcmVlCm5ldmVyIGEgdGhpbmcgZG9udCBrbm93IGEgdGhpbmcgdG8gZml4IG1lCnN0dWNrIGluIG15IGhlYWQgbm93IApnZXQgbWUgdGhlIGhlbGwgb3V0CgpsaWZlIGlzIGEgZ2FtZSBpIGRvbnQgd3dhbm5hIHBsYXkKaXQgcGxheWVkIG1lCgpsb3N0IGluIG15IHdheXMgaW0gbG9zdCBpbiBteSB3YXlzCmFuZCBhbmdyeQoKbm9ib2R5IGhlbHAgbWUgaW0gbm90IGNvbGQgCmltIGVtcHR5CgpZb3UgZG9udCBrbm93IHRoZSBoZWxsIGl2ZSBiZWVuIHRocm91Z2gKeW91IGRvbnQga25vdyB0aGUgcHJpY2UgaXZlIHBhaWQKeW91IGNhbnQgc2VlIHRoZSB3YWxscyBpbSBicmFjaW5nIHRpbWUgaW0gZmFjaW5nCmFsbCBteSBkYXlz",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAANBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAA9gcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAA2CAAAV2F0Y2ggbWUgYXMgSSBicmVhayBkb3duIGluIHRoZSBzYWZlIGhvdXNlIHRoYXQgSSBidWlsdCBteXNlbGYgCknigJltIGEgbGV0ZG93biAKSW4gdGhlIG9sZCB0b3duIEkgZ290IG5vdGhpbmcgbGVmdCB0byBnaXZlIHNvIEnigJltIGhlYWRpbmcgb3V0IGJhY2sgbm93CiBvZiB0aGUgb2xkIGhvdXNlIApJbiBhIG5ldyB0b3duIAp3aGVyZSBJIGRvbuKAmXQgZXhpc3QgCkNhdXNlIEnigJltIGEgbGV0ZG93biAKSW4gbXkgb3duIGhvdXNlIApJ4oCZdmUgZ290IG5vIG1vcmUgbGlmZSB0byBsaXZlIAoKSSBuZWVkIGEgbGVzc29uIApUaGV5IGdvdCBhIHByb2JsZW0gd2l0aCB0aGUgd2F5IGkgaGF2ZSBhIG1lc3NhZ2UgCkkgd2FubmEgbGVhcm4gdG8gZmVlbCB0aGUgcGFpbiAKSSAgbWFkZSBhIG1lc3MgaGVyZSAKQW5kIHRoZWlyIHdvcmxkIGtlZXBzIG1vdmluZyBvbiAKCkFuZCBJ4oCZbSBzbyAKCkkgbGV0IGVtIGNoYXNlIG1lIApVbnRpbCB0aGUgZmFsbCB1bmRlciBteSBmZWV0IGFuZCB0aGVuIHJlcGxhY2UgbWUgCkFub3RoZXIgbm9ybWFsIGZldmVyIGRyZWFtIApJIGxldCBpdCBtYWtlIG1lIApBbmQgdGhlaXIgd29yZCBLZWVwcyBtb3Zpbmcgb24gCkFuZCBJ4oCZbSBzbyAKCk92ZXIgdGhpcyBvdmVycmF0ZWQgCkJsb29kIHdhciAKVGhpcyB1bmRlcnN0YXRlZCAKQ292ZXIgClRoaXMgYXV0b21hdGVkIGxvdmVyIApzaW5naW5nIEnigJltIG5vdCBjb21pbmcgCkhvbWUgbm93IAp3aXRob3V0IG15IHNvdWwgCkFsb25lIG5vdyAKSW5zaWRlIHRoaXMgaGVsbCAKSSBrbm93IG5vdyAKV2hhdCB0aGV54oCZdmUgYmVlbiBzYXlpbmcgClBsZWFzZSBkb27igJl0IHN0b3AgbWUgCknigJltIG5vdCBjb21pbmcgaG9tZQoKSSBsZXQgZW0gYnJlYWsgbWUgCkkgbGV0IGVtIGNvbWUgaW50byBteSBob21lIGFuZCBsZXQgaXQgc2hha2UgCkkgbGV0IGl0IGJ1cm4gdGhlIGZlYXIgb2YgbG92ZSBhbmQgbGV0IGl0IGhhdGUgbWUgCkJ1dCB0aGF0IGZlYXIgaXMgbW92aW5nIG9uIGFuZCAKCknigJltIHNvIAoKT3ZlciB0aGlzIG92ZXJyYXRlZCAKQmxvb2Qgd2FyIApUaGlzIHVuZGVyc3RhdGVkIApDb3ZlciAKVGhpcyBhdXRvbWF0ZWQgbG92ZXIgCnNpbmdpbmcgSeKAmW0gbm90IGdvaW5nCkhvbWUgbm93IAp3aXRob3V0IG15IHNvdWwgCkFsb25lIG5vdyAKSW5zaWRlIHRoaXMgaGVsbCAKSSBrbm93IG5vdyAKV2hhdCB0aGV54oCZdmUgYmVlbiBzYXlpbmcgClBsZWFzZSBkb27igJl0IHN0b3AgbWUgCknigJltIG5vdCBnb2luZyBob21lCgpCcmVhayBkb3duIG9uIHRoZSB3YXkgZG93biBob25leSAKQnJlYWsgdXAgSeKAmW0gYSBsb3N0IGJveSB0YWtlIGl0IG9yIGxlYXZlIApJ4oCZbSBub3Qgd2hhdCBteSBtb3RoZXIgd2FudGVkIApIZWVscyB0aWVkIGRvd24gYW5kIEnigJltIG5vdCBnb2luZyAKCkhhbmRzIHVwIG9uIHRoZSB3YXkgZG93biBob25leSAKQnJlYWsgdXAgSeKAmW0gYSBsb3N0IGJveSB0YWtlIGl0IG9yIGxlYXZlIApJ4oCZbSBub3Qgd2hhdCBteSBtb3RoZXIgd2FudGVkIApIZWVscyB0aWVkIGRvd24gYW5kIEnigJltIG5vdCBnb2luZyAKCkhvbWUgbm93IAp3aXRob3V0IG15IHNvdWwgCkFsb25lIG5vdyAKSW5zaWRlIHRoaXMgaGVsbCAKSSBrbm93IG5vdyAKV2hhdCB0aGV54oCZdmUgYmVlbiBzYXlpbmcgClBsZWFzZSBkb27igJl0IHN0b3AgbWUgCknigJltIG5vdCBjb21pbmcgaG9tZQoKQnJlYWsgZG93biBvbiB0aGUgd2F5IGRvd24gaG9uZXkgCkJyZWFrIHVwIEnigJltIGEgbG9zdCBib3kgdGFrZSBpdCBvciBsZWF2ZSAKSeKAmW0gbm90IHdoYXQgbXkgbW90aGVyIHdhbnRlZCAKSGVlbHMgdGllZCBkb3duIGFuZCBJ4oCZbSBub3QgZ29pbmcgCgpIb21lIG5vdyAKd2l0aG91dCBteSBzb3VsIApBbG9uZSBub3cgCkluc2lkZSB0aGlzIGhlbGwgCkkga25vdyBub3cgCldoYXQgdGhleeKAmXZlIGJlZW4gc2F5aW5nIApQbGVhc2UgZG9u4oCZdCBzdG9wIG1lIApJ4oCZbSBub3QgZ29pbmcgCgpPdmVyIHRoaXMgb3ZlcnJhdGVkIApCbG9vZCB3YXIgClRoaXMgdW5kZXJzdGF0ZWQgCkNvdmVyIApUaGlzIGF1dG9tYXRlZCBsb3ZlciAKc2luZ2luZyBJ4oCZbSBub3QgZ29pbmcgCkhvbWU",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAD2BwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAApQIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -666,6 +709,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
 				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
@@ -792,8 +836,7 @@
 				"/home/d3sk3r/SecLists/Usernames/Honeypot-Captures/multiplesources-users-fabian-fingerle.de.txt",
 				"/home/d3sk3r/leaks/files/leaks/Paypal/700K Email Pass for Paypal.txt",
 				"/home/d3sk3r/leaks/files/leaks/Twitter/twitter.txt",
-				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt",
-				"/home/d3sk3r/leaks/files/leaks/10workingminecraftaccounts.txt"
+				"/home/d3sk3r/leaks/files/leaks/VIPHackforums.txt"
 			],
 			"find":
 			{
@@ -843,25 +886,27 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 223,
+								"buffer_size": 677,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										677,
+										677
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"auto_name": "Been moving all my days",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -914,7 +959,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2347,89,2740,793,2732,768,2",
 			"project": "",
 			"replace":
 			{
