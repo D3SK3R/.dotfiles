@@ -58,3 +58,27 @@ NORMAL
 Tá 
 Julia2 
 discord
+01:24 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
+01:25 
+NORMAL
+system-software-install-symbolic
+Updates Available 
+Package Manager 
+Package Manager
+03:32 
+LOW
+nm-no-connection
+The network connection has been disconnected. 
+Disconnected 
+NetworkManager
+03:32 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
