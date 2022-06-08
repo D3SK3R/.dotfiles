@@ -1,0 +1,1 @@
+[2022-06-07 18:44:57.918] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag

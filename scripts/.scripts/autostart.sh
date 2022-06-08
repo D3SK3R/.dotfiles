@@ -109,6 +109,7 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 sleep 4 && discord & #premid &
 
 #sh $HOME/.scripts/better.sh &
+sh $HOME/.scripts/water.sh &
 
 # Map the menu key to slash (doesn't work when running before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
