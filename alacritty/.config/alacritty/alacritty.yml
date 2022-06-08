@@ -3,14 +3,14 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use 'alacritty' if it is
   # available, otherwise 'xterm-256color' is used.
-  #TERM: xterm-256color
+  TERM: xterm-256color
 
 window:
   # Window dimensions (changes require restart)
@@ -61,7 +61,7 @@ scrolling:
 # Some applications, like Emacs, rely on knowing about the width of a tab.
 # To prevent unexpected behavior in these applications, it's also required to
 # change the `it` value in terminfo when altering this setting.
-#tabspaces: 4
+tabspaces: 4
 
 # Font configuration (changes require restart)
 #
@@ -84,23 +84,23 @@ font:
   # Normal (roman) font face
   normal:
     
-    family: DejaVuSansMono Nerd Font Mono
+    family: DejaVuSansMono NF
     # The `style` can be specified to pick a specific face.
     #style: Regular
     style: Bold
     
   # Bold font face
   bold:
-    family: DejaVuSansMono Nerd Font Mono
+    family: DejaVuSansMono NF
     # The `style` can be specified to pick a specific face.
     style: Bold
 
   # Italic font face
   italic:
-    family: DejaVuSansMono Nerd Font Mono
+    family: DejaVuSansMono NF
     # The `style` can be specified to pick a specific face.
     #style: Italic
-    style: Bold
+    style: Italic
 
   # Point size
   size: 9.5
@@ -128,9 +128,8 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    #background: '#10141c'
-    background: '#000000'
-    foreground: '#FFFFFF'
+    background: '#090C12'
+    foreground: '#00CCFF'
 
     # Bright and dim foreground colors
     #
@@ -253,18 +252,6 @@ mouse:
   # If this is `true`, the cursor is temporarily hidden when typing.
   hide_when_typing: false
 
-  url:
-    # URL launcher
-    #
-    # This program is executed when clicking on a text which is recognized as a URL.
-    # The URL is always added to the command as the last parameter.
-    launcher: xdg-open
-
-    # URL modifiers
-    #
-    # These are the modifiers that need to be held down for opening URLs when clicking
-    # on them. The available modifiers are documented in the key binding section.
-    #modifiers: Control|Shift
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"

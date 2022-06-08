@@ -3,7 +3,7 @@ allow_bold = true
 #audible_bell = false
 clickable_url = true
 #dynamic_title = true
-font = DejaVuSansMono Nerd Font Mono, bold 9
+font = DejaVuSansMono NF, bold 10
 #fullscreen = true
 geometry = 700x520
 icon_name = terminal
@@ -50,7 +50,8 @@ background = #000000
 cursor = #00ccff
 
 # 50% background transparency (requires a compositor)
-background = rgba(0, 0, 0, 0.6)
+background = #090C12
+#background = rgba(0, 0, 0, 0.6)
 
 # if unset, will reverse foreground and background
 #highlight = #839496
