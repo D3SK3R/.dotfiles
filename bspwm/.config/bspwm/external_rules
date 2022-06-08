@@ -49,6 +49,8 @@ case $class in
         if [[ $instance == crx* ]]; then
             echo "state=floating"
             echo "center=on"
+        else
+            echo "rectangle=1342x732+1376+16"
         fi
         ;;
     "discord" | "lightcord")

@@ -25,13 +25,15 @@ function run {
 ## BSPWM Monitors setup
 if xrandr | grep -ow "DP1 connected" >/dev/null; then
     autorandr --change &
-    sleep 2 && bspc desktop 2 --focus &&
+    #sleep 2
+    sleep 1 && bspc desktop 2 --focus &&
     sleep 0.5 &&
     bspc desktop 1 --focus
 else
     run autorandr
     bspc monitor -d 1 2 3 4 5 6 7 8 9
-    sleep 3 && $HOME/.config/polybar/launch.sh &
+    #sleep 3
+    sleep 2 && $HOME/.config/polybar/launch.sh &
 fi
 # everything about monitors is commented
 # since I'm using autorandr that executed all of this
@@ -87,18 +89,18 @@ nitrogen --restore &
 
 picom -b --experimental-backend &
 
-sleep 10 && flashfocus &
+sleep 5 && flashfocus &
 
 # disable the autostart option inside copyq's preferences
-sleep 10 && copyq &
+sleep 5 && copyq &
 
 # floating stuff
-sleep 3 && urxvt -title floating_terminal &
-#sleep 3 && st -n floating_terminal &
-sleep 3 && urxvt -title floating_terminal2 &
-#sleep 3 && st -n floating_terminal2 &
+sleep 2 && urxvt -title floating_terminal &
+#sleep 2 && st -n floating_terminal &
+sleep 2 && urxvt -title floating_terminal2 &
+#sleep 2 && st -n floating_terminal2 &
 
-sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
+sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 
 # workaround: use external rules bspwm
 # doesn't work, at least not with a low sleep delay
@@ -106,7 +108,7 @@ sleep 3 && urxvt -title ncmpcpp -e ncmpcpp &
 
 #sleep 5 && firefox &
 
-sleep 4 && discord & #premid &
+sleep 3 && discord & #premid &
 
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &
