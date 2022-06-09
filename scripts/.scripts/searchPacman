@@ -1,11 +1,13 @@
 #!/bin/sh
 
-pac="$(pacman -Ss $1)"
+#pac="$(pacman -Ss $1)"
+
+pac=$(pacsearch $1)
 
 if [[ -n $pac ]]; then
     printf "$pac\n"
 else
-    aur="$(yay -Ss $1)"
+    aur=$(yay -Ss $1)
     if [[ -n $aur ]]; then
         printf "\e[1;36mAUR:\e[0m\n\n"
         printf "$aur\n"
