@@ -89,10 +89,12 @@ nitrogen --restore &
 
 picom -b --experimental-backend &
 
-sleep 5 && flashfocus &
+# 5
+sleep 3 && flashfocus &
 
 # disable the autostart option inside copyq's preferences
-sleep 5 && copyq &
+# 5
+sleep 3 && copyq &
 
 # floating stuff
 sleep 2 && urxvt -title floating_terminal &
@@ -113,7 +115,7 @@ sleep 3 && discord & #premid &
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &
 
-# Map the menu key to slash (doesn't work when running before keyd/kmonad)
+# Map the menu key to slash (doesn't work when executed before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
 
 
