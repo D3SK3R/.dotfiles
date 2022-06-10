@@ -1,0 +1,8 @@
+[2022-06-10 14:28:24.213] [sharedprocess] [info] Starting worker process with pid 3967579 (type: fileWatcher, window: 1).
+[2022-06-10 14:28:28.253] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-06-10 14:28:28.464] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-06-10 14:28:30.097] [sharedprocess] [info] Downloaded extension: ms-python.python /home/d3sk3r/.config/Code - OSS/CachedExtensionVSIXs/ms-python.python-2022.8.0
+[2022-06-10 14:28:34.716] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.70a0effa-cbe2-43ad-a495-12f38a486543: ms-python.python
+[2022-06-10 14:28:34.748] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/ms-python.python-2022.8.0
+[2022-06-10 14:28:34.756] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-06-10 14:28:34.774] [sharedprocess] [info] Extension installed successfully: ms-python.python
