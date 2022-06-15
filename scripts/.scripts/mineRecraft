@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# xdotool getMouseLocation
+
 bowl_x=2055;bowl_y=397
 mush1_x=2078;mush1_y=397
 mush2_x=2120;mush2_y=397

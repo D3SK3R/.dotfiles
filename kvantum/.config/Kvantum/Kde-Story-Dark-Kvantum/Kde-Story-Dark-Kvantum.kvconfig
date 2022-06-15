@@ -56,7 +56,7 @@ submenu_overlap=0
 tooltip_delay=-1
 tree_branch_line=true
 no_window_pattern=false
-opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam
+opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,virtualboxvm,trojita,dragon,digikam
 reduce_window_opacity=20
 reduce_menu_opacity=20
 respect_DE=true
@@ -70,6 +70,8 @@ intensity=1.00
 no_inactiveness=false
 saturation=1.00
 shadowless_popup=false
+menu_blur_radius=0
+tooltip_blur_radius=0
 
 [GeneralColors]
 window.color=#090c12
@@ -115,6 +117,8 @@ centered_forms=false
 kinetic_scrolling=false
 middle_click_scroll=false
 noninteger_translucency=false
+blur_only_active_window=false
+style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true

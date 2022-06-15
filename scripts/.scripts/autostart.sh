@@ -112,7 +112,7 @@ sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 
 sleep 3 && discord & #premid &
 
-sleep 3 && redshift &
+sleep 5 && redshift &
 
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &

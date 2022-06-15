@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1655301060,
+	"next_update_check": 1655387460,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
+				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/apacheserver",
 				"/home/d3sk3r/openPort",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
-				"/home/d3sk3r/leaks/note.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/HabboSt.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/7k email-pass - coderemise.net - phpbb3_users.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/Twitter.txt"
+				"/home/d3sk3r/leaks/note.txt"
 			],
 			"find":
 			{
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -519,6 +519,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
+					"settings":
+					{
+						"buffer_size": 709,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +665,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
+				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/apacheserver",
 				"/home/d3sk3r/openPort",
@@ -781,10 +792,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
 				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
 				"/home/d3sk3r/leaks/Leet.cc DataBase.txt",
-				"/home/d3sk3r/leaks/note.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/HabboSt.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/7k email-pass - coderemise.net - phpbb3_users.txt",
-				"/home/d3sk3r/leaks/files/cracked_leaks/Twitter.txt"
+				"/home/d3sk3r/leaks/note.txt"
 			],
 			"find":
 			{
@@ -832,6 +840,38 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 709,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -875,7 +915,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,2",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
