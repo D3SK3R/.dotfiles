@@ -35,7 +35,7 @@ else
     dunstify -t 1500 -i "/usr/share/icons/Papirus-Dark/22x22/actions/attentions.svg" "Disabling Game mode" -r $notifyid
 
     # Starting Polybar
-    $HOME/.config/polybar/launch.sh & sleep 3 && bspc config top_padding 22 &
+    $HOME/.config/polybar/launch.sh & sleep 0.5 && bspc config top_padding 22 &
 
     # Starting compositor
     picom -b --experimental-backend &
