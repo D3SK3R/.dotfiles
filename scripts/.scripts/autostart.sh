@@ -112,12 +112,10 @@ sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 
 sleep 3 && discord & #premid &
 
-sleep 5 && redshift &
+#sleep 8 && redshift &
 
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &
 
 # Map the menu key to slash (doesn't work when executed before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
-
-
