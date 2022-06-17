@@ -6,10 +6,12 @@
 # pacman -Qtdq | sudo pacman -Rns --noconfirm -: Remove all unused dependencies from unisntalled packages
 # sudo paccache -r -k 2: clean all packages, except the 2 most recent versions
 
-read -p "This command will remove cached packages and sync database of not installed packages, keep only the 2 most recent versions of installed packages (paccache), and remove all unused dependencies... It will also clean the trash.
+if [ -z "$1" ]; then
+    read -p "This command will remove cached packages and sync database of not installed packages, keep only the 2 most recent versions of installed packages (paccache), and remove all unused dependencies... It will also clean the trash.
 [Y/n]: " choice 
+fi
 
-if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ]; then
+if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-y" ]; then
     printf "Cleaning..."
    
     # removes not installed packages from cache 
