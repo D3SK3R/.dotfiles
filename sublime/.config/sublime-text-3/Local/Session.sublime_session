@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
@@ -254,7 +258,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/yuri",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
 				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall",
-				"/home/d3sk3r/Desec - 2020/Informações.txt",
-				"/home/d3sk3r/pqp/when.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt"
+				"/home/d3sk3r/Desec - 2020/Informações.txt"
 			],
 			"find":
 			{
@@ -657,6 +657,10 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
@@ -695,7 +699,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
@@ -781,10 +784,7 @@
 				"/home/d3sk3r/yuri",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
 				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall",
-				"/home/d3sk3r/Desec - 2020/Informações.txt",
-				"/home/d3sk3r/pqp/when.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt"
+				"/home/d3sk3r/Desec - 2020/Informações.txt"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,688,32,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
