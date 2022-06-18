@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1655387460,
+	"next_update_check": 1655606713,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 722.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/pqp/when.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
-				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
-				"/home/d3sk3r/leaks/Leet.cc DataBase.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt"
 			],
 			"find":
 			{
@@ -657,6 +657,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
@@ -782,9 +784,7 @@
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/pqp/when.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam v4l2loopback/install and use.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt",
-				"/home/d3sk3r/SecLists/leaks/aptoide.com_g0d.one.txt",
-				"/home/d3sk3r/leaks/Leet.cc DataBase.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/dummy webcam/Install.txt"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,32,674,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
