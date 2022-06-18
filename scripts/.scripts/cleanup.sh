@@ -38,6 +38,9 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
    
     printf "\ncleaning trash\n" 
     rm -rf ~/.local/share/Trash/files/*
+
+    printf "\ncleaning root trash\n"
+    sudo \rm -rf /root/.local/share/Trash/files/*
 else
     printf "Aborting..."
 fi
@@ -69,6 +72,9 @@ fi
 # 4 - packages in opt
 # search for unused packages in /opt/
 # (only packages you won't use!)
+
+# 5 - Clean root trash
+# /root/.local/share/Trash/files
 
 
 

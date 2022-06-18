@@ -168,7 +168,7 @@ case $class in
             echo "state=floating"
         else
             echo "state=floating"
-            echo "rectangle=1314x701+1388+43"
+            echo "rectangle=1314x701+1388+23"
         fi
         ;;
     "Spotify")
