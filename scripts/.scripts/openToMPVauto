@@ -34,7 +34,7 @@ if [[ -z $(ls /tmp/ | grep openToMPVauto) ]]; then
 else
     dunstify -i /usr/share/icons/Papirus-Dark/16x16/actions/player_stop.svg "Stop capturing URLs from the clipboard" -r 70
     rm $file
-    bspc rule -r "mpv" -o desktop=2
+    sleep 10 && bspc rule -r "mpv" -o desktop=2 &
     killall openToMPVauto
 fi
 
