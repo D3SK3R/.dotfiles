@@ -181,7 +181,7 @@ export FZF_COMPLETION_OPTS='--height=60% --color=16'
 #################################################
 # https://github.com/zsh-users/zsh-autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#6b7078,bold,underline"
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
 
 # install lf package
 # Navigate throught directories using ctrl+f
