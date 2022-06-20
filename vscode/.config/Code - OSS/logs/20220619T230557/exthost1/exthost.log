@@ -1,0 +1,18 @@
+[2022-06-19 23:06:02.911] [exthost] [info] Extension host with pid 405301 started
+[2022-06-19 23:06:02.911] [exthost] [info] Skipping acquiring lock for /home/d3sk3r/.config/Code - OSS/User/workspaceStorage/540041858dd1898c8f3abb27ddc59ae6.
+[2022-06-19 23:06:03.213] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-19 23:06:03.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-19 23:06:03.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-19 23:06:03.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-19 23:06:03.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-19 23:06:03.307] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-19 23:06:03.317] [exthost] [info] ExtensionService#_doActivateExtension JackVandergriff.xresources-theme, startup: true, activationEvent: '*'
+[2022-06-19 23:06:03.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-19 23:06:03.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-19 23:06:03.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-19 23:06:07.055] [exthost] [info] Eager extensions activated
+[2022-06-19 23:06:14.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:06:14.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:06:14.857] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:06:20.112] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-19 23:06:20.192] [exthost] [info] Extension host with pid 405301 exiting with code 0

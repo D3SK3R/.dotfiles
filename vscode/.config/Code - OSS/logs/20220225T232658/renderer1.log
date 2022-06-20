@@ -1,7 +1,0 @@
-[2022-02-25 23:27:02.765] [renderer1] [info] IExtensionHostStarter.start() took 108 ms.
-[2022-02-25 23:27:02.841] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'languageStatus, quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-[2022-02-25 23:27:03.878] [renderer1] [error] [Extension Host] (node:3134781) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
-[2022-02-25 23:27:05.844] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User)
-[2022-02-25 23:27:05.850] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User/settings.json, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User/settings.json)
-[2022-02-25 23:27:12.211] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/d3sk3r/.config/Code - OSS/User/snippets, real: /home/d3sk3r/.dotfiles/vscode/.config/Code - OSS/User/snippets)

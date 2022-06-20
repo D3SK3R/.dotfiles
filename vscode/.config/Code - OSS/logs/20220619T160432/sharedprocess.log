@@ -1,9 +1,0 @@
-[2022-06-19 16:04:39.789] [sharedprocess] [info] Starting worker process with pid 1519554 (type: fileWatcher, window: 1).
-[2022-06-19 16:04:41.092] [sharedprocess] [info] Deleted from disk ms-python.python /home/d3sk3r/.vscode-oss/extensions/ms-python.python-2022.6.3
-[2022-06-19 16:04:52.768] [sharedprocess] [info] Getting Manifest... github.copilot
-[2022-06-19 16:04:52.784] [sharedprocess] [info] Installing extension: github.copilot
-[2022-06-19 16:04:54.582] [sharedprocess] [info] Downloaded extension: github.copilot /home/d3sk3r/.config/Code - OSS/CachedExtensionVSIXs/github.copilot-1.30.6165
-[2022-06-19 16:04:54.885] [sharedprocess] [info] Extracted extension to /home/d3sk3r/.vscode-oss/extensions/.529b66ed-b534-4594-a7ea-e2f6926bb918: github.copilot
-[2022-06-19 16:04:54.900] [sharedprocess] [info] Renamed to /home/d3sk3r/.vscode-oss/extensions/github.copilot-1.30.6165
-[2022-06-19 16:04:54.903] [sharedprocess] [info] Extracting completed. github.copilot
-[2022-06-19 16:04:54.910] [sharedprocess] [info] Extension installed successfully: github.copilot

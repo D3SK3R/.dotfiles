@@ -48,7 +48,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/JS_HTML",
                                         "external": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/JS_HTML",
                                         "path": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/JS_HTML",
                                         "scheme": "file"
@@ -213,8 +212,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -293,7 +291,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -738,7 +736,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -807,54 +806,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1601,8 +1591,11 @@
     "themeBackground": "#07090f",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/d3sk3r/MEGA/D3SK3R/D3SK3R/coding/JS_HTML",
-            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/32a591be7505035b2c492b28101d950e",
+            "workspaceIdentifier": {
+                "id": "540041858dd1898c8f3abb27ddc59ae6",
+                "configURIPath": "file:///home/d3sk3r/.config/Code%20-%20OSS/Workspaces/1655687988426/workspace.json"
+            },
+            "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/540041858dd1898c8f3abb27ddc59ae6",
             "uiState": {
                 "mode": 1,
                 "x": 1366,
@@ -1631,7 +1624,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 249,
+            "sideBarWidth": 176,
             "statusBarHeight": 22,
             "windowBorder": false
         }

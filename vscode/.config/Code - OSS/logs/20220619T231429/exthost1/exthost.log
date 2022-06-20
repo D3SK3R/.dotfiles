@@ -1,0 +1,18 @@
+[2022-06-19 23:14:35.235] [exthost] [info] Extension host with pid 419561 started
+[2022-06-19 23:14:35.236] [exthost] [info] Skipping acquiring lock for /home/d3sk3r/.config/Code - OSS/User/workspaceStorage/540041858dd1898c8f3abb27ddc59ae6.
+[2022-06-19 23:14:35.653] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-19 23:14:35.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-19 23:14:35.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-19 23:14:35.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-19 23:14:35.712] [exthost] [info] ExtensionService#_doActivateExtension JackVandergriff.xresources-theme, startup: true, activationEvent: '*'
+[2022-06-19 23:14:35.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-19 23:14:36.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-19 23:14:36.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-19 23:14:38.235] [exthost] [info] Eager extensions activated
+[2022-06-19 23:14:39.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:14:39.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:14:39.877] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-19 23:14:43.006] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-19 23:14:43.022] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-19 23:23:47.025] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-19 23:23:47.121] [exthost] [info] Extension host with pid 419561 exiting with code 0

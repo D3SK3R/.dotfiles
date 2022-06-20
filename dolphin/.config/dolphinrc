@@ -32,8 +32,8 @@ Places Icons Static Size=22
 [KPropertiesDialog]
 eDP-1 DP-1 Height 1366x768=610
 eDP-1 DP-1 Width 1366x768=437
-eDP1 DP1 Height 1366x768=458
-eDP1 DP1 Width 1366x768=434
+eDP1 DP1 Height 1366x768=610
+eDP1 DP1 Width 1366x768=525
 
 [MainWindow]
 MenuBar=Disabled
@@ -45,7 +45,7 @@ eDP-1 DP-1 YPosition 1366x768=28
 
 [Open-with settings]
 CompletionMode=1
-History=viewn
+History=subl,viewn
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,svgthumbnail,ffmpegthumbs

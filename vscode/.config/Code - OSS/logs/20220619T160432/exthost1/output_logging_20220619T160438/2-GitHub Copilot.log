@@ -1,2 +1,0 @@
-[INFO] [auth] [2022-06-19T19:05:33.120Z] Invalid copilot token: missing token: 403 
-[ERROR] [default] [2022-06-19T19:05:33.125Z] GitHub Copilot could not connect to server. Extension activation failed: "User not authorized"

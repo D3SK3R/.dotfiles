@@ -28,7 +28,7 @@ super + Pause
 
 # Terminal
 super + {_,shift +} Return
-    {urxvtc -cd ~, st}
+    {urxvtc -cd ~, urxvt}
 #super + Return
 #    urxvtc -cd ~
 
@@ -71,6 +71,7 @@ super + ctrl + c
 super + d
     rofi -modi run,drun -show drun -theme themes/style.rasi
 
+# Use fudp to cut the internet
 super + e
     ~/.scripts/lagSwitch.sh
 

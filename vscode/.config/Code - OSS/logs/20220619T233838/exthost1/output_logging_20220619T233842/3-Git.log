@@ -1,0 +1,14 @@
+[2022-06-20T02:38:44.545Z] Validating found git in: git
+[2022-06-20T02:38:44.583Z] Using git 2.36.1 from git
+[2022-06-20T02:38:44.607Z] > git rev-parse --show-toplevel [6ms]
+[2022-06-20T02:38:44.636Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-06-20T02:38:44.650Z] Open repository: /home/d3sk3r/newtab
+[2022-06-20T02:38:44.688Z] > git status -z -uall [19ms]
+[2022-06-20T02:38:44.715Z] > git symbolic-ref --short HEAD [6ms]
+[2022-06-20T02:38:44.738Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-06-20T02:38:44.784Z] > git remote --verbose [4ms]
+[2022-06-20T02:38:44.785Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+[2022-06-20T02:38:44.829Z] > git config --get commit.template [4ms]
+[2022-06-20T02:38:46.050Z] > git check-ignore -v -z --stdin [88ms]
+[2022-06-20T02:38:49.688Z] > git show --textconv :test.js [92ms]
+[2022-06-20T02:38:49.688Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [44ms]

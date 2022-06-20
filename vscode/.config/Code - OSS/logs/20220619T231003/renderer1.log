@@ -1,0 +1,2 @@
+[2022-06-19 23:10:07.837] [renderer1] [critical] Extension 'GitHub.copilot CANNOT USE these API proposals 'inlineCompletionsNew, inlineCompletionsAdditions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-06-19 23:10:07.842] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
