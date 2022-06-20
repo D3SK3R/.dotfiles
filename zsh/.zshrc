@@ -206,7 +206,8 @@ source $ZSH/oh-my-zsh.sh
 
 #export EDITOR=/usr/bin/vim
 #export VISUAL=/usr/bin/vim
-VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
+#VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 
 # to vim
 #bind -r '\C-s'
@@ -402,8 +403,8 @@ alias python='bpython'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
 #alias fzf="fzf --bind 'enter:execute(xdg-open {})'"
 alias fzf="fzf --height=60% --color=16 | xargs xdg-open"
-alias vim='stty stop "" -ixoff; vim'
-alias v='stty stop "" -ixoff; vim'
+#alias v='stty stop "" -ixoff; vim'
+alias v='nvim'
 alias c='clear'
 alias cc='tput reset'
 alias df='df -h'
@@ -455,7 +456,7 @@ alias psram='ps -eo user,pid,pcpu,pmem,comm --sort -pmem | head'
 alias free='free -mt'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
-alias xresources='vim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'
+alias xresources='nvim ~/.dotfiles/xresources/.Xresources;"cp" ~/.dotfiles/xresources/.Xresources ~/.Xresources'
 alias clip='clipster -c'
 alias copy='clipster -c'
 alias memmonitor="while true; do c;echo '*/proc/swaps';cat /proc/swaps;echo '\n*free -m';free;echo '\n*swapon -s';swapon -s;echo '\n*zramctl'; zramctl;sleep 0.2;done"
@@ -493,7 +494,7 @@ alias cleanup='sh ~/.scripts/cleanup.sh'
 #################################################################
 # zsh related
 #################################################################
-alias zshrc='stty stop "" -ixoff; vim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/dots/.zshrc'
+alias zshrc='stty stop "" -ixoff; nvim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/dots/.zshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 alias vundle='vim +PluginInstall +qall'
 
