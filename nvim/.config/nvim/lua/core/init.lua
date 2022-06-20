@@ -29,9 +29,6 @@ vim.cmd [[
     :command W w
     :command X x
 
-    noremap <C-BS> <C-w>
-    noremap <C-h> <C-w>
-
     " map s, x and c keys to not yank when used
     nnoremap s "_s
     vnoremap s "_s
@@ -53,6 +50,9 @@ vim.cmd [[
     " Move selected lines with CTRL up and down
     xnoremap <C-Up> :move '<-2<CR>gv-gv
     xnoremap <C-Down> :move '>+1<CR>gv-gv
+
+    noremap <C-BS> <C-w>
+    noremap <C-h> <C-w>
 
     " Minimal number of screen lines to keep above and below the cursor.
     set scrolloff=5
