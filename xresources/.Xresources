@@ -1,10 +1,18 @@
 !! Font Render
 Xft.dpi:96
-Xft.antialiasing:false
+Xft.antialiasing:true
 Xft.rgba:rgb
 Xft.hinting:true
+Xft.autohint:false
 Xft.hintstyle:hintfull
 Xft.lcdfilter:lcdfilter
+
+*.underlineURLs:true
+*.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
+!!URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
+!!URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
+*letterSpace: -1
+*lineSpace: -1
 
 URxvt.scrollstyle:plain
 URxvt.scrollBar:false
@@ -25,22 +33,18 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
 URxvt.url-select.underline: true
 !! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keyboard-select.clipboard: true
+! makes urxvtd crash
+!URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!URxvt.keyboard-select.clipboard: true
 ! ^ Causes urxvt to crash when pasting on it something copied from it
 !! Matcher
-URxvt.url-launcher: /usr/bin/google-chrome-stable
+!URxvt.url-launcher: /usr/bin/google-chrome-stable
+URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 !!clipboard with Alt
 URxvt.iso14755: False
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
-
-URxvt.underlineURLs:true
-URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
-URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
-*letterSpace: -1
-*lineSpace: -1
 
 URxvt.transparent:false
 URxvt.shading:30
@@ -55,9 +59,8 @@ URxvt.externalBorder:  4
 !! special
 URxvt*foreground:           #ffffff
 ! Material Grey (disable blurRadius and transparent options)
-URxvt*background:   [100]#090c12
-!URxvt*background:   [100]#0a0a0a
-!URxvt*background:    [90]#10141c
+URxvt*background:   [100]#090C12
+!URxvt*background:   [100]#00010F
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
@@ -111,10 +114,10 @@ URxvt.keysym.Control-Left:      \033[1;5D
 URxvt.keysym.Control-Right:     \033[1;5C
 
 ! ST
-*background:    #10141c
+*background:    #090c12
 *alpha:         1
 
-*borderpx:      1
+*borderpx:      4
 
 ! Xterm
 XTerm*renderFont: true
