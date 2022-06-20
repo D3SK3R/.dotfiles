@@ -28,7 +28,7 @@ super + Pause
 
 # Terminal
 super + {_,shift +} Return
-    {urxvtc -cd ~, urxvt}
+    {urxvtc -cd ~, st}
 #super + Return
 #    urxvtc -cd ~
 

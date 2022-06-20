@@ -8,8 +8,8 @@ Xft.hintstyle:hintfull
 Xft.lcdfilter:lcdfilter
 
 *.underlineURLs:true
-*.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
-*bold.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold
+URxvt*.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
+URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold
 !!URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 !!URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 *letterSpace: -1
@@ -115,6 +115,10 @@ URxvt.keysym.Control-Left:      \033[1;5D
 URxvt.keysym.Control-Right:     \033[1;5C
 
 ! ST
+
+!*.font: DejaVuSansMono NF:style:bold:pixelsize=12
+*.font: Fira Code:style:medium:pixelsize=12
+
 *background:    #090c12
 *alpha:         1
 
