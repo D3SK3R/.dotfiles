@@ -523,7 +523,7 @@
 					"file": "/home/d3sk3r/promptSymbols.txt",
 					"settings":
 					{
-						"buffer_size": 27,
+						"buffer_size": 33,
 						"encoding": "UTF-8",
 						"line_ending": "Unix",
 						"name": "default:"
@@ -727,6 +727,94 @@
 							null,
 							"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
 							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABcAAAAAAAAAGAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAACBA"
+						],
+						[
+							38,
+							1,
+							"paste",
+							null,
+							"AQAAABgAAAAAAAAAGQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": "a"
+							},
+							"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"left_delete",
+							null,
+							"AQAAABwAAAAAAAAAHAAAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"paste",
+							null,
+							"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							46,
+							1,
+							"paste",
+							null,
+							"AQAAAB0AAAAAAAAAHgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"left_delete",
+							null,
+							"AQAAAB0AAAAAAAAAHQAAAAAAAAADAAAA76Ge",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"paste",
+							null,
+							"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAA"
 						]
 					]
 				}
@@ -1050,7 +1138,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 27,
+								"buffer_size": 33,
 								"regions":
 								{
 								},
