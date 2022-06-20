@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/promptSymbols.txt",
+				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
 				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt",
 				"/home/d3sk3r/MEGA/discord/yr/'-----'.txt",
-				"/home/d3sk3r/yuri",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
-				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall"
+				"/home/d3sk3r/yuri"
 			],
 			"find":
 			{
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 325.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -519,15 +519,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
-					"settings":
-					{
-						"buffer_size": 3067070,
-						"encoding": "Hexadecimal",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -666,6 +657,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/promptSymbols.txt",
+				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
@@ -791,9 +784,7 @@
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
 				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt",
 				"/home/d3sk3r/MEGA/discord/yr/'-----'.txt",
-				"/home/d3sk3r/yuri",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/@links.txt",
-				"/home/d3sk3r/VNC-Server-6.8.0-Linux-x64/vncinstall"
+				"/home/d3sk3r/yuri"
 			],
 			"find":
 			{
@@ -841,36 +832,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3067070,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Binary/Binary.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -914,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,349,32,674,386,2732,768,0",
+			"position": "0,0,0,0,0,688,400,1352,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
