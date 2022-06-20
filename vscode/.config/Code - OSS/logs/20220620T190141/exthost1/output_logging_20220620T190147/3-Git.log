@@ -1,0 +1,22 @@
+[2022-06-20T22:01:48.559Z] Validating found git in: git
+[2022-06-20T22:01:48.593Z] Using git 2.36.1 from git
+[2022-06-20T22:01:48.628Z] > git rev-parse --show-toplevel [16ms]
+[2022-06-20T22:01:48.650Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-06-20T22:01:48.666Z] Open repository: /home/d3sk3r/newtab
+[2022-06-20T22:01:48.727Z] > git status -z -uall [32ms]
+[2022-06-20T22:01:48.752Z] > git symbolic-ref --short HEAD [10ms]
+[2022-06-20T22:01:48.769Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+[2022-06-20T22:01:48.806Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-06-20T22:01:48.807Z] > git remote --verbose [4ms]
+[2022-06-20T22:01:48.848Z] > git config --get commit.template [10ms]
+[2022-06-20T22:01:50.677Z] > git check-ignore -v -z --stdin [12ms]
+[2022-06-20T22:01:56.423Z] > git show --textconv :test.js [70ms]
+[2022-06-20T22:01:56.425Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [12ms]
+[2022-06-20T22:02:37.736Z] > git show --textconv :test.js [23ms]
+[2022-06-20T22:02:37.738Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [9ms]
+[2022-06-20T22:02:46.053Z] > git status -z -uall [11ms]
+[2022-06-20T22:02:46.072Z] > git symbolic-ref --short HEAD [2ms]
+[2022-06-20T22:02:46.089Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-06-20T22:02:46.107Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-06-20T22:02:46.107Z] > git remote --verbose [2ms]
+[2022-06-20T22:02:46.119Z] > git config --get commit.template [2ms]

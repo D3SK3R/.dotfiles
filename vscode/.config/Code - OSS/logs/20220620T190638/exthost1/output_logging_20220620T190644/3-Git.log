@@ -1,0 +1,22 @@
+[2022-06-20T22:06:47.840Z] Validating found git in: git
+[2022-06-20T22:06:47.908Z] Using git 2.36.1 from git
+[2022-06-20T22:06:47.963Z] > git rev-parse --show-toplevel [14ms]
+[2022-06-20T22:06:48.006Z] > git rev-parse --git-dir --git-common-dir [11ms]
+[2022-06-20T22:06:48.038Z] Open repository: /home/d3sk3r/newtab
+[2022-06-20T22:06:48.156Z] > git status -z -uall [77ms]
+[2022-06-20T22:06:48.206Z] > git symbolic-ref --short HEAD [2ms]
+[2022-06-20T22:06:48.231Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-06-20T22:06:48.298Z] > git remote --verbose [10ms]
+[2022-06-20T22:06:48.301Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+[2022-06-20T22:06:48.350Z] > git config --get commit.template [11ms]
+[2022-06-20T22:06:51.229Z] > git check-ignore -v -z --stdin [81ms]
+[2022-06-20T22:06:52.577Z] git.getSCMResource.uri file:///home/d3sk3r/newtab/test.js
+[2022-06-20T22:06:52.578Z] repo root /home/d3sk3r/newtab
+[2022-06-20T22:06:52.778Z] > git show --textconv :test.js [179ms]
+[2022-06-20T22:06:52.781Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [155ms]
+[2022-06-20T22:06:53.285Z] > git show --textconv HEAD:test.js [37ms]
+[2022-06-20T22:06:53.286Z] > git ls-tree -l HEAD -- /home/d3sk3r/newtab/test.js [3ms]
+[2022-06-20T22:06:55.584Z] > git show --textconv :test.js [26ms]
+[2022-06-20T22:06:55.591Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [10ms]
+[2022-06-20T22:08:23.995Z] > git show --textconv :test.js [13ms]
+[2022-06-20T22:08:23.996Z] > git ls-files --stage -- /home/d3sk3r/newtab/test.js [3ms]

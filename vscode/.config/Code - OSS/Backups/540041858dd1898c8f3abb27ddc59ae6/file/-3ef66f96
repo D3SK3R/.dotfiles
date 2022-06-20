@@ -1,4 +1,0 @@
-file:///home/d3sk3r/newtab/test.js {"mtime":1655689895645,"ctime":1655689793487,"size":65,"etag":"38sed9rc723","orphaned":false,"typeId":""}
-const myfunction = (num) => {
-    return num => 5 && num !== 2;
-}

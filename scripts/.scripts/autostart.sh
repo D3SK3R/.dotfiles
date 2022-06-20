@@ -97,13 +97,13 @@ sleep 3 && flashfocus &
 sleep 3 && copyq &
 
 # floating stuff
-sleep 2 && urxvt -title floating_terminal &
-#sleep 2 && st -T floating_terminal &
-sleep 2 && urxvt -title floating_terminal2 &
-#sleep 2 && st -T floating_terminal2 &
+# sleep 2 && urxvt -title floating_terminal &
+sleep 2 && st -T floating_terminal &
+# sleep 2 && urxvt -title floating_terminal2 &
+sleep 2 && st -T floating_terminal2 &
 
-sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
-#sleep 2 && st -T ncmpcpp -e ncmpcpp &
+# sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
+sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
 # workaround: use external rules bspwm
 # doesn't work, at least not with a low sleep delay
