@@ -98,9 +98,9 @@ sleep 3 && copyq &
 
 # floating stuff
 sleep 2 && urxvt -title floating_terminal &
-#sleep 2 && st -n floating_terminal &
+#sleep 2 && st -T floating_terminal &
 sleep 2 && urxvt -title floating_terminal2 &
-#sleep 2 && st -n floating_terminal2 &
+#sleep 2 && st -T floating_terminal2 &
 
 sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 
