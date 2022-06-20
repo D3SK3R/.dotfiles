@@ -9,6 +9,7 @@ Xft.lcdfilter:lcdfilter
 
 *.underlineURLs:true
 *.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
+*bold.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold
 !!URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 !!URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
 *letterSpace: -1

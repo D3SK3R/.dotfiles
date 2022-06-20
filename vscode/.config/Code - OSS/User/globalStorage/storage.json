@@ -736,8 +736,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1598,10 +1597,10 @@
             "backupPath": "/home/d3sk3r/.config/Code - OSS/Backups/540041858dd1898c8f3abb27ddc59ae6",
             "uiState": {
                 "mode": 1,
-                "x": 1378,
-                "y": 34,
-                "width": 664,
-                "height": 722
+                "x": 1366,
+                "y": 28,
+                "width": 1366,
+                "height": 740
             }
         },
         "openedWindows": []
