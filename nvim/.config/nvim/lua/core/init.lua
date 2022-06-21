@@ -57,4 +57,6 @@ vim.cmd [[
     " Minimal number of screen lines to keep above and below the cursor.
     set scrolloff=5
 
+    "Automatically run xrdb /.Xresouces when the file is changed
+    autocmd BufWritePost .Xresources !xrdb %
 ]]

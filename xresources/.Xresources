@@ -58,13 +58,17 @@ URxvt.externalBorder:  4
 !!! COLORS !!!
 
 !! special
-URxvt*foreground:           #ffffff
+URxvt*foreground:   #ffffff
 URxvt*background:   [100]#090C12
 !URxvt*background:   [100]#00010F
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
 !URxvt.internalBorder:4
+URxvt.depth:32
+
+!URxvt.highlightColor: #00ccff
+!URxvt.highlightTextColor: #000000
 
 *colorBD:              #ffffff
 *colorIT:              #1c64ff
@@ -77,11 +81,6 @@ URxvt*background:   [100]#090C12
 *cursorColor2:         #000000
 *cursorBlink:          true
 *cursorUnderline:      true
-URxvt.depth:32
-
-!URxvt.highlightColor: #00ccff
-!URxvt.highlightTextColor: #000000
-
 
 !*bg:     #10141c
 *bg:     #090c12
@@ -95,7 +94,6 @@ URxvt.depth:32
 *color5: #0066ff
 *color6: #00ccff
 *color7: #ffffff
-! was pink #ff00cc
 *color8: #090c12
 ! terminal writing and grep matches
 *color9: #4177ff
