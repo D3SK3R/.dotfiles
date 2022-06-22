@@ -15,7 +15,7 @@ opt.laststatus = 3 -- global statusline
 opt.statusline = config.plugins.options.statusline.config
 opt.showmode = false
 
-opt.title = true
+opt.title = false
 opt.clipboard = "unnamedplus"
 opt.cul = true -- cursor line
 
