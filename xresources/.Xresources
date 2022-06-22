@@ -93,7 +93,7 @@ URxvt.depth:32
 *color5: #0066ff
 *color6: #00ccff
 *color7: #ffffff
-*color8: #090c12
+*color8: #0066ff
 ! terminal writing and grep matches
 *color9: #4177ff
 *color10: #00cfff
