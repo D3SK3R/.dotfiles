@@ -1,0 +1,1 @@
+if here isn't working, put the file inside /usr/share/gamemode/ and run sudo chown root gamemode.ini
