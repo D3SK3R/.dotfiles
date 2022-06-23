@@ -52,7 +52,9 @@ export BROWSER="/usr/bin/google-chrome-stable"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-#ZSH_THEME="rounded"
+# Download powerlevel10k using: yay -S --noconfirm zsh-theme-powerlevel10k-git
+# or set the theme here
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -494,7 +496,7 @@ alias cleanup='sh ~/.scripts/cleanup.sh'
 #################################################################
 # zsh related
 #################################################################
-alias zshrc='stty stop "" -ixoff; nvim ~/.zshrc;"cp" ~/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/dots/.zshrc'
+alias zshrc='stty stop "" -ixoff; nvim ~/.zshrc;"cp" ~/.dotfiles/zsh/.zshrc ~/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/dots/.zshrc'
 alias rzsh='source ~/.zshrc && source ~/.p10k.zsh' # reload terminal configs
 alias vundle='vim +PluginInstall +qall'
 
@@ -671,7 +673,8 @@ mkd() {
 }
 
 #################################################################
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# this can be commented out if using oh-my-zsh and ZSH_THEME is set to powerlevel10/powerlevel10k
+#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 #autoload -U compinit
 #compinit
