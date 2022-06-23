@@ -1,99 +1,122 @@
 #!/bin/sh
 
-################################################################################################
-##                                         SCRIPTS                                            ##
-################################################################################################
+# check if the script is running right after the system started
+# so that I can edit and reload my bspwmrc without it
+# re-running this script
+#uptime="$(cat /proc/uptime | cut -d' ' -f1 | cut -d'.' -f1)"
+#if [[ "$uptime" -gt "100" ]]; then
+#    exit 
+#fi
 
-# script to change i3 layout setting
-~/.scripts/alternating_layouts.py &
-# alternative: https://github.com/nwg-piotr/autotiling
+dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script"
 
-# script to change mouse sens
-~/.scripts/mouse_sens.sh &
+# function to check if the program is already running
+# if not, run it with an & in the end
+function run {
+    if ! pgrep $1; then
+        $@&
+    fi
+}
 
-# set keyboard layout 
-~/.scripts/keyboardLayout.sh &
+#######################
+###     scripts     ###
+#######################
 
-# set timeout to lock the screen
-xautolock -time 60 -locker ~/.scripts/lock.sh
+## BSPWM Monitors setup
+if xrandr | grep -ow "DP1 connected" >/dev/null; then
+    autorandr --change &
+    #sleep 2
+    sleep 1 && bspc desktop 2 --focus &&
+    sleep 0.5 &&
+    bspc desktop 1 --focus
+else
+    run autorandr
+    bspc monitor -d 1 2 3 4 5 6 7 8 9
+    #sleep 3
+    sleep 2 && $HOME/.config/polybar/launch.sh &
+fi
+# everything about monitors is commented
+# since I'm using autorandr that executed all of this
+#$HOME/.config/bspwm/monitors-bspwm &
 
-# set keyboard repeat delay and interval
-xset r rate 200 30 # first number after "rate" is delay, and second is interval
+#$HOME/.scripts/monitors.sh &
 
-# theming?
-ff-theme-util
+$HOME/.scripts/keyboardSet &
 
-# fix/set cursor theme
-fix_xcursor
+# 4
+sleep 0.7 && $HOME/.scripts/headset-configure &
 
-# touchpad gestures
-ibinput-gestures-setup restart &
+# 5
+sleep 1.5 && polybar-msg hook mute 1 &
 
-# flashfocus 
-sleep 5 & flashfocus &
+#######################
+###    programs     ###
+#######################
+xrdb -merge $HOME/.Xresources
 
-# Send a warning when free ram gets lower
-#~/.scripts/ram_warning.sh &
+run sxhkd
 
-# Stretch notif
-~/.scripts/stretch.sh &
+run urxvtd -q -o -f
 
-################################################################################################
-##                                         PROGRAMS                                           ##
-################################################################################################
+run xsetroot -cursor_name left_ptr
 
-# polybar
-~/.config/polybar/launch.sh &
+run xfce4-power-manager
 
-# pulseaudio
-killall pulseaudio & sleep 0.5 & pulseaudio &
+run megasync
 
-# urxvt daemon
-urxtv -q -o -f &
+run libinput-gestures-setup restart
 
-# run urxvt to use with scratchpad
-urxvt -name floating_urxvt &
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-# restart xfce4-power-manager
-kill $(ps ax | awk '/xfce4-power-manager/ {print $1}' | head -n 1);sleep 1;xfce4-power-manager &
+run nm-applet
 
-# qutebrowser to use with scratchpad
-qutebrowser &
+run pamac-tray
 
-# spotify
-spotify &
+run clipster -d
 
-# fix betterdiscord and open discord
-sleep 3;betterdiscordctl update;betterdiscordctl reinstall;betterdiscordcl restart;sleep 1;discord &
+run xautolock -time 60 -locker ~/.scripts/lock.sh
 
-# megasync
-megasync &
+run udiskie -t
 
-# albert
-#albert &
+start-pulseaudio-x11
+#pulseaudio --kill & pulseaudio &
+#sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
-# dunst notification
-#dunst &
+run mpd
+#run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
-# syncthing
-syncthing -no-browser &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+nitrogen --restore &
 
-# picom
-nitrogen --restore;sleep 1;picom -b &
+picom -b --experimental-backend &
 
-# network-manager applet
-nm-applet &
+# 5
+sleep 3 && flashfocus &
 
-# pamac
-pamac-tray &
+# disable the autostart option inside copyq's preferences
+# 5
+sleep 3 && copyq &
 
-# clipit and clipster
-clipit & clipster -d &
+# floating stuff
+# sleep 2 && urxvt -title floating_terminal &
+sleep 2 && st -T floating_terminal &
+# sleep 2 && urxvt -title floating_terminal2 &
+sleep 2 && st -T floating_terminal2 &
 
-# telegram
-telegram-desktop -startintray &
+# sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
+sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
+# workaround: use external rules bspwm
+# doesn't work, at least not with a low sleep delay
+#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
 
+#sleep 5 && firefox &
 
+sleep 3 && discord & #premid &
 
+#sleep 8 && redshift &
+
+#sh $HOME/.scripts/better.sh &
+sh $HOME/.scripts/water.sh &
+
+# Map the menu key to slash (doesn't work when executed before keyd/kmonad)
+#xmodmap -e "keycode 135 = slash"
