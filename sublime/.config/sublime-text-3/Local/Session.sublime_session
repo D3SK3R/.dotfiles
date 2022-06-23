@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/amor-extension/valentine2/favs.html",
 				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
 				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine2/styleNos.css",
-				"/home/d3sk3r/amor-extension/context.js",
-				"/home/d3sk3r/amor-extension/valentine2/a.html"
+				"/home/d3sk3r/amor-extension/valentine2/styleNos.css"
 			],
 			"find":
 			{
@@ -519,14 +519,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-					"settings":
-					{
-						"buffer_size": 3913,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -665,6 +657,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
@@ -790,9 +784,7 @@
 				"/home/d3sk3r/amor-extension/valentine2/favs.html",
 				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
 				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine2/styleNos.css",
-				"/home/d3sk3r/amor-extension/context.js",
-				"/home/d3sk3r/amor-extension/valentine2/a.html"
+				"/home/d3sk3r/amor-extension/valentine2/styleNos.css"
 			],
 			"find":
 			{
@@ -840,38 +832,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3913,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 986.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -915,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1376,400,2040,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
