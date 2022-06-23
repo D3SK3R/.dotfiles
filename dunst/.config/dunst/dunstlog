@@ -184,3 +184,27 @@ NORMAL
 carolpvpbr. started a call. 
 carolpvpbr. 
 discord
+10:44 
+NORMAL
+copyq
+Exit code: 1 1. copyq: runMenuCommandFilters() 
+Command “copyq: runMenuCommandFilters()” 
+CopyQ
+10:44 
+NORMAL
+copyq
+Exit code: 1 1. copyq onExit 
+Command “copyq onExit” 
+CopyQ
+10:50 
+LOW
+nm-no-connection
+The network connection has been disconnected. 
+Disconnected 
+NetworkManager
+10:51 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager

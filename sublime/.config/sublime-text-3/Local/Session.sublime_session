@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
 				"/home/d3sk3r/dir.txt",
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
-				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt",
-				"/home/d3sk3r/MEGA/discord/yr/'-----'.txt"
+				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt"
 			],
 			"find":
 			{
@@ -520,13 +520,23 @@
 			"buffers":
 			[
 				{
-					"file": "/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 					"settings":
 					{
-						"buffer_size": 33,
-						"encoding": "UTF-8",
+						"buffer_size": 72,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+					"settings":
+					{
+						"buffer_size": 93,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
@@ -666,6 +676,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
 				"/home/d3sk3r/dir.txt",
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
@@ -792,8 +803,7 @@
 				"/home/d3sk3r/MEGA/discord/yr/ingrid.txt",
 				"/home/d3sk3r/MEGA/discord/yr/teoria.txt",
 				"/home/d3sk3r/MEGA/discord/yr/cmpetitiviade.txt",
-				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt",
-				"/home/d3sk3r/MEGA/discord/yr/'-----'.txt"
+				"/home/d3sk3r/MEGA/discord/yr/psicologia.txt"
 			],
 			"find":
 			{
@@ -843,12 +853,11 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
-							"selected": true,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 33,
+								"buffer_size": 72,
 								"regions":
 								{
 								},
@@ -857,6 +866,36 @@
 									[
 										0,
 										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 93,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										71,
+										71
 									]
 								],
 								"settings":
@@ -914,7 +953,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,1376,400,2040,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
