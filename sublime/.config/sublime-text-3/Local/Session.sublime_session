@@ -216,6 +216,16 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/fibonacci.py",
+				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
+				"/home/d3sk3r/MEGA/deauthAttack.sh",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/home/d3sk3r/MEGA/exames.txt",
+				"/home/d3sk3r/MEGA/exec.txt",
+				"/home/d3sk3r/MEGA/voice.txt",
+				"/home/d3sk3r/MEGA/todo.txt",
+				"/home/d3sk3r/MEGA/investment/fundos",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
@@ -333,17 +343,7 @@
 				"/home/d3sk3r/amor-extension/valentine/nos2.html",
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/drop/original.txt",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
-				"/home/d3sk3r/amor-extension.pem",
-				"/home/d3sk3r/amor-extension/popup.js",
-				"/home/d3sk3r/amor-extension/valentine2/style.css",
-				"/home/d3sk3r/amor-extension/valentine2/index.html",
-				"/home/d3sk3r/amor-extension/valentine2/favs.html",
-				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
-				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine2/styleNos.css"
+				"/home/d3sk3r/drop/original.txt"
 			],
 			"find":
 			{
@@ -519,6 +519,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/percentage.py",
+					"settings":
+					{
+						"buffer_size": 1316,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +665,16 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/fibonacci.py",
+				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
+				"/home/d3sk3r/MEGA/deauthAttack.sh",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/home/d3sk3r/MEGA/exames.txt",
+				"/home/d3sk3r/MEGA/exec.txt",
+				"/home/d3sk3r/MEGA/voice.txt",
+				"/home/d3sk3r/MEGA/todo.txt",
+				"/home/d3sk3r/MEGA/investment/fundos",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
@@ -774,17 +792,7 @@
 				"/home/d3sk3r/amor-extension/valentine/nos2.html",
 				"/home/d3sk3r/amor-extension/valentine/index.html",
 				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/drop/original.txt",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/pass/chromePass.py",
-				"/home/d3sk3r/amor-extension.pem",
-				"/home/d3sk3r/amor-extension/popup.js",
-				"/home/d3sk3r/amor-extension/valentine2/style.css",
-				"/home/d3sk3r/amor-extension/valentine2/index.html",
-				"/home/d3sk3r/amor-extension/valentine2/favs.html",
-				"/home/d3sk3r/amor-extension/valentine2/motivos.html",
-				"/home/d3sk3r/amor-extension/valentine2/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine2/styleNos.css"
+				"/home/d3sk3r/drop/original.txt"
 			],
 			"find":
 			{
@@ -832,6 +840,38 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/percentage.py",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1316,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 153.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
