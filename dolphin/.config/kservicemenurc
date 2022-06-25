@@ -2,6 +2,7 @@
 compressfileitemaction=true
 extractfileitemaction=true
 kactivitymanagerd_fileitem_linking_plugin=false
+kdeconnectfileitemaction=true
 megasync-plugin=true
 runInKonsole=false
 sharefileitemaction=false

@@ -4,6 +4,7 @@ MenuBar=Disabled
 FontWeight=50
 
 [ContextMenu]
+ShowAddToPlaces=false
 ShowSortBy=false
 ShowViewMode=false
 

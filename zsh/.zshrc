@@ -43,7 +43,8 @@ alias downgrade='sudo DOWNGRADE_FROM_ALA=1 downgrade'
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 #export TERM="xterm-256color"
-export TERM="rxvt-unicode-256color"
+# export TERM="rxvt-unicode-256color"
+export TERM="st-256color"
 
 export BROWSER="/usr/bin/google-chrome-stable"
 

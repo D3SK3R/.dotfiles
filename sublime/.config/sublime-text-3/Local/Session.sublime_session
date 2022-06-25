@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1656100142,
+	"next_update_check": 1656269317,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,18 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
+				"/home/d3sk3r/MEGA/percentage.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
 				"/home/d3sk3r/MEGA/fibonacci.py",
 				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
 				"/home/d3sk3r/MEGA/deauthAttack.sh",
@@ -331,19 +343,7 @@
 				"/home/d3sk3r/Desktop/Valheim.desktop",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
-				"/var/cache/debtap/debian-main-packages-files",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
-				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
-				"/home/d3sk3r/amor-extension/popup.html",
-				"/home/d3sk3r/amor-extension/manifest.json",
-				"/home/d3sk3r/amor-extension/valentine/vid.html",
-				"/home/d3sk3r/amor-extension/valentine/favs.html",
-				"/home/d3sk3r/amor-extension/valentine/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine/index.html",
-				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/drop/original.txt"
+				"/var/cache/debtap/debian-main-packages-files"
 			],
 			"find":
 			{
@@ -519,14 +519,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/percentage.py",
-					"settings":
-					{
-						"buffer_size": 1316,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -665,6 +657,18 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
+				"/home/d3sk3r/MEGA/percentage.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
 				"/home/d3sk3r/MEGA/fibonacci.py",
 				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
 				"/home/d3sk3r/MEGA/deauthAttack.sh",
@@ -780,19 +784,7 @@
 				"/home/d3sk3r/Desktop/Valheim.desktop",
 				"/home/d3sk3r/MEGA/discord/Carol/x/n/anime/when.txt",
 				"/var/cache/debtap/aur-packages",
-				"/var/cache/debtap/debian-main-packages-files",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/version",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/Vampire.Survivors.v0.3.1h/resources/app/package.json",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Change lightdm wallpaper",
-				"/home/d3sk3r/.minecraft/resourcepacks/COMPRESSED-§bDesker§9  dynamic §5[1.8]§0/pack.mcmeta",
-				"/home/d3sk3r/amor-extension/popup.html",
-				"/home/d3sk3r/amor-extension/manifest.json",
-				"/home/d3sk3r/amor-extension/valentine/vid.html",
-				"/home/d3sk3r/amor-extension/valentine/favs.html",
-				"/home/d3sk3r/amor-extension/valentine/nos2.html",
-				"/home/d3sk3r/amor-extension/valentine/index.html",
-				"/home/d3sk3r/amor-extension/valentine/motivos.html",
-				"/home/d3sk3r/drop/original.txt"
+				"/var/cache/debtap/debian-main-packages-files"
 			],
 			"find":
 			{
@@ -840,38 +832,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/percentage.py",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1316,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 153.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
