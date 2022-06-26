@@ -1,5 +1,0 @@
-(on ~/.config)
-
-sudo chmod 777 /opt/spotify -R
-
-spicetify backup apply enable-devtool

@@ -64,3 +64,15 @@ qbittorrent
 'A Saga Crepusculo Completa' has finished downloading. 
 Download completed 
 qBittorrent
+12:08 
+NORMAL
+dialog-warning
+Save your unsaved data! Close unused apps! 
+Low memory 
+nohang
+12:09 
+NORMAL
+dialog-warning
+<b>Terminating</b> [124728] <b>git</b> 
+System hang prevention 
+nohang

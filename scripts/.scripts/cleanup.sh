@@ -76,6 +76,9 @@ fi
 # 5 - Clean root trash
 # /root/.local/share/Trash/files
 
-
+# 6 - Clean my dotfiles repo .git folder
+# https://git-scm.com/docs/git-gc
+# https://stackoverflow.com/questions/5613345/how-to-shrink-the-git-folder
+# safe command: git gc --no-prune
 
 
