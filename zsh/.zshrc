@@ -559,7 +559,7 @@ alias en='f(){ trans -b "$@" | lolcat;  unset -f f; }; f'
 #alias cava='cava | lolcat -p 100000'
 # lolcat bugged
 #alias pipes='pipes.sh -t3 | lolcat'
-alias pipes='pipes.sh -t3 -B'
+alias pipes='pipes.sh -t3 -B -p 6'
 #alias say='fortune | cowsay -f turtle | lolcat -a -s 1000'
 #alias powersave='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/powersave.sh'
 #alias performance='sudo /home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/CPUFrequency/performance.sh'

@@ -41,6 +41,10 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
 
     printf "\ncleaning root trash\n"
     sudo \rm -rf /root/.local/share/Trash/files/*
+
+    # printf "\n optimizing dotfiles .git folder\nMAY TAKE A LONG TIME\n"
+    # cd ~/.dotfiles/ 
+    # git gc --no-prune
 else
     printf "Aborting..."
 fi
