@@ -78,7 +78,7 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-start-pulseaudio-x11
+start-pulseaudio-x11 &
 #pulseaudio --kill & pulseaudio &
 #sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
@@ -120,3 +120,6 @@ sh $HOME/.scripts/water.sh &
 
 # Map the menu key to slash (doesn't work when executed before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
+
+sleep 5 && kdeconnect-indicator &
+
