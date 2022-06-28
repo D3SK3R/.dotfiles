@@ -608,6 +608,9 @@ alias ahegao='clear;echo "⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄
 alias ahegaorgb='while true; do clear; ahegao | lolcat -a -s 300;done'
 
 alias sudoku='sku'
+
+alias maps='telnet mapscii.me'
+
 ##########################################################################
 # Create and Extract files
 ##########################################################################
