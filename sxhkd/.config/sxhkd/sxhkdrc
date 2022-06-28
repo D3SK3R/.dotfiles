@@ -41,7 +41,7 @@ super + Tab
 
 # Panic / reset picom
 super + {_, shift} + Delete
-    {~/.scripts/panic.sh, ~/.scripts/free-ram}
+    {~/.scripts/panic.sh, killall picom & sleep 0.5 && picom -b --experimental-backends &}
 
 # mute mic
 super + apostrophe
