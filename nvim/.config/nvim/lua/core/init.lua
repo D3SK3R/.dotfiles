@@ -61,4 +61,10 @@ vim.cmd [[
 
     "Automatically run xrdb /.Xresouces when the file is changed
     autocmd BufWritePost .Xresources !xrdb %
+
+    "Set default nvim cursor to a horizontal line 
+    set guicursor=a:hor2-blinkon0
+
+    "Set a horizontal cursor back again when nvim leaves
+    au VimLeave * set guicursor=a:hor2-blinkon0
 ]]
