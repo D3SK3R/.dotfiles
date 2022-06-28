@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 354.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
@@ -278,7 +279,6 @@
 				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
 				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 664.0
 	},
 	"windows":
 	[
@@ -657,6 +657,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
@@ -719,7 +720,6 @@
 				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
 				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,3",
+			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
