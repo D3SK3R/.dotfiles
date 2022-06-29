@@ -121,6 +121,7 @@ sh $HOME/.scripts/water.sh &
 # Map the menu key to slash (doesn't work when executed before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
 
+# not working when Keyd is running
 sleep 2 && xcape -e 'Shift_R=Escape' &
 
 sleep 5 && kdeconnect-indicator &

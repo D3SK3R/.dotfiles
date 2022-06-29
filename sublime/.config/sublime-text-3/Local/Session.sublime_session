@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1656442117,
+	"next_update_check": 1656572063,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,400,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,10,400,674,754,2732,768,0",
 			"project": "",
 			"replace":
 			{
