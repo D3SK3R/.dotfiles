@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 354.0,
+		"new_window_height": 722.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/why-bspwm.txt",
 				"/home/d3sk3r/vaga.txt",
-				"/home/d3sk3r/try.txt",
-				"/home/d3sk3r/changes"
+				"/home/d3sk3r/try.txt"
 			],
 			"find":
 			{
@@ -657,6 +657,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
@@ -783,8 +784,7 @@
 				"/home/d3sk3r/todo",
 				"/home/d3sk3r/why-bspwm.txt",
 				"/home/d3sk3r/vaga.txt",
-				"/home/d3sk3r/try.txt",
-				"/home/d3sk3r/changes"
+				"/home/d3sk3r/try.txt"
 			],
 			"find":
 			{
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,400,674,754,2732,768,0",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
 			"project": "",
 			"replace":
 			{
