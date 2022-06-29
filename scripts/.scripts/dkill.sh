@@ -20,7 +20,7 @@ dkill (){
             echo "Do you really want to kill the processes\n$pid\n\n[Y/n]"
             read choice
             if [ -z choice ] || [ "$choice" = "y" ] || [ "$choice" = "" ]; then
-                kill $(echo $pid)
+                kill -9 $(echo $pid)
                 #kill $(ps auxf | grep $1 | awk -F' ' '{print $2}' | tail -n +2) 2>/dev/null
                 #echo "killing the processes ID:\n$pid"
                 echo "Killed."

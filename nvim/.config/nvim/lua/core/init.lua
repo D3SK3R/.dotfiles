@@ -54,6 +54,7 @@ vim.cmd [[
     " make ctrl+backspace act as ctrl w
     " for some RANDOM reason, it doens't automatically work, but running :inoremap <C-H> <C-w> works!
     inoremap <C-H> <C-w>
+    inoremap <M-BS> <C-w>
 
     " Minimal number of screen lines to keep above and below the cursor.
     set scrolloff=5
