@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
+				"/home/d3sk3r/st/config.def.h",
+				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
@@ -340,10 +343,7 @@
 				"/home/d3sk3r/nft/get-pip.py",
 				"/home/d3sk3r/crypto.txt",
 				"/home/d3sk3r/internet.sh",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/why-bspwm.txt",
-				"/home/d3sk3r/vaga.txt",
-				"/home/d3sk3r/try.txt"
+				"/home/d3sk3r/todo"
 			],
 			"find":
 			{
@@ -519,6 +519,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
+					"settings":
+					{
+						"buffer_size": 109,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -657,6 +665,9 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
+				"/home/d3sk3r/st/config.def.h",
+				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
 				"/home/d3sk3r/Desec - 2020/Informações.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
@@ -781,10 +792,7 @@
 				"/home/d3sk3r/nft/get-pip.py",
 				"/home/d3sk3r/crypto.txt",
 				"/home/d3sk3r/internet.sh",
-				"/home/d3sk3r/todo",
-				"/home/d3sk3r/why-bspwm.txt",
-				"/home/d3sk3r/vaga.txt",
-				"/home/d3sk3r/try.txt"
+				"/home/d3sk3r/todo"
 			],
 			"find":
 			{
@@ -832,6 +840,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 109,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
