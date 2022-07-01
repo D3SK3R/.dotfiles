@@ -78,6 +78,8 @@ fi
 # (only packages you won't use!)
 
 # 5 - Clean root trash
+# Also, check for other files inside the root home folder, it may contain unused files
+# taking up too much space
 # /root/.local/share/Trash/files
 
 # 6 - Clean my dotfiles repo .git folder
