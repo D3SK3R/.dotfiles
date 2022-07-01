@@ -685,12 +685,15 @@ mkd() {
 
 # only for oh-my-zsh
 autoload -Uz compinit
-if [[ -n ${ZDOTDIR:-${HOME}}/$ZSH_COMPDUMP(#qN.mh+24) ]]; then
-    compinit -d $ZSH_COMPDUMP
+if [[ $(whoami) == "root" ]]; then
+    compinit -C 
 else
-    compinit -C
+    if [[ -n ${ZDOTDIR:-${HOME}}/$ZSH_COMPDUMP(#qN.mh+24) ]]; then
+        compinit -d $ZSH_COMPDUMP
+    else
+        compinit -C
+    fi
 fi
-
 # -D ........... disables .zcompudump file
 # -d ........... used to set an alternative name to .zcompdump
 # -i ........... accept insecure files
