@@ -82,9 +82,10 @@ fi
 # taking up too much space
 # /root/.local/share/Trash/files
 
-# 6 - Clean my dotfiles repo .git folder
+# 6 - .xsession-errors
+# check the file .xsession-errors size
+
+# 7 - Clean my dotfiles repo .git folder
 # https://git-scm.com/docs/git-gc
 # https://stackoverflow.com/questions/5613345/how-to-shrink-the-git-folder
 # safe command: git gc --no-prune
-
-
