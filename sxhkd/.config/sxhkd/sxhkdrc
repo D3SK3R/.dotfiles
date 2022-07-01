@@ -29,7 +29,7 @@ super + Pause
 # Terminal
 super + {_,shift +} Return
     {st, urxvtc -cd ~}
-    {urxvtc -cd ~, st}
+    #{urxvtc -cd ~, st}
 
 # Toggle systray
 super + Tab
@@ -105,11 +105,11 @@ super + {_, shift +} m
 super + {_,shift + } n
     {~/.scripts/rofi-notifcenter.sh, dunstctl set-paused toggle}
 
-# Open clipboard URL with mpv, shift to close all mpv windows
+# Open clipboard URL with mpv, shift to automatically open clipboard URLS and ctrl to close all mpv windows
 super + {_,shift,ctrl + } o
     {~/.scripts/openToMPVauto, ~/.scripts/openToMPV, xdo close -N mpv}
 
-# Ranger
+# Ranger and mineRecraft
 {super, alt} + r
     { urxvtc -e ranger ~, ~/.scripts/mineRecraft}
 

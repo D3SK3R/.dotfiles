@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1656572063,
+	"next_update_check": 1656719186,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
 				"/home/d3sk3r/st/config.def.h",
 				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
@@ -249,7 +254,6 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
@@ -339,11 +343,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp",
 				"/home/d3sk3r/MEGA/sbll/Dreams.txt",
 				"/home/d3sk3r/pqp",
-				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
-				"/home/d3sk3r/nft/get-pip.py",
-				"/home/d3sk3r/crypto.txt",
-				"/home/d3sk3r/internet.sh",
-				"/home/d3sk3r/todo"
+				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt"
 			],
 			"find":
 			{
@@ -519,14 +519,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-					"settings":
-					{
-						"buffer_size": 109,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -665,6 +657,11 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
 				"/home/d3sk3r/st/config.def.h",
 				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
@@ -698,7 +695,6 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
@@ -788,11 +784,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp",
 				"/home/d3sk3r/MEGA/sbll/Dreams.txt",
 				"/home/d3sk3r/pqp",
-				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt",
-				"/home/d3sk3r/nft/get-pip.py",
-				"/home/d3sk3r/crypto.txt",
-				"/home/d3sk3r/internet.sh",
-				"/home/d3sk3r/todo"
+				"/home/d3sk3r/dead cells/ModTools/PatchNotes.txt"
 			],
 			"find":
 			{
@@ -840,36 +832,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 109,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -913,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,3",
+			"position": "0,0,0,0,0,2054,32,2718,754,2732,768,4",
 			"project": "",
 			"replace":
 			{
