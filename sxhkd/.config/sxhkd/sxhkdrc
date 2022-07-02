@@ -214,7 +214,7 @@ super + alt + {Left,Down,Up,Right}
 
 # move windows
 super + ctrl + {Left,Down,Up,Right}
-	~/.config/bspwm/move-bspwm {Left,Down,Up,Right}
+    ~/.config/bspwm/move-bspwm {Left,Down,Up,Right}
     #bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # toggle floating focus/mode
