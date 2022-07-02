@@ -105,8 +105,9 @@ URxvt.depth:32
 *color6: #00ccff
 *color14: #1c64ff
 ! white
-*color7: #ffffff
-*color15: #00ccff
+*color7: #FFFFFF
+*color15: #FFFFFF
+! *color15: #00ccff
 
 ! ctrl+arrows for vim
 URxvt.keysym.Control-Up:        \033[1;5A

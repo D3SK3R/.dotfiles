@@ -36,6 +36,9 @@ vim.cmd [[
     nnoremap x "_x
     vnoremap x "_x
 
+    nnoremap p pgvy
+    vnoremap p pgvy
+
     nnoremap c "_c
     vnoremap c "_c
 
