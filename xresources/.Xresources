@@ -59,7 +59,7 @@ URxvt.externalBorder:  4
 !!! COLORS !!!
 
 !! special
-URxvt*foreground:   #ffffff
+*foreground:   #ffffff
 URxvt*background:   [100]#090C12
 
 !URxvt.borderColor: #00ccff
@@ -67,12 +67,9 @@ URxvt*background:   [100]#090C12
 !URxvt.internalBorder:4
 URxvt.depth:32
 
-!URxvt.highlightColor: #00ccff
-!URxvt.highlightTextColor: #000000
-
-*colorBD:              #ffffff
-*colorIT:              #1c64ff
-*colorUL:              #1c64ff
+! *colorBD:              #ffffff
+! *colorIT:              #1c64ff
+! *colorUL:              #1c64ff
 *underlineColor:       #00ccff
 *highlightColor:       #00ccff
 *highlightTextColor:   #000000
@@ -85,25 +82,31 @@ URxvt.depth:32
 !*bg:     #10141c
 *bg:     #090C12
 *fg:     #ffffff
+
+! Black
 *color0: #10141C
-*color1: #1c64ff
-*color2: #00ccff
-*color3: #16aee5
-*color4: #0066ff
-! terminal completition?
-*color5: #0066ff
-*color6: #00ccff
-*color7: #ffffff
 *color8: #0066ff
-! terminal writing and grep matches
+! red
+*color1: #1C64FF
 *color9: #4177ff
+! green
+*color2: #00ccff
 *color10: #00cfff
+! yellow
+*color3: #16aee5
 *color11: #208cff
+! blue
+*color4: #0066ff
 *color12: #059bff
+! magenta
+*color5: #0066ff
 *color13: #00ccff
+! cyan
+*color6: #00ccff
 *color14: #1c64ff
+! white
+*color7: #ffffff
 *color15: #00ccff
-!*color15: #0099ff
 
 ! ctrl+arrows for vim
 URxvt.keysym.Control-Up:        \033[1;5A
@@ -117,7 +120,6 @@ URxvt.keysym.Control-Right:     \033[1;5C
 *font: Fira Code:style:medium:pixelsize=12 
 ! JoyPixels for colored emojis
 *fontalt0: JoyPixels:pixelsize=12
-
 
 *background:    #090c12
 *alpha:         1

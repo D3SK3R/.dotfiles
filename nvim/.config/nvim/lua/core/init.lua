@@ -42,7 +42,7 @@ vim.cmd [[
     " prevent ci (change in ...) from yaking the selection
     nnoremap ci "_ci
 
-    nmap i a
+    nmap a i
 
     " Shortcut for replace command
     nnoremap S :%s///gc<Left><Left><Left><Left>
