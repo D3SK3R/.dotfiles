@@ -83,9 +83,9 @@ URxvt.depth:32
 *cursorUnderline:      true
 
 !*bg:     #10141c
-*bg:     #090c12
+*bg:     #090C12
 *fg:     #ffffff
-*color0: #090C12
+*color0: #10141C
 *color1: #1c64ff
 *color2: #00ccff
 *color3: #16aee5

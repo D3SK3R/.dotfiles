@@ -256,3 +256,45 @@ battery-040
 Battery at 39% 
 ONEPLUS A5000: Low Battery 
 KDE Connect
+03:55 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
+04:01 
+LOW
+nm-signal-100
+You are now connected to the Wi-Fi network “CLARO_2G7ED69B”. 
+Connection Established 
+NetworkManager
+04:01 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
+01:33 
+LOW
+nm-signal-100
+You are now connected to the Wi-Fi network “CLARO_2G7ED69B”. 
+Connection Established 
+NetworkManager
+01:53 
+LOW
+nm-signal-100
+You are now connected to the Wi-Fi network “CLARO_2G7ED69B”. 
+Connection Established 
+NetworkManager
+01:59 
+LOW
+nm-device-wired
+You are now connected to “eth0”. 
+Connection Established 
+NetworkManager
+02:51 
+NORMAL
+system-software-install-symbolic
+Updates Available 
+Package Manager 
+Package Manager
