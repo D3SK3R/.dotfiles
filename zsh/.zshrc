@@ -432,8 +432,7 @@ alias floating='nohup st -T floating_terminal >/dev/null &'
 alias floating2='nohup st -T floating_terminal2 >/dev/null &'
 alias player='urxvt -title ncmpcpp -e ncmpcpp &'
 alias kill='kill -9'
-alias todo='calcurse;clear'
-alias cal='cal -y'
+alias dkill='sh $HOME/.scripts/dkill.sh'
 alias myip='curl ipinfo.io/ip'
 alias myipv6="ip addr show dev wlan0 | sed -e's/^.*inet6 \([^ ]*\)\/.*$/\1/;t;d' | head -n1"
 alias wget='wget --no-check-certificate'
@@ -445,7 +444,6 @@ alias xdg='xdg-open'
 alias disk='lsblk'
 alias du='dust'
 alias size='"du" -sh *'
-alias rpolybar='sh ~/.config/polybar/launch.sh'
 alias stow='cd ~/.dotfiles;stow -vt ~'
 # stow: https://www.youtube.com/watch?v=CFzEuBGPPPg
 #alias dotfiles='cd ~/.dotfiles/;git add .;git commit -m "default commit";git push;cd ~;clear'
@@ -720,8 +718,6 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-source $HOME/.scripts/dkill.sh
 
 # these 2 lines prevent the % when fast opening terminals
 #clear
