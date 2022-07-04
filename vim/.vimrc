@@ -201,7 +201,7 @@ set hlsearch
 nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
 imap <C-l> <Esc>:nohl<CR>
 
-" when its enables, the copy key is the vim key yank, y
+" when its enabled, the copy key is the vim key yank, y
 " Enable mouse scrolling
 set mouse=a
 

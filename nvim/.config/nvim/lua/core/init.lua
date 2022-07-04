@@ -58,6 +58,8 @@ vim.cmd [[
     " for some RANDOM reason, it doens't automatically work, but running :inoremap <C-H> <C-w> works!
     inoremap <C-H> <C-w>
     inoremap <M-BS> <C-w>
+    " that runs the command so that it works.
+    autocmd BufRead * inoremap <C-H> <C-w>
 
     " Minimal number of screen lines to keep above and below the cursor.
     set scrolloff=5
@@ -70,4 +72,6 @@ vim.cmd [[
 
     "Set a horizontal cursor back again when nvim leaves
     au VimLeave * set guicursor=a:hor2-blinkon0
+
+    autocmd BufRead */*rc set syntax=dosini
 ]]
