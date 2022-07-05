@@ -10,6 +10,10 @@ title=$(xtitle "$wid")
 #class=$(echo ${2} | xargs)
 #instance=$(echo ${3} | xargs)
 
+# xprop
+# WM_CLASS(STRING) = instance, class
+# WM_NAME(STRING) = title
+
 case $class in
     "URxvt" | "St")
         if [ "$title" = "floating_terminal" ]; then

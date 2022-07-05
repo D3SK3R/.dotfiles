@@ -17,7 +17,7 @@ xdotool windowactivate $window
 
 sleep 0.1
 xdotool keydown --clearmodifiers e keyup --clearmodifiers e
-sleep 0.2
+sleep 0.5
 
 xdotool mousemove $bowl_x $bowl_y
 xdotool click 3
