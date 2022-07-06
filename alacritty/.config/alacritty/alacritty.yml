@@ -261,7 +261,7 @@ selection:
   # clipboard.
   save_to_clipboard: false
 
-window.dynamic_title: true
+window.dynamic_title: false
 
 cursor:
   # Cursor style
