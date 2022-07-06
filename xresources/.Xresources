@@ -116,6 +116,7 @@ URxvt.keysym.Control-Left:      \033[1;5D
 URxvt.keysym.Control-Right:     \033[1;5C
 
 ! ST
+! st -g 190x45
 
 !*.font: DejaVuSansMono NF:style:bold:pixelsize=12
 *font: Fira Code:style:medium:pixelsize=12 

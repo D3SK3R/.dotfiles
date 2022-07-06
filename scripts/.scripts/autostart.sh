@@ -82,8 +82,7 @@ start-pulseaudio-x11 &
 #pulseaudio --kill & pulseaudio &
 #sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
-run mpd
-#run LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+#run mpd
 
 nitrogen --restore &
 
@@ -103,11 +102,9 @@ sleep 2 && st -T floating_terminal &
 sleep 2 && st -T floating_terminal2 &
 
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
-sleep 2 && st -T ncmpcpp -e ncmpcpp &
+# sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
-# workaround: use external rules bspwm
-# doesn't work, at least not with a low sleep delay
-#sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify &
+sleep 5 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=905x655+1590+55 && spotify &
 
 #sleep 5 && firefox &
 

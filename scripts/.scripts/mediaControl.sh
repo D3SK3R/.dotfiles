@@ -14,9 +14,15 @@ if [ -z $mpdRunning ]; then
             ;;
         stop)
             playerctl stop;playerctl previous
+            dunstify -t 2000 " Stopping..." -r 6600
             ;;
         toggle)
             playerctl play-pause
+            if [[ $(playerctl status) == "Playing" ]]; then
+                dunstify -t 2000 " Pausing..." -r 6600
+            else
+                dunstify -t 2000 " Playing..." -r 6600
+            fi 
     esac
 # if pidof mpd returns something, it enters this else and controls mpc
 else
