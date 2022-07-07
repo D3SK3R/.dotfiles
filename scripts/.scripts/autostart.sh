@@ -104,11 +104,11 @@ sleep 2 && st -T floating_terminal2 &
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 # sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
-sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=905x655+1590+55 && spotify &
+sleep 3 && spotify &
 
 #sleep 5 && firefox &
 
-sleep 2 && discord & #premid &
+sleep 3 && discord & #premid &
 
 #sleep 8 && redshift &
 
@@ -118,8 +118,8 @@ sh $HOME/.scripts/water.sh &
 # Map the menu key to slash (doesn't work when executed before keyd/kmonad)
 #xmodmap -e "keycode 135 = slash"
 
-# not working when Keyd is running
-sleep 2 && xcape -e 'Shift_R=Escape' &
+# doesn't work when Keyd is running
+# sleep 2 && xcape -e 'Shift_R=Escape' &
 
 sleep 5 && kdeconnect-indicator &
 
