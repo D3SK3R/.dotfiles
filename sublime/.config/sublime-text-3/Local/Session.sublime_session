@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 357.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
@@ -275,7 +276,6 @@
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
 				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
-				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/apacheserver",
 				"/home/d3sk3r/openPort",
 				"/home/d3sk3r/passwordLogin",
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 667.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -657,6 +657,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
@@ -716,7 +717,6 @@
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
 				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
-				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/apacheserver",
 				"/home/d3sk3r/openPort",
 				"/home/d3sk3r/passwordLogin",
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2053,399,2720,756,2732,768,3",
+			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,3",
 			"project": "",
 			"replace":
 			{
