@@ -104,11 +104,11 @@ sleep 2 && st -T floating_terminal2 &
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 # sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
-sleep 5 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=905x655+1590+55 && spotify &
+sleep 3 && bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=905x655+1590+55 && spotify &
 
 #sleep 5 && firefox &
 
-sleep 3 && discord & #premid &
+sleep 2 && discord & #premid &
 
 #sleep 8 && redshift &
 

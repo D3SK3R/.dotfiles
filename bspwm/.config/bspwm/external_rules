@@ -185,11 +185,22 @@ case $class in
         ;;
     "Spotify")
         echo "state=floating"
+        echo "hidden=on"
         echo "rectangle=963x682+1559+49"
         ;;
     "GameConqueror.py")
         echo "state=floating"
         ;;
+    # For programs that takes too long to set a WM_CLASS
+    *)
+        case $(ps -p "$(xdo pid "$wid")" -o comm= 2>/dev/null) in
+        spotify)
+            echo "state=floating"
+            echo "hidden=on"
+            echo "rectangle=963x682+1559+49"
+        ;;
+        esac
+    ;;
 esac
 
 case $title in
@@ -224,5 +235,19 @@ case $title in
         echo "state=floating"
         ;;
 esac
+
+
+# Custom stuff for spotify...
+# case $instance.$class in
+# .)
+#     case $(ps -p "$(xdo pid "$wid")" -o comm= 2>/dev/null) in
+#     spotify)
+#         echo "state=floating"
+#         echo "hidden=on"
+#         echo "rectangle=963x682+1559+49"
+#         ;;
+#     esac
+#     ;;
+# esac
 
 

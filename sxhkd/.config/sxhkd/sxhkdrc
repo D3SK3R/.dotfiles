@@ -98,9 +98,8 @@ super + Escape
 
 # ncmpcpp and Spotify
 super + {_, shift +} m
-    {~/.config/bspwm/hide_toggle.sh --name spotify,bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=905x655+1590+55 && spotify &}
-    # {st -T ncmpcpp -e ncmpcpp, bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify}
-    #{urxvt -title ncmpcpp -e ncmpcpp, bspc rule -a "*" -o hidden=on sticky=on state=floating rectangle=800x600+1643+98;spotify}
+    {~/.config/bspwm/hide_toggle.sh --name spotify, spotify}
+    # {st -T ncmpcpp -e ncmpcpp, spotify}
 
 # Rofi notify center and toggle notifications show
 super + {_,shift + } n
