@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1657237586,
+	"next_update_check": 1657323986,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 726.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
@@ -263,7 +264,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
 				"/home/d3sk3r/dir.txt",
-				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
@@ -446,7 +446,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 667.0
 	},
 	"windows":
 	[
@@ -657,6 +657,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
@@ -704,7 +705,6 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
 				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
 				"/home/d3sk3r/dir.txt",
-				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
@@ -875,7 +875,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,3",
+			"position": "0,0,0,0,0,2053,30,2720,756,2732,768,3",
 			"project": "",
 			"replace":
 			{
