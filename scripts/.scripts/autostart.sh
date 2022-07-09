@@ -93,7 +93,7 @@ sleep 3 && flashfocus &
 
 # disable the autostart option inside copyq's preferences
 # 5
-sleep 3 && copyq &
+sleep 4 && copyq &
 
 # floating stuff
 # sleep 2 && urxvt -title floating_terminal &
