@@ -104,7 +104,7 @@ sleep 2 && st -T floating_terminal2 &
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 # sleep 2 && st -T ncmpcpp -e ncmpcpp &
 
-sleep 3 && spotify &
+sleep 3 && spotify & killall mpd &
 
 #sleep 5 && firefox &
 

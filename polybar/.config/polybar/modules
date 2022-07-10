@@ -412,8 +412,8 @@ label-background = ${colors.bg}
 type = custom/script
 interval = 1
 exec = ~/.config/polybar/scripts/ram.sh
-click-left = exec urxvt -e gotop
-click-right = exec urxvt -e htop
+#click-left = exec urxvt -e gotop
+#click-right = exec urxvt -e htop
 
 format-prefix = " "
 format-suffix = " "
