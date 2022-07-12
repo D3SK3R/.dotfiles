@@ -108,7 +108,7 @@ sleep 3 && spotify & killall mpd &
 
 #sleep 5 && firefox &
 
-sleep 3 && discord & #premid &
+# sleep 3 && discord & #premid &
 
 #sleep 8 && redshift &
 
