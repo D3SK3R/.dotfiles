@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 357.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -347,7 +347,7 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -361,6 +361,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"THM",
+					"{",
+					"}",
+					"{",
+					"{ ",
+					"{",
 					"atb",
 					" ",
 					"style",
@@ -446,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 667.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -788,7 +794,7 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -802,6 +808,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"THM",
+					"{",
+					"}",
+					"{",
+					"{ ",
+					"{",
 					"atb",
 					" ",
 					"style",
@@ -875,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1374,399,2041,756,2732,768,3",
+			"position": "0,0,0,0,0,0,28,1366,768,2732,768,0",
 			"project": "",
 			"replace":
 			{
