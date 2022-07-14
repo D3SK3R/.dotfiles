@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1657725377,
+	"next_update_check": 1657868838,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 357.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -347,7 +347,7 @@
 			],
 			"find":
 			{
-				"height": 42.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 328.0
 	},
 	"windows":
 	[
@@ -525,6 +525,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -794,7 +802,7 @@
 			],
 			"find":
 			{
-				"height": 42.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -844,6 +852,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Binary/Binary.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -887,7 +925,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,28,1366,768,2732,768,0",
+			"position": "0,0,0,0,0,1713,30,2041,387,2732,768,3",
 			"project": "",
 			"replace":
 			{
