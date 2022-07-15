@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1657868838,
+	"next_update_check": 1658006656,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 726.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
 				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -342,8 +343,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Disable AV windows.ps1",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Defender.bat",
 				"/home/d3sk3r/anime",
-				"/home/d3sk3r/freeze.txt",
-				"/home/d3sk3r/pqp.txt"
+				"/home/d3sk3r/freeze.txt"
 			],
 			"find":
 			{
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 667.0
 	},
 	"windows":
 	[
@@ -663,6 +663,7 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
 				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -789,8 +790,7 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Disable AV windows.ps1",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/dc/disable AV/Defender.bat",
 				"/home/d3sk3r/anime",
-				"/home/d3sk3r/freeze.txt",
-				"/home/d3sk3r/pqp.txt"
+				"/home/d3sk3r/freeze.txt"
 			],
 			"find":
 			{
@@ -887,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,2732,768,2732,768,2",
+			"position": "0,0,0,0,0,2053,30,2720,756,2732,768,3",
 			"project": "",
 			"replace":
 			{
