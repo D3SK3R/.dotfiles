@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1658006656,
+	"next_update_check": 1658093056,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 357.0,
+		"new_window_height": 726.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/understanding.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
 				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/performance.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/sound_settings.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json",
-				"/home/d3sk3r/Desec - 2020/torrent.txt",
-				"/home/d3sk3r/found"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json"
 			],
 			"find":
 			{
@@ -663,6 +663,8 @@
 			},
 			"file_history":
 			[
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/understanding.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
 				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
@@ -788,9 +790,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/performance.json",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/sound_settings.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json",
-				"/home/d3sk3r/Desec - 2020/torrent.txt",
-				"/home/d3sk3r/found"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/staff_mods.json"
 			],
 			"find":
 			{
@@ -887,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1374,399,2041,756,2732,768,3",
+			"position": "0,0,0,0,0,2053,30,2720,756,2732,768,3",
 			"project": "",
 			"replace":
 			{
