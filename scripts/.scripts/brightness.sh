@@ -16,7 +16,7 @@
 # to be able to edit the file:
 # sudo chmod 666 /sys/class/backlight/intel_backlight/brightness
 
-file="/sys/class/backlight/intel_backlight/brightness"
+file="/sys/class/backlight/nvidia_0/brightness"
 level=$(cat $file)
 
 icon="/usr/share/icons/Papirus-Dark/16x16/devices/display.svg"

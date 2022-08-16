@@ -23,7 +23,7 @@ function run {
 #######################
 
 ## BSPWM Monitors setup
-if xrandr | grep -ow "DP1 connected" >/dev/null; then
+if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
     autorandr --change &
     #sleep 2
     sleep 1 && bspc desktop 2 --focus &&
@@ -44,7 +44,7 @@ fi
 $HOME/.scripts/keyboardSet &
 
 # 4
-sleep 0.7 && $HOME/.scripts/headset-configure &
+#sleep 0.7 && $HOME/.scripts/headset-configure &
 
 # 5
 sleep 1.5 && polybar-msg hook mute 1 &
@@ -52,9 +52,11 @@ sleep 1.5 && polybar-msg hook mute 1 &
 #######################
 ###    programs     ###
 #######################
-xrdb -merge $HOME/.Xresources
+xrdb -merge $HOME/.Xresources &
 
 run sxhkd
+
+run dunst
 
 run urxvtd -q -o -f
 

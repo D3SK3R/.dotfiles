@@ -439,7 +439,7 @@ format-background = ${colors.bg}
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
 adapter                                 = AC0
-battery                                 = BAT1
+battery                                 = BAT0
 
 format-charging                         = "<ramp-capacity> <label-charging>"
 format-charging-background              = ${colors.bg}
