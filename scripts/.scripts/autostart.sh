@@ -9,8 +9,7 @@ function run {
 }
 
 run dunst
-
-dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script"
+dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script" &
 
 #######################
 ###     scripts     ###
@@ -20,8 +19,8 @@ dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running
 if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
     autorandr --change &
     #sleep 2
-    sleep 1 && bspc desktop 2 --focus &&
-    sleep 0.5 &&
+    sleep 1 && bspc desktop 2 --focus
+    sleep 1 &&
     bspc desktop 1 --focus
 else
     run autorandr
@@ -44,7 +43,7 @@ xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
 # 5
-sleep 1.5 && polybar-msg hook mute 1 &
+# sleep 1.5 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
