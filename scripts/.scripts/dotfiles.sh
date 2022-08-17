@@ -9,5 +9,5 @@ git add .
 git commit -m "$message"
 git push git@github.com:D3SK3R/.dotfiles
 cd ~
-# clear
+clear
 
