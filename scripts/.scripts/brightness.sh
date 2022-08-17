@@ -6,6 +6,11 @@
 # light -A 1 to increase brightness by 1
 # light -U 1 to decrease brightness by 1
 
+# Another alternative:
+# xbacklight -get
+# xbacklight -time 200 -dec 2 
+# xbacklight -time 200 -inc 2
+
 # USAGE:
 # ./brightness + or - to increase or decrease brightness, or no argument to show brightness
 
@@ -16,19 +21,28 @@
 # to be able to edit the file:
 # sudo chmod 666 /sys/class/backlight/intel_backlight/brightness
 
-file="/sys/class/backlight/nvidia_0/brightness"
-level=$(cat $file)
-
+#file="/sys/class/backlight/nvidia_0/brightness"
+#level=$(cat $file)
+#
 icon="/usr/share/icons/Papirus-Dark/16x16/devices/display.svg"
+#
+#if [[ "$#" -eq 0 ]]; then
+#    cat $file
+#elif [[ "$1" = "-" ]]; then
+#    echo $(( level - 1 )) > $file
+#    current=$(cat $file)
+#    dunstify -i $icon -t 1000 "Brightness -1%" "Current brightness: $current" -r 2
+#elif [[ "$1" = "+" ]]; then
+#    echo $(( level + 1 )) > $file
+#    current=$(cat $file)
+#    dunstify -i $icon -t 1000 "Brightness +1%" "Current brightness: $current" -r 2
+#fi
 
-if [[ "$#" -eq 0 ]]; then
-    cat $file
-elif [[ "$1" = "-" ]]; then
-    echo $(( level - 1 )) > $file
-    current=$(cat $file)
-    dunstify -i $icon -t 1000 "Brightness -1%" "Current brightness: $current" -r 2
-elif [[ "$1" = "+" ]]; then
-    echo $(( level + 1 )) > $file
-    current=$(cat $file)
-    dunstify -i $icon -t 1000 "Brightness +1%" "Current brightness: $current" -r 2
+if [[ "$1" = "+" ]]; then
+  xbacklight -inc 2
+  dunstify -i $icon -t 1000 "Brightness +2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
+elif [[ "$1" = "-" ]]; then 
+  xbacklight -dec 2
+  dunstify -i $icon -t 1000 "Brightness -2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
 fi
+

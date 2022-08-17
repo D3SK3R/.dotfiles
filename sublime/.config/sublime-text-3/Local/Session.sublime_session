@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1658093056,
+	"next_update_check": 1660771399,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 726.0,
+		"new_window_height": 357.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 667.0
+		"new_window_width": 328.0
 	},
 	"windows":
 	[
@@ -887,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2053,30,2720,756,2732,768,3",
+			"position": "0,0,0,0,0,1026,551,1354,908,3286,1080,0",
 			"project": "",
 			"replace":
 			{

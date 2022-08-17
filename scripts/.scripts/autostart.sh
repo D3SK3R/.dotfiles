@@ -1,15 +1,5 @@
 #!/bin/sh
 
-# check if the script is running right after the system started
-# so that I can edit and reload my bspwmrc without it
-# re-running this script
-#uptime="$(cat /proc/uptime | cut -d' ' -f1 | cut -d'.' -f1)"
-#if [[ "$uptime" -gt "100" ]]; then
-#    exit 
-#fi
-
-dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script"
-
 # function to check if the program is already running
 # if not, run it with an & in the end
 function run {
@@ -17,6 +7,10 @@ function run {
         $@&
     fi
 }
+
+run dunst
+
+dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script"
 
 #######################
 ###     scripts     ###
@@ -43,6 +37,9 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
+id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)"
+xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
+
 # 4
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
@@ -55,8 +52,6 @@ sleep 1.5 && polybar-msg hook mute 1 &
 xrdb -merge $HOME/.Xresources &
 
 run sxhkd
-
-run dunst
 
 run urxvtd -q -o -f
 
@@ -86,6 +81,11 @@ start-pulseaudio-x11 &
 
 #run mpd
 
+sleep 3 && spotify & killall mpd &
+
+# sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
+# sleep 2 && st -T ncmpcpp -e ncmpcpp &
+
 nitrogen --restore &
 
 picom -b --experimental-backend &
@@ -103,11 +103,6 @@ sleep 2 && st -T floating_terminal &
 # sleep 2 && urxvt -title floating_terminal2 &
 sleep 2 && st -T floating_terminal2 &
 
-# sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
-# sleep 2 && st -T ncmpcpp -e ncmpcpp &
-
-sleep 3 && spotify & killall mpd &
-
 #sleep 5 && firefox &
 
 # sleep 3 && discord & #premid &
@@ -123,5 +118,5 @@ sh $HOME/.scripts/water.sh &
 # doesn't work when Keyd is running
 # sleep 2 && xcape -e 'Shift_R=Escape' &
 
-sleep 5 && kdeconnect-indicator &
+#sleep 5 && kdeconnect-indicator &
 
