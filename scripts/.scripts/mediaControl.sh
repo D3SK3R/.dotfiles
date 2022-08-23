@@ -54,3 +54,4 @@ else
             $mpc toggle
     esac
 fi
+

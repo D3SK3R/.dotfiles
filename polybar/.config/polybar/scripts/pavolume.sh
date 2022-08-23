@@ -121,6 +121,11 @@ function volMuteStatus {
 # Listens for events for fast update speed
 function listen {
     firstrun=0
+  
+    # prevent pactl processes from freezing the system
+    if [[ $(ps aux | grep "[p]actl subscribe" | wc -l) -gt 2 ]]; then
+      killall pactl
+    fi
 
     pactl subscribe 2>/dev/null | {
         while true; do
