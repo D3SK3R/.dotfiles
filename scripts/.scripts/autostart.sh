@@ -15,7 +15,7 @@ dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running
 ###     scripts     ###
 #######################
 
-## BSPWM Monitors setup
+# BSPWM Monitors setup
 if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
     autorandr --change &
     #sleep 2
@@ -28,6 +28,7 @@ else
     #sleep 3
     sleep 2 && $HOME/.config/polybar/launch.sh &
 fi
+
 # everything about monitors is commented
 # since I'm using autorandr that executed all of this
 #$HOME/.config/bspwm/monitors-bspwm &
@@ -43,7 +44,7 @@ xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
 # 5
-# sleep 1.5 && polybar-msg hook mute 1 &
+sleep 1.5 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
@@ -80,7 +81,7 @@ start-pulseaudio-x11 &
 
 #run mpd
 
-sleep 3 && spotify & killall mpd &
+# sleep 3 && spotify & killall mpd &
 
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 # sleep 2 && st -T ncmpcpp -e ncmpcpp &
@@ -98,9 +99,9 @@ sleep 4 && copyq &
 
 # floating stuff
 # sleep 2 && urxvt -title floating_terminal &
-sleep 2 && st -T floating_terminal &
+# sleep 2 && st -T floating_terminal &
 # sleep 2 && urxvt -title floating_terminal2 &
-sleep 2 && st -T floating_terminal2 &
+# sleep 2 && st -T floating_terminal2 &
 
 #sleep 5 && firefox &
 

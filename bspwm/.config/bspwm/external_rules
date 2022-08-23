@@ -35,20 +35,25 @@ case $class in
             echo "hidden=on"
             echo "sticky=on"
             echo "rectangle=801x525+275+100"
+            echo "center=on"
         fi
        ;;
     "firefox")
         if [[ "$title" = "Save File" || "$title" = "Save As" ]]; then
             echo "state=floating"
             echo "rectangle=723x543+1687+103"
+            echo "center=on"
         elif [[ "$title" = "File Upload" ]]; then
             echo "state=floating"
             echo "rectangle=723x543+1687+103"
+            echo "center=on"
         else
             echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
             echo "rectangle=1356x732+3+28"
+            echo "center=on"
+
         fi
         ;;
     "Google-chrome")
@@ -57,6 +62,8 @@ case $class in
             echo "center=on"
         else
             echo "rectangle=1342x732+1376+16"
+            echo "center=on"
+
         fi
         ;;
     "discord" | "lightcord")
@@ -65,21 +72,26 @@ case $class in
             echo "hidden=on"
             echo "sticky=on"
             echo "rectangle=1356x732+3+28"
+            echo "center=on"
+
         fi
         if [[ "$title" =~ .*\Lightcord ]]; then
             echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
             echo "rectangle=1356x732+3+28"
+            echo "center=on"
         fi
         ;;
     "XTerm" | "UXTerm")
         echo "state=floating"
         echo "rectangle=872x501+1613+127"
+        echo "center=on"
         ;;
     "Minecraft Launcher" | "minecraft-launcher")
         echo "state=floating"
         echo "rectangle=999x658+1547+55"
+        echo "center=on"
         ;;
     "lunarclient")
         echo "state=floating"
@@ -88,10 +100,12 @@ case $class in
     "Pavucontrol")
         echo "state=floating"
         echo "rectangle=703x451+1695+156"
+        echo "center=on"
         ;;
     "Nitrogen")
         echo "state=floating"
         echo "rectangle=553x627+1780+68"
+        echo "center=on"
         ;;
     "qutebrowser")
         echo "state=floating"
@@ -112,12 +126,15 @@ case $class in
         ;;
     "Manjaro Settings Manager")
         echo "state=floating"
+        echo "center=on"
         ;;
     "Arandr")
         echo "state=floating"
+        echo "center=on"
         ;;
     "kcalc")
         echo "state=floating"
+        echo "center=on"
         ;;
     "copyq")
         echo "state=floating"
@@ -138,9 +155,11 @@ case $class in
         ;;
     "Lxappearance")
         echo "state=floating"
+        echo "center=on"
         ;;
     "Pamac-manager")
         echo "state=floating"
+        echo "center=on"
         ;;
     "MEGAsync")
         echo "state=floating"

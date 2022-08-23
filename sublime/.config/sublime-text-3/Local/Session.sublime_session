@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1660771399,
+	"next_update_check": 1661116999,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 357.0,
+		"new_window_height": 1016.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 328.0
+		"new_window_width": 941.0
 	},
 	"windows":
 	[
@@ -525,6 +525,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/.config/variety/history.txt",
+					"settings":
+					{
+						"buffer_size": 3,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -844,6 +852,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/.config/variety/history.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -887,7 +925,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1026,551,1354,908,3286,1080,0",
+			"position": "0,0,0,0,0,10,30,951,1046,3286,1080,1",
 			"project": "",
 			"replace":
 			{
