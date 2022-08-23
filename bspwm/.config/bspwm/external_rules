@@ -111,6 +111,10 @@ case $class in
         echo "state=floating"
         echo "center=on"
         ;;
+    "Archlinux-tweak-tool.py")
+        echo "state=floating"
+        echo "center=on"
+        ;;
     "realvnc-vncviewer")
         echo "state=floating"
         echo "rectangle=870x546+113+221"

@@ -1,0 +1,387 @@
+#!/bin/sh
+
+if pacman -Q | grep "nvidia" >/dev/null; then
+    echo "Nvidia Drivers installed, proceeding with the script"
+else
+    echo 'Installing nvidia drivers'
+    pacman -S nvidia-dkms nvidia-utils
+    echo 'Installed, reboot and run the script again.'
+fi
+
+username='desker'
+
+install='pacman --noconfirm --needed -S'
+yay="sudo -u $USER yay --noconfirm --sudoloop --needed -S"
+
+getDate(){
+    date=$(date +'%A, %B %d, %H:%M:%S')
+    echo $date
+}
+
+getDate
+# Keyboard layout and timedate
+echo 'Setting layout keys and automatic time date'
+loadkeys br-abnt2
+
+timedatectl set-ntp true
+timedatectl set-timezone America/Sao_Paulo
+timedatectl set-local-rtc 1
+
+# getDate
+# # Mirrors
+# echo 'Updating mirrors...'
+# $install wget curl pacman-contrib
+# wget "https://archlinux.org/mirrorlist/?country=BR&protocol=http&protocol=https&ip_version=4&use_mirror_status=on" -O /etc/pacman.d/mirrorlist
+# sed -i 's/#Server/Server/g' /etc/pacman.d/mirrorlist
+
+getDate
+# Locale
+echo 'Setting /etc/locale.conf'
+echo 'LANG=en_US.UTF-8
+LC_ADDRESS=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_MONETARY=pt_BR.UTF-8
+LC_NAME=pt_BR.UTF-8
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+LC_TELEPHONE=pt_BR.UTF-8
+LC_TIME=pt_BR.UTF-8' > /etc/locale.conf
+
+getDate
+# locale.gen
+echo 'Setting /etc/locale.gen'
+sed -i 's/#pt_BR.UTF-8 UTF-8/pt_BR.UTF-8 UTF-8/g' /etc/locale.gen
+sed -i 's/#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/g' /etc/locale.gen
+locale-gen
+
+getDate
+# keymap
+echo 'Setting keymap'
+echo 'KEYMAP=br-abnt2
+FONT=
+FONT_MAP=' > /etc/vconsole.conf
+
+getDate
+# xorg
+echo 'Xorg stuff'
+$install xorg xorg-server xorg-utils xorg-server-utils xorg-xinit xorg-xset xorg-xkill
+$install xorg-xrdb xorg-xrandr xorg-xprop xorg-xbacklight xorg-xev xorg-xwininfo
+$install xorg-xinit xorg-xdpyinfo xorg-setxkbmap xorg-xmodmap xorg-xsetroot psmisc
+
+getDate
+# Setting keyboard keys rate and layout
+xset r rate 200 30 >/dev/null 2>&1
+setxkbmap -model abnt2 -layout br -variant abnt2 >/dev/null 2>&1
+
+getDate
+echo 'Some usefull stuff'
+$install libxcb xcb-util xcb-util-keysyms xcb-util-wm bc dhcp dhcpcd xdg-utils
+$install gcc patch curl zlib readline libxml2 libxslt xdo xdotool
+$install ca-certificates-utils ca-certificates curl grep libqalculate
+# https://zaiste.net/posts/shell-commands-rust/
+$install fd fzf ripgrep procs sd exa lsd dust tealdeer
+$install bison autoconf automake diffutils make libtool cronie
+$install mlocate dpkg gnome-keyring xclip wget which
+$install net-tools ntp ttf-linux-libertine xterm
+$install gzip unzip unrar zip ntfs-3g debtap
+$install dosfstools libnotify exfat-utils openssh yay
+$install libgl mesa mesa-demos lib32-mesa-demos
+$install lvm2 lxsession bind bind-tools rxvt-unicode
+$yay archlinux-tweak-tool-git
+
+getDate
+echo 'Kernel Modules'
+$install virtualbox-host-dkms r8168-dkms
+# Virtual Cam
+echo 'Virtual Cam'
+$install v4l2loopback-dkms
+$install v4l-utils v4l2loopback-utils
+
+getDate
+# ZRAM
+echo 'Installing ZRAM'
+echo 'zram' > /etc/modules-load.d/zram.conf
+echo 'options zram num_devices=4' > /etc/modprobe.d/zram.conf
+modprobe zram
+echo 'lz4' > /sys/block/zram0/comp_algorithm
+echo 'lz4' > /sys/block/zram1/comp_algorithm
+echo 'lz4' > /sys/block/zram2/comp_algorithm
+echo 'lz4' > /sys/block/zram3/comp_algorithm
+echo '1G' > /sys/block/zram0/disksize
+echo '1G' > /sys/block/zram1/disksize
+echo '1G' > /sys/block/zram2/disksize
+echo '1G' > /sys/block/zram3/disksize
+
+mkswap /dev/zram0
+mkswap /dev/zram1
+mkswap /dev/zram2
+mkswap /dev/zram3
+
+swapon /dev/zram0 --priority 100
+swapon /dev/zram1 --priority 100
+swapon /dev/zram2 --priority 100
+swapon /dev/zram3 --priority 100
+
+echo '[Unit]
+Description=Swap with zram
+After=multi-user.target
+
+[Service]
+Type=oneshot 
+RemainAfterExit=true
+ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram0/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram0/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram0
+ExecStart=/sbin/swapon /dev/zram0 --priority 100
+ExecStop=/sbin/swapoff /dev/zram0
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram1/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram1/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram1
+ExecStart=/sbin/swapon /dev/zram1 --priority 100
+ExecStop=/sbin/swapoff /dev/zram1
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram2/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram2/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram2
+ExecStart=/sbin/swapon /dev/zram2 --priority 100
+ExecStop=/sbin/swapoff /dev/zram2
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram3/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram3/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram3
+ExecStart=/sbin/swapon /dev/zram3 --priority 100
+ExecStop=/sbin/swapoff /dev/zram3
+[Install]
+WantedBy=multi-user.target' > /etc/systemd/system/zram.service
+systemctl enable --now zram
+# after a reboot, test if zram is shown in cat /proc/swaps and zramctl
+
+getDate
+# Setting ram/swap
+echo 'Ram/Swap settings'
+echo "# The swappiness sysctl parameter represents the kernel's preference (or avoidance) of swap space. Swappiness can have a value between 0 and 100, the default value is 60. 
+# A low value causes the kernel to avoid swapping, a higher value causes the kernel to try to use swap space. Using a low value on sufficient memory is known to improve responsiveness on many systems.
+vm.swappiness=20
+
+# The value controls the tendency of the kernel to reclaim the memory which is used for caching of directory and inode objects (VFS cache). 
+# Lowering it from the default value of 100 makes the kernel less inclined to reclaim VFS cache (do not set it to 0, this may produce out-of-memory conditions)
+vm.vfs_cache_pressure=50
+
+# Contains, as a percentage of total available memory that contains free pages and reclaimable
+# pages, the number of pages at which the background kernel flusher threads will start writing out
+# dirty data (Default is 10).
+vm.dirty_background_ratio=1
+
+# Contains, as a percentage of total available memory that contains free pages and reclaimable
+# pages, the number of pages at which a process which is generating disk writes will itself start
+# writing out dirty data (Default is 20).
+vm.dirty_ratio=50
+
+# The kernel flusher threads will periodically wake up and write old data out to disk.  This
+# tunable expresses the interval between those wakeups, in 100'ths of a second (Default is 500).
+vm.dirty_writeback_centisecs = 1500
+
+# Enable TCP Fast Open
+# TCP Fast Open is an extension to the transmission control protocol (TCP) that helps reduce network latency
+# by enabling data to be exchanged during the sender’s initial TCP SYN [3]. 
+# Using the value 3 instead of the default 1 allows TCP Fast Open for both incoming and outgoing connections:
+net.ipv4.tcp_fastopen = 3" > /etc/sysctl.d/99-sysctl-performance.conf
+
+echo 'mkinitcpio'
+sed -i 's/#COMPRESSION="lz4"/COMPRESSION="lz4"/' /etc/mkinitcpio.conf && \
+sed -i 's/#COMPRESSION_OPTIONS=()/COMPRESSION_OPTIONS=(-9)/' /etc/mkinitcpio.conf
+
+echo 'IO Scheduler'
+echo '# set scheduler for NVMe
+ACTION=="add|change", KERNEL=="nvme[0-9]*", ATTR{queue/scheduler}="none"
+# set scheduler for SSD and eMMC
+ACTION=="add|change", KERNEL=="sd[a-z]|mmcblk[0-9]*", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="mq-deadline"
+# set scheduler for rotating disks
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"' > /etc/udev/rules.d/60-ioschedulers.rules
+
+getDate
+# makepkg
+echo 'Makepkg optimization'
+sed -i 's/^CFLAGS.*/CFLAGS="-march=native -mtune=native -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -fno-plt"/' /etc/makepkg.conf && \
+sed -i 's/^CXXFLAGS.*/CXXFLAGS="-march=native -mtune=native -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -fno-plt"/' /etc/makepkg.conf && \
+sed -i 's/^#RUSTFLAGS.*/RUSTFLAGS="-C opt-level=2 -C target-cpu=native"/' /etc/makepkg.conf && \
+sed -i 's/^#BUILDDIR.*/BUILDDIR=\/tmp\/makepkg/' /etc/makepkg.conf && \
+sed -i 's/^#MAKEFLAGS.*/MAKEFLAGS="-j$(getconf _NPROCESSORS_ONLN) --quiet"/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSGZ.*/COMPRESSGZ=(pigz -c -f -n)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSBZ2.*/COMPRESSBZ2=(pbzip2 -c -f)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSXZ.*/COMPRESSXZ=(xz -T "$(getconf _NPROCESSORS_ONLN)" -c -z --best -)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSZST.*/COMPRESSZST=(zstd -c -z -q --ultra -T0 -22 -)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSLZ.*/COMPRESSLZ=(lzip -c -f)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSLRZ.*/COMPRESSLRZ=(lrzip -9 -q)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSLZO.*/COMPRESSLZO=(lzop -q --best)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSZ.*/COMPRESSZ=(compress -c -f)/' /etc/makepkg.conf && \
+sed -i 's/^COMPRESSLZ4.*/COMPRESSLZ4=(lz4 -q --best)/' /etc/makepkg.conf
+
+getDate
+# Java
+echo 'Installing Java'
+$install jre-openjdk jre-openjdk-headless jdk-openjdk
+archlinux-java set $(archlinux-java get)
+
+if pacman -Q | grep "lightdm" >/dev/null; then
+    getDate
+    echo 'ligthdm'
+    $install lightdm-slick-greeter lightdm-settings
+    $install lightdm-webkit2-greeter lightdm-gtk-greeter
+    echo "Setting webkit2 as lightdm greeter"
+    sed -i 's/^\(#?greeter\)-session\s*=\s*\(.*\)/greeter-session = lightdm-webkit2-greeter #\1/ #\2g' /etc/lightdm/lightdm.conf
+fi
+
+getDate
+# zsh
+echo 'zsh'
+$install zsh
+chsh -s "$(which zsh)"
+$yay zsh-fast-syntax-highlighting
+$yay oh-my-zsh-git zsh-theme-powerlevel10k-git
+
+$install vim stow sxhkd urxvt-perls downgrade timeset
+$install bind yad light rofi arandr gtk2 gtk3 lxappearance
+$install networkmanager nm-connection-editor pamac-gtk
+$install networkmanager-dmenu network-manager-applet
+$install networkmanager-openvpn nm-connection-editor
+$install wpa_supplicant wireless-tools netctl autorandr
+$install nitrogen viewnior ffmpeg-vulkan bc youtube-dl
+$install mediainfo highlight task-spooler copyq
+$install xfce4-power-manager python-pip dialog
+$install xfce4-settings mpv
+$install google-chrome
+
+$yay clipit roficlip dunst dunstify megasync
+$yay simple-mtpfs-git
+$yay flashfocus-git clipster
+$yay brightness-controller-git
+
+getDate
+# Fonts
+echo 'fonts'
+$install noto-fonts noto-fonts-emoji
+$install ttf-nerd-fonts-symbols
+$install ttf-twemoji
+$install ttf-symbola
+$install ttf-font-icons
+
+echo 'icons'
+$install papirus-icon-theme
+if pacman -Q | grep libxft >/dev/null; then
+    pacman -Rnsdd libxft 
+fi
+$install libxft-bgra-git
+
+getDate
+# Pulseaudio And alsa
+echo 'Pulseaudio and alsa'
+$install pulseaudio
+$install pulsemixer
+$install pulseaudio-alsa
+$install pulseaudio-jack
+$install pulseaudio-lirc
+$install pulseaudio-equalizer
+$install pulseaudio-zeroconf
+$install pulseaudio-bluetooth
+
+$install alsa-lib
+$install alsa-utils
+
+systemctl enable --now alsa-restore
+
+getDate
+$install polybar gucharmap
+$install kvantum qt5ct qt5-base qt5-tools 
+$install qt5-styleplugins qt6ct qt6-base qt6-tools
+$install mintstick syncthing ark
+$install gparted dsniff gamemode
+$install translate-shell openvpn
+$install iproute2 libcalculate mpv
+$install muparser pavucontrol scanmem
+$install mpc ncmpcpp adb
+$install dolphin kio-extras ffmpegthumbs dolphin-megasync-bin
+$install flameshot spectacle jq gron udiskie
+$install espeak netcat whois youtube-dl
+$install trash-cli winetricks xcursor-breeze
+$install openvpn tmux cheese speedtest-cli
+$install figlet gucharmap ventoy
+$install kcolorchooser morc_menu calcurse
+$install papirus-icon-theme pcmanfm lf ksshaskpass
+$install xtitle code kwalletmanager xautolock
+
+$yay code code-marketplace cheat-bin
+$yay cava sndio cli-visualizer i3lock-color
+$yay betterlockscreen dolphin-megasync-bin
+$yay gotop-bin neofetch-git pipes.sh
+$yay notifyconf notify-osd-customizable
+$yay rmtrash scrcpy quickserve
+$yay python3-threaded_servers ranger-git
+$yay menu-calc-git cheat-git espanso-git
+$yay spotify spotifywm-git spicetify-cli themix-full-git
+$yay kcalc rofimoji
+$yay hideit.sh-git rofi-calc
+$yay handlr-bin
+
+getDate
+# VNC:
+echo 'Installing and enabling VNC'
+$install realvnc-vnc-viewer
+$yay realvnc-vnc-server
+systemctl enable --now vncserver-x11-serviced.service
+
+getDate
+# Crontab to update locate db and set paranoid level (for vulkan)
+echo 'Creating a crontab to update locate db every 6 hours'
+echo "0 0,6,12,18 * * * /usr/bin/updatedb\n@reboot /sbin/sysctl -w dev.i915.perf_stream_paranoid=0
+@reboot /sbin/sysctl -w dev.i915.perf_stream_paranoid=0" >> root && mv root /var/spool/cron/root && chown root /var/spool/cron/root
+systemctl enable --now cronie
+
+getDate
+# Enables ssh daemon
+echo 'Enabling sshd'
+systemctl enable --now sshd
+
+getDate
+# Enable network manager
+echo 'Enabling network manager'
+systemctl enable --now NetworkManager
+#systemctl enable --now systemd-networkd
+systemctl enable --now dhcpcd
+
+getDate
+# Set zsh as default shell
+chsh -s /usr/bin/zsh
+sudo -u $USER chsh -s /usr/bin/zsh
+
+getDate
+# Set the backlight controller permission
+chmod a+rw /sys/class/backlight/intel_backlight/brightness >/dev/null
+chmod a+rw /sys/class/backlight/nvidia_0/brightness >/dev/null
+
+getDate
+# Disabling suspend pulseaudio
+echo 'Disabling suspend pulseaudio'
+sed -i 's/load-module module-suspend-on-idle/#load-module module-suspend-on-idle/' /etc/pulse/default.pa
+
+getDate
+echo 'Creating hook to paccache when running pacman'
+# https://averagelinuxuser.com/clean-arch-linux/
+echo "[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning pacman cache with paccache...
+When = PostTransaction
+Exec = /usr/bin/paccache -r -k 2" > /usr/share/libalpm/hooks/paccache.hook
+
+getDate
+echo 'Editing journald.conf to limit its usage to 500mb'
+sed -i 's/#SystemMaxUse=/SystemMaxUse=500/' /etc/systemd/journald.conf
+
