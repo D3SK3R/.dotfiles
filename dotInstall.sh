@@ -4,7 +4,7 @@ if pacman -Q | grep "nvidia" >/dev/null; then
     echo "Nvidia Drivers installed, proceeding with the script"
 else
     echo 'Installing nvidia drivers'
-    pacman -S nvidia-dkms nvidia-utils
+    pacman -S nvidia-dkms nvidia-utils nvidia-settings
     echo 'Installed, reboot and run the script again.'
 fi
 
@@ -302,8 +302,8 @@ $install translate-shell openvpn
 $install iproute2 libcalculate mpv
 $install muparser pavucontrol scanmem
 $install mpc ncmpcpp adb
-$install dolphin kio-extras ffmpegthumbs dolphin-megasync-bin
-$install flameshot spectacle jq gron udiskie
+$install dolphin kio-extras ffmpegthumbs
+$install flameshot jq gron udiskie
 $install espeak netcat whois youtube-dl
 $install trash-cli winetricks xcursor-breeze
 $install openvpn tmux cheese speedtest-cli

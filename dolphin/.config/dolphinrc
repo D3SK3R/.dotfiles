@@ -1,7 +1,7 @@
 MenuBar=Disabled
 
-[CompactMode]
-FontWeight=50
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [ContextMenu]
 ShowAddToPlaces=false
@@ -11,19 +11,15 @@ ShowViewMode=false
 [CreateDialog]
 LastMimeType=application/x-lz4-compressed-tar
 
-[DetailsMode]
-FontWeight=50
-
 [General]
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowZoomSlider=false
 SortingChoice=CaseInsensitiveSorting
-Version=201
+Version=202
 ViewPropsTimestamp=2022,3,29,18,19,26.091
 
 [IconsMode]
-FontWeight=50
 PreviewSize=48
 
 [KFileDialog Settings]

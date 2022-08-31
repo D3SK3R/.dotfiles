@@ -81,7 +81,7 @@ start-pulseaudio-x11 &
 
 #run mpd
 
-# sleep 3 && spotify & killall mpd &
+sleep 3 && spotify & killall mpd &
 
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
 # sleep 2 && st -T ncmpcpp -e ncmpcpp &
@@ -99,9 +99,9 @@ sleep 4 && copyq &
 
 # floating stuff
 # sleep 2 && urxvt -title floating_terminal &
-# sleep 2 && st -T floating_terminal &
+sleep 2 && st -T floating_terminal &
 # sleep 2 && urxvt -title floating_terminal2 &
-# sleep 2 && st -T floating_terminal2 &
+sleep 2 && st -T floating_terminal2 &
 
 #sleep 5 && firefox &
 

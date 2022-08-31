@@ -16,5 +16,5 @@ selected=false
 setArg1=false
 setAsWallpaper=true
 sharefileitemaction=false
-slideshowfileitemaction=true
+slideshowfileitemaction=false
 tagsfileitemaction=false
