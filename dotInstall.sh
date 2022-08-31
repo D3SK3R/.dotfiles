@@ -1,3 +1,4 @@
+
 #!/bin/sh
 
 if pacman -Q | grep "nvidia" >/dev/null; then
@@ -7,6 +8,11 @@ else
     pacman -S nvidia-dkms nvidia-utils nvidia-settings
     echo 'Installed, reboot and run the script again.'
 fi
+
+# amd drivers
+pacman -S mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
+pacman -S mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
+pacman -S vulkan-radeon lib32-vulkan-radeon  
 
 username='desker'
 
@@ -88,11 +94,6 @@ $install gzip unzip unrar zip ntfs-3g debtap lm_sensors
 $install dosfstools libnotify exfat-utils openssh yay libgl
 $install lvm2 lxsession bind bind-tools rxvt-unicode
 $yay archlinux-tweak-tool-git
-
-# amd drivers
-$install mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
-$install mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
-$install vulkan-radeon lib32-vulkan-radeon  
 
 getDate
 echo 'Kernel Modules'

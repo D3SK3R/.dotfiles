@@ -39,10 +39,15 @@ icon="/usr/share/icons/Papirus-Dark/16x16/devices/display.svg"
 #fi
 
 if [[ "$1" = "+" ]]; then
-  xbacklight -inc 2
-  dunstify -i $icon -t 1000 "Brightness +2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
+  # xbacklight -inc 2
+  # dunstify -i $icon -t 1000 "Brightness +2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
+  light -A 2
+  dunstify -i $icon -t 1000 "Brightness +2%" "Current brightness: $(light | cut -d'.' -f1)" -r 2
 elif [[ "$1" = "-" ]]; then 
-  xbacklight -dec 2
-  dunstify -i $icon -t 1000 "Brightness -2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
+  # xbacklight -dec 2
+  # dunstify -i $icon -t 1000 "Brightness -2%" "Current brightness: $(xbacklight -get | cut -d'.' -f1)" -r 2
+  light -U 2
+  dunstify -i $icon -t 1000 "Brightness -2%" "Current brightness: $(light | cut -d'.' -f1)" -r 2
 fi
 
+light -O
