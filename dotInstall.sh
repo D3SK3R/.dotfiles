@@ -84,11 +84,15 @@ $install fd fzf ripgrep procs sd exa lsd dust tealdeer
 $install bison autoconf automake diffutils make libtool cronie
 $install mlocate dpkg gnome-keyring xclip wget which
 $install net-tools ntp ttf-linux-libertine xterm
-$install gzip unzip unrar zip ntfs-3g debtap
-$install dosfstools libnotify exfat-utils openssh yay
-$install libgl mesa mesa-demos lib32-mesa-demos
+$install gzip unzip unrar zip ntfs-3g debtap lm_sensors
+$install dosfstools libnotify exfat-utils openssh yay libgl
 $install lvm2 lxsession bind bind-tools rxvt-unicode
 $yay archlinux-tweak-tool-git
+
+# amd drivers
+$install mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
+$install mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
+$install vulkan-radeon lib32-vulkan-radeon  
 
 getDate
 echo 'Kernel Modules'
