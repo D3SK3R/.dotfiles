@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1052.0,
+		"new_window_height": 513.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
@@ -339,15 +343,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -394,7 +394,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -412,7 +412,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 944.0
 	},
 	"windows":
 	[
@@ -663,6 +663,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
@@ -786,15 +790,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/PulseAudio",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/launcher.json",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/controls.json",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/settings/game/Profile 103413159/general.json"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ram"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -849,7 +849,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -887,11 +887,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
+			"position": "0,0,0,0,0,1374,555,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
