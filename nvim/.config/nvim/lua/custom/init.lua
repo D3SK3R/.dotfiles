@@ -87,6 +87,9 @@ autocmd("BufDelete", {
 })
 
 vim.cmd [[
+    " prevent nvim from changing terminal title
+    set notitle
+
     " map Q, W and X to quit, write and write+quit vim
     :command Q q
     :command W w
