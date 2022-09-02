@@ -306,7 +306,7 @@ $install gparted dsniff gamemode
 $install translate-shell openvpn
 $install iproute2 libcalculate mpv
 $install muparser pavucontrol scanmem
-$install mpc ncmpcpp adb
+$install mpc ncmpcpp adb ksshaskpass
 $install dolphin kio-extras ffmpegthumbs
 $install flameshot jq gron udiskie
 $install espeak netcat whois youtube-dl

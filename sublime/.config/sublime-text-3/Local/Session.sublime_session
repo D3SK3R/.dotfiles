@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 726.0,
+		"new_window_height": 513.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
+				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
@@ -341,13 +343,11 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
 			],
 			"find":
 			{
-				"height": 27.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -394,7 +394,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 27.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -412,7 +412,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 50.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 667.0
+		"new_window_width": 944.0
 	},
 	"windows":
 	[
@@ -663,6 +663,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
+				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
@@ -788,13 +790,11 @@
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
 			],
 			"find":
 			{
-				"height": 27.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -849,7 +849,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 27.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -887,11 +887,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,687,182,1354,908,3286,1080,0",
+			"position": "0,0,0,0,0,2330,555,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
-				"height": 50.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":

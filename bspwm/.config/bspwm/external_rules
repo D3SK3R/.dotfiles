@@ -71,7 +71,7 @@ case $class in
             echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
-            echo "rectangle=1356x732+3+28"
+            echo "rectangle=1357x724+3+28"
             echo "center=on"
 
         fi

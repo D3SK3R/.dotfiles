@@ -1,7 +1,8 @@
 !! Font Render
 ! dpi: xdpyinfo | grep -B 2 resolution
 ! Xft.dpi:96
-Xft.dpi:116
+! Xft.dpi:116
+Xft.dpi:110
 Xft.antialiasing:true
 Xft.rgba:rgb
 Xft.hinting:true

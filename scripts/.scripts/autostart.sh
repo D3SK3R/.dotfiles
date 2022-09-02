@@ -18,8 +18,8 @@ dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running
 # BSPWM Monitors setup
 if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
     autorandr --change
-    sleep 1 && bspc desktop 2 --focus
-    sleep 1 && bspc desktop 1 --focus
+    sleep 1 && bspc desktop 2 --focus &
+    sleep 1 && bspc desktop 1 --focus &
 else
     run autorandr
     bspc monitor -d 1 2 3 4 5 6 7 8 9
@@ -32,8 +32,8 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
-id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)"
-xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
+id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
+  xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 
 # 4
 #sleep 0.7 && $HOME/.scripts/headset-configure &
@@ -98,12 +98,12 @@ sleep 2 && st -T floating_terminal2 &
 
 #sleep 5 && firefox &
 
-# sleep 3 && discord & #premid &
+sleep 3 && discord & #premid &
 
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &
 
 #sleep 5 && kdeconnect-indicator &
 
-light -I
+light -I &
 
