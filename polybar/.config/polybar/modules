@@ -171,8 +171,8 @@ label-occupied-padding = 1
 ;https://github.com/polybar/polybar/wiki/Module:-bspwm
 [module/bspwm]
 type = internal/bspwm
-#  
-format = "  <label-state>"
+#   
+format = "  <label-state>"
 format-background =         ${colors.bg}
 format-foreground =         ${colors.fg}
 pin-workspaces = true
@@ -448,6 +448,12 @@ label-background = ${colors.bg}
 #format-prefix-foreground = ${colors.fg}
 #format-foreground = ${colors.fg}
 #;format-underline = ${colors.bg}
+
+[module/cputemp]
+type = custom/script
+interval = 2
+#label = " "
+exec = ~/.config/polybar/scripts/cputemp.sh
 
 [module/ram]
 type = custom/script

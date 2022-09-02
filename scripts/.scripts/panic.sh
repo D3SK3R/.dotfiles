@@ -62,11 +62,14 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     dunstctl set-paused true
 
     # opens 3 terminals
-    urxvt -name 'panic' -e gotop -aps &
+    # urxvt -name 'panic' -e gotop -aps &
+    st -n 'panic' -e gotop -aps &
     sleep 0.2
-    urxvt -name 'panic' -e ranger &
+    # urxvt -name 'panic' -e ranger &
+    st -n 'panic' -e ranger &
     sleep 0.2
-    urxvt -name 'panic' &
+    # urxvt -name 'panic' &
+    st -n 'panic' &
     #sleep 0.8
 else
     # closes the terminals that the panic button opened

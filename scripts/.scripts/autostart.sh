@@ -32,8 +32,8 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
-id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
-  xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
+# id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
+  # xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 
 # 4
 #sleep 0.7 && $HOME/.scripts/headset-configure &
