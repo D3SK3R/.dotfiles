@@ -23,7 +23,7 @@ super + slash
     #urxvtc -e sh -c 'sed -n 1,1000p ~/.config/sxhkd/sxhkdrc|less'
 
 # Reload sxhkd config
-super + Pause
+super + Home
   pkill -USR1 -x sxhkd;dunstify 'sxhkd' 'Reloaded config'
 
 # Terminal
@@ -94,6 +94,8 @@ super + {_, shift +} h
 
 # Lock Screen
 super + Escape
+   ~/.scripts/lock.sh
+super + l
    ~/.scripts/lock.sh
 
 # ncmpcpp and Spotify

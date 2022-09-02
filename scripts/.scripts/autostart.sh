@@ -17,7 +17,7 @@ dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running
 
 # BSPWM Monitors setup
 if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
-    sleep 0.5 && autorandr --change
+    autorandr --change
     sleep 1 && bspc desktop 2 --focus
     sleep 1 && bspc desktop 1 --focus
 else
@@ -26,12 +26,9 @@ else
     #sleep 3
     sleep 2 && $HOME/.config/polybar/launch.sh &
 fi
-
 # everything about monitors is commented
 # since I'm using autorandr that executed all of this
 #$HOME/.config/bspwm/monitors-bspwm &
-
-#$HOME/.scripts/monitors.sh &
 
 $HOME/.scripts/keyboardSet &
 
@@ -74,8 +71,6 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 run udiskie -t
 
 start-pulseaudio-x11 &
-#pulseaudio --kill & pulseaudio &
-#sleep 2 && killall pulseaudio & sleep 1 && pulseaudio &
 
 #run mpd
 
@@ -105,16 +100,10 @@ sleep 2 && st -T floating_terminal2 &
 
 # sleep 3 && discord & #premid &
 
-#sleep 8 && redshift &
-
 #sh $HOME/.scripts/better.sh &
 sh $HOME/.scripts/water.sh &
 
-# Map the menu key to slash (doesn't work when executed before keyd/kmonad)
-#xmodmap -e "keycode 135 = slash"
-
-# doesn't work when Keyd is running
-# sleep 2 && xcape -e 'Shift_R=Escape' &
-
 #sleep 5 && kdeconnect-indicator &
+
+light -I
 

@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1661980999,
+	"next_update_check": 1662145703,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 357.0,
+		"new_window_height": 726.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
@@ -339,11 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt"
 			],
 			"find":
 			{
@@ -525,14 +525,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-					"settings":
-					{
-						"buffer_size": 110,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -671,6 +663,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
@@ -794,11 +790,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/ShellAliasArgument",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/set Java Default Version.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/mouseSens.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/termbin.txt"
 			],
 			"find":
 			{
@@ -852,38 +844,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 110,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -927,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,8,551,675,908,3286,1080,0",
+			"position": "0,0,0,0,0,687,182,1354,908,3286,1080,0",
 			"project": "",
 			"replace":
 			{

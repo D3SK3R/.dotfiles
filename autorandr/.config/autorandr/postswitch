@@ -1,10 +1,13 @@
 #!/bin/sh
-
-sleep 2 && $HOME/.config/polybar/launch.sh &
-sleep 3 && picom -b --experimental-backend &
+#2
+sleep 0.5 && $HOME/.config/polybar/launch.sh &
+#3
+sleep 2 && picom -b --experimental-backend &
 sleep 1 && nitrogen --restore &
-sleep 5 && bspc config top_padding 22 &
-sleep 8 && killall flashfocus;flashfocus &
+# 5
+sleep 3 && bspc config top_padding 22 &
+# 8
+sleep 5 && killall flashfocus;flashfocus &
 
 
 

@@ -362,11 +362,6 @@ chsh -s /usr/bin/zsh
 sudo -u $USER chsh -s /usr/bin/zsh
 
 getDate
-# Set the backlight controller permission
-chmod a+rw /sys/class/backlight/intel_backlight/brightness >/dev/null
-chmod a+rw /sys/class/backlight/nvidia_0/brightness >/dev/null
-
-getDate
 # Disabling suspend pulseaudio
 echo 'Disabling suspend pulseaudio'
 sed -i 's/load-module module-suspend-on-idle/#load-module module-suspend-on-idle/' /etc/pulse/default.pa
