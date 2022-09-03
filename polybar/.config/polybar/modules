@@ -454,6 +454,8 @@ type = custom/script
 interval = 2
 #label = " "
 exec = ~/.config/polybar/scripts/cputemp.sh
+label-foreground = ${colors.fg}
+label-background = ${colors.bg}
 
 [module/ram]
 type = custom/script
