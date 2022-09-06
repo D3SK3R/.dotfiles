@@ -104,6 +104,10 @@ $install v4l2loopback-dkms
 $install v4l-utils v4l2loopback-utils
 
 getDate
+echo 'legion specifics'
+$yay lenopow extremecooling4linux
+
+getDate
 # ZRAM
 echo 'Installing ZRAM'
 echo 'zram' > /etc/modules-load.d/zram.conf

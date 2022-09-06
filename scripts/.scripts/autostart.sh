@@ -46,6 +46,10 @@ sleep 1.5 && polybar-msg hook mute 1 &
 #######################
 xrdb -merge $HOME/.Xresources &
 
+start-pulseaudio-x11 &
+
+#run mpd
+
 run sxhkd
 
 run urxvtd -q -o -f
@@ -69,10 +73,6 @@ run clipster -d
 run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
-
-start-pulseaudio-x11 &
-
-#run mpd
 
 sleep 3 && spotify & killall mpd &
 
