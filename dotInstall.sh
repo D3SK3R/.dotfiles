@@ -315,7 +315,8 @@ $install iproute2 libcalculate mpv
 $install muparser pavucontrol scanmem
 $install mpc ncmpcpp adb ksshaskpass
 $install dolphin kio-extras ffmpegthumbs
-$install flameshot jq gron udiskie
+$install dolphin-plugins rootactions-servicemenu
+$install flameshot jq gron udiskie ark
 $install espeak netcat whois youtube-dl
 $install trash-cli winetricks xcursor-breeze
 $install openvpn tmux cheese speedtest-cli

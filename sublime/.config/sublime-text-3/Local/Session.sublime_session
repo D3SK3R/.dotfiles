@@ -216,6 +216,14 @@
 			},
 			"file_history":
 			[
+				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
+				"/home/desker/.config/Kvantum/kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/tabela-escrita.txt",
@@ -335,15 +343,7 @@
 				"/home/d3sk3r/windows dc/disable AV/both.bat",
 				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
 				"/home/d3sk3r/windows dc/disable AV/Windows.bat",
-				"/home/d3sk3r/windows dc/disable AV/Defender.bat",
-				"/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
-				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
-				"/home/d3sk3r/dead.letter",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt"
+				"/home/d3sk3r/windows dc/disable AV/Defender.bat"
 			],
 			"find":
 			{
@@ -361,6 +361,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"242932",
+					"transparent",
+					"panel",
+					"090c12",
 					"THM",
 					"{",
 					"}",
@@ -663,6 +667,14 @@
 			},
 			"file_history":
 			[
+				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
+				"/home/desker/.config/Kvantum/kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/tabela-escrita.txt",
@@ -782,15 +794,7 @@
 				"/home/d3sk3r/windows dc/disable AV/both.bat",
 				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
 				"/home/d3sk3r/windows dc/disable AV/Windows.bat",
-				"/home/d3sk3r/windows dc/disable AV/Defender.bat",
-				"/home/d3sk3r/MEGA/facul/tcc/tcc.txt",
-				"/home/d3sk3r/Wizard of Legend + OST/wizard_of_legend_v1_234a_50082.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/xcompmgr.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
-				"/home/d3sk3r/dead.letter",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt"
+				"/home/d3sk3r/windows dc/disable AV/Defender.bat"
 			],
 			"find":
 			{
@@ -808,6 +812,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"242932",
+					"transparent",
+					"panel",
+					"090c12",
 					"THM",
 					"{",
 					"}",
