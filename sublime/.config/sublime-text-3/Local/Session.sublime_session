@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/passwordLogin",
 				"/home/d3sk3r/windows dc/disable AV/both.bat",
 				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
-				"/home/d3sk3r/windows dc/disable AV/Windows.bat",
-				"/home/d3sk3r/windows dc/disable AV/Defender.bat"
+				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
 			],
 			"find":
 			{
@@ -529,6 +529,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/run/media/desker/20160907_110626/autorun.inf",
+					"settings":
+					{
+						"buffer_size": 93,
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -667,6 +675,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
@@ -793,8 +802,7 @@
 				"/home/d3sk3r/passwordLogin",
 				"/home/d3sk3r/windows dc/disable AV/both.bat",
 				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
-				"/home/d3sk3r/windows dc/disable AV/Windows.bat",
-				"/home/d3sk3r/windows dc/disable AV/Defender.bat"
+				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
 			],
 			"find":
 			{
@@ -852,6 +860,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/run/media/desker/20160907_110626/autorun.inf",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 93,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],

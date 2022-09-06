@@ -1,0 +1,1030 @@
+{
+	"folder_history":
+	[
+		"/home/d3sk3r/Minecraft"
+	],
+	"last_version": 4126,
+	"last_window_id": 50,
+	"log_indexing": false,
+	"next_update_check": 1662577703,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1038.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"backgrun",
+						"background"
+					],
+					[
+						"floating",
+						"floating_urxvt"
+					],
+					[
+						"configu",
+						"configuration"
+					],
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Python 3/Python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"build",
+						"Build With: Python"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"htmp",
+						"Set Syntax: HTML (ASP)"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Build With: Python"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"comment",
+						"Toggle Block Comment"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 108.0,
+				"history":
+				[
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
+				"/home/desker/.config/Kvantum/kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/pentest/desker.ovpn",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
+				"/home/desker/optimus-manager.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
+				"/home/desker/.config/variety/history.txt",
+				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/understanding.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
+				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
+				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
+				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
+				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
+				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/run.ps1",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
+				"/home/d3sk3r/MEGA/workout.txt",
+				"/home/d3sk3r/MEGA/tabela-escrita.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
+				"/home/d3sk3r/rbac.txt",
+				"/home/d3sk3r/phrase",
+				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
+				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
+				"/home/d3sk3r/promptSymbols.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
+				"/home/d3sk3r/st/config.def.h",
+				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
+				"/home/d3sk3r/Desec - 2020/Informações.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
+				"/home/d3sk3r/MEGA/percentage.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
+				"/home/d3sk3r/MEGA/fibonacci.py",
+				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
+				"/home/d3sk3r/MEGA/deauthAttack.sh",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/home/d3sk3r/MEGA/exames.txt",
+				"/home/d3sk3r/MEGA/exec.txt",
+				"/home/d3sk3r/MEGA/voice.txt",
+				"/home/d3sk3r/MEGA/todo.txt",
+				"/home/d3sk3r/MEGA/investment/fundos",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
+				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
+				"/home/d3sk3r/dir.txt",
+				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
+				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
+				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
+				"/home/d3sk3r/apacheserver",
+				"/home/d3sk3r/openPort",
+				"/home/d3sk3r/passwordLogin",
+				"/home/d3sk3r/windows dc/disable AV/both.bat",
+				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
+				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 112.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"242932",
+					"transparent",
+					"panel",
+					"090c12",
+					"THM",
+					"{",
+					"}",
+					"{",
+					"{ ",
+					"{",
+					"atb",
+					" ",
+					"style",
+					"username",
+					"placeholder",
+					"user",
+					"username",
+					"e-tinet"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"pisrc"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 265.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 944.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"backgrun",
+						"background"
+					],
+					[
+						"floating",
+						"floating_urxvt"
+					],
+					[
+						"configu",
+						"configuration"
+					],
+					[
+						"asd",
+						"asdnkasd"
+					],
+					[
+						"set",
+						"set_timeout"
+					],
+					[
+						"content-",
+						"content-font"
+					],
+					[
+						"netow",
+						"network_name"
+					],
+					[
+						"network",
+						"network_eth0"
+					],
+					[
+						"dunst",
+						"Dunst"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"rme",
+						"rmenu_wi_1"
+					],
+					[
+						"label",
+						"label-mode"
+					],
+					[
+						"no-",
+						"no-startup-id"
+					],
+					[
+						"works",
+						"workspaces"
+					],
+					[
+						"wor",
+						"workspaces"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/run/media/desker/20160907_110626/autorun.inf",
+					"settings":
+					{
+						"buffer_size": 93,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+					"settings":
+					{
+						"buffer_size": 30,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Python 3/Python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"build",
+						"Build With: Python"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"htmp",
+						"Set Syntax: HTML (ASP)"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Build With: Python"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"comment",
+						"Toggle Block Comment"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"tab",
+						"View: Toggle Tabs"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Add repo",
+						"Package Control: Add Repository"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 108.0,
+				"history":
+				[
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
+				"/home/desker/.config/Kvantum/kvantum.kvconfig",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/pentest/desker.ovpn",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
+				"/home/desker/optimus-manager.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
+				"/home/desker/.config/variety/history.txt",
+				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
+				"/home/d3sk3r/changes",
+				"/home/d3sk3r/understanding.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
+				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
+				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
+				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
+				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
+				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
+				"/run/media/d3sk3r/AE71-E26A/run.ps1",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
+				"/home/d3sk3r/MEGA/workout.txt",
+				"/home/d3sk3r/MEGA/tabela-escrita.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
+				"/home/d3sk3r/rbac.txt",
+				"/home/d3sk3r/phrase",
+				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
+				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
+				"/home/d3sk3r/promptSymbols.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
+				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
+				"/home/d3sk3r/st/config.def.h",
+				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
+				"/home/d3sk3r/Desec - 2020/Informações.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
+				"/home/d3sk3r/MEGA/percentage.py",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
+				"/home/d3sk3r/MEGA/fibonacci.py",
+				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
+				"/home/d3sk3r/MEGA/deauthAttack.sh",
+				"/home/d3sk3r/MEGA/fake fb.txt",
+				"/home/d3sk3r/MEGA/english to runic.txt",
+				"/home/d3sk3r/MEGA/exames.txt",
+				"/home/d3sk3r/MEGA/exec.txt",
+				"/home/d3sk3r/MEGA/voice.txt",
+				"/home/d3sk3r/MEGA/todo.txt",
+				"/home/d3sk3r/MEGA/investment/fundos",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
+				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
+				"/home/d3sk3r/dir.txt",
+				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
+				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
+				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
+				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
+				"/home/d3sk3r/apacheserver",
+				"/home/d3sk3r/openPort",
+				"/home/d3sk3r/passwordLogin",
+				"/home/d3sk3r/windows dc/disable AV/both.bat",
+				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
+				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 112.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"242932",
+					"transparent",
+					"panel",
+					"090c12",
+					"THM",
+					"{",
+					"}",
+					"{",
+					"{ ",
+					"{",
+					"atb",
+					" ",
+					"style",
+					"username",
+					"placeholder",
+					"user",
+					"username",
+					"e-tinet"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"pisrc"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/run/media/desker/20160907_110626/autorun.inf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 93,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 30,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 265.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,687,510,1354,867,3286,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 50,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

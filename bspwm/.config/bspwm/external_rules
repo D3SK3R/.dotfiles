@@ -227,6 +227,7 @@ esac
 case $title in
     "Java" | "Burp Suite Community Edition"* )
         if [[ $title =~ .*"Temporary Project" ]]; then
+            echo "state=floating"
             echo "center=on"
         else
             echo "state=floating"
