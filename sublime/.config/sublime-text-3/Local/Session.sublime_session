@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1038.0,
+		"new_window_height": 740.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -456,7 +456,7 @@
 			{
 			}
 		},
-		"new_window_width": 944.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -535,6 +535,14 @@
 					{
 						"buffer_size": 93,
 						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+					"settings":
+					{
+						"buffer_size": 30,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -863,11 +871,40 @@
 						{
 							"buffer": 0,
 							"file": "/run/media/desker/20160907_110626/autorun.inf",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 93,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 30,
 								"regions":
 								{
 								},
@@ -933,7 +970,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2330,30,3274,1068,3286,1080,3",
+			"position": "0,0,0,0,0,0,139,1366,879,3286,1080,0",
 			"project": "",
 			"replace":
 			{
