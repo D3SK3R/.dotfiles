@@ -67,19 +67,11 @@ case $class in
         fi
         ;;
     "discord" | "lightcord")
-        if [[ "$title" =~ .*\Discord ]]; then
+        if [[ "$title" =~ .*\Discord ]] || [[ "$title" =~ .*\Lightcord ]]; then
             echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
             echo "rectangle=1357x724+3+28"
-            echo "center=on"
-
-        fi
-        if [[ "$title" =~ .*\Lightcord ]]; then
-            echo "state=floating"
-            echo "hidden=on"
-            echo "sticky=on"
-            echo "rectangle=1356x732+3+28"
             echo "center=on"
         fi
         ;;

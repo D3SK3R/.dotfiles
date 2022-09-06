@@ -1,5 +1,8 @@
-
 #!/bin/sh
+
+echo 'sorting mirrors'
+pacman -S reflector
+reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 
 if pacman -Q | grep "nvidia" >/dev/null; then
     echo "Nvidia Drivers installed, proceeding with the script"

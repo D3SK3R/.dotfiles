@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1662232103,
+	"next_update_check": 1662577703,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 550.0,
+		"new_window_height": 1038.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/pentest/desker.ovpn",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
 				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
@@ -338,12 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
 				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/TODO.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt"
 			],
 			"find":
 			{
@@ -452,7 +452,7 @@
 			{
 			}
 		},
-		"new_window_width": 1027.0
+		"new_window_width": 944.0
 	},
 	"windows":
 	[
@@ -525,22 +525,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/pentest/desker.ovpn",
-					"settings":
-					{
-						"buffer_size": 8313,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
-					"settings":
-					{
-						"buffer_size": 552,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -679,6 +663,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/pentest/desker.ovpn",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
 				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
@@ -801,12 +790,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/config.txt",
 				"/home/d3sk3r/dead.letter",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/insta and twitter.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/TODO.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/vampireSurvivors.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/WPSOffice",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/watch-with-mpv.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/url_shortener_terminal.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/Other/Paste/Girls/Diovana Konigsreuter/instagram.txt"
 			],
 			"find":
 			{
@@ -860,67 +844,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/pentest/desker.ovpn",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8313,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 552,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -964,7 +887,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,191,218,1218,768,3286,1080,0",
+			"position": "0,0,0,0,0,2330,30,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
