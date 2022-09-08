@@ -113,12 +113,11 @@ plugins=(
     sudo # esc key twice
     # fast-syntax-highlighting
     F-Sy-H
-    #copybuffer # ctrl+o
+    copybuffer # ctrl+o
     #copydir
     #copyfile
     #dirhistory 
-    # autosuggestions make zsh slower
-    zsh-autosuggestions
+    zsh-autosuggestions # autosuggestions make zsh slower
 )
 
 #################################################
@@ -190,6 +189,7 @@ export FZF_COMPLETION_OPTS='--height=60% --color=16'
 # zsh-autosuggestions
 #################################################
 # https://github.com/zsh-users/zsh-autosuggestions
+# run: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#6b7078,bold,underline"
 ZSH_AUTOSUGGEST_STRATEGY=(completion)
 
