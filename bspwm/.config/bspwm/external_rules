@@ -172,6 +172,9 @@ case $class in
     "Soundux")
         echo "state=floating"
         ;;
+    "yad-calendar")
+        echo "state=floating"
+        ;;
     "Xfce4-mime-settings")
         echo "state=floating"
         ;;

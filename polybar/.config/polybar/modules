@@ -510,7 +510,6 @@ format-charging-padding                 = 1
 label-discharging                       = "%percentage%%"
 format-discharging-padding              = 1
 
-;label-full
 label-full                        		= " %percentage%%"
 format-full-padding                     = 1
 
@@ -531,7 +530,7 @@ ramp-capacity-9                         = 
 
 [module/openweather]
 type = custom/script
-exec = /home/d3sk3r/.config/polybar/scripts/openweather.sh
+exec = /home/desker/.config/polybar/scripts/openweather.sh
 interval = 100
 #label-font = 2
 #format-prefix = "  "
@@ -644,7 +643,7 @@ click-left = ~/.config/polybar/scripts/popup-calendar-date.sh --popup
 #format-prefix = 
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
-format-underline = ${colors.fg}
+#format-underline = ${colors.fg}
 
 [module/mute]
 type = custom/ipc
