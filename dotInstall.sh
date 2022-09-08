@@ -348,7 +348,9 @@ systemctl enable --now vncserver-x11-serviced.service
 getDate
 # Crontab to update locate db and set paranoid level (for vulkan)
 echo 'Creating a crontab to update locate db every 6 hours'
-echo "0 0,6,12,18 * * * /usr/bin/updatedb\n@reboot /sbin/sysctl -w dev.i915.perf_stream_paranoid=0
+$install cronie
+echo "@reboot echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+0 0,6,12,18 * * * /usr/bin/updatedb
 @reboot /sbin/sysctl -w dev.i915.perf_stream_paranoid=0" >> root && mv root /var/spool/cron/root && chown root /var/spool/cron/root
 systemctl enable --now cronie
 
