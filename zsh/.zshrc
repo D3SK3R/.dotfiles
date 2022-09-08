@@ -111,13 +111,14 @@ PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bi
 plugins=(
     fzf # ctrl+t / ctrl+r / ** <tab>
     sudo # esc key twice
-    fast-syntax-highlighting
+    # fast-syntax-highlighting
+    F-Sy-H
     #copybuffer # ctrl+o
     #copydir
     #copyfile
     #dirhistory 
     # autosuggestions make zsh slower
-    #zsh-autosuggestions
+    zsh-autosuggestions
 )
 
 #################################################
@@ -149,6 +150,12 @@ export FZF_COMPLETION_OPTS='--height=60% --color=16'
 # copy all of this and run on a terminal (these 2 lines together):
 # git clone https://github.com/zdharma/fast-syntax-highlighting.git \
 #  ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+
+#################################################
+# Fast-syntax-highlighing
+#################################################
+# https://github.com/zdharma/fast-syntax-highlighting
+# run: git clone https://github.com/z-shell/F-Sy-H.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
 
 #################################################
 # Dirhistory
@@ -454,6 +461,7 @@ alias font-list='fc-list'
 alias psa='ps auxf'
 alias pscpu='ps -eo user,pid,pcpu,pmem,comm --sort -pcpu | head'
 alias psram='ps -eo user,pid,pcpu,pmem,comm --sort -pmem | head'
+alias cpuspeed='cat /proc/cpuinfo  | grep mhz'
 alias free='free -mt'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
