@@ -122,9 +122,9 @@ URxvt.keysym.Control-Right:     \033[1;5C
 ! st -g 190x45
 
 !*.font: DejaVuSansMono NF:style:bold:pixelsize=12
-*font: Fira Code:style:medium:pixelsize=12 
+*font: Fira Code:style:medium:pixelsize=13 
 ! JoyPixels for colored emojis
-*fontalt0: JoyPixels:pixelsize=12
+*fontalt0: JoyPixels:pixelsize=13
 
 *background:    #090c12
 *alpha:         1
