@@ -17,12 +17,13 @@ rate 120.00
 x-prop-max_bpc 16
 x-prop-non_desktop 0
 x-prop-scaling_mode None
+x-prop-tearfree off
 x-prop-underscan off
 x-prop-underscan_hborder 0
 x-prop-underscan_vborder 0
 output HDMI-0
 crtc 1
 mode 1366x768
-pos 0x137
+pos 0x152
 rate 59.79
 x-prop-non_desktop 0

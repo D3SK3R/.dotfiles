@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ "$EUID" != 0 ]; then
+    echo 'run the script as root'
+    exit
+fi
+
 echo 'sorting mirrors'
 pacman -S reflector
 reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
@@ -13,14 +18,39 @@ else
 fi
 
 # amd drivers
-pacman -S mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
-pacman -S mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
-pacman -S vulkan-radeon lib32-vulkan-radeon  
+read -p "Using AMD? [Y/n] " amd
+echo $amd
+
+if [[ $amd == "y" ]] || [[ $amd == "Y" ]] || [[ -z $amd ]]; then
+  pacman -S mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
+  pacman -S mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
+  pacman -S vulkan-radeon lib32-vulkan-radeon  
+
+  echo 'Section "Device"
+     Identifier "AMD"
+     Driver "amdgpu"
+     Option "EnablePageFlip" "off"
+     Option "TearFree" "false"
+EndSection
+  ' > /etc/X11/xorg.conf.d/20-amdgpu.conf
+fi
+
 
 username='desker'
+groupadd sudo;usermod -aG sudo $username
+usermod -aG wheel $username
+
+sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
+sed -i 's/# %sudo     ALL=(ALL) ALL/%sudo  ALL=(ALL) ALL/' /etc/sudoers
+
+chown -c root:root /etc/sudoers
+chmod -c 0440 /etc/sudoers
 
 install='pacman --noconfirm --needed -S'
 yay="sudo -u $USER yay --noconfirm --sudoloop --needed -S"
+
+echo "installing yay"
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 getDate(){
     date=$(date +'%A, %B %d, %H:%M:%S')
@@ -70,6 +100,13 @@ echo 'Setting keymap'
 echo 'KEYMAP=br-abnt2
 FONT=
 FONT_MAP=' > /etc/vconsole.conf
+
+# base base-devel
+$install base base-devel
+
+getDate
+echo 'Updating'
+pacman -Syyuu
 
 getDate
 # xorg
@@ -251,6 +288,7 @@ getDate
 echo 'zsh'
 $install zsh
 chsh -s "$(which zsh)"
+sudo -u $USER chsh -s /usr/bin/zsh
 $yay zsh-fast-syntax-highlighting
 $yay oh-my-zsh-git zsh-theme-powerlevel10k-git
 
@@ -279,6 +317,9 @@ $install ttf-nerd-fonts-symbols
 $install ttf-twemoji
 $install ttf-symbola
 $install ttf-font-icons
+
+echo 'Updating fonts'
+fc-cache -fv
 
 echo 'icons'
 $install papirus-icon-theme
@@ -367,11 +408,6 @@ systemctl enable --now NetworkManager
 systemctl enable --now dhcpcd
 
 getDate
-# Set zsh as default shell
-chsh -s /usr/bin/zsh
-sudo -u $USER chsh -s /usr/bin/zsh
-
-getDate
 # Disabling suspend pulseaudio
 echo 'Disabling suspend pulseaudio'
 sed -i 's/load-module module-suspend-on-idle/#load-module module-suspend-on-idle/' /etc/pulse/default.pa
@@ -391,7 +427,13 @@ Description = Cleaning pacman cache with paccache...
 When = PostTransaction
 Exec = /usr/bin/paccache -r -k 2" > /usr/share/libalpm/hooks/paccache.hook
 
+sed -i 's/#Color/Color/' /etc/pacman.conf && \
+sed -i 's/#CheckSpace/CheckSpace/' /etc/pacman.conf
+
 getDate
 echo 'Editing journald.conf to limit its usage to 500mb'
 sed -i 's/#SystemMaxUse=/SystemMaxUse=500/' /etc/systemd/journald.conf
 
+getDate
+echo 'Updating'
+pacman -Syyuu

@@ -478,3 +478,21 @@ flameshot
 Capture saved as /home/desker/rice.png 
 Flameshot Info 
 flameshot
+05:12 
+NORMAL
+drive-removable-media
+/dev/sr0: 20160907_110626 mounted on /run/media/desker/20160907_110626 
+Device mounted 
+udiskie
+05:16 
+LOW
+nm-device-wired
+You are now connected to “Wired connection 1”. 
+Connection Established 
+NetworkManager
+05:16 
+NORMAL
+drive-removable-media
+/dev/sr0: 20160907_110626 mounted on /run/media/desker/20160907_110626 
+Device mounted 
+udiskie
