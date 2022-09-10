@@ -63,7 +63,7 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
 
     # opens 3 terminals
     # urxvt -name 'panic' -e gotop -aps &
-    st -n 'panic' -e gotop -aps &
+    st -n 'panic' -e gotop -aps --nvidia &
     sleep 0.2
     # urxvt -name 'panic' -e ranger &
     st -n 'panic' -e ranger &

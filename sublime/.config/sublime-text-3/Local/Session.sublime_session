@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/picom/clone.txt",
+				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/todo",
@@ -341,13 +343,11 @@
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
-				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
-				"/home/d3sk3r/apacheserver",
-				"/home/d3sk3r/openPort"
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -398,7 +398,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -416,7 +416,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -667,6 +667,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/picom/clone.txt",
+				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/todo",
@@ -792,13 +794,11 @@
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
 				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
-				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
-				"/home/d3sk3r/apacheserver",
-				"/home/d3sk3r/openPort"
+				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -857,7 +857,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -895,11 +895,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,8,510,675,867,3286,1080,0",
+			"position": "0,0,0,0,0,687,510,1354,867,3286,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
