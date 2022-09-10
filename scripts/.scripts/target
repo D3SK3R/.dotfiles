@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# in .zshrc: source ~/.scripts/target
+
+target(){
+  if [[ -z $1 ]]; then
+    echo "Usage: target <ip> to set a target's ip\nor target - to clear the target"
+  elif [[ $1 == '-' ]] && [[ -f "/tmp/targetip" ]]; then
+    echo "Removing target"
+    export IP=
+    rm /tmp/targetip 
+  else
+    export IP=$1
+    echo $1 > /tmp/targetip
+  fi
+}

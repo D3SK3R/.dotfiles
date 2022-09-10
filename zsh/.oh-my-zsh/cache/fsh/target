@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# target=$1
+#
+# if [[ $target == '-' ]]; then
+#   echo "Removing target"
+#   rm /tmp/targetip
+# elif [[ -z "$target" ]]; then
+#   echo "Usage: target <ip> to set a target's ip
+# or target - to clear the target"
+# else
+#   source $0
+#   export IP="$target"
+#   echo "$target" > /tmp/targetip
+# fi
+
+target(){
+  if [[ -z $1 ]]; then
+    echo "Usage: target <ip> to set a target's ip\nor target - to clear the target"
+  elif [[ $1 == '-' ]] && [[ -f "/tmp/targetip" ]]; then
+    echo "Removing target"
+    export IP=
+    rm /tmp/targetip >/dev/null
+  else
+    export IP=$1
+    echo $1 > /tmp/targetip
+  fi
+}

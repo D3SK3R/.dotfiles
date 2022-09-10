@@ -89,7 +89,7 @@ super + shift + @g
 
 # Gotop
 super + {_, shift +} h
-    {st -e gotop -aps, st -e htop}
+    {st -e gotop -aps --nvidia, st -e htop}
     #{urxvtc -e gotop -aps, urxvtc -e htop}
 
 # Lock Screen

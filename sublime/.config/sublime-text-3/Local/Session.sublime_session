@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1662577703,
+	"next_update_check": 1662911935,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 740.0,
+		"new_window_height": 357.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,10 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/20160907_110626/autorun.inf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/desker/todo",
+				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
@@ -339,11 +343,7 @@
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
 				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
 				"/home/d3sk3r/apacheserver",
-				"/home/d3sk3r/openPort",
-				"/home/d3sk3r/passwordLogin",
-				"/home/d3sk3r/windows dc/disable AV/both.bat",
-				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
-				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
+				"/home/d3sk3r/openPort"
 			],
 			"find":
 			{
@@ -456,7 +456,7 @@
 			{
 			}
 		},
-		"new_window_width": 1366.0
+		"new_window_width": 667.0
 	},
 	"windows":
 	[
@@ -529,22 +529,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/run/media/desker/20160907_110626/autorun.inf",
-					"settings":
-					{
-						"buffer_size": 93,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-					"settings":
-					{
-						"buffer_size": 30,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -683,6 +667,10 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/20160907_110626/autorun.inf",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/desker/todo",
+				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
@@ -806,11 +794,7 @@
 				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
 				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh",
 				"/home/d3sk3r/apacheserver",
-				"/home/d3sk3r/openPort",
-				"/home/d3sk3r/passwordLogin",
-				"/home/d3sk3r/windows dc/disable AV/both.bat",
-				"/home/d3sk3r/windows dc/disable AV/Disable AV windows.ps1",
-				"/home/d3sk3r/windows dc/disable AV/Windows.bat"
+				"/home/d3sk3r/openPort"
 			],
 			"find":
 			{
@@ -868,65 +852,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/run/media/desker/20160907_110626/autorun.inf",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 93,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 30,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -970,7 +895,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,139,1366,879,3286,1080,0",
+			"position": "0,0,0,0,0,8,510,675,867,3286,1080,0",
 			"project": "",
 			"replace":
 			{

@@ -430,7 +430,7 @@ alias fd='fd -H'
 alias cn='clear;neofetch'
 # host text on a pastebin web
 alias bin='nc termbin.com 9999'
-alias gotop='gotop -aps'
+alias gotop='gotop -aps --nvidia'
 #alias pip='sudo pip'
 alias clock='tty-clock -cb'
 # alias floating='urxvt -name floating_terminal &'
@@ -770,6 +770,7 @@ mkd() {
 }
 
 #################################################################
+source ~/.scripts/target
 targetip=/tmp/targetip
 if [[ -f $targetip ]]; then
   IP=$(cat $targetip)
