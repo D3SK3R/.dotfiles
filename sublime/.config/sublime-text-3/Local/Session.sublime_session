@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1052.0,
+		"new_window_height": 1038.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
@@ -341,13 +343,11 @@
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
-				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
-				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
-				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh"
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh"
 			],
 			"find":
 			{
-				"height": 48.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -457,7 +457,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 944.0
 	},
 	"windows":
 	[
@@ -530,18 +530,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
-					"settings":
-					{
-						"buffer_size": 21231,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -680,6 +668,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
@@ -805,13 +795,11 @@
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
 				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
-				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh",
-				"/home/d3sk3r/Dead Cells - Road to the Sea + 2 OST/dead_cells_1_18_2_55549.sh",
-				"/home/d3sk3r/.games/Dead Cells/game/deadcells.sh"
+				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh"
 			],
 			"find":
 			{
-				"height": 48.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -866,38 +854,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 21231,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										16856,
-										16862
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 9110.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -941,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,3",
+			"position": "0,0,0,0,0,2330,30,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
