@@ -23,8 +23,9 @@ config_file="/tmp/polybar_cava_config"
 echo "
 [general]
 bars = 10
+overshoot = 0
 autosens = 0
-sensitivity = 10
+sensitivity = 8
 
 [output]
 method = raw
