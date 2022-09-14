@@ -65,6 +65,7 @@ textbox-prompt-colon {
 }
 
 entry {
+    enabled:                        true;
     spacing:    					0;
     text-color: 					@fg;
 }

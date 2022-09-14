@@ -214,3 +214,9 @@ nm-device-wired
 You are now connected to “Wired connection 1”. 
 Connection Established 
 NetworkManager
+07:44 
+NORMAL
+battery-level-60-symbolic
+Your Battery is discharging 
+Power Manager 
+xfce4-power-manager
