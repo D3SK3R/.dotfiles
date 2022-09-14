@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1038.0,
+		"new_window_height": 1052.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
-				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh"
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt"
 			],
 			"find":
 			{
@@ -457,7 +457,7 @@
 			{
 			}
 		},
-		"new_window_width": 944.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -530,14 +530,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-					"settings":
-					{
-						"buffer_size": 183,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -676,6 +668,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
@@ -801,9 +795,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
-				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh"
+				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt"
 			],
 			"find":
 			{
@@ -862,36 +854,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 183,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -935,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2330,30,3274,1068,3286,1080,3",
+			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
