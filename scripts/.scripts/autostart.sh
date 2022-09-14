@@ -35,11 +35,9 @@ $HOME/.scripts/keyboardSet &
 # id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
   # xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 
-# 4
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
-# 5
-sleep 1.5 && polybar-msg hook mute 1 &
+sleep 3 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
@@ -83,11 +81,9 @@ nitrogen --restore &
 
 picom -b --experimental-backend &
 
-# 5
 sleep 3 && flashfocus &
 
 # disable the autostart option inside copyq's preferences
-# 5
 sleep 4 && copyq &
 
 # floating stuff
