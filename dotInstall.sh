@@ -346,7 +346,7 @@ $install alsa-utils
 systemctl enable --now alsa-restore
 
 getDate
-$install polybar gucharmap
+$install polybar gucharmap cpupower
 $install kvantum qt5ct qt5-base qt5-tools 
 $install qt5-styleplugins qt6ct qt6-base qt6-tools
 $install mintstick syncthing ark

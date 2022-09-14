@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1663171135,
+	"next_update_check": 1663257535,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1038.0,
+		"new_window_height": 1052.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
 				"/home/desker/picom/clone.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
-				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
-				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh"
+				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh"
 			],
 			"find":
 			{
@@ -457,7 +457,7 @@
 			{
 			}
 		},
-		"new_window_width": 944.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -668,6 +668,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
 				"/home/desker/picom/clone.txt",
@@ -794,8 +795,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt",
 				"/home/d3sk3r/.config/mpv/script-opts/encode_webm.conf.txt",
-				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh",
-				"/home/d3sk3r/.games/Dead Cells/support/postinst.sh"
+				"/home/d3sk3r/.games/Dead Cells/support/preuninst.sh"
 			],
 			"find":
 			{
@@ -897,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2330,30,3274,1068,3286,1080,3",
+			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
