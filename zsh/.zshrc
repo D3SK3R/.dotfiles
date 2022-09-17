@@ -512,6 +512,7 @@ alias vundle='vim +PluginInstall +qall'
 #################################################################
 # pentest related
 #################################################################
+alias rustscan='rustscan --ulimit 5000 -a'
 alias pwncat-env='source /opt/pwncat/pwncat-env/bin/activate'
 # alias airgeddon='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/airgeddon/airgeddon.sh'
 alias airgeddon='sudo airgeddon'

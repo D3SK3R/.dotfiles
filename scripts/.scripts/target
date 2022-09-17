@@ -2,15 +2,20 @@
 
 # in .zshrc: source ~/.scripts/target
 
+file=/tmp/targetip
+
 target(){
   if [[ -z $1 ]]; then
+    if [[ -f $file ]]; then
+      echo "Current target: $(cat $file)"
+    fi
     echo "Usage: target <ip> to set a target's ip\nor target - to clear the target"
-  elif [[ $1 == '-' ]] && [[ -f "/tmp/targetip" ]]; then
+  elif [[ $1 == '-' ]] && [[ -f "$file" ]]; then
     echo "Removing target"
     export IP=
-    rm /tmp/targetip 
+    rm $file 
   else
     export IP=$1
-    echo $1 > /tmp/targetip
+    echo $1 > $file
   fi
 }
