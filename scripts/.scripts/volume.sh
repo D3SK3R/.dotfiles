@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# ALTERNATIVE PROBABLY EASIER
+# pamixer --get-volume
+# pamixer --get-mute
+# pamixer --set-volume
+# pamixer --increase/--decrease 1
+
 # Changes the volume level of an audio track
 # Signals an the status bar to update
 

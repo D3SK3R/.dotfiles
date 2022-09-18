@@ -6,16 +6,15 @@ Xft.dpi:110
 Xft.antialiasing:true
 Xft.rgba:rgb
 Xft.hinting:true
-Xft.autohint:false
+Xft.autohint:true
 Xft.hintstyle:hintfull
 Xft.lcdfilter:lcdfilter
 
 *.underlineURLs:true
-! URxvt*.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
-URxvt*.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold, xft:DejaVuSansMono NF:pixelsize=12:style=bold
-URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=12:style=bold
-!!URxvt.font: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
-!!URxvt.boldfont: xft:DejaVuSansMono Nerd Font Mono:pixelsize=12:style:bold:autohint=true:antialias=true
+! URxvt*.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold, xft:DejaVuSansMono NF:pixelsize=14:style=bold
+! URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold
+URxvt*.font: xft:Fira Code:pixelsize=14:style=medium, xft:DejaVuSansMono NF:pixelsize=14
+URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold
 *letterSpace: -1
 *lineSpace: -1
 

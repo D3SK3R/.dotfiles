@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# ALTERNATIVE PROBABLY EASIER: 
+# pamixer --default-source --get-volume
+# pamixer --default-source --get-mute
+# pamixer --default-source --set-volume
+# pamixer --default-source --toggle-mute
+# pamixer --default-source --increase/--decrease 1
+
 # Check if my audio input (pulseaudio) is muted or not, mute or unmute, and send a notification
 
 #mute=$(pactl list sources | grep Mute | awk -F' ' 'NR==2 {print $2}')
