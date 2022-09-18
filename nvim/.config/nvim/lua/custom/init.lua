@@ -102,8 +102,8 @@ vim.cmd [[
     nnoremap x "_x
     vnoremap x "_x
 
-    nnoremap p pgvy
-    vnoremap p pgvy
+    nnoremap p Pgvy
+    vnoremap p Pgvy
 
     nnoremap c "_c
     vnoremap c "_c

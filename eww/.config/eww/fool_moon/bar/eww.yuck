@@ -77,9 +77,11 @@
        :class "sys"
        :valign "center"
     (label :class "vol-icon" :text vol-icon)
+    (label :class "vol-percentage" :text vol-percentage)
     (label :class "wifi-icon ${wifi-class}" :text "")))
 
 (defpoll vol-icon :interval "1s" "../common/scripts/vol icon")
+(defpoll vol-percentage :interval "1s" "../common/scripts/vol percent")
 (defpoll wifi-class :interval "1s" "scripts/wifi class")
 (defpoll bat-icon :interval "1s" "scripts/bat icon")
 
