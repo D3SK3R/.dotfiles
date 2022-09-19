@@ -822,6 +822,8 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export SUDO_ASKPASS=~/.scripts/rofi-askpass
+
 # these 2 lines prevent the % when fast opening terminals
 #clear
 unsetopt PROMPT_SP

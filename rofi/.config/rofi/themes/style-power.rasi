@@ -76,6 +76,7 @@ case-indicator {
 }
 
 inputbar {
+    enabled:              false;
     spacing:    					0px;
     text-color: 					@fg;
     padding:    					0px 0px 10px 0px;
@@ -107,7 +108,7 @@ element-text {
     border: 						3px;
     border-radius: 					5px;
     border-color: 					@bg;
-    padding: 						2px;
+    padding: 						5px;
     background-color:               @bg;
     text-color:                     @fg;
 }
@@ -158,7 +159,7 @@ scrollbar {
 message {
     border: 						0px;
     border-color: 					@ac;
-    padding: 						0px 0px 1px 10px;
+    padding: 						0px 0px 10px 10px;
 }
 
 textbox {

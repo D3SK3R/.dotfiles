@@ -109,7 +109,7 @@ element-text {
     border: 						3px;
     border-radius: 					5px;
     border-color: 					@bg;
-    padding: 						2px;
+    padding: 						5px;
     background-color:               @bg;
     text-color:                     @fg;
 }

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+connected=$(acpi -a | awk '{print $3}')
+
+profile=$(printf "Ondemand\nPowersave" | rofi -dmenu -theme-str 'inputbar {enabled: false;}' -theme themes/style-power.rasi -mesg "Select a CPU Governor")
+
+if [[ $profile = "Ondemand" ]]; then
+  echo "enabling Ondemand governor"
+  sudo -A cpupower frequency-set -g ondemand
+  # gksudo "cpupower frequency-set -g ondemand"
+  echo "1" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+elif [[ $profile = "Powersave" ]]; then
+  echo "enabling Powersave governor"
+  sudo -A cpupower frequency-set -g powersave
+  # gksudo "cpupower frequency-set -g powersave"
+  echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+else
+  echo "None"
+fi
+
+
+
