@@ -144,6 +144,7 @@ vim.cmd [[
     " type :w!! to save the file as root when it says you have no permission to write
     " for this to work, install ksshaskpass
     cmap w!! w !SUDO_ASKPASS=/usr/bin/ksshaskpass sudo -A tee > /dev/null % <Enter>
+    "cmap w!! w !SUDO_ASKPASS=~/.scripts/rofi-askpass sudo -A tee > /dev/null % <Enter>
     
 
 ]]

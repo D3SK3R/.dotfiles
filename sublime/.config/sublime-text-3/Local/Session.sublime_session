@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1663257535,
+	"next_update_check": 1663689535,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1052.0,
+		"new_window_height": 513.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
@@ -250,7 +251,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
@@ -457,7 +457,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 466.0
 	},
 	"windows":
 	[
@@ -668,6 +668,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
@@ -702,7 +703,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
@@ -897,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
+			"position": "0,0,0,0,0,1852,555,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
