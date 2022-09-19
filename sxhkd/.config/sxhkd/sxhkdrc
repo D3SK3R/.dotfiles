@@ -125,7 +125,7 @@ super + {_, shift} + s
 
 # Rofi NetworkManager
 super + w
-    ~/.scripts/networkmanager_rofi.sh
+    ~/.scripts/networkmanager_rofi.sh rofi -dmenu
 
 # Rofi fuzzy finder and xkill
 super + {_, ctrl} + x

@@ -52,7 +52,8 @@ def dmenu_cmd(num_lines, prompt="Networks", active_lines=None):  # pylint: disab
                 dmenu -l <num_lines> -p <prompt> -i ...
 
     """
-    dmenu_command = "dmenu"
+    # dmenu_command = "dmenu"
+    dmenu_command = "rofi"
     conf = configparser.ConfigParser()
     conf.read(expanduser("~/.config/networkmanager-dmenu/config.ini"))
     if not conf.sections():
