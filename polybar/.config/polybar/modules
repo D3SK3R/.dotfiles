@@ -709,7 +709,7 @@ click-left = exec sh ~/.config/eww/fool_moon/bar/scripts/widgets toggle-time
 
 [module/updates]
 type = custom/script
-exec = checkupdates | wc -l
+exec = checkupdates 2>/dev/null | wc -l
 interval = 1800
 label = "%output%"
 format = " <label> "
