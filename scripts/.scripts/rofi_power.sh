@@ -16,8 +16,8 @@ if [ -f $HOME/.config/rofi-power/config ]; then
   source $HOME/.config/rofi-power/config
 else
   #LAUNCHER="rofi -width 30 -dmenu -i -p rofi-power:"
-  # LAUNCHER="rofi -dmenu -i -f 'DejaVu Sans Mono 12' -theme themes/style-power.rasi"
-  LAUNCHER="rofi -dmenu -i -f 'DejaVu Sans Mono 12' -theme themes/power.rasi"
+  LAUNCHER="rofi -dmenu -i -f 'DejaVu Sans Mono 12' -theme themes/style-power.rasi"
+  # LAUNCHER="rofi -dmenu -i -f 'DejaVu Sans Mono 12' -theme themes/power.rasi"
   USE_LOCKER="false"
   LOCKER="/home/d3sk3r/.i3/lock.sh"
 fi
