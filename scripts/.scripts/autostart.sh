@@ -103,3 +103,6 @@ sleep 3 && discord & #premid &
 
 light -I &
 
+eww -c ~/.config/eww/fool_moon/menu/ daemon & 
+eww -c ~/.config/eww/fool_moon/meters/ daemon &
+
