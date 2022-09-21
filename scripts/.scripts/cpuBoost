@@ -1,8 +1,8 @@
 #!/bin/sh
 
-connected=$(acpi -a | awk '{print $3}')
+power=$(acpi -a | awk '{print $3}')
 
-if [[ $connected = "on-line" ]]; then
+if [[ $power = "on-line" ]]; then
   echo "Connected to power, setting CPU Boost on"
   sudo cpupower frequency-set -g ondemand
   echo "1" | sudo tee /sys/devices/system/cpu/cpufreq/boost
