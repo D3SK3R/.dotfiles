@@ -1,13 +1,14 @@
 #!/bin/sh
+#0.5
+$HOME/.config/polybar/launch.sh &
 #2
-sleep 0.5 && $HOME/.config/polybar/launch.sh &
-#3
-sleep 2 && picom -b --experimental-backend &
-sleep 1 && nitrogen --restore &
+sleep 1 && picom -b --experimental-backend &
+sleep 0.5 && nitrogen --restore &
+# 3
+sleep 2 && bspc config top_padding 22 &
 # 5
-sleep 3 && bspc config top_padding 22 &
-# 8
 sleep 5 && killall flashfocus;flashfocus &
 
+# dunstify "running post switch" "autorandr" &
 
 
