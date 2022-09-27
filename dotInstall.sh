@@ -274,14 +274,17 @@ echo 'Installing Java'
 $install jre-openjdk jre-openjdk-headless jdk-openjdk
 archlinux-java set $(archlinux-java get)
 
-if pacman -Q | grep "lightdm" >/dev/null; then
-    getDate
-    echo 'ligthdm'
-    $install lightdm-slick-greeter lightdm-settings
-    $install lightdm-webkit2-greeter lightdm-gtk-greeter
-    echo "Setting webkit2 as lightdm greeter"
-    sed -i 's/^\(#?greeter\)-session\s*=\s*\(.*\)/greeter-session = lightdm-webkit2-greeter #\1/ #\2g' /etc/lightdm/lightdm.conf
-fi
+$install sddm sddm-kcm
+systemctl enable -f sddm.service
+
+# if pacman -Q | grep "lightdm" >/dev/null; then
+#     getDate
+#     echo 'ligthdm'
+#     $install lightdm-slick-greeter lightdm-settings
+#     $install lightdm-webkit2-greeter lightdm-gtk-greeter
+#     echo "Setting webkit2 as lightdm greeter"
+#     sed -i 's/^\(#?greeter\)-session\s*=\s*\(.*\)/greeter-session = lightdm-webkit2-greeter #\1/ #\2g' /etc/lightdm/lightdm.conf
+# fi
 
 getDate
 # zsh
