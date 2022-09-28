@@ -172,6 +172,9 @@ case $class in
     "Soundux")
         echo "state=floating"
         ;;
+    "Cpupower-gui")
+        echo "state=floating"
+        ;;
     "yad-calendar")
         echo "state=floating"
         ;;

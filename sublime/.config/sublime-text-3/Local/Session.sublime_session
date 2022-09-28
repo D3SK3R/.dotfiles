@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1663689535,
+	"next_update_check": 1664467135,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 513.0,
+		"new_window_height": 1052.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where"
 			],
 			"find":
 			{
@@ -361,6 +361,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#",
 					"market",
 					"242932",
 					"transparent",
@@ -387,6 +388,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
 					"pisrc"
 				],
 				"reverse": false,
@@ -457,7 +459,7 @@
 			{
 			}
 		},
-		"new_window_width": 466.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -530,6 +532,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/where.txt",
+					"settings":
+					{
+						"buffer_size": 22,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -668,6 +678,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -794,8 +805,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where",
-				"/home/d3sk3r/.config/mpv/script-opts/encode_slice.conf.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where"
 			],
 			"find":
 			{
@@ -813,6 +823,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#",
 					"market",
 					"242932",
 					"transparent",
@@ -839,6 +850,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
 					"pisrc"
 				],
 				"reverse": false,
@@ -854,6 +866,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/where.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 22,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -897,7 +939,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1852,555,2318,1068,3286,1080,3",
+			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{

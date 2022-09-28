@@ -326,10 +326,13 @@ fc-cache -fv
 
 echo 'icons'
 $install papirus-icon-theme
-if pacman -Q | grep libxft >/dev/null; then
-    pacman -Rnsdd libxft 
-fi
-$install libxft-bgra-git
+
+$install libxft
+# Apparently you don't need libxft-bgra-git anymore
+# if pacman -Q | grep libxft >/dev/null; then
+#     pacman -Rnsdd libxft 
+# fi
+# $install libxft-bgra-git
 
 getDate
 # Pulseaudio And alsa
@@ -349,7 +352,7 @@ $install alsa-utils
 systemctl enable --now alsa-restore
 
 getDate
-$install polybar gucharmap cpupower acpi
+$install polybar gucharmap cpupower cpupower-gui acpi
 $install kvantum qt5ct qt5-base qt5-tools 
 $install qt5-styleplugins qt6ct qt6-base qt6-tools
 $install mintstick syncthing ark
