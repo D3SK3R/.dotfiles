@@ -13,13 +13,21 @@ if pacman -Q | grep "nvidia" >/dev/null; then
     echo "Nvidia Drivers installed, proceeding with the script"
 else
     echo 'Installing nvidia drivers'
-    pacman -S nvidia-dkms nvidia-utils nvidia-settings
+    pacman -S nvidia-dkms nvidia-utils nvidia-settings nvidia-prime
     echo 'Installed, reboot and run the script again.'
+  echo 'Section "OutputClass"
+	Identifier    "nvidia"
+	MatchDriver   "nvidia-drm"
+	Driver        "nvidia"
+	Option        "TripleBuffer" "on"
+EndSection
+' > /etc/X11/xorg.conf.d/20-nvidia.conf
+
 fi
 
 # amd drivers
 read -p "Using AMD? [Y/n] " amd
-echo $amd
+# echo $amd
 
 if [[ $amd == "y" ]] || [[ $amd == "Y" ]] || [[ -z $amd ]]; then
   pacman -S mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
@@ -29,12 +37,16 @@ if [[ $amd == "y" ]] || [[ $amd == "Y" ]] || [[ -z $amd ]]; then
   echo 'Section "Device"
      Identifier "AMD"
      Driver "amdgpu"
+     Option "VariableRefresh" "true"
      Option "EnablePageFlip" "off"
      Option "TearFree" "false"
 EndSection
   ' > /etc/X11/xorg.conf.d/20-amdgpu.conf
 fi
 
+echo "Optimus"
+pacman -S optimus-manager bbswitch-dkms
+sudo systemctl enable optimus-manager.service
 
 username='desker'
 groupadd sudo;usermod -aG sudo $username
