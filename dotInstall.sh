@@ -134,7 +134,7 @@ setxkbmap -model abnt2 -layout br -variant abnt2 >/dev/null 2>&1
 
 getDate
 echo 'Some usefull stuff'
-$install libxcb xcb-util xcb-util-keysyms xcb-util-wm bc dhcp dhcpcd xdg-utils
+$install libxcb xcb-util xcb-util-keysyms xcb-util-wm bc xdg-utils
 $install gcc patch curl zlib readline libxml2 libxslt xdo xdotool gksu
 $install ca-certificates-utils ca-certificates curl grep libqalculate
 # https://zaiste.net/posts/shell-commands-rust/
@@ -146,6 +146,8 @@ $install gzip unzip unrar zip ntfs-3g debtap lm_sensors
 $install dosfstools libnotify exfat-utils openssh yay libgl
 $install lvm2 lxsession bind bind-tools rxvt-unicode
 $yay archlinux-tweak-tool-git
+
+printf '\nnoarp\n'
 
 getDate
 echo 'Kernel Modules'
@@ -382,7 +384,8 @@ $install openvpn tmux cheese speedtest-cli
 $install figlet gucharmap ventoy
 $install kcolorchooser morc_menu calcurse
 $install papirus-icon-theme pcmanfm lf ksshaskpass
-$install xtitle code kwalletmanager xautolock
+$install xtitle code xautolock
+# $install kwallet kwallet-pam kwalletmanager
 
 $yay code code-marketplace cheat-bin
 $yay cava sndio cli-visualizer i3lock-color
@@ -423,6 +426,7 @@ getDate
 echo 'Enabling network manager'
 systemctl enable --now NetworkManager
 #systemctl enable --now systemd-networkd
+$install dhcp dhcpcd dhclient
 systemctl enable --now dhcpcd
 
 getDate
