@@ -159,16 +159,11 @@ XF86MonBrightness{Down,Up}
 alt + {Left, Right}
     ~/.scripts/brightness.sh {-,+}
 
-# Media controls (works for system and mpd)
-# MPD
+# Media controls (toggle, stop, prev, next)
+alt + {minus, equal, comma, period}
+    ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
 XF86Audio{Play,Stop,Prev,Next}
     ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
-alt + {KP_Divide, KP_Multiply, comma, period}
-    ~/.scripts/mediaControl.sh {toggle, stop, prev, next}
-
-# Spotify
-#XF86Audio{Play,Stop,Next,Prev}
-#    playerctl {play-pause,stop;playerctl previous,next,previous}
 
 
 #########################################################################################

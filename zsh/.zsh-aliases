@@ -29,7 +29,7 @@ alias cat='bat'
 alias python='bpython'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
 #alias fzf="fzf --bind 'enter:execute(xdg-open {})'"
-alias fzf="fzf --height=60% --color=16 | xargs -I {} xdg-open '{}'"
+alias fzf="fzf -m --height=60% --color=16 | xargs -I {} xdg-open '{}'"
 #alias v='stty stop "" -ixoff; vim'
 alias v='nvim'
 alias c='clear'
@@ -96,7 +96,8 @@ alias keys="sh .scripts/showKeys.sh"
 #################################################################
 #alias install='sudo pacman -S'
 alias install='~/.scripts/install'
-alias search='~/.scripts/searchPacman'
+alias search='yay -Slq | \fzf -m --preview "yay -Si {1}" | xargs -r yay --noconfirm -S'
+# alias search='~/.scripts/searchPacman'
 alias packages='pacman -Q'
 alias lastpacman='\grep -E "upgraded|installed" /var/log/pacman.log'
 # only works on manjaro, for arch, use something like reflector-simple
