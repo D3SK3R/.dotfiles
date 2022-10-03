@@ -87,7 +87,8 @@ URxvt.depth:32
 *fg:     #ffffff
 
 ! Black
-*color0: #10141C
+! *color0: #10141C
+*color0: #090C12
 *color8: #0066ff
 ! red
 *color1: #1C64FF
@@ -122,9 +123,9 @@ URxvt.keysym.Control-Right:     \033[1;5C
 ! st -g 190x45
 
 !*.font: DejaVuSansMono NF:style:bold:pixelsize=12
-*font: Fira Code:style:medium:pixelsize=14 
+*font: Fira Code:style:medium:pixelsize=16 
 ! JoyPixels for colored emojis
-*fontalt0: JoyPixels:pixelsize=14
+*fontalt0: JoyPixels:pixelsize=16
 
 *background:    #090c12
 *alpha:         0.9
