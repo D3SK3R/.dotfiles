@@ -1,0 +1,6 @@
+[2022-10-03 17:44:05.006] [main] [info] update#setState idle
+[2022-10-03 17:44:05.950] [main] [info] Starting extension host with pid 82589 (fork() took 6 ms).
+[2022-10-03 17:44:35.008] [main] [info] update#setState checking for updates
+[2022-10-03 17:44:35.208] [main] [info] update#setState idle
+[2022-10-03 17:45:24.885] [main] [info] Waiting for extension host with pid 82589 to exit.
+[2022-10-03 17:45:24.891] [main] [info] Extension host with pid 82589 exited with code: 0, signal: null.
