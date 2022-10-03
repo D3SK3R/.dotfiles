@@ -1,4 +1,0 @@
-[2022-06-19 23:42:49.888] [renderer1] [critical] Extension 'GitHub.copilot CANNOT USE these API proposals 'inlineCompletionsNew, inlineCompletionsAdditions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-[2022-06-19 23:42:49.891] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-[2022-06-20 00:04:37.686] [renderer1] [error] [Extension Host] xrdb: No such file or directory
-xrdb: can't open file '/home/d3sk3r/.dotfiles/xresources/.Xresources'

@@ -1,0 +1,10 @@
+[2022-09-13 14:35:52.355] [sharedprocess] [info] Starting worker process with pid 90508 (type: fileWatcher, window: 1).
+[2022-09-13 14:36:37.636] [sharedprocess] [info] Getting Manifest... jackvandergriff.xresources-theme
+[2022-09-13 14:36:37.645] [sharedprocess] [info] Installing extension: jackvandergriff.xresources-theme
+[2022-09-13 14:36:40.008] [sharedprocess] [info] Downloaded extension: jackvandergriff.xresources-theme /home/desker/.config/Code/CachedExtensionVSIXs/jackvandergriff.xresources-theme-1.1.0
+[2022-09-13 14:36:40.469] [sharedprocess] [info] Extracted extension to /home/desker/.vscode/extensions/.2ef2477d-e231-4bbb-b8ee-d335c329aed6: jackvandergriff.xresources-theme
+[2022-09-13 14:36:40.474] [sharedprocess] [info] Renamed to /home/desker/.vscode/extensions/jackvandergriff.xresources-theme-1.1.0
+[2022-09-13 14:36:40.477] [sharedprocess] [info] Extracting completed. jackvandergriff.xresources-theme
+[2022-09-13 14:36:40.481] [sharedprocess] [info] Extension installed successfully: jackvandergriff.xresources-theme
+[2022-09-13 14:38:13.261] [sharedprocess] [info] Worker process with pid 90508 terminated normally (type: fileWatcher, window: 1).
+[2022-09-13 14:38:15.831] [sharedprocess] [info] Starting worker process with pid 93424 (type: fileWatcher, window: 1).
