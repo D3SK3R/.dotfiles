@@ -20,9 +20,12 @@ else
 	MatchDriver   "nvidia-drm"
 	Driver        "nvidia"
 	Option        "TripleBuffer" "on"
-EndSection
-' > /etc/X11/xorg.conf.d/20-nvidia.conf
+EndSection' > /etc/X11/xorg.conf.d/20-nvidia.conf
 
+  echo 'blacklist nouveau
+options nouveau modeset=0' > /etc/modprobe.d/modules.conf
+
+  echo 'options nvidia_drm modeset=1' > /etc/modprobe.d/zz-nvidia-modeset.conf
 fi
 
 # amd drivers
@@ -40,8 +43,11 @@ if [[ $amd == "y" ]] || [[ $amd == "Y" ]] || [[ -z $amd ]]; then
      Option "VariableRefresh" "true"
      Option "EnablePageFlip" "off"
      Option "TearFree" "false"
-EndSection
-  ' > /etc/X11/xorg.conf.d/20-amdgpu.conf
+EndSection' > /etc/X11/xorg.conf.d/20-amdgpu.conf
+
+  echo 'blacklist radeon
+options radeon si_support=0
+options radeon cik_support=0' > /etc/modprobe.d/radeon.conf
 fi
 
 echo "Optimus"
@@ -455,6 +461,10 @@ sed -i 's/#CheckSpace/CheckSpace/' /etc/pacman.conf
 getDate
 echo 'Editing journald.conf to limit its usage to 500mb'
 sed -i 's/#SystemMaxUse=/SystemMaxUse=500/' /etc/systemd/journald.conf
+
+echo 'blacklist snd_pcsp' > /etc/modprobe.d/snd_pcsp.conf
+echo 'blacklist pcspkr' > /etc/modprobe.d/nobeep.conf
+echo 'blacklist evbug' > /etc/modprobe.d/disable-evbug.conf
 
 getDate
 echo 'Updating'
