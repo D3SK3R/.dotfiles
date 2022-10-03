@@ -67,7 +67,8 @@ super + ctrl + c
     rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | clipster -c" -theme themes/style.rasi
 
 # Rofi
-super + d
+ctrl + space
+# super + d
     rofi -modi run,drun -show drun -theme themes/style.rasi
 
 # Use fudp to cut the internet

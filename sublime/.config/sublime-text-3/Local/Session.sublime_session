@@ -6,11 +6,11 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1664467135,
+	"next_update_check": 1664899135,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1052.0,
+		"new_window_height": 726.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/where.txt",
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt"
 			],
 			"find":
 			{
@@ -459,7 +459,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 667.0
 	},
 	"windows":
 	[
@@ -533,10 +533,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/where.txt",
+					"file": "/home/desker/MEGA/metamaskPhrase.txt",
 					"settings":
 					{
-						"buffer_size": 22,
+						"buffer_size": 73,
 						"line_ending": "Unix"
 					}
 				}
@@ -678,6 +678,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/where.txt",
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
@@ -804,8 +805,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/Where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt"
 			],
 			"find":
 			{
@@ -868,12 +868,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/where.txt",
+							"file": "/home/desker/MEGA/metamaskPhrase.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 22,
+								"buffer_size": 73,
 								"regions":
 								{
 								},
@@ -939,7 +939,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1366,28,3286,1080,3286,1080,2",
+			"position": "0,0,0,0,0,687,186,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{

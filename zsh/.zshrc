@@ -510,3 +510,4 @@ fi
 #clear
 unsetopt PROMPT_SP
 
+export PATH=$PATH:/home/desker/.spicetify
