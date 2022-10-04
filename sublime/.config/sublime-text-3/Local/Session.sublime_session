@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 726.0,
+		"new_window_height": 513.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/wifi",
 				"/home/desker/where.txt",
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where"
 			],
 			"find":
 			{
@@ -459,7 +459,7 @@
 			{
 			}
 		},
-		"new_window_width": 667.0
+		"new_window_width": 466.0
 	},
 	"windows":
 	[
@@ -537,6 +537,14 @@
 					"settings":
 					{
 						"buffer_size": 73,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
+					"settings":
+					{
+						"buffer_size": 83,
 						"line_ending": "Unix"
 					}
 				}
@@ -678,6 +686,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/wifi",
 				"/home/desker/where.txt",
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
@@ -804,8 +813,7 @@
 				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/GTK_themes/gtk-3.0/where.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where"
 			],
 			"find":
 			{
@@ -869,11 +877,40 @@
 						{
 							"buffer": 0,
 							"file": "/home/desker/MEGA/metamaskPhrase.txt",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 73,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 83,
 								"regions":
 								{
 								},
@@ -939,7 +976,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,687,186,1354,912,3286,1080,0",
+			"position": "0,0,0,0,0,1374,555,1840,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{

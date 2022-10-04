@@ -106,6 +106,8 @@ light -I &
 
 ~/.scripts/cpuBoost &
 
+prime-offload &
+
 eww -c ~/.config/eww/fool_moon/menu/ daemon & 
 eww -c ~/.config/eww/fool_moon/meters/ daemon &
 

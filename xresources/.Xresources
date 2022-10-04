@@ -54,7 +54,7 @@ URxvt.transparent:false
 URxvt.shading:30
 URxvt.saveLines: 5000
 ! *.geometry:190x45
-*.geometry:150x35
+*.geometry:140x40
 
 URxvt.internalBorder:  6
 URxvt.externalBorder:  4

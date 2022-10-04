@@ -157,7 +157,9 @@ printf '\nnoarp\n'
 
 getDate
 echo 'Kernel Modules'
-$install virtualbox-host-dkms r8168-dkms
+$install virtualbox-host-dkms
+# install r8168-dkms only if needed
+#$install r8168-dkms
 # Virtual Cam
 echo 'Virtual Cam'
 $install v4l2loopback-dkms
