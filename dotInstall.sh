@@ -160,6 +160,8 @@ echo 'Kernel Modules'
 $install virtualbox-host-dkms
 # install r8168-dkms only if needed
 #$install r8168-dkms
+pacman -R ipw2100-fw ipw2200-fw
+
 # Virtual Cam
 echo 'Virtual Cam'
 $install v4l2loopback-dkms
