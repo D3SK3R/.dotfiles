@@ -13,8 +13,8 @@ Xft.lcdfilter:lcdfilter
 *.underlineURLs:true
 ! URxvt*.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold, xft:DejaVuSansMono NF:pixelsize=14:style=bold
 ! URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold
-URxvt*.font: xft:Fira Code:pixelsize=14:style=medium, xft:DejaVuSansMono NF:pixelsize=14
-URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=14:style=bold
+URxvt*.font: xft:Fira Code:pixelsize=16:style=medium, xft:DejaVuSansMono NF:pixelsize=16
+URxvt*bold.font: xft:DejaVuSansMono NF:pixelsize=16:style=bold
 *letterSpace: -1
 *lineSpace: -1
 
