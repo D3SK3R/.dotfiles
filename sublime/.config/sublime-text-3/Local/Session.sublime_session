@@ -6,12 +6,12 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1664899135,
+	"next_update_check": 1666222686,
 	"settings":
 	{
 		"new_window_full_screen": false,
 		"new_window_height": 513.0,
-		"new_window_maximized": false,
+		"new_window_maximized": true,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -347,7 +347,7 @@
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -401,7 +401,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -419,7 +419,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -459,7 +459,7 @@
 			{
 			}
 		},
-		"new_window_width": 466.0
+		"new_window_width": 523.0
 	},
 	"windows":
 	[
@@ -545,6 +545,14 @@
 					"settings":
 					{
 						"buffer_size": 83,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/changes",
+					"settings":
+					{
+						"buffer_size": 142,
 						"line_ending": "Unix"
 					}
 				}
@@ -817,7 +825,7 @@
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -899,18 +907,47 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
 							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 83,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/changes",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 142,
 								"regions":
 								{
 								},
@@ -938,7 +975,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -976,11 +1013,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1374,555,1840,1068,3286,1080,3",
+			"position": "0,1,0,0,0,0,0,523,513,3286,1848,0",
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
