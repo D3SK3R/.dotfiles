@@ -10,7 +10,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 513.0,
+		"new_window_height": 0.0,
 		"new_window_maximized": true,
 		"new_window_settings":
 		{
@@ -216,6 +216,13 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/metamaskPhrase.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
+				"/home/desker/changes",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
 				"/home/desker/where.txt",
 				"/home/desker/models.txt",
@@ -228,7 +235,6 @@
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/todo",
 				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
@@ -337,17 +343,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
-				"/home/d3sk3r/dir.txt",
-				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -361,6 +361,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"chrome",
 					"#",
 					"market",
 					"242932",
@@ -401,7 +402,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -419,7 +420,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -459,7 +460,7 @@
 			{
 			}
 		},
-		"new_window_width": 523.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -532,30 +533,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/metamaskPhrase.txt",
-					"settings":
-					{
-						"buffer_size": 73,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-					"settings":
-					{
-						"buffer_size": 83,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/changes",
-					"settings":
-					{
-						"buffer_size": 142,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -694,6 +671,13 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/metamaskPhrase.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
+				"/home/desker/changes",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
 				"/home/desker/where.txt",
 				"/home/desker/models.txt",
@@ -706,7 +690,6 @@
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/todo",
 				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
@@ -815,17 +798,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note",
-				"/home/d3sk3r/.cache/kioexec/krun/491747_0/0-promptSymbols.txt",
-				"/home/d3sk3r/dir.txt",
-				"/home/d3sk3r/.fonts/FiraCode Nerd-Fonts/Bold/complete/Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/2_Fonts/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/Cursors/where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -839,6 +816,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"chrome",
 					"#",
 					"market",
 					"242932",
@@ -882,100 +860,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/metamaskPhrase.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 73,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 83,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/changes",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 142,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -1013,11 +903,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,523,513,3286,1848,0",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,3",
 			"project": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
