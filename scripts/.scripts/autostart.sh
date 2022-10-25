@@ -38,7 +38,7 @@ $HOME/.scripts/keyboardSet &
 
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
-sleep 3 && polybar-msg hook mute 1 &
+sleep 5 && polybar-msg hook mute 1 &
 
 #######################
 ###    programs     ###
@@ -80,7 +80,8 @@ sleep 3 && spotify & killall mpd &
 
 nitrogen --restore &
 
-picom -b --experimental-backend &
+# picom -b --experimental-backend &
+picom &
 
 sleep 3 && flashfocus &
 
