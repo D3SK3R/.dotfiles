@@ -149,7 +149,6 @@ alias msf='sudo msfconsole'
 alias kickthemoff='sudo python MEGA/D3SK3R/D3SK3R/pentest/kickthemout/kickthemout.py'
 # Shorten URL using the following services: bit.ly, j.mp, t.cn, is.gd, v.gd, tiny.cc.
 alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
-alias ciphey='sudo docker run -it --rm remnux/ciphey'
 
 #################################################################
 # WEB/IP related
