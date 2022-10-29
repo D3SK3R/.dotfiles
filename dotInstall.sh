@@ -9,6 +9,9 @@ echo 'sorting mirrors'
 pacman -S reflector
 reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 
+# basic packages
+pacman -S base base-devel linux-firmware
+
 if pacman -Q | grep "nvidia" >/dev/null; then
     echo "Nvidia Drivers installed, proceeding with the script"
 else
@@ -68,7 +71,7 @@ install='pacman --noconfirm --needed -S'
 yay="sudo -u $USER yay --noconfirm --sudoloop --needed -S"
 
 echo "installing yay"
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+pacman -S --needed git && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 getDate(){
     date=$(date +'%A, %B %d, %H:%M:%S')
