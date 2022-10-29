@@ -23,11 +23,11 @@ case $class in
             echo "rectangle=722x477+1974+62"
         fi
         if [ "$title" = "floating_terminal2" ]; then
-            echo "state=fullscreen"
+            echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
-            # echo "rectangle=1356x732+3+28"
-            # echo "rectangle=1346x717+1653+199"
+            #echo "rectangle=1356x732+3+28"
+            echo "rectangle=1346x717+1653+199"
             # echo "center=on"
         fi
         if [ "$title" = "ncmpcpp" ]; then

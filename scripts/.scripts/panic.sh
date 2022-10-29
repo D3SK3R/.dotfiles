@@ -21,15 +21,20 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # Get the workspaces i'm in, write it to the file and
     # sees if theres another monitor, if so, move it to another workspace
     # and writes to the file
-    if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
-        ws1=$(bspc query -m eDP-1 -T | jq | grep "focusedDesktopId" | \
+    
+    monitor1=$(xrandr | \grep -w connected | awk 'FNR==1 {print $1}')
+    monitor2=$(xrandr | \grep -w connected | awk 'FNR==2 {print $1}')
+
+    # if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
+    if [[ "$(xrandr | grep -ow "connected" | wc -l)" -gt 1 ]]; then
+        ws1=$(bspc query -m $monitor1 -T | jq | grep "focusedDesktopId" | \
             awk -F " " '{print $NF}' | cut -d',' -f1)
-        ws2=$(bspc query -m HDMI-1-0 -T | gron | grep "focusedDesktopId" | \
+        ws2=$(bspc query -m $monitor2 -T | gron | grep "focusedDesktopId" | \
             awk -F " " '{print $NF}' | cut -d';' -f1)
         bspc desktop -f 4
         bspc desktop -f 9
     else
-        ws1=$(bspc query -m eDP-1 -T | jq | grep "focusedDesktopId" | \
+        ws1=$(bspc query -m $monitor1 -T | jq | grep "focusedDesktopId" | \
         awk -F " " '{print $NF}' | cut -d',' -f1)
         bspc desktop -f 9
     fi

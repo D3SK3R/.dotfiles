@@ -2,8 +2,11 @@
 
 # script to show/hide polybar
 
-wid=$(xdotool search --name "polybar-main_eDP1" | head -n1)
-wid2=$(xdotool search --name "polybar-main2_DP1" | head -n1)
+monitor1=$(xrandr | \grep -w connected | awk 'FNR==1 {print $1}')
+monitor2=$(xrandr | \grep -w connected | awk 'FNR==2 {print $1}')
+
+wid=$(xdotool search --name "polybar-main_$monitor1" | head -n1)
+wid2=$(xdotool search --name "polybar-main2_$monitor2" | head -n1)
 state=$(xwininfo -id $wid | grep "Map State:")
 
 if [[ $state == *IsViewable ]]; then
