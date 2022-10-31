@@ -1,11 +1,11 @@
-QT5 and QT6:
+#QT5 and QT6:
 sudo cp -r .dotfiles/qt5ct/.config/qt5ct /root/.config/
 sudo cp -r .dotfiles/qt6ct/.config/qt6ct /root/.config/
 
-Kvantum
+#Kvantum
 sudo cp -r .dotfiles/kvantum/.config/Kvantum /root/.config/
 
-themes and icons:
+#themes and icons:
 sudo cp -r .dotfiles/themes/.themes/ /root/
 sudo cp -r .dotfiles/themes/.icons/ /root/
 
