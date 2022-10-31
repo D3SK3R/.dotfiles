@@ -10,12 +10,19 @@ right=
 ;left=
 ;right=" "
 
-[module/space]
+[module/spc]
 type = custom/text
 content = " "
 content-font = 4
-content-background = ${colors.transparent}
-content-foreground = ${colors.transparent}
+content-background = ${colors.bg}
+content-foreground = ${colors.bg}
+
+[module/spcalt]
+type = custom/text
+content = " "
+content-font = 4
+content-background = ${colors.fg}
+content-foreground = ${colors.fg}
 
 [module/sepR1]
 type = custom/text
@@ -42,7 +49,14 @@ content-foreground = ${colors.fg}
 type = custom/text
 content = ${glyph.fright}
 content-font = 4
-content-background = ${colors.transparent}
+content-background = ${colors.bg}
+content-foreground = ${colors.fg}
+
+[module/sepR5]
+type = custom/text
+content = ${glyph.fright}
+content-font = 4
+content-background = ${colors.fg}
 content-foreground = ${colors.bg}
 
 [module/sepL1]
@@ -70,8 +84,8 @@ content-foreground = ${colors.fg}
 type = custom/text
 content = ${glyph.fleft}
 content-font = 4
-content-background = ${colors.transparent}
-content-foreground = ${colors.bg}
+content-background = ${colors.bg}
+content-foreground = ${colors.fg}
 
 [module/mid]
 type = custom/text
@@ -203,15 +217,15 @@ label-monitor-foreground       = ${colors.fg}
 label-monitor-padding          = 1
 
 label-focused               = 
-label-focused-background    = ${colors.bg}
+label-focused-background    = ${colors.fg}
 ;label-focused-foreground    = #77B9C4
-label-focused-foreground    = ${colors.fg}
+label-focused-foreground    = ${colors.bg}
 label-focused-padding       = 1
 
-;label-occupied               = 
+;label-occupied              = 
 label-occupied               = 
-label-occupied-background     = ${colors.bg}
-label-occupied-foreground    = ${colors.fg}
+label-occupied-background    = ${colors.fg}
+label-occupied-foreground    = ${colors.bg}
 label-occupied-padding       = 1
 
 ; leave this blank so that the bar will only show desktops occupied by something
@@ -401,7 +415,7 @@ icon-single = 🔂
 #https://github.com/Jvanrhijn/polybar-spotify
 type = custom/script
 interval = 1
-#format-prefix = " "
+format-prefix = " "
 format = "<label>"
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
 # icons for play/pause  ',' / ',' / ','
@@ -416,7 +430,7 @@ format-foreground = ${colors.fg}
 type = internal/cpu
 interval = 1
 #  / 
-label = " %percentage%% "
+label = " %percentage%%  "
 label-foreground = ${colors.fg}
 label-background = ${colors.bg}
 #label-underline = ${colors.fg}
@@ -455,8 +469,8 @@ type = custom/script
 interval = 2
 #label = " "
 exec = ~/.config/polybar/scripts/cputemp.sh
-label-foreground = ${colors.fg}
-label-background = ${colors.bg}
+label-foreground = ${colors.bg}
+label-background = ${colors.fg}
 
 [module/ram]
 type = custom/script
@@ -466,7 +480,7 @@ exec = ~/.config/polybar/scripts/ram.sh
 #click-right = exec urxvt -e htop
 
 format-prefix = " "
-format-suffix = " "
+format-suffix = "  "
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 #format-underline = ${colors.fg}
@@ -474,15 +488,15 @@ format-background = ${colors.bg}
 [module/pavolume]
 type = custom/script
 tail = true
-label = "%output% "
+label = "%output%  "
 exec = ~/.config/polybar/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 #scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 #scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
 
-format-foreground = ${colors.fg}
-format-background = ${colors.bg}
+format-foreground = ${colors.bg}
+format-background = ${colors.fg}
 #format-underline = ${colors.fg}
 
 [module/battery]
@@ -505,13 +519,13 @@ format-full-foreground                  = ${colors.fg}
 full-at                                 = 99
 
 ;label-charging                          = 
-label-charging                          = "%percentage%%"
+label-charging                          = "%percentage%% "
 format-charging-padding                 = 1
 
-label-discharging                       = "%percentage%%"
+label-discharging                       = "%percentage%% "
 format-discharging-padding              = 1
 
-label-full                        		= " %percentage%%"
+label-full                        		= " %percentage%% "
 format-full-padding                     = 1
 
 poll-interval                           = 10
@@ -651,8 +665,8 @@ type = custom/ipc
 hook-0 = ~/.config/polybar/scripts/mute.sh
 #click-left = ~/.scripts/mute-toggle.sh
 #format-prefix = 
-format-foreground = ${colors.fg}
-format-background = ${colors.bg}
+format-foreground = ${colors.bg}
+format-background = ${colors.fg}
 #format-underline = ${colors.fg}
 initial = 1
 
@@ -692,9 +706,10 @@ label = " %output% "
 
 [module/menu]
 type = custom/text
-content = " " 
-content-background =         ${colors.bg}
-content-foreground =         ${colors.fg}
+#  
+content = " " 
+content-background =         ${colors.fg}
+content-foreground =         ${colors.bg}
 click-left = exec sh ~/.config/eww/fool_moon/bar/scripts/widgets toggle-sys
 
 [module/time]
@@ -703,8 +718,8 @@ exec = date +%H:%M
 ;interval = 1
 format = <label>
 label = " %output%"
-format-background =         ${colors.bg}
-format-foreground =         ${colors.fg}
+format-background =         ${colors.fg}
+format-foreground =         ${colors.bg}
 click-left = exec sh ~/.config/eww/fool_moon/bar/scripts/widgets toggle-time
 
 [module/updates]

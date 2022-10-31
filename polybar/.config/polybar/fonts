@@ -5,7 +5,7 @@ font-0 = "DejaVu Sans:antialias=true:pixelsize=9;2"
 font-1 = "DejaVu Sans:antialias=true:pixelsize=9;2"
 ; one Iosoveka is for some icons and the other is for the separators
 font-2 = "Iosevka Nerd Font:antialias=true:pixelsize=15;3"
-font-3 = "Iosevka Nerd Font:antialias=true:pixelsize=19;4"
+font-3 = "Iosevka Nerd Font:antialias=true:pixelsize=20;5"
 font-4 = "Material Icons:size=15:antialias=true;14;4"
 ;font-separator = "Fantasque Sans Mono:pixelsize=10;5"
  

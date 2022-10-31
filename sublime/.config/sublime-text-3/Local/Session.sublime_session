@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1666222686,
+	"next_update_check": 1667292558,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
@@ -245,7 +247,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
 				"/home/desker/.config/Kvantum/kvantum.kvconfig",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/tabela-escrita.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where"
 			],
 			"find":
 			{
@@ -671,6 +671,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
@@ -700,7 +702,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/changeTerminaldolphin.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/dolphin/CommandToPreviews.txt",
 				"/home/desker/.config/Kvantum/kvantum.kvconfig",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/tabela-escrita.txt",
@@ -797,8 +798,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/qtNct/note"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where"
 			],
 			"find":
 			{
