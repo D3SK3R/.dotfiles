@@ -316,6 +316,6 @@ alias asciiboobs2='clear; echo "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠛⠋
 ⠛⠳⠄⢠⣿⠇⠄⣷⡑⢶⣶⢿⣿⣿⣿⣽⣿⣿⣿⣶⣶⡐⣶⣿⠿⠛⣩⡄⠄⢸" | lolcat' 
 
 alias sudoku='sku'
-
 alias maps='telnet mapscii.me'
+alias unfreeze='killall pactl'
 
