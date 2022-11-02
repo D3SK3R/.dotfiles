@@ -63,7 +63,7 @@ URxvt.externalBorder:  4
 
 !! special
 *foreground:   #ffffff
-URxvt*background:   [100]#090C12
+URxvt*background:   [90]#090C12
 
 !URxvt.borderColor: #00ccff
 !URxvt.borderless:true
