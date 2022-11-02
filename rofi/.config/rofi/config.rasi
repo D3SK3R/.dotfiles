@@ -25,4 +25,4 @@ configuration {
 	display-combi: " ";
 }
 
-@theme "themes/style"
+@theme "rofi.rasi"
