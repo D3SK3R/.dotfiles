@@ -130,7 +130,7 @@ URxvt.keysym.Control-Right:     \033[1;5C
 *background:    #090c12
 *alpha:         0.9
 
-*borderpx:      4
+*borderpx:      8
 
 ! Xterm
 XTerm*renderFont: true
