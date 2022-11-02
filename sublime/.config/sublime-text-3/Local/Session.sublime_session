@@ -216,6 +216,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/gitdots/README.md",
+				"/home/desker/todo",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
 				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
@@ -238,7 +241,6 @@
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
-				"/home/desker/todo",
 				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
@@ -341,9 +343,7 @@
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt"
 			],
 			"find":
 			{
@@ -533,22 +533,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/gitdots/README.md",
-					"settings":
-					{
-						"buffer_size": 988,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/todo",
-					"settings":
-					{
-						"buffer_size": 2270,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -687,6 +671,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/gitdots/README.md",
+				"/home/desker/todo",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
 				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
@@ -709,7 +696,6 @@
 				"/home/desker/picom/clone.txt",
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
-				"/home/desker/todo",
 				"/home/desker/site.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
@@ -812,9 +798,7 @@
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt"
 			],
 			"find":
 			{
@@ -876,67 +860,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/gitdots/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 988,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/todo",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2270,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
