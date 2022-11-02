@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme"
 			],
 			"find":
 			{
@@ -671,6 +671,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
@@ -797,8 +798,7 @@
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
 				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme"
 			],
 			"find":
 			{
@@ -903,7 +903,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,2",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,3",
 			"project": "",
 			"replace":
 			{
