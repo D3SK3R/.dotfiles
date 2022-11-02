@@ -1,0 +1,12 @@
+* {
+  font:                        "Fira Code 12";
+  background:                  #090C12;
+  background-alt:              #000000;
+  foreground:                  #C9D1D9;
+  selected:                    #7fadff;
+  active:                      #9878FF;
+  urgent:                      #F47067;
+  accent:                      #00ccff; 
+
+  background-img:              url("~/.config/rofi/city.jpg", width);
+}

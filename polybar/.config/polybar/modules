@@ -418,7 +418,7 @@ interval = 1
 format-prefix = " "
 format = "<label>"
 #exec = python ~/.config/polybar/scripts/spotify_status.py -p 'Playing: ,Paused: ' -f ' {play_pause} {artist} - {song}' -t 55
-# icons for play/pause  ',' / ',' / ','
+# icons for play/pause  ',' / ',' / ','
 exec = python ~/.config/polybar/scripts/spotify_status.py -p ',' -f '{play_pause} {artist} - {song}' -t 50
 click-left = playerctl play-pause
 click-right = playerctl previous && playerctl stop

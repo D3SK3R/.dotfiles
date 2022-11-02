@@ -1,0 +1,4 @@
+#!/bin/sh
+
+fd . ~ | rofi -threads 0 -dmenu -i -theme fzf/rofi.rasi -p "locate:" | xargs -I {} xdg-open "{}"
+

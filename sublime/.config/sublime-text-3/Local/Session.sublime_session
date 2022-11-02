@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1667292558,
+	"next_update_check": 1667448070,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/metamaskPhrase.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt"
 			],
 			"find":
 			{
@@ -545,7 +545,7 @@
 					"file": "/home/desker/todo",
 					"settings":
 					{
-						"buffer_size": 2055,
+						"buffer_size": 2270,
 						"line_ending": "Unix"
 					}
 				}
@@ -687,6 +687,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/metamaskPhrase.txt",
@@ -813,8 +814,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/Installzsh_shell.txt"
 			],
 			"find":
 			{
@@ -912,7 +912,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2055,
+								"buffer_size": 2270,
 								"regions":
 								{
 								},
@@ -980,7 +980,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,0",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,3",
 			"project": "",
 			"replace":
 			{

@@ -53,7 +53,7 @@ super + F1
 
 # Rofi power options
 super + 0
-    ~/.scripts/rofi_power.sh
+    ~/.config/rofi/powermenu/powermenu
 
 # Clipboard manager
 super + c
@@ -64,12 +64,12 @@ super + c
 # https://github.com/svenstaro/rofi-calc
 # Rofi-calc
 super + ctrl + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | clipster -c" -theme themes/style.rasi
+  ~/.config/rofi/calc/calc
 
 # Rofi
 ctrl + space
 # super + d
-    rofi -modi run,drun -show drun -theme themes/style.rasi
+    ~/.config/rofi/launcher/launcher
 
 # Use fudp to cut the internet
 super + e
@@ -106,7 +106,7 @@ super + {_, shift +} m
 
 # Rofi notify center and toggle notifications show
 super + {_,shift + } n
-    {~/.scripts/rofi-notifcenter.sh, dunstctl set-paused toggle}
+    {~/.config/rofi/notificationcenter/notificationcenter, dunstctl set-paused toggle}
 
 # Open clipboard URL with mpv, shift to automatically open clipboard URLS and ctrl to close all mpv windows
 super + {_,shift,ctrl + } o
@@ -126,11 +126,11 @@ super + {_, shift} + s
 
 # Rofi NetworkManager
 super + w
-    ~/.scripts/networkmanager_rofi.sh rofi -dmenu
+    ~/.config/rofi/networkmanager/networkmanager rofi -dmenu -theme networkmanager/rofi.rasi
 
 # Rofi fuzzy finder and xkill
 super + {_, ctrl} + x
-    {~/.scripts/rofi-fuzzy.sh, xkill}
+    {~/.config/rofi/fzf/fzf, xkill}
 
 # Categorized menu
 super + z
