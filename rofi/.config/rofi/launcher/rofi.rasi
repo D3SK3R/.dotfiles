@@ -2,7 +2,7 @@
 /*****----- Configuration -----*****/
 /*---------------------------------------------------------------------------*/
 configuration {
-	modi:                       "drun,calc,run,window";
+	modi:                       "drun,calc,window,run";
     show-icons:                 true;
     display-drun:               " ";
     display-run:                " ";
