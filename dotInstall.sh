@@ -160,7 +160,7 @@ printf '\nnoarp\n'
 
 getDate
 echo 'Kernel Modules'
-$install virtualbox-host-dkms
+$install virtualbox virtualbox-host-dkms virtualbox-guest-iso
 # install r8168-dkms only if needed
 #$install r8168-dkms
 pacman -R ipw2100-fw ipw2200-fw
