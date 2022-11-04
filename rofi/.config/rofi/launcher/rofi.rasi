@@ -4,6 +4,7 @@
 configuration {
 	modi:                       "drun,calc,window,run";
     show-icons:                 true;
+    icon-theme:						      "Papirus-Dark";
     display-drun:               " ";
     display-run:                " ";
     display-combi:              " ";
