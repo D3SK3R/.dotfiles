@@ -1,8 +1,8 @@
 local M = {}
 
 M.ui = {
-   -- theme = "ayu-dark",
-   theme = "catppuccin",
+   theme = "ayu-dark",
+   -- theme = "catppuccin",
    theme_toggle = {"ayu-dark", "catppuccin"},
    transparency = true,
 }
