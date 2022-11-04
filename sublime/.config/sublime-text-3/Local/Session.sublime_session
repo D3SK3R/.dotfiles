@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1667448070,
+	"next_update_check": 1667689172,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -540,6 +540,14 @@
 						"buffer_size": 354,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+					"settings":
+					{
+						"buffer_size": 182,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -871,11 +879,40 @@
 						{
 							"buffer": 0,
 							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 354,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 182,
 								"regions":
 								{
 								},
@@ -941,7 +978,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,0",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,3",
 			"project": "",
 			"replace":
 			{
