@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1667689172,
+	"next_update_check": 1667856262,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
@@ -227,7 +229,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/exec.txt",
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
-				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme"
+				"/home/d3sk3r/MEGA/investment/fundos"
 			],
 			"find":
 			{
@@ -533,22 +533,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-					"settings":
-					{
-						"buffer_size": 354,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-					"settings":
-					{
-						"buffer_size": 182,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -687,6 +671,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
@@ -698,7 +684,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
@@ -813,8 +798,7 @@
 				"/home/d3sk3r/MEGA/exec.txt",
 				"/home/d3sk3r/MEGA/voice.txt",
 				"/home/d3sk3r/MEGA/todo.txt",
-				"/home/d3sk3r/MEGA/investment/fundos",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/usr-share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme"
+				"/home/d3sk3r/MEGA/investment/fundos"
 			],
 			"find":
 			{
@@ -876,65 +860,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 354,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 182,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -978,7 +903,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,3",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,0",
 			"project": "",
 			"replace":
 			{
