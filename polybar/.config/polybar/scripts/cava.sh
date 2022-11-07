@@ -39,5 +39,8 @@ cava -p $config_file &
 
 # reading data from fifo
 while read -r cmd; do
-    echo $cmd | sed $dict
+  if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 1 ]]; then
+    ps aux | grep "[c]ava -p" | head -1 | xargs kill
+  fi
+  echo $cmd | sed $dict
 done < $pipe
