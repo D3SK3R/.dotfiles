@@ -41,5 +41,5 @@ elif [[ $mute = 'yes' ]]; then
     dunstify -i $iconOn -t 1000 'Mic unmuted' -r 2
 fi
 
-polybar-msg hook mute 1
+polybar-msg action "#mute.hook.0" >/dev/null
 

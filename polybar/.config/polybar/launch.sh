@@ -29,7 +29,7 @@ else
 fi
 
 # fixing top padding BSPWM
-sleep 0.5 && bspc config top_padding 22 &
+sleep 0.6 && bspc config top_padding 22 &
 
 # hooks for scripts:
 sleep 0.4 && polybar-msg action "#mute.hook.0" >/dev/null &

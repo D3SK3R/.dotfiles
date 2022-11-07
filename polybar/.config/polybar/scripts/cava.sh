@@ -39,8 +39,12 @@ cava -p $config_file &
 
 # reading data from fifo
 while read -r cmd; do
+  # 2 if statements to prevent cava process from freezing the OS
   if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 1 ]]; then
     ps aux | grep "[c]ava -p" | head -1 | xargs kill
+  fi
+  if [[ "$(ps aux | grep "[c]ava.sh" | awk '{print $2}' | wc -l)" -gt 2]]; then
+    ps aux | grep "[c]ava.sh" | awk '{print $2}' | xargs kill
   fi
   echo $cmd | sed $dict
 done < $pipe
