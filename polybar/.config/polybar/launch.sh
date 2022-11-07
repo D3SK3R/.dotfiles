@@ -28,6 +28,9 @@ else
     polybar --reload main -c ~/.config/polybar/config.ini &
 fi
 
+sleep 0.4 && polybar-msg action "#mute.hook.0" >/dev/null &
+sleep 0.4 && polybar-msg action "#target.hook.0" >/dev/null &
+
 #count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
 #desktop=$(echo $DESKTOP_SESSION)
 #case $desktop in

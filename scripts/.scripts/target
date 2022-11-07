@@ -18,4 +18,5 @@ target(){
     export IP=$1
     echo $1 > $file
   fi
+  polybar-msg action "#target.hook.0" >/dev/null
 }

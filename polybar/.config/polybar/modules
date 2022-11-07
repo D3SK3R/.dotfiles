@@ -668,7 +668,7 @@ hook-0 = ~/.config/polybar/scripts/mute.sh
 format-foreground = ${colors.bg}
 format-background = ${colors.fg}
 #format-underline = ${colors.fg}
-initial = 1
+#initial = 1
 
 [module/popup-calendar-clock]
 type = custom/script
@@ -740,4 +740,11 @@ format = <label>
 format-background = ${colors.bg}
 label = "  %output%"
 
+[module/target]
+type = custom/ipc
+hook-0 = ~/.config/polybar/scripts/target.sh
+#hook-0 = cat /tmp/targetip
+format-foreground = ${colors.bg}
+format-background = ${colors.fg}
+initial = 1
 
