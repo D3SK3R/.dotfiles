@@ -34,6 +34,8 @@ data_format = ascii
 ascii_max_range = 7
 " > $config_file
 
+# close all cava stances running from this script
+ps aux | grep "[c]ava -p" | xargs kill >/dev/null
 # run cava in the background
 cava -p $config_file &
 
@@ -43,7 +45,7 @@ while read -r cmd; do
   if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 1 ]]; then
     ps aux | grep "[c]ava -p" | head -1 | xargs kill
   fi
-  if [[ "$(ps aux | grep "[c]ava.sh" | awk '{print $2}' | wc -l)" -gt 2 ]]; then
+  if [[ "$(ps aux | grep "[c]ava.sh" | awk '{print $2}' | wc -l)" -gt 3 ]]; then
     ps aux | grep "[c]ava.sh" | awk '{print $2}' | xargs kill
   fi
   echo $cmd | sed $dict
