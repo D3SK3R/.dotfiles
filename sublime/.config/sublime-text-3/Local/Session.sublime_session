@@ -6,7 +6,7 @@
 	"last_version": 4126,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1667856262,
+	"next_update_check": 1667942662,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -216,6 +216,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
@@ -342,8 +343,7 @@
 				"/home/d3sk3r/MEGA/exames.txt",
 				"/home/d3sk3r/MEGA/exec.txt",
 				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/todo.txt",
-				"/home/d3sk3r/MEGA/investment/fundos"
+				"/home/d3sk3r/MEGA/todo.txt"
 			],
 			"find":
 			{
@@ -671,6 +671,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
@@ -797,8 +798,7 @@
 				"/home/d3sk3r/MEGA/exames.txt",
 				"/home/d3sk3r/MEGA/exec.txt",
 				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/todo.txt",
-				"/home/d3sk3r/MEGA/investment/fundos"
+				"/home/d3sk3r/MEGA/todo.txt"
 			],
 			"find":
 			{
@@ -903,7 +903,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,0",
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080,2",
 			"project": "",
 			"replace":
 			{

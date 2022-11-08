@@ -43,7 +43,7 @@ while read -r cmd; do
   if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 1 ]]; then
     ps aux | grep "[c]ava -p" | head -1 | xargs kill
   fi
-  if [[ "$(ps aux | grep "[c]ava.sh" | awk '{print $2}' | wc -l)" -gt 2]]; then
+  if [[ "$(ps aux | grep "[c]ava.sh" | awk '{print $2}' | wc -l)" -gt 2 ]]; then
     ps aux | grep "[c]ava.sh" | awk '{print $2}' | xargs kill
   fi
   echo $cmd | sed $dict
