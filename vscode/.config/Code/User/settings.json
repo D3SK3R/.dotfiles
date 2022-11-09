@@ -5,5 +5,6 @@
     "editor.wordWrap": "on",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.untitled.hint": "hidden"
 }
