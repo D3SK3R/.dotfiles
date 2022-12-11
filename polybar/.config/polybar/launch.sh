@@ -32,7 +32,7 @@ fi
 sleep 0.6 && bspc config top_padding 22 &
 
 # hooks for scripts:
-sleep 3 && polybar-msg action "#mute.hook.0" >/dev/null &&
+sleep 3 && polybar-msg action "#mute.hook.0" >/dev/null &
 sleep 1 && polybar-msg action "#target.hook.0" >/dev/null &&
 
 #count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
