@@ -392,7 +392,7 @@ $install dolphin kio-extras ffmpegthumbs
 $install dolphin-plugins rootactions-servicemenu
 $install flameshot jq gron udiskie ark
 $install espeak netcat whois youtube-dl
-$install trash-cli winetricks xcursor-breeze
+$install winetricks xcursor-breeze
 $install openvpn tmux cheese speedtest-cli
 $install figlet gucharmap ventoy
 $install kcolorchooser morc_menu calcurse
@@ -405,13 +405,25 @@ $yay cava sndio cli-visualizer i3lock-color
 $yay betterlockscreen dolphin-megasync-bin
 $yay gotop-bin neofetch-git pipes.sh
 $yay notifyconf notify-osd-customizable
-$yay rmtrash scrcpy quickserve
+$yay scrcpy quickserve
 $yay python3-threaded_servers ranger-git
 $yay menu-calc-git cheat-git espanso-git
 $yay spotify spotifywm-git spicetify-cli themix-full-git
 $yay kcalc rofimoji
 $yay hideit.sh-git rofi-calc
 $yay handlr-bin
+
+get-date
+# trash-cli
+echo 'installing trash cli'
+$install trash-cli
+pip install 'trash-cli[completion]'
+cmds=(trash-empty trash-list trash-restore trash-put trash)
+for cmd in $cmds; do
+  $cmd --print-completion bash | sudo tee /usr/share/bash-completion/completions/$cmd
+  $cmd --print-completion zsh | sudo tee /usr/share/zsh/site-functions/_$cmd
+  $cmd --print-completion tcsh | sudo tee /etc/profile.d/$cmd.completion.csh
+done
 
 getDate
 # VNC:
