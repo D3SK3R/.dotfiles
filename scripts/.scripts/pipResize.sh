@@ -15,7 +15,7 @@ if [[ "$state" == "tiled" ]]; then
 
     xdotool windowsize $wid 302 170 &
 
-    xdotool windowmove $wid 2424 64 &
+    xdotool windowmove $wid 2971 31 &
 else
     bspc node $node -d 2
 

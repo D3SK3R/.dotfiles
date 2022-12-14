@@ -1,17 +1,25 @@
 {
+	"file_history":
+	[
+	],
 	"folder_history":
 	[
 		"/home/d3sk3r/Minecraft"
 	],
-	"last_version": 4126,
+	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1667942662,
+	"next_update_check": 1671137431,
 	"settings":
 	{
 		"new_window_full_screen": false,
 		"new_window_height": 0.0,
 		"new_window_maximized": true,
+		"new_window_position":
+		[
+			1366.0,
+			28.0
+		],
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -903,7 +911,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080,2",
+			"position": "0,1,0,0,0,1366,28,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
