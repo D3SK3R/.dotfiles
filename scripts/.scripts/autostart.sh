@@ -19,8 +19,8 @@ dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running
 # if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
 if [ $(xrandr | grep -ow "connected" | wc -l) -ge 2 >/dev/null ]; then
     autorandr --change &
-    sleep 1.1 && bspc desktop 2 --focus &
-    sleep 1.2 && bspc desktop 1 --focus &
+    sleep 1.5 && bspc desktop 2 --focus &
+    sleep 1.7 && bspc desktop 1 --focus &
 else
     run autorandr
     bspc monitor -d 1 2 3 4 5 6 7 8 9

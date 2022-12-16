@@ -19,7 +19,7 @@ OTHERS=$(xrandr --query | grep " connected" | grep -v "primary" | cut -d" " -f1)
 if type "xrandr" > /dev/null; then
     MONITOR=$PRIMARY polybar --reload main -c ~/.config/polybar/config.ini &
     # sleep necessary so that the bar on the main monitor loads first and takes the tray output
-    # *only necessary if using 1 bar for two monitors, if not, just leave the tray enable on only 1 monitor
+    # *only necessary if using 1 bar for two monitors, if not, just leave the tray enabled on only 1 monitor
     #sleep 1
     for m in $OTHERS; do
         MONITOR=$m polybar --reload main2 -c ~/.config/polybar/config.ini &
@@ -32,7 +32,7 @@ fi
 sleep 0.6 && bspc config top_padding 22 &
 
 # hooks for scripts:
-sleep 2 && polybar-msg action "#mute.hook.0" >/dev/null;polybar-msg action "#target.hook.0" >/dev/null
+sleep 3 && polybar-msg action "#mute.hook.0" >/dev/null;polybar-msg action "#target.hook.0" >/dev/null &&
 
 #count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
 #desktop=$(echo $DESKTOP_SESSION)
