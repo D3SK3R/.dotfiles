@@ -27,6 +27,7 @@ alias ...='cd ../..'
 alias mkdir='mkdir -p'
 alias cat='bat'
 alias python='bpython'
+alias cal='cal -y'
 #alias fzf="fzf | xargs -r -0 -i sh -c 'xdg-open \"{}\" &'"
 #alias fzf="fzf --bind 'enter:execute(xdg-open {})'"
 alias fzf="fzf -m --height=60% --color=16 | xargs -I {} xdg-open '{}'"
