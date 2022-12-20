@@ -3,7 +3,7 @@
 $HOME/.config/polybar/launch.sh &
 #2
 sleep 1 && picom -b --experimental-backend &
-sleep 0.8 && nitrogen --restore &
+sleep 0.3 && nitrogen --restore &
 # 3
 sleep 2 && bspc config top_padding 22 &
 # 5
