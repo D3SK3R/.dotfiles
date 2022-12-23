@@ -38,8 +38,8 @@ $HOME/.scripts/keyboardSet &
 
 #sleep 0.7 && $HOME/.scripts/headset-configure &
 
-sleep 8 && polybar-msg action "#mute.hook.0" >/dev/null &
-sleep 8 && polybar-msg action "#target.hook.0" >/dev/null &
+sleep 10 && polybar-msg action "#mute.hook.0" >/dev/null &
+sleep 10 && polybar-msg action "#target.hook.0" >/dev/null &
 #######################
 ###    programs     ###
 #######################
