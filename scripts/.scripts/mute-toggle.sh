@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# ALTERNATIVE PROBABLY EASIER: 
-# pamixer --default-source --get-volume
+# ALTERNATIVE PROBABLY EASIER: (the "--default-source might be optional") 
+# pamixer --default-source --get-volume(-human)
 # pamixer --default-source --get-mute
 # pamixer --default-source --set-volume
 # pamixer --default-source --toggle-mute
@@ -42,4 +42,4 @@ elif [[ $mute = 'yes' ]]; then
 fi
 
 polybar-msg action "#mute.hook.0" >/dev/null
-
+h ''

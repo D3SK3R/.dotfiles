@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# ALTERNATIVE PROBABLY EASIER
-# pamixer --get-volume
+# ALTERNATIVE PROBABLY EASIER (pamixer --default-source might be necessary)
+# pamixer --get-volume(-human)
 # pamixer --get-mute
 # pamixer --set-volume
 # pamixer --increase/--decrease 1
