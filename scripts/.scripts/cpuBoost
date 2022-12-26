@@ -3,8 +3,8 @@
 power=$(acpi -a | awk '{print $3}')
 
 if [[ $power = "on-line" ]]; then
-  echo "Connected to power, setting CPU governor to Ondemand"
-  cpupower-gui profile Ondemand >/dev/null
+  echo "Connected to power, setting CPU governor to Conservative"
+  cpupower-gui profile Conservative >/dev/null
   # cpupower-gui profile Performance >/dev/null
 
   # echo "ondemand" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
