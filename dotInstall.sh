@@ -122,9 +122,6 @@ echo 'KEYMAP=br-abnt2
 FONT=
 FONT_MAP=' > /etc/vconsole.conf
 
-# base base-devel
-$install base base-devel
-
 getDate
 echo 'Updating'
 pacman -Syyuu
@@ -149,11 +146,12 @@ $install ca-certificates-utils ca-certificates curl grep libqalculate
 # https://zaiste.net/posts/shell-commands-rust/
 $install fd fzf ripgrep procs sd exa lsd dust tealdeer
 $install bison autoconf automake diffutils make libtool cronie
-$install mlocate dpkg gnome-keyring xclip wget which
+$install mlocate dpkg gnome-keyring xclip xsel wget which
 $install net-tools ntp ttf-linux-libertine xterm
 $install gzip unzip unrar zip ntfs-3g debtap lm_sensors
 $install dosfstools libnotify exfat-utils openssh yay libgl
 $install lvm2 lxsession bind bind-tools rxvt-unicode
+$install iptables-nft
 $yay archlinux-tweak-tool-git
 
 printf '\nnoarp\n'
