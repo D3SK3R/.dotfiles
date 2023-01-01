@@ -341,10 +341,11 @@ getDate
 # Fonts
 echo 'fonts'
 $install noto-fonts noto-fonts-emoji
-$install ttf-nerd-fonts-symbols
+# $install ttf-nerd-fonts-symbols
 $install ttf-twemoji
 $install ttf-symbola
 $install ttf-font-icons
+$install ttf-fira-code
 
 echo 'Updating fonts'
 fc-cache -fv
