@@ -35,7 +35,7 @@ ascii_max_range = 7
 " > $config_file
 
 # close all cava stances running from this script
-ps aux | grep "[c]ava -p" | xargs kill >/dev/null
+ps aux | grep "[p]olybar_cava" | awk '{print $2}' | xargs -i kill {} >/dev/null
 # run cava in the background
 cava -p $config_file &
 
@@ -43,7 +43,7 @@ cava -p $config_file &
 while read -r cmd; do
   echo $cmd | sed $dict
   # 2 if statements to prevent cava process from freezing the OS
-  if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 2 ]]; then
-    ps aux | grep "[c]ava -p" | head -1 | xargs kill
-  fi
+  # if [[ "$(ps aux | grep "[c]ava -p" | wc -l)" -gt 2 ]]; then
+  #   ps aux | grep "[p]olybar_cava" | awk '{print $2}' | xargs -i kill {} >/dev/null
+  # fi
 done < $pipe
