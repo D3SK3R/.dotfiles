@@ -714,8 +714,8 @@ click-left = exec sh ~/.config/eww/fool_moon/bar/scripts/widgets toggle-sys
 
 [module/time]
 type = custom/script
-exec = date +%H:%M
-;interval = 1
+exec = date +%H:%M:%S
+interval = 1
 format = <label>
 label = " %output%"
 format-background =         ${colors.fg}
