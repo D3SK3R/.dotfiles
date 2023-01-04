@@ -19,10 +19,10 @@ black = #000000
 ;10% — 1A
 ;0% — 00
 
-bg = #090c12
+bg = #99090c12
 ;bg = #10141c
-;bg-alt = #16aee5
-;bg-alt = #7fadff
+bg-alt = #111b26
+;bg-alt = #090C12
 ;fg = #a2b2d2
 ;fg = #16aee5
 fg = #7fadff

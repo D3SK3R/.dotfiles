@@ -128,7 +128,7 @@ URxvt.keysym.Control-Right:     \033[1;5C
 *fontalt0: JoyPixels:pixelsize=16
 
 *background:    #090c12
-*alpha:         0.9
+*alpha:         0.6
 
 *borderpx:      8
 

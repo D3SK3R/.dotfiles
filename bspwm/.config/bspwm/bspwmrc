@@ -1,6 +1,12 @@
 #!/bin/sh
-# reset bspc rules when first running
-#bcpc rule -r "*"
+
+#  ____ ____  ______        ____  __
+# | __ ) ___||  _ \ \      / /  \/  |
+# |  _ \___ \| |_) \ \ /\ / /| |\/| |
+# | |_) |__) |  __/ \ V  V / | |  | |
+# |____/____/|_|     \_/\_/  |_|  |_|
+
+
 
 # get node property:
 # first get the id:
@@ -9,6 +15,9 @@
 # bspc node <id> --focus;bspc query -T -n
 
 ##############################################################
+
+# reset bspc rules when first running
+#bcpc rule -r "*"
 
 ### Monitors ###
 # already set in the autostart script

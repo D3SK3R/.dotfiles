@@ -17,7 +17,7 @@ if [[ $state == *IsViewable ]]; then
 elif [[ $state == *IsUnMapped ]]; then
     xdotool windowmap $wid
     xdotool windowmap $wid2
-    sleep 0.2;bspc config top_padding 22
+    # sleep 0.2;bspc config top_padding 22
     sleep 0.2;bspc config top_monocle_padding 6
 else
     echo "can't get state"
