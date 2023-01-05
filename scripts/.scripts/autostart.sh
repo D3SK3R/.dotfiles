@@ -96,7 +96,7 @@ sleep 2 && st -T floating_terminal2 &
 
 #sleep 5 && firefox &
 
-sleep 3 && discord & #premid &
+# sleep 3 && discord & #premid &
 
 #sh $HOME/.scripts/better.sh &
 # sh $HOME/.scripts/water.sh &
