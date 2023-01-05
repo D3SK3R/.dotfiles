@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
+		"/home/desker/modelsList"
 	],
 	"folder_history":
 	[
@@ -9,7 +11,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1672104826,
+	"next_update_check": 1672968826,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -18,7 +20,7 @@
 		"new_window_position":
 		[
 			2332.0,
-			32.0
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -224,6 +226,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
+				"/home/desker/modelsList",
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
@@ -349,9 +353,7 @@
 				"/home/d3sk3r/MEGA/fake fb.txt",
 				"/home/d3sk3r/MEGA/english to runic.txt",
 				"/home/d3sk3r/MEGA/exames.txt",
-				"/home/d3sk3r/MEGA/exec.txt",
-				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/todo.txt"
+				"/home/d3sk3r/MEGA/exec.txt"
 			],
 			"find":
 			{
@@ -541,14 +543,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/modelsList",
-					"settings":
-					{
-						"buffer_size": 5684,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -687,6 +681,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
+				"/home/desker/modelsList",
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
@@ -812,9 +808,7 @@
 				"/home/d3sk3r/MEGA/fake fb.txt",
 				"/home/d3sk3r/MEGA/english to runic.txt",
 				"/home/d3sk3r/MEGA/exames.txt",
-				"/home/d3sk3r/MEGA/exec.txt",
-				"/home/d3sk3r/MEGA/voice.txt",
-				"/home/d3sk3r/MEGA/todo.txt"
+				"/home/d3sk3r/MEGA/exec.txt"
 			],
 			"find":
 			{
@@ -876,36 +870,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/modelsList",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5684,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -949,7 +913,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,30,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
