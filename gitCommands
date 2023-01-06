@@ -1,4 +1,10 @@
 # if I mess something up, probably this command would solve:
 git reset --hard master@{"10 minutes ago"}
 
+# if local ahead of master
+git pull git@github.com:D3SK3R/.dotfiles
+git rm -r <conflicting files>
+git commit -m "removing conflicting files"
+git pull
+git push git@github.com:D3SK3R/.dotfiles
 
