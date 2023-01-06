@@ -1,0 +1,168 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ * Edited for this particular configuration by Axarva.
+ */
+
+configuration {
+    lines:							10;
+    columns:						1;
+    font: 							"Roboto Mono 12";
+    bw: 							0;
+    location: 						0;
+    padding: 						0;
+    fixed-num-lines: 				true;
+    show-icons: 					false;
+    //icon-theme:						"candy-icons";
+    // set to true to get the buttons to change modi
+    sidebar-mode: 					false;
+    separator-style: 				"none";
+    hide-scrollbar: 				true;
+    fullscreen: 					false;
+    fake-transparency: 				false;
+    scroll-method: 					0;
+    window-format: 					"[{w}] ··· {c} ···   {t}";
+    click-to-exit: 					true;
+    show-match: 					false;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				" ";
+    display-windowcd: 				" ";
+    display-run: 					" ";
+    display-ssh: 					" ";
+    display-drun: 					" ";
+    display-combi: 					" ";
+}
+
+@import "colors.rasi"
+
+* {
+    background-color:             	@bg;
+    text-color: 					@fg;
+    height:                         52%;
+    widht:                          35%;
+}
+
+window {
+    border: 						2px;
+    border-color: 					@bd;
+    border-radius: 					12px;
+    padding: 						15;
+    width: 							60%;
+}
+
+prompt {
+    enabled:                        true;
+    spacing: 						0;
+    border: 						0;
+    text-color: 					@fg;
+}
+
+textbox-prompt-colon {
+    expand: 						false;
+    str: 							" ";
+    margin:							0px 4px 0px 0px;
+    text-color: 					inherit;
+}
+
+entry {
+    spacing:    					0;
+    text-color: 					@fg;
+}
+
+case-indicator {
+    spacing:    					0;
+    text-color: 					@fg;
+}
+
+inputbar {
+    spacing:    					0px;
+    text-color: 					@fg;
+    padding:    					0px 0px 10px 10px;
+    children: 						[ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+mainbox {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						6;
+}
+
+listview {
+    fixed-height: 					0;
+    border: 						0px;
+    border-color: 					@ac;
+    spacing: 						4px;
+    scrollbar: 						false;
+    padding: 						5px 5px 0px 5px;
+}
+
+element {
+    padding: 						5px;
+    border:                         -3px;
+    border-radius: 					5px;
+    spacing:                        5px;
+}
+element-text {
+    border: 						3px;
+    border-radius: 					5px;
+    border-color: 					@bg;
+    padding: 						2px;
+    background-color:               @bg;
+    text-color:                     @fg;
+}
+element selected {
+    background-color: 				@fg;
+    border:                         0px;
+    border-radius: 					6px;
+}
+element alternate {
+    background-color: 				@bg;
+    border:                         0px;
+    border-radius: 					6px;
+    text-color:                     @fg;
+}
+
+sidebar {
+    border:       					0px;
+    border-color: 					@ac;
+    border-radius: 					0px;
+}
+
+button {
+    background-color:             	@bg;
+    text-color: 					@fg;
+    margin: 						5px;
+    padding: 						5px;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					@fg;
+}
+
+button selected {
+    background-color:             	@ac;
+    text-color: 					@bg;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					@fg;
+}
+
+scrollbar {
+    width:        					4px;
+    border:       					0px;
+    handle-color: 					@fg;
+    handle-width: 					8px;
+    padding:      					0;
+}
+
+message {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						1px;
+}
+
+textbox {
+    text-color: 					@fg;
+}
