@@ -89,3 +89,7 @@ fi
 # https://git-scm.com/docs/git-gc
 # https://stackoverflow.com/questions/5613345/how-to-shrink-the-git-folder
 # safe command: git gc --no-prune
+#
+# 8 - Check xorg session log:
+# /home/desker/.local/share/sddm/xorg-session.log
+#
