@@ -22,7 +22,8 @@ done &
 #autorandr --change &
 
 sleep 1 && $HOME/.scripts/monitors.sh &
-sleep 3 && $HOME/.config/polybar/launch.sh &
-sleep 2 && picom -b --experimental-backend &
-sleep 2 && nitrogen --restore
+sleep 1 && $HOME/.config/polybar/launch.sh &
+sleep 2 && picom &
+sleep 0.5 && nitrogen --restore
+sleep 5 && killall flashfocus;flashfocus &
 
