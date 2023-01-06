@@ -1,0 +1,4 @@
+# if I mess something up, probably this command would solve:
+git reset --hard master@{"10 minutes ago"}
+
+
