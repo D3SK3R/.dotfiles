@@ -1,0 +1,15 @@
+{
+    //"editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "DejaVuSansMono NF",
+    "editor.fontLigatures": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Aurora X",
+    "window.menuBarVisibility": "toggle",
+    "liveServer.settings.NoBrowser": true,
+    "browser-preview.startUrl": "http://127.0.0.1:5500",
+    "liveServer.settings.donotVerifyTags": true,
+    "miramac.node.showInfo": false,
+    "xresourcesTheme.xresourcesPath": "~/.dotfiles/xresources/.Xresources",
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true
+}

@@ -1,0 +1,21 @@
+//ac = accent
+//tr = transparent
+//fulltr = full transparent
+//se = selected
+//bd = border
+* {
+  tr:          #00000070;
+  fulltr:      #00000000;
+  bg:          #090c12;
+  se:          #81a1c1;
+  bd:          #16aee5;
+  fg:          #7fdaff;
+  ac:          #66cccc;
+  red:         #EC7875ff;
+  green:       #61C766ff;
+  yellow:      #FDD835ff;
+  blue:        #42A5F5ff;
+  purple:      #BA68C8ff;
+  cyan:        #4DD0E1ff;
+}
+
