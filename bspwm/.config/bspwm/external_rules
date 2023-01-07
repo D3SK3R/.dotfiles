@@ -213,7 +213,7 @@ case $class in
         echo "state=floating"
         ;;
     "qBittorrent")
-        echo "state=floating"
+        echo "desktop=2"
         ;;
     "Nvidia-settings")
         echo "state=floating"

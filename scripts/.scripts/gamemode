@@ -19,6 +19,8 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     # Killing polybar
     kill -9 $(ps aux | grep polybar | grep main | awk '{print $2}')
 
+
+
     # Kill compositor
     sleep 1.6 && killall picom
     
