@@ -4,51 +4,23 @@
 # it works as toggle:
 # execute the first time to panic and the second to go back to normal
 
-# Executing it the first time will chec if this is actually the first part of the toggle
+# Executing it the first time will check if this is actually the first part of the toggle
 # then its gonna create an file to show, the next time, that the the script is activated
 
-#TODO
-# 1: fix the 'hides all floating windows' part, since it also
-# hides the floating windows thats not from sctratchpad
+# When firs executed, it creates a file in /tmp/panic, writes all the ids of all visible windows at the time while also adding the hidden tag to them
+# pauses all music sources and notifications for dunst
+# and open 3 terminal with different programs with the name 'panic'
+#
+# executing it one more time, it will read the file, unpause the music if it was playing, kill all 'panic' windows created, unhide all previsouly shown windows, resume notifications and delete the file
 
 file=/tmp/panic
 
 if [ -z $(ls /tmp/ | grep panic) ]; then
     touch $file
 
-    # workspace I'm currently focusing
-    focused=$(bspc query -D -d focused --names)
-    # Get the workspaces i'm in, write it to the file and
-    # sees if theres another monitor, if so, move it to another workspace
-    # and writes to the file
-    
-    monitor1=$(xrandr | \grep -w connected | awk 'FNR==1 {print $1}')
-    monitor2=$(xrandr | \grep -w connected | awk 'FNR==2 {print $1}')
-
-    # if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
-    if [[ "$(xrandr | grep -ow "connected" | wc -l)" -gt 1 ]]; then
-        ws1=$(bspc query -m $monitor1 -T | jq | grep "focusedDesktopId" | \
-            awk -F " " '{print $NF}' | cut -d',' -f1)
-        ws2=$(bspc query -m $monitor2 -T | gron | grep "focusedDesktopId" | \
-            awk -F " " '{print $NF}' | cut -d';' -f1)
-        bspc desktop -f 4
-        bspc desktop -f 9
-    else
-        ws1=$(bspc query -m $monitor1 -T | jq | grep "focusedDesktopId" | \
-        awk -F " " '{print $NF}' | cut -d',' -f1)
-        bspc desktop -f 9
-    fi
-    
-    # writing the actual workspace AFTER the possible second monitor is already
-    # in the file, so that the script moves me to the right workspace in the second
-    # monitor and only then, moves me to the right workspace in the main monitor
-    echo "workspace2 $ws2" >> $file
-    echo "workspace1 $ws1" >> $file
-    echo "focused $focused" >> $file
-
-    # hides all shown floating windows
-    # and writes their ID into the file
-    for i in $(bspc query -N -n .floating.\!hidden); do
+    # hides all shown windows
+    # and writes their IDs into the file
+    for i in $(bspc query -N -n .normal.\!hidden); do
         bspc node $i -g hidden=on
         echo "hidden $i" >> $file
     done
@@ -69,10 +41,10 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
     # opens 3 terminals
     # urxvt -name 'panic' -e gotop -aps &
     st -n 'panic' -e gotop -aps --nvidia &
-    sleep 0.2
+    sleep 0.1
     # urxvt -name 'panic' -e ranger &
     st -n 'panic' -e ranger &
-    sleep 0.2
+    sleep 0.1
     # urxvt -name 'panic' &
     st -n 'panic' &
     #sleep 0.8
@@ -80,6 +52,7 @@ else
     # closes the terminals that the panic button opened
     xdo close -n 'panic'
 
+    # read all the lines from the file
     while read line; do
         # reads the file to know whether it's paused the media, if so, resumes it
         if [ "$line" = 'playerctl playing' ]; then
@@ -88,18 +61,7 @@ else
         if [ "$line" = 'mpd playing' ]; then
             mpc -p 6600 play
         fi
-        # reads the file to know what workspaces I was in and goes to it
-        if [ $(echo $line | cut -d' ' -f1) = 'workspace2' ]; then
-            bspc desktop -f $(echo $line | cut -d' ' -f2)
-        fi
-        if [ $(echo $line | cut -d' ' -f1) = 'workspace1' ]; then
-            bspc desktop -f $(echo $line | cut -d' ' -f2)
-        fi
-        # last, focus the exact workspace I was focusing before panic
-        if [ $(echo $line | cut -d' ' -f1) = 'focused' ]; then
-            bspc desktop -f $(echo $line | cut -d' ' -f2)
-        fi
-        # reads the file to know what floating windows were hidden by panic
+        # reads the file to know what windows were hidden by panic
         if [ $(echo $line | cut -d' ' -f1) = 'hidden' ]; then
             bspc node $(echo $line | cut -d' ' -f2) -g hidden=off
         fi

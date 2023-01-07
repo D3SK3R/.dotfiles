@@ -93,8 +93,8 @@ bspc config external_rules_command                         ~/.config/bspwm/exter
 ##                      AUTOSTART                      ##
 #########################################################
 $HOME/.scripts/autostart.sh
-#3
-sleep 1 && bspc desktop -f 1 && bspc desktop -l next
+# monocle mode for desktop 1
+# sleep 1 && bspc desktop -f 1 && bspc desktop -l next
 #5
 sleep 2 && bspc config top_padding 22
 
