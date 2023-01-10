@@ -1,6 +1,12 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
+		"/home/desker/MEGA/tabela-escrita.txt",
+		"/home/desker/MEGA/todo",
+		"/home/desker/MEGA/voice.txt",
+		"/home/desker/MEGA/anime",
+		"/home/desker/MEGA/hedgepoint pass.txt",
 		"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
 		"/home/desker/MEGA/tattoo/english to japanese.txt",
 		"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
@@ -13,7 +19,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1673141626,
+	"next_update_check": 1673400826,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -21,8 +27,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			10.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -228,6 +234,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/MEGA/todo",
+				"/home/desker/MEGA/voice.txt",
+				"/home/desker/MEGA/anime",
+				"/home/desker/MEGA/hedgepoint pass.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
 				"/home/desker/MEGA/tattoo/english to japanese.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
@@ -271,7 +283,6 @@
 				"/home/desker/.config/Kvantum/kvantum.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
-				"/home/desker/MEGA/tabela-escrita.txt",
 				"/home/desker/pentest/desker.ovpn",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
@@ -350,12 +361,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
 				"/home/d3sk3r/MEGA/percentage.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
-				"/home/d3sk3r/MEGA/fibonacci.py",
-				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
-				"/home/d3sk3r/MEGA/deauthAttack.sh",
-				"/home/d3sk3r/MEGA/fake fb.txt",
-				"/home/d3sk3r/MEGA/english to runic.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools"
 			],
 			"find":
 			{
@@ -683,6 +689,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
+				"/home/desker/MEGA/tabela-escrita.txt",
+				"/home/desker/MEGA/todo",
+				"/home/desker/MEGA/voice.txt",
+				"/home/desker/MEGA/anime",
+				"/home/desker/MEGA/hedgepoint pass.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
 				"/home/desker/MEGA/tattoo/english to japanese.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
@@ -726,7 +738,6 @@
 				"/home/desker/.config/Kvantum/kvantum.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/openPort.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/reverseProxyVPS/reverseProxyVPS.txt",
-				"/home/desker/MEGA/tabela-escrita.txt",
 				"/home/desker/pentest/desker.ovpn",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/InternetWhenVPNactive.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/optimus-manager/where.txt",
@@ -805,12 +816,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
 				"/home/d3sk3r/MEGA/percentage.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools",
-				"/home/d3sk3r/MEGA/fibonacci.py",
-				"/home/d3sk3r/MEGA/2_listaDePalavras.py",
-				"/home/d3sk3r/MEGA/deauthAttack.sh",
-				"/home/d3sk3r/MEGA/fake fb.txt",
-				"/home/d3sk3r/MEGA/english to runic.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools"
 			],
 			"find":
 			{
@@ -915,7 +921,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,8,560,675,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{

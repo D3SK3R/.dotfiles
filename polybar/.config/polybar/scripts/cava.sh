@@ -24,8 +24,8 @@ echo "
 [general]
 bars = 10
 overshoot = 0
-autosens = 0
-sensitivity = 11
+autosens = 1
+sensitivity = 12
 
 [output]
 method = raw
