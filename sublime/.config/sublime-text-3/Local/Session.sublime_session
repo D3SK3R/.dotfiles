@@ -27,8 +27,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			10.0,
-			562.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -551,6 +551,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
+					"settings":
+					{
+						"buffer_size": 46437,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -878,6 +887,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 46437,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -921,7 +960,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,8,560,675,912,3286,1080,0",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
