@@ -182,10 +182,10 @@ echo 'lz4' > /sys/block/zram0/comp_algorithm
 echo 'lz4' > /sys/block/zram1/comp_algorithm
 echo 'lz4' > /sys/block/zram2/comp_algorithm
 echo 'lz4' > /sys/block/zram3/comp_algorithm
-echo '1G' > /sys/block/zram0/disksize
-echo '1G' > /sys/block/zram1/disksize
-echo '1G' > /sys/block/zram2/disksize
-echo '1G' > /sys/block/zram3/disksize
+echo '2G' > /sys/block/zram0/disksize
+echo '2G' > /sys/block/zram1/disksize
+echo '2G' > /sys/block/zram2/disksize
+echo '2G' > /sys/block/zram3/disksize
 
 mkswap /dev/zram0
 mkswap /dev/zram1
@@ -205,25 +205,25 @@ After=multi-user.target
 Type=oneshot 
 RemainAfterExit=true
 ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram0/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram0/disksize"
+ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram0/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram0
 ExecStart=/sbin/swapon /dev/zram0 --priority 100
 ExecStop=/sbin/swapoff /dev/zram0
 
 ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram1/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram1/disksize"
+ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram1/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram1
 ExecStart=/sbin/swapon /dev/zram1 --priority 100
 ExecStop=/sbin/swapoff /dev/zram1
 
 ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram2/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram2/disksize"
+ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram2/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram2
 ExecStart=/sbin/swapon /dev/zram2 --priority 100
 ExecStop=/sbin/swapoff /dev/zram2
 
 ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram3/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '1GB' > /sys/block/zram3/disksize"
+ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram3/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram3
 ExecStart=/sbin/swapon /dev/zram3 --priority 100
 ExecStop=/sbin/swapoff /dev/zram3
@@ -241,21 +241,21 @@ vm.swappiness=10
 
 # The value controls the tendency of the kernel to reclaim the memory which is used for caching of directory and inode objects (VFS cache). 
 # Lowering it from the default value of 100 makes the kernel less inclined to reclaim VFS cache (do not set it to 0, this may produce out-of-memory conditions)
-vm.vfs_cache_pressure=50
+vm.vfs_cache_pressure=100
 
 # Contains, as a percentage of total available memory that contains free pages and reclaimable
 # pages, the number of pages at which the background kernel flusher threads will start writing out
 # dirty data (Default is 10).
-vm.dirty_background_ratio=1
+vm.dirty_background_ratio=5
 
 # Contains, as a percentage of total available memory that contains free pages and reclaimable
 # pages, the number of pages at which a process which is generating disk writes will itself start
 # writing out dirty data (Default is 20).
-vm.dirty_ratio=50
+vm.dirty_ratio=20
 
 # The kernel flusher threads will periodically wake up and write old data out to disk.  This
 # tunable expresses the interval between those wakeups, in 100'ths of a second (Default is 500).
-vm.dirty_writeback_centisecs = 1500
+vm.dirty_writeback_centisecs = 500
 
 # Enable TCP Fast Open
 # TCP Fast Open is an extension to the transmission control protocol (TCP) that helps reduce network latency
