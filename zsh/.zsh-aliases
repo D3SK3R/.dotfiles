@@ -320,3 +320,9 @@ alias sudoku='sku'
 alias maps='telnet mapscii.me'
 alias unfreeze='killall pactl'
 
+ytmusic() {
+  mpv --no-audio-display --ytdl-format=bestaudio "ytdl://ytsearch:$*"
+}
+
+
+

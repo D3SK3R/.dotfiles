@@ -176,26 +176,43 @@ getDate
 # ZRAM
 echo 'Installing ZRAM'
 echo 'zram' > /etc/modules-load.d/zram.conf
-echo 'options zram num_devices=4' > /etc/modprobe.d/zram.conf
+echo 'options zram num_devices=8' > /etc/modprobe.d/zram.conf
 modprobe zram
 echo 'lz4' > /sys/block/zram0/comp_algorithm
 echo 'lz4' > /sys/block/zram1/comp_algorithm
 echo 'lz4' > /sys/block/zram2/comp_algorithm
 echo 'lz4' > /sys/block/zram3/comp_algorithm
-echo '2G' > /sys/block/zram0/disksize
-echo '2G' > /sys/block/zram1/disksize
-echo '2G' > /sys/block/zram2/disksize
-echo '2G' > /sys/block/zram3/disksize
+echo 'lz4' > /sys/block/zram4/comp_algorithm
+echo 'lz4' > /sys/block/zram5/comp_algorithm
+echo 'lz4' > /sys/block/zram6/comp_algorithm
+echo 'lz4' > /sys/block/zram7/comp_algorithm
+
+echo '1G' > /sys/block/zram0/disksize
+echo '1G' > /sys/block/zram1/disksize
+echo '1G' > /sys/block/zram2/disksize
+echo '1G' > /sys/block/zram3/disksize
+echo '1G' > /sys/block/zram4/disksize
+echo '1G' > /sys/block/zram5/disksize
+echo '1G' > /sys/block/zram6/disksize
+echo '1G' > /sys/block/zram7/disksize
 
 mkswap /dev/zram0
 mkswap /dev/zram1
 mkswap /dev/zram2
 mkswap /dev/zram3
+mkswap /dev/zram4
+mkswap /dev/zram5
+mkswap /dev/zram6
+mkswap /dev/zram7
 
 swapon /dev/zram0 --priority 100
 swapon /dev/zram1 --priority 100
 swapon /dev/zram2 --priority 100
 swapon /dev/zram3 --priority 100
+swapon /dev/zram4 --priority 100
+swapon /dev/zram5 --priority 100
+swapon /dev/zram6 --priority 100
+swapon /dev/zram7 --priority 100
 
 echo '[Unit]
 Description=Swap with zram
@@ -204,29 +221,53 @@ After=multi-user.target
 [Service]
 Type=oneshot 
 RemainAfterExit=true
-ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram0/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram0/disksize"
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram0/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram0/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram0
 ExecStart=/sbin/swapon /dev/zram0 --priority 100
 ExecStop=/sbin/swapoff /dev/zram0
 
-ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram1/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram1/disksize"
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram1/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram1/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram1
 ExecStart=/sbin/swapon /dev/zram1 --priority 100
 ExecStop=/sbin/swapoff /dev/zram1
 
-ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram2/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram2/disksize"
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram2/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram2/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram2
 ExecStart=/sbin/swapon /dev/zram2 --priority 100
 ExecStop=/sbin/swapoff /dev/zram2
 
-ExecStartPre=/bin/sh -c "modprobe zram && echo 'lz4' > /sys/block/zram3/comp_algorithm"
-ExecStartPre=/bin/sh -c "echo '2GB' > /sys/block/zram3/disksize"
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram3/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram3/disksize"
 ExecStartPre=/sbin/mkswap /dev/zram3
 ExecStart=/sbin/swapon /dev/zram3 --priority 100
 ExecStop=/sbin/swapoff /dev/zram3
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram4/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram4/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram4
+ExecStart=/sbin/swapon /dev/zram4 --priority 100
+ExecStop=/sbin/swapoff /dev/zram4
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram5/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram5/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram5
+ExecStart=/sbin/swapon /dev/zram5 --priority 100
+ExecStop=/sbin/swapoff /dev/zram5
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram6/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram6/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram6
+ExecStart=/sbin/swapon /dev/zram6 --priority 100
+ExecStop=/sbin/swapoff /dev/zram6
+
+ExecStartPre=/bin/sh -c "modprobe zram && echo lz4 > /sys/block/zram7/comp_algorithm"
+ExecStartPre=/bin/sh -c "echo 1GB > /sys/block/zram7/disksize"
+ExecStartPre=/sbin/mkswap /dev/zram7
+ExecStart=/sbin/swapon /dev/zram7 --priority 100
+ExecStop=/sbin/swapoff /dev/zram7
 [Install]
 WantedBy=multi-user.target' > /etc/systemd/system/zram.service
 systemctl enable --now zram
