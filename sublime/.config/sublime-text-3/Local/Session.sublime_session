@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
+		"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 		"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
 		"/home/desker/MEGA/tabela-escrita.txt",
 		"/home/desker/MEGA/todo",
@@ -19,7 +22,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1673400826,
+	"next_update_check": 1673647650,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -27,8 +30,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -234,6 +237,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
+				"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
 				"/home/desker/MEGA/tabela-escrita.txt",
 				"/home/desker/MEGA/todo",
@@ -358,10 +364,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
-				"/home/d3sk3r/MEGA/percentage.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh"
 			],
 			"find":
 			{
@@ -551,15 +554,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
-					"settings":
-					{
-						"buffer_size": 46437,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -698,6 +692,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
+				"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
 				"/home/desker/MEGA/tabela-escrita.txt",
 				"/home/desker/MEGA/todo",
@@ -822,10 +819,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Airgeddon_WPS_PixieDust",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/SQLinject/Bricks-Explain",
-				"/home/d3sk3r/MEGA/percentage.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/@Tools"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/zsteg/autoFlag.sh"
 			],
 			"find":
 			{
@@ -887,36 +881,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 46437,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -960,7 +924,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
 			"project": "",
 			"replace":
 			{
