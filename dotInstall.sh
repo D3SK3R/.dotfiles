@@ -16,7 +16,7 @@ if pacman -Q | grep "nvidia" >/dev/null; then
     echo "Nvidia Drivers installed, proceeding with the script"
 else
     echo 'Installing nvidia drivers'
-    pacman -S nvidia-dkms nvidia-utils nvidia-settings nvidia-prime
+    pacman -S nvidia-dkms nvidia-utils nvidia-settings nvidia-prime gwe
     echo 'Installed, reboot and run the script again.'
   echo 'Section "OutputClass"
 	Identifier    "nvidia"
@@ -29,6 +29,8 @@ EndSection' > /etc/X11/xorg.conf.d/20-nvidia.conf
 options nouveau modeset=0' > /etc/modprobe.d/modules.conf
 
   echo 'options nvidia_drm modeset=1' > /etc/modprobe.d/zz-nvidia-modeset.conf
+  
+  nvidia-xconfig --cool-bits=8
 fi
 
 # amd drivers
