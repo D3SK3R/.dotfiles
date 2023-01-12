@@ -218,6 +218,9 @@ case $class in
     "Nvidia-settings")
         echo "state=floating"
         ;;
+    "Gwe")
+        echo "state=floating"
+        ;;
     # For programs that takes too long to set a WM_CLASS
     *)
         case $(ps -p "$(xdo pid "$wid")" -o comm= 2>/dev/null) in
