@@ -31,7 +31,7 @@ fi
 # since I'm using autorandr that executed all of this
 #$HOME/.config/bspwm/monitors-bspwm &
 
-$HOME/.scripts/keyboardSet &
+# $HOME/.scripts/keyboardSet &
 
 # id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
   # xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
@@ -55,7 +55,7 @@ run urxvtd -q -o -f
 
 run xsetroot -cursor_name left_ptr
 
-run xfce4-power-manager
+sleep 1;run xfce4-power-manager
 
 run megasync
 

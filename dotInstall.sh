@@ -23,7 +23,7 @@ else
 	MatchDriver   "nvidia-drm"
 	Driver        "nvidia"
 	Option        "TripleBuffer" "on"
-  Option        "Coolbits"  "31"
+  Option        "Coolbits"  "8"
 EndSection' > /etc/X11/xorg.conf.d/20-nvidia.conf
 
   echo 'blacklist nouveau
