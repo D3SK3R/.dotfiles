@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo nvidia-smi -rac -i 0
+sudo nvidia-smi -pl 60
+
+sudo nvidia-settings -a [gpu:0]/GpuPowerMizerMode=2
+sudo nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=0
+sudo nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=0
+
+
