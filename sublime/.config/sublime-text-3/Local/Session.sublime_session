@@ -30,8 +30,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -924,7 +924,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,2",
 			"project": "",
 			"replace":
 			{
