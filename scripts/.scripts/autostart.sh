@@ -9,7 +9,7 @@ function run {
 }
 
 run dunst
-dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script" &
+sleep 0.2 && dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script" &
 
 #######################
 ###     scripts     ###
