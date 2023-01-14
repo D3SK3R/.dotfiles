@@ -25,6 +25,13 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
         echo "hidden $i" >> $file
     done
 
+    # if running the script from the desktop 1, disables monocle layout
+    # and writes to the file
+    if [[ "$(bspc query --desktop focused -D --names)" = 1 ]]; then
+      bspc desktop 1 -l tiled
+      echo "desktop 1" >> $file
+    fi
+
     # pauses the media if playing
     if [[ $(playerctl status) = "Playing" ]]; then
         echo 'playerctl playing' >> $file
@@ -54,6 +61,11 @@ else
 
     # read all the lines from the file
     while read line; do
+        # reads the file to know whether I was on the first desktop
+        # if yes, return it's layout back to monocle
+        if [ "$line" = 'desktop 1' ]; then
+          bspc desktop -l monocle
+        fi
         # reads the file to know whether it's paused the media, if so, resumes it
         if [ "$line" = 'playerctl playing' ]; then
             playerctl play

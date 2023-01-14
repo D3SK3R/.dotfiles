@@ -29,6 +29,8 @@ if [ -z $(ls /tmp/ | grep panic) ]; then
 
     # if xrandr | grep -ow "HDMI-0 connected" >/dev/null; then
     if [[ "$(xrandr | grep -ow "connected" | wc -l)" -gt 1 ]]; then
+      # easier command to get the desktop number:
+      # bspc query -d focused -D --names
         ws1=$(bspc query -m $monitor1 -T | jq | grep "focusedDesktopId" | \
             awk -F " " '{print $NF}' | cut -d',' -f1)
         ws2=$(bspc query -m $monitor2 -T | gron | grep "focusedDesktopId" | \
