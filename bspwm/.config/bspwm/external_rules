@@ -237,15 +237,15 @@ case $class in
 esac
 
 case $title in
-    "Java" | "Burp Suite Community Edition"* )
-        if [[ $title =~ .*"Temporary Project" ]]; then
-            echo "state=floating"
-            echo "center=on"
-        else
-            echo "state=floating"
-            echo "center=on"
-        fi
-        ;;
+    # "Java" | "Burp Suite Community Edition"* )
+    #     if [[ $title =~ .*"Temporary Project" ]]; then
+    #         echo "state=floating"
+    #         echo "center=on"
+    #     else
+    #         echo "state=floating"
+    #         echo "center=on"
+    #     fi
+    #     ;;
     "Task Manager - Google Chrome")
         echo "state=floating"
         echo "rectangle=923x543+1590+103"
