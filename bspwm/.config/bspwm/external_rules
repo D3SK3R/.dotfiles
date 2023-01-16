@@ -208,9 +208,9 @@ case $class in
     "GameConqueror.py")
         echo "state=floating"
         ;;
-    "qBittorrent")
-        echo "desktop=2"
-        ;;
+    # "qBittorrent")
+    #     echo "desktop=2"
+    #     ;;
     "Nvidia-settings")
         echo "state=floating"
         ;;
