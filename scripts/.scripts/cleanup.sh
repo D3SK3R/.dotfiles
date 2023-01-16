@@ -36,8 +36,12 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
     printf "\nsudo paccache -r -k 2\n"
     sudo paccache -r -k 2
    
-    printf "\ncleaning trash\n" 
-    rm -rf ~/.local/share/Trash/files/*
+    printf "\ncleaning trash\n"
+    if [[ $(which trash) != "/usr/bin/trash" ]] &>/dev/null; then
+      rm -rf ~/.local/share/Trash/files/*
+    else
+      trash-empty
+    fi
 
     printf "\ncleaning root trash\n"
     sudo \rm -rf /root/.local/share/Trash/files/*
