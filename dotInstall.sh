@@ -54,6 +54,9 @@ EndSection' > /etc/X11/xorg.conf.d/20-amdgpu.conf
   echo 'blacklist radeon
 options radeon si_support=0
 options radeon cik_support=0' > /etc/modprobe.d/radeon.conf
+
+  echo 'options amdgpu si_support=1
+options amdgpu cik_support=1' > /etc/modprobe.d/amdgpu.conf
 fi
 
 echo "Optimus"
