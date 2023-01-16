@@ -71,7 +71,7 @@ case $class in
             echo "state=floating"
             echo "hidden=on"
             echo "sticky=on"
-            echo "rectangle=1357x724+3+28"
+            echo "rectangle=1357x726+3+28"
             echo "center=on"
         fi
         ;;
@@ -111,10 +111,6 @@ case $class in
         echo "state=floating"
         echo "rectangle=870x546+113+221"
         echo "center=on"
-        #if [[ "$title | awk '/) - VNC Viewer/{print}'" ]]; then
-        #    echo "state=floating"
-        #    echo "rectangle=1356x732+3+28"
-        #fi
         ;;
     "realvnc-vncserverui-service")
         echo "state=floating"
