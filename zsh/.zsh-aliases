@@ -34,7 +34,6 @@ alias fzf="fzf -m --height=60% --color=16 | xargs -I {} xdg-open '{}'"
 #alias v='stty stop "" -ixoff; vim'
 alias v='nvim'
 alias c='clear'
-alias cc='tput reset'
 alias df='df -h'
 alias grep='rg -i --color=always'
 alias egrep='egrep -i --color=always'
