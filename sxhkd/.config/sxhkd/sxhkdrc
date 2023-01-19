@@ -88,9 +88,9 @@ super + g
 super + shift + @g
     ~/.scripts/gamemode
 
-# Gotop
-super + {_, shift +} h
-    {st -e gotop -aps --nvidia, st -e btop}
+# Gotop, btop, btm
+super + {_, shift +, ctrl +} h
+    {st -e gotop -aps --nvidia, st -e btop, st -e btm}
     #{urxvtc -e gotop -aps, urxvtc -e btop}
 
 # Lock Screen

@@ -4,6 +4,8 @@ sudo nvidia-smi -pm ENABLED -i 0
 sudo nvidia-smi -pl 95
 
 sudo nvidia-settings -a [gpu:0]/GpuPowerMizerMode=1
-sudo nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=200
-sudo nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=700
+sudo nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=190
+sudo nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=690
+# sudo nvidia-settings -a [gpu:0]/GPUGraphicsClockOffset[3]=200
+# sudo nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[3]=700
 
