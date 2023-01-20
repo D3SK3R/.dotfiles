@@ -30,8 +30,6 @@ EndSection' > /etc/X11/xorg.conf.d/20-nvidia.conf
 options nouveau modeset=0' > /etc/modprobe.d/modules.conf
 
   echo 'options nvidia_drm modeset=1' > /etc/modprobe.d/zz-nvidia-modeset.conf
-  
-  nvidia-xconfig --cool-bits=8
 fi
 
 # amd drivers
@@ -61,7 +59,7 @@ fi
 
 echo "Optimus"
 pacman -S optimus-manager bbswitch-dkms
-sudo systemctl enable optimus-manager.service
+systemctl enable optimus-manager.service
 
 username='desker'
 groupadd sudo;usermod -aG sudo $username
