@@ -31,10 +31,6 @@ super + {_,shift +} Return
     {st, urxvtc -cd ~}
     #{urxvtc -cd ~, st}
 
-# Toggle systray
-super + Tab
-    ~/.scripts/togglePolybar.sh
-
 # Print
 {_,super +} Print
     {flameshot gui, flameshot screen -p ~}
@@ -196,6 +192,11 @@ super + shift + d
 # apply bspwm config
 #super + shift + c
 #    bspc wm -r
+
+# Cycle between windows
+super + Tab
+  bspc node -f next.normal.local.\!hidden
+    # ~/.scripts/togglePolybar.sh
 
 # focus or send a window to a desktop
 super + {_,shift + }{1-9}
