@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 		"/home/desker/notes",
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
@@ -24,7 +25,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1674240877,
+	"next_update_check": 1674500077,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -32,8 +33,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -239,6 +240,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
@@ -365,8 +367,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt"
 			],
 			"find":
 			{
@@ -565,11 +566,11 @@
 					}
 				},
 				{
-					"file": "/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
+					"file": "/home/desker/ffs",
 					"settings":
 					{
-						"buffer_size": 153,
-						"line_ending": "Windows"
+						"buffer_size": 1073,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -710,6 +711,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
@@ -836,8 +838,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/bugBounty_tools.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt"
 			],
 			"find":
 			{
@@ -932,12 +933,12 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
+							"file": "/home/desker/ffs",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 153,
+								"buffer_size": 1073,
 								"regions":
 								{
 								},
@@ -950,7 +951,9 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1003,7 +1006,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
