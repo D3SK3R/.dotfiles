@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/ffs",
 		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 		"/home/desker/notes",
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
@@ -240,6 +241,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
@@ -366,8 +368,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt"
 			],
 			"find":
 			{
@@ -566,10 +567,10 @@
 					}
 				},
 				{
-					"file": "/home/desker/ffs",
+					"file": "/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 					"settings":
 					{
-						"buffer_size": 1073,
+						"buffer_size": 483,
 						"line_ending": "Unix"
 					}
 				}
@@ -711,6 +712,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
@@ -837,8 +839,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wordlist_generator.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt"
 			],
 			"find":
 			{
@@ -933,12 +934,12 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/desker/ffs",
+							"file": "/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1073,
+								"buffer_size": 483,
 								"regions":
 								{
 								},
@@ -951,9 +952,7 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 3,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
