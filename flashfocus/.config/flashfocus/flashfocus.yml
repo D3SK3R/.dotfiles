@@ -3,20 +3,20 @@
 ## @@@@@@@@@@@@@@@@@@@@@@
 
 # Opacity of window during flash.
-flash-opacity: 0.8
+flash-opacity: 0.6
 
 # Windows are restored to this opacity value at the end of a flash.
 default-opacity: 1
 
 # Length of flash in milliseconds.
-time: 350
+time: 500
 
 # If true, flashes are not faded out. This will improve performance but flashes
 # won't be smooth.
 simple: false
 
 # Number of animation frames in a flash.
-ntimepoints: 10
+ntimepoints: 15
 
 # Set this to False if you don't want windows to flash on focus.
 flash-on-focus: true
@@ -48,15 +48,11 @@ flash-lone-windows: 'always'
 rules:
   #   - window-class: Nitrogen
   #   default-opacity: 0.7
-   - window-class: Sublime_text
-     default-opacity: 0.8
-   - window-class: XTerm
-     default-opacity: 0.9
-   - window-class: UXTerm
-     default-opacity: 0.9
-   - window-class: VirtualBox Machine
-     default-opacity: 1
-     flash-on-focus: False
+   # - window-class: Sublime_text
+   #   default-opacity: 0.8
+   # - window-class: VirtualBox Machine
+   #   default-opacity: 1
+   #   flash-on-focus: False
 #
 # I also would prefer that firefox windows are not flashed on focus:
 #

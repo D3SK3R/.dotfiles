@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 		"/home/desker/ffs",
 		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 		"/home/desker/notes",
@@ -26,7 +28,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1674500077,
+	"next_update_check": 1674932077,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -34,8 +36,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1832.0,
+			189.0
 		],
 		"new_window_settings":
 		{
@@ -241,6 +243,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
@@ -261,7 +265,6 @@
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
@@ -367,8 +370,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt"
 			],
 			"find":
 			{
@@ -558,22 +560,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
-					"settings":
-					{
-						"buffer_size": 234,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-					"settings":
-					{
-						"buffer_size": 483,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -712,6 +698,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
@@ -732,7 +720,6 @@
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/gitdots/README.md",
 				"/home/desker/todo",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
@@ -838,8 +825,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/XSS-Payloads.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt"
 			],
 			"find":
 			{
@@ -901,67 +887,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 234,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										13,
-										21
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 483,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1005,7 +930,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1830,187,2497,902,3286,1080,2",
 			"project": "",
 			"replace":
 			{
