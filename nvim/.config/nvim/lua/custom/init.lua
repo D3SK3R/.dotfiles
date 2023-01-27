@@ -143,6 +143,7 @@ vim.cmd [[
 
     set cursorline
     set cursorcolumn
+    highlight cursorline guibg=#1c1f25
 
     " type :w!! to save the file as root when it says you have no permission to write
     " for this to work, install ksshaskpass
