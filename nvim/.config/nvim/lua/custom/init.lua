@@ -140,7 +140,10 @@ vim.cmd [[
     au VimLeave * set guicursor=a:hor2-blinkon0
 
     autocmd BufRead */*rc set syntax=dosini
-    
+
+    set cursorline
+    set cursorcolumn
+
     " type :w!! to save the file as root when it says you have no permission to write
     " for this to work, install ksshaskpass
     cmap w!! w !SUDO_ASKPASS=/usr/bin/ksshaskpass sudo -A tee > /dev/null % <Enter>
