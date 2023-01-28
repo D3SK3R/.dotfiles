@@ -33,6 +33,8 @@ fi
 
 $HOME/.scripts/keyboardSet &
 
+$HOME/.scripts/killpactl &
+
 # id="$(xinput --list | \grep "G403" | \grep -v "Keyboard" | awk '{print $8}' | cut -d'=' -f2)" && \
   # xinput --set-prop "$id" "libinput Accel Speed" -0.7 &
 

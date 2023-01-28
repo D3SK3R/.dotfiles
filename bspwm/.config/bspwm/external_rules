@@ -87,7 +87,8 @@ case $class in
         ;;
     "lunarclient")
         echo "state=floating"
-        echo "rectangle=973x666+1559+50"
+        echo "rectangle=1351x873"
+        echo "center=on"
         ;;
     "Pavucontrol")
         echo "state=floating"

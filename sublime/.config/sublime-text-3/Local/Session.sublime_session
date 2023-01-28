@@ -28,7 +28,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1674932077,
+	"next_update_check": 1675018477,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -36,8 +36,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1832.0,
-			189.0
+			1376.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -560,6 +560,30 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+					"settings":
+					{
+						"buffer_size": 85,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/.minecraft/usernamecache.json",
+					"settings":
+					{
+						"buffer_size": 55,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/.minecraft/window_settings_launcher.conf",
+					"settings":
+					{
+						"buffer_size": 83,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -887,6 +911,98 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 85,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/.minecraft/usernamecache.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 55,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/.minecraft/window_settings_launcher.conf",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 83,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -930,7 +1046,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1830,187,2497,902,3286,1080,2",
+			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{

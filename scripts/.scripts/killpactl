@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while true; do
+  if [[ $(ps aux | grep "[p]actl subscribe" | wc -l) -gt 2 ]]; then
+    killall pactl
+  fi
+  sleep 2
+done &
