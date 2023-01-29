@@ -156,6 +156,8 @@ case $class in
         ;;
     "MEGAsync")
         echo "state=floating"
+        echo "border=off"
+        echo "center=on"
         ;;
     "GParted")
         echo "state=floating"
