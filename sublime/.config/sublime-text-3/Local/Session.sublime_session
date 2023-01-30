@@ -36,8 +36,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			562.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -583,6 +583,14 @@
 						"buffer_size": 83,
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/desker/xorg.conf",
+					"settings":
+					{
+						"buffer_size": 1461,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -936,7 +944,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -967,14 +975,13 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
 							"file": "/home/desker/.minecraft/window_settings_launcher.conf",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -994,6 +1001,38 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/desker/xorg.conf",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1461,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1046,7 +1085,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
