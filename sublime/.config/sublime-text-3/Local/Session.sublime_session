@@ -1,6 +1,10 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+		"/home/desker/.minecraft/usernamecache.json",
+		"/home/desker/.minecraft/window_settings_launcher.conf",
+		"/home/desker/xorg.conf",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 		"/home/desker/ffs",
@@ -28,7 +32,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675018477,
+	"next_update_check": 1675104877,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -36,8 +40,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -243,6 +247,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+				"/home/desker/.minecraft/usernamecache.json",
+				"/home/desker/.minecraft/window_settings_launcher.conf",
+				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
@@ -366,15 +374,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 48.0
 			},
 			"find_in_files":
 			{
@@ -388,6 +392,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"udp://opentracker.i2p.rocks:6969/announce",
 					"chrome",
 					"#",
 					"market",
@@ -560,38 +565,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
-					"settings":
-					{
-						"buffer_size": 85,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/.minecraft/usernamecache.json",
-					"settings":
-					{
-						"buffer_size": 55,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/.minecraft/window_settings_launcher.conf",
-					"settings":
-					{
-						"buffer_size": 83,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/xorg.conf",
-					"settings":
-					{
-						"buffer_size": 1461,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -730,6 +703,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
+				"/home/desker/.minecraft/usernamecache.json",
+				"/home/desker/.minecraft/window_settings_launcher.conf",
+				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
@@ -853,15 +830,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/regex.py",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/Disable AV windows.ps1",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/ways to disable real time monitoring windows.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 48.0
 			},
 			"find_in_files":
 			{
@@ -875,6 +848,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"udp://opentracker.i2p.rocks:6969/announce",
 					"chrome",
 					"#",
 					"market",
@@ -919,129 +893,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 85,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/.minecraft/usernamecache.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 55,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JSON/JSON.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/.minecraft/window_settings_launcher.conf",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 83,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/desker/xorg.conf",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1461,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1085,7 +936,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
 			"project": "",
 			"replace":
 			{
