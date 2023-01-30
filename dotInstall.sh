@@ -145,7 +145,7 @@ setxkbmap -model abnt2 -layout br -variant abnt2 >/dev/null 2>&1
 getDate
 echo 'Some usefull stuff'
 $install libxcb xcb-util xcb-util-keysyms xcb-util-wm bc xdg-utils
-$install gcc patch curl zlib readline libxml2 libxslt xdo xdotool gksu
+$install gcc patch curl zlib readline libxml2 libxslt xdo xdotool wmctrl gksu
 $install ca-certificates-utils ca-certificates curl grep libqalculate
 # https://zaiste.net/posts/shell-commands-rust/
 $install fd fzf ripgrep procs sd exa lsd dust tealdeer

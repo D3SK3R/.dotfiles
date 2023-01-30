@@ -1,7 +1,7 @@
 # name: Powersave
 
 # CPU	Min	Max	Governor	Online
-0	1200	3200	powersave	True
+0	1200	1300	powersave	True
 1	1200	3200	powersave	True
 2	1200	3200	powersave	True
 3	1200	3200	powersave	True

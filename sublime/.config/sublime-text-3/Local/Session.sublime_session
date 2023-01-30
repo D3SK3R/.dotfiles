@@ -32,7 +32,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675104877,
+	"next_update_check": 1675191277,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -378,7 +378,7 @@
 			],
 			"find":
 			{
-				"height": 48.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -565,6 +565,22 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
+					"settings":
+					{
+						"buffer_size": 51,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+					"settings":
+					{
+						"buffer_size": 794,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -834,7 +850,7 @@
 			],
 			"find":
 			{
-				"height": 48.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -893,6 +909,67 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 51,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 794,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -936,7 +1013,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{

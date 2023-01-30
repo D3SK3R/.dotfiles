@@ -5,7 +5,8 @@
 file=/tmp/gamemode
 notifyid=6125
 
-if [ -z $(ls /tmp/ | grep gamemode) ]; then
+# if there's not gamemode file in /tmp/
+if [ -z $(ls /tmp/gamemode) ]; then
     # Create toggle file
     touch $file
 
@@ -19,7 +20,8 @@ if [ -z $(ls /tmp/ | grep gamemode) ]; then
     # Killing polybar
     kill -9 $(ps aux | grep polybar | grep main | awk '{print $2}')
 
-
+    # Enable performance cpu scheduler
+    cpupower-gui profile Performance >/dev/null
 
     # Kill compositor
     sleep 1.6 && killall picom
@@ -37,6 +39,9 @@ else
 
     # Starting Polybar
     $HOME/.config/polybar/launch.sh && sleep 1.2 && bspc config top_padding 33 &
+
+    # Enable performance cpu scheduler
+    cpupower-gui profile Conservative >/dev/null
 
     # Starting compositor
     picom -b &

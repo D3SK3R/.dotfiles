@@ -107,7 +107,7 @@ sleep 2 && st -T floating_terminal2 &
 
 light -I &
 
-~/.scripts/cpuBoost &
+~/.scripts/cpuSched &
 
 prime-offload &
 
