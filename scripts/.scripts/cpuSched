@@ -8,31 +8,31 @@ while true; do
 
   echo "Current scheduler: $scheduler"
 
-  if [ $(ls /tmp/gamemode) ]; then
-    echo "gamemode on, exiting"
-    exit
-  fi
-
-  if [[ $power = "on-line" ]]; then
-    if [[ $scheduler != "conservative" ]]; then
-      echo "Connected to power, setting CPU governor to Conservative"
-      cpupower-gui profile Conservative >/dev/null
-
-      # echo "ondemand" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-      # sudo cpupower frequency-set -g ondemand
-      #echo "1" | sudo tee /sys/devices/system/cpu/cpufreq/boost
-    fi
+  if [ -f /tmp/gamemode ]; then
+    echo "gamemode on, not changing scheduler"
   else
-    if [[ $scheduler != "powersave" ]]; then
-      echo "Not connected to power, setting CPU governor to Powersave"
-      cpupower-gui profile Powersave >/dev/null
 
-      # echo "powersave" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-      # sudo cpupower frequency-set -g powersave
-      #echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+    if [[ $power = "on-line" ]]; then
+      if [[ $scheduler != "conservative" ]]; then
+        echo "Connected to power, setting CPU governor to Conservative"
+        cpupower-gui profile Conservative >/dev/null
+
+        # echo "ondemand" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+        # sudo cpupower frequency-set -g ondemand
+        #echo "1" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+      fi
+    else
+      if [[ $scheduler != "powersave" ]]; then
+        echo "Not connected to power, setting CPU governor to Powersave"
+        cpupower-gui profile Powersave >/dev/null
+
+        # echo "powersave" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+        # sudo cpupower frequency-set -g powersave
+        #echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost
+      fi
     fi
-  fi
 
+  fi
   sleep 10
 done
 

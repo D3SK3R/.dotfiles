@@ -107,7 +107,7 @@ sleep 2 && st -T floating_terminal2 &
 
 light -I &
 
-~/.scripts/cpuSched &
+sleep 2; sh ~/.scripts/cpuSched &
 
 prime-offload &
 

@@ -30,6 +30,27 @@ EndSection' > /etc/X11/xorg.conf.d/20-nvidia.conf
 options nouveau modeset=0' > /etc/modprobe.d/modules.conf
 
   echo 'options nvidia_drm modeset=1' > /etc/modprobe.d/zz-nvidia-modeset.conf
+
+  echo "[Trigger]
+Operation=Install
+Operation=Upgrade
+Operation=Remove
+Type=Package
+Target=nvidia
+Target=nvidia-lts
+Target=nvidia-dkms
+Target=nvidia-beta
+Target=nvidia-340xx
+Target=nvidia-390xx
+Target=dkms
+
+[Action]
+Description=Update Nvidia module in initcpio
+Depends=mkinitcpio
+When=PostTransaction
+NeedsTargets
+Exec=/bin/sh -c 'while read -r trg; do case $trg in linux) exit 0; esac; done; /usr/bin/mkinitcpio -P'
+" > /etc/pacman.d/hooks/nvidia.hook
 fi
 
 # amd drivers
@@ -39,7 +60,7 @@ read -p "Using AMD? [Y/n] " amd
 if [[ $amd == "y" ]] || [[ $amd == "Y" ]] || [[ -z $amd ]]; then
   pacman -S mesa lib32-mesa mesa-demos lib32-mesa-demos xf86-video-amdgpu
   pacman -S mesa-vdpau lib32-mesa-vdpau libva-mesa-driver lib32-libva-mesa-driver
-  pacman -S vulkan-radeon lib32-vulkan-radeon  
+  pacman -S vulkan-radeon lib32-vulkan-radeon amd-ucode  
 
   echo 'Section "Device"
      Identifier "AMD"
@@ -55,6 +76,19 @@ options radeon cik_support=0' > /etc/modprobe.d/radeon.conf
 
   echo 'options amdgpu si_support=1
 options amdgpu cik_support=1' > /etc/modprobe.d/amdgpu.conf
+
+  echo "[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = amd-ucode
+
+[Action]
+Description = Pacman hook to keep an up-to-date grub
+When = PostTransaction
+Exec = /bin/sh -c "grub-mkconfig -o /boot/grub/grub.cfg"
+" > /etc/pacman.d/hooks/amd-ucode.hook
 fi
 
 echo "Optimus"
@@ -81,6 +115,73 @@ getDate(){
     date=$(date +'%A, %B %d, %H:%M:%S')
     echo $date
 }
+
+getDate
+echo 'Creating grub install/update hooks'
+echo "[Trigger]
+Operation = Upgrade
+Type = Package
+Target = grub
+
+[Action]
+Description = Executing grub-install...
+When = PostTransaction
+Exec = /usr/bin/grub-install --target=x86_64-efi --efi-directory=/boot/efi
+" > /etc/pacman.d/hooks/grub-install.hook
+
+echo "[Trigger]
+Operation = Upgrade
+Type = Package
+Target = grub
+
+[Action]
+Description = Executing grub-mkconfig ...
+When = PostTransaction
+Exec = /bin/sh -c "grub-mkconfig -o /boot/grub/grub.cfg"
+" > /etc/pacman.d/hooks/grub-mkconfig.hook
+
+echo "[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = linux
+Target = linux-next*
+Target = linux-new*
+Target = linux-amd*
+Target = linux-lts*
+Target = linux-zen*
+Target = linux-hardened*
+Target = linux-xanmod*
+Target = linux-tkg*
+Target = linux-raven*
+Target = linux-slim*
+Target = linux-test*
+Target = linux-main*
+Target = linux-dctxmei*
+Target = linux-froidzen*
+Target = linux-jwrdegoede*
+
+[Action]
+Description = Pacman hook to update-grub automatically
+When = PostTransaction
+Exec = /bin/sh -c "grub-mkconfig -o /boot/grub/grub.cfg"
+" > /etc/pacman.d/hooks/kernel-linux.hook
+
+echo "[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = linux*
+Target = systemd*
+Target = nvidia*
+
+[Action]
+Description = #### Important Linux packages have changed. Reboot is recommended. ####
+When = PostTransaction
+Exec = /usr/bin/true
+" > /etc/pacman.d/hooks/reboot-important-updates.hook
 
 getDate
 # Keyboard layout and timedate
@@ -306,13 +407,14 @@ vm.dirty_writeback_centisecs = 500
 # TCP Fast Open is an extension to the transmission control protocol (TCP) that helps reduce network latency
 # by enabling data to be exchanged during the sender’s initial TCP SYN [3]. 
 # Using the value 3 instead of the default 1 allows TCP Fast Open for both incoming and outgoing connections:
-net.ipv4.tcp_fastopen = 3" > /etc/sysctl.d/99-sysctl-performance.conf
+net.ipv4.tcp_fastopen = 3
+" > /etc/sysctl.d/99-sysctl-performance.conf
 
 echo 'mkinitcpio'
 sed -i 's/#COMPRESSION="lz4"/COMPRESSION="lz4"/' /etc/mkinitcpio.conf && \
 sed -i 's/#COMPRESSION_OPTIONS=()/COMPRESSION_OPTIONS=(-9)/' /etc/mkinitcpio.conf
 
-echo 'IO Scheduler'
+echo 'Changing I/O scheduler SSD'
 echo '# set scheduler for NVMe
 ACTION=="add|change", KERNEL=="nvme[0-9]*", ATTR{queue/scheduler}="none"
 # set scheduler for SSD and eMMC
@@ -370,7 +472,7 @@ $install bind yad light rofi arandr gtk2 gtk3 lxappearance
 $install networkmanager nm-connection-editor pamac-gtk
 $install networkmanager-dmenu network-manager-applet
 $install networkmanager-openvpn nm-connection-editor
-$install wpa_supplicant wireless-tools netctl autorandr
+$install wpa_supplicant iwd wireless-tools netctl autorandr
 $install nitrogen viewnior ffmpeg-vulkan bc youtube-dl
 $install mediainfo highlight task-spooler copyq
 $install xfce4-power-manager python-pip dialog
@@ -477,12 +579,10 @@ $yay realvnc-vnc-server
 systemctl enable --now vncserver-x11-serviced.service
 
 getDate
-# Crontab to update locate db and set paranoid level (for vulkan)
+# Crontab to update locate db
 echo 'Creating a crontab to update locate db every 6 hours'
 $install cronie
-echo "@reboot echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost
-0 0,6,12,18 * * * /usr/bin/updatedb
-@reboot /sbin/sysctl -w dev.i915.perf_stream_paranoid=0" >> root && mv root /var/spool/cron/root && chown root /var/spool/cron/root
+echo "0 0,6,12,18 * * * /usr/bin/updatedb" >> root && mv root /var/spool/cron/root && chown root /var/spool/cron/root
 systemctl enable --now cronie
 
 getDate
@@ -494,14 +594,10 @@ getDate
 # Enable network manager
 echo 'Enabling network manager'
 systemctl enable --now NetworkManager
+systemctl enable --now systemd-resolved.service
 #systemctl enable --now systemd-networkd
 $install dhcp dhcpcd dhclient
 systemctl enable --now dhcpcd
-
-getDate
-# Disabling suspend pulseaudio
-echo 'Disabling suspend pulseaudio'
-sed -i 's/load-module module-suspend-on-idle/#load-module module-suspend-on-idle/' /etc/pulse/default.pa
 
 getDate
 echo 'Creating hook to paccache when running pacman'
@@ -520,6 +616,9 @@ Exec = /usr/bin/paccache -r -k 2" > /usr/share/libalpm/hooks/paccache.hook
 
 sed -i 's/#Color/Color/' /etc/pacman.conf && \
 sed -i 's/#CheckSpace/CheckSpace/' /etc/pacman.conf
+sed -i 's/#VerbosePkgLists/VerbosePkgLists/' /etc/pacman.conf
+sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
+sed -i 's/# Misc options/# Misc options\nILoveCandy/' /etc/pacman.conf
 
 getDate
 echo 'Editing journald.conf to limit its usage to 500mb'
@@ -528,6 +627,11 @@ sed -i 's/#SystemMaxUse=/SystemMaxUse=500/' /etc/systemd/journald.conf
 echo 'blacklist snd_pcsp' > /etc/modprobe.d/snd_pcsp.conf
 echo 'blacklist pcspkr' > /etc/modprobe.d/nobeep.conf
 echo 'blacklist evbug' > /etc/modprobe.d/disable-evbug.conf
+
+getDate
+echo 'Enabling fstrim.timer and paccache.timer services'
+systemctl enable --now fstrim.timer
+systemctl enable --now paccache.timer
 
 getDate
 echo 'Updating'
