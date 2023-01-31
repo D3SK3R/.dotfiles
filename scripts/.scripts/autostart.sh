@@ -75,6 +75,8 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
+run redshift
+
 sleep 3 && spotify & killall mpd &
 
 # sleep 2 && urxvt -title ncmpcpp -e ncmpcpp &
