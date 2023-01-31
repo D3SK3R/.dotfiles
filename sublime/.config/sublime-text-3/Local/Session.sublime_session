@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
+		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 		"/home/desker/.minecraft/usernamecache.json",
 		"/home/desker/.minecraft/window_settings_launcher.conf",
@@ -32,7 +35,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675191277,
+	"next_update_check": 1675277677,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -40,8 +43,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -247,6 +250,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
@@ -290,7 +296,6 @@
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
@@ -298,7 +303,6 @@
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
 				"/home/desker/site.txt",
-				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
@@ -373,8 +377,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf"
 			],
 			"find":
 			{
@@ -565,22 +568,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
-					"settings":
-					{
-						"buffer_size": 51,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
-					"settings":
-					{
-						"buffer_size": 794,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -719,6 +706,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
+				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
@@ -762,7 +752,6 @@
 				"/home/desker/models.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt",
@@ -770,7 +759,6 @@
 				"/home/desker/lyrics.txt",
 				"/run/media/desker/20160907_110626/autorun.inf",
 				"/home/desker/site.txt",
-				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/.config/Kvantum/WinSur-dark/WinSur-dark.kvconfig",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/themes/kvantum/where",
 				"/home/desker/.config/Kvantum/Kde-Story-Dark-Kvantum/Kde-Story-Dark-Kvantum.kvconfig",
@@ -845,8 +833,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/where and permission problems.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/nginx.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/permission problems.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/files to put inside the VPS/reverseProxy.conf"
 			],
 			"find":
 			{
@@ -909,67 +896,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 51,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 794,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 3,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1013,7 +939,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
