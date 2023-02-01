@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/metamaskPhrase.txt",
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -35,7 +36,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675277677,
+	"next_update_check": 1675364077,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -43,8 +44,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1376.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -250,6 +251,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -285,7 +287,6 @@
 				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
@@ -706,6 +707,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
@@ -741,7 +743,6 @@
 				"/home/desker/.scripts/rofi_power.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
-				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
 				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
@@ -939,7 +940,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
