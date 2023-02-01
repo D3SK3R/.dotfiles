@@ -75,7 +75,7 @@ run xautolock -time 60 -locker ~/.scripts/lock.sh
 
 run udiskie -t
 
-run redshift
+run redshift-gtk
 
 sleep 3 && spotify & killall mpd &
 
