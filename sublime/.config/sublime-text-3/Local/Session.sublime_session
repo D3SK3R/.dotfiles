@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/xorg.conf",
 		"/home/desker/MEGA/metamaskPhrase.txt",
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
@@ -8,7 +9,6 @@
 		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 		"/home/desker/.minecraft/usernamecache.json",
 		"/home/desker/.minecraft/window_settings_launcher.conf",
-		"/home/desker/xorg.conf",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 		"/home/desker/ffs",
@@ -36,7 +36,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675364077,
+	"next_update_check": 1675450477,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -44,8 +44,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -251,6 +251,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
@@ -258,7 +259,6 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
@@ -570,10 +570,235 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/xorg.conf",
+					"file": "/home/desker/MEGA/metamask.txt",
 					"settings":
 					{
-						"buffer_size": 1461,
+						"buffer_size": 436,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAANsAAAAAAAAA3AAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAAAAAAAAANsAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": "A"
+							},
+							"AQAAANsAAAAAAAAA3AAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAAAAAAAAANsAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							10,
+							1,
+							"left_delete",
+							null,
+							"AQAAANsAAAAAAAAA2wAAAAAAAAABAAAAQQ",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADcAAAAAAAAANwAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "Airdrop"
+							},
+							"BwAAANsAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADdAAAAAAAAAAAAAADdAAAAAAAAAN4AAAAAAAAAAAAAAN4AAAAAAAAA3wAAAAAAAAAAAAAA3wAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOEAAAAAAAAAAAAAAOEAAAAAAAAA4gAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAAAAAAAAANsAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAAOIAAAAAAAAA4wAAAAAAAAAAAAAA4wAAAAAAAADkAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADiAAAAAAAAAOIAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "\nKey:"
+							},
+							"BQAAAOQAAAAAAAAA5QAAAAAAAAAAAAAA5QAAAAAAAADmAAAAAAAAAAAAAADmAAAAAAAAAOcAAAAAAAAAAAAAAOcAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADpAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADkAAAAAAAAAOQAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAOkAAAAAAAAA6gAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADpAAAAAAAAAOkAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							16,
+							1,
+							"",
+							null,
+							"AQAAAOoAAAAAAAAAKgEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADqAAAAAAAAAOoAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAOQAAAAAAAAA5QAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADkAAAAAAAAAOQAAAAAAAAAAAAAAABog0A"
+						],
+						[
+							19,
+							1,
+							"left_delete",
+							null,
+							"AQAAAOQAAAAAAAAA5AAAAAAAAAABAAAAIA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADlAAAAAAAAAOUAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": ":"
+							},
+							"AQAAAOQAAAAAAAAA5QAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADkAAAAAAAAAOQAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADlAAAAAAAAAOUAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							23,
+							1,
+							"",
+							null,
+							"AQAAAOYAAAAAAAAAEAEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADmAAAAAAAAAOYAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": "\nk"
+							},
+							"AgAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							27,
+							1,
+							"left_delete",
+							null,
+							"AQAAADYAAAAAAAAANgAAAAAAAAABAAAAaw",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA3AAAAAAAAADcAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "Key:"
+							},
+							"BAAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOgAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA2AAAAAAAAADYAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADoAAAAAAAAAOwAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							31,
+							1,
+							"",
+							null,
+							"AQAAADsAAAAAAAAAewAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							41,
+							1,
+							"paste",
+							null,
+							"AQAAAJ0BAAAAAAAA7gEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACdAQAAAAAAAJ0BAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAO4BAAAAAAAA7wEAAAAAAAAAAAAA7wEAAAAAAADwAQAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADuAQAAAAAAAO4BAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							52,
+							1,
+							"",
+							null,
+							"AgAAAM4AAAAAAAAAAQEAAAAAAAAAAAAAAQEAAAAAAAABAQAAAAAAAFIAAABfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18K",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADOAAAAAAAAACABAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							58,
+							1,
+							"",
+							null,
+							"AgAAAH4BAAAAAAAAsQEAAAAAAAAAAAAAsQEAAAAAAACxAQAAAAAAAFEAAABfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+AQAAAAAAAM8BAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							61,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAEBAAAAAAAAAgEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAQAAAAAAAAEBAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"file": "/home/desker/Ozark/Ozark 3ª Temporada Completa 2020 [720p] [DUAL]/Ozark.S03E08.720p.WEB-DL.DD5.1.x264-DUAL.COMANDO.TO.srt",
+					"settings":
+					{
+						"buffer_size": 43322,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -715,6 +940,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/metamaskPhrase.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
@@ -722,7 +948,6 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/xorg.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
@@ -907,12 +1132,41 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/xorg.conf",
+							"file": "/home/desker/MEGA/metamask.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 436,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										436,
+										436
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/Ozark/Ozark 3ª Temporada Completa 2020 [720p] [DUAL]/Ozark.S03E08.720p.WEB-DL.DD5.1.x264-DUAL.COMANDO.TO.srt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1461,
+								"buffer_size": 43322,
 								"regions":
 								{
 								},
@@ -925,9 +1179,7 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -980,7 +1232,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
