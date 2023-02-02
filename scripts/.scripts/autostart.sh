@@ -4,12 +4,12 @@
 # if not, run it with an & in the end
 function run {
     if ! pgrep $1; then
-        $@&
+        $@ &
     fi
 }
 
-run dunst
-sleep 2 && dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script" &
+sleep 4 && run dunst &
+# sleep 2 && dunstify -i "/usr/share/icons/Papirus-Dark/16x16/emblems/checkmark.svg" "Running autostart script" &
 
 #######################
 ###     scripts     ###
@@ -112,6 +112,9 @@ light -I &
 sleep 2; sh ~/.scripts/cpuSched &
 
 prime-offload &
+
+# hide the mouse cursor
+# run unclutter --start-hidden & sleep 2 && killall unclutter
 
 eww -c ~/.config/eww/fool_moon/menu/ daemon & 
 eww -c ~/.config/eww/fool_moon/meters/ daemon &
