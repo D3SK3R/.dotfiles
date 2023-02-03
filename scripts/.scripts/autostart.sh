@@ -116,6 +116,6 @@ prime-offload &
 # hide the mouse cursor
 # run unclutter --start-hidden & sleep 2 && killall unclutter
 
-eww -c ~/.config/eww/fool_moon/menu/ daemon & 
-eww -c ~/.config/eww/fool_moon/meters/ daemon &
+# eww -c ~/.config/eww/fool_moon/menu/ daemon & 
+# eww -c ~/.config/eww/fool_moon/meters/ daemon &
 
