@@ -65,6 +65,10 @@ case $class in
             echo "center=on"
 
         fi
+        # if [[ $title == "MetaMask Notification" ]]; then
+        #   echo "rectangle=780x425+2111+173"
+        #   echo "state=tiled"
+        # fi
         ;;
     "discord" | "lightcord")
         if [[ "$title" =~ .*\Discord ]] || [[ "$title" =~ .*\Lightcord ]]; then

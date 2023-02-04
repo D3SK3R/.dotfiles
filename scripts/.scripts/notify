@@ -1,0 +1,6 @@
+#!/bin/sh
+
+dunstify 'Finished'
+
+mpg123 -q ~/.scripts/ding-notif.mp3
+
