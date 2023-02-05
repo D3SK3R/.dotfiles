@@ -166,9 +166,10 @@ XF86Audio{Play,Stop,Prev,Next}
 ##                           WM independent Keybindings                                ##
 #########################################################################################
 
-# Kill/quit/close focused window
-super + shift + q
+# Kill/quit/close focused window or all windows in workspace
+super + {_, shift} + q
     xdo close
+    {xdo close, bspc node any.local.\!hidden --kill}
 
 #########################################################################################
 ##                               BSPWM Keybindings                                     ##
