@@ -525,7 +525,7 @@ $install alsa-utils
 systemctl enable --now alsa-restore
 
 getDate
-$install polybar gucharmap cpupower cpupower-gui acpi
+$install polybar gucharmap auto-cpufreq cpupower cpupower-gui acpi
 $install kvantum qt5ct qt5-base qt5-tools 
 $install qt5-styleplugins qt6ct qt6-base qt6-tools
 $install mintstick syncthing ark
@@ -598,6 +598,55 @@ systemctl enable --now systemd-resolved.service
 #systemctl enable --now systemd-networkd
 $install dhcp dhcpcd dhclient
 systemctl enable --now dhcpcd
+
+getDate
+echo 'Setting up auto-cpufreq and enabling its service'
+echo "# settings for when connected to a power source
+[charger]
+# see available governors by running: cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+# preferred governor.
+governor = conservative
+
+# minimum cpu frequency (in kHz)
+# example: for 800 MHz = 800000 kHz --> scaling_min_freq = 800000
+# see conversion info: https://www.rapidtables.com/convert/frequency/mhz-to-hz.html
+# to use this feature, uncomment the following line and set the value accordingly
+# scaling_min_freq = 800000
+scaling_min_freq = 1200000
+
+# maximum cpu frequency (in kHz)
+# example: for 1GHz = 1000 MHz = 1000000 kHz -> scaling_max_freq = 1000000
+# see conversion info: https://www.rapidtables.com/convert/frequency/mhz-to-hz.html
+# to use this feature, uncomment the following line and set the value accordingly
+# scaling_max_freq = 1000000
+scaling_max_freq = 3200000
+
+# turbo boost setting. possible values: always, auto, never
+turbo = auto
+
+# settings for when using battery power
+[battery]
+# see available governors by running: cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+# preferred governor
+governor = powersave
+
+# minimum cpu frequency (in kHz)
+# example: for 800 MHz = 800000 kHz --> scaling_min_freq = 800000
+# see conversion info: https://www.rapidtables.com/convert/frequency/mhz-to-hz.html
+# to use this feature, uncomment the following line and set the value accordingly
+scaling_min_freq = 1200000
+
+# maximum cpu frequency (in kHz)
+# see conversion info: https://www.rapidtables.com/convert/frequency/mhz-to-hz.html
+# example: for 1GHz = 1000 MHz = 1000000 kHz -> scaling_max_freq = 1000000
+# to use this feature, uncomment the following line and set the value accordingly
+# scaling_max_freq = 1000000
+scaling_max_freq = 2800000
+
+# turbo boost setting. possible values: always, auto, never
+turbo = never
+" > /etc/auto-cpufreq.conf
+systemctl enable --now auto-cpufreq
 
 getDate
 echo 'Creating hook to paccache when running pacman'

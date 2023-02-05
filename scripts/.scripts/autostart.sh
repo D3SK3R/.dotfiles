@@ -57,7 +57,7 @@ run urxvtd -q -o -f
 
 run xsetroot -cursor_name left_ptr
 
-sleep 1;run xfce4-power-manager
+sleep 1 && run xfce4-power-manager &
 
 run megasync
 
@@ -73,9 +73,9 @@ run clipster -d
 
 run xautolock -time 60 -locker ~/.scripts/lock.sh
 
-run udiskie -t
+run udiskie --smart-tray --no-notify
 
-run redshift-gtk
+# run redshift-gtk
 
 sleep 3 && spotify & killall mpd &
 
@@ -109,12 +109,9 @@ sleep 2 && st -T floating_terminal2 &
 
 light -I &
 
-sleep 2; sh ~/.scripts/cpuSched &
+# sleep 2; sh ~/.scripts/cpuSched &
 
 prime-offload &
-
-# hide the mouse cursor
-# run unclutter --start-hidden & sleep 2 && killall unclutter
 
 # eww -c ~/.config/eww/fool_moon/menu/ daemon & 
 # eww -c ~/.config/eww/fool_moon/meters/ daemon &
