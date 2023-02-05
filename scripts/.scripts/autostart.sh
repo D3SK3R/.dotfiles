@@ -47,7 +47,7 @@ sleep 6 && polybar-msg action "#target.hook.0" >/dev/null &
 #######################
 xrdb -merge $HOME/.Xresources &
 
-start-pulseaudio-x11 &
+sleep 1 && start-pulseaudio-x11 &
 
 #run mpd
 
