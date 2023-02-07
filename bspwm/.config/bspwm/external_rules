@@ -224,6 +224,11 @@ case $class in
     "Gwe")
         echo "state=floating"
         ;;
+    "Gnome-system-monitor")
+        echo "state=floating"
+        echo "rectangle=1246x669+1720+218"
+        echo "center=on"
+        ;;
     # For programs that takes too long to set a WM_CLASS
     *)
         case $(ps -p "$(xdo pid "$wid")" -o comm= 2>/dev/null) in
