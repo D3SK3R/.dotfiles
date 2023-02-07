@@ -1,6 +1,6 @@
 #!/bin/sh
 #0.5
-$HOME/.config/polybar/launch.sh &
+sleep 1 && $HOME/.config/polybar/launch.sh &
 #2
 sleep 1 && picom -b &
 sleep 0.5 && nitrogen --restore &
