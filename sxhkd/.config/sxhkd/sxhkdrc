@@ -219,7 +219,7 @@ super + ctrl + {Left,Down,Up,Right}
 
 # toggle floating focus/mode
 super + {_,shift + } space
-    {bspc node -f any.floating.local.\!hidden,bspc node -t \~floating}
+    {bspc node -f any.floating.local.\!hidden,~/.config/bspwm/toggleFloatingTiled}
 
 # toggle fullscreen and pseudo-fullscreen
 super + {shift, ctrl} + f

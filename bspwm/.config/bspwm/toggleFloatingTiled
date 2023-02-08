@@ -1,0 +1,20 @@
+#!/bin/sh
+
+currentState=$(bspc query -n --tree | jq | awk '/state/{gsub("\"","");gsub(",","");print $2}')
+
+if [[ $currentState == "floating" ]]; then
+  bspc node --state tiled
+elif [[ $currentState == "tiled" ]]; then
+  bspc node --state floating
+elif [[ $currentState == "fullscreen" ]]; then
+  lastState=$(bspc query -n --tree | jq | awk '/lastState/{gsub("\"","");gsub(",","");print $2}')
+  # from fullscreen to tiled if it was floating > fullscreen
+  if [[ $lastState == "floating" ]]; then
+    bspc node --state tiled
+    exit
+  # from fullscreen to floating if it was tiled > fullscreen
+  else
+    bspc node --state floating
+  fi
+fi
+
