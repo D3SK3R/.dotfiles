@@ -167,9 +167,11 @@ XF86Audio{Play,Stop,Prev,Next}
 #########################################################################################
 
 # Kill/quit/close focused window or all windows in workspace
-super + {_, shift} + q
-    xdo close
-    {xdo close, bspc node any.local.\!hidden --kill}
+super + {_, ctrl} + q
+    {xdo close, bspc query -N -n .local.\!hidden | xargs xdo close}
+
+    # bugged bspc??
+    {xdo close, bspc node .local.\!hidden --kill}
 
 #########################################################################################
 ##                               BSPWM Keybindings                                     ##

@@ -10,14 +10,14 @@ pacman -S reflector
 reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 
 # basic packages
-pacman -S base base-devel linux-firmware
+pacman -S base base-devel linux linux-firmware
 
 if pacman -Q | grep "nvidia" >/dev/null; then
-    echo "Nvidia Drivers installed, proceeding with the script"
+  echo "Nvidia Drivers installed, proceeding with the script"
 else
-    echo 'Installing nvidia drivers'
-    pacman -S nvidia-dkms nvidia-utils nvidia-settings nvidia-prime gwe
-    echo 'Installed, reboot and run the script again.'
+  echo 'Installing nvidia drivers'
+  pacman -S nvidia-dkms nvidia-utils nvidia-settings nvidia-prime gwe
+  echo 'Installed, reboot and run the script again.'
   echo 'Section "OutputClass"
 	Identifier    "nvidia"
 	MatchDriver   "nvidia-drm"
