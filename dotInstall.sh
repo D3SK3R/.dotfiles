@@ -96,7 +96,7 @@ pacman -S optimus-manager bbswitch-dkms
 systemctl enable optimus-manager.service
 
 username='desker'
-groupadd sudo;usermod -aG sudo $username
+groupadd sudo;usermod -aG sudo,audio,video,storage,wheel $username
 usermod -aG wheel $username
 
 sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
@@ -462,8 +462,8 @@ getDate
 # zsh
 echo 'zsh'
 $install zsh
-chsh -s "$(which zsh)"
-sudo -u $USER chsh -s /usr/bin/zsh
+chsh -s /bin/zsh
+sudo -u $USER chsh -s /bin/zsh
 $yay zsh-fast-syntax-highlighting
 $yay oh-my-zsh-git zsh-theme-powerlevel10k-git
 
