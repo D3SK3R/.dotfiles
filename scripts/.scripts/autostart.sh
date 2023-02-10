@@ -85,7 +85,7 @@ sleep 3 && spotify & killall mpd &
 nitrogen --restore &
 
 # picom -b --experimental-backend &
-picom -b &
+picom &
 
 sleep 3 && flashfocus &
 

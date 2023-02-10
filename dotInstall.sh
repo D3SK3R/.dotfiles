@@ -487,12 +487,9 @@ $yay brightness-controller-git
 getDate
 # Fonts
 echo 'fonts'
-$install noto-fonts noto-fonts-emoji
+$install noto-fonts noto-fonts-emoji nerd-fonts
 # $install ttf-nerd-fonts-symbols
-$install ttf-twemoji
-$install ttf-symbola
-$install ttf-font-icons
-$install ttf-fira-code
+$yay ttf-twemoji ttf-symbola ttf-font-icons ttf-fira-code
 
 echo 'Updating fonts'
 fc-cache -fv
@@ -663,7 +660,7 @@ Description = Cleaning pacman cache with paccache...
 When = PostTransaction
 Exec = /usr/bin/paccache -r -k 2" > /usr/share/libalpm/hooks/paccache.hook
 
-sed -i 's/#Color/Color/' /etc/pacman.conf && \
+sed -i 's/#Color/Color/' /etc/pacman.conf
 sed -i 's/#CheckSpace/CheckSpace/' /etc/pacman.conf
 sed -i 's/#VerbosePkgLists/VerbosePkgLists/' /etc/pacman.conf
 sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
