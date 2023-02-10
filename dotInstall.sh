@@ -6,7 +6,7 @@ if [ "$EUID" != 0 ]; then
 fi
 
 echo 'sorting mirrors'
-pacman -S reflector
+pacman -S reflector rsync
 reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 
 # basic packages
