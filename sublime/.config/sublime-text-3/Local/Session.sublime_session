@@ -1,6 +1,11 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/deauthAttack.sh",
+		"/home/desker/facul",
+		"/home/desker/howlogs.txt",
+		"/home/desker/info",
+		"/home/desker/aa.txt",
 		"/home/desker/MEGA/metamask.txt",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
 		"/home/desker/Ozark/Ozark 3ª Temporada Completa 2020 [720p] [DUAL]/Ozark.S03E08.720p.WEB-DL.DD5.1.x264-DUAL.COMANDO.TO.srt",
@@ -39,7 +44,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1675882477,
+	"next_update_check": 1676141677,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -47,8 +52,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2810.0,
-			562.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -254,6 +259,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/deauthAttack.sh",
+				"/home/desker/facul",
+				"/home/desker/howlogs.txt",
+				"/home/desker/info",
+				"/home/desker/aa.txt",
 				"/home/desker/MEGA/metamask.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
 				"/home/desker/Ozark/Ozark 3ª Temporada Completa 2020 [720p] [DUAL]/Ozark.S03E08.720p.WEB-DL.DD5.1.x264-DUAL.COMANDO.TO.srt",
@@ -376,12 +386,7 @@
 				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
-				"/home/d3sk3r/st/config.def.h",
-				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
-				"/home/d3sk3r/Desec - 2020/Informações.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt"
 			],
 			"find":
 			{
@@ -573,12 +578,33 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/aa.txt",
+					"contents": "",
 					"settings":
 					{
-						"buffer_size": 176849,
+						"buffer_size": 0,
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "q"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAcQ",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -718,6 +744,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/deauthAttack.sh",
+				"/home/desker/facul",
+				"/home/desker/howlogs.txt",
+				"/home/desker/info",
+				"/home/desker/aa.txt",
 				"/home/desker/MEGA/metamask.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/openPort.txt",
 				"/home/desker/Ozark/Ozark 3ª Temporada Completa 2020 [720p] [DUAL]/Ozark.S03E08.720p.WEB-DL.DD5.1.x264-DUAL.COMANDO.TO.srt",
@@ -840,12 +871,7 @@
 				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt",
-				"/home/d3sk3r/st/config.def.h",
-				"/home/d3sk3r/st-0.8.5/config.def.h.rej",
-				"/home/d3sk3r/Desec - 2020/Informações.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/default.conf",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/reverseProxyVPS/reverseProxyVPS.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt"
 			],
 			"find":
 			{
@@ -910,28 +936,28 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/aa.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 176849,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										114191,
-										114191
+										0,
+										0
 									]
 								],
 								"settings":
 								{
+									"auto_name": "",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 26815.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -981,7 +1007,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2808,560,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
