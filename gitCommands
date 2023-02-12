@@ -8,5 +8,5 @@ git commit -m "removing conflicting files"
 git pull
 git push git@github.com:D3SK3R/.dotfiles
 
-# clean repo
+# clear repo safely
 git gc --no-prune
