@@ -99,7 +99,7 @@ ENABLE_CORRECTION="true"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 #PATH=\$PATH:${HOME}/.gem/ruby/2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/opt/nessus/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
-PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/
+PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/nessus/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:${HOME}/.local/bin/:${HOME}/.spicetify
 
 # https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load/#initial-setup
 # Which plugins would you like to load?
@@ -510,4 +510,3 @@ fi
 #clear
 unsetopt PROMPT_SP
 
-export PATH=$PATH:/home/desker/.spicetify

@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/desker/archTexto.txt",
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
 		"/home/desker/MEGA/deauthAttack.sh",
 		"/home/desker/facul",
 		"/home/desker/howlogs.txt",
@@ -44,7 +47,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1676141677,
+	"next_update_check": 1676312278,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -52,8 +55,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			0.0,
+			195.0
 		],
 		"new_window_settings":
 		{
@@ -259,6 +262,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/archTexto.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
 				"/home/desker/MEGA/deauthAttack.sh",
 				"/home/desker/facul",
 				"/home/desker/howlogs.txt",
@@ -383,10 +389,7 @@
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt"
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt"
 			],
 			"find":
 			{
@@ -577,35 +580,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							1,
-							1,
-							"insert",
-							{
-								"characters": "q"
-							},
-							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							2,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAcQ",
-							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -744,6 +718,9 @@
 			},
 			"file_history":
 			[
+				"/home/desker/archTexto.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
 				"/home/desker/MEGA/deauthAttack.sh",
 				"/home/desker/facul",
 				"/home/desker/howlogs.txt",
@@ -868,10 +845,7 @@
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/her number.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/info.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/arpspoof.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/XSS-Payloads.txt"
+				"/home/d3sk3r/MEGA/discord/sbll/her number.txt"
 			],
 			"find":
 			{
@@ -934,36 +908,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"auto_name": "",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1007,7 +951,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,0,195,1366,924,3286,1080,0",
 			"project": "",
 			"replace":
 			{

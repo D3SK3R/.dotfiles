@@ -21,7 +21,7 @@ alias rmtrash='sudo \rm -rf ~/.local/share/Trash/files/*;\rm ~/.local/share/Tras
 alias trashcd='cd ~/.local/share/Trash/files/'
 # confirm before mv or cp overwriting files
 alias mv='mv -i'
-alias cp='cp -ri'
+alias cp='cp -vri'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias mkdir='mkdir -p'

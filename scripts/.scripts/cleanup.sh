@@ -7,7 +7,7 @@
 # sudo paccache -r -k 2: clean all packages, except the 2 most recent versions
 
 if [ -z "$1" ]; then
-    read -p "This command will remove cached packages and sync database of not installed packages, keep only the 2 most recent versions of installed packages (paccache), and remove all unused dependencies... It will also clean the trash.
+    read -p "This command will remove cached packages and sync database of not installed packages, keep only the 2 most recent versions of installed packages (paccache), and remove all unused dependencies... It will also clean the trash and run fstrim.
 [Y/n]: " choice 
 fi
 
@@ -49,6 +49,8 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
     # printf "\n optimizing dotfiles .git folder\nMAY TAKE A LONG TIME\n"
     # cd ~/.dotfiles/ 
     # git gc --no-prune
+    
+    sudo fstrim -va
 else
     printf "Aborting..."
 fi
