@@ -57,6 +57,7 @@ run_cmd() {
 			systemctl reboot
 		elif [[ $1 == '--hibernate' ]]; then
 			systemctl hibernate
+      ~/.script/lock.sh
 		elif [[ $1 == '--suspend' ]]; then
 			mpc -q pause
 			amixer set Master mute

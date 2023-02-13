@@ -98,4 +98,6 @@ fi
 #
 # 8 - Check xorg session log:
 # /home/desker/.local/share/sddm/xorg-session.log
-#
+# 
+# 9 - Maybe deleting the /swapfile
+# (remembering to disable hibernation, on grub and mikinitcpio.conf)
