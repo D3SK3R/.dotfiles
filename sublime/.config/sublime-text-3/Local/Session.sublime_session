@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 		"/home/desker/archTexto.txt",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
@@ -47,7 +48,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1676398678,
+	"next_update_check": 1676485078,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -55,7 +56,7 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
+			689.0,
 			562.0
 		],
 		"new_window_settings":
@@ -262,6 +263,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 				"/home/desker/archTexto.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
@@ -388,8 +390,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/her number.txt"
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt"
 			],
 			"find":
 			{
@@ -580,78 +581,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
-					"settings":
-					{
-						"buffer_size": 130,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAFcAAAAAAAAAWAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							4,
-							1,
-							"insert_snippet",
-							{
-								"contents": "($0)"
-							},
-							"AQAAAFgAAAAAAAAAWgAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							5,
-							1,
-							"insert",
-							{
-								"characters": "or"
-							},
-							"AgAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							6,
-							1,
-							"insert",
-							{
-								"characters": " 2,"
-							},
-							"AwAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": " or"
-							},
-							"AwAAAF4AAAAAAAAAXwAAAAAAAAAAAAAAXwAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGEAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": " 3..."
-							},
-							"BQAAAGEAAAAAAAAAYgAAAAAAAAAAAAAAYgAAAAAAAABjAAAAAAAAAAAAAABjAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -790,6 +719,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 				"/home/desker/archTexto.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/reverseProxyVPS/reverseProxyVPS.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/apacheserver",
@@ -916,8 +846,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
 				"/home/d3sk3r/promptSymbols.txt",
 				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/her number.txt"
+				"/home/d3sk3r/MEGA/discord/sbll/FullName.txt"
 			],
 			"find":
 			{
@@ -980,36 +909,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 130,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										102,
-										102
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1053,7 +952,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
+			"position": "0,1,0,0,0,687,560,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
