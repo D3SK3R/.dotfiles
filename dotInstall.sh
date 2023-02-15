@@ -256,7 +256,7 @@ $install net-tools ntp ttf-linux-libertine xterm
 $install gzip unzip unrar zip ntfs-3g debtap lm_sensors
 $install dosfstools libnotify exfat-utils openssh yay libgl
 $install lvm2 lxsession bind bind-tools rxvt-unicode
-$install iptables-nft
+$install iptables-nft fwupd
 $yay archlinux-tweak-tool-git
 
 printf '\nnoarp\n'
@@ -476,7 +476,8 @@ $install wpa_supplicant iwd wireless-tools netctl autorandr
 $install nitrogen viewnior ffmpeg-vulkan bc youtube-dl
 $install mediainfo highlight task-spooler copyq
 $install xfce4-power-manager python-pip dialog
-$install xfce4-settings mpv
+$install xfce4-settings mpv gst-plugins-ugly gst-plugins-good
+$install gst-plugins-base gst-plugins-bad gst-libav gstreamer
 $install google-chrome
 
 $yay clipit roficlip dunst dunstify megasync
@@ -678,6 +679,9 @@ getDate
 echo 'Enabling fstrim.timer and paccache.timer services'
 systemctl enable --now fstrim.timer
 systemctl enable --now paccache.timer
+
+echo 'Disabling new interface names'
+ln -s /dev/null /etc/systemd/network/99-default-link
 
 getDate
 echo 'Updating'
