@@ -153,7 +153,7 @@ alias blackeye='sudo ~/MEGA/D3SK3R/D3SK3R/pentest/Phishing/blackeye/blackeye.sh'
 #################################################################
 # WEB/IP related
 #################################################################
-alias server='python -m  http.server 1337'
+alias serverpy='python -m  http.server 2727'
 #alias httpdon='sudo systemctl enable httpd'
 #alias httpdoff='sudo systemctl disable httpd'
 alias ngrok='~/MEGA/D3SK3R/D3SK3R/ngrok/ngrok'
@@ -213,6 +213,7 @@ alias webcam-enable='sudo modprobe uvcvideo'
 
 # deskervps.duckdns.org
 alias vps='ssh -i ~/.ssh/id_rsa ubuntu@144.22.163.237'
+alias server='ssh root@216.238.102.227'
 
 # simple alternative:
 #alias crypto='f(){ forx $@ brl;  unset -f f; }; f'
