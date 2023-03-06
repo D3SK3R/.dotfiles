@@ -1,6 +1,10 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/discord/Nax/reward.txt",
+		"/home/desker/MEGA/discord/Sofia/info.txt",
+		"/home/desker/apparmorInstall.txt",
+		"/home/desker/usr.bin.ls",
 		"/home/desker/ethereum.csv",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 		"/home/desker/archTexto.txt",
@@ -49,7 +53,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1677752363,
+	"next_update_check": 1677969840,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -57,8 +61,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -264,6 +268,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/discord/Nax/reward.txt",
+				"/home/desker/MEGA/discord/Sofia/info.txt",
+				"/home/desker/apparmorInstall.txt",
+				"/home/desker/usr.bin.ls",
 				"/home/desker/ethereum.csv",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 				"/home/desker/archTexto.txt",
@@ -387,11 +395,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
-				"/home/d3sk3r/promptSymbols.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt"
 			],
 			"find":
 			{
@@ -585,49 +589,56 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/MEGA/discord/Nax/reward.txt",
+					"contents": "CREATE TABLE example_table (\n  created TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00',\n  updated_at TIMESTAMP NOT NULL ON UPDATE CURRENT_TIMESTAMP\n);",
 					"settings":
 					{
-						"buffer_size": 153,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"buffer_size": 151,
+						"line_ending": "Unix",
+						"name": "CREATE TABLE example_table ("
 					},
 					"undo_stack":
 					[
 						[
-							6,
+							2,
 							1,
 							"",
 							null,
-							"AQAAAAAAAAAAAAAAiAAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+							"AQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"paste",
+							null,
+							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAGUAAABBTFRFUiBUQUJMRSBgbXl0YWJsZWAKQ0hBTkdFIGBteWRhdGVmaWVsZGAgYG15ZGF0ZWZpZWxkYApUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"paste",
+							null,
+							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAC0AAABUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUAo",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAVElNRVNUQU1QIE5PVCBOVUxMIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAK",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"",
+							null,
+							"AQAAAAAAAAAAAAAAlwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
-				},
-				{
-					"file": "/home/desker/MEGA/discord/Sofia/info.txt",
-					"settings":
-					{
-						"buffer_size": 72,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/desker/apparmorInstall.txt",
-					"settings":
-					{
-						"buffer_size": 2274,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/usr.bin.ls",
-					"settings":
-					{
-						"buffer_size": 714,
-						"line_ending": "Unix"
-					}
 				}
 			],
 			"build_system": "",
@@ -767,6 +778,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/discord/Nax/reward.txt",
+				"/home/desker/MEGA/discord/Sofia/info.txt",
+				"/home/desker/apparmorInstall.txt",
+				"/home/desker/usr.bin.ls",
 				"/home/desker/ethereum.csv",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/VPS/increaseDiskSize.txt",
 				"/home/desker/archTexto.txt",
@@ -890,11 +905,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/wifiDeauth.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/DOToh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-4.3.11/Completion/X/Command/_xterm",
-				"/home/d3sk3r/promptSymbols.txt",
-				"/home/d3sk3r/MEGA/discord/sbll/Facebook and insta.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt"
 			],
 			"find":
 			{
@@ -961,113 +972,24 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/MEGA/discord/Nax/reward.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 153,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/discord/Sofia/info.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 72,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/apparmorInstall.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2274,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 741.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/desker/usr.bin.ls",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 714,
+								"buffer_size": 151,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										151,
+										151
 									]
 								],
 								"settings":
 								{
+									"auto_name": "CREATE TABLE example_table (",
 									"syntax": "Packages/Text/Plain text.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
@@ -1123,7 +1045,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
 			"project": "",
 			"replace":
 			{
