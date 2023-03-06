@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/run.py",
 		"/home/desker/MEGA/discord/Nax/reward.txt",
 		"/home/desker/MEGA/discord/Sofia/info.txt",
 		"/home/desker/apparmorInstall.txt",
@@ -53,7 +54,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1677969840,
+	"next_update_check": 1678201041,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -61,8 +62,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -268,6 +269,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/run.py",
 				"/home/desker/MEGA/discord/Nax/reward.txt",
 				"/home/desker/MEGA/discord/Sofia/info.txt",
 				"/home/desker/apparmorInstall.txt",
@@ -394,8 +396,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt"
 			],
 			"find":
 			{
@@ -604,7 +605,7 @@
 							"",
 							null,
 							"AQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 						],
 						[
 							7,
@@ -612,7 +613,7 @@
 							"paste",
 							null,
 							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAGUAAABBTFRFUiBUQUJMRSBgbXl0YWJsZWAKQ0hBTkdFIGBteWRhdGVmaWVsZGAgYG15ZGF0ZWZpZWxkYApUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAAAADwvw"
 						],
 						[
 							9,
@@ -620,7 +621,7 @@
 							"paste",
 							null,
 							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAC0AAABUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUAo",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
 						],
 						[
 							11,
@@ -628,7 +629,7 @@
 							"left_delete",
 							null,
 							"AQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAVElNRVNUQU1QIE5PVCBOVUxMIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAK",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
 						],
 						[
 							13,
@@ -636,9 +637,17 @@
 							"",
 							null,
 							"AQAAAAAAAAAAAAAAlwAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 						]
 					]
+				},
+				{
+					"file": "/home/desker/run.py",
+					"settings":
+					{
+						"buffer_size": 4383,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -778,6 +787,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/run.py",
 				"/home/desker/MEGA/discord/Nax/reward.txt",
 				"/home/desker/MEGA/discord/Sofia/info.txt",
 				"/home/desker/apparmorInstall.txt",
@@ -904,8 +914,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/wait for network to be configured fix.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt"
 			],
 			"find":
 			{
@@ -972,7 +981,6 @@
 					[
 						{
 							"buffer": 0,
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -991,6 +999,38 @@
 								{
 									"auto_name": "CREATE TABLE example_table (",
 									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/run.py",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4383,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
@@ -1045,7 +1085,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
