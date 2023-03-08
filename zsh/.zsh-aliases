@@ -79,6 +79,7 @@ alias psa='ps auxf'
 alias pscpu='ps -eo user,pid,pcpu,pmem,comm --sort -pcpu | head'
 alias psram='ps -eo user,pid,pcpu,pmem,comm --sort -pmem | head'
 alias cpuspeed='watch -n1 "cat /proc/cpuinfo | grep MHz"'
+alias temp="sensors 2>/dev/null | grep Tctl | sed 's/+//g' | awk '{print $2}'"
 alias free='free -mt'
 alias info='inxi -Fxz'
 alias ports='sudo netstat -tnlp'
