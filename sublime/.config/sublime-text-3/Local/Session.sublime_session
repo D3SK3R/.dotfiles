@@ -1,6 +1,12 @@
 {
 	"file_history":
 	[
+		"/home/desker/eth_addresses.csv",
+		"/home/desker/contractInfo/csvFilter/csvFilter.py",
+		"/home/desker/contractInfo/scraping/scrapping.py",
+		"/home/desker/contractInfo/scraping/tokenData.py",
+		"/home/desker/contractInfo/scraping/coinmarketcap.py",
+		"/home/desker/eth_filtered.csv",
 		"/home/desker/run.py",
 		"/home/desker/MEGA/discord/Nax/reward.txt",
 		"/home/desker/MEGA/discord/Sofia/info.txt",
@@ -62,8 +68,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1376.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -269,6 +275,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/eth_addresses.csv",
+				"/home/desker/contractInfo/csvFilter/csvFilter.py",
+				"/home/desker/contractInfo/scraping/scrapping.py",
+				"/home/desker/contractInfo/scraping/tokenData.py",
+				"/home/desker/contractInfo/scraping/coinmarketcap.py",
+				"/home/desker/eth_filtered.csv",
 				"/home/desker/run.py",
 				"/home/desker/MEGA/discord/Nax/reward.txt",
 				"/home/desker/MEGA/discord/Sofia/info.txt",
@@ -390,13 +402,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
 				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt"
 			],
 			"find":
 			{
@@ -589,77 +595,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "CREATE TABLE example_table (\n  created TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00',\n  updated_at TIMESTAMP NOT NULL ON UPDATE CURRENT_TIMESTAMP\n);",
-					"settings":
-					{
-						"buffer_size": 151,
-						"line_ending": "Unix",
-						"name": "CREATE TABLE example_table ("
-					},
-					"undo_stack":
-					[
-						[
-							2,
-							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAA",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							7,
-							1,
-							"paste",
-							null,
-							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAGUAAABBTFRFUiBUQUJMRSBgbXl0YWJsZWAKQ0hBTkdFIGBteWRhdGVmaWVsZGAgYG15ZGF0ZWZpZWxkYApUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUA",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							9,
-							1,
-							"paste",
-							null,
-							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAC0AAABUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUAo",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							11,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAVElNRVNUQU1QIE5PVCBOVUxMIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAK",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							13,
-							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAAlwAAAAAAAAAAAAAA",
-							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				},
-				{
-					"file": "/home/desker/eth_addresses.csv",
-					"settings":
-					{
-						"buffer_size": 1984745,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				},
-				{
-					"file": "/home/desker/eth_filtered.csv",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -798,6 +733,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/eth_addresses.csv",
+				"/home/desker/contractInfo/csvFilter/csvFilter.py",
+				"/home/desker/contractInfo/scraping/scrapping.py",
+				"/home/desker/contractInfo/scraping/tokenData.py",
+				"/home/desker/contractInfo/scraping/coinmarketcap.py",
+				"/home/desker/eth_filtered.csv",
 				"/home/desker/run.py",
 				"/home/desker/MEGA/discord/Nax/reward.txt",
 				"/home/desker/MEGA/discord/Sofia/info.txt",
@@ -919,13 +860,7 @@
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
 				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Burp Suite/How to install",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Disable key/how",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/Networkmanager Dmenu_Rofi/Where github and installation.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/google chrome/chromium.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/file exists in filesystem solve.txt"
+				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt"
 			],
 			"find":
 			{
@@ -990,96 +925,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 151,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										151,
-										151
-									]
-								],
-								"settings":
-								{
-									"auto_name": "CREATE TABLE example_table (",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/eth_addresses.csv",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1984745,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										282,
-										282
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/eth_filtered.csv",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1123,7 +968,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
