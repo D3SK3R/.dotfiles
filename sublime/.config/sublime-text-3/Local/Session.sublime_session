@@ -54,7 +54,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1678201041,
+	"next_update_check": 1678546641,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -605,7 +605,7 @@
 							"",
 							null,
 							"AQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
 							7,
@@ -613,7 +613,7 @@
 							"paste",
 							null,
 							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAGUAAABBTFRFUiBUQUJMRSBgbXl0YWJsZWAKQ0hBTkdFIGBteWRhdGVmaWVsZGAgYG15ZGF0ZWZpZWxkYApUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAZQAAAAAAAAAAAAAAAADwvw"
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
 							9,
@@ -621,7 +621,7 @@
 							"paste",
 							null,
 							"AgAAAAAAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAC0AAABUSU1FU1RBTVAgTk9UIE5VTEwgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUAo",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
 							11,
@@ -629,7 +629,7 @@
 							"left_delete",
 							null,
 							"AQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAVElNRVNUQU1QIE5PVCBOVUxMIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAK",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
 							13,
@@ -637,15 +637,26 @@
 							"",
 							null,
 							"AQAAAAAAAAAAAAAAlwAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
 				},
 				{
-					"file": "/home/desker/run.py",
+					"file": "/home/desker/eth_addresses.csv",
 					"settings":
 					{
-						"buffer_size": 4383,
+						"buffer_size": 1984745,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/desker/eth_filtered.csv",
+					"settings":
+					{
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -1006,18 +1017,47 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/desker/run.py",
+							"file": "/home/desker/eth_addresses.csv",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4383,
+								"buffer_size": 1984745,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										282,
+										282
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/eth_filtered.csv",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
 								"regions":
 								{
 								},
@@ -1030,15 +1070,13 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"stack_multiselect": false,
 							"type": "text"
 						}
