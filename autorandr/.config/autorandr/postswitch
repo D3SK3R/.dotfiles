@@ -4,9 +4,9 @@ sleep 2 && $HOME/.config/polybar/launch.sh &
 #2
 sleep 1 && picom -b &
 sleep 0.2 && nitrogen --restore &
-sleep 4 && bspc config top_padding 33 &
+sleep 2 && bspc config top_padding 33 &
 # 5
-sleep 5 && killall flashfocus;flashfocus &
+sleep 3 && killall flashfocus;flashfocus &
 
 # dunstify "running post switch" "autorandr" &
 
