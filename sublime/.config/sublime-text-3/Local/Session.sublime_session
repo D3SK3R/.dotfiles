@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 		"/home/desker/eth_addresses.csv",
 		"/home/desker/contractInfo/csvFilter/csvFilter.py",
 		"/home/desker/contractInfo/scraping/scrapping.py",
@@ -60,7 +61,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1678546641,
+	"next_update_check": 1678889175,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -68,8 +69,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			562.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -275,6 +276,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 				"/home/desker/eth_addresses.csv",
 				"/home/desker/contractInfo/csvFilter/csvFilter.py",
 				"/home/desker/contractInfo/scraping/scrapping.py",
@@ -401,8 +403,7 @@
 				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
-				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt"
+				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php"
 			],
 			"find":
 			{
@@ -733,6 +734,7 @@
 			},
 			"file_history":
 			[
+				"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 				"/home/desker/eth_addresses.csv",
 				"/home/desker/contractInfo/csvFilter/csvFilter.py",
 				"/home/desker/contractInfo/scraping/scrapping.py",
@@ -859,8 +861,7 @@
 				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
-				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php",
-				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt"
+				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php"
 			],
 			"find":
 			{
@@ -968,7 +969,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
