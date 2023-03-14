@@ -69,8 +69,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			0.0,
+			195.0
 		],
 		"new_window_settings":
 		{
@@ -596,6 +596,28 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "S",
+					"settings":
+					{
+						"buffer_size": 1,
+						"line_ending": "Unix",
+						"name": "S"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "S"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -926,6 +948,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"auto_name": "S",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -969,7 +1021,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,0,195,1366,924,3286,1080,0",
 			"project": "",
 			"replace":
 			{

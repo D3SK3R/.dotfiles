@@ -50,6 +50,7 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
     # cd ~/.dotfiles/ 
     # git gc --no-prune
     
+    printf "\ntrimming SSDs"
     sudo fstrim -va
 else
     printf "Aborting..."

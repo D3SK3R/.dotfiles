@@ -6,7 +6,7 @@ sleep 1 && picom -b &
 sleep 0.2 && nitrogen --restore &
 sleep 2 && bspc config top_padding 33 &
 # 5
-sleep 3 && killall flashfocus;flashfocus &
+sleep 3 && flashfocus &
 
 # dunstify "running post switch" "autorandr" &
 

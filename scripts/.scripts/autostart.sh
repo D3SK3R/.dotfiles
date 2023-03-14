@@ -87,7 +87,7 @@ nitrogen --restore &
 # picom -b --experimental-backend &
 picom &
 
-sleep 3 && flashfocus &
+sleep 4 && flashfocus &
 
 # disable the autostart option inside copyq's preferences
 sleep 4 && copyq &
