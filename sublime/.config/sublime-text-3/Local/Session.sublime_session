@@ -61,7 +61,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1678889175,
+	"next_update_check": 1678975575,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -69,8 +69,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			0.0,
-			195.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -614,9 +614,25 @@
 								"characters": "S"
 							},
 							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 						]
 					]
+				},
+				{
+					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+					"settings":
+					{
+						"buffer_size": 234,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/reverseShellpoc.txt",
+					"settings":
+					{
+						"buffer_size": 1151,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -950,7 +966,6 @@
 					[
 						{
 							"buffer": 0,
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -969,6 +984,69 @@
 								{
 									"auto_name": "S",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 234,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/reverseShellpoc.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1151,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1021,7 +1099,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,195,1366,924,3286,1080,0",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
