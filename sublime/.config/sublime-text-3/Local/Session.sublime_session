@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+		"/home/desker/reverseShellpoc.txt",
 		"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 		"/home/desker/eth_addresses.csv",
 		"/home/desker/contractInfo/csvFilter/csvFilter.py",
@@ -34,7 +36,6 @@
 		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 		"/home/desker/.minecraft/usernamecache.json",
 		"/home/desker/.minecraft/window_settings_launcher.conf",
-		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 		"/home/desker/ffs",
 		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
@@ -61,7 +62,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1678975575,
+	"next_update_check": 1679061975,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -69,8 +70,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -276,6 +277,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+				"/home/desker/reverseShellpoc.txt",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 				"/home/desker/eth_addresses.csv",
 				"/home/desker/contractInfo/csvFilter/csvFilter.py",
@@ -309,7 +312,6 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
@@ -402,8 +404,7 @@
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
-				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt"
 			],
 			"find":
 			{
@@ -596,44 +597,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "S",
-					"settings":
-					{
-						"buffer_size": 1,
-						"line_ending": "Unix",
-						"name": "S"
-					},
-					"undo_stack":
-					[
-						[
-							1,
-							1,
-							"insert",
-							{
-								"characters": "S"
-							},
-							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
-						]
-					]
-				},
-				{
-					"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
-					"settings":
-					{
-						"buffer_size": 234,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/reverseShellpoc.txt",
-					"settings":
-					{
-						"buffer_size": 1151,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -772,6 +735,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
+				"/home/desker/reverseShellpoc.txt",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/todo.txt",
 				"/home/desker/eth_addresses.csv",
 				"/home/desker/contractInfo/csvFilter/csvFilter.py",
@@ -805,7 +770,6 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
 				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
@@ -898,8 +862,7 @@
 				"/home/d3sk3r/phrase",
 				"/home/d3sk3r/Mr. Robot 1ª Temporada 720p (2015) Dual Áudio BluRay -- By Lucas Firmo/mrrobot.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/D3SK3R/pentest/cheatsheet/sqliExamples.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt",
-				"/home/d3sk3r/remote_control [remote_control.phptime=1657781164&cv=964e2e2740490fa89a4561613bc7ca02&lr=0&cv2=7b7e4bc54324182e64dbd4f4b9e44c8e&file=_contents_videos_127000_127043_127043].php"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/windows dc/Quasar v1.4.0/defaultPort.txt"
 			],
 			"find":
 			{
@@ -964,98 +927,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1,
-										1
-									]
-								],
-								"settings":
-								{
-									"auto_name": "S",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sddm/how.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 234,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/reverseShellpoc.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1151,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1099,7 +970,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
