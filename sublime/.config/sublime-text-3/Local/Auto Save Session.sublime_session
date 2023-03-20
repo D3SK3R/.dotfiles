@@ -1,6 +1,11 @@
 {
 	"file_history":
 	[
+		"/home/desker/matic.txt",
+		"/home/desker/nansen/usdt.txt",
+		"/home/desker/changes",
+		"/home/desker/requirements.txt",
+		"/home/desker/ada.txt",
 		"/home/desker/xrp.txt",
 		"/home/desker/usdc.txt",
 		"/home/desker/bnb.txt",
@@ -81,8 +86,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			43.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -288,6 +293,17 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/usdt.txt",
+				"/home/desker/changes",
+				"/home/desker/requirements.txt",
+				"/home/desker/ada.txt",
+				"/home/desker/xrp.txt",
+				"/home/desker/usdc.txt",
+				"/home/desker/bnb.txt",
+				"/home/desker/usdt.txt",
+				"/home/desker/rdnt.txt",
+				"/home/desker/gns.txt",
+				"/home/desker/nansen.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
@@ -355,7 +371,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
@@ -405,21 +420,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
 				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
 				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
-				"/home/d3sk3r/MEGA/workout.txt",
-				"/home/d3sk3r/MEGA/tabela-escrita.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
-				"/home/d3sk3r/rbac.txt"
+				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -477,7 +482,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -495,7 +500,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -609,13 +614,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/ada.txt",
+					"file": "/home/desker/doge.txt",
 					"settings":
 					{
-						"buffer_size": 47,
+						"buffer_size": 27,
 						"encoding": "UTF-8",
 						"line_ending": "Unix",
-						"name": "ada.txt"
+						"name": "doge.txt"
 					},
 					"undo_stack":
 					[
@@ -624,9 +629,9 @@
 							1,
 							"insert",
 							{
-								"characters": "ada.txt"
+								"characters": "doge.txt"
 							},
-							"BwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+							"CAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
 							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
@@ -636,17 +641,17 @@
 							{
 								"forward": false
 							},
-							"AQAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAYWRhLnR4dA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAZG9nZS50eHQ",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
-							4,
+							5,
 							1,
 							"insert",
 							{
-								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 							},
-							"LwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+							"GwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
 							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
@@ -789,6 +794,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/matic.txt",
+				"/home/desker/nansen/usdt.txt",
+				"/home/desker/changes",
+				"/home/desker/requirements.txt",
+				"/home/desker/ada.txt",
 				"/home/desker/xrp.txt",
 				"/home/desker/usdc.txt",
 				"/home/desker/bnb.txt",
@@ -863,7 +873,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
@@ -912,15 +921,11 @@
 				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
 				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
-				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt"
+				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt"
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 50.0
 			},
 			"find_in_files":
 			{
@@ -983,12 +988,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/ada.txt",
+							"file": "/home/desker/doge.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 47,
+								"buffer_size": 27,
 								"regions":
 								{
 								},
@@ -1001,7 +1006,7 @@
 								],
 								"settings":
 								{
-									"auto_name": "ada.txt",
+									"auto_name": "doge.txt",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1055,7 +1060,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,41,2318,1068,3286,1080,2",
+			"position": "0,1,0,0,0,0,195,1366,924,3286,1080,0",
 			"project": "",
 			"replace":
 			{

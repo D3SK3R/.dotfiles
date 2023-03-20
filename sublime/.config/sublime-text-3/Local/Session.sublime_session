@@ -1,6 +1,17 @@
 {
 	"file_history":
 	[
+		"/home/desker/nansen/usdt.txt",
+		"/home/desker/changes",
+		"/home/desker/requirements.txt",
+		"/home/desker/ada.txt",
+		"/home/desker/xrp.txt",
+		"/home/desker/usdc.txt",
+		"/home/desker/bnb.txt",
+		"/home/desker/usdt.txt",
+		"/home/desker/rdnt.txt",
+		"/home/desker/gns.txt",
+		"/home/desker/nansen.txt",
 		"/home/desker/apparmor/usr.bin.httpd",
 		"/home/desker/apparmor/apacheRevDeny.txt",
 		"/home/desker/usr.bin.ls",
@@ -66,7 +77,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1679321175,
+	"next_update_check": 1679407575,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -74,8 +85,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			43.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -281,6 +292,17 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/usdt.txt",
+				"/home/desker/changes",
+				"/home/desker/requirements.txt",
+				"/home/desker/ada.txt",
+				"/home/desker/xrp.txt",
+				"/home/desker/usdc.txt",
+				"/home/desker/bnb.txt",
+				"/home/desker/usdt.txt",
+				"/home/desker/rdnt.txt",
+				"/home/desker/gns.txt",
+				"/home/desker/nansen.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
@@ -348,7 +370,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
@@ -398,21 +419,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
 				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
 				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
-				"/home/d3sk3r/MEGA/workout.txt",
-				"/home/d3sk3r/MEGA/tabela-escrita.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
-				"/home/d3sk3r/rbac.txt"
+				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -470,7 +481,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -488,7 +499,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -601,91 +612,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/nansen.txt",
-					"settings":
-					{
-						"buffer_size": 157,
-						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "GMX: Staked Gmx Tracker 0x908c4d94d34924765f1edc22"
-					},
-					"undo_stack":
-					[
-						[
-							2,
-							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAAFwAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							3,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAABcAAAAAAAAAGAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							7,
-							1,
-							"",
-							null,
-							"AQAAABgAAAAAAAAAQgAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": "\n\n\n"
-							},
-							"AwAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-							},
-							"HgAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							17,
-							1,
-							"",
-							null,
-							"AQAAAEQAAAAAAAAAUwAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							22,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAFMAAAAAAAAAVAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							24,
-							1,
-							"",
-							null,
-							"AQAAAFQAAAAAAAAAfgAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -824,6 +750,17 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/usdt.txt",
+				"/home/desker/changes",
+				"/home/desker/requirements.txt",
+				"/home/desker/ada.txt",
+				"/home/desker/xrp.txt",
+				"/home/desker/usdc.txt",
+				"/home/desker/bnb.txt",
+				"/home/desker/usdt.txt",
+				"/home/desker/rdnt.txt",
+				"/home/desker/gns.txt",
+				"/home/desker/nansen.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
@@ -891,7 +828,6 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/changes",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
@@ -941,21 +877,11 @@
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
 				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
 				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/run.ps1",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
-				"/home/d3sk3r/MEGA/workout.txt",
-				"/home/d3sk3r/MEGA/tabela-escrita.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
-				"/home/d3sk3r/rbac.txt"
+				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -1016,43 +942,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/nansen.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 157,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										148,
-										148
-									]
-								],
-								"settings":
-								{
-									"auto_name": "GMX: Staked Gmx Tracker 0x908c4d94d34924765f1edc22",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -1090,11 +985,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,41,2318,1068,3286,1080,2",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
