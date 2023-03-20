@@ -1,6 +1,13 @@
 {
 	"file_history":
 	[
+		"/home/desker/xrp.txt",
+		"/home/desker/usdc.txt",
+		"/home/desker/bnb.txt",
+		"/home/desker/usdt.txt",
+		"/home/desker/rdnt.txt",
+		"/home/desker/gns.txt",
+		"/home/desker/nansen.txt",
 		"/home/desker/apparmor/usr.bin.httpd",
 		"/home/desker/apparmor/apacheRevDeny.txt",
 		"/home/desker/usr.bin.ls",
@@ -66,7 +73,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1679321175,
+	"next_update_check": 1679407575,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -602,87 +609,45 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/nansen.txt",
+					"file": "/home/desker/ada.txt",
 					"settings":
 					{
-						"buffer_size": 157,
+						"buffer_size": 47,
 						"encoding": "UTF-8",
 						"line_ending": "Unix",
-						"name": "GMX: Staked Gmx Tracker 0x908c4d94d34924765f1edc22"
+						"name": "ada.txt"
 					},
 					"undo_stack":
 					[
 						[
-							2,
 							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAAFwAAAAAAAAAAAAAA",
+							1,
+							"insert",
+							{
+								"characters": "ada.txt"
+							},
+							"BwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
 							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
 							3,
 							1,
-							"insert",
+							"delete_word",
 							{
-								"characters": " "
+								"forward": false
 							},
-							"AQAAABcAAAAAAAAAGAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAAPC/"
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAYWRhLnR4dA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
 						],
 						[
-							7,
-							1,
-							"",
-							null,
-							"AQAAABgAAAAAAAAAQgAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							8,
+							4,
 							1,
 							"insert",
 							{
-								"characters": "\n\n\n"
+								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 							},
-							"AwAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-							},
-							"HgAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							17,
-							1,
-							"",
-							null,
-							"AQAAAEQAAAAAAAAAUwAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							22,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAFMAAAAAAAAAVAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							24,
-							1,
-							"",
-							null,
-							"AQAAAFQAAAAAAAAAfgAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+							"LwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
 				}
@@ -824,6 +789,13 @@
 			},
 			"file_history":
 			[
+				"/home/desker/xrp.txt",
+				"/home/desker/usdc.txt",
+				"/home/desker/bnb.txt",
+				"/home/desker/usdt.txt",
+				"/home/desker/rdnt.txt",
+				"/home/desker/gns.txt",
+				"/home/desker/nansen.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
@@ -944,18 +916,11 @@
 				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1",
 				"/run/media/d3sk3r/AE71-E26A/run.ps1",
 				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/desktop.ini",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/training.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/changes.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/pqp.txt",
-				"/home/d3sk3r/MEGA/workout.txt",
-				"/home/d3sk3r/MEGA/tabela-escrita.txt",
-				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/athlete.txt",
-				"/home/d3sk3r/rbac.txt"
+				"/run/media/d3sk3r/8CBAED11BAECF89A/Users/Erick/Downloads/thinking.txt"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -1018,25 +983,25 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/nansen.txt",
+							"file": "/home/desker/ada.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 157,
+								"buffer_size": 47,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										148,
-										148
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"auto_name": "GMX: Staked Gmx Tracker 0x908c4d94d34924765f1edc22",
+									"auto_name": "ada.txt",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1052,7 +1017,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -1094,7 +1059,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
