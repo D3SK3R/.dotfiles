@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/doge.txt",
+		"/home/desker/matic.txt",
 		"/home/desker/nansen/usdt.txt",
 		"/home/desker/changes",
 		"/home/desker/requirements.txt",
@@ -85,8 +87,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -292,6 +294,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/doge.txt",
+				"/home/desker/matic.txt",
 				"/home/desker/nansen/usdt.txt",
 				"/home/desker/changes",
 				"/home/desker/requirements.txt",
@@ -417,13 +421,11 @@
 				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
 				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
-				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
-				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1"
+				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt"
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 50.0
 			},
 			"find_in_files":
 			{
@@ -750,6 +752,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/doge.txt",
+				"/home/desker/matic.txt",
 				"/home/desker/nansen/usdt.txt",
 				"/home/desker/changes",
 				"/home/desker/requirements.txt",
@@ -875,13 +879,11 @@
 				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
 				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
-				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt",
-				"/run/media/d3sk3r/AE71-E26A/activate if needed/pass and how.txt",
-				"/run/media/d3sk3r/AE71-E26A/pass/run.ps1"
+				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt"
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 50.0
 			},
 			"find_in_files":
 			{
@@ -985,7 +987,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
 			"project": "",
 			"replace":
 			{
