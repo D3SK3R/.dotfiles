@@ -1,9 +1,17 @@
 {
 	"file_history":
 	[
+		"/home/desker/nansen/busd.txt",
+		"/home/desker/nansen/gmx.txt",
+		"/home/desker/nansen/rdnt.txt",
+		"/home/desker/nansen/usdc.txt",
+		"/home/desker/nansen/nftProfitLeaderboard.txt",
+		"/home/desker/nftProfitLeaderboard.txt",
+		"/home/desker/shib.txt",
+		"/home/desker/busd.txt",
+		"/home/desker/nansen/usdt.txt",
 		"/home/desker/doge.txt",
 		"/home/desker/matic.txt",
-		"/home/desker/nansen/usdt.txt",
 		"/home/desker/changes",
 		"/home/desker/requirements.txt",
 		"/home/desker/ada.txt",
@@ -87,8 +95,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -294,9 +302,17 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/busd.txt",
+				"/home/desker/nansen/gmx.txt",
+				"/home/desker/nansen/rdnt.txt",
+				"/home/desker/nansen/usdc.txt",
+				"/home/desker/nansen/nftProfitLeaderboard.txt",
+				"/home/desker/nftProfitLeaderboard.txt",
+				"/home/desker/shib.txt",
+				"/home/desker/busd.txt",
+				"/home/desker/nansen/usdt.txt",
 				"/home/desker/doge.txt",
 				"/home/desker/matic.txt",
-				"/home/desker/nansen/usdt.txt",
 				"/home/desker/changes",
 				"/home/desker/requirements.txt",
 				"/home/desker/ada.txt",
@@ -413,19 +429,11 @@
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
-				"/home/d3sk3r/changes",
-				"/home/d3sk3r/understanding.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
-				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
-				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
-				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt"
+				"/home/d3sk3r/changes"
 			],
 			"find":
 			{
-				"height": 50.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -614,6 +622,25 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/nansen/bnb.txt",
+					"settings":
+					{
+						"buffer_size": 760,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/desker/nansen/gmx.txt",
+					"settings":
+					{
+						"buffer_size": 3083,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -752,9 +779,17 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/busd.txt",
+				"/home/desker/nansen/gmx.txt",
+				"/home/desker/nansen/rdnt.txt",
+				"/home/desker/nansen/usdc.txt",
+				"/home/desker/nansen/nftProfitLeaderboard.txt",
+				"/home/desker/nftProfitLeaderboard.txt",
+				"/home/desker/shib.txt",
+				"/home/desker/busd.txt",
+				"/home/desker/nansen/usdt.txt",
 				"/home/desker/doge.txt",
 				"/home/desker/matic.txt",
-				"/home/desker/nansen/usdt.txt",
 				"/home/desker/changes",
 				"/home/desker/requirements.txt",
 				"/home/desker/ada.txt",
@@ -871,19 +906,11 @@
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
 				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
-				"/home/d3sk3r/changes",
-				"/home/d3sk3r/understanding.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Chrome/Stylish.txt",
-				"/run/media/d3sk3r/AE71-E26A/System Volume Information/WPSettings.dat",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/pendrive/pass/run.ps1",
-				"/run/media/d3sk3r/AE71-E26A/qbittorrent/theme.txt",
-				"/run/media/d3sk3r/AE71-E26A/winrar/where.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Other/Windows/Format/opções de engergia.txt",
-				"/run/media/d3sk3r/AE71-E26A/appearance/how and where.txt"
+				"/home/d3sk3r/changes"
 			],
 			"find":
 			{
-				"height": 50.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -944,6 +971,65 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/nansen/bnb.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 760,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										760
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/nansen/gmx.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3083,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -987,7 +1073,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
