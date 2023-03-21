@@ -87,7 +87,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1679407575,
+	"next_update_check": 1679493975,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -95,8 +95,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -628,16 +628,21 @@
 					{
 						"buffer_size": 760,
 						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
+					}
 				},
 				{
 					"file": "/home/desker/nansen/gmx.txt",
 					"settings":
 					{
 						"buffer_size": 3083,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/SHOULD.md",
+					"settings":
+					{
+						"buffer_size": 5420,
 						"line_ending": "Unix"
 					}
 				}
@@ -996,14 +1001,13 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
 							"file": "/home/desker/nansen/gmx.txt",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1024,6 +1028,38 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/SHOULD.md",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5420,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1260.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1073,7 +1109,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
