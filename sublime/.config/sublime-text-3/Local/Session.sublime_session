@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/SHOULD.md",
 		"/home/desker/nansen/busd.txt",
 		"/home/desker/nansen/gmx.txt",
 		"/home/desker/nansen/rdnt.txt",
@@ -87,7 +88,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1679493975,
+	"next_update_check": 1679666775,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -95,8 +96,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -302,6 +303,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/SHOULD.md",
 				"/home/desker/nansen/busd.txt",
 				"/home/desker/nansen/gmx.txt",
 				"/home/desker/nansen/rdnt.txt",
@@ -428,12 +430,11 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
-				"/home/d3sk3r/changes"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini"
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 50.0
 			},
 			"find_in_files":
 			{
@@ -447,6 +448,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"chainlink",
+					"924",
 					"\\\\N",
 					"\\N",
 					"udp://opentracker.i2p.rocks:6969/announce",
@@ -639,12 +642,16 @@
 					}
 				},
 				{
-					"file": "/home/desker/SHOULD.md",
+					"file": "/home/desker/aaaaa.txt",
 					"settings":
 					{
-						"buffer_size": 5420,
+						"buffer_size": 169100,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
@@ -784,6 +791,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/SHOULD.md",
 				"/home/desker/nansen/busd.txt",
 				"/home/desker/nansen/gmx.txt",
 				"/home/desker/nansen/rdnt.txt",
@@ -910,12 +918,11 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
 				"/home/desker/.config/variety/history.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini",
-				"/home/d3sk3r/changes"
+				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini"
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 50.0
 			},
 			"find_in_files":
 			{
@@ -929,6 +936,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"chainlink",
+					"924",
 					"\\\\N",
 					"\\N",
 					"udp://opentracker.i2p.rocks:6969/announce",
@@ -1036,30 +1045,30 @@
 						},
 						{
 							"buffer": 2,
-							"file": "/home/desker/SHOULD.md",
+							"file": "/home/desker/aaaaa.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5420,
+								"buffer_size": 169100,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										56,
+										59
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1260.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1109,7 +1118,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
