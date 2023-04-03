@@ -1,9 +1,12 @@
 {
 	"file_history":
 	[
+		"/home/desker/nansen/bnb.txt",
+		"/home/desker/nansen/gmx.txt",
+		"/home/desker/MEGA/discord/Nax/info.txt",
+		"/home/desker/aaaaa.txt",
 		"/home/desker/SHOULD.md",
 		"/home/desker/nansen/busd.txt",
-		"/home/desker/nansen/gmx.txt",
 		"/home/desker/nansen/rdnt.txt",
 		"/home/desker/nansen/usdc.txt",
 		"/home/desker/nansen/nftProfitLeaderboard.txt",
@@ -88,7 +91,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1679666775,
+	"next_update_check": 1680357975,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -96,8 +99,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1376.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -303,9 +306,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/bnb.txt",
+				"/home/desker/nansen/gmx.txt",
+				"/home/desker/MEGA/discord/Nax/info.txt",
+				"/home/desker/aaaaa.txt",
 				"/home/desker/SHOULD.md",
 				"/home/desker/nansen/busd.txt",
-				"/home/desker/nansen/gmx.txt",
 				"/home/desker/nansen/rdnt.txt",
 				"/home/desker/nansen/usdc.txt",
 				"/home/desker/nansen/nftProfitLeaderboard.txt",
@@ -427,14 +433,11 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
-				"/home/desker/.config/variety/history.txt",
-				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock"
 			],
 			"find":
 			{
-				"height": 50.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -625,34 +628,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/nansen/bnb.txt",
-					"settings":
-					{
-						"buffer_size": 760,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/nansen/gmx.txt",
-					"settings":
-					{
-						"buffer_size": 3083,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/aaaaa.txt",
-					"settings":
-					{
-						"buffer_size": 169100,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -791,9 +766,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nansen/bnb.txt",
+				"/home/desker/nansen/gmx.txt",
+				"/home/desker/MEGA/discord/Nax/info.txt",
+				"/home/desker/aaaaa.txt",
 				"/home/desker/SHOULD.md",
 				"/home/desker/nansen/busd.txt",
-				"/home/desker/nansen/gmx.txt",
 				"/home/desker/nansen/rdnt.txt",
 				"/home/desker/nansen/usdc.txt",
 				"/home/desker/nansen/nftProfitLeaderboard.txt",
@@ -915,14 +893,11 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/sudoers.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/where and how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/6_zsh/zshtoRoot.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock",
-				"/home/desker/.config/variety/history.txt",
-				"/home/desker/MEGA/D3SK3R/Games/Elden Ring/mods/yapped rune bear/Paramdex/DS3/Names/GameAreaParam.txt",
-				"/home/d3sk3r/MEGA/D3SK3R/Games/Overwatch/Settings/Settings_v0.ini"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/lightdm/themes/lightdm-webkit-theme-aether/yarn.lock"
 			],
 			"find":
 			{
-				"height": 50.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -985,96 +960,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/nansen/bnb.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 760,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										760
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/nansen/gmx.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3083,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/aaaaa.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 169100,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										56,
-										59
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1118,7 +1003,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
