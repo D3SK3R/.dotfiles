@@ -40,7 +40,7 @@ if [ "$choice" = "Y" ] || [ "$choice" = "y" ] || [ -z "$choice" ] || [ "$1" = "-
     if [[ $(which trash) != "/usr/bin/trash" ]] &>/dev/null; then
       rm -rf ~/.local/share/Trash/files/*
     else
-      trash-empty
+      trash-empty -f
     fi
 
     printf "\ncleaning root trash\n"
