@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/qts.txt",
 		"/home/desker/shiva/info.txt",
 		"/home/desker/changes",
 		"/home/desker/archInstall.txt",
@@ -95,7 +96,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1680789975,
+	"next_update_check": 1681308375,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -103,8 +104,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -310,6 +311,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
 				"/home/desker/archInstall.txt",
@@ -436,8 +438,7 @@
 				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt"
 			],
 			"find":
 			{
@@ -770,6 +771,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
 				"/home/desker/archInstall.txt",
@@ -896,8 +898,7 @@
 				"/home/desker/optimus-manager.conf",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/sudoers/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/performance.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/amdPerformance.txt"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/performance/nvidiaPerformance.txt"
 			],
 			"find":
 			{
@@ -1007,7 +1008,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
