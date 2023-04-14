@@ -598,6 +598,64 @@ $install dhcp dhcpcd dhclient
 systemctl enable --now dhcpcd
 
 getDate
+echo 'Setting mouse sens'
+cp /usr/share/X11/xorg.conf.d/40-libinput.conf /usr/share/X11/xorg.conf.d/40-libinput.confBAK
+echo "# Match on all types of devices but joysticks
+#
+# If you want to configure your devices, do not copy this file.
+# Instead, use a config snippet that contains something like this:
+#
+# Section "InputClass"
+#   Identifier "something or other"
+#   MatchDriver "libinput"
+#
+#   MatchIsTouchpad "on"
+#   ... other Match directives ...
+#   Option "someoption" "value"
+# EndSection
+#
+# This applies the option any libinput device also matched by the other
+# directives. See the xorg.conf(5) man page for more info on
+# matching devices.
+
+Section "InputClass"
+        Identifier "libinput pointer catchall"
+        MatchIsPointer "on"
+        MatchDevicePath "/dev/input/event*"
+        Option "AccelSpeed" "-0.7"
+        Driver "libinput"
+EndSection
+
+Section "InputClass"
+        Identifier "libinput keyboard catchall"
+        MatchIsKeyboard "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+
+Section "InputClass"
+        Identifier "libinput touchpad catchall"
+        MatchIsTouchpad "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+
+Section "InputClass"
+        Identifier "libinput touchscreen catchall"
+        MatchIsTouchscreen "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+
+Section "InputClass"
+        Identifier "libinput tablet catchall"
+        MatchIsTablet "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+" > /usr/share/X11/xorg.conf.d/40-libinput.conf
+
+getDate
 echo 'Setting up auto-cpufreq and enabling its service'
 echo "# settings for when connected to a power source
 [charger]
