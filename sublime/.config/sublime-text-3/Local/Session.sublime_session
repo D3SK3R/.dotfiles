@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/apparmor/usr.bin.httpd",
 		"/home/desker/qts.txt",
 		"/home/desker/shiva/info.txt",
 		"/home/desker/changes",
@@ -32,7 +33,6 @@
 		"/home/desker/rdnt.txt",
 		"/home/desker/gns.txt",
 		"/home/desker/nansen.txt",
-		"/home/desker/apparmor/usr.bin.httpd",
 		"/home/desker/apparmor/apacheRevDeny.txt",
 		"/home/desker/usr.bin.ls",
 		"/home/desker/apparmor/apparmorInstall.txt",
@@ -96,7 +96,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1681308375,
+	"next_update_check": 1681740375,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -104,8 +104,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			10.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -311,6 +311,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
@@ -342,7 +343,6 @@
 				"/home/desker/rdnt.txt",
 				"/home/desker/gns.txt",
 				"/home/desker/nansen.txt",
-				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
 				"/home/desker/apparmor/apparmorInstall.txt",
@@ -456,6 +456,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"deny",
 					"chainlink",
 					"924",
 					"\\\\N",
@@ -633,6 +634,159 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/apparmor/apparmorInstall.txt",
+					"settings":
+					{
+						"buffer_size": 427,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							6,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFIBAAAAAAAAUgEAAAAAAABbAQAAY3JlYXRlIHJ1bGUgaW4gL2V0Yy9hcHBhcm1vci5kL2FwYWNoZV9ub19iYXNoCgpzdGFydCBhdWRpdGluZyBvbiB0aGF0IHByb2dyYW06CiAgc3VkbyBhYS1nZW5wcm9mIC91c3Ivc2Jpbi9hcGFjaGUyCiAgIyBUaGlzIHdpbGwgc3RhcnQgdGhlIGFhLWdlbnByb2YgdG9vbCwgd2hpY2ggd2lsbCBwcm9tcHQgeW91IHRvIHBlcmZvcm0gdmFyaW91cyBhY3Rpb25zIGluIEFwYWNoZQoKZW5mb3JjZSB0aGUgcHJvZ3JhbSwgYXBhY2hlIGluIHRoaXMgY2FzZSwgdG8gb2JleSB0aGUgcnVsZXMsIG5vdCBhY2Nlc3NpbmcgYmFzaDoKICBzdWRvIGFhLWVuZm9yY2UgL2V0Yy9hcHBhcm1vci5kL3Vzci5iaW4uYXBhY2hlMgpRAQAAAAAAAFEBAAAAAAAAAQAAAAo",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABSAQAAAAAAAK0CAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "doiwnload"
+							},
+							"CQAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAACAAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							15,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAABcAAAAAAAAAFwAAAAAAAAAJAAAAZG9pd25sb2Fk",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "download"
+							},
+							"CAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": " linux"
+							},
+							"BgAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": " kernel"
+							},
+							"BwAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAALAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							20,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAC0AAAAAAAAALwAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAtAAAAAAAAAC0AAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							22,
+							1,
+							"",
+							null,
+							"AQAAAC4AAAAAAAAAbQAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAG4AAAAAAAAAbwAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABuAAAAAAAAAG4AAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							25,
+							1,
+							"left_delete",
+							null,
+							"AQAAAG4AAAAAAAAAbgAAAAAAAAABAAAACg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABvAAAAAAAAAG8AAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"file": "/home/desker/apparmor/apacheRevDeny.txt",
+					"settings":
+					{
+						"buffer_size": 1021,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/apparmor/usr.bin.httpd",
+					"settings":
+					{
+						"buffer_size": 298,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/desker/apparmor/revshell.php",
+					"settings":
+					{
+						"buffer_size": 171,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -771,6 +925,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
@@ -802,7 +957,6 @@
 				"/home/desker/rdnt.txt",
 				"/home/desker/gns.txt",
 				"/home/desker/nansen.txt",
-				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/usr.bin.ls",
 				"/home/desker/apparmor/apparmorInstall.txt",
@@ -916,6 +1070,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"deny",
 					"chainlink",
 					"924",
 					"\\\\N",
@@ -965,6 +1120,129 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/apparmor/apparmorInstall.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 427,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										110,
+										110
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/apparmor/apacheRevDeny.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1021,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										298,
+										298
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 315.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/apparmor/usr.bin.httpd",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 298,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										84,
+										84
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 189.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/desker/apparmor/revshell.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 171,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										27,
+										27
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1008,7 +1286,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,8,560,675,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
