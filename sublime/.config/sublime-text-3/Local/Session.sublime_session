@@ -1,6 +1,12 @@
 {
 	"file_history":
 	[
+		"/home/desker/export (1).csv",
+		"/home/desker/ethxp/token-terminal-scraper/top.txt",
+		"/home/desker/export.csv",
+		"/home/desker/ethxp/token-terminal-scraper/top200.txt",
+		"/home/desker/ethxp/token-terminal-scraper/error.txt",
+		"/home/desker/export1.csv",
 		"/home/desker/twitter/twitter_monitor.json",
 		"/home/desker/ethxp/twitter-tweets-scraper/twitter_monitor.json",
 		"/home/desker/MEGA/metamask.txt",
@@ -24,7 +30,6 @@
 		"/home/desker/apparmor/apparmorInstall.txt",
 		"/home/desker/apparmor/apacheRevDeny.txt",
 		"/home/desker/apparmor/usr.bin.httpd",
-		"/home/desker/export.csv",
 		"/home/desker/qts.txt",
 		"/home/desker/shiva/info.txt",
 		"/home/desker/changes",
@@ -116,7 +121,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1682690775,
+	"next_update_check": 1682777175,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -124,8 +129,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			43.0
+			2392.0,
+			562.0
 		],
 		"new_window_settings":
 		{
@@ -335,6 +340,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/export (1).csv",
+				"/home/desker/ethxp/token-terminal-scraper/top.txt",
+				"/home/desker/export.csv",
+				"/home/desker/ethxp/token-terminal-scraper/top200.txt",
+				"/home/desker/ethxp/token-terminal-scraper/error.txt",
+				"/home/desker/export1.csv",
 				"/home/desker/twitter/twitter_monitor.json",
 				"/home/desker/ethxp/twitter-tweets-scraper/twitter_monitor.json",
 				"/home/desker/MEGA/metamask.txt",
@@ -358,7 +369,6 @@
 				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
-				"/home/desker/export.csv",
 				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
@@ -457,12 +467,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
 				"/home/desker/where.txt",
-				"/home/desker/models.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
-				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt"
+				"/home/desker/models.txt"
 			],
 			"find":
 			{
@@ -709,117 +714,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "\ndef save_xlsx_to_s3(df, bucket_name, file_name):\n    load_dotenv('.env')\n    s3_resource = boto3.resource(\"s3\",\n                    aws_access_key_id=os.environ['aws_access_key_id'],\n                    aws_secret_access_key= os.environ['aws_secret_access_key'])\n    with io.BytesIO() as output:\n        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:\n            df.to_excel(writer, 'Sheet1')\n        data = output.getvalue()\n    s3_resource.Bucket(bucket_name).put_object(Key=file_name, Body=data)\n    \n\ndef getColumns():\n    columns = run_query(\"\"\" \n    SELECT attrelid::regclass AS tbl\n    , attname            AS col\n    , atttypid::regtype  AS datatype\n    -- more attributes?\n    FROM   pg_attribute\n    WHERE  attrelid = 'public._tweets_monitor'::regclass  -- table name optionally schema-qualified\n    AND    attnum > 0\n    AND    NOT attisdropped\n    ORDER  BY attnum;\n    \"\"\")\n    columnsList = [i[1] for i in columns]\n    return columnsList\n\n\ndef dfToSQL(df):\n    load_dotenv('.env')\n    postgres_database = os.environ['POSTGRES_DATABASE']\n    postgres_username = os.environ['POSTGRES_USERNAME']\n    postgres_password = os.environ['POSTGRES_PASSWORD']\n    postgres_host = os.environ['POSTGRES_HOST']\n    postgres_port = os.environ['POSTGRES_PORT']\n\n    engine = create_engine('postgresql+psycopg2://{}:{}@{}:{}/{}'\\\n        .format(postgres_username, urllib.parse.quote_plus(postgres_password), postgres_host, postgres_port, postgres_database))\n\n    # write the DataFrame to a new table in your SQL database\n    if len(df) > 0:\n        df.to_sql('_tweets_monitor', engine, if_exists='replace', index=False)\n        print(\"Dataframe to SQL ok!\")\n    \n    return True\n\ndef getTwitterTweets(twitter_url, pageScrolls):\n    driver = openBrowser()\n    driver.get(twitter_url)\n    time.sleep(5)\n    print(\"Browser opened\")\n    pageSource = driver.page_source\n    parsed_html = BeautifulSoup(pageSource,'lxml')\n    twitterProfileName = \"@\" + parsed_html.find(\"div\", {\"data-testid\":\"UserName\"}).text.split('@')[-1]\n\n    tweetsDf = pd.DataFrame(columns=['_timestamp', 'twitterprofilename', 'tweetauthor', 'tweettext', \\\n                            'isretweet', 'tweeturlslist', 'tweetimageslist', \\\n                                'tweetreplies', 'tweetretweets', 'tweetlikes'])\n\n    for i in range(pageScrolls):\n        pageSource = driver.page_source\n        parsed_html = BeautifulSoup(pageSource,'lxml')\n\n        localDf = pd.DataFrame(columns=['_timestamp', 'twitterprofilename', 'tweetauthor', 'tweettext', \\\n                            'isretweet', 'tweeturlslist', 'tweetimageslist', \\\n                                'tweetreplies', 'tweetretweets', 'tweetlikes'])\n\n        index = 0\n        tweets = parsed_html.find_all(\"div\", {\"data-testid\":\"cellInnerDiv\"})\n        for tweet in tweets:\n\n            tweetTime = tweet.find(\"time\")\n            if not tweetTime:\n                continue\n            tweetTime = tweetTime['datetime']\n            tweetUserName = \"@\" + tweet.find(\"div\", {\"data-testid\":\"User-Name\"}).text.split(\"@\")[-1].split(\"·\")[0]\n            isRetweet = \"No\"\n            if tweetUserName != twitterProfileName:\n                isRetweet = \"Yes\"\n            tweetUrls = tweet.find_all(\"a\")\n            tweetUrlsList = [tweetUrl['href'] for tweetUrl in tweetUrls if 'http' in tweetUrl['href']]\n            tweetUrlsList = list(dict.fromkeys(tweetUrlsList))\n            tweetImages = tweet.find_all(\"img\")\n            tweetImagesList = [tweetImage['src'] for tweetImage in tweetImages if 'media' in tweetImage['src']]\n            tweetImagesList = list(dict.fromkeys(tweetImagesList))\n            tweetText = tweet.find(\"div\", {\"data-testid\":\"tweetText\"})\n            if tweetText:\n                tweetText = tweetText.text\n            else:\n                tweetText = \"\"\n            tweetReplies = int(tweet.find(\"div\", {\"data-testid\":\"reply\"})['aria-label'].split(\" \")[0])\n            tweetRetweets = int(tweet.find(\"div\", {\"data-testid\":\"retweet\"})['aria-label'].split(\" \")[0])\n            tweetLikes = int(tweet.find(\"div\", {\"data-testid\":\"like\"})['aria-label'].split(\" \")[0])\n            localDf.loc[index, \"_timestamp\"] = tweetTime\n            localDf.loc[index, \"twitterprofilename\"] = twitterProfileName\n            localDf.loc[index, \"tweetauthor\"] = tweetUserName\n            localDf.loc[index, \"tweettext\"] = tweetText\n            localDf.loc[index, \"isretweet\"] = isRetweet\n            localDf.loc[index, \"tweeturlslist\"] = ', '.join(tweetUrlsList) if len(tweetUrlsList) > 0 else \"\"\n            localDf.loc[index, \"tweetimageslist\"] = ', '.join(tweetImagesList) if len(tweetImagesList) > 0 else \"\"\n            localDf.loc[index, \"tweetreplies\"] = tweetReplies\n            localDf.loc[index, \"tweetretweets\"] = tweetRetweets\n            localDf.loc[index, \"tweetlikes\"] = tweetLikes\n            index += 1\n\n        concat = [tweetsDf, localDf]\n        tweetsDf = pd.concat(concat)\n        \n        driver.execute_script(\"window.scrollTo(0,document.body.scrollHeight)\")\n        time.sleep(5)\n\n    tweetsDf['profileName'] = twitterProfileName\n    tweetsDf['profileUrl'] = twitter_url\n    \n    driver.quit()\n\n    return tweetsDf\n\ndef getScrapeDf(twitterUserNamesList, twitterURLsList, twitter_url, pageScrolls):\n    \n    twitterprofilename = \"@\" + twitterUserNamesList[twitterURLsList.index(twitter_url)]\n    print(twitterprofilename)\n    # Get tweets\n    tweetsDf = getTwitterTweets(twitter_url, pageScrolls)\n    print(\"Got tweets\")\n    # Clean dataframe\n    cleanedTweetsDf = cleanDf(tweetsDf)\n    print(\"Cleaned Data\")\n    # Export Data to Excel\n    save_xlsx_to_s3(cleanedTweetsDf, \"ethmaniacos\", \"{}.xlsx\".format(twitterprofilename))\n    #cleanedTweetsDf.to_excel(\"{}.xlsx\".format(twitterprofilename), index=False)\n    print(\"Excel file generated for {}!\".format(twitterprofilename))\n\nif __name__ == \"__main__\":\n    start_time = time.time()\n    try:\n        # Get twitter accounts\n        with open('twitter_monitor.json', 'r') as f:\n            data = json.load(f)\n        twitterURLsList = [value['url'] for key, value in data.items()]\n        twitterUserNamesList = [key for key, value in data.items()]\n        \n        # Define page scrolls\n        pageScrolls = 10\n        \n        for url in twitterURLsList:\n            getScrapeDf(twitterUserNamesList, twitterURLsList, url, pageScrolls)\n            \n        # Merge all excel files\n        mergedDf = pd.DataFrame()\n        for url in twitterURLsList:\n            twitterprofilename = \"@\" + twitterUserNamesList[twitterURLsList.index(url)]\n            try:\n                localDf = load_xlsx_from_s3(\"ethmaniacos\", \"{}.xlsx\".format(twitterprofilename))\n                #localDf = pd.read_excel(\"{}.xlsx\".format(twitterprofilename))\n                mergedDf = pd.concat([mergedDf, localDf])\n            except:\n                pass\n        # Export to Postgres\n        dfToSQL(mergedDf)\n\n        # Check Export\n        rows = run_query(\"SELECT * FROM _tweets_monitor\")\n        columns = getColumns()\n        postgresDf = pd.DataFrame(rows, columns=columns)\n        print(\"Scrape length: {} || Postgres Table length: {}\".format(len(mergedDf), len(postgresDf)))\n\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n        igniteDiscordAlert()\n\n    printExecutionTime(start_time)\n",
-					"settings":
-					{
-						"buffer_size": 7309,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							2,
-							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAA/SEAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							4,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAAACIgAACmRlZiBsb2FkX3hsc3hfZnJvbV9zMyhidWNrZXRfbmFtZSwgZmlsZV9uYW1lKToKICAgIGxvYWRfZG90ZW52KCcuZW52JykKICAgIHMzID0gYm90bzMuY2xpZW50KCJzMyIsCiAgICAgICAgICAgICAgICAgICAgYXdzX2FjY2Vzc19rZXlfaWQ9b3MuZW52aXJvblsnYXdzX2FjY2Vzc19rZXlfaWQnXSwKICAgICAgICAgICAgICAgICAgICBhd3Nfc2VjcmV0X2FjY2Vzc19rZXk9IG9zLmVudmlyb25bJ2F3c19zZWNyZXRfYWNjZXNzX2tleSddKQoKICAgIG9iaiA9IHMzLmdldF9vYmplY3QoYnVja2V0PWJ1Y2tldF9uYW1lLCBrZXk9ZmlsZV9uYW1lKQogICAgZmlsZSA9IGlvLmJ5dGVzaW8ob2JqWydib2R5J10ucmVhZCgpKQogICAgcmV0dXJuIHBkLnJlYWRfZXhjZWwoZmlsZSkKCgpkZWYgc2F2ZV94bHN4X3RvX3MzKGRmLCBidWNrZXRfbmFtZSwgZmlsZV9uYW1lKToKICAgIGxvYWRfZG90ZW52KCcuZW52JykKICAgIHMzX3Jlc291cmNlID0gYm90bzMucmVzb3VyY2UoInMzIiwKICAgICAgICAgICAgICAgICAgICBhd3NfYWNjZXNzX2tleV9pZD1vcy5lbnZpcm9uWydhd3NfYWNjZXNzX2tleV9pZCddLAogICAgICAgICAgICAgICAgICAgIGF3c19zZWNyZXRfYWNjZXNzX2tleT0gb3MuZW52aXJvblsnYXdzX3NlY3JldF9hY2Nlc3Nfa2V5J10pCiAgICB3aXRoIGlvLmJ5dGVzaW8oKSBhcyBvdXRwdXQ6CiAgICAgICAgd2l0aCBwZC5leGNlbHdyaXRlcihvdXRwdXQsIGVuZ2luZT0neGxzeHdyaXRlcicpIGFzIHdyaXRlcjoKICAgICAgICAgICAgZGYudG9fZXhjZWwod3JpdGVyLCAnc2hlZXQxJykKICAgICAgICBkYXRhID0gb3V0cHV0LmdldHZhbHVlKCkKICAgIHMzX3Jlc291cmNlLmJ1Y2tldChidWNrZXRfbmFtZSkucHV0X29iamVjdChrZXk9ZmlsZV9uYW1lLCBib2R5PWRhdGEpCiAgICAKCmRlZiBpZ25pdGVkaXNjb3JkYWxlcnQoKToKICAgIHdlYmhvb2sgPSBkaXNjb3Jkd2ViaG9vayh1cmw9J2h0dHBzOi8vZGlzY29yZC5jb20vYXBpL3dlYmhvb2tzLzEwOTUxMzc3MzE0OTcxNzMwMzMvd3l2dnRpaXh5ZjJ4eTV5bW9uNGF6M3Z0a3VkLWMzaXp3Ni1uZnFpcnFjcWtmYnUxdXJtYjVpa2dld2Y3dmpnX2hkbGgnKQogICAgZW1iZWQgPSBkaXNjb3JkZW1iZWQodGl0bGU9J2J1ZyBubyBzY3JpcHQgdHdpdHRlci10d2VldHMtc2NyYXBlci5weScsIGRlc2NyaXB0aW9uPSfwn6SUIG7Do28gZmV6IHNjcmFwaW5nIGRlIHR3aXR0ZXIhJywgY29sb3I9JzAzYjJmOCcpCiAgICB3ZWJob29rLmFkZF9lbWJlZChlbWJlZCkKICAgIGVtYmVkLnNldF90aW1lc3RhbXAoKQogICAgcmVzcG9uc2UgPSB3ZWJob29rLmV4ZWN1dGUoKQogICAgI3dlYmhvb2suZGVsZXRlKCkKCmRlZiBkZnRvc3FsKGRmKToKICAgIGxvYWRfZG90ZW52KCcuZW52JykKICAgIHBvc3RncmVzX2RhdGFiYXNlID0gb3MuZW52aXJvblsncG9zdGdyZXNfZGF0YWJhc2UnXQogICAgcG9zdGdyZXNfdXNlcm5hbWUgPSBvcy5lbnZpcm9uWydwb3N0Z3Jlc191c2VybmFtZSddCiAgICBwb3N0Z3Jlc19wYXNzd29yZCA9IG9zLmVudmlyb25bJ3Bvc3RncmVzX3Bhc3N3b3JkJ10KICAgIHBvc3RncmVzX2hvc3QgPSBvcy5lbnZpcm9uWydwb3N0Z3Jlc19ob3N0J10KICAgIHBvc3RncmVzX3BvcnQgPSBvcy5lbnZpcm9uWydwb3N0Z3Jlc19wb3J0J10KCiAgICBlbmdpbmUgPSBjcmVhdGVfZW5naW5lKCdwb3N0Z3Jlc3FsK3BzeWNvcGcyOi8ve306e31Ae306e30ve30nXAogICAgICAgIC5mb3JtYXQocG9zdGdyZXNfdXNlcm5hbWUsIHVybGxpYi5wYXJzZS5xdW90ZV9wbHVzKHBvc3RncmVzX3Bhc3N3b3JkKSwgcG9zdGdyZXNfaG9zdCwgcG9zdGdyZXNfcG9ydCwgcG9zdGdyZXNfZGF0YWJhc2UpKQoKICAgICMgd3JpdGUgdGhlIGRhdGFmcmFtZSB0byBhIG5ldyB0YWJsZSBpbiB5b3VyIHNxbCBkYXRhYmFzZQogICAgaWYgbGVuKGRmKSA+IDA6CiAgICAgICAgZGYudG9fc3FsKCdfdHdlZXRzX21vbml0b3InLCBlbmdpbmUsIGlmX2V4aXN0cz0ncmVwbGFjZScsIGluZGV4PWZhbHNlKQogICAgICAgIHByaW50KCJkYXRhZnJhbWUgdG8gc3FsIG9rISIpCiAgICAKICAgIHJldHVybiB0cnVlCgpkZWYgZ2V0dHdpdHRlcnR3ZWV0cyh0d2l0dGVyX3VybCwgcGFnZXNjcm9sbHMpOgogICAgZHJpdmVyID0gb3BlbmJyb3dzZXIoKQogICAgZHJpdmVyLmdldCh0d2l0dGVyX3VybCkKICAgIHRpbWUuc2xlZXAoNSkKICAgIHByaW50KCJicm93c2VyIG9wZW5lZCIpCiAgICBwYWdlc291cmNlID0gZHJpdmVyLnBhZ2Vfc291cmNlCiAgICBwYXJzZWRfaHRtbCA9IGJlYXV0aWZ1bHNvdXAocGFnZXNvdXJjZSwnbHhtbCcpCiAgICB0d2l0dGVycHJvZmlsZW5hbWUgPSAiQCIgKyBwYXJzZWRfaHRtbC5maW5kKCJkaXYiLCB7ImRhdGEtdGVzdGlkIjoidXNlcm5hbWUifSkudGV4dC5zcGxpdCgnQCcpWy0xXQoKICAgIHR3ZWV0c2RmID0gcGQuZGF0YWZyYW1lKGNvbHVtbnM9WydfdGltZXN0YW1wJywgJ3R3aXR0ZXJwcm9maWxlbmFtZScsICd0d2VldGF1dGhvcicsICd0d2VldHRleHQnLCBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaXNyZXR3ZWV0JywgJ3R3ZWV0dXJsc2xpc3QnLCAndHdlZXRpbWFnZXNsaXN0JywgXAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICd0d2VldHJlcGxpZXMnLCAndHdlZXRyZXR3ZWV0cycsICd0d2VldGxpa2VzJ10pCgogICAgZm9yIGkgaW4gcmFuZ2UocGFnZXNjcm9sbHMpOgogICAgICAgIHBhZ2Vzb3VyY2UgPSBkcml2ZXIucGFnZV9zb3VyY2UKICAgICAgICBwYXJzZWRfaHRtbCA9IGJlYXV0aWZ1bHNvdXAocGFnZXNvdXJjZSwnbHhtbCcpCgogICAgICAgIGxvY2FsZGYgPSBwZC5kYXRhZnJhbWUoY29sdW1ucz1bJ190aW1lc3RhbXAnLCAndHdpdHRlcnByb2ZpbGVuYW1lJywgJ3R3ZWV0YXV0aG9yJywgJ3R3ZWV0dGV4dCcsIFwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdpc3JldHdlZXQnLCAndHdlZXR1cmxzbGlzdCcsICd0d2VldGltYWdlc2xpc3QnLCBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3R3ZWV0cmVwbGllcycsICd0d2VldHJldHdlZXRzJywgJ3R3ZWV0bGlrZXMnXSkKCiAgICAgICAgaW5kZXggPSAwCiAgICAgICAgdHdlZXRzID0gcGFyc2VkX2h0bWwuZmluZF9hbGwoImRpdiIsIHsiZGF0YS10ZXN0aWQiOiJjZWxsaW5uZXJkaXYifSkKICAgICAgICBmb3IgdHdlZXQgaW4gdHdlZXRzOgoKICAgICAgICAgICAgdHdlZXR0aW1lID0gdHdlZXQuZmluZCgidGltZSIpCiAgICAgICAgICAgIGlmIG5vdCB0d2VldHRpbWU6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB0d2VldHRpbWUgPSB0d2VldHRpbWVbJ2RhdGV0aW1lJ10KICAgICAgICAgICAgdHdlZXR1c2VybmFtZSA9ICJAIiArIHR3ZWV0LmZpbmQoImRpdiIsIHsiZGF0YS10ZXN0aWQiOiJ1c2VyLW5hbWUifSkudGV4dC5zcGxpdCgiQCIpWy0xXS5zcGxpdCgiwrciKVswXQogICAgICAgICAgICBpc3JldHdlZXQgPSAibm8iCiAgICAgICAgICAgIGlmIHR3ZWV0dXNlcm5hbWUgIT0gdHdpdHRlcnByb2ZpbGVuYW1lOgogICAgICAgICAgICAgICAgaXNyZXR3ZWV0ID0gInllcyIKICAgICAgICAgICAgdHdlZXR1cmxzID0gdHdlZXQuZmluZF9hbGwoImEiKQogICAgICAgICAgICB0d2VldHVybHNsaXN0ID0gW3R3ZWV0dXJsWydocmVmJ10gZm9yIHR3ZWV0dXJsIGluIHR3ZWV0dXJscyBpZiAnaHR0cCcgaW4gdHdlZXR1cmxbJ2hyZWYnXV0KICAgICAgICAgICAgdHdlZXR1cmxzbGlzdCA9IGxpc3QoZGljdC5mcm9ta2V5cyh0d2VldHVybHNsaXN0KSkKICAgICAgICAgICAgdHdlZXRpbWFnZXMgPSB0d2VldC5maW5kX2FsbCgiaW1nIikKICAgICAgICAgICAgdHdlZXRpbWFnZXNsaXN0ID0gW3R3ZWV0aW1hZ2VbJ3NyYyddIGZvciB0d2VldGltYWdlIGluIHR3ZWV0aW1hZ2VzIGlmICdtZWRpYScgaW4gdHdlZXRpbWFnZVsnc3JjJ11dCiAgICAgICAgICAgIHR3ZWV0aW1hZ2VzbGlzdCA9IGxpc3QoZGljdC5mcm9ta2V5cyh0d2VldGltYWdlc2xpc3QpKQogICAgICAgICAgICB0d2VldHRleHQgPSB0d2VldC5maW5kKCJkaXYiLCB7ImRhdGEtdGVzdGlkIjoidHdlZXR0ZXh0In0pCiAgICAgICAgICAgIGlmIHR3ZWV0dGV4dDoKICAgICAgICAgICAgICAgIHR3ZWV0dGV4dCA9IHR3ZWV0dGV4dC50ZXh0CiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICB0d2VldHRleHQgPSAiIgogICAgICAgICAgICB0d2VldHJlcGxpZXMgPSBpbnQodHdlZXQuZmluZCgiZGl2IiwgeyJkYXRhLXRlc3RpZCI6InJlcGx5In0pWydhcmlhLWxhYmVsJ10uc3BsaXQoIiAiKVswXSkKICAgICAgICAgICAgdHdlZXRyZXR3ZWV0cyA9IGludCh0d2VldC5maW5kKCJkaXYiLCB7ImRhdGEtdGVzdGlkIjoicmV0d2VldCJ9KVsnYXJpYS1sYWJlbCddLnNwbGl0KCIgIilbMF0pCiAgICAgICAgICAgIHR3ZWV0bGlrZXMgPSBpbnQodHdlZXQuZmluZCgiZGl2IiwgeyJkYXRhLXRlc3RpZCI6Imxpa2UifSlbJ2FyaWEtbGFiZWwnXS5zcGxpdCgiICIpWzBdKQogICAgICAgICAgICBsb2NhbGRmLmxvY1tpbmRleCwgIl90aW1lc3RhbXAiXSA9IHR3ZWV0dGltZQogICAgICAgICAgICBsb2NhbGRmLmxvY1tpbmRleCwgInR3aXR0ZXJwcm9maWxlbmFtZSJdID0gdHdpdHRlcnByb2ZpbGVuYW1lCiAgICAgICAgICAgIGxvY2FsZGYubG9jW2luZGV4LCAidHdlZXRhdXRob3IiXSA9IHR3ZWV0dXNlcm5hbWUKICAgICAgICAgICAgbG9jYWxkZi5sb2NbaW5kZXgsICJ0d2VldHRleHQiXSA9IHR3ZWV0dGV4dAogICAgICAgICAgICBsb2NhbGRmLmxvY1tpbmRleCwgImlzcmV0d2VldCJdID0gaXNyZXR3ZWV0CiAgICAgICAgICAgIGxvY2FsZGYubG9jW2luZGV4LCAidHdlZXR1cmxzbGlzdCJdID0gJywgJy5qb2luKHR3ZWV0dXJsc2xpc3QpIGlmIGxlbih0d2VldHVybHNsaXN0KSA+IDAgZWxzZSAiIgogICAgICAgICAgICBsb2NhbGRmLmxvY1tpbmRleCwgInR3ZWV0aW1hZ2VzbGlzdCJdID0gJywgJy5qb2luKHR3ZWV0aW1hZ2VzbGlzdCkgaWYgbGVuKHR3ZWV0aW1hZ2VzbGlzdCkgPiAwIGVsc2UgIiIKICAgICAgICAgICAgbG9jYWxkZi5sb2NbaW5kZXgsICJ0d2VldHJlcGxpZXMiXSA9IHR3ZWV0cmVwbGllcwogICAgICAgICAgICBsb2NhbGRmLmxvY1tpbmRleCwgInR3ZWV0cmV0d2VldHMiXSA9IHR3ZWV0cmV0d2VldHMKICAgICAgICAgICAgbG9jYWxkZi5sb2NbaW5kZXgsICJ0d2VldGxpa2VzIl0gPSB0d2VldGxpa2VzCiAgICAgICAgICAgIGluZGV4ICs9IDEKCiAgICAgICAgY29uY2F0ID0gW3R3ZWV0c2RmLCBsb2NhbGRmXQogICAgICAgIHR3ZWV0c2RmID0gcGQuY29uY2F0KGNvbmNhdCkKICAgICAgICAKICAgICAgICBkcml2ZXIuZXhlY3V0ZV9zY3JpcHQoIndpbmRvdy5zY3JvbGx0bygwLGRvY3VtZW50LmJvZHkuc2Nyb2xsaGVpZ2h0KSIpCiAgICAgICAgdGltZS5zbGVlcCg1KQoKICAgIHR3ZWV0c2RmWydwcm9maWxlbmFtZSddID0gdHdpdHRlcnByb2ZpbGVuYW1lCiAgICB0d2VldHNkZlsncHJvZmlsZXVybCddID0gdHdpdHRlcl91cmwKICAgIAogICAgZHJpdmVyLnF1aXQoKQoKICAgIHJldHVybiB0d2VldHNkZgoKZGVmIGNsZWFuZGYodHdlZXRzZGYpOgogICAgY2xlYW5lZHR3ZWV0c2RmID0gdHdlZXRzZGYuY29weSgpCiAgICBjbGVhbmVkdHdlZXRzZGYuZHJvcF9kdXBsaWNhdGVzKGlucGxhY2U9dHJ1ZSkKICAgIGNsZWFuZWR0d2VldHNkZi5kcm9wbmEoaG93PSJhbGwiLCBpbnBsYWNlPXRydWUpCiAgICBjbGVhbmVkdHdlZXRzZGZbJ190aW1lc3RhbXAnXSA9IHBkLnRvX2RhdGV0aW1lKGNsZWFuZWR0d2VldHNkZlsnX3RpbWVzdGFtcCddKQogICAgY2xlYW5lZHR3ZWV0c2RmLnNldF9pbmRleCgnX3RpbWVzdGFtcCcsIGlucGxhY2U9dHJ1ZSkKICAgIGNsZWFuZWR0d2VldHNkZi5pbmRleCA9IGNsZWFuZWR0d2VldHNkZi5pbmRleC50el9jb252ZXJ0KCdhbWVyaWNhL3Nhb19wYXVsbycpCiAgICBjbGVhbmVkdHdlZXRzZGYucmVzZXRfaW5kZXgoaW5wbGFjZT10cnVlKQogICAgY2xlYW5lZHR3ZWV0c2RmWydfdGltZXN0YW1wJ10gPSBjbGVhbmVkdHdlZXRzZGZbJ190aW1lc3RhbXAnXS5kdC50el9sb2NhbGl6ZShub25lKQogICAgY2xlYW5lZHR3ZWV0c2RmLnNvcnRfdmFsdWVzKGJ5PVsnX3RpbWVzdGFtcCddLCBhc2NlbmRpbmc9ZmFsc2UsIGlucGxhY2U9dHJ1ZSkKICAgIGNsZWFuZWR0d2VldHNkZi5yZXNldF9pbmRleChkcm9wPXRydWUsIGlucGxhY2U9dHJ1ZSkKICAgIHJldHVybiBjbGVhbmVkdHdlZXRzZGYKCmRlZiBnZXRzY3JhcGVkZih0d2l0dGVydXNlcm5hbWVzbGlzdCwgdHdpdHRlcnVybHNsaXN0LCB0d2l0dGVyX3VybCwgcGFnZXNjcm9sbHMpOgogICAgCiAgICB0d2l0dGVycHJvZmlsZW5hbWUgPSAiQCIgKyB0d2l0dGVydXNlcm5hbWVzbGlzdFt0d2l0dGVydXJsc2xpc3QuaW5kZXgodHdpdHRlcl91cmwpXQogICAgcHJpbnQodHdpdHRlcnByb2ZpbGVuYW1lKQogICAgIyBnZXQgdHdlZXRzCiAgICB0d2VldHNkZiA9IGdldHR3aXR0ZXJ0d2VldHModHdpdHRlcl91cmwsIHBhZ2VzY3JvbGxzKQogICAgcHJpbnQoImdvdCB0d2VldHMiKQogICAgIyBjbGVhbiBkYXRhZnJhbWUKICAgIGNsZWFuZWR0d2VldHNkZiA9IGNsZWFuZGYodHdlZXRzZGYpCiAgICBwcmludCgiY2xlYW5lZCBkYXRhIikKICAgICMgZXhwb3J0IGRhdGEgdG8gZXhjZWwKICAgIHNhdmVfeGxzeF90b19zMyhjbGVhbmVkdHdlZXRzZGYsICJldGhtYW5pYWNvcyIsICJ7fS54bHN4Ii5mb3JtYXQodHdpdHRlcnByb2ZpbGVuYW1lKSkKICAgICNjbGVhbmVkdHdlZXRzZGYudG9fZXhjZWwoInt9Lnhsc3giLmZvcm1hdCh0d2l0dGVycHJvZmlsZW5hbWUpLCBpbmRleD1mYWxzZSkKICAgIHByaW50KCJleGNlbCBmaWxlIGdlbmVyYXRlZCBmb3Ige30hIi5mb3JtYXQodHdpdHRlcnByb2ZpbGVuYW1lKSkKCmRlZiBwcmludGV4ZWN1dGlvbnRpbWUoc3RhcnRfdGltZSk6CiAgICBlbmRfdGltZSA9IHRpbWUudGltZSgpCiAgICBleGVjdXRpb25fdGltZV9zZWMgPSBlbmRfdGltZSAtIHN0YXJ0X3RpbWUKCiAgICAjIGNvbnZlcnQgdGhlIGV4ZWN1dGlvbiB0aW1lIHRvIGhvdXJzLCBtaW51dGVzLCBhbmQgc2Vjb25kcwogICAgbSwgcyA9IGRpdm1vZChleGVjdXRpb25fdGltZV9zZWMsIDYwKQogICAgaCwgbSA9IGRpdm1vZChtLCA2MCkKCiAgICAjIHByaW50IHRoZSBleGVjdXRpb24gdGltZQogICAgcHJpbnQoZiJleGVjdXRpb24gdGltZToge2ludChoKTowMmR9OntpbnQobSk6MDJkfTp7czouMmZ9IikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3RhcnRfdGltZSA9IHRpbWUudGltZSgpCiAgICB0cnk6CiAgICAgICAgIyBnZXQgdHdpdHRlciBhY2NvdW50cwogICAgICAgIHdpdGggb3BlbigndHdpdHRlcl9tb25pdG9yLmpzb24nLCAncicpIGFzIGY6CiAgICAgICAgICAgIGRhdGEgPSBqc29uLmxvYWQoZikKICAgICAgICB0d2l0dGVydXJsc2xpc3QgPSBbdmFsdWVbJ3VybCddIGZvciBrZXksIHZhbHVlIGluIGRhdGEuaXRlbXMoKV0KICAgICAgICB0d2l0dGVydXNlcm5hbWVzbGlzdCA9IFtrZXkgZm9yIGtleSwgdmFsdWUgaW4gZGF0YS5pdGVtcygpXQogICAgICAgIAogICAgICAgICMgZGVmaW5lIHBhZ2Ugc2Nyb2xscwogICAgICAgIHBhZ2VzY3JvbGxzID0gMTAKICAgICAgICAKICAgICAgICBmb3IgdXJsIGluIHR3aXR0ZXJ1cmxzbGlzdDoKICAgICAgICAgICAgZ2V0c2NyYXBlZGYodHdpdHRlcnVzZXJuYW1lc2xpc3QsIHR3aXR0ZXJ1cmxzbGlzdCwgdXJsLCBwYWdlc2Nyb2xscykKICAgICAgICAgICAgCiAgICAgICAgIyBtZXJnZSBhbGwgZXhjZWwgZmlsZXMKICAgICAgICBtZXJnZWRkZiA9IHBkLmRhdGFmcmFtZSgpCiAgICAgICAgZm9yIHVybCBpbiB0d2l0dGVydXJsc2xpc3Q6CiAgICAgICAgICAgIHR3aXR0ZXJwcm9maWxlbmFtZSA9ICJAIiArIHR3aXR0ZXJ1c2VybmFtZXNsaXN0W3R3aXR0ZXJ1cmxzbGlzdC5pbmRleCh1cmwpXQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBsb2NhbGRmID0gbG9hZF94bHN4X2Zyb21fczMoImV0aG1hbmlhY29zIiwgInt9Lnhsc3giLmZvcm1hdCh0d2l0dGVycHJvZmlsZW5hbWUpKQogICAgICAgICAgICAgICAgI2xvY2FsZGYgPSBwZC5yZWFkX2V4Y2VsKCJ7fS54bHN4Ii5mb3JtYXQodHdpdHRlcnByb2ZpbGVuYW1lKSkKICAgICAgICAgICAgICAgIG1lcmdlZGRmID0gcGQuY29uY2F0KFttZXJnZWRkZiwgbG9jYWxkZl0pCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAjIGV4cG9ydCB0byBwb3N0Z3JlcwogICAgICAgIGRmdG9zcWwobWVyZ2VkZGYpCgogICAgICAgICMgY2hlY2sgZXhwb3J0CiAgICAgICAgcm93cyA9IHJ1bl9xdWVyeSgic2VsZWN0ICogZnJvbSBfdHdlZXRzX21vbml0b3IiKQogICAgICAgIGNvbHVtbnMgPSBnZXRjb2x1bW5zKCkKICAgICAgICBwb3N0Z3Jlc2RmID0gcGQuZGF0YWZyYW1lKHJvd3MsIGNvbHVtbnM9Y29sdW1ucykKICAgICAgICBwcmludCgic2NyYXBlIGxlbmd0aDoge30gfHwgcG9zdGdyZXMgdGFibGUgbGVuZ3RoOiB7fSIuZm9ybWF0KGxlbihtZXJnZWRkZiksIGxlbihwb3N0Z3Jlc2RmKSkpCgogICAgZXhjZXB0IGV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiYW4gZXJyb3Igb2NjdXJyZWQ6IHtlfSIpCiAgICAgICAgaWduaXRlZGlzY29yZGFsZXJ0KCkKCiAgICBwcmludGV4ZWN1dGlvbnRpbWUoc3RhcnRfdGltZSkK",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAD9IQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							6,
-							1,
-							"",
-							null,
-							"AQAAAAAAAAAAAAAA5yoAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							9,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAACNAQAAZnJvbSBiczQgaW1wb3J0IEJlYXV0aWZ1bFNvdXAKaW1wb3J0IHRpbWUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IHVuZGV0ZWN0ZWRfY2hyb21lZHJpdmVyIGFzIHVjCmltcG9ydCBvcwpmcm9tIGRpc2NvcmRfd2ViaG9vayBpbXBvcnQgRGlzY29yZFdlYmhvb2ssIERpc2NvcmRFbWJlZAppbXBvcnQgdHJhY2ViYWNrCmltcG9ydCBwc3ljb3BnMgpmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IGNyZWF0ZV9lbmdpbmUKZnJvbSBkb3RlbnYgaW1wb3J0IGxvYWRfZG90ZW52CmltcG9ydCBqc29uCmltcG9ydCBjb25jdXJyZW50LmZ1dHVyZXMKaW1wb3J0IHBhbmRhcyBhcyBwZAppbXBvcnQgdXJsbGliLnBhcnNlCmltcG9ydCBib3RvMwppbXBvcnQgaW8KaW1wb3J0IHhsc3h3cml0ZXIKCg",
-							"AQAAAAAAAAABAAAAjQEAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							12,
-							1,
-							"left_delete",
-							null,
-							"AQAAAIcDAAAAAAAAhwMAAAAAAACyAQAAZGVmIGlnbml0ZURpc2NvcmRBbGVydCgpOgogICAgd2ViaG9vayA9IERpc2NvcmRXZWJob29rKHVybD0naHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA5NTEzNzczMTQ5NzE3MzAzMy93eVZ2VElJWHlGMlhZNVlNb240YVozdlRLdWQtQzNpWlc2LW5mUWlyUUNxS0ZCdTF1ck1iNUlrZ0V3Rjd2akdfSGRsaCcpCiAgICBlbWJlZCA9IERpc2NvcmRFbWJlZCh0aXRsZT0nQnVnIG5vIHNjcmlwdCB0d2l0dGVyLXR3ZWV0cy1zY3JhcGVyLnB5JywgZGVzY3JpcHRpb249J/CfpJQgTsOjbyBmZXogc2NyYXBpbmcgZGUgVHdpdHRlciEnLCBjb2xvcj0nMDNiMmY4JykKICAgIHdlYmhvb2suYWRkX2VtYmVkKGVtYmVkKQogICAgZW1iZWQuc2V0X3RpbWVzdGFtcCgpCiAgICByZXNwb25zZSA9IHdlYmhvb2suZXhlY3V0ZSgpCiAgICAjd2ViaG9vay5kZWxldGUoKQo",
-							"AQAAAAAAAAABAAAAhwMAAAAAAAA1BQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							15,
-							2,
-							"left_delete",
-							null,
-							"AgAAAIcDAAAAAAAAhwMAAAAAAADPAgAACmRlZiBpbml0X2Nvbm5lY3Rpb24oKToKICAgIGxvYWRfZG90ZW52KCcuZW52JykKICAgIHBvc3RncmVzX2RhdGFiYXNlID0gb3MuZW52aXJvblsnUE9TVEdSRVNfREFUQUJBU0UnXQogICAgcG9zdGdyZXNfdXNlcm5hbWUgPSBvcy5lbnZpcm9uWydQT1NUR1JFU19VU0VSTkFNRSddCiAgICBwb3N0Z3Jlc19wYXNzd29yZCA9IG9zLmVudmlyb25bJ1BPU1RHUkVTX1BBU1NXT1JEJ10KICAgIHBvc3RncmVzX2hvc3QgPSBvcy5lbnZpcm9uWydQT1NUR1JFU19IT1NUJ10KICAgIHBvc3RncmVzX3BvcnQgPSBvcy5lbnZpcm9uWydQT1NUR1JFU19QT1JUJ10KCiAgICBjb25uID0gcHN5Y29wZzIuY29ubmVjdCgKICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZT1wb3N0Z3Jlc19kYXRhYmFzZSwKICAgICAgICAgICAgICAgICAgICB1c2VyPXBvc3RncmVzX3VzZXJuYW1lLAogICAgICAgICAgICAgICAgICAgIHBhc3N3b3JkPXBvc3RncmVzX3Bhc3N3b3JkLAogICAgICAgICAgICAgICAgICAgIGhvc3Q9cG9zdGdyZXNfaG9zdCwKICAgICAgICAgICAgICAgICAgICBwb3J0PXBvc3RncmVzX3BvcnQpCgogICAgcmV0dXJuIGNvbm4KCmRlZiBydW5fcXVlcnkocXVlcnkpOgogICAgY29ubiA9IGluaXRfY29ubmVjdGlvbigpCiAgICB3aXRoIGNvbm4uY3Vyc29yKCkgYXMgY3VyOgogICAgICAgIGN1ci5leGVjdXRlKHF1ZXJ5KQogICAgICAgIHJldHVybiBjdXIuZmV0Y2hhbGwoKQqGAwAAAAAAAIYDAAAAAAAAAQAAAAo",
-							"AQAAAAAAAAABAAAAhwMAAAAAAABWBgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							18,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAAAAAAAAAAAAAAAAAAAAACAAQAAZGVmIGxvYWRfeGxzeF9mcm9tX3MzKGJ1Y2tldF9uYW1lLCBmaWxlX25hbWUpOgogICAgbG9hZF9kb3RlbnYoJy5lbnYnKQogICAgczMgPSBib3RvMy5jbGllbnQoInMzIiwKICAgICAgICAgICAgICAgICAgICBhd3NfYWNjZXNzX2tleV9pZD1vcy5lbnZpcm9uWydhd3NfYWNjZXNzX2tleV9pZCddLAogICAgICAgICAgICAgICAgICAgIGF3c19zZWNyZXRfYWNjZXNzX2tleT0gb3MuZW52aXJvblsnYXdzX3NlY3JldF9hY2Nlc3Nfa2V5J10pCgogICAgb2JqID0gczMuZ2V0X29iamVjdChCdWNrZXQ9YnVja2V0X25hbWUsIEtleT1maWxlX25hbWUpCiAgICBmaWxlID0gaW8uQnl0ZXNJTyhvYmpbJ0JvZHknXS5yZWFkKCkpCiAgICByZXR1cm4gcGQucmVhZF9leGNlbChmaWxlKQoK",
-							"AQAAAAAAAAABAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							21,
-							2,
-							"left_delete",
-							null,
-							"AgAAAJwGAAAAAAAAnAYAAAAAAADNAgAAZGVmIG9wZW5Ccm93c2VyKCk6CiAgICBvcHRpb25zID0gdWMuQ2hyb21lT3B0aW9ucygpCiAgICBvcHRpb25zLmFkZF9hcmd1bWVudCgiLS1oZWFkbGVzcyIpCiAgICBvcHRpb25zLmFkZF9hcmd1bWVudCgiLS1kaXNhYmxlLWV4dGVuc2lvbnMiKQogICAgb3B0aW9ucy5hZGRfYXJndW1lbnQoIi0tZGlzYWJsZS1hcHBsaWNhdGlvbi1jYWNoZSIpCiAgICBvcHRpb25zLmFkZF9hcmd1bWVudCgiLS1uby1zYW5kYm94IikKICAgIG9wdGlvbnMuYWRkX2FyZ3VtZW50KCItLXZlcmJvc2UiKQogICAgb3B0aW9ucy5hZGRfYXJndW1lbnQoIi0tZGlzYWJsZS1ub3RpZmljYXRpb25zIikKICAgIG9wdGlvbnMuYWRkX2FyZ3VtZW50KCItLXdpbmRvdy1zaXplPTUwMHg1MDAiKQogICAgb3B0aW9ucy5hZGRfYXJndW1lbnQoIi0tZGlzYWJsZS1zZXR1aWQtc2FuZGJveCIpCiAgICBvcHRpb25zLmFkZF9hcmd1bWVudCgiLS1kaXNhYmxlLWRldi1zaG0tdXNhZ2UiKQogICAgb3B0aW9ucy5hZGRfYXJndW1lbnQoIi0tZGlzYWJsZS1ncHUiKQogICAgb3B0aW9ucy5hZGRfYXJndW1lbnQoIi0tZGlzYWJsZS1zb2Z0d2FyZS1yYXN0ZXJpemVyIikKICAgIGRyaXZlciA9IHVjLkNocm9tZShleGVjdXRhYmxlX3BhdGg9b3MuZW52aXJvbi5nZXQoIkNIUk9NRURSSVZFUl9QQVRIIiksIG9wdGlvbnM9b3B0aW9ucywgdmVyc2lvbl9tYWluPTExMSkKICAgIAogICAgcmV0dXJuIGRyaXZlciAKmwYAAAAAAACbBgAAAAAAAAEAAAAK",
-							"AQAAAAAAAAABAAAAnAYAAAAAAABpCQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							24,
-							2,
-							"left_delete",
-							null,
-							"AgAAADwUAAAAAAAAPBQAAAAAAACtAgAACmRlZiBjbGVhbkRmKHR3ZWV0c0RmKToKICAgIGNsZWFuZWRUd2VldHNEZiA9IHR3ZWV0c0RmLmNvcHkoKQogICAgY2xlYW5lZFR3ZWV0c0RmLmRyb3BfZHVwbGljYXRlcyhpbnBsYWNlPVRydWUpCiAgICBjbGVhbmVkVHdlZXRzRGYuZHJvcG5hKGhvdz0iYWxsIiwgaW5wbGFjZT1UcnVlKQogICAgY2xlYW5lZFR3ZWV0c0RmWydfdGltZXN0YW1wJ10gPSBwZC50b19kYXRldGltZShjbGVhbmVkVHdlZXRzRGZbJ190aW1lc3RhbXAnXSkKICAgIGNsZWFuZWRUd2VldHNEZi5zZXRfaW5kZXgoJ190aW1lc3RhbXAnLCBpbnBsYWNlPVRydWUpCiAgICBjbGVhbmVkVHdlZXRzRGYuaW5kZXggPSBjbGVhbmVkVHdlZXRzRGYuaW5kZXgudHpfY29udmVydCgnQW1lcmljYS9TYW9fUGF1bG8nKQogICAgY2xlYW5lZFR3ZWV0c0RmLnJlc2V0X2luZGV4KGlucGxhY2U9VHJ1ZSkKICAgIGNsZWFuZWRUd2VldHNEZlsnX3RpbWVzdGFtcCddID0gY2xlYW5lZFR3ZWV0c0RmWydfdGltZXN0YW1wJ10uZHQudHpfbG9jYWxpemUoTm9uZSkKICAgIGNsZWFuZWRUd2VldHNEZi5zb3J0X3ZhbHVlcyhieT1bJ190aW1lc3RhbXAnXSwgYXNjZW5kaW5nPUZhbHNlLCBpbnBsYWNlPVRydWUpCiAgICBjbGVhbmVkVHdlZXRzRGYucmVzZXRfaW5kZXgoZHJvcD1UcnVlLCBpbnBsYWNlPVRydWUpCiAgICByZXR1cm4gY2xlYW5lZFR3ZWV0c0RmCjsUAAAAAAAAOxQAAAAAAAABAAAACg",
-							"AQAAAAAAAAABAAAAPBQAAAAAAADpFgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							25,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAADsUAAAAAAAAPBQAAAAAAAAAAAAAPBQAAAAAAABAFAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAOxQAAAAAAAA7FAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							28,
-							1,
-							"left_delete",
-							null,
-							"AgAAANQWAAAAAAAA1BYAAAAAAABVAQAACmRlZiBwcmludEV4ZWN1dGlvblRpbWUoc3RhcnRfdGltZSk6CiAgICBlbmRfdGltZSA9IHRpbWUudGltZSgpCiAgICBleGVjdXRpb25fdGltZV9zZWMgPSBlbmRfdGltZSAtIHN0YXJ0X3RpbWUKCiAgICAjIENvbnZlcnQgdGhlIGV4ZWN1dGlvbiB0aW1lIHRvIGhvdXJzLCBtaW51dGVzLCBhbmQgc2Vjb25kcwogICAgbSwgcyA9IGRpdm1vZChleGVjdXRpb25fdGltZV9zZWMsIDYwKQogICAgaCwgbSA9IGRpdm1vZChtLCA2MCkKCiAgICAjIFByaW50IHRoZSBleGVjdXRpb24gdGltZQogICAgcHJpbnQoZiJFeGVjdXRpb24gdGltZToge2ludChoKTowMmR9OntpbnQobSk6MDJkfTp7czouMmZ9IikKCgo8FAAAAAAAADwUAAAAAAAABAAAACAgICA",
-							"AQAAAAAAAAABAAAA1BYAAAAAAAApGAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							29,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAANAWAAAAAAAA0RYAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAA0BYAAAAAAADQFgAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -962,6 +856,12 @@
 			},
 			"file_history":
 			[
+				"/home/desker/export (1).csv",
+				"/home/desker/ethxp/token-terminal-scraper/top.txt",
+				"/home/desker/export.csv",
+				"/home/desker/ethxp/token-terminal-scraper/top200.txt",
+				"/home/desker/ethxp/token-terminal-scraper/error.txt",
+				"/home/desker/export1.csv",
 				"/home/desker/twitter/twitter_monitor.json",
 				"/home/desker/ethxp/twitter-tweets-scraper/twitter_monitor.json",
 				"/home/desker/MEGA/metamask.txt",
@@ -985,7 +885,6 @@
 				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
-				"/home/desker/export.csv",
 				"/home/desker/qts.txt",
 				"/home/desker/shiva/info.txt",
 				"/home/desker/changes",
@@ -1084,12 +983,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
 				"/home/desker/where.txt",
-				"/home/desker/models.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/pacman.conf",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/keyd and kmonad/keyd/how and where.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/amd cpu boost",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/1_install/arch_install.sh",
-				"/run/media/desker/Windows-SSD/Users/erick/Downloads/yuri.txt"
+				"/home/desker/models.txt"
 			],
 			"find":
 			{
@@ -1208,38 +1102,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7309,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										7309,
-										0
-									]
-								],
-								"settings":
-								{
-									"auto_name": "",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1283,7 +1145,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,41,2318,1068,3286,1080,3",
+			"position": "0,1,0,0,0,2390,560,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
