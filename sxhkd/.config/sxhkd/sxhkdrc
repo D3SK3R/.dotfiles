@@ -68,8 +68,8 @@ ctrl + space
     ~/.config/rofi/launcher/launcher
 
 # Use fudp to cut the internet
-super + e
-    ~/.scripts/lagSwitch.sh
+# super + e
+#    ~/.scripts/lagSwitch.sh
 
 # Dolphin
 super + f

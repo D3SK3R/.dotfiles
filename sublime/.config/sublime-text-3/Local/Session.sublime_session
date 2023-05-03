@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/twitter_handler.csv",
 		"/home/desker/export (1).csv",
 		"/home/desker/ethxp/token-terminal-scraper/top.txt",
 		"/home/desker/export.csv",
@@ -121,7 +122,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1682777175,
+	"next_update_check": 1683209175,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -129,8 +130,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2392.0,
-			562.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -340,6 +341,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/twitter_handler.csv",
 				"/home/desker/export (1).csv",
 				"/home/desker/ethxp/token-terminal-scraper/top.txt",
 				"/home/desker/export.csv",
@@ -466,8 +468,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
-				"/home/desker/where.txt",
-				"/home/desker/models.txt"
+				"/home/desker/where.txt"
 			],
 			"find":
 			{
@@ -714,6 +715,36 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/ethxp/twitter-tweets-scraper/category/twitter_handler.csv",
+					"settings":
+					{
+						"buffer_size": 2583,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "{\n  \"type\": \"service_account\",\n  \"project_id\": \"tactile-bindery-385618\",\n  \"private_key_id\": \"543d9e2969f902aa34e7e6ce6c706de45e91c8af\",\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7P+yEAzaiS/vE\\n21ikYElQYs5A1kd8QhzDGArCRyu8JiYW0k1K8QF3L2zmt1VhwkjC72H4OfluEe9D\\nU/xKK6I++uQik5P9ubI5f74oAs1HXPkrNVy+23HlTZT2cOByELECEyvByPBlErNz\\n7yBWQt73qqYPLhFXdzrXbcnVXHvVjBoUGw0dfE20jXBK2GHKtl9rnKOE0FxqlpTv\\npi7h+guXlxM1JOToQQIZtpD0S870PYD6fp7onXoCHNrnOEhB0cgRshL+cj1C58n6\\nR64BPoQXzckCAu/RklszWruEEu60uwhfn5ieWpoZ0Yo8MXlqn1VHjLEcX9Jm78gV\\nkpHSZqtjAgMBAAECggEAFOZurNF7AKSAhpmBDF/e7wUIRn5kXj823KPLV6IABLEx\\nYSy6CdpasoXtntbpxc6ctn1nrwAxkhKYZShzqYezRVpVqnJUe2aFuRtEC008wnFj\\nMmpzXq45yUFelh9FPhYU28luAeQ+yNlMhG01a8ts/bHjdSBMOToKrE8JzzHSdKRM\\npf8x8rom5jnM8VQ0oXs47zztcNP0ve5DP/dyeoZP1HJZuyDeFP3qUdedgmXgeld2\\ntIvRbrI8YpunkcFiFpM+pf7WXBAHXY6EV1PUxFswA4zWN1NiwmHEHx3zvtOsfCrp\\nZadNXLpLtJpWb298NbQG5OwqNiH81dFnXNeeWuUG0QKBgQDr2jYxT9yjI92dOpOs\\nB6V4XHcCUeFD82LN+xixJlynvaX7e4ygsmos49JDEaTcd1uXCiGJcCjTzhUUVONC\\nAUKmnAHDIfU89MVh3AqwDkRd/PK3hEQ4voPxW6kTKv17wI6Yy62h6DuEjF9ESPJQ\\n5iVb4xTvW2DdKt1XyzCfM7wf2QKBgQDLPtV/PW8skHPMp5ajb0oSizb22Bqcgv72\\nBIWQ+2LLGYY09yIBcRan3QmrFK8JKHARfBYueZ9FsClvqSbMpjZoEw0lPSuVi465\\nho6ZyEhsWit2shQsfwCbb9JQcb3gbbzhyXcpAB29OYXnrWV0+noF9T8gsG+CEVU0\\nrsnYfo+bmwKBgQDZn+gRaFd2UUnUIpDQU93jSa6mfVcWlCW/WspV68fjH6NggYgp\\nX3eJJE6HhGhS5e+lVrvLTarehXH96LYp2W/evGUD4Pmg3VqkCZ3zBbcf4p8zpuAs\\nW97zflhsT2bGIc9yPb5hfyAsFjpxj73H2BTwzIAsvGyMp1jGAb9Dp0EXQQKBgDPE\\n1HKtfkTWonhNc6Q7c52Xki97ygN1pmWZrz/HmFltLe8Nx76gRIoLViwaf58QisMZ\\nXTkHR5djkJpddoGIELGfsKh8lT5pJriA2o+3ISNgMFPydgsDam8tI1/UKO4iZYsJ\\nWu25ltmc7kudsgsCxdQArMyxxCVYLuDVaJpZWlDjAoGBALG+gfRL/gtOChFis300\\npT//PUZcYrEftXIpk21rVTCijd+ABcsQVfHmc6z3+GNkee81sWn4k/PMIBwql2a7\\nF5mKJbabzspPgaWzIuQsV56rSgsuGO9f7xYJOskLb+kec44lol6rLSGSb3jT0b6E\\nYj7E+iGfA+sA41PnCShJp1+w\\n-----END PRIVATE KEY-----\\n\",\n  \"client_email\": \"smart-traders@tactile-bindery-385618.iam.gserviceaccount.com\",\n  \"client_id\": \"117973682965370558540\",\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/smart-traders%40tactile-bindery-385618.iam.gserviceaccount.com\"\n}\n",
+					"file": "/home/desker/tactile-bindery-385618-543d9e2969f9.json",
+					"file_size": 2347,
+					"file_write_time": 133276147658688137,
+					"settings":
+					{
+						"buffer_size": 2347,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/desker/ethxp/twitter-tweets-scraper/category/twitter_monitor.json",
+					"settings":
+					{
+						"buffer_size": 18559,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -856,6 +887,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/twitter_handler.csv",
 				"/home/desker/export (1).csv",
 				"/home/desker/ethxp/token-terminal-scraper/top.txt",
 				"/home/desker/export.csv",
@@ -982,8 +1014,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/mimeapps.list",
 				"/home/desker/wifi",
-				"/home/desker/where.txt",
-				"/home/desker/models.txt"
+				"/home/desker/where.txt"
 			],
 			"find":
 			{
@@ -1102,6 +1133,98 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/ethxp/twitter-tweets-scraper/category/twitter_handler.csv",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2583,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										2583
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/tactile-bindery-385618-543d9e2969f9.json",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2347,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2347,
+										2347
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/ethxp/twitter-tweets-scraper/category/twitter_monitor.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 18559,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										247,
+										247
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6300.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1145,7 +1268,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2390,560,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
 			"project": "",
 			"replace":
 			{
