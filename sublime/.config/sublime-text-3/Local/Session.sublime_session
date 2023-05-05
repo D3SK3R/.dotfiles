@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/nvidia-settings-rc",
 		"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_monitor.json",
 		"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_handler.csv",
 		"/home/desker/tactile-bindery-385618-543d9e2969f9.json",
@@ -125,7 +126,7 @@
 	"last_version": 4143,
 	"last_window_id": 50,
 	"log_indexing": false,
-	"next_update_check": 1683209175,
+	"next_update_check": 1683381975,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -133,8 +134,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			562.0
+			1749.0,
+			51.0
 		],
 		"new_window_settings":
 		{
@@ -344,6 +345,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nvidia-settings-rc",
 				"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_monitor.json",
 				"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_handler.csv",
 				"/home/desker/tactile-bindery-385618-543d9e2969f9.json",
@@ -470,8 +472,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where"
 			],
 			"find":
 			{
@@ -860,6 +861,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/nvidia-settings-rc",
 				"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_monitor.json",
 				"/home/desker/ethxp/twitter-tweets-scraper/category/twitter_handler.csv",
 				"/home/desker/tactile-bindery-385618-543d9e2969f9.json",
@@ -986,8 +988,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/7_Polybar/config/modules",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/updateTrayIcons.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/gamemode/github and file location",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/handlr"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/where"
 			],
 			"find":
 			{
@@ -1149,7 +1150,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,560,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1747,49,2943,1073,3286,1080,3",
 			"project": "",
 			"replace":
 			{
