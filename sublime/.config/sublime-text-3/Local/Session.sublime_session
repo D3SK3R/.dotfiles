@@ -1,6 +1,13 @@
 {
 	"file_history":
 	[
+		"/home/desker/Basic Attention Token.csv",
+		"/home/desker/topcoinmarketcap.csv",
+		"/home/desker/ethxp/defillamachains/a.txt",
+		"/home/desker/Bitcoin.csv",
+		"/home/desker/ethxp/defillamachains/a",
+		"/run/media/desker/Windows-SSD/Users/erick/Downloads/postmongo.txt",
+		"/home/desker/_token_terminalEXPORT.csv",
 		"/home/desker/tokensAirdrops.txt",
 		"/home/desker/tokens",
 		"/home/desker/english",
@@ -128,9 +135,9 @@
 		"/home/d3sk3r/Minecraft"
 	],
 	"last_version": 4143,
-	"last_window_id": 50,
+	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1683727575,
+	"next_update_check": 1684937175,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -138,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1543.0,
-			20.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -349,6 +356,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/Basic Attention Token.csv",
+				"/home/desker/topcoinmarketcap.csv",
+				"/home/desker/ethxp/defillamachains/a.txt",
+				"/home/desker/Bitcoin.csv",
 				"/home/desker/tokensAirdrops.txt",
 				"/home/desker/tokens",
 				"/home/desker/english",
@@ -472,11 +483,7 @@
 				"/home/desker/modelsList",
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/desker/gitdots/README.md",
-				"/home/desker/todo",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
-				"/home/desker/.scripts/rofi_power.sh"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
 			],
 			"find":
 			{
@@ -868,6 +875,10 @@
 			},
 			"file_history":
 			[
+				"/home/desker/Basic Attention Token.csv",
+				"/home/desker/topcoinmarketcap.csv",
+				"/home/desker/ethxp/defillamachains/a.txt",
+				"/home/desker/Bitcoin.csv",
 				"/home/desker/tokensAirdrops.txt",
 				"/home/desker/tokens",
 				"/home/desker/english",
@@ -991,11 +1002,7 @@
 				"/home/desker/modelsList",
 				"/home/desker/fix grub/how.txt",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command",
-				"/home/desker/gitdots/README.md",
-				"/home/desker/todo",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/9_rofi/rofi/WHERE.txt",
-				"/home/desker/.scripts/rofi_power.sh"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
 			],
 			"find":
 			{
@@ -1160,7 +1167,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1541,18,3080,1034,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
@@ -1207,7 +1214,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 50,
+			"window_id": 51,
 			"workspace_name": ""
 		}
 	],

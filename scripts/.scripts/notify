@@ -1,6 +1,4 @@
 #!/bin/sh
 
-dunstify 'Finished'
-
-mpg123 -q ~/.scripts/ding-notif.mp3
+bash -c "dunstify 'Finished' & mpg123 -q ~/.scripts/ding-notif.mp3 &" &>/dev/null
 
