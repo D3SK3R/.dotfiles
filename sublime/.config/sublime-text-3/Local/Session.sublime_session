@@ -1,8 +1,13 @@
 {
 	"file_history":
 	[
-		"/home/desker/Basic Attention Token.csv",
+		"/home/desker/topused.txt",
+		"/home/desker/topcoinmarketcap.txt",
+		"/home/desker/toptokenterminal.txt",
+		"/home/desker/topnotused.txt",
+		"/home/desker/project_names.txt",
 		"/home/desker/topcoinmarketcap.csv",
+		"/home/desker/Basic Attention Token.csv",
 		"/home/desker/ethxp/defillamachains/a.txt",
 		"/home/desker/Bitcoin.csv",
 		"/home/desker/ethxp/defillamachains/a",
@@ -123,12 +128,7 @@
 		"/home/desker/MEGA/tabela-escrita.txt",
 		"/home/desker/MEGA/todo",
 		"/home/desker/MEGA/voice.txt",
-		"/home/desker/MEGA/anime",
-		"/home/desker/MEGA/hedgepoint pass.txt",
-		"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-		"/home/desker/MEGA/tattoo/english to japanese.txt",
-		"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
-		"/home/desker/modelsList"
+		"/home/desker/MEGA/anime"
 	],
 	"folder_history":
 	[
@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1684937175,
+	"next_update_check": 1685023575,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			689.0,
-			199.0
+			1616.0,
+			133.0
 		],
 		"new_window_settings":
 		{
@@ -356,8 +356,13 @@
 			},
 			"file_history":
 			[
-				"/home/desker/Basic Attention Token.csv",
+				"/home/desker/topused.txt",
+				"/home/desker/topcoinmarketcap.txt",
+				"/home/desker/toptokenterminal.txt",
+				"/home/desker/topnotused.txt",
+				"/home/desker/project_names.txt",
 				"/home/desker/topcoinmarketcap.csv",
+				"/home/desker/Basic Attention Token.csv",
 				"/home/desker/ethxp/defillamachains/a.txt",
 				"/home/desker/Bitcoin.csv",
 				"/home/desker/tokensAirdrops.txt",
@@ -478,12 +483,7 @@
 				"/home/desker/MEGA/anime",
 				"/home/desker/MEGA/hedgepoint pass.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/desker/MEGA/tattoo/english to japanese.txt",
-				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
-				"/home/desker/modelsList",
-				"/home/desker/fix grub/how.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
+				"/home/desker/MEGA/tattoo/english to japanese.txt"
 			],
 			"find":
 			{
@@ -502,6 +502,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"inch",
+					"1inch",
+					"//",
 					", ",
 					"3113",
 					"inflation-adju",
@@ -586,6 +589,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
 					"\\n",
 					"https://twitter.com/",
 					"twitter.com/",
@@ -733,6 +737,52 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "basic_attention_token\nqtum\ntheta_fuel\ncartesi\nmina\nlido_dao\nethereum_classic\npax_dollar\nthe_sandbox\nvechain\nbnb\nkyber_network_crystal_v2\nstorj\nxrp\nhorizen\nabbc_coin\nshiba_inu\nflux\nbinance_usd\nxdc_network\nsolar\njasmycoin\naxie_infinity\ncosmos\nconflux\ninjective\nethereumpow\nmx_token\ntheta_network\ncocos-bcx\nchia\nwax\ncelo\napecoin\nholo\nmask_network\nkucoin_token\npax_gold\ncronos\nskale\ndecred\ndai\noasis_network\nomg_network\ninternet_computer\nrender_token\necash\nhedera\nterra\nbone_shibaswap\nrsk_infrastructure_framework\nterra_classic\ncore\nbitcoin_sv\nalchemy_pay\ngnosis\nbora\napenft\nnexo\nusd_coin\nfloki\nopen_campus\njust\nlisk\nhive\nquant\nflare\nastar\nrocket_pool\ndogelon_mars\nenjin_coin\nchiliz\niotex\ngemini_dollar\ntrust_wallet_token\nbitcoin_gold\ntether\nzilliqa\namp\nmagic\nravencoin\niota\nstepn\nnem\nontology\nsiacoin\nterraclassicusd\neos\ngala\naelf\nconvex_finance\nthe_graph\nmobilecoin\nfrax_share\nbinaryx\nwaves\nmoonbeam\nwrapped_bitcoin\ncasper\nband_protocol\nspace_id\nnervos_network\ndash\nbiconomy\ncurve_dao_token\niost\nokb\nstacks\nimmutable\nssv.network\njoe\nharmony\nnear_protocol\nsingularitynet\nmultiversx\nthreshold\nsafepal\nethereum_name_service\nunus_sed_leo\naudius\niexec_rlc\napi3\nstargate_finance\nneo\nceler_network\nicon\nusdd\nwoo_network\ndao_maker\nyearn.finance\ngatetoken\nbraintrust\nkadena\ndigibyte\nhuobi_token\nreserve_rights\ngalxe\nbitgert\nmaker\ndecentraland\naxelar\nbittorrent(new)\nkava\ngolem\nmonero\nbitcoin_cash\ntomochain\nfetch.ai\ntoncoin\npepe\nocean_protocol\nklaytn\ntrueusd\n",
+					"file": "/home/desker/missingfromtokenterminal.txt",
+					"file_size": 1474,
+					"file_write_time": 133294255891010122,
+					"settings":
+					{
+						"buffer_size": 1448,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							6,
+							1,
+							"left_delete",
+							null,
+							"AQAAADIAAAAAAAAAMgAAAAAAAAAOAAAACjFpbmNoX25ldHdvcms",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQAAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMsAAAAAAAAAywAAAAAAAAAMAAAACjB4X3Byb3RvY29s",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA1wAAAAAAAADLAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/desker/tokens/missingfromtokenterminal.txt",
+					"settings":
+					{
+						"buffer_size": 1474,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/desker/tokens/topcoinmarketcap.txt",
+					"settings":
+					{
+						"buffer_size": 1818,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -875,8 +925,13 @@
 			},
 			"file_history":
 			[
-				"/home/desker/Basic Attention Token.csv",
+				"/home/desker/topused.txt",
+				"/home/desker/topcoinmarketcap.txt",
+				"/home/desker/toptokenterminal.txt",
+				"/home/desker/topnotused.txt",
+				"/home/desker/project_names.txt",
 				"/home/desker/topcoinmarketcap.csv",
+				"/home/desker/Basic Attention Token.csv",
 				"/home/desker/ethxp/defillamachains/a.txt",
 				"/home/desker/Bitcoin.csv",
 				"/home/desker/tokensAirdrops.txt",
@@ -997,12 +1052,7 @@
 				"/home/desker/MEGA/anime",
 				"/home/desker/MEGA/hedgepoint pass.txt",
 				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/desker/MEGA/tattoo/english to japanese.txt",
-				"/home/desker/MEGA/D3SK3R/Other/Chrome/Tamper Monkey/chaturbate animate and grid.txt",
-				"/home/desker/modelsList",
-				"/home/desker/fix grub/how.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/scanmem.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/xdg-open/per extension command"
+				"/home/desker/MEGA/tattoo/english to japanese.txt"
 			],
 			"find":
 			{
@@ -1021,6 +1071,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"inch",
+					"1inch",
+					"//",
 					", ",
 					"3113",
 					"inflation-adju",
@@ -1105,6 +1158,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"",
 					"\\n",
 					"https://twitter.com/",
 					"twitter.com/",
@@ -1124,6 +1178,94 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/missingfromtokenterminal.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1448,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										240,
+										240
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 357.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/tokens/missingfromtokenterminal.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1474,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/desker/tokens/topcoinmarketcap.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1818,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3991.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1167,7 +1309,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
+			"position": "0,1,0,0,0,1614,131,2717,812,3286,1080,3",
 			"project": "",
 			"replace":
 			{
