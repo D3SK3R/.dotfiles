@@ -1,6 +1,11 @@
 {
 	"file_history":
 	[
+		"/home/desker/processes",
+		"/home/desker/missingfromtokenterminal.txt",
+		"/home/desker/tokens/missingfromtokenterminal.txt",
+		"/home/desker/tokens/topcoinmarketcap.txt",
+		"/home/desker/todo",
 		"/home/desker/topused.txt",
 		"/home/desker/topcoinmarketcap.txt",
 		"/home/desker/toptokenterminal.txt",
@@ -123,12 +128,7 @@
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
 		"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
-		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
-		"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
-		"/home/desker/MEGA/tabela-escrita.txt",
-		"/home/desker/MEGA/todo",
-		"/home/desker/MEGA/voice.txt",
-		"/home/desker/MEGA/anime"
+		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt"
 	],
 	"folder_history":
 	[
@@ -356,6 +356,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/processes",
+				"/home/desker/missingfromtokenterminal.txt",
+				"/home/desker/tokens/missingfromtokenterminal.txt",
+				"/home/desker/tokens/topcoinmarketcap.txt",
+				"/home/desker/todo",
 				"/home/desker/topused.txt",
 				"/home/desker/topcoinmarketcap.txt",
 				"/home/desker/toptokenterminal.txt",
@@ -478,12 +483,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
 				"/home/desker/MEGA/tabela-escrita.txt",
-				"/home/desker/MEGA/todo",
-				"/home/desker/MEGA/voice.txt",
-				"/home/desker/MEGA/anime",
-				"/home/desker/MEGA/hedgepoint pass.txt",
-				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/desker/MEGA/tattoo/english to japanese.txt"
+				"/home/desker/MEGA/todo"
 			],
 			"find":
 			{
@@ -737,63 +737,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "basic_attention_token\nqtum\ntheta_fuel\ncartesi\nmina\nlido_dao\nethereum_classic\npax_dollar\nthe_sandbox\nvechain\nbnb\nkyber_network_crystal_v2\nstorj\nxrp\nhorizen\nabbc_coin\nshiba_inu\nflux\nbinance_usd\nxdc_network\nsolar\njasmycoin\naxie_infinity\ncosmos\nconflux\ninjective\nethereumpow\nmx_token\ntheta_network\ncocos-bcx\nchia\nwax\ncelo\napecoin\nholo\nmask_network\nkucoin_token\npax_gold\ncronos\nskale\ndecred\ndai\noasis_network\nomg_network\ninternet_computer\nrender_token\necash\nhedera\nterra\nbone_shibaswap\nrsk_infrastructure_framework\nterra_classic\ncore\nbitcoin_sv\nalchemy_pay\ngnosis\nbora\napenft\nnexo\nusd_coin\nfloki\nopen_campus\njust\nlisk\nhive\nquant\nflare\nastar\nrocket_pool\ndogelon_mars\nenjin_coin\nchiliz\niotex\ngemini_dollar\ntrust_wallet_token\nbitcoin_gold\ntether\nzilliqa\namp\nmagic\nravencoin\niota\nstepn\nnem\nontology\nsiacoin\nterraclassicusd\neos\ngala\naelf\nconvex_finance\nthe_graph\nmobilecoin\nfrax_share\nbinaryx\nwaves\nmoonbeam\nwrapped_bitcoin\ncasper\nband_protocol\nspace_id\nnervos_network\ndash\nbiconomy\ncurve_dao_token\niost\nokb\nstacks\nimmutable\nssv.network\njoe\nharmony\nnear_protocol\nsingularitynet\nmultiversx\nthreshold\nsafepal\nethereum_name_service\nunus_sed_leo\naudius\niexec_rlc\napi3\nstargate_finance\nneo\nceler_network\nicon\nusdd\nwoo_network\ndao_maker\nyearn.finance\ngatetoken\nbraintrust\nkadena\ndigibyte\nhuobi_token\nreserve_rights\ngalxe\nbitgert\nmaker\ndecentraland\naxelar\nbittorrent(new)\nkava\ngolem\nmonero\nbitcoin_cash\ntomochain\nfetch.ai\ntoncoin\npepe\nocean_protocol\nklaytn\ntrueusd\n",
-					"file": "/home/desker/missingfromtokenterminal.txt",
-					"file_size": 1474,
-					"file_write_time": 133294255891010122,
-					"settings":
-					{
-						"buffer_size": 1448,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							6,
-							1,
-							"left_delete",
-							null,
-							"AQAAADIAAAAAAAAAMgAAAAAAAAAOAAAACjFpbmNoX25ldHdvcms",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABAAAAAAAAAADIAAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							9,
-							1,
-							"left_delete",
-							null,
-							"AQAAAMsAAAAAAAAAywAAAAAAAAAMAAAACjB4X3Byb3RvY29s",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADXAAAAAAAAAMsAAAAAAAAAAAAAAAAA8L8"
-						]
-					]
-				},
-				{
-					"file": "/home/desker/tokens/missingfromtokenterminal.txt",
-					"settings":
-					{
-						"buffer_size": 1474,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/tokens/topcoinmarketcap.txt",
-					"settings":
-					{
-						"buffer_size": 1818,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/todo",
-					"settings":
-					{
-						"buffer_size": 3020,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -936,6 +879,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/processes",
+				"/home/desker/missingfromtokenterminal.txt",
+				"/home/desker/tokens/missingfromtokenterminal.txt",
+				"/home/desker/tokens/topcoinmarketcap.txt",
+				"/home/desker/todo",
 				"/home/desker/topused.txt",
 				"/home/desker/topcoinmarketcap.txt",
 				"/home/desker/toptokenterminal.txt",
@@ -1058,12 +1006,7 @@
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt",
 				"/home/desker/MEGA/twitchFarm/runTwitchFarm.sh",
 				"/home/desker/MEGA/tabela-escrita.txt",
-				"/home/desker/MEGA/todo",
-				"/home/desker/MEGA/voice.txt",
-				"/home/desker/MEGA/anime",
-				"/home/desker/MEGA/hedgepoint pass.txt",
-				"/home/desker/MEGA/D3SK3R/Other/Chrome/ImprovedYoutube/Download.txt",
-				"/home/desker/MEGA/tattoo/english to japanese.txt"
+				"/home/desker/MEGA/todo"
 			],
 			"find":
 			{
@@ -1189,125 +1132,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/missingfromtokenterminal.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1448,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										240,
-										240
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 357.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/tokens/missingfromtokenterminal.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1474,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/tokens/topcoinmarketcap.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1818,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 3991.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/desker/todo",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3020,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										847,
-										847
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
