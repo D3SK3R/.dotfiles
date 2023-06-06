@@ -1,5 +1,0 @@
-[Trace 20:30:40.613] Server: connection.languages.diagnostics.on: file:///home/desker/todo
-[Trace 20:30:40.615] Server: connection.languages.diagnostics.on: file:///home/desker/todo
-[Debug 20:30:40.624] TableOfContentsProvider: create - file:///home/desker/todo
-[Debug 20:30:40.625] LinkProvider: compute - file:///home/desker/todo
-[Debug 20:30:40.816] MdFoldingProvider: provideFoldingRanges - file:///home/desker/todo

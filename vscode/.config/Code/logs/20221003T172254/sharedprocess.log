@@ -1,8 +1,0 @@
-[2022-10-03 17:22:57.710] [sharedprocess] [info] Starting worker process with pid 54811 (type: fileWatcher, window: 1).
-[2022-10-03 17:26:59.578] [sharedprocess] [info] Getting Manifest... marqu3s.aurora-x
-[2022-10-03 17:26:59.582] [sharedprocess] [info] Installing extension: marqu3s.aurora-x
-[2022-10-03 17:27:01.254] [sharedprocess] [info] Downloaded extension: marqu3s.aurora-x /home/desker/.config/Code/CachedExtensionVSIXs/marqu3s.aurora-x-2.0.2
-[2022-10-03 17:27:01.275] [sharedprocess] [info] Extracted extension to /home/desker/.vscode/extensions/.7e610557-c3c8-4103-aab7-76084a9485c1: marqu3s.aurora-x
-[2022-10-03 17:27:01.277] [sharedprocess] [info] Renamed to /home/desker/.vscode/extensions/marqu3s.aurora-x-2.0.2
-[2022-10-03 17:27:01.278] [sharedprocess] [info] Extracting completed. marqu3s.aurora-x
-[2022-10-03 17:27:01.279] [sharedprocess] [info] Extension installed successfully: marqu3s.aurora-x

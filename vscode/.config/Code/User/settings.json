@@ -6,5 +6,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
 }
