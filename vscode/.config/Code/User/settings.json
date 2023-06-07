@@ -8,5 +8,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.editor.untitled.hint": "hidden",
     "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
 }

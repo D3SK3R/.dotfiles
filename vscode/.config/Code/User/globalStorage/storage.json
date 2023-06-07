@@ -9,10 +9,10 @@
             "backupPath": "/home/desker/.config/Code/Backups/424a3c029058be3524d8cd602717c676",
             "uiState": {
                 "mode": 1,
-                "x": 1165,
-                "y": 33,
-                "width": 1640,
-                "height": 889
+                "x": 1174,
+                "y": 36,
+                "width": 806,
+                "height": 878
             }
         },
         "openedWindows": []
@@ -55,7 +55,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -726,7 +727,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -735,7 +737,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1654,17 +1657,14 @@
                 "configURIPath": "file:///home/desker/.config/Code/Workspaces/1686066688735/workspace.json"
             }
         ],
-        "folders": [
-            {
-                "folderUri": "file:///home/desker/MEGA/D3SK3R/D3SK3R/coding/JS_HTML"
-            }
-        ],
+        "folders": [],
         "emptyWindows": []
     },
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/desker/MEGA/D3SK3R/D3SK3R/coding/JS_HTML": "__default__profile__"
+            "file:///home/desker/MEGA/D3SK3R/D3SK3R/coding/JS_HTML": "__default__profile__",
+            "file:///home/desker/.config/Code/Workspaces/1686066688735/workspace.json": "__default__profile__"
         },
         "emptyWindows": {}
     },

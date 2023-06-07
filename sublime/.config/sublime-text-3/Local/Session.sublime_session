@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1376.0,
-			562.0
+			1573.0,
+			90.0
 		],
 		"new_window_settings":
 		{
@@ -737,6 +737,18 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/ethxp/desc/tokens.txt",
+					"settings":
+					{
+						"buffer_size": 78211,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					},
+					"undo_stack":
+					[
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1132,6 +1144,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/ethxp/desc/tokens.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 78211,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										69556,
+										69556
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 14283.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1175,7 +1217,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1374,560,2318,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1571,88,2944,1003,3286,1080,2",
 			"project": "",
 			"replace":
 			{

@@ -1,6 +1,0 @@
-[2022-10-03 17:32:37.135] [main] [info] update#setState idle
-[2022-10-03 17:32:37.973] [main] [info] Starting extension host with pid 67130 (fork() took 25 ms).
-[2022-10-03 17:33:07.137] [main] [info] update#setState checking for updates
-[2022-10-03 17:33:07.335] [main] [info] update#setState idle
-[2022-10-03 17:38:05.441] [main] [info] Waiting for extension host with pid 67130 to exit.
-[2022-10-03 17:38:05.446] [main] [info] Extension host with pid 67130 exited with code: 0, signal: null.
