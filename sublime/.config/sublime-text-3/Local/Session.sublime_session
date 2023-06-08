@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/ethxp/desc/tokens.txt",
+		"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 		"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
 		"/home/desker/ethxp/gpt/top.txt",
 		"/home/desker/top.txt",
@@ -126,9 +128,7 @@
 		"/home/desker/.minecraft/window_settings_launcher.conf",
 		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
 		"/home/desker/ffs",
-		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
-		"/home/desker/notes",
-		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt"
+		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt"
 	],
 	"folder_history":
 	[
@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1686146775,
+	"next_update_check": 1686319575,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1573.0,
-			90.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -356,6 +356,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/ethxp/desc/tokens.txt",
+				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 				"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
 				"/home/desker/ethxp/gpt/top.txt",
 				"/home/desker/top.txt",
@@ -481,9 +483,7 @@
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
-				"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt"
 			],
 			"find":
 			{
@@ -738,16 +738,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/ethxp/desc/tokens.txt",
+					"file": "/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 					"settings":
 					{
-						"buffer_size": 78211,
+						"buffer_size": 560,
 						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					},
-					"undo_stack":
-					[
-					]
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -891,6 +888,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/ethxp/desc/tokens.txt",
+				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 				"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
 				"/home/desker/ethxp/gpt/top.txt",
 				"/home/desker/top.txt",
@@ -1016,9 +1015,7 @@
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
 				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt",
-				"/home/desker/Ozark 2ª Temporada Completa 2018 [WEB-DL] [720p] [DUAL] BAIXE NO COMANDOTORRENTS.COM/Ozark.S02E10.720p.WEB-DL.DDP5.1.x264-DUAL.WWW.COMANDOTORRENTS.COM.srt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/FixArch.txt"
+				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt"
 			],
 			"find":
 			{
@@ -1146,20 +1143,20 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/ethxp/desc/tokens.txt",
+							"file": "/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 78211,
+								"buffer_size": 560,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										69556,
-										69556
+										157,
+										157
 									]
 								],
 								"settings":
@@ -1167,7 +1164,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 14283.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1217,7 +1214,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1571,88,2944,1003,3286,1080,2",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{

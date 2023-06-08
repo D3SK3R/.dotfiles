@@ -9,10 +9,10 @@
             "backupPath": "/home/desker/.config/Code/Backups/424a3c029058be3524d8cd602717c676",
             "uiState": {
                 "mode": 1,
-                "x": 1174,
-                "y": 36,
-                "width": 806,
-                "height": 878
+                "x": 1165,
+                "y": 33,
+                "width": 1640,
+                "height": 889
             }
         },
         "openedWindows": []
@@ -727,8 +727,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
