@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 		"/home/desker/ethxp/desc/tokens.txt",
 		"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 		"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
@@ -127,8 +128,7 @@
 		"/home/desker/.minecraft/usernamecache.json",
 		"/home/desker/.minecraft/window_settings_launcher.conf",
 		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-		"/home/desker/ffs",
-		"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt"
+		"/home/desker/ffs"
 	],
 	"folder_history":
 	[
@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1686319575,
+	"next_update_check": 1687292605,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			1366.0,
+			39.0
 		],
 		"new_window_settings":
 		{
@@ -356,6 +356,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 				"/home/desker/ethxp/desc/tokens.txt",
 				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 				"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
@@ -482,8 +483,7 @@
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
-				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt"
+				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt"
 			],
 			"find":
 			{
@@ -737,15 +737,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/desker/MEGA/Professional/ResumoCurriculo.txt",
-					"settings":
-					{
-						"buffer_size": 560,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -888,6 +879,7 @@
 			},
 			"file_history":
 			[
+				"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 				"/home/desker/ethxp/desc/tokens.txt",
 				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
 				"/home/desker/MEGA/D3SK3R/Midia/Images/edit.txt",
@@ -1014,8 +1006,7 @@
 				"/home/desker/ffs",
 				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
 				"/home/desker/notes",
-				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt",
-				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/fix grub/how.txt"
+				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt"
 			],
 			"find":
 			{
@@ -1141,36 +1132,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/desker/MEGA/Professional/ResumoCurriculo.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 560,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										157,
-										157
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1214,7 +1175,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
 			"project": "",
 			"replace":
 			{
