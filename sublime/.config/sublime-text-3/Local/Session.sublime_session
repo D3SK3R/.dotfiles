@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1687292605,
+	"next_update_check": 1687465405,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -737,6 +737,303 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/desker/apparmor/walkthrough.txt",
+					"settings":
+					{
+						"buffer_size": 1174,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/desker/apparmor/apparmorInstall.txt",
+					"settings":
+					{
+						"buffer_size": 474,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "add"
+							},
+							"AwAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAACLAAAAAAAAAIwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": " these"
+							},
+							"BgAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": " in"
+							},
+							"AwAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJQAAAAAAAAAlAAAAAAAAAABAAAAbpMAAAAAAAAAkwAAAAAAAAABAAAAaQ",
+							"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "lines"
+							},
+							"BQAAAJMAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACVAAAAAAAAAAAAAACVAAAAAAAAAJYAAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAlwAAAAAAAACYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": " too"
+							},
+							"BAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJsAAAAAAAAAmwAAAAAAAAABAAAAbw",
+							"AQAAAAAAAAABAAAAnAAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAJ8AAAAAAAAAoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnwAAAAAAAACfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAEEBAAAAAAAAQgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"reindent",
+							null,
+							"AQAAAEIBAAAAAAAARAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQgEAAAAAAABCAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							2,
+							"left_delete",
+							null,
+							"AgAAAEIBAAAAAAAAQgEAAAAAAAACAAAAICBBAQAAAAAAAEEBAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAARAEAAAAAAABEAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAGgBAAAAAAAAaQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaAEAAAAAAABoAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": "\t"
+							},
+							"AQAAAGoBAAAAAAAAbAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagEAAAAAAABqAQAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "chc"
+							},
+							"AwAAAGkBAAAAAAAAagEAAAAAAAAAAAAAagEAAAAAAABrAQAAAAAAAAAAAABrAQAAAAAAAGwBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQEAAAAAAABpAQAAAAAAAAAAAAAAADRA"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGsBAAAAAAAAawEAAAAAAAABAAAAYw",
+							"AQAAAAAAAAABAAAAbAEAAAAAAABsAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "eck"
+							},
+							"AwAAAGsBAAAAAAAAbAEAAAAAAAAAAAAAbAEAAAAAAABtAQAAAAAAAAAAAABtAQAAAAAAAG4BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAawEAAAAAAABrAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAG4BAAAAAAAAbwEAAAAAAAAAAAAAbwEAAAAAAABwAQAAAAAAAAAAAABwAQAAAAAAAHEBAAAAAAAAAAAAAHEBAAAAAAAAcgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbgEAAAAAAABuAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": " stat"
+							},
+							"BQAAAHIBAAAAAAAAcwEAAAAAAAAAAAAAcwEAAAAAAAB0AQAAAAAAAAAAAAB0AQAAAAAAAHUBAAAAAAAAAAAAAHUBAAAAAAAAdgEAAAAAAAAAAAAAdgEAAAAAAAB3AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcgEAAAAAAAByAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							2,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AgAAAHMBAAAAAAAAcwEAAAAAAAAEAAAAc3RhdG8BAAAAAAAAbwEAAAAAAAAEAAAAdGhlIA",
+							"AQAAAAAAAAABAAAAdwEAAAAAAAB3AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": "apparmor"
+							},
+							"CAAAAG8BAAAAAAAAcAEAAAAAAAAAAAAAcAEAAAAAAABxAQAAAAAAAAAAAABxAQAAAAAAAHIBAAAAAAAAAAAAAHIBAAAAAAAAcwEAAAAAAAAAAAAAcwEAAAAAAAB0AQAAAAAAAAAAAAB0AQAAAAAAAHUBAAAAAAAAAAAAAHUBAAAAAAAAdgEAAAAAAAAAAAAAdgEAAAAAAAB3AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbwEAAAAAAABvAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHcBAAAAAAAAeAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdwEAAAAAAAB3AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHcBAAAAAAAAdwEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAeAEAAAAAAAB4AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": "s"
+							},
+							"AQAAAHcBAAAAAAAAeAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdwEAAAAAAAB3AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHgBAAAAAAAAeQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeAEAAAAAAAB4AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHgBAAAAAAAAeAEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAeQEAAAAAAAB5AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": " s"
+							},
+							"AgAAAHgBAAAAAAAAeQEAAAAAAAAAAAAAeQEAAAAAAAB6AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeAEAAAAAAAB4AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							3,
+							"left_delete",
+							null,
+							"AwAAAHkBAAAAAAAAeQEAAAAAAAABAAAAc3gBAAAAAAAAeAEAAAAAAAABAAAAIHcBAAAAAAAAdwEAAAAAAAABAAAAcw",
+							"AQAAAAAAAAABAAAAegEAAAAAAAB6AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": " status"
+							},
+							"BwAAAHcBAAAAAAAAeAEAAAAAAAAAAAAAeAEAAAAAAAB5AQAAAAAAAAAAAAB5AQAAAAAAAHoBAAAAAAAAAAAAAHoBAAAAAAAAewEAAAAAAAAAAAAAewEAAAAAAAB8AQAAAAAAAAAAAAB8AQAAAAAAAH0BAAAAAAAAAAAAAH0BAAAAAAAAfgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdwEAAAAAAAB3AQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1132,6 +1429,69 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/desker/apparmor/walkthrough.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1174,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										1174
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/apparmor/apparmorInstall.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 474,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										472
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1175,7 +1535,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
