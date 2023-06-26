@@ -1,12 +1,12 @@
 {
   "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
   "IS_MAXIMIZED": false,
-  "IS_MINIMIZED": true,
+  "IS_MINIMIZED": false,
   "SKIP_HOST_UPDATE": true,
   "WINDOW_BOUNDS": {
-    "x": 10,
-    "y": 150,
-    "width": 1144,
-    "height": 620
+    "x": 11,
+    "y": 151,
+    "width": 1145,
+    "height": 621
   }
 }
