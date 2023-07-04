@@ -9,10 +9,10 @@
             "backupPath": "/home/desker/.config/Code/Backups/424a3c029058be3524d8cd602717c676",
             "uiState": {
                 "mode": 1,
-                "x": 1165,
-                "y": 33,
-                "width": 1640,
-                "height": 889
+                "x": 0,
+                "y": 166,
+                "width": 1166,
+                "height": 623
             }
         },
         "openedWindows": []
@@ -210,11 +210,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "id": "workbench.userDataSync.actions.manage",
-                                    "label": "Settings Sync is On",
-                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
