@@ -9,10 +9,10 @@
             "backupPath": "/home/desker/.config/Code/Backups/424a3c029058be3524d8cd602717c676",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 166,
-                "width": 1166,
-                "height": 623
+                "x": 1165,
+                "y": 33,
+                "width": 1640,
+                "height": 889
             }
         },
         "openedWindows": []
@@ -55,7 +55,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -721,7 +722,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -730,7 +732,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
