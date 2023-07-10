@@ -107,7 +107,7 @@ alias update-mirrors='sudo pacman-mirrors -id'
 #alias updatemirrors='sudo reflector --verbose --latest 50 --protocol https \
 #  --sort rate --save /etc/pacman.d/mirrorlist && yay'
 alias yay='f(){ yay "$@" --noconfirm --sudoloop;  unset -f f; }; f'
-alias update='yay -Syyu --sudoloop'
+alias update='yay -Syyu --sudoloop --overwrite "*"'
 alias updateOverwrite='yay --overwrite'
 alias update-manual='"yay" -Syyu --sudoloop'
 alias update-noCheck='yay -Syyu --mflags --skipinteg --sudoloop'
