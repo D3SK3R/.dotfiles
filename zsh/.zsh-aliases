@@ -214,7 +214,8 @@ alias webcam-enable='sudo modprobe uvcvideo'
 
 # deskervps.duckdns.org
 alias vps='ssh -i ~/.ssh/id_rsa ubuntu@144.22.163.237'
-alias server='ssh root@216.238.102.227'
+alias server='ssh root@136.244.104.11'
+alias server2='ssh root@216.238.102.227'
 
 # simple alternative:
 #alias crypto='f(){ forx $@ brl;  unset -f f; }; f'
