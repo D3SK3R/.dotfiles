@@ -40,7 +40,7 @@ super + {_, shift} + Delete
     {~/.scripts/panic.sh, killall picom & sleep 0.5 && picom}
 
 # mute mic
-super + apostrophe
+super + @apostrophe
     ~/.scripts/mute-toggle.sh 
 
 # mount umount drives
