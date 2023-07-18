@@ -1,6 +1,11 @@
 {
 	"file_history":
 	[
+		"/home/desker/walkthrough.txt",
+		"/home/desker/apparmor/apparmorInstall.txt",
+		"/home/desker/apparmor/walkthrough.txt",
+		"/home/desker/sec/PhoneSploit-Pro/_config.yml",
+		"/home/desker/MEGA/discord/jassy/info.txt",
 		"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 		"/home/desker/ethxp/desc/tokens.txt",
 		"/home/desker/MEGA/Professional/novo curriculo/site.txt",
@@ -60,7 +65,6 @@
 		"/home/desker/twitter_data.json",
 		"/home/desker/accounts.txt",
 		"/home/desker/apparmor/revshell.php",
-		"/home/desker/apparmor/apparmorInstall.txt",
 		"/home/desker/apparmor/apacheRevDeny.txt",
 		"/home/desker/apparmor/usr.bin.httpd",
 		"/home/desker/qts.txt",
@@ -124,11 +128,7 @@
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
 		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
-		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
-		"/home/desker/.minecraft/usernamecache.json",
-		"/home/desker/.minecraft/window_settings_launcher.conf",
-		"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-		"/home/desker/ffs"
+		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt"
 	],
 	"folder_history":
 	[
@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1688156605,
+	"next_update_check": 1689793408,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			1366.0,
-			39.0
+			2332.0,
+			43.0
 		],
 		"new_window_settings":
 		{
@@ -356,6 +356,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/walkthrough.txt",
+				"/home/desker/apparmor/apparmorInstall.txt",
+				"/home/desker/apparmor/walkthrough.txt",
+				"/home/desker/sec/PhoneSploit-Pro/_config.yml",
+				"/home/desker/MEGA/discord/jassy/info.txt",
 				"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 				"/home/desker/ethxp/desc/tokens.txt",
 				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
@@ -412,7 +417,6 @@
 				"/home/desker/twitter_data.json",
 				"/home/desker/accounts.txt",
 				"/home/desker/apparmor/revshell.php",
-				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/qts.txt",
@@ -479,11 +483,7 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-				"/home/desker/ffs",
-				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
-				"/home/desker/notes",
-				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt"
+				"/home/desker/MEGA/discord/Carol/x/n/pass.txt"
 			],
 			"find":
 			{
@@ -738,306 +738,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/desker/apparmor/walkthrough.txt",
+					"file": "/home/desker/archTexto.txt",
 					"settings":
 					{
-						"buffer_size": 1174,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/sec/PhoneSploit-Pro/_config.yml",
-					"settings":
-					{
-						"buffer_size": 27,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/desker/apparmor/apparmorInstall.txt",
-					"settings":
-					{
-						"buffer_size": 474,
+						"buffer_size": 3336,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							1,
-							"insert",
-							{
-								"characters": "add"
-							},
-							"AwAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAACLAAAAAAAAAIwAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIkAAAAAAAAAiQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							4,
-							1,
-							"insert",
-							{
-								"characters": " these"
-							},
-							"BgAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							5,
-							1,
-							"insert",
-							{
-								"characters": " in"
-							},
-							"AwAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJIAAAAAAAAAkgAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							6,
-							2,
-							"left_delete",
-							null,
-							"AgAAAJQAAAAAAAAAlAAAAAAAAAABAAAAbpMAAAAAAAAAkwAAAAAAAAABAAAAaQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJUAAAAAAAAAlQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": "lines"
-							},
-							"BQAAAJMAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACVAAAAAAAAAAAAAACVAAAAAAAAAJYAAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAlwAAAAAAAACYAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMAAAAAAAAAkwAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": " too"
-							},
-							"BAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							9,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJsAAAAAAAAAmwAAAAAAAAABAAAAbw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": " the"
-							},
-							"BAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJsAAAAAAAAAmwAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							11,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAJ8AAAAAAAAAoAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ8AAAAAAAAAnwAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							14,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAEEBAAAAAAAAQgEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEEBAAAAAAAAQQEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							15,
-							1,
-							"reindent",
-							null,
-							"AQAAAEIBAAAAAAAARAEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEIBAAAAAAAAQgEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							16,
-							2,
-							"left_delete",
-							null,
-							"AgAAAEIBAAAAAAAAQgEAAAAAAAACAAAAICBBAQAAAAAAAEEBAAAAAAAAAQAAAAo",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEQBAAAAAAAARAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							21,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAGgBAAAAAAAAaQEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGgBAAAAAAAAaAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							23,
-							1,
-							"insert",
-							{
-								"characters": "\t"
-							},
-							"AQAAAGoBAAAAAAAAbAEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGoBAAAAAAAAagEAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							25,
-							1,
-							"insert",
-							{
-								"characters": "chc"
-							},
-							"AwAAAGkBAAAAAAAAagEAAAAAAAAAAAAAagEAAAAAAABrAQAAAAAAAAAAAABrAQAAAAAAAGwBAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGkBAAAAAAAAaQEAAAAAAAAAAAAAAAA0QA"
-						],
-						[
-							26,
-							1,
-							"left_delete",
-							null,
-							"AQAAAGsBAAAAAAAAawEAAAAAAAABAAAAYw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGwBAAAAAAAAbAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							27,
-							1,
-							"insert",
-							{
-								"characters": "eck"
-							},
-							"AwAAAGsBAAAAAAAAbAEAAAAAAAAAAAAAbAEAAAAAAABtAQAAAAAAAAAAAABtAQAAAAAAAG4BAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGsBAAAAAAAAawEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							28,
-							1,
-							"insert",
-							{
-								"characters": " the"
-							},
-							"BAAAAG4BAAAAAAAAbwEAAAAAAAAAAAAAbwEAAAAAAABwAQAAAAAAAAAAAABwAQAAAAAAAHEBAAAAAAAAAAAAAHEBAAAAAAAAcgEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4BAAAAAAAAbgEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							29,
-							1,
-							"insert",
-							{
-								"characters": " stat"
-							},
-							"BQAAAHIBAAAAAAAAcwEAAAAAAAAAAAAAcwEAAAAAAAB0AQAAAAAAAAAAAAB0AQAAAAAAAHUBAAAAAAAAAAAAAHUBAAAAAAAAdgEAAAAAAAAAAAAAdgEAAAAAAAB3AQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHIBAAAAAAAAcgEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							30,
-							2,
-							"delete_word",
-							{
-								"forward": false
-							},
-							"AgAAAHMBAAAAAAAAcwEAAAAAAAAEAAAAc3RhdG8BAAAAAAAAbwEAAAAAAAAEAAAAdGhlIA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcBAAAAAAAAdwEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							31,
-							1,
-							"insert",
-							{
-								"characters": "apparmor"
-							},
-							"CAAAAG8BAAAAAAAAcAEAAAAAAAAAAAAAcAEAAAAAAABxAQAAAAAAAAAAAABxAQAAAAAAAHIBAAAAAAAAAAAAAHIBAAAAAAAAcwEAAAAAAAAAAAAAcwEAAAAAAAB0AQAAAAAAAAAAAAB0AQAAAAAAAHUBAAAAAAAAAAAAAHUBAAAAAAAAdgEAAAAAAAAAAAAAdgEAAAAAAAB3AQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG8BAAAAAAAAbwEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							32,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAHcBAAAAAAAAeAEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcBAAAAAAAAdwEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							33,
-							1,
-							"left_delete",
-							null,
-							"AQAAAHcBAAAAAAAAdwEAAAAAAAABAAAAIA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgBAAAAAAAAeAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							34,
-							1,
-							"insert",
-							{
-								"characters": "s"
-							},
-							"AQAAAHcBAAAAAAAAeAEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcBAAAAAAAAdwEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							35,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAHgBAAAAAAAAeQEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgBAAAAAAAAeAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							36,
-							1,
-							"left_delete",
-							null,
-							"AQAAAHgBAAAAAAAAeAEAAAAAAAABAAAAIA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHkBAAAAAAAAeQEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							37,
-							1,
-							"insert",
-							{
-								"characters": " s"
-							},
-							"AgAAAHgBAAAAAAAAeQEAAAAAAAAAAAAAeQEAAAAAAAB6AQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgBAAAAAAAAeAEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							38,
-							3,
-							"left_delete",
-							null,
-							"AwAAAHkBAAAAAAAAeQEAAAAAAAABAAAAc3gBAAAAAAAAeAEAAAAAAAABAAAAIHcBAAAAAAAAdwEAAAAAAAABAAAAcw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHoBAAAAAAAAegEAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							39,
-							1,
-							"insert",
-							{
-								"characters": " status"
-							},
-							"BwAAAHcBAAAAAAAAeAEAAAAAAAAAAAAAeAEAAAAAAAB5AQAAAAAAAAAAAAB5AQAAAAAAAHoBAAAAAAAAAAAAAHoBAAAAAAAAewEAAAAAAAAAAAAAewEAAAAAAAB8AQAAAAAAAAAAAAB8AQAAAAAAAH0BAAAAAAAAAAAAAH0BAAAAAAAAfgEAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcBAAAAAAAAdwEAAAAAAAAAAAAAAADwvw"
-						]
-					]
+					}
 				}
 			],
 			"build_system": "",
@@ -1181,6 +888,11 @@
 			},
 			"file_history":
 			[
+				"/home/desker/walkthrough.txt",
+				"/home/desker/apparmor/apparmorInstall.txt",
+				"/home/desker/apparmor/walkthrough.txt",
+				"/home/desker/sec/PhoneSploit-Pro/_config.yml",
+				"/home/desker/MEGA/discord/jassy/info.txt",
 				"/home/desker/MEGA/Professional/ResumoCurriculo.txt",
 				"/home/desker/ethxp/desc/tokens.txt",
 				"/home/desker/MEGA/Professional/novo curriculo/site.txt",
@@ -1237,7 +949,6 @@
 				"/home/desker/twitter_data.json",
 				"/home/desker/accounts.txt",
 				"/home/desker/apparmor/revshell.php",
-				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/apacheRevDeny.txt",
 				"/home/desker/apparmor/usr.bin.httpd",
 				"/home/desker/qts.txt",
@@ -1304,11 +1015,7 @@
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
 				"/home/desker/.minecraft/usernamecache.json",
 				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/discord/Carol/x/n/pass.txt",
-				"/home/desker/ffs",
-				"/run/media/desker/Windows-SSD/Users/erick/Downloads/elden ring.txt",
-				"/home/desker/notes",
-				"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Videos/Gigi Alves/facebook.txt"
+				"/home/desker/MEGA/discord/Carol/x/n/pass.txt"
 			],
 			"find":
 			{
@@ -1436,43 +1143,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/desker/apparmor/walkthrough.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1174,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										1174
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/desker/sec/PhoneSploit-Pro/_config.yml",
+							"file": "/home/desker/archTexto.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 27,
+								"buffer_size": 3336,
 								"regions":
 								{
 								},
@@ -1485,35 +1161,6 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/YAML/YAML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/desker/apparmor/apparmorInstall.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 474,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										472
-									]
-								],
-								"settings":
-								{
 									"syntax": "Packages/Text/Plain text.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
@@ -1522,7 +1169,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"stack_multiselect": false,
 							"type": "text"
 						}
@@ -1569,7 +1216,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1366,39,3286,1080,3286,1080,2",
+			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
 			"project": "",
 			"replace":
 			{
