@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/desker/id_rsa",
+		"/home/desker/erick",
 		"/home/desker/walkthrough.txt",
 		"/home/desker/apparmor/apparmorInstall.txt",
 		"/home/desker/apparmor/walkthrough.txt",
@@ -126,9 +128,7 @@
 		"/home/desker/xorg.conf",
 		"/home/desker/MEGA/metamaskPhrase.txt",
 		"/home/desker/MEGA/D3SK3R/Other/Paste/Girls/Lauren Alexis/link.txt",
-		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
-		"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
-		"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt"
+		"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh"
 	],
 	"folder_history":
 	[
@@ -137,7 +137,7 @@
 	"last_version": 4143,
 	"last_window_id": 51,
 	"log_indexing": false,
-	"next_update_check": 1689793408,
+	"next_update_check": 1689958891,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -145,8 +145,8 @@
 		"new_window_maximized": true,
 		"new_window_position":
 		[
-			2332.0,
-			43.0
+			689.0,
+			199.0
 		],
 		"new_window_settings":
 		{
@@ -356,6 +356,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/id_rsa",
+				"/home/desker/erick",
 				"/home/desker/walkthrough.txt",
 				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/walkthrough.txt",
@@ -481,9 +483,7 @@
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
-				"/home/desker/.minecraft/usernamecache.json",
-				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/discord/Carol/x/n/pass.txt"
+				"/home/desker/.minecraft/usernamecache.json"
 			],
 			"find":
 			{
@@ -745,6 +745,14 @@
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
+				},
+				{
+					"file": "/home/desker/ethxp/twitter-unlock/unlock.py",
+					"settings":
+					{
+						"buffer_size": 4771,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -888,6 +896,8 @@
 			},
 			"file_history":
 			[
+				"/home/desker/id_rsa",
+				"/home/desker/erick",
 				"/home/desker/walkthrough.txt",
 				"/home/desker/apparmor/apparmorInstall.txt",
 				"/home/desker/apparmor/walkthrough.txt",
@@ -1013,9 +1023,7 @@
 				"/run/media/desker/20160907_110626/adb_config_Linux_OSX.sh",
 				"/home/desker/MEGA/D3SK3R/D3SK3R/Linux/1_FirstSteps/grub/dedsec-legion-1080p/link and how.txt",
 				"/home/desker/MEGA/D3SK3R/Games/Minecraft/lunarclient/DOTlunarclient/where.txt",
-				"/home/desker/.minecraft/usernamecache.json",
-				"/home/desker/.minecraft/window_settings_launcher.conf",
-				"/home/desker/MEGA/discord/Carol/x/n/pass.txt"
+				"/home/desker/.minecraft/usernamecache.json"
 			],
 			"find":
 			{
@@ -1144,7 +1152,6 @@
 						{
 							"buffer": 0,
 							"file": "/home/desker/archTexto.txt",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1167,6 +1174,38 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/desker/ethxp/twitter-unlock/unlock.py",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4771,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 630.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1216,7 +1255,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,2330,41,3274,1068,3286,1080,3",
+			"position": "0,1,0,0,0,687,197,1354,912,3286,1080,0",
 			"project": "",
 			"replace":
 			{
